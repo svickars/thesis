@@ -1,6 +1,6 @@
 ### Thesis Reading List
 
-1. Niezen, Ronald. *[Truth and indignation: Canada's Truth and Reconciliation Commission on Indian residential schools](https://books.google.com/books/about/Truth_and_Indignation.html?id=wUHPAQAAQBAJ)*. North York, Ontario, Canada: University of Toronto Press, 2013.
-2. The Truth and Reconciliation Commission of Canada. *[Final report of the Truth and Reconciliation Commission of Canada. honouring the truth, reconciling for the future](https://books.google.com/books?id=-rA9CgAAQBAJ&dq=Canada%27s+residential+schools:+the+final+report+of+the+Truth+and+Reconciliation+Commission+of+Canada.&source=gbs_navlinks_s)*. Toronto: James Lorimer & Company Ltd., Publishers, 2015.
-3. Miller, J. R. *[Shingwauk's Vision: A History of Native Residential Schools](https://books.google.com/books?id=pULxSOj3kqQC&dq=Shingwauk%27s+vision+:+a+history+of+native+residential+schools&source=gbs_navlinks_s)*. North York, Ontario: University of Toronto Press, 1996.
-4. Regan, Paulette. *[Unsettling the settler within: Indian residential schools, truth telling, and reconciliation in Canada](https://books.google.com/books?id=ke2VXjKsFe0C&dq=Unsettling+the+settler+within+:+Indian+residential+schools,+truth+telling,+and+reconciliation+in+Canada&source=gbs_navlinks_s)*. Vancouver, BC: University of British Columbia Press, 2010.
+- Niezen, Ronald. *Truth and indignation: Canada's Truth and Reconciliation Commission on Indian residential schools*. North York, Ontario, Canada: University of Toronto Press, 2013.
+- The Truth and Reconciliation Commission of Canada. *Final report of the Truth and Reconciliation Commission of Canada. honouring the truth, reconciling for the future*. Toronto: James Lorimer & Company Ltd., Publishers, 2015.
+- Miller, J. R. *Shingwauk's Vision: A History of Native Residential Schools*. North York, Ontario: University of Toronto Press, 1996.
+- Regan, Paulette. *Unsettling the settler within: Indian residential schools, truth telling, and reconciliation in Canada*. Vancouver, BC: University of British Columbia Press, 2010.
