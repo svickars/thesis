@@ -1,0 +1,132 @@
+First Nations Reservations in Canada (Current Situation)
+  Suicide Epidemic on Reserves
+    State of Emergency in Canadian Reserves
+    Limited Data
+      Stats Canada Suicide Rates (link)
+      Not specific to First Nations Peoples
+  Borders, Locations
+    Change over time
+      DATA
+       Canadian Government Data, freely available
+       First Nations Profiles Interactive Map (link)
+      Format: Geographic/Mapping
+    Actual Reserve area vs land promised in treaties
+      DATA
+        Treaty Land Clams, gov of Canada (link)
+        Phil Monture - A Global Solution for the Six Nations of the Grand River
+      Format: Geographic/Mapping
+    Migration of tribes and traditions (see Res. Schools)
+  Aboriginal Women
+    Role of Women in tribes
+      Current
+      Historical
+    Role of Women outside of tribes
+      Role of First Nations as a whole in Canadian Society
+        Integration, Absorption, Assimilation
+    Specifically, murder of Aboriginal Women on Canadian Highways
+      DATA
+        Missing and Murdered, CBC (link)
+        WP Missing Indigenous Women: Unsolved
+  How is the government helping?
+    $4.6b from Trudeau
+  Crumbling infrastructure
+    Drinking water crisis
+    Lack of housing
+    Lack of access to food
+
+Cause of Low Quality of Life on Reserves
+
+Indian Residential School System
+  National Truth and Reconciliation Commission
+    National Centre for Truth and Reconciliation, Winnipeg
+      CONTACT (link)
+      Open to Student Research
+    Final Report
+      Summary volume available at Bobst
+      73 recommendations
+      How do these affect life of First Nations today?
+  DATA from NTRC
+    Available online as "Narratives" (link)
+    School-by-school reports (link)
+      Very in-depth data
+        Death tolls
+        Abuse reports
+        Officials
+          Movement of officials after abuse reports
+          Where did they go next?
+        Enrollment
+          Where did the students come from
+          Where did they go after?
+            Were they accepted back into their tribes?
+            Did they know where their tribes were?
+          The students that spoke out
+            What happened to them?
+        Fires and Facility issues
+        Locations
+          Was any geographic area worse than others?
+        Church denomination
+          United
+            Evangelical
+            Reformed
+            Congregational
+          Anglican
+          Catholic
+          Presbyterian
+        Names
+      Links to all historical douments
+  Administration structure
+    Government involvment
+    RCMP involvement
+    Church involvement
+  137 schools (First Nations only), all over Canada
+    1830s -- 1996
+      Many people don't realize the schools still existed this recently
+    ~150,000 children
+      Mandatory attendance for children 7-16
+      ~80,000 still alive
+    Reported 50% mortality rate at some schools
+  Personal Experiences
+    Interviews
+      Are these in the public domain?
+        Ethical to make use of these in visualization?
+    Recordings
+    Gatherings across Canada
+    Where are the children? exhibit (link)
+  Church Data??
+    Official Pope apology
+     How did this affect the commission?
+  New Liberal Government's Apology
+  Responsibility??
+    The cover-up
+    Why don't people know about it?
+  American Data
+    Is there data available?
+    How does it compare to what happened in Canada?
+    What is the equivalent to the NTRC in the US?
+
+VISUALIZATION
+  Mapping/Geographic Components
+    Incorporate current viewer location
+     Show story closest to user, ground the data
+     Many people don't realize how close the schools were located to big cities and civilization
+  Scroll-based interactivity
+  Personal Stories
+    Use narrative tot tell story of the data
+  Accessible and intuitive to First Nations people
+  No bias
+   Not as a way to make the Gov't look terrible, let the data speak for itself
+
+Readings
+  The Final Report of the NTRC
+  Unsettling the Settler Within
+    The process of the NTRC
+  Truth and Indignation
+    A critical look at the NTRC
+  Shingwuak's Vision
+  Personal Experiences
+
+Metis vs First Nations vs Inuit
+  What is considered Aboriginal
+    In the Residential school system?
+    As part of the reserve system?
+  Are all three included in statistics and data?
