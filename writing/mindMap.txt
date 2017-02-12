@@ -1,134 +1,187 @@
-https://mm.tt/839688240?t=22Vx1kl5h0
+An analysis of student (and survivor) life and welfare in Canada's Indian Residential School System
+I’m visualizing historical data about the Canadian Indian Residential School System because I want to explore the education, welfare, culture, and health of its students in order to better understand the vastness and extensive effects of the system and its impact on today’s First Nations, Métis, and Inuit.
 
-First Nations Reservations in Canada (Current Situation)
-  Suicide Epidemic on Reserves
-    State of Emergency in Canadian Reserves
-    Limited Data
-      Stats Canada Suicide Rates (link)
-      Not specific to First Nations Peoples
-  Borders, Locations
-    Change over time
-      DATA
-       Canadian Government Data, freely available
-       First Nations Profiles Interactive Map (link)
-      Format: Geographic/Mapping
-    Actual Reserve area vs land promised in treaties
-      DATA
-        Treaty Land Clams, gov of Canada (link)
-        Phil Monture - A Global Solution for the Six Nations of the Grand River
-      Format: Geographic/Mapping
-    Migration of tribes and traditions (see Res. Schools)
-  Aboriginal Women
-    Role of Women in tribes
-      Current
-      Historical
-    Role of Women outside of tribes
-      Role of First Nations as a whole in Canadian Society
-        Integration, Absorption, Assimilation
-    Specifically, murder of Aboriginal Women on Canadian Highways
-      DATA
-        Missing and Murdered, CBC (link)
-        WP Missing Indigenous Women: Unsolved
-  How is the government helping?
-    $4.6b from Trudeau
-  Crumbling infrastructure
-    Drinking water crisis
-    Lack of housing
-    Lack of access to food
+WHY?
+  TODAY
+    Impact on today First Nations, Metis, and Inuit
+      Post traumatic stress
+      Alcoholism
+      Substance abuse
+      Suicide
+        Suicide epidemic
+          Data??
+      Missing and murdered indigenous women
+    First Nation, Metis, and Inuit Reservations
+      Locations and Borders
+        How have these changed over time?
+      Actual land vs land promised in treaties
 
-Cause of Low Quality of Life on Reserves
+RESPONSIBILITY
+  Apologies
+    Government
+      2008: Stephen Harper, on behalf of Government of Canada
+      2015: Alberta
+      2015?? Saskatchewan
+      2015: Manitoba
+      2016: Ontario
+      2004: RCMP
+    Mapping apologies
+    Church
+      1986-1994
+        United Church
+        Catholic Missionary Oblates of Mary Immaculate
+        Anglican Church
+        Presbyterian Church
+      2009
+        Vatican expression of sorrow
+    Truth and Reconciliation Commision
+      Goal: to uncover truth about schools
+      Report published
+      Historical documents digitized
+      National/local events
+        Collect stories
+        Make honourary witnesses
+    Reconciliation attempts
+      Church apologies in the 1980s
+      Financial compensation
+        1990 Oka crisis
 
-Indian Residential School System
-  National Truth and Reconciliation Commission
-    National Centre for Truth and Reconciliation, Winnipeg
-      CONTACT (link)
-      Open to Student Research
-    Final Report
-      Summary volume available at Bobst
-      73 recommendations
-      How do these affect life of First Nations today?
-  DATA from NTRC
-    Available online as "Narratives" (link)
-    School-by-school reports (link)
-      Very in-depth data
-        Death tolls
-        Abuse reports
-        Officials
-          Movement of officials after abuse reports
-          Where did they go next?
-        Enrollment
-          Where did the students come from
-          Where did they go after?
-            Were they accepted back into their tribes?
-            Did they know where their tribes were?
-          The students that spoke out
-            What happened to them?
-        Fires and Facility issues
-        Locations
-          Was any geographic area worse than others?
-        Church denomination
-          United
-            Evangelical
-            Reformed
-            Congregational
-          Anglican
-          Catholic
-          Presbyterian
-        Names
-      Links to all historical douments
-  Administration structure
-    Government involvment
-    RCMP involvement
-    Church involvement
-  137 schools (First Nations only), all over Canada
+LAWS AND ACTS
+  Indian Act, 1876 (link)
+  Amendment to the Indian Act, 1894
+  Official encouragement of growth by Department of Indian Affairs
+
+BACKGROUND
+A network of residential/boarding schools for Indigenous peoples in Canada (First Nations (Indians), Metis, and Inuit)
+
+  Purpose
+    Remove children from influence of Aboriginal culture
+    Assimilate children in dominant Canadian culture
+      Stated goal: convert indigenous children to Christianity and to "civilize" them
+    Why did this happen?
+      Imperial colonialism
+        Doctrine of Discovery (link)
+          Justification of colonial powers laying claims to lands during "Age of Discovery"
+        "Underlying these arguments was the belief that the colonizers were bringing civilization to savage people who could never civilize themselves. The ‘civilizing mission’ rested on a belief of racial and cultural superiority.
+      "Kill the Indian, save the man"
+        Integrate Indigenous people with European-Canadian society
+  Scope
+    Approx. 30% of native children (150,000)
+    Ext. 6000 died while in attendance
+  Timeline
     1830s -- 1996
-      Many people don't realize the schools still existed this recently
-    ~150,000 children
-      Mandatory attendance for children 7-16
-      ~80,000 still alive
-    Reported 50% mortality rate at some schools
-  Personal Experiences
-    Interviews
-      Are these in the public domain?
-        Ethical to make use of these in visualization?
-    Recordings
-    Gatherings across Canada
-    Where are the children? exhibit (link)
-  Church Data??
-    Official Pope apology
-     How did this affect the commission?
-  New Liberal Government's Apology
-  Responsibility??
-    The cover-up
-    Why don't people know about it?
-  American Data
-    Is there data available?
-    How does it compare to what happened in Canada?
-    What is the equivalent to the NTRC in the US?
+      Many unaware of existence so recently
+      Primarily active after Indian Act of 1876
+      Last federally-operated school closed in 1996
+    Compulsory from 1894 -- 1948
+  Locations
+    Nationwide
+  Types
+    Day Schools
+    Hostels
+    Industrial Schools
+    Residential Schools
+      Remote, large distance from reserves
+        Indian Commissioner Hayter Reed argued for schools at greater distances to cut down on family visits that he viewed as counteracting the "civilizing" of Indigenous children
+      Intentional
+  Harm/Conditions
+    Removal from parents/families
+      Upon graduation, often unable to fit into their communities
+    Deprivation of ancestral languages
+      Forced to speak English or French
+        Unable to communicate with families after graduation
+      Forced abandonment of cultural heritage
+    Separation from siblings
+    Physical abuse
+      By teachers, administrators, older students
+    Sexual abuse
+      By teachers, administrators, older students
+    Forced enfranchising
+    Malnourishment
+  Responsibility
+    Funds
+      Canadian Government
+        Facilities and maintenance
+      Department of Indian Affairs
+    Administration
+      Christian Churches
+        Teachers and lesson-plans, day-to-day
+        Roman Catholics (60%)
+        Anglican Church of Canada (30%)
+        United Church of Canada (10%)
+          Presbyterian
+          Congregationalist
+          Methodist
+    RCMP
 
-VISUALIZATION
-  Mapping/Geographic Components
-    Incorporate current viewer location
-     Show story closest to user, ground the data
-     Many people don't realize how close the schools were located to big cities and civilization
-  Scroll-based interactivity
-  Personal Stories
-    Use narrative tot tell story of the data
-  Accessible and intuitive to First Nations people
-  No bias
-   Not as a way to make the Gov't look terrible, let the data speak for itself
+DATA
+  National Centre for Truth and Reconciliation
+    Personal accounts
+      Personal experiences
+      Stories
+      Memorials
+      Accessible? Usable?
+    Narratives (school-by-school reports)
+      In-depth data
+        Chronological history
+        Death tolls/reports
+        Abuse reports
+        Officials/Administrators
+          Movement of officials after allegations
+          Repeats?
+        Management
+        Land deeds/titles
+        Enrollment
+          Students that spoke out
+            Where did they come from?
+            What happened to them?
+          Where did they go after graduating?
+        Reserves
+          Where did students come from?
+          Did students make it home after the experience?
+        Fires and Facility Issues
+        Locations, name variants
+        Church denomination
+        Student names
+        Photos, plans, drawings
+        Written agreements
+        Additional
+          Policies
+    Links to all available historical docs
+    Available online
+  National Truth and Reconciliation Commission
+    Final Report
+      Summary volume
+      73/94? recommendations
+        How do these impact First Nations today?
+    National Centre for Truth and Reconciliation, Winnipeg
+      Contact (link)
+      Open to student research
 
-Readings
-  The Final Report of the NTRC
-  Unsettling the Settler Within
-    The process of the NTRC
-  Truth and Indignation
-    A critical look at the NTRC
-  Shingwuak's Vision
-  Personal Experiences
+AUDIENCE
+  Educators
+    Use it as a tool to teach younger generations
+    Tool to teach new and old Canadians
+  First Nations
 
-Metis vs First Nations vs Inuit
-  What is considered Aboriginal
-    In the Residential school system?
-    As part of the reserve system?
-  Are all three included in statistics and data?
+FORMAT
+  Visualization
+    Mapping/Geographic componenets
+      Incorporate curent viewer location
+      Show story closest to user, ground the data
+      Many people don't realize how close they lived to a school
+    Scroll-based interactivity, intuitive
+    Personal stories
+      Use narrative to tell the story of the data
+    Accessible and intuitive to First Nations people
+    No bias
+      Not as a way to make government look bad, let data speak for itself
+      
+READING LIST
+  Truth and indignation : Canada's Truth and Reconciliation Commission on Indian Residential Schools
+    NTRC report criticisms
+  Canada's residential schools : the final report of the Truth and Reconciliation Commission of Canada.
+    NTRC report
+  Shingwauk's vision : a history of native residential schools
+    Includes personal accounts
+  Unsettling the settler within : Indian residential schools, truth telling, and reconciliation in Canada
