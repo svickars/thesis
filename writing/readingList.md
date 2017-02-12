@@ -7,5 +7,6 @@
 - The Truth and Reconciliation Commission of Canada. *Final report of the Truth and Reconciliation Commission of Canada. honouring the truth, reconciling for the future*. Toronto: James Lorimer & Company Ltd., Publishers, 2015.
 
 #### Mind Map
-[Image]()
+[Image](https://github.com/svickars/thesis/blob/master/writing/mindMap.png)
+
 [Link to Mindmeister](https://mm.tt/842499379?t=MQToixeKBh)
