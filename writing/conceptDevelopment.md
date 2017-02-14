@@ -9,7 +9,7 @@
 *  Professionals who expect me to follow every academic convention and use a standard format
     *  Educators looking to teacg about this topic or use my visualization as a learning tool
     *  Professionals at National Library, National Cenre for Truth and Reconciliation
-
+    
 
 ***Audience Expectations***
 * Provide new factual knowledge
@@ -25,6 +25,7 @@
 * Educators will have a more in-depth knowledge
 * Most readers will recognize the school system as a problem and horrific time in Canada's history and that it is a problem for all Canadians and one that mus be taken seriously
  
+
 ***Audience Response***
 * For most, the visualization will/should confirm/qualify/quanitify what they already know
 * For some, the data may contradict what they believed to be true (ie. the government's justification or reasoning, or the general explanation taught to older generations)
@@ -36,7 +37,7 @@
     *  This data has not been visualized before, or even made easily available to general public or to First Nations peoples
 
 
-##### 3. Evidence and Data
+#### 3. Evidence and Data
 ***Sources***
 * What kind of evidence is expected?
     *  Qualitative data
