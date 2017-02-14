@@ -1,0 +1,72 @@
+### Concept Development
+
+##### 2. Understanding Audiences
+***Audience***
+* General readers who know little about the topic
+    *  Most readers will know it exists, but are not well-informed and have not been educated about it
+    *  General population: readers who are interested in learning more
+    *  First Nations peoples who would like to quanitify/qualify their experiences or those of their ancestors
+*  Professionals who expect me to follow every academic convention and use a standard format
+    *  Educators looking to teacg about this topic or use my visualization as a learning tool
+    *  Professionals at National Library, National Cenre for Truth and Reconciliation
+
+
+***Audience Expectations***
+* Provide new factual knowledge
+* Help them udnerstand my topic better
+    *  Provide a tool for educating readers/students/people in general about the topic
+    *  Provide evidence for a topic they know little about
+
+
+***Audience Knowledge***
+* Most viewers will know that the NTRC existed and that the government made an apology, as well as a very basic understanding that the Indian Residential School System existed, but more will not fully understand what it was
+    *  Most will not understand the vastness, importance, or impact
+* First Nations, Metis, and Inuit readers will have a more in-depth knowledge
+* Educators will have a more in-depth knowledge
+* Most readers will recognize the school system as a problem and horrific time in Canada's history and that it is a problem for all Canadians and one that mus be taken seriously
+ 
+***Audience Response***
+* For most, the visualization will/should confirm/qualify/quanitify what they already know
+* For some, the data may contradict what they believed to be true (ie. the government's justification or reasoning, or the general explanation taught to older generations)
+* What are some arguments against it?
+    *  Is it ethical to use this data?
+    *  ..
+        *  The justifications or explanations employed by the government and the church
+*  What's new about it?
+    *  This data has not been visualized before, or even made easily available to general public or to First Nations peoples
+
+
+##### 3. Evidence and Data
+***Sources***
+* What kind of evidence is expected?
+    *  Qualitative data
+        *  Personal stories and accounts
+        *  School-by-school narratives
+            *  Policy information
+            *  Building information
+            *  Abuse reports
+        *  Reservation data
+            *  Treaty information
+    *  Quantitative data
+        *  Hard data from each school
+            *  Enrolment information
+            *  Location information
+            *  Administration, funding information
+            *  Student base information
+        *  Church and government data
+        *  Reservation data
+            *  Size and border information
+            *  Population data
+            *  Treaty information
+* Where does this data come from?
+    *  NCTR (National Centre for Truth and Reconciliation)
+        *  School-by-school narratives (primary - qualitative and quantitative)
+        *  Personal archives, personal accounts and stories (primary - qualitative)
+    *  Stats Canada
+        *  Reservation data, population data (primary - quantitative)
+    *  NTRC (National Truth and Reconciliation Commission)
+        *  Reports, summaries, histories, recommendations (secondary - qualitative and quantitative)
+    *  Books containing personal stories and accounts (secondary - qualitative)
+*  Primary vs Secondary Sources
+    *  Primary sources are based on historical records, documented at the time and place fo the event, or personal stories directly provided by the subject
+    *  Secondary sources are reports, summaries, and histories written based on other primary sources or collections of personal stories collected and summarized by somebody other than the subject
