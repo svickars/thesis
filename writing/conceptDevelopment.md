@@ -119,11 +119,19 @@
 ***Format***
 *  Mapping/Geographic
     *  User viewer's current location to show data/stories nearby and ground/humanize the data
-*  Intuitive, scroll-based interactivity
+*  Intuitive, **scroll-based** interactivity
     *  Mobile friendly, easy to use, no extra clicks or hover required
 *  Personal
     *  Use personal accounts and stories to humanize data
     *  Use narrative to tell story of the data
+*  Devices
+    *  Available in print, on mobile (small-screen), tablet and large screen (touch-based, i.e.: gallery, exhibition, showcase), as well as traditional computer screens
+
+***Viewer Inputs***
+*  Location selection (tailor experience to nearby school/reserve to humanize)
+*  Scroll-based
+    *  Majority of interaction happens by scrolling or swiping down
+*  Minimal clicks/hovers
 
 ***Initial Prototypes (first draft)***
 *  [Storyboard Sketch v1]()
