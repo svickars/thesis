@@ -114,7 +114,7 @@
 4. **I'm visualizing** historical data about the Canadian Indian Residential School System **because I want to** explore not only who was responsible for implementing and running the system, but also how those parties are taking responsibility for it **in order to** better understand the roles played by the Canadian government, the church, the RCMP, and others, as well as the system's impact on today's First Nations, Metis, and Inuit.
 
 
-### Prototyping
+### 5. Prototyping
 
 ***Format***
 *  Mapping/Geographic
