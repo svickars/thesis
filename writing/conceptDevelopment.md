@@ -134,5 +134,5 @@
 *  Minimal clicks/hovers
 
 ***Initial Prototypes (first draft)***
-*  [Storyboard Sketch v1]()
-*  [Storyboard Sketch v2]()
+*  [Storyboard Sketch v1](https://github.com/svickars/thesis/blob/master/writing/sketch1-storyboard.jpg)
+*  [Storyboard Sketch v2](https://github.com/svickars/thesis/blob/master/writing/sketch2-outline.jpg)
