@@ -1,4 +1,4 @@
-### Thesis Reading List
+## Thesis Reading List
 
 - Fontaine, Phil, Aimée Craft, and The Truth and Reconciliation Commission of Canada. *A Knock on the Door: the Essential History of Residential Schools from the Truth and Reconciliation Commission of Canada*. Winnipeg: University of Manitoba Press, 2016.
 - Miller, J. R. *Shingwauk's Vision: A History of Native Residential Schools*. North York, Ontario: University of Toronto Press, 1996.

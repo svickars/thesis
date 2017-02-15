@@ -1,6 +1,36 @@
-### Concept Development
+## Concept Development
 
-##### 2. Understanding Audiences
+### 1. Ideation
+***Mind Map***
+* [Mind Map - Mindmeister](https://mm.tt/842499379?t=MQToixeKBh)
+* [Mind Map - Image](https://github.com/svickars/thesis/blob/master/writing/mindMap.png)
+
+
+***Topics***
+* **Canadian Indian Residential School System**
+    *  First Nations reservations through history
+    *  Life at residential schools
+    *  Student enrolment in residential schools
+        *  Where did they come form and where did they go?
+        *  How long were they there for?
+        *  How far did they travel?
+        *  Was there a gender disparity?
+        *  Was there a regional disparity?
+        *  What was/is their life expectancy compared to outside the system?
+    *  Responsibility for residential schools
+        *  Day to day responsibilities
+        *  Overall responsibilities
+        *  Government and RCMP involvement
+        *  Church involvement
+        *  Funding
+        *  Justification
+        *  Administration / Abuse / Repeat offender movement
+    *  Impact of the system on today's First Nations, Metis, and Inuit
+        *  Today's reservations
+        *  Substance abuse, suicide epidemic, missing and murdered Indigenous women
+
+
+### 2. Understanding Audiences
 ***Audience***
 * General readers who know little about the topic
     *  Most readers will know it exists, but are not well-informed and have not been educated about it
@@ -37,7 +67,7 @@
     *  This data has not been visualized before, or even made easily available to general public or to First Nations peoples
 
 
-#### 3. Evidence and Data
+### 3. Evidence and Data
 ***Sources***
 * What kind of evidence is expected?
     *  Qualitative data

@@ -1,4 +1,4 @@
-### Outline Draft (in progress)
+## Outline Draft (in progress)
 
 * **1 Introduction**
     * *1.1 Context (Why?)*
@@ -15,19 +15,23 @@
     * *1.3 Laws and Acts*
         *  1.31 What and who allowed this to happen?
         *  1.32 What has changed?
-    *  *1.4 Goals*
+    * *1.4 Goals*
         *  1.41 Why is this important?
         *  Visualizing the Data
         *  Use Cases/Who is this for?
 * **2 Treatment**
-    *  *2.1 The Data*
+    * *2.1 The Data*
         *  2.11 How and by who was it collected?
         *  2.12 Importance of Archiving
         *  2.13 What is *not* included?
         *  2.13 My Use
-    *  *2.2 Exploration of Data*
+    * *2.2 Exploration of Data*
         *  2.21 What is included?
         *  2.22 What does it tell us?
         *  2.23 Personal Stories
-        *  2.24 How does this affect today's First Nations?
+        
+    * *2.3 Perceptions in Society*
+        *  2.31 Inclusion/Exclusion in Education
+        *  2.32 Impact of NTRC
+        *  2.33 How do findings affect today's First Nations?
 * **3 Conclusion**
