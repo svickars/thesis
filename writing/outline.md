@@ -1,7 +1,8 @@
 ## Outline Draft (in progress)
 ###### There is a lot here, I keep forgetting we only have a couple months, will see where this takes me
 
-* **1 Introduction**
+
+1. **Introduction**
     * *1.1 Context (Why?)*
         * 1.11 First Nations Reservations in Canada, Today and Historically
         * 1.12 Life of First Nations, Metis, and Inuit Today
@@ -20,7 +21,7 @@
         *  1.41 Why is this important?
         *  Visualizing the Data
         *  Use Cases/Who is this for?
-* **2 Treatment**
+2. **Treatment**
     * *2.1 The Data*
         *  2.11 How and by who was it collected?
         *  2.12 Importance of Archiving
@@ -48,4 +49,4 @@
         *  2.26 Reconciliation
             *  Apologies (qualitative/quantitative/geographic)
             *  Recommendations and Progress (qualitative/quantitative)
-* **3 Conclusion**
+3. **Conclusion**
