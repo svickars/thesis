@@ -101,3 +101,6 @@
 *  Primary vs Secondary Sources
     *  Primary sources are based on historical records, documented at the time and place fo the event, or personal stories directly provided by the subject
     *  Secondary sources are reports, summaries, and histories written based on other primary sources or collections of personal stories collected and summarized by somebody other than the subject
+
+
+### Synthesising Topics
