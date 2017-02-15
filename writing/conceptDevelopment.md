@@ -105,7 +105,7 @@
 
 ### 4. Synthesising Topics
 
-1. **I'm visualizing** historical data about the Canadian Indian Residential School System **because I want to** explore student enrolment in the system -- where they came from, which reserves, tribes, and bands they left behind, and how and when they returned -- **in order to** better understand the movement of indigenous populations across Canada.
+1. **I'm visualizing** historical data about the Canadian Indian Residential School System **because I want to** explore student enrolment in the system -- where they came from, which reserves, tribes, and bands they left behind, and how and when they returned -- **in order to** better understand the movement of indigenous populations across Canada, as well as the demographics of student population in the school system.
 
 2. **I'm visualizing** current and historical data about First Nations, Metis, and Inuit reservations in Canada **because I want to** explore how they have changed and moved over time **in order to** understand how *actual* First Nations land compares to that promised by government treaties.
 
