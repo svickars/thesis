@@ -103,4 +103,28 @@
     *  Secondary sources are reports, summaries, and histories written based on other primary sources or collections of personal stories collected and summarized by somebody other than the subject
 
 
-### Synthesising Topics
+### 4. Synthesising Topics
+
+1. **I'm visualizing** historical data about the Canadian Indian Residential School System **because I want to** explore student enrolment in the system -- where they came from, which reserves, tribes, and bands they left behind, and how and when they returned -- **in order to** better understand the movement of indigenous populations across Canada.
+
+2. **I'm visualizing** current and historical data about First Nations, Metis, and Inuit reservations in Canada **because I want to** explore how they have changed and moved over time **in order to** understand how *actual* First Nations land compares to that promised by government treaties.
+
+3. **I'm visualizing** historical data and personal accounts about the Canadian Indian Residential School System **because I want to** explore the day-to-day lives and welfare of its students **in order to** communicate what happened in these places.
+
+4. **I'm visualizing** historical data about the Canadian Indian Residential School System **because I want to** explore not only who was responsible for implementing and running the system, but also how those parties are taking responsibility for it **in order to** better understand the roles played by the Canadian government, the church, the RCMP, and others, as well as the system's impact on today's First Nations, Metis, and Inuit.
+
+
+### Prototyping
+
+***Format***
+*  Mapping/Geographic
+    *  User viewer's current location to show data/stories nearby and ground/humanize the data
+*  Intuitive, scroll-based interactivity
+    *  Mobile friendly, easy to use, no extra clicks or hover required
+*  Personal
+    *  Use personal accounts and stories to humanize data
+    *  Use narrative to tell story of the data
+
+***Initial Prototypes (first draft)***
+*  [Storyboard Sketch v1]()
+*  [Storyboard Sketch v2]()
