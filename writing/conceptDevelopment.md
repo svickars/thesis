@@ -77,21 +77,21 @@
 ***Sources***
 * What kind of evidence is expected?
     *  Qualitative data
-        *  Personal stories and accounts
-        *  School-by-school narratives
+        *  [Personal stories and accounts](http://nctr.ca/archives-pages.php#access)
+        *  [School-by-school narratives](http://nctr.ca/map.php)
             *  Policy information
             *  Building information
             *  Abuse reports
-        *  Reservation data
-            *  Treaty information
+        *  [Reservation data](http://www5.statcan.gc.ca/subject-sujet/theme-theme.action?pid=10000&lang=eng&more=0)
+            *  [Treaty information](http://www.arcgis.com/home/item.html?id=ccbf7c2faa3b46d092e5feb5e4925e72)
     *  Quantitative data
-        *  Hard data from each school
+        *  [Hard data from each school](http://nctr.ca/map.php)
             *  Enrolment information
             *  Location information
             *  Administration, funding information
             *  Student base information
         *  Church and government data
-        *  Reservation data
+        *  [Reservation data](http://www5.statcan.gc.ca/subject-sujet/theme-theme.action?pid=10000&lang=eng&more=0)
             *  Size and border information
             *  Population data
             *  Treaty information
