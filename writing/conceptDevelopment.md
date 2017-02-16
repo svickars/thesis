@@ -1,6 +1,12 @@
 ## Concept Development
+1. [Ideation](#one)
+2. [Understanding Audiences](#two)
+3. [Evidence and Data](#three)
+4. [Synthesising Topics](#four)
+5. [Prototyping](#five)
 
-### 1. Ideation
+
+### <a id="one"></a>1. Ideation
 ***Mind Map***
 * [Mind Map - Mindmeister](https://mm.tt/842499379?t=MQToixeKBh)
 * [Mind Map - Image](https://github.com/svickars/thesis/blob/master/writing/mindMap.png)
@@ -30,7 +36,7 @@
         *  Substance abuse, suicide epidemic, missing and murdered Indigenous women
 
 
-### 2. Understanding Audiences
+### <a id="two"></a>2. Understanding Audiences
 ***Audience***
 * General readers who know little about the topic
     *  Most readers will know it exists, but are not well-informed and have not been educated about it
@@ -67,7 +73,7 @@
     *  This data has not been visualized before, or even made easily available to general public or to First Nations peoples
 
 
-### 3. Evidence and Data
+### <a id="three"></a>3. Evidence and Data
 ***Sources***
 * What kind of evidence is expected?
     *  Qualitative data
@@ -103,7 +109,7 @@
     *  Secondary sources are reports, summaries, and histories written based on other primary sources or collections of personal stories collected and summarized by somebody other than the subject
 
 
-### 4. Synthesising Topics
+### <a id="four"></a>4. Synthesising Topics
 
 1. **I'm visualizing** historical data about the Canadian Indian Residential School System **because I want to** explore student enrolment in the system -- where they came from, which reserves, tribes, and bands they left behind, and how and when they returned -- **in order to** better understand the movement of indigenous populations across Canada, as well as the demographics of student population in the school system.
 
@@ -116,7 +122,7 @@
 [Initial Outline](https://github.com/svickars/thesis/blob/master/writing/outline.md)
 
 
-### 5. Prototyping
+### <a id="five"></a>5. Prototyping
 
 ***Format***
 *  Mapping/Geographic
