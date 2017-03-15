@@ -9,7 +9,7 @@
 ### <a id="one"></a>1. Ideation
 ***Mind Map***
 * [Mind Map - Mindmeister](https://mm.tt/842499379?t=MQToixeKBh)
-* [Mind Map - Image](https://github.com/svickars/thesis/blob/master/writing/mindMap.png)
+* [Mind Map - Image](https://github.com/svickars/thesis/blob/master/writing/01_mindMap.png)
 
 
 ***Topics***
