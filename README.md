@@ -1,8 +1,5 @@
-# Thesis
-Work for MSDV Major Studio 2
-
-## Canada's Indian Residential School System
-#### Thesis Synopsis/Abstract - Draft (13 March 2017)
+# Canada's Indian Residential School System
+#### Thesis Synopsis/Abstract - Draft (15 March 2017)
 
 [need a header sentence to introduce the IRS system real quick]
 While many schools originated long before Confederation in 1867, the Indian Residential School System was primarily active following the approval of the Indian Act — a group of laws aiming to do away with the Indian tribal system and forcibly enfranchise First Nations peoples -- in 1876 until the the last federally-operated school closed in 1996.
@@ -24,7 +21,8 @@ This project aims to investigate the IRS system, beginning with the narrative of
 
 
 #### Exercise One
-* [Concept Development](https://github.com/svickars/thesis/blob/master/writing/conceptDevelopment.md)
+* [Concept Development](https://github.com/svickars/thesis/blob/master/writing/02_conceptDevelopment.md)
 
 #### Exercise Two
+* [Introduction - Draft](https://github.com/svickars/thesis/tree/master/writing/06_introduction.md)
 * [Sketches](https://github.com/svickars/thesis/tree/master/visualization/sketch)
