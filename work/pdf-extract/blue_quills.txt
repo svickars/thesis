@@ -1,0 +1,1 @@
+[{"name":"BLUE QUILLS IRS"},{"type":"Residential"},{"location":{"province":"","city":"","latLng":{"lat":0,"lng":0}}},{"narrativeData":""}]

@@ -1,0 +1,888 @@
+{
+    "name": "Blue Quills IRS",
+    "type": "Residential",
+    "location": {
+        "province": "Alberta",
+        "city": "Lac la Biche",
+        "latLng": {
+            "lat": 0.000,
+            "lng": 0.000
+        }
+    },
+    "narrativeDate": "22-03-04",
+    "startYear": 1891,
+    "endYear": 1979,
+    "data": {
+        "nameVariants": [{
+            "startYear": 1891,
+            "endYear": 1979,
+            "name": "Lac la Biche Boarding School",
+            "note": "It appears that this school was a predecessor to Blue Quills Indian Residential School",
+            "ref": ["01528"]
+        },
+        {
+            "startYear": 1898,
+            "endYear": 1931,
+            "name": "Sacred Heart Boarding School",
+            "note": "The Church wanted to name it after the nearest post office, Sacred Heart",
+            "ref": ["00298"]
+        },{
+            "startYear": 1931,
+            "endYear": 1972,
+            "name": "Blue Quills Indian Residential School/Blue Quills R.C. Indian Residential School",
+            "note": "",
+            "ref": ["07862]]"]
+        },{
+            "startYear": 1972,
+            "endYear": 1979,
+            "name": "Blue Quills School/Blue Quills Student Residence",
+            "note": "depending on to which aspect, the school or residence, was referred",
+            "ref": ["08006"]
+        }],
+        "related": [{
+            "name": "",
+            "type": "",
+            "location": "",
+            "ref": []
+        }],
+        "chronoHistory": [{
+            "date": 1891,
+            "desc": "Opening of Lac Ia Biche Boarding School at Lac la Biche R.C. Mission, Lac la Biche, Alberta (some educational activities appear to have occurred at the Mission prior to 1891, however, Government documents are unable to confirm this)",
+            "ref": ["01520"]
+        },
+        {
+            "date": 1898,
+            "desc": "Removal of school buildings from Lac la Biche Boarding School to new location on Saddle Lake Reserve ('Blue Quill's' reserve) and opening of Blue Quills [Quill's] Boarding School",
+            "ref": ["07304"]
+        },
+        {
+            "date": 1931,
+            "desc": "Opening ofBlue Quills Indian [R.C.] Residential School, near St. Paul, Alberta on non-reserve Crown land, Section 11, Township 58, Range 10, West ofthe 4th Meridian",
+            "ref": ["07654"]
+        },
+        {
+            "date": 1956,
+            "desc": "Beginning in this academic year, high school students who lived in residence at Blue Quills IRS were bussed to schools in St. Paul, Alberta. [Item# 04385] These schools were Provincial public schools. Elementary and junior high school students [to Grade 8 inclusive] in residence continued to receive educational services at Blue Quills I.R.S.",
+            "ref": ["04385","02455"]
+        },
+        {
+            "date": 1961,
+            "desc": "Joint school agreement with the Town of St. Paul. The Government provided $190, 212, or 25% ofthe cost of a new school the St. Paul School Board had built and that in doing so, the Government purchased space for 125 Indian students from both Blue Quills IRS and the Saddle Lake Reserve for students in grade 1 to 12 beginning in 1961 - 1962 school year.",
+            "ref": ["02226", "02229"]
+        },
+        {
+            "date": 1971,
+            "desc": "The Blue Quills Native Education Council (BQNEC) took over operations of the residence. See section below entitled Management of School for more information.",
+            "ref": []
+        },
+        {
+            "date": 1972,
+            "desc": "The Blue Quills Native Education Council (BQNEC) took over operations of the classrooms. See section below entitled Management of School for more information.",
+            "ref": ["01520"]
+        }],
+        "notesHistory": [{
+            "date": 1974,
+            "desc": "After the 1974- 1975 school year, Blue Quills students in grades 4, 5, 6, and 7 were no longer accepted into the school program and residence.",
+            "ref": ["07456B"]
+        },
+        {
+            "date": 1975,
+            "desc": "Also in the fall of 1975, the Morning Star Program, 'A teacher education program designed to serve Alberta's Native Peoples', was established. Up to 40 First Nations students were accepted and residence provided for up to 30 single people. Students without their Grade 12 had to be 20 years of age or over. This program would provide the first 2 years of the regular Bachelor's of Education through the University of Alberta.",
+            "ref": ["07877A"]
+        },
+        {
+            "date": 1976,
+            "desc": "For the 1976- 1977 fiscal year, the Government signed an agreement to use the Blue Quills school facilities as an adult and continuing education facility while maintaining day school education for grades 9, 10, 11, and 12 and residence services.",
+            "ref": ["07966B"]
+        },
+        {
+            "date": 1977,
+            "desc": "In the school years 1977/78 and 1978/79, grades 10, 11, and 12 were offered for students who had 'dropped out' of other secondary school programs. To facilitate this program, the residence program was 'reactivated' to accommodate these students. The school also offered a number of adult and vocational courses including University courses.",
+            "ref": ["07507B"]
+        }],
+        "management": {
+            "church": [{
+                "startYear": 1891,
+                "endYear": 1931,
+                "org": "Sisters of Charity, Grey Nuns of Montreal",
+                "type": ["Management", "Teaching", "Staff"],
+                "desc": "The Sisters of Charity, Grey Nuns of Montreal, managed the school with a nominal Principal provided by the Oblates ofMary Immaculate from the school's inception as Lac la Biche Boarding School in the 1890s, and through its incarnation as the Blue Quills Boarding School (on the Saddle Lake Reserve) until approximately 1931. They remained involved at the school as teachers and domestic staffuntil the late 1960s.",
+                "ref": ["01690", "07783", "00850"]
+            },
+            {
+                "startYear": 1931,
+                "endYear": 1969,
+                "org": "Oblates of Mary Immaculate",
+                "type": ["Management", "Teaching", "Staff"],
+                "desc": "The Oblates ofMary Immaculate, who had previously provided a nominal Principal to the school, took over the management of the school in approximately 1931",
+                "ref": ["07783"]
+            }
+          ],
+            "government": [{
+                "startYear": 1969,
+                "endYear": 1972,
+                "org": "Federal Government of Canada",
+                "type": ["Management"],
+                "desc": "From 1969 to 1972, the school was administered by the Government.",
+                "ref": ["01999"]
+            }],
+            "band": [{
+                "startYear": 1971,
+                "endYear": 1972,
+                "org": "Blue Quills Education Council (BQNEC)",
+                "type": ["Management"],
+                "desc": "The Blue Quills Native Education Council (BQNEC) took over the day to day operations of the residence on Feb. 1, 1971.",
+                "ref": ["00438", "00435"]
+            },
+            {
+                "startYear": 1972,
+                "endYear": 1979,
+                "org": "Blue Quills Education Council (BQNEC)",
+                "type": ["Management", "Teaching", "Staff"],
+                "desc": "BQNEC took over the operation of the school classrooms at Blue Quills on July 1, 1972- making Blue Quills the first Aboriginally controlled school in Canada. The Blue Quills Native Education Council was incorporated as of August 11, 1970 [Item#02836]. The Blue Quills Native Education Council's members are elected representatives of the seven Indian communities in the Saddle Lake/ Athabasca District, those communities (bands) being Beaver Lake, Cold Lake, Frog Lake, White Fish Lake no.128 (aka Goodfish Lake), Saddle Lake, Heart Lake, and Kehewin.",
+                "ref": ["00330", "00331", "02836", "07943"]
+            }]
+        },
+        "facilities": [{
+            "date": 1891,
+            "building": "School Buildings",
+            "event": "construction",
+            "location": "Lac la Biche Mission",
+            "desc": "School buildings erected at Lac la Biche Mission, Lac la Biche, Alberta.",
+            "ref": ["01520"]
+        },
+        {
+            "date": 1898,
+            "building": "School Buildings",
+            "event": "transfer",
+            "location": "Saddle Lake Reserve",
+            "desc": "School buildings transferred from Lac la Biche Boarding School and established on the Saddle Lake Reserve. The main building was a 3 story frame building plus a basement. This school was graded 'Class A' beginning in 1919.",
+            "ref": ["07304", "01657", "01653"]
+        },
+        {
+            "date": 1908,
+            "building": "New Wing",
+            "event": "construction",
+            "location": "Saddle Lake Reserve",
+            "desc": "New wing was constructed.",
+            "ref": ["00298"]
+        },
+        {
+            "date": 1931,
+            "building": "School Buildings",
+            "event": "construction",
+            "location": "St. Paul, Alberta",
+            "desc": "Construction of school buildings on Government-owned land near St. Paul, Alberta. School opens in Dec. 1931. Spaces in the building included classrooms, infirmary space, chapel, dormitories, and a space called the 'Sisters [of Charity, Grey Nuns ofMontreal] Community'",
+            "ref": ["07654", "00939", "05008"]
+        },
+        {
+            "date": 1941,
+            "building": "Addition",
+            "event": "construction",
+            "location": "St. Paul, Alberta",
+            "desc": "Addition to School started by Oblates.",
+            "ref": ["02841"]
+        },
+        {
+            "date": 1951,
+            "building": "Addition",
+            "event": "construction",
+            "location": "St. Paul, Alberta",
+            "desc": "The shell of the addition was completed by the Oblates, but funding for the heating and plumbing systems to complete the building was requested. As the addition remained unfinished and the need for Roman Catholic residential space had increased, the Government agreed to give funding for the completion of the addition. However, due to a plumbing and heating overhaul in the main building in order to support the new addition, the completion of the addition is delayed.",
+            "ref": ["04586A", "04587", "01936", "01929"]
+        },
+        {
+            "date": 1957,
+            "building": "Main Building",
+            "event": "refit",
+            "location": "St. Paul, Alberta",
+            "desc": "The main building was re-wired Discussion began regarding the possible construction of a classroom block and possible dormitories; however, with the future use of Blue Quills unclear (options included it becoming a residence only, or high school classes only), no final decisions were made regarding the future use until the BQNEC agreed to takeover the school in 1972.",
+            "ref": ["02436", "04327A", "03980", "04678A", "04833", "01984", "05008"]
+        },
+        {
+            "date": 1961,
+            "building": "Washroom",
+            "event": "renovation",
+            "location": "St. Paul, Alberta",
+            "desc": "Renovations ofthe washrooms was conducted.",
+            "ref": ["02576"]
+        },
+        {
+            "date": 1963,
+            "building": "Addition",
+            "event": "demolition",
+            "location": "St. Paul, Alberta",
+            "desc": "The addition, which appears to have been in use as classroom and gymnasium/play space, and as teacher accommodation, was considered to be 'not safe for any use' unless significant improvements were made and its demolition was recommended. Supports were added in the gymnasium to make the building safe for occupancy.",
+            "ref": ["03410", "05054", "04836"]
+        },
+        {
+            "date": 1964,
+            "building": "Addition",
+            "event": "demolition",
+            "location": "St. Paul, Alberta",
+            "desc": "Discussions begin regarding the demolition ofthe current addition/gym and the construction of a new gym in its place. These discussions continue for several years until at least 1966.",
+            "ref": ["04862"]
+        },
+        {
+            "date": 1966,
+            "building": "Portables",
+            "event": "construction",
+            "location": "St. Paul, Alberta",
+            "desc": "Three portable classrooms were acquired for the school in October. Also, a plan for a new gymnasium was approved. The existing addition (gym and classrooms) was proposed to be demolished this year following the acquisition of the portables. Possible proposals regarding the renovation of the main building at Blue Quills as a hostel for a high school were reviewed. Plans for a natural gas line to the school in advance of converting the school to natural gas were approved.",
+            "ref": ["04852A", "05000A", "00645", "00573", "00638", "00637", "00634", "04967", "04988", "05001A"]
+        },
+        {
+            "date": 1969,
+            "building": "Gymnasium",
+            "event": "opening",
+            "location": "St. Paul, Alberta",
+            "desc": "TThe new gymnasium was officially opened in March.",
+            "ref": ["00842"]
+        }],
+        "land": [{
+            "date": 1891,
+            "owner": "R.C. Church",
+            "size": "",
+            "type": "land",
+            "location": "Lac la Biche Mission, Lac la Biche, Alberta",
+            "note": "Lac la Biche [R.C.] Mission, Lac la Biche, Alberta, land owned by R.C. Church authorities",
+            "ref": []
+        },
+        {
+            "date": 1898,
+            "owner": "R.C. Church",
+            "size": "15 acres",
+            "type": "land",
+            "location": "Saddle Lake Reserve",
+            "note": "Saddle Lake Reserve (area of reserve known as Blue Quill's or Blue Quills). There was enough land for the buildings and 15 acres of crop, although land was rented from the band to increase farm operations.",
+            "ref": ["01657"]
+        },
+        {
+            "date": 1929,
+            "owner": "Department of Indian Affairs",
+            "size": "",
+            "type": "acquisition",
+            "location": "Section 11, Township 58, Range 10, West of the 4th Meridian, near St. Paul, Alberta",
+            "note": "Section 11, Township 58, Range 10, West of the 4th Meridian, located near St. Paul, Alberta acquired by the Department of Indian Affairs for the purpose of building an Indian School [Item# 00547]. This site was selected with the assistance of the Church Authorities [Item# 01719] School buildings opened in 1931 [Item# 07654]. Farm operations were associated with the school. Farm operations appear to have ceased by 1965 [Item# 00184].",
+            "ref": ["00547","01719","07654","00184"]
+        },
+        {
+            "date": 1968,
+            "owner": "Department of Indian Affairs",
+            "size": "",
+            "type": "surplus",
+            "location": "Section 11, Township 58, Range 10, West of the 4th Meridian, near St. Paul, Alberta",
+            "note": "A portion of school land was declared to be surplus.",
+            "ref": ["00491"]
+        },
+        {
+            "date": 1970,
+            "owner": "Township of St. Paul",
+            "size": "190 acres",
+            "type": "turnover",
+            "location": "St. Paul, Alberta",
+            "note": "190 acres of school (declared surplus in 1968) was land turned over to the Township of St. Paul for airport purposes.",
+            "ref": ["06446"]
+        }],
+        "media": [{
+            "ref": "06138",
+            "date": "undated",
+            "desc": "Blue Quills I.R. School, New Chapel Exit."
+        },
+        {
+            "ref": "08210",
+            "date": "undated",
+            "desc": "Aerial photo ofBlue Quills."
+        },
+        {
+            "ref": "02340",
+            "date": "1929",
+            "desc": "Plan: 'Sketch Plan showing approx. location for Proposed Indian School and other Buildings and Wells on N.E.1/4 Sec. 11 TP 58 RGE 10, W. of 4th M.'"
+        },
+        {
+            "ref": "08211",
+            "date": "1930",
+            "desc": "Plans of Blue Quill [sic] Indian Residential School, circa 1930/1931: basement floor, ground floor, first floor, second floor, all include names of rooms."
+        },
+        {
+            "ref": "05875",
+            "date": "1943",
+            "desc": "Plan of Building Area, Blue Quill Indian Residential School, Saddle Lake Agency, Alberta. Includes grounds (what is cultivated, playground, slough, bush, garden, barnyard), outbuildings (school engineer's residence, piggeries, slaughterhouse, barn, granary, implement shed, roothouse, machine shed, septic tank pump house), and school including unfinished addition, garage addition, and well pumphouse addition. Also, inset map shows residential school building's location on the section."
+        },
+        {
+            "ref": "00685",
+            "date": "1944",
+            "desc": "Drawing: Map of road to be gravelled."
+        },
+        {
+            "ref": "04590A",
+            "date": "1951",
+            "desc": "Plan of roof of Blue Quills IRS showing location of chapel, laundry, and kitchen - possibly the addition attached to the main building."
+        },
+        {
+            "ref": "02528",
+            "date": "1952",
+            "desc": "Photos of construction."
+        },
+        {
+            "ref": "04377",
+            "date": "1957",
+            "desc": "Appears to be plan for additional dormitory space, possibly the addition."
+        },
+        {
+            "ref": "03346A",
+            "date": "1961",
+            "desc": "Plan: 'Revised Boys Washroom Plan (Girls Washroom Shall be Similar)'"
+        },
+        {
+            "ref": "03388B",
+            "date": "1962",
+            "desc": "Sketch of School Grounds showing location of school, Boys' Supervisor residence, and a requested house."
+        },
+        {
+            "ref": "05873",
+            "date": "1964",
+            "desc": "4 Classroom School and Gymnasium Survey and Site Plans (25 total): Survey and Site Plans, First floor plan, Foundation and Basement plan, Elevations, General Cross Sections, Detailed Cross Sections, Window Details, Misc. Details, and Classroom Furnishings (also mechanical and electrical plans)."
+        },
+        {
+            "ref": "06156A",
+            "date": "1965",
+            "desc": "Sketch: 'Portable Classrooms, Blue Quills Residential School', including location of proposed gymnasium and substandard east extension/addition."
+        },
+        {
+            "ref": "04831C",
+            "date": "1965",
+            "desc": "Photo of gymnasium bathroom."
+        },
+        {
+            "ref": "02218",
+            "date": "1966",
+            "desc": "Photos ofBoys Washroom and Dormitory."
+        },
+        {
+            "ref": "05876",
+            "date": "1967",
+            "desc": "Plan: 'Blue Quills Gymnasium- As Built'."
+        },
+        {
+            "ref": "03198",
+            "date": "1971",
+            "desc": "Complete insurance appraisal for Blue Quills IRS. Graphics contained in report include: Photo of Front of School; Plan of Basement; Plan of First Floor of school; Plan of Second Floor of school; Plan of Third Floor of school; Photo of Rear of School showing Gymnasium; Plan of Basement Floor of Gymnasium; Plan of First Floor of Gymnasium; Photo of Portable No. 1; Plan of Portable No. 1; Photo ofPortable No.2; Plan ofPortable No. 2; Photo ofPortable No. 3; Plan ofPortable No. 3; Photo ofPortable No.4; Plan ofPortable No. 4; Report also contains a list of school's contents by room."
+        }
+      ],
+        "enrollment": [{
+            "year": 1897,
+            "number": 45,
+            "notes": "approximately 40 students [Lac la Biche Boarding School]."
+        },
+        {
+            "year": 1898,
+            "number": 45,
+            "notes": "Blue Quills Boarding School had 45 students its first year. This number remained constant until 1922."
+        },
+        {
+            "year": 1899,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1900,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1901,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1902,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1903,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1904,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1905,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1906,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1907,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1908,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1909,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1910,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1911,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1912,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1913,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1914,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1915,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1916,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1917,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1918,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1919,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1920,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1921,
+            "number": 45,
+            "notes": ""
+        },
+        {
+            "year": 1922,
+            "number": 60,
+            "notes": "Number of grant earning pupils raised to 60."
+        },
+        {
+            "year": 1923,
+            "number": 60,
+            "notes": ""
+        },
+        {
+            "year": 1924,
+            "number": 60,
+            "notes": ""
+        },
+        {
+            "year": 1925,
+            "number": 60,
+            "notes": ""
+        },
+        {
+            "year": 1926,
+            "number": 60,
+            "notes": ""
+        },
+        {
+            "year": 1927,
+            "number": 69,
+            "notes": "Number of grant earning pupils raised to 65 although 69 were in attendance."
+        },
+        {
+            "year": 1928,
+            "number": 69,
+            "notes": ""
+        },
+        {
+            "year": 1929,
+            "number": 69,
+            "notes": ""
+        },
+        {
+            "year": 1930,
+            "number": 69,
+            "notes": ""
+        },
+        {
+            "year": 1931,
+            "number": 69,
+            "notes": ""
+        },
+        {
+            "year": 1932,
+            "number": 81,
+            "notes": "By the end of the school year, the first in the school near St. Paul, 81 were in attendance."
+        },
+        {
+            "year": 1933,
+            "number": 117,
+            "notes": "By June there were 117 in school"
+        },
+        {
+            "year": 1934,
+            "number": 117,
+            "notes": ""
+        },
+        {
+            "year": 1935,
+            "number": 135,
+            "notes": ""
+        },
+        {
+            "year": 1936,
+            "number": 135,
+            "notes": ""
+        },
+        {
+            "year": 1937,
+            "number": 147,
+            "notes": ""
+        },
+        {
+            "year": 1938,
+            "number": 147,
+            "notes": ""
+        },
+        {
+            "year": 1939,
+            "number": 147,
+            "notes": ""
+        },
+        {
+            "year": 1940,
+            "number": 147,
+            "notes": ""
+        },
+        {
+            "year": 1941,
+            "number": 193,
+            "notes": ""
+        },
+        {
+            "year": 1942,
+            "number": 158,
+            "notes": ""
+        },
+        {
+            "year": 1943,
+            "number": 158,
+            "notes": ""
+        },
+        {
+            "year": 1944,
+            "number": 158,
+            "notes": ""
+        },
+        {
+            "year": 1945,
+            "number": 158,
+            "notes": ""
+        },
+        {
+            "year": 1946,
+            "number": 158,
+            "notes": ""
+        },
+        {
+            "year": 1947,
+            "number": 158,
+            "notes": ""
+        },
+        {
+            "year": 1948,
+            "number": 167,
+            "notes": "Approximately 16 7 students in attendance of which only 140 were authorized"
+        },
+        {
+            "year": 1949,
+            "number": 180,
+            "notes": "While the authorized enrollment was stated to be 145, 180 were actually enrolled"
+        },
+        {
+            "year": 1950,
+            "number": 180,
+            "notes": ""
+        },
+        {
+            "year": 1951,
+            "number": 171,
+            "notes": "Authorized enrollment was 155"
+        },
+        {
+            "year": 1952,
+            "number": 171,
+            "notes": "1951/1952 Actual enrollment was 171"
+        },
+        {
+            "year": 1953,
+            "number": 200,
+            "notes": "Actual enrollment hovered around 200, give or take 10."
+        },
+        {
+          "year": 1954,
+          "number": 200,
+          "notes": "Actual enrollment hovered around 200, give or take 10."
+        },
+        {
+          "year": 1955,
+          "number": 200,
+          "notes": "Actual enrollment hovered around 200, give or take 10."
+        },
+        {
+          "year": 1956,
+          "number": 200,
+          "notes": "Actual enrollment hovered around 200, give or take 10."
+        },
+        {
+          "year": 1957,
+          "number": 200,
+          "notes": "Actual enrollment hovered around 200, give or take 10."
+        },
+        {
+          "year": 1958,
+          "number": 200,
+          "notes": "Actual enrollment hovered around 200, give or take 10."
+        },
+        {
+          "year": 1959,
+          "number": 200,
+          "notes": "Actual enrollment hovered around 200, give or take 10."
+        },
+        {
+          "year": 1960,
+          "number": 200,
+          "notes": "Actual enrollment hovered around 200, give or take 10."
+        },
+        {
+          "year": 1961,
+          "number": 200,
+          "notes": "Actual enrollment hovered around 200, give or take 10."
+        },
+        {
+          "year": 1962,
+          "number": 200,
+          "notes": "Actual enrollment hovered around 200, give or take 10."
+        },
+        {
+          "year": 1963,
+          "number": 186,
+          "notes": "The authorized enrollment for this year dropped to 185; actual enrollment was 186."
+        },
+        {
+            "year": 1964,
+            "number": 168,
+            "notes": "Authorized enrollment and actual enrollment both dropped: authorized- 160, actual- 168."
+        },
+        {
+            "year": 1965,
+            "number": 168,
+            "notes": ""
+        },
+        {
+            "year": 1966,
+            "number": 168,
+            "notes": "Authorized enrollment jumped to 173, actual enrollment was 168."
+        },
+        {
+            "year": 1967,
+            "number": 146,
+            "notes": "Authorized enrollment was 176, actual enrollment was 146."
+        },
+        {
+            "year": 1968,
+            "number": 114,
+            "notes": ""
+        },
+        {
+            "year": 1969,
+            "number": 114,
+            "notes": ""
+        },
+        {
+            "year": 1970,
+            "number": 175,
+            "notes": "Enrollment reporting indicated that the school was authorized for 124 boarders, and 73 day students and had 102 boarders and 73 day students."
+        },
+        {
+            "year": 1971,
+            "number": 173,
+            "notes": "Following the BCNEC takeover of the residence, there were 173 students enrolled at BQ"
+        },
+        {
+            "year": 1972,
+            "number": 175,
+            "notes": "Following the BQNEC takeover of the classrooms, residence attendance was reported as 81 treaty and 3 non-treaty students."
+        },
+        {
+            "year": 1973,
+            "number": 177,
+            "notes": "Reported attendance was 177."
+        },
+        {
+            "year": 1975,
+            "number": 168,
+            "notes": "168 students enrolled. 80 students were in residence and 66 were day schoolers. Space in residence was to be reduced to 35."
+        },
+        {
+            "year": 1976,
+            "number": 70,
+            "notes": "In the fall of 1975, there were spaces for 40 Morning Star students, as well as 30 residential spaces."
+        },
+        {
+            "year": 1977,
+            "number": 85,
+            "notes": "The number of students in residence was estimated to be approximately 40 students. There were also plans for limited residential space for 'adult participants ofthe Continuing Education program'. Estimated enrollment in Grades 10, 11, and 12 was 80-85."
+        },
+        {
+            "year": 1978,
+            "number": 85,
+            "notes": ""
+        },
+        {
+            "year": 1979,
+            "number": 80,
+            "notes": ""
+        }
+      ],
+        "reserves": ["Saddle Lake", "Beaver Lake", "Cold Lake", "Goodfish (Whitefish Lake)", "Frog Lake", "Heart Lake", "Kehewin", "Onion lake", "Janvier", "Fort McKay", "Fort Chipewyan", "Anzac"],
+        "religiousGroups": [{
+            "group": "Diocese of St. Albert/Archdiocese of Edmonton",
+            "ref": ["00002"]
+        },
+        {
+            "group": "Oblates ofMary Immaculate",
+            "ref": ["07783"]
+        },
+        {
+            "group": "Order of the Grey Nuns of Montreal",
+            "ref": ["01690"]
+        }],
+        "abuseReports": {
+            "convictions": {},
+            "physical": [{
+                "date": 1913,
+                "source": "Indian Agent document",
+                "investigated": false,
+                "result": false,
+                "victim": "students",
+                "agressor": "staff",
+                "notes": "A 1913 document by the Indian Agent states that parents complained to him that 'children are abused and frequently leave school on account of severity of teachers.''",
+                "ref": ["01602"]
+            },
+            {
+                "date": 1943,
+                "source": "Band minutes",
+                "investigated": true,
+                "result": false,
+                "victim": "unnamed student",
+                "agressor": "unnamed Sister",
+                "notes": "Minutes ofthe Saddle Lake Band Council from 1943 states that a student alleges he was pushed by a Sister at Blue Quills IRS, an incident which had been investigated and found to be untrue. The incident was followed up by the Indian Agent, who questioned the Principal who had investigated and determined the accusation to have been a falsehood on the part of the student.",
+                "ref": ["48073", "48074"]
+            },
+            {
+                "date": 1942,
+                "source": "documents",
+                "investigated": false,
+                "result": false,
+                "victim": "unnamed students",
+                "agressor": "Father L.C. Latour",
+                "notes": "Several documents refer to the 'misconduct' of a Blue Quills Indian Residential School employee under the principalship ofFather L.C. Latour.",
+                "ref": ["02362", "02326A", "02326B", "02326C", "02326D", "02326D", "02326E"]
+            },
+            {
+                "date": 1970,
+                "source": "document",
+                "investigated": true,
+                "result": false,
+                "victim": "students",
+                "agressor": "staff",
+                "notes": "In a document dated March, 1970, the Assistant District Superintendent for the Saddle Lake/ Athabasca District recommends an 'immediate investigation' be made into the 'discipline being maintained at the Blue Quills School' because of, among other general issues of discipline, accusations that a student was struck across the face by the hand of an employee.",
+                "ref": ["41325"]
+            }],
+            "sexual": [{
+                "date": 1968,
+                "source": "Newspaper Article",
+                "investigated": false,
+                "result": false,
+                "victim": "five teenage girls",
+                "aggressor": "priest",
+                "notes": "five teenage girls left Blue Quills IRS as a result of a priest on staff at the school 'making advances' towards them",
+                "ref": ["48026A"]
+            }]
+        },
+        "additionalInfo": {
+            "studentAggression": [{
+                "date": 1929,
+                "students": "three boys",
+                "type": "fire",
+                "notes": "Three boys were discovered to have set a fire beneath the stairwell in 1929.",
+                "ref": ["01728"]
+            },
+            {
+                "date": 1932,
+                "students": "female student",
+                "type": "fire",
+                "notes": "A female student set fire to clothes in the cloakroom.",
+                "ref": ["06214A"]
+            }],
+            "studentSex": [{
+                "date": 1921,
+                "students": "12 year old female",
+                "type": "pregnancy",
+                "notes": "In 1921, a 12 year old female student at the school was pregnant.",
+                "ref": ["01662"]
+            }],
+            "medical": [{
+                "date": 0,
+                "type": "",
+                "notes": "",
+                "ref": [""]
+            }],
+            "policies": [{
+                "date": 0,
+                "party": "",
+                "type": "",
+                "notes": "",
+                "ref": [""]
+            }]
+        }
+    }
+
+}
