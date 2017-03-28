@@ -1,0 +1,648 @@
+{
+	"name": "Federal Hostel at Baker Lake",
+	"type": "Residential",
+	"location": {
+		"province": "...",
+		"city": "...",
+		"latLng": {
+			"lat": 0.000,
+			"lng": 0.000
+		}
+	},
+	"narrativeDate": "14-09-09",
+	"startYear": 1959,
+	"endYear": 1968,
+	"data": {
+		"nameVariants": [{
+			"startYear": "",
+			"endYear": "",
+			"name": "The temporary hostel at Baker Lake",
+			"note": "",
+			"ref": ["BLS-000756"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "Baker Lake Federal Hostel ",
+			"note": "",
+			"ref": ["BLS-000001"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "Buildings 19 and 20 at Baker Lake ",
+			"note": "",
+			"ref": ["BLS-000015"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "Baker Lake Federal Day School Pupil Residence ",
+			"note": "",
+			"ref": ["BLS-000015"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "North Hostel and South Hostel at Baker Lake ",
+			"note": "",
+			"ref": ["BLS-000022"]
+		}],
+		"chronoHistory": [{
+			"date": 1956,
+			"desc": "At a meeting in March 1956, senior government and church officials reached two conclusions regarding the future of education at Baker Lake: 1. Although a rudimentary day school education had been available through the Anglican and Catholic Missions for some time, a federal day school would be opened at Baker Lake as soon as possible. 2. With the recent opening of Turquetil Hall, the Roman Catholic residence at Chesterfield Inlet, a comparable facility for Anglican children was required in the Eastern Arctic. Because of its central location, and because it was predominantly Anglican, Baker Lake was selected as the probable location for the proposed residence. The Minutes from that meeting also note that seven buildings formerly used by the Department of Transport had been made available for “school purposes”, that a structural engineer had confirmed that at least three of them could be moved from their location about a mile outside Baker Lake into the community, and that “funds have been provided in the current year’s Estimates for doing some renovation of these buildings.” ",
+			"ref": ["RCN-005165"]
+		}, {
+			"date": 1956,
+			"desc": "Correspondence from September 1956 states that the first attempt to move the three buildings had resulted in substantial damage to one of them. However, a construction crew was working “vigorously” to repair the damaged building and to facilitate moving all three buildings to the settlement. Government officials remained “confident that the buildings will be quite suitable for their proposed purpose at Baker Lake.” ",
+			"ref": ["RCN-005205"]
+		}, {
+			"date": 1956,
+			"desc": "Correspondence from September and October 1956 states that to circumvent the delayed arrival of the Department of Transport buildings, the Anglican Canon at Baker Lake would teach “part time school until the school is ready and the teacher arrives”. Although the building renovations were complete, the work crew was waiting for the lake to freeze to sufficient depth to permit sledging the buildings to the community site. [BLS-000716]  A Memorandum notes that arrangements to provide lunches for pupils attending the temporary school would be made by the local Northern Service Officer. ",
+			"ref": ["BLS-000717"]
+		}, {
+			"date": 1957,
+			"desc": "A Report from the Welfare Teacher at the Baker Lake FDS notes that the Baker Lake Federal Day School opened in January 1957. ",
+			"ref": ["BLS-000726"]
+		}, {
+			"date": 1957,
+			"desc": "In reference to hostel construction at Baker Lake, Minutes from a meeting of government and church officials in May 1957 state that “the Committee discussed at some length the question of the need for hostel accommodation in the Keewatin District and in the Cambridge Bay and Coppermine areas. The opinion was expressed that Baker Lake was really the most central point for the entire region and that a hostel there could serve children from Cambridge Bay and Coppermine as well as from Keewatin. It was also pointed out that the cost of operating a hostel at Baker Lake would be about one third the cost of a similar establishment at Cambridge Bay. The Committee agreed that Baker Lake was the most suitable location for a school hostel to serve the Keewatin District.” ",
+			"ref": ["BLS-000745-0001"]
+		}, {
+			"date": 1957,
+			"desc": "Senior public servants, noting the extreme isolation of Baker Lake, particularly during winter months because of fierce and unpredictable weather conditions, recommended that the government approach hostel construction at Baker Lake cautiously owing to impact that rapid growth could have on the ability of the local population to provide for itself. It states “We should seek to avoid placing in the traditional communities institutions which contribute to congregation and which may work to the detriment of hunting and trapping on the land. Baker Lake is one of the traditional communities.” ",
+			"ref": ["RCN-005285"]
+		}, {
+			"date": 1957,
+			"desc": "Government correspondence throughout 1957 reiterates the need for expanding the education system in the Eastern Arctic, repeatedly pointing out that the construction of an Anglican Hostel at Baker Lake would serve as a regional counterpoint to the Roman Catholic Hostel at Chesterfield Inlet and thereby deflect suggestions of favoritism of one church at the other’s expense. ",
+			"ref": ["RCN-005285"]
+		}, {
+			"date": 1957,
+			"desc": "A temporary student residence operated at Baker Lake during November 1957. Making reference to the need for a strategy to accommodate local orphans and students who came from homes outside Baker Lake, a Letter from the Welfare Teacher to the Chief of the Education Division states that, “boarding places are very hard to come by as most of the Eskimos who live in the settlement have been made to take old and indigent persons to live with them.” Down the page it states, “I have tried several ways of setting up a hostel and have been able to obtain the use of a three roomed building in good condition which was formerly used by the Catholic Mission which is now housed in a new building. The building which is available for our use is less than fifty yards from the school and I consider it very suitable. The other officials here have been consulted and approve of the project. It is my intention to set up this hostel for six students by January 1st, but to put it into operation when the school opens. I would like your permission to begin on November 2nd.” It concludes, “I have an Eskimo Lady who will cook meals and live with the children and my wife and I will supervise everything.” A post script to the same Letter states “P.S. since I wrote this letter I have received your permission to operate the hostel.”",
+			"ref": ["BLS-000752"]
+		}, {
+			"date": 1957,
+			"desc": "A subsequent Memorandum from the Welfare Teacher states that three students “boarded in the temporary hostel from November 2nd to 30th, 1957, this on the authority of your telegram.” It then notes that the temporary hostel would be closed 11/30/1957, and that the hostel pupils would be put into local boarding. Two would live with the Welfare Teacher and the third would board with a local family",
+			"ref": ["BLS-000756"]
+		}, {
+			"date": 1960,
+			"desc": "By the end of the 1959/60 school year it was evident that the existing school facility at Baker Lake was not meeting local education needs. Of the approximately one hundred school age children in and around the community just seventy were enrolled, and many of these attended only on a part time basis. To rectify this situation plans were made to construct two 8 pupil student hostels, expand the day school facility, and hire at least one more teacher prior to the 1960/61 school year. ",
+			"ref": ["BLS-000291-0001"]
+		}, {
+			"date": 1960,
+			"desc": "In reference to the proposed hostel construction a Memorandum dated 7/5/1960, states “the design has been completed, tender calls for materials are going out in the next day or two. It is unlikely that materials will be delivered to the site until August. Completion of the hostels is not expected before October 31.” ",
+			"ref": ["RCN-004430"]
+		}, {
+			"date": 1960,
+			"desc": "A Memorandum to the Regional Administrator states that owing to harsh weather conditions at Baker Lake it was unlikely that both hostels would be completed before 1/1/1961. It recommended the completion of one hostel prior to Christmas, to be opened in the new year, and then completing the second in 1962 as the weather became less hostile. ",
+			"ref": ["BLS-000310-0002"]
+		}, {
+			"date": 1960,
+			"desc": "A Memorandum dated 12/23/1960 states “The Chief Superintendent of Schools in company with the Chief Engineer from the Arctic District Office recently visited the settlement of Baker Lake. As mentioned previously, one hostel is almost complete and should be ready for occupancy in early January. The other cannot be completed this year and consequently we are postponing its date of opening until September 1961.” ",
+			"ref": ["[BLS-000315"]
+		}, {
+			"date": 1961,
+			"desc": "The first hostel at Baker Lake opened in January, 1961. A Service Agreement identifies the first Hostel House Mother at Baker Lake, employed from 1/21/1961 to 7/5/1961. ",
+			"ref": ["BLS-000320"]
+		}, {
+			"date": 1961,
+			"desc": "Correspondence in late 1961 confirms that one eight bed hostel operated during the 1960/61 school year. However, following the completion of the school year it was occupied by “visitors to the settlement” and then by a construction crew working on the second hostel. Thus neither hostel was occupied by students from the beginning of the 1961/62 school year until after the Christmas holiday.",
+			"ref": ["BLS-000348-0002", "BLS-000352"]
+		}, {
+			"date": 1962,
+			"desc": " The two 8 bed hostels at Baker Lake opened on January 1, 1962. The children in each hostel were placed in the care of a local Inuk woman employed as a hostel mother. The two hostel mothers reported to the hostel supervisor. The hostel supervisor subsequently reported to the school principal, the chief administrator at the FDS and the residence. ",
+			"ref": ["RCN-006477"]
+		}, {
+			"date": 1962,
+			"desc": "The 3/31/1962 Quarterly Return identifies fifteen students in residence at the Baker Lake hostels. Eight of them are noted as having spent six months in residence previously. ",
+			"ref": ["BLS-000001"]
+		}, {
+			"date": 1962,
+			"desc": "The 6/30/1962 Quarterly Return identifies fourteen students in residence at the Baker Lake hostels. ",
+			"ref": ["BLS-000002-0001"]
+		}, {
+			"date": 1962,
+			"desc": "A Report by the Principal just prior to the beginning of the 1962/63 school year states that one of the hostel mothers had indicated that she was planning to resign. Regarding the hostel mothers’ workload it states “they have no water pressure system, no hot water system, and no dryers yet they are expected to do all the washing for 8 children in addition to the extra chores around the hostel.” ",
+			"ref": ["BLS-000260"]
+		}, {
+			"date": 1962,
+			"desc": "Making reference to the recruitment of residential pupils from camps around Baker Lake for the 1962/63 school year, a Memorandum from the Regional Administrator to the Area Administrator states “it appears in order to extend congratulations to Ivan Mouat, Evan Cotterill and yourself for the successful flying visits to settlements in your area to gather 24 children for attendance during the school year in the hostels. Respecting your need of 8 additional mattresses, presumably to accommodate the 8 extra children over the usual limit of 16 for two hostels, we have determined that a number of single beds and mattresses were purchased for the welfare homes here and because these proved not too satisfactory, they are in the warehouse new and unused.” ",
+			"ref": ["BLS-000389"]
+		}, {
+			"date": 1962,
+			"desc": "The 9/31/1962 Quarterly Return notes that following the 1961/62 school year one hostel had remained in operation over the summer, until 8/14/1962, on which date the final child in residence was returned to his parents. It identifies twenty-six students in residence at the Baker Lake Hostels between 7/1/1962 and 9/30/1962. ",
+			"ref": ["BLS-000004-0001", "BLS-000002"]
+		}, {
+			"date": 1962,
+			"desc": "As per the Principal’s warning in August, one of the Hostel Mothers was replaced after her resignation on 9/30/1962. Anticipating her departure, the principal had hired her replacement on 9/15/1962 to facilitate two weeks of job training for the new hostel mother. ",
+			"ref": ["BLS-000392", "BLS-000391"]
+		}, {
+			"date": 1962,
+			"desc": "The Quarterly Return dated 12/31/1962 identifies twenty-five students in residence at the Baker Lake hostels. To alleviate the overcrowded conditions two students were returned to their parents and five were put into home boarding in November and December. One other student spent fourteen days in hospital at Churchill.",
+			"ref": ["[BLS-000005-0001"]
+		}, {
+			"date": 1963,
+			"desc": "The 3/31/1963 Quarterly Return identifies eighteen students in residence at the Baker Lake Hostels",
+			"ref": ["BLS-000006-0001"]
+		}, {
+			"date": 1963,
+			"desc": "Making reference to the number of residential pupils at Baker Lake during the 1962/63 school year, a Report by the Principal states “we experienced some overcrowding for the first few months of the year but relieved the situation by placing the older pupils in local boarding.”  Further down the page it notes “I must stress the difficulties under which our hostel mothers operate. They are expected to do all the washing of clothes, bed linens etc. for eight or more children yet the equipment provided is most inadequate. They have no running water, no piped hot water, no water pressure system, and no clothes dryer. Although this has been brought to the attention of our regional office, the Arctic District Office, and some officials of the Northern Administration Branch, no improvement has been made. There is space in the toilet room for the installation of this equipment.” ",
+			"ref": ["BLS-000425-0001"]
+		}, {
+			"date": 1963,
+			"desc": "The 6/30/1963 Quarterly Return identifies eighteen students in residence at the Baker Lake hostels. ",
+			"ref": ["BLS-000008"]
+		}, {
+			"date": 1963,
+			"desc": "The 9/30/1963 Quarterly Return identifies nineteen students in residence at the Baker Lake hostels. ",
+			"ref": ["BLS-000009"]
+		}, {
+			"date": 1963,
+			"desc": "A Memorandum from the Regional Administrator to the Administrator of the Arctic in late 1963 notes that “during this year’s round-up”, forty children had been brought into Baker Lake from outlying camps to attend school and that more than half were boarding with local families. “This creates something of a problem in the minds of our educational personnel because there is a quite evident difference in the standards of food, attempted cleanliness, and training in regular habits between the two types of accommodation. If we are to continue to attempt to accommodate as many of these children as possible in hostels, then it should appear that immediate consideration must be given to the construction of additional accommodation in the very near future.” ",
+			"ref": ["BLS-000455"]
+		}, {
+			"date": 1963,
+			"desc": "The 12/31/1963 Quarterly Return identifies nineteen students in residence at the Baker Lake hostels",
+			"ref": ["BLS-000010"]
+		}, {
+			"date": 1964,
+			"desc": "A Memorandum to the Administrator of the Arctic, dated 1/6/1964, states that no new hostel will be built at Baker Lake in the foreseeable future. “If the plans envisaged for Fort Churchill are carried out, it is probable that the children from outside Baker Lake who cannot be accommodated in the two hostels would be accommodated at Fort Churchill.” ",
+			"ref": ["BLS-000458"]
+		}, {
+			"date": 1964,
+			"desc": "Speaking to the need for more student accommodation at Baker Lake, a Memorandum from the Regional Administrator to the Administrator of the Arctic, dated 1/28/1964, states that “although extreme care had been taken in the selection of homes to which children have been assigned for local boarding purposes, cases of outright neglect have been detected, and through close cooperation with the local nurses they have attempted to deal with such problems.” The Memorandum points out that there is an unoccupied building at Baker Lake which the Principal there has suggested would, with minimal renovation, be adequate to serve as a third hostel. ",
+			"ref": ["BLS-000464"]
+		}, {
+			"date": 1964,
+			"desc": "The 3/31/1964 Quarterly Return identifies seventeen students in residence at the Baker Lake hostels. ",
+			"ref": ["BLS-000011"]
+		}, {
+			"date": 1964,
+			"desc": "The 6/30/1964 Quarterly Return identifies twenty-one students in residence at the Baker Lake hostels. ",
+			"ref": ["BLS-000012"]
+		}, {
+			"date": 1964,
+			"desc": "Owing to poor weather and the absence of an available airplane to return children to their homes at outlying camps, the Baker Lake hostels remained open until 7/24/1964. ",
+			"ref": ["BLS-000487"]
+		}, {
+			"date": 1964,
+			"desc": "The 9/30/1964 Quarterly Return identifies nineteen students in residence at the Baker Lake hostels.",
+			"ref": ["BLS-000013"]
+		}, {
+			"date": 1964,
+			"desc": "The 12/31/1964 Quarterly Return identifies sixteen students in residence at the Baker Lake hostels. ",
+			"ref": ["BLS-000014"]
+		}, {
+			"date": 1965,
+			"desc": "The 3/31/1965 Quarterly Return identifies fourteen students in residence in the hostels. ",
+			"ref": ["BLS-000015"]
+		}, {
+			"date": 1965,
+			"desc": "A Memorandum from the Administrator of the Arctic, dated 6/9/1965, states that the Government will pay for clothing for children in Small Hostels if it is needed and the parents are not able to supply it.",
+			"ref": ["BLS-000501"]
+		}, {
+			"date": 1965,
+			"desc": "The 6/30/1965 Quarterly Return identifies seventeen students in residence at the Baker Lake hostels. ",
+			"ref": ["BLS-000016"]
+		}, {
+			"date": 1965,
+			"desc": "The 9/30/1965 Quarterly Return identifies twenty students in residence at the Baker Lake hostels. ",
+			"ref": ["BLS-000017"]
+		}, {
+			"date": 1965,
+			"desc": "The 12/31/1965 Quarterly Return identifies seventeen students in residence at the Baker Lake hostels.",
+			"ref": ["BLS-000018"]
+		}, {
+			"date": 1966,
+			"desc": "The 3/31/1966 Quarterly Return identifies ten students in residence at the Baker Lake hostels. ",
+			"ref": ["BLS-000019"]
+		}, {
+			"date": 1966,
+			"desc": "The 6/30/1966 Quarterly Return identifies twenty students in residence in at the Baker Lake hostels. ",
+			"ref": ["BLS-000020"]
+		}, {
+			"date": 1966,
+			"desc": "The 9/30/1966 Quarterly Return identifies seventeen students in residence at the Baker Lake hostels. ",
+			"ref": ["BLS-000021"]
+		}, {
+			"date": 1966,
+			"desc": "The 12/31/1966 Quarterly Return identifies sixteen students in residence at the Baker Lake hostels. ",
+			"ref": ["BLS-000022"]
+		}, {
+			"date": 1967,
+			"desc": "The 3/31/1967 Quarterly Return identifies nine students in residence in the hostels. ",
+			"ref": ["BLS-000023"]
+		}, {
+			"date": 1967,
+			"desc": "A Memorandum, dated 4/3/1967, from the Principal to the Regional Administrator, recommended the closing of student hostel number 20 at Baker Lake following the 1966/67 school year.",
+			"ref": ["BLS-000574"]
+		}, {
+			"date": 1967,
+			"desc": "The 6/30/1967 Quarterly Return identifies eighteen students in residence in the hostels.",
+			"ref": ["BLS-000024"]
+		}, {
+			"date": 1967,
+			"desc": "A Memorandum, dated 8/23/1967, from the Regional Administrator to the Area Administrator and Principal at Baker Lake, states that the services of the Hostel Assistant at Baker Lake, will not be required during the1967/68 school year as only one hostel will be in operation and will be run by a husband and wife team. As such, the husband would be capable of performing the assistant’s former duties. [BLS-000589] Hostel #20 at Baker Lake closed 7/9/1967 when the last pupils were returned to their parents in camps outside Baker Lake. ",
+			"ref": ["BLS-000025"]
+		}, {
+			"date": 1967,
+			"desc": "A Memorandum, dated 9/8/1967, from the Regional Administrator to the Area Administrator, suggests that the recently closed hostel be converted to a community sewing centre. ",
+			"ref": ["BLS-000591"]
+		}, {
+			"date": 1967,
+			"desc": "The 9/30/1967 Quarterly Return identifies eighteen students in residence in the hostels. Of that number, just nine were in residence for the 1967/68 school year. The others had been in the recently closed hostel after 6/30/1967, the date previous Quarterly Return was submitted. ",
+			"ref": ["BLS-000025"]
+		}, {
+			"date": 1967,
+			"desc": "A Memorandum to the Administrator of the Arctic, dated 11/22/1967, confirmed that the recently closed hostel at Baker Lake was currently in use as a community sewing centre at Baker Lake, and that the remaining hostel would likely be closed after the 1967/68 school year. It goes on to state “we will be submitting a project approval in the new year to move the two pupil residences at Baker Lake to the school site. These will be required for classrooms possibly next year. In previous memoranda we have indicated the phasing out of small pupil hostels in this region as more and better local board facilities become available with the completion of the Rental Housing Program",
+			"ref": ["RCN-004520-0002"]
+		}, {
+			"date": 1967,
+			"desc": "The 12/31/1967 Quarterly Return identifies nine students in residence at the Baker Lake hostel. ",
+			"ref": ["BLS-000026"]
+		}, {
+			"date": 1968,
+			"desc": " A Memorandum from the Regional Administrator to the Administrator of the Arctic, dated 1/30/1968, notes that there would be no need to purchase parkas for the hostel students at Baker Lake as the second hostel had been closed earlier in January. ",
+			"ref": ["RCN-002847"]
+		}, {
+			"date": 1968,
+			"desc": "A Memorandum from the Area Administrator to the Regional Administrator, dated 3/21/1968, states that the Principal at Baker Lake had requested that both of the former hostel buildings be moved from their current locations to the school site, that one be converted into classroom space, and that the other be converted to a lunchroom. ",
+			"ref": ["BLS-000608"]
+		}, {
+			"date": 1968,
+			"desc": "The 3/31/1968 Quarterly Return identifies six students in residence at the Baker Lake hostel. It notes that Hostel # 19, the second hostel at Baker Lake, closed 1/22/1968. Of the six students housed in the residence, two were returned to their parents and four were placed into local boarding. ",
+			"ref": ["BLS-000027-0001"]
+		}, {
+			"date": 1968,
+			"desc": "On 2/12/1969 approval was granted to convert the two former hostels into four apartments that would serve as staff housing at the Baker FDS. By mid April at least one of them was occupied. ",
+			"ref": ["BLS-000257", "BLS-000254"]
+		}, {
+			"date": 1968,
+			"desc": "Although the hostels at Baker Lake were officially closed the previous school year, An Enrolment Form from the Baker Lake FDS, dated 9/30/1968, notes that one pupil spent an unspecified number of nights in residence during September, 1968. ",
+			"ref": ["BLS-000643-0021"]
+		}],
+		"notesHistory": [{
+			"date": "",
+			"desc": "",
+			"ref": [""]
+		}],
+		"management": {
+			"church": [{
+				"startYear": "",
+				"endYear": "",
+				"org": "",
+				"type": [""],
+				"ref": [""]
+			}],
+			"government": [{
+				"startYear": 1961,
+				"endYear": 1968,
+				"org": "Federal Government of Canada",
+				"type": ["Management"],
+				"ref": ["BLS-000352", "BLS-000320", "BLS-000001", "BLA-000027-0001"]
+			}],
+			"band": [{
+				"startYear": "",
+				"endYear": "",
+				"org": "",
+				"type": [""],
+				"ref": [""]
+			}]
+		},
+		"facilities": [{
+			"date": 1958,
+			"building": "School Building",
+			"event": "renovation",
+			"location": "Baker Lake",
+			"desc": "Commenting on the building used as the Baker Lake FDS facility, a letter dated 5/15/1958 states “as you are aware this building was acquired as surplus to D.O.T. requirements and was moved across the bay to its present location in 1956 where changes and renovations were carried out with the result that the building is in an excellent state of repair. The original concept was of a combined living and office structure which we have converted to a school building.” ",
+			"ref": ["BLS-00847"]
+		}, {
+			"date": 1959,
+			"building": "School Building",
+			"event": "renovation",
+			"location": "Baker Lake",
+			"desc": "Plans to add a second classroom to the Baker Lake FDS were developed in January of 1959. This appears to have taken place by March of the same year.",
+			"ref": ["RCN-005772", "RCN-008421"]
+		}, {
+			"date": 1959,
+			"building": "Warehouse",
+			"event": "transfer",
+			"location": "Baker Lake",
+			"desc": "During the 1959/60 school year a warehouse building was leased from the Canadian Wildlife Service and used by the FDS for storage and classroom space as necessary. ",
+			"ref": ["BLS-000291-0001"]
+		}, {
+			"date": 1960,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "Baker Lake",
+			"desc": "A Report dated 00/00/1960 describes the housing available for employees at the Baker Lake FDS. Referring to the Principal’s “Three Bedroom Arctic Unit” it states “the doors were difficult to close, there was no stripping on the edges and snow sifted along the jambs making it necessary to scrape continuously. When the front door was slammed the back door sprang open and vice versa.” Further down, speaking of the one bedroom teacherage it states “the system of drainage for this house as well as all DNA houses at Baker Lake is somewhat questionable. For example, Miss Doerkson’s waste drains out at the side. Since her house is on an incline, the water runs down the hill and over her front steps. In summer this should be lovely! In winter at least it freezes – One wonders how sanitary disposal can be taught to other members of the community in the face of DNA disposal.” The same Report describes the school buildings at the Baker Lake FDS as being “in good repair” and, “warm and clean.” It notes that classes are being conducted in three separate buildings. “Miss Doerkson is teaching in the old green school.” Further down, “The new school is occupied by Mr. Mullen.” And, later, “there is little point in discussing the inadequacies of the warehouse as a school since it was not meant to be used as a classroom and relief should come with the addition of another classroom next fall. With the addition of the small hostels and continued local boarding, there are sufficient pupils to warrant the construction of a fourth classroom.” ",
+			"ref": ["BLS-000280-0001"]
+		}, {
+			"date": 1961,
+			"building": "Sshool Building",
+			"event": "transfer",
+			"location": "Baker Lake",
+			"desc": "A Memorandum to the Administrator of the Arctic confirms that the Baker Lake FDS can continue to use the Canadian Wildlife Services building as classroom space through 1961/62. The building has been in use by the FDS since 1957.",
+			"ref": ["BLS-000337", "BLS-00348-0002"]
+		}, {
+			"date": 1962,
+			"building": "School Building",
+			"event": "transfer",
+			"location": "Baker Lake",
+			"desc": " A Memorandum confirms that the Baker Lake FDS will utilize the Canadian Wildlife Services Building as a classroom during the 62/63 school year. ",
+			"ref": ["BLS-000388"]
+		}, {
+			"date": 1963,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "Baker Lake",
+			"desc": " A Telecommunication from the Regional Administrator, dated 00/00/1963, approves funding to move buildings #1 and #11, “known locally as the green school and blue school”, closer to the rest of the school facilities. ",
+			"ref": ["BLS-000688"]
+		}, {
+			"date": 1963,
+			"building": "School Building",
+			"event": "opening",
+			"location": "Baker Lake",
+			"desc": "A Report by the Principal, dated 6/29/1963 notes that the new four classroom school building had opened and that it was housing the community library. ",
+			"ref": ["BLS-00025-0001"]
+		}, {
+			"date": 1965,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "Baker Lake",
+			"desc": "A Report by the Principal notes that despite the completion of the new school building, the Canadian Wildlife Services Building was utilized by the FDS during 1964 and 1965. ",
+			"ref": ["BLS-000211"]
+		}],
+		"land": [{
+			"date": "",
+			"owner": "",
+			"size": "",
+			"type": "",
+			"location": "",
+			"note": "",
+			"ref": [""]
+		}],
+		"media": [{
+			"ref": "BLS-000901",
+			"date": "undated",
+			"desc": "“Greenschool” classroom floor plan. "
+		}, {
+			"ref": "BLS-000277-0002",
+			"date": 1960,
+			"desc": "Baker Lake Site Plan. Includes the school buildings and the housing provided for the FDS employees"
+		}, {
+			"ref": "BLS-000357",
+			"date": 1963,
+			"desc": "Baker Lake Site Plan. Includes the school buildings, hostels, and the housing provided for the FDS employees "
+		}, {
+			"ref": "BLS-000523-0002",
+			"date": 1966,
+			"desc": "A scale drawing of the homemaking classroom/cabin at the Baker Lake FDS "
+		}, {
+			"ref": "BLS-000592-0001",
+			"date": 1967,
+			"desc": "A Map that locates the Baker Lake school complex relative to the I.O.D.E. Hall, the Anglican Mission, and the RCMP detachment. "
+		}],
+		"enrollment": [{
+			"year": 1957,
+			"number": 3,
+			"notes": ""
+		}, {
+			"year": 1958,
+			"number": 3,
+			"notes": ""
+		}, {
+			"year": 1959,
+			"number": 3,
+			"notes": ""
+		}, {
+			"year": 1960,
+			"number": 8,
+			"notes": ""
+		}, {
+			"year": 1961,
+			"number": 15,
+			"notes": ""
+		}, {
+			"year": 1962,
+			"number": 25,
+			"notes": ""
+		}, {
+			"year": 1963,
+			"number": 19,
+			"notes": ""
+		}, {
+			"year": 1964,
+			"number": 16,
+			"notes": ""
+		}, {
+			"year": 1965,
+			"number": 17,
+			"notes": ""
+		}, {
+			"year": 1966,
+			"number": 17,
+			"notes": ""
+		}, {
+			"year": 1967,
+			"number": 18,
+			"notes": ""
+		}, {
+			"year": 1968,
+			"number": 9,
+			"notes": ""
+		}],
+		"reserves": ["Baker Lake"],
+		"religiousGroups": [{
+			"group": "",
+			"ref": [""]
+		}],
+		"writtenAgreements": [{
+			"date": 1961,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel House Mother at Baker Lake. The contract runs from 1/21/1961 to 7/5/1961. ",
+			"ref": ["BLS-000320"]
+		}, {
+			"date": 1962,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement, dated 2/5/1962, identifies a Hostel House Mother at Baker Lake. Her contract runs from 1/1/1962 to 8/1/1962. ",
+			"ref": ["BLS-000365-0001"]
+		}, {
+			"date": 1962,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostels Supervisor, “to give instruction and supervision to the two hostel mothers at Baker Lake.” The contract runs from 11/30/1961 to 6/30/1962. ",
+			"ref": ["BLS-000362"]
+		}, {
+			"date": 1962,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies an “understudy to the Hostels Supervisor.” The contract runs from 4/1/1962 to 3/31/1963",
+			"ref": ["BLS-000374"]
+		}, {
+			"date": 1962,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel House Mother at Baker Lake. Her contract runs from 9/15/1962 to 3/31/1963. ",
+			"ref": ["BLS-000391"]
+		}, {
+			"date": 1962,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel House Mother at Baker Lake. Her contract runs from 9/1/1962 to 9/30/1962. ",
+			"ref": ["BLS-000392"]
+		}, {
+			"date": 1962,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel House Mother at Baker Lake. Her contract runs from 9/1/1962 to 3/31/1963. ",
+			"ref": ["BLS-000393"]
+		}, {
+			"date": 1962,
+			"title": "Service Agreement",
+			"desc": " A Service Agreement identifies Hostel Supervisor. The contract runs from 9/1/1962 to 6/30/1963. ",
+			"ref": ["BLS-000394"]
+		}, {
+			"date": 1963,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Mother at Baker Lake. The contract runs from 4/1/1963 to 7/15/1963. ",
+			"ref": ["BLS-000420-0001"]
+		}, {
+			"date": 1963,
+			"title": "Service Agreement",
+			"desc": "",
+			"ref": ["BLS-000320"]
+		}, {
+			"date": 1963,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Mother at Baker Lake. The contract runs from 4/1/1963 to 7/15/1963.",
+			"ref": ["BLS-000420-0002"]
+		}, {
+			"date": 1963,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Mother at Baker Lake. The contract runs from 8/15/1963 to 6/30/1964. ",
+			"ref": ["BLS-000426"]
+		}, {
+			"date": 1963,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Mother at Baker Lake. The contract runs from 8/15/1963 to 6/30/1964. ",
+			"ref": ["BLS-000427"]
+		}, {
+			"date": 1963,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Supervisor at Baker Lake. The contract runs from 9/30/1963 to 5/30/1964. ",
+			"ref": ["BLS-000434"]
+		}, {
+			"date": 1963,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Assistant at Baker Lake. The contract runs from 11/1/1963 to 6/30/1964. ",
+			"ref": ["BLS-000449-0001"]
+		}, {
+			"date": 1964,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Supervisor at Baker Lake. The contract runs from 4/1/1964 to 7/17/1964. ",
+			"ref": ["BLS-000469"]
+		}, {
+			"date": 1964,
+			"title": "Service Agreement",
+			"desc": " A Service Agreement identifies a married couple as Hostel Parents at Baker Lake. The contract runs from 7/1/1964 to 7/21/1964. ",
+			"ref": ["BLS-000475"]
+		}, {
+			"date": 1964,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Assistant at Baker Lake. The contract runs from 8/15/1964 to 7/15/1965. ",
+			"ref": ["BLS-000480"]
+		}, {
+			"date": 1964,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Parent at Baker Lake. The contract runs from 8/15/1964 to 7/15/1965. ",
+			"ref": ["BLS-000481"]
+		}, {
+			"date": 1964,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a married couple as Hostel Parents at Baker Lake. The contract runs from 8/15/1964 to 7/15/1965.",
+			"ref": ["BLS-000482"]
+		}, {
+			"date": 1964,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Supervisor at Baker Lake. The contract runs from 11/1/1964 “until the end of school term or until the hostels are vacated”. ",
+			"ref": ["BLS-000492"]
+		}, {
+			"date": 1965,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Supervisor at Baker Lake. The contract runs from 8/15/1965 to 7/15/1966. ",
+			"ref": ["BLS-000510"]
+		}, {
+			"date": 1965,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Mother at Baker Lake. The contract runs from 8/15/1965 to 7/15/1966. ",
+			"ref": ["BLS-000511"]
+		}, {
+			"date": 1965,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a married couple as Hostel Parents at Baker Lake. The contract runs from 8/15/1965 to 7/15/1966. ",
+			"ref": ["BLS-000512"]
+		}, {
+			"date": 1965,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Assistant at Baker Lake. The contract runs from 8/15/1965 to 7/15/1966.",
+			"ref": ["BLS-000513"]
+		}, {
+			"date": 1966,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Mother at Baker Lake. The contract runs from 8/16/1966 to 8/15/1967. ",
+			"ref": ["BLS-000547"]
+		}, {
+			"date": 1966,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement identifies a Hostel Assistant at Baker Lake. The contract runs from 8/16/1966 to 8/15/1967. ",
+			"ref": ["BLS-000548"]
+		}, {
+			"date": 1966,
+			"title": "Service Agreement",
+			"desc": "A Service Agreement, dated 10/1/1966, identifies Lilian Shaw as Hostel Supervisor at Baker Lake. The contract runs from 10/1/1966 to 7/15/1967. ",
+			"ref": ["BLS-000556"]
+		}, {
+			"date": 1967,
+			"title": "A Memorandum from the Regional Administrator to the Administrator of the Arctic",
+			"desc": "A Memorandum from the Regional Administrator to the Administrator of the Arctic, dated 11/2/1967, identifies the Hostel Parents at Baker Lake. ",
+			"ref": ["BLS-000594"]
+		}],
+		"abuseReports": {
+			"physical": [{
+				"date": "",
+				"source": "",
+				"investigated": "",
+				"result": "",
+				"victim": "",
+				"agressor": "",
+				"notes": "",
+				"ref": [""]
+			}],
+			"sexual": [{
+				"date": 1968,
+				"source": "",
+				"investigated": "",
+				"result": "",
+				"victim": "",
+				"aggressor": "",
+				"notes": "",
+				"ref": [""]
+			}]
+		},
+		"additionalInfo": {
+			"studentAggression": [{
+				"date": "",
+				"students": "",
+				"type": "",
+				"notes": "",
+				"ref": [""]
+			}],
+			"studentSex": [{
+				"date": "",
+				"students": "",
+				"type": "",
+				"notes": "",
+				"ref": [""]
+			}],
+			"medical": [{
+				"startYear": "",
+				"endYear": "",
+				"type": "",
+				"ref": [""]
+			}]
+		}
+	}
+
+}

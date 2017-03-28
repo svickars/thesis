@@ -1,0 +1,735 @@
+{
+	"name": "Edmonton Indian Residential School (IRS)",
+	"type": "Residential",
+	"location": {
+		"province": "...",
+		"city": "...",
+		"latLng": {
+			"lat": 0.000,
+			"lng": 0.000
+		}
+	},
+	"narrativeDate": "01-03-04",
+	"startYear": 1920,
+	"endYear": 1968,
+	"data": {
+		"nameVariants": [{
+			"startYear": 1920,
+			"endYear": 1923,
+			"name": "Edmonton Indian Industrial School",
+			"note": "",
+			"ref": ["000287"]
+		}, {
+			"startYear": 1924,
+			"endYear": 1968,
+			"name": "Edmonton Indian Residential School",
+			"note": "",
+			"ref": ["001115"]
+		}, {
+			"startYear": 1924,
+			"endYear": 1924,
+			"name": "Edmonton Institute",
+			"note": "",
+			"ref": ["000293"]
+		}, {
+			"startYear": 1960,
+			"endYear": "",
+			"name": "Edmonton Hostel",
+			"note": "",
+			"ref": ["01528"]
+		}, {
+			"startYear": 1960,
+			"endYear": "",
+			"name": "Edmonton Indian Student Residence",
+			"note": "",
+			"ref": ["003463"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "St. Albert Indian/Residential School",
+			"note": "",
+			"ref": ["003306", "004178", "003893B"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "'St. Albert Methodist' Residential School/United Church School",
+			"note": "",
+			"ref": ["006337", "003983", "Youville IRS 00276"]
+		}],
+		"chronoHistory": [{
+			"date": 1924,
+			"desc": "Edmonton IRS opened its doors to pupils in March 1924. The official opening of the school was on October 23, 1924 ",
+			"ref": ["000293"]
+		}, {
+			"date": 1931,
+			"desc": "A 1931 Inspection Report indicates that the school had two classrooms",
+			"ref": ["000302"]
+		}, {
+			"date": 1933,
+			"desc": "A 1933 Inspection Report indicates grades 1 to 8 were taught at the school ",
+			"ref": ["000315"]
+		}, {
+			"date": 1946,
+			"desc": "Classes in manual training for the boys and handicrafts for the girls opened in the fall of 1946. The manual training or 'shop work' class was held in a separate building called the utility building or garage. By December 1946, a third classroom in the main school building was required to alleviate the crowded conditions and the arrival of more students at the school. The date ofthe classroom opening is not known at this time; however, an inspection report dated Sept. 30, 1948 references three classrooms at the school.",
+			"ref": ["004982", "001082", "004418", "000087, p.5"]
+		}, {
+			"date": 1952,
+			"desc": "A fourth classroom was opened in the main residence in the 1952-1953 school year to accommodate students from British Columbia and allow for a full-time academic program. (It was the fifth classroom at the school, as the manual training shop was counted as a classroom.) ",
+			"ref": ["000151", "000211", "007578"]
+		}, {
+			"date": 1953,
+			"desc": "A sixth classroom was opened January 5, 1953 in a renovated room adjacent to the manual training shop in the utility building or garage. The new classroom provided improvised accommodation for a senior class of pupils in grades 6 to 8 which had been held in the school chapel since September 1952 ",
+			"ref": ["007580", "004871", "004830", "007654", "004804"]
+		}, {
+			"date": 1955,
+			"desc": "A Home Economics class using the existing school kitchen began in 1955. In 1956, a room was provided and a new kitchen installed to accommodate the Home Economics class.",
+			"ref": ["004998", "004997", "008026"]
+		}, {
+			"date": 1956,
+			"desc": "The government began an integrated education program in 1956. For one year only, Edmonton IRS pupils in grades 7 to 9 were bused to the 'Guthrie School at Namao Airport', a school4 Yz miles away operated by the Defence Department. The start of the integration program allowed for the closure of the improvised classroom over the garage at Edmonton IRS. Instruction in Industrial Arts commenced at the school as of Sept. 1, 1956 ",
+			"ref": ["08030", "008041", "000224", "000219"]
+		}, {
+			"date": 1957,
+			"desc": "In 1957, the government entered into an agreement with the West Jasper Place School District to allow pupils from Edmonton IRS to attend provincial public schools in Jasper Place, a residential suburb adjacent to the west end of the City of Edmonton",
+			"ref": ["001121", "003306", "003301", "003299"]
+		}, {
+			"date": 1958,
+			"desc": "A 'Terminal Course Class' for students who had not progressed in the public school integration program began in 1958. The integration program with Jasper Place schools was expanded; Edmonton IRS pupils attended city classes from Grade 5 to Grade 12. The school ceased farming operations at the end of 1958. In late November, the livestock and farm machinery was sold by public auction ",
+			"ref": ["006290", "006289", "US 80256G", "000400"]
+		}, {
+			"date": 1960,
+			"desc": "Edmonton IRS became a residence-only facility (hostel). All classroom instruction ceased in September 1960, including classes in Home Economics and Industrial Arts; all pupils residing at Edmonton IRS began attending public schools in Jasper Place ",
+			"ref": ["0011128", "000640, p. 3"]
+		}, {
+			"date": 1962,
+			"desc": "Edmonton IRS became a hostel for high school students. Beginning in 1962, new admissions to Edmonton IRS were limited to grades 8 to 12 Gunior and senior high school grades). Students previously enrolled in lower grades were expected to continue to attend Jasper Place schools to complete their schooling. Modernization of the school building included the provision of four well-appointed classrooms for the use of study groups under the tutelage of teacher-advisors. Old barns were removed ",
+			"ref": ["000014", "US 80256K (p. 1)"]
+		}, {
+			"date": 1965,
+			"desc": "Recreational facilities at the school were considered inadequate; however, the government diverted money earmarked for a new gymnasium/auditorium to other building projects due to the uncertainty of the future ofEdmonton IRS ",
+			"ref": ["000056, p. 5"]
+		}, {
+			"date": 1968,
+			"desc": "The residence closed on June 30, 1968 ",
+			"ref": ["003716"]
+		}, {
+			"date": 1974,
+			"desc": "In 1974, the school building was selected as the site for Poundmaker Lodge, 'a native-controlled native alcohol rehabilitation centre'",
+			"ref": ["009628A"]
+		}, {
+			"date": 2000,
+			"desc": "On July 16, 2000, a fire destroyed the old residence building which was no longer in use ",
+			"ref": ["011748"]
+		}],
+		"notesHistory": [{
+			"date": "",
+			"desc": "",
+			"ref": [""]
+		}],
+		"management": {
+			"church": [{
+				"startYear": 1924,
+				"endYear": 1966,
+				"org": "Missionary Society of the Methodist Church of Canada/Board of Home Missions ofthe United Church of Canada",
+				"type": ["Management"],
+				"ref": ["009743", "003329", "US 80256A", "003463"]
+			}],
+			"government": [{
+				"startYear": 1966,
+				"endYear": 1968,
+				"org": "Federal Government of Canada",
+				"type": ["Management"],
+				"ref": ["003463", "003716", "000050"]
+			}],
+			"band": [{
+				"startYear": "",
+				"endYear": "",
+				"org": "",
+				"type": [""],
+				"ref": [""]
+			}]
+		},
+		"facilities": [{
+			"date": 1923,
+			"building": "Residence Building",
+			"event": "construction",
+			"location": "St. Albert, Alberta",
+			"desc": "The government built the main school residence in the 1923-24 fiscal year",
+			"ref": ["000082", "007001", "007001A", "007004", "007005"]
+		}, {
+			"date": 1929,
+			"building": "Residence Building",
+			"event": "renovation",
+			"location": "St. Albert, Alberta",
+			"desc": "Over 80 pupils from Brandon IRS were accommodated at Edmonton IRS in the 1929-193 0 school year during the period of construction of the new Brandon IRS in Manitoba. To accommodate the increased pupilage, the top floor or attic of the school building was renovated to provide expanded dormitory space for pupils and necessary staff ",
+			"ref": ["007452", "007485", "003342"]
+		}, {
+			"date": 1930,
+			"building": "Residence Building",
+			"event": "agreement",
+			"location": "St. Albert, Alberta",
+			"desc": "The government entered into an agreement with the Calgary Power Company to provide electrical energy and power to Edmonton IRS, to start on or before October 31, 1930 ",
+			"ref": ["004699"]
+		}, {
+			"date": 1891,
+			"building": "Residence Building",
+			"event": "renovation",
+			"location": "St. Albert, Alberta",
+			"desc": "The government undertook the first major renovation of the school residence. The roof and gutters were repaired to prevent water leaking into the interior of the building, a problem which was reported to have developed shortly after the building was constructed. Other repairs included the replacement of interior plaster work, repairs to exterior brick walls and chimney, painting all exterior woodwork and flashings, and repairs to the concrete entrance steps ",
+			"ref": ["000423", "000424", "000428"]
+		}, {
+			"date": 1950,
+			"building": "Residence Building",
+			"event": "renovation",
+			"location": "St. Albert, Alberta",
+			"desc": "Extensive revisions to the plumbing, sewage and heating systems in the school building were undertaken and completed by the government in 1950",
+			"ref": ["000101", "000034"]
+		}, {
+			"date": 1951,
+			"building": "Residence Building",
+			"event": "renovation",
+			"location": "St. Albert, Alberta",
+			"desc": "In April 1951, the government removed the steeple from the school residence due to it 'leaking badly'",
+			"ref": ["000087, p.4", "007587"]
+		}, {
+			"date": 1953,
+			"building": "Gas Lines",
+			"event": "construction",
+			"location": "St. Albert, Alberta",
+			"desc": "In 1953, Northwestern Utilities extended gas lines to serve Edmonton IRS; in 1954, natural gas was installed in various buildings at the school ",
+			"ref": ["007739", "007887", "007927"]
+		}, {
+			"date": 1955,
+			"building": "Residence Building",
+			"event": "renovation",
+			"location": "St. Albert, Alberta",
+			"desc": "By October 1955, the government completed renovating the attic ofthe school residence to accommodate a growing need for more staff living quarters and storage space ",
+			"ref": ["007697", "007957", "005003"]
+		}, {
+			"date": 1959,
+			"building": "School Buildings",
+			"event": "renovation",
+			"location": "St. Albert, Alberta",
+			"desc": "Between 1959 and 1962, the government undertook another set of major renovations to the main school building (exterior window and brick work, interior re-wiring, heating and plumbing repairs, redecoration and other improvements to the roof, fire escapes and grounds) designed to facilitate the school's new role as a hostel for high school students. Phase I was completed in May 1960. It included mainly exterior work, such as replacing windows and sandblasting brick, but also some interior work in the form of mechanical repairs. Phase II focused on interior work. It was completed in 1961 and included electrical re-wiring, heating, plumbing and hot water supply systems, as well as general repairs and alterations. Phase III included improved plumbing facilities, re-decoration, new flooring, new doors and hardware, renewal of wall finishes, repairs to the pump house and exterior improvements to the roof, fire escapes and grounds. These final repairs were completed in April 1962.",
+			"ref": ["000014", "000640", "000641", "009386", "009386B", "007165", "006511", "009164"]
+		}, {
+			"date": 1920,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "St. Albert, Alberta",
+			"desc": "Some outbuildings were built prior to the opening of the school. These included the principal's residence, farmer's residence, horse barn, pump-house and utility building ",
+			"ref": ["000267"]
+		}, {
+			"date": 1925,
+			"building": "Stock Barn",
+			"event": "construction",
+			"location": "St. Albert, Alberta",
+			"desc": "A stock barn, deemed by a government official as 'one of the finest in Alberta', was erected in 1925 ",
+			"ref": ["000529", "000509", "004680"]
+		}, {
+			"date": 1928,
+			"building": "Farmer's Residence",
+			"event": "construction",
+			"location": "St. Albert, Alberta",
+			"desc": "A new farmer's residence was completed in 1928 ",
+			"ref": ["007402", "007434"]
+		}, {
+			"date": 1929,
+			"building": "Outbuildings",
+			"event": "construction",
+			"location": "St. Albert, Alberta",
+			"desc": "Another cattle barn, a new hen house, an implement shed and a threshing machine house were constructed in 1929",
+			"ref": ["007485", "004680"]
+		}, {
+			"date": 1948,
+			"building": "Outbuildings",
+			"event": "",
+			"location": "St. Albert, Alberta",
+			"desc": "In 1948, outbuildings at the school included three staff dwellings (Principal, Asst. Principal and Farmer's house), a cow barn, horse barn, piggery, chicken shed, brooder house for chickens, dairy and pump house, utility building, implement shed and sewerage plant",
+			"ref": ["000087"]
+		}, {
+			"date": 1953,
+			"building": "Utility Building",
+			"event": "renovation",
+			"location": "St. Albert, Alberta",
+			"desc": "In January 1953, the government finished the renovation ofthe top floor ofthe utility building or garage to provide the school with additional classroom space. In the fall of 1953, due to staff overcrowding in the main school building, the manual training shop in the utility building or garage was moved to the old horse barn and the newly emptied space improvised as living quarters for a teacher and his family. As well as accommodating the displaced manual training shop, the old horse barn also served as a gymnasium and a drill hall for the air cadets. The facilities for these services were described as 'very poor indeed'.",
+			"ref": ["007668", "004769"]
+		}, {
+			"date": 1957,
+			"building": "Chicken house",
+			"event": "damage",
+			"location": "St. Albert, Alberta",
+			"desc": "In 1957, the former chicken house burned down ",
+			"ref": ["009016"]
+		}, {
+			"date": 1966,
+			"building": "Skating Rink House",
+			"event": "construction",
+			"location": "St. Albert, Alberta",
+			"desc": "A skating rink house was built around 1966 or 1967",
+			"ref": ["006307", "003920"]
+		}, {
+			"date": 1891,
+			"building": "Residence Building",
+			"event": "transfer",
+			"location": "St. Albert, Alberta",
+			"desc": "Six years after the government closed the school, the residence was selected as the site for Poundmaker Lodge, 'a native-controlled native alcohol rehabilitation centre'",
+			"ref": ["009628A"]
+		}],
+		"land": [{
+			"date": 1919,
+			"owner": "Federal Government of Canada",
+			"size": "855.15 acres",
+			"type": ";and",
+			"location": "St. Albert, Alberta",
+			"note": "In 1919, a committee composed of a Methodist Church and a government representative selected a site for the school and associated farm [000263, 000393]. Approximately 855.15 acres of land was purchased by the government for $60,000",
+			"ref": ["000265", "000491", "000489"]
+		}, {
+			"date": 1944,
+			"owner": "Federal Government of Canada",
+			"size": "10.35 acres",
+			"type": "transfer",
+			"location": "St. Albert, Alberta",
+			"note": "Order in Council P.C. 7052 dated Sept. 12, 1944, transferred 10.35 acres of Edmonton IRS land in Section 12 to the Crown as represented by the Minister of Transport, for a railway spur line to the Namao Airfield ",
+			"ref": ["003071"]
+		}, {
+			"date": 1965,
+			"owner": "Federal Government of Canada",
+			"size": "",
+			"type": "transfer",
+			"location": "St. Albert, Alberta",
+			"note": "Two parcels ofland, the River Lot and a portion of Section 12, were sold to the Province of Alberta in 1965 prior to the school's 1968 closing",
+			"ref": ["003892", "003895", "003897"]
+		}, {
+			"date": 1970,
+			"owner": "Federal Government of Canada",
+			"size": "",
+			"type": "transfer",
+			"location": "St. Albert, Alberta",
+			"note": "The final parcel, on which the school buildings were located, was transferred to the Province of Alberta in 1970 ",
+			"ref": ["006219"]
+		}],
+		"media": [{
+			"ref": "008043",
+			"date": "undated",
+			"desc": "(circa 1950's) Attic Floor Plan. The top floor of the residence was also known as the 3rd floor or Attic "
+		}, {
+			"ref": "UC 80256D",
+			"date": "undated",
+			"desc": "Map ofUnited Church Indian Work in Alberta, shows context ofEdmonton IRS in relation to northern Alberta reserves, other cities and geographic features"
+		}, {
+			"ref": "000087",
+			"date": 1948,
+			"desc": "Photographs of exterior of school residence (prior to removal of steeple in 1951) and outbuildings, including houses, barn and other farm buildings, Utility building and sewage disposal plant and overflow pond (p. 7 and 8) "
+		}, {
+			"ref": "007579",
+			"date": 1951,
+			"desc": "Rough sketch of the floor plan of the Utility Building, before classroom renovations, showing the Manual Training room "
+		}, {
+			"ref": "003824B",
+			"date": 1959,
+			"desc": "Floor plan ofPrincipal's Residence (p. 4, 5, 6) Floor plan of Staff House No. 1 (p. 9) Floor plan of Apartment in Utility Building (p. 16) "
+		}, {
+			"ref": "003776A",
+			"date": 1960,
+			"desc": "Photographs of the one bedroom apartment in the Utility Building (p. 1)"
+		}, {
+			"ref": "004427",
+			"date": 1960,
+			"desc": "Floor plan of Staff House No. 2 (Engineer's Residence) "
+		}, {
+			"ref": "009380",
+			"date": 1960,
+			"desc": "Before and After Photographs of 'Rusco Window Replacement Installation' on School Residence "
+		}, {
+			"ref": "009434",
+			"date": 1961,
+			"desc": "One of the two stock barns at Edmonton IRS "
+		}, {
+			"ref": "009129A",
+			"date": 1961,
+			"desc": "Photographs of progress on 'Phase III' major repairs done at the school, including metal toilet partitions (p. 4, 5, 6) "
+		}, {
+			"ref": "009157A",
+			"date": 1962,
+			"desc": "Photographs of progress on 'Phase III' major repairs done at the school, including washroom facilities and rooms (p. 3, 5) "
+		}, {
+			"ref": "003782",
+			"date": 1962,
+			"desc": "Residence Floor Plan. Showing all four levels: basement, 1st, 2nd and 3rd floors"
+		}, {
+			"ref": "000056",
+			"date": 1965,
+			"desc": "Provides a written 'walk-though' description ofthe school's floor plan "
+		}, {
+			"ref": "003920",
+			"date": 1970,
+			"desc": "Written description and photographs for appraisal purposes of eight buildings, including 'Students' Residence', maintenance building, houses, pump house, small metal shed and small garage known as a skate shed (p. 15-19 & 22-25) "
+		}, {
+			"ref": "003370",
+			"date": 1999,
+			"desc": "Photographs taken during tour ofEdmonton I.R.S. site, May, 1999, including Residence and Utility Building (p. 1-3 & 14) "
+		}, {
+			"ref": "",
+			"date": 2003,
+			"desc": "Composite Sketch of School Grounds. Base sketch: 009528A (undated, circa 1958) annotated with composite information drawn from 007517 (1 0/18/1927); 000087 (09/30/1948, p. 9-13); 003721 (01/09/1959) "
+		}],
+		"enrollment": [{
+			"year": 1924,
+			"number": 60,
+			"notes": ""
+		}, {
+			"year": 1925,
+			"number": 60,
+			"notes": ""
+		}, {
+			"year": 1926,
+			"number": 60,
+			"notes": ""
+		}, {
+			"year": 1927,
+			"number": 105,
+			"notes": ""
+		}, {
+			"year": 1928,
+			"number": 105,
+			"notes": ""
+		}, {
+			"year": 1929,
+			"number": 123,
+			"notes": ""
+		}, {
+			"year": 1930,
+			"number": 200,
+			"notes": "Over 200 pupils were accommodated in the 1929-193 0 school year, as 83 pupils from Brandon IRS in Manitoba were temporarily housed at Edmonton IRS."
+		}, {
+			"year": 1931,
+			"number": 147,
+			"notes": ""
+		}, {
+			"year": 1932,
+			"number": 147,
+			"notes": ""
+		}, {
+			"year": 1933,
+			"number": 158,
+			"notes": ""
+		}, {
+			"year": 1934,
+			"number": 158,
+			"notes": ""
+		}, {
+			"year": 1935,
+			"number": 148,
+			"notes": ""
+		}, {
+			"year": 1936,
+			"number": 134,
+			"notes": ""
+		}, {
+			"year": 1937,
+			"number": 152,
+			"notes": ""
+		}, {
+			"year": 1938,
+			"number": 136,
+			"notes": ""
+		}, {
+			"year": 1939,
+			"number": 124,
+			"notes": ""
+		}, {
+			"year": 1940,
+			"number": 117,
+			"notes": ""
+		}, {
+			"year": 1941,
+			"number": 110,
+			"notes": ""
+		}, {
+			"year": 1942,
+			"number": 1110,
+			"notes": ""
+		}, {
+			"year": 1943,
+			"number": 101,
+			"notes": ""
+		}, {
+			"year": 1944,
+			"number": 95.7,
+			"notes": ""
+		}, {
+			"year": 1945,
+			"number": 91.4,
+			"notes": ""
+		}, {
+			"year": 1946,
+			"number": 132,
+			"notes": ""
+		}, {
+			"year": 1947,
+			"number": 132,
+			"notes": ""
+		}, {
+			"year": 1948,
+			"number": 148,
+			"notes": ""
+		}, {
+			"year": 1949,
+			"number": 152,
+			"notes": ""
+		}, {
+			"year": 1950,
+			"number": 158,
+			"notes": ""
+		}, {
+			"year": 1951,
+			"number": 162.15,
+			"notes": ""
+		}, {
+			"year": 1952,
+			"number": 160.75,
+			"notes": ""
+		}, {
+			"year": 1953,
+			"number": 155.54,
+			"notes": ""
+		}, {
+			"year": 1954,
+			"number": 169.58,
+			"notes": ""
+		}, {
+			"year": 1955,
+			"number": 178.34,
+			"notes": ""
+		}, {
+			"year": 1956,
+			"number": 131.29,
+			"notes": ""
+		}, {
+			"year": 1957,
+			"number": 122,
+			"notes": ""
+		}, {
+			"year": 1958,
+			"number": 119,
+			"notes": ""
+		}, {
+			"year": 1959,
+			"number": 135.5,
+			"notes": ""
+		}, {
+			"year": 1960,
+			"number": 141.25,
+			"notes": ""
+		}, {
+			"year": 1961,
+			"number": 133.5,
+			"notes": ""
+		}, {
+			"year": 1962,
+			"number": 116.5,
+			"notes": ""
+		}, {
+			"year": 1963,
+			"number": 115,
+			"notes": ""
+		}, {
+			"year": 1964,
+			"number": 124,
+			"notes": ""
+		}, {
+			"year": 1965,
+			"number": 131,
+			"notes": ""
+		}, {
+			"year": 1966,
+			"number": 111,
+			"notes": ""
+		}, {
+			"year": 1967,
+			"number": 77,
+			"notes": ""
+		}, {
+			"year": 1968,
+			"number": 42,
+			"notes": ""
+		}],
+		"reserves": ["Saddle Lake Agency", "Hobbema Agency", "Edmonton Agency", "Sarcee", "Blackfoot", "Blood", "Lesser Slave Lake", "Rocky Mountain House", "Babine", "Skeena River", "Queen Charlotte", "Terrace", "Bella Coola", "Crooked Lake", "Qu'Appelle", "File Hills", "Champagne Band, Ft. McPherson", "Dawson"],
+		"religiousGroups": [{
+			"group": "Methodist Church of Canada/Missionary Society",
+			"ref": ["000280"]
+		}, {
+			"group": "United Church of Canada/Board of Home Missions",
+			"ref": ["003329"]
+		}, {
+			"group": "United Church of Canada/Alberta Conference",
+			"ref": ["002380"]
+		}, {
+			"group": "United Church of Canada/Edmonton Presbytery",
+			"ref": ["000641", "000565"]
+		}, {
+			"group": "United Church of Canada/Edmonton Presbytery Indian School/Work Committee",
+			"ref": ["UC 80984", "UC 80190"]
+		}],
+		"writtenAgreements": [{
+			"date": 1962,
+			"title": "Agreement for the Operation ofEdmonton Indian Residential School",
+			"desc": "",
+			"ref": ["000583"]
+		}],
+		"abuseReports": {
+			"physical": [{
+				"date": 1956,
+				"source": "Letters and affadavits",
+				"investigated": false,
+				"result": false,
+				"victim": "unnamed students",
+				"agressor": "unnamed staff",
+				"notes": "Six former staff members presented letters and sworn affidavits to the former Secretary of the IAA [Indian Association of Alberta] claiming an 'atmosphere of disharmony' was fostered by specific staff members, and that 'injustices were meted out to the children' by supervisors ",
+				"ref": ["000619"]
+			}, {
+				"date": 1962,
+				"source": "",
+				"investigated": true,
+				"result": false,
+				"victim": "unnamed students",
+				"agressor": "dormitory supervisor",
+				"notes": "A dormitory supervisor was alleged to have demonstrated 'sadistic' behaviour against the pupils, including physical blows, derogatory language and threats. An investigation by government officials found the reports to be 'true, at least to some extent.' As a result of the investigation, the supervisor was warned not to resort to 'corporal punishment or any form of harsh treatment of pupils', and an assistant to the Principal was hired to supervise the supervisors and students, thus alleviating the Principal of such duties. In response to a letter from a member of the public, the government advised that the matter of any complaints against any staff member relative to cruelty to the children or using profanity, would be taken up with the Church authorities and the necessary remedial action taken",
+				"ref": ["002198", "002197", "002199", "002200", "002201", "000122"]
+			}, {
+				"date": 1966,
+				"source": "",
+				"investigated": false,
+				"result": false,
+				"victim": "unnamed student",
+				"agressor": "former supervisor",
+				"notes": "A former supervisor was reported to have physically beaten pupils and threatened them with violence",
+				"ref": ["003108"]
+			}, {
+				"date": 1991,
+				"source": "Newspaper Article",
+				"investigated": false,
+				"result": false,
+				"victim": "unnamed students",
+				"agressor": "girls' Matron",
+				"notes": "A newspaper article of former students' recollections of the school described the girls' Matron as 'tough and mean who strapped her students'. The article also recounted former students' memories ofbeatings and having their heads shaved as punishment for running away ",
+				"ref": ["001080"]
+			}],
+			"sexual": [{
+				"date": 1960,
+				"source": "",
+				"investigated": true,
+				"result": true,
+				"victim": "unnamed male",
+				"aggressor": "Rev. James Clarence Ludford",
+				"notes": "Rev. James Clarence Ludford, the school's Chaplain, Assistant Principal and Recreation Director, was convicted on Sept. 28, 1960, of unlawfully committing an 'act of gross indecency with ... another male person'. Charges were laid by the police as a result of an investigation initiated by Church authorities. Neither the Church nor the police would divulge to the government information which was considered confidential, such as the names of the children involved. The government considered the matter to have been dealt with by process of law, and subsequently considered the subject closed ",
+				"ref": ["003354", "000001", "000057", "000640", "000639", "000610", "000642", "000612", "000641", " UC 80062", "UC 80211", "UC 80213", "UC 80215", "UC 80216", "UC 80217", "UC 80219", "UC 80220", "UC 80221", "UC 80222", "UC 80224", "UC 80225", "UC 80226", "UC 80227", "UC 80231", "UC 80532"]
+			}, {
+				"date": 1960,
+				"source": "Government correspondence",
+				"investigated": true,
+				"result": false,
+				"victim": "unnamed male",
+				"aggressor": "staff",
+				"notes": "Government correspondence indicates that shortly after Mr. Ludford was discharged of his duties, it was discovered that 'at least one other staff member had been involved in acts of sexual deviation,' and that the 'staff member resigned ostensibly for other reasons.' The details were not divulged to government officials ",
+				"ref": ["000610", "000642"]
+			}]
+		},
+		"additionalInfo": {
+			"studentAggression": [{
+				"date": "1932",
+				"students": "male students",
+				"type": "bullying",
+				"notes": "References to bullying at the school, and fighting amongst the boys. Principal Woodsworth stated that students found bullying were 'punished ... severely'",
+				"ref": ["000308", "000312"]
+			}, {
+				"date": "1945",
+				"students": "female students",
+				"type": "bullying",
+				"notes": "A complaint about a female pupil being 'treated meanly' by other girls at the school was withdrawn ",
+				"ref": ["003636", "003636A", "003636B", "003636C"]
+			}, {
+				"date": "1954",
+				"students": "male pupil",
+				"type": "bullying",
+				"notes": "A male pupil is 'reprimanded for bullying smaller boys' and 'punished for fighting and for disrespect to staff member'",
+				"ref": ["011747"]
+			}, {
+				"date": "1954",
+				"students": "female pupil",
+				"type": "assault",
+				"notes": "A female pupil was expelled for striking a staff member and using foul and abusive language ",
+				"ref": ["006973", "006969"]
+			}],
+			"studentSex": [{
+				"date": 1930,
+				"students": "students",
+				"type": "disease",
+				"notes": "Pupils at the school were treated for syphilis ",
+				"ref": ["000302", "004693"]
+			}, {
+				"date": 1950,
+				"students": "students",
+				"type": "homosexuality",
+				"notes": "Alleged homosexuality among pupils from British Columbia",
+				"ref": ["000613", "000614"]
+			}, {
+				"date": 1952,
+				"students": "students",
+				"type": "expulsion",
+				"notes": "Pupils being expelled for promiscuous habits and breaking the rules ofthe school by the girls letting the boys in their dormitory at night",
+				"ref": ["000926"]
+			}, {
+				"date": 1954,
+				"students": "male pupil",
+				"type": "",
+				"notes": "A male pupil left the dormitory at night by way of the fire escape, broke into the school by a window and went to the Girls' dormitory",
+				"ref": ["011747"]
+			}, {
+				"date": 1955,
+				"students": "female students",
+				"type": "pregnancy",
+				"notes": "Two cases of pregnancy, both having occurred during summer vacation while the pupils were not in residence",
+				"ref": ["006935A, 006881"]
+			}, {
+				"date": 1960,
+				"students": "students",
+				"type": "sex",
+				"notes": "Church authorities were informed of letters written by female pupils to their mothers telling of how the 'boys got into the Girl's residence at night and slept with some of the girls'. A group of pupils from Kitwanga, B.C., withdrew because parents were concerned about unfavourable rumours they had heard for several years about the school, including unspecified personal abuse by some of the other children and 'immorality' in the school ",
+				"ref": ["UC 80211", "007143", "007143A", "007143B"]
+			}, {
+				"date": 1961,
+				"students": "female student",
+				"type": "pregnancy",
+				"notes": "A pupil discovered to be five months pregnant. The new principal was making arrangements with the Agency Superintendent for her care.",
+				"ref": ["000642"]
+			}, {
+				"date": 1961,
+				"students": "female student",
+				"type": "sex",
+				"notes": "A female student leaving the school without permission on the weekend and having sexual contact with a man ",
+				"ref": ["006919A"]
+			}, {
+				"date": 1964,
+				"students": "students",
+				"type": "sex",
+				"notes": "A request from Kitwancool Band Council for the government to investigate reports that sexual relations were 'not infrequent' at Edmonton IRS ",
+				"ref": ["006071A"]
+			}, {
+				"date": 1964,
+				"students": "male student, former female student",
+				"type": "pregnancy",
+				"notes": "A male student having sexual relations during the summer with a former student who became pregnant",
+				"ref": ["006026"]
+			}],
+			"medical": [{
+				"startYear": "",
+				"endYear": "",
+				"type": "",
+				"ref": [""]
+			}]
+		}
+	}
+
+}

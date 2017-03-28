@@ -1,0 +1,215 @@
+{
+    "name": "Cote Improved Federal Day School",
+    "type": "Residential",
+    "location": {
+        "province": "...",
+        "city": "...",
+        "latLng": {
+            "lat": 0.000,
+            "lng": 0.000
+        }
+    },
+    "narrativeDate": "08-11-12",
+    "startYear": 1928,
+    "endYear": 1940,
+    "data": {
+        "nameVariants": [{
+            "startYear": 1928,
+            "endYear": 1940,
+            "name": "Cote Improved Day School",
+            "note": "",
+            "ref": ["CTS-000418-0000","CTS-00472"]
+        },{
+            "startYear": 1928,
+            "endYear": 1940,
+            "name": "Cote Indian Day School",
+            "note": "",
+            "ref": ["CTS-000419","CTS-00508-0000"]
+        }],
+        "chronoHistory": [{
+            "date": 1928,
+            "desc": "The federal government officially recognized and supported the boarding of children at Cote Improved Federal Day School. From Monday to Friday, the IRS accommodated boarders who could not travel daily between their homes and the school.",
+            "ref": ["CTS-000448","CTS-000415","CTS-000418-0000","CTS-000420","CTS-000424"]
+        },{
+            "date": 1940,
+            "desc": "The Cote Improved Federal Day School ceased the boarding of students at the end of the 1939/40 school year.  After June 30, 1940, the former IRS operated only as a day school.",
+            "ref": ["CTS-000492","CTS-000331","CTS-000470-0001"]
+        }],
+        "notesHistory": [{
+            "date": "",
+            "desc": "",
+            "ref": [""]
+        }],
+        "management": {
+            "church": [{
+                "startYear": "",
+                "endYear": "",
+                "org": "",
+                "type": [""],
+                "ref": [""]
+            }],
+            "government": [{
+                "startYear": "",
+                "endYear": "",
+                "org": "",
+                "type": [""],
+                "ref": [""]
+            }],
+            "band": [{
+                "startYear": "",
+                "endYear": "",
+                "org": "",
+                "type": [""],
+                "ref": [""]
+            }]
+        },
+        "facilities": [{
+            "date": 1928,
+            "building": "School Building",
+            "event": "",
+            "location": "Kamsack, Saskatchewan",
+            "desc": "The female boarding students were accommodated on the upper floor of the Cote Improved Federal Day School, along with the staff.  Sleeping accommodation was provided for three or four boys in the dining room for the winter. This room served as a dining room, dormitory and washroom.",
+            "ref": ["CTS-000418-0001","CTS-000423","CTS-000424"]
+        },{
+            "date": 1931,
+            "building": "Fire Escape",
+            "event": "construction",
+            "location": "Kamsack, Saskatchewan",
+            "desc": "There was no fire escape from the upstairs floor where the girls’ dormitory area was located.  Rope and hooks were purchased to serve as fire escapes. ",
+            "ref": ["CTS-000432","CTS-000135-0000","CTS-000135-0001"]
+        },{
+            "date": 1932,
+            "building": "School Building",
+            "event": "",
+            "location": "Kamsack, Saskatchewan",
+            "desc": "The main building included five bedrooms upstairs; the ground floor included a classroom and a four-room area that served as the matron/teacher residence; the basement included a furnace room, a vegetable room and a clothing room.",
+            "ref": ["CTS-000159","CTS-000126-0000"]
+        },{
+            "date": 1936,
+            "building": "School Building",
+            "event": "",
+            "location": "Kamsack, Saskatchewan",
+            "desc": "The Cote Improved Federal Day School was 100 yards from the federal government Indian Agency buildings on the Cote Reserve and 75 feet from the road. It was fenced and the front space was used as the children’s playground.  The main building included classroom at the front; students were served a hot lunch in the dining room at the rear of the building.  Two other rooms on the main floor served as the living quarters of the missionaries and included a kitchen and living room. The upstairs of the building contained five bedrooms, with only one small room reserved for pupils.  Three bedrooms were for staff members and one bedroom was in use as a linen storage room.  There were two outdoor toilets and a barn.",
+            "ref": ["CTS-000056"]
+        }],
+        "land": [{
+            "date": "",
+            "owner": "",
+            "size": "",
+            "type": "",
+            "location": "",
+            "note": "",
+            "ref": []
+        }],
+        "media": [{
+            "ref": "SPR-004394",
+            "date": "undated,though 191[6] depicted above building entrance",
+            "desc": "Diagram of the front elevation of combined Cote Day School and Teacher's Residence"
+        }],
+        "enrollment": [{
+            "year": 1928,
+            "number": 36,
+            "notes": "May include residents"
+        },{
+            "year": 1929,
+            "number": 36,
+            "notes": "May include residents"
+        },{
+            "year": 1930,
+            "number": 36,
+            "notes": "May include residents"
+        },{
+            "year": 1931,
+            "number": 27,
+            "notes": "May include residents"
+        },{
+            "year": 1932,
+            "number": 31,
+            "notes": "May include residents"
+        },{
+            "year": 1933,
+            "number": 34,
+            "notes": "May include residents"
+        },{
+            "year": 1934,
+            "number": 33,
+            "notes": "May include residents"
+        },{
+            "year": 1935,
+            "number": 28,
+            "notes": "May include residents"
+        },{
+            "year": 1936,
+            "number": 29,
+            "notes": "May include residents"
+        },{
+            "year": 1937,
+            "number": 22,
+            "notes": ""
+        },{
+            "year": 1938,
+            "number": 23,
+            "notes": ""
+        },{
+            "year": 1939,
+            "number": 23,
+            "notes": ""
+        }],
+        "reserves": [""],
+        "religiousGroups": [{
+            "group": "",
+            "ref": [""]
+        }],
+        "writtenAgreements": [{
+            "date": "",
+            "title": "",
+            "desc": "",
+            "ref": [""]
+        }],
+        "abuseReports": {
+            "physical": [{
+                "date": "",
+                "source": "",
+                "investigated": "",
+                "result": "",
+                "victim": "",
+                "agressor": "",
+                "notes": "",
+                "ref": [""]
+            }],
+            "sexual": [{
+                "date": "",
+                "source": "",
+                "investigated": "",
+                "result": "",
+                "victim": "",
+                "aggressor": "",
+                "notes": "",
+                "ref": [""]
+            }]
+        },
+        "additionalInfo": {
+            "studentAggression": [{
+                "date": "",
+                "students": "",
+                "type": "",
+                "notes": "",
+                "ref": [""]
+            }],
+            "studentSex": [{
+                "date": "",
+                "students": "",
+                "type": "",
+                "notes": "",
+                "ref": [""]
+            }],
+            "medical": [{
+                "startYear": "",
+                "endYear": "",
+                "type": "",
+                "ref": [""]
+            }]
+        }
+    }
+
+}

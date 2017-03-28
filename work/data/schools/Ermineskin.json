@@ -1,0 +1,1249 @@
+{
+	"name": "Ermineskin IRS",
+	"type": "Residential",
+	"location": {
+		"province": "...",
+		"city": "...",
+		"latLng": {
+			"lat": 0.000,
+			"lng": 0.000
+		}
+	},
+	"narrativeDate": "15-09-00",
+	"startYear": 1894,
+	"endYear": 1987,
+	"data": {
+		"nameVariants": [{
+			"startYear": 1877,
+			"endYear": 1877,
+			"name": "Ermineskin School",
+			"note": "",
+			"ref": ["ERM-007057-0000"]
+		}, {
+			"startYear": 1894,
+			"endYear": 1894,
+			"name": "Ermineskin's Boarding School",
+			"note": "",
+			"ref": ["ERM-001910"]
+		}, {
+			"startYear": 1932,
+			"endYear": 1932,
+			"name": "Hobbema IRS",
+			"note": "",
+			"ref": ["ERM-001873"]
+		}, {
+			"startYear": 1947,
+			"endYear": 1947,
+			"name": "Ermineskin Idian School",
+			"note": "",
+			"ref": ["ERM-002703-0001"]
+		}, {
+			"startYear": 1955,
+			"endYear": 1955,
+			"name": "Ermineskin Indian Residential School",
+			"note": "",
+			"ref": ["ERM-003518"]
+		}, {
+			"startYear": 1961,
+			"endYear": 1962,
+			"name": "Residential-Day School ",
+			"note": "",
+			"ref": ["ERM-004800"]
+		}, {
+			"startYear": 1969,
+			"endYear": 1969,
+			"name": "Ermineskin Indian Student Residence (RC) ",
+			"note": "",
+			"ref": ["ERM-008157"]
+		}, {
+			"startYear": 1969,
+			"endYear": 1969,
+			"name": "Hobbema Educational Complex",
+			"note": "",
+			"ref": ["ERM-008624"]
+		}, {
+			"startYear": 1969,
+			"endYear": 1969,
+			"name": "Ermineskin Student Residence ",
+			"note": "",
+			"ref": ["ERM-002006"]
+		}, {
+			"startYear": 1970,
+			"endYear": 1970,
+			"name": "Ermineskin Hostel ",
+			"note": "",
+			"ref": ["ERM-002016"]
+		}, {
+			"startYear": 1970,
+			"endYear": 1970,
+			"name": "Ermineskin School Residence",
+			"note": "",
+			"ref": ["ERM-000919"]
+		}, {
+			"startYear": 1971,
+			"endYear": 1971,
+			"name": "Ermineskin Residential School, Red Deer, Alberta ",
+			"note": "",
+			"ref": ["ERM-003045-0002"]
+		}, {
+			"startYear": 1972,
+			"endYear": 1972,
+			"name": "Ermineskin Residence",
+			"note": "",
+			"ref": ["ERM-001181"]
+		}, {
+			"startYear": 1974,
+			"endYear": 1974,
+			"name": "Erministium School in Hobbema",
+			"note": "",
+			"ref": ["ERM-007896-0001"]
+		}],
+		"chronoHistory": [{
+			"date": 1894,
+			"desc": "School established in 1894",
+			"ref": ["[ERM-006225-0001", "ERM-800010"]
+		}, {
+			"date": 1895,
+			"desc": "Request Oblates of Mary Immaculate to the Government for an Industrial Boarding School on Ermineskin reserve for the Nuns to operate, along with buildings and per capita grants. Management by the Sisters of Assumption began in 1895 ",
+			"ref": ["ERM-001906", "ERM-030920"]
+		}, {
+			"date": 1934,
+			"desc": "Management by the Sisters of Assumption discontinued as of Apr. 1, 1934. School managed by the Order of the Oblate Fathers as of Apr. 1, 1934. Residence managed by the Order of the Oblate Fathers as of Apr. 1, 1934 ",
+			"ref": ["ERM-001906", "ERM-030920", "ERM-001572", "ERM-002010"]
+		}, {
+			"date": 1939,
+			"desc": "New building erected, including an upper floor boys’ dorm, the ground floor containing 4 classrooms and the basement including a playroom and gym ",
+			"ref": ["ERM-003142-0000"]
+		}, {
+			"date": 1949,
+			"desc": "Hobbema Indian Day School opened on Sep. 6, 1949 ",
+			"ref": ["ERM-001317", "ERM-008461"]
+		}, {
+			"date": 1950,
+			"desc": "Ermineskin Day School began operations ",
+			"ref": ["ERM-000109", "ERM-008654"]
+		}, {
+			"date": 1954,
+			"desc": "Contract awarded for construction of a dormitory building at Ermineskin IRS. New dormitory block will be owned by the Government ",
+			"ref": ["ERM-001531", "ERM-001537"]
+		}, {
+			"date": 1955,
+			"desc": "Management of the school by the Order of Oblate fathers discontinued as of Sep. 1, 1955 ",
+			"ref": ["EREM-001572", "ERM-030920"]
+		}, {
+			"date": 1955,
+			"desc": "Construction begins on a new dormitory, including kitchen, recreation hall, Sisters’ residence, and Father’s residence. Specifications of the building ",
+			"ref": ["ERM-002494-0001"]
+		}, {
+			"date": 1955,
+			"desc": "Amalgamation of Ermineskin IRS and the Hobbema No. 2 Day School",
+			"ref": ["ERM-000293"]
+		}, {
+			"date": 1956,
+			"desc": "New dormitory, including kitchen, recreation hall, Sisters’ residence, and Father’s residence completed ",
+			"ref": ["ERM-000695"]
+		}, {
+			"date": 1959,
+			"desc": "A Gr. 12 class was taught at Ermineskin IRS without approval from the Government ",
+			"ref": ["ERM-000361"]
+		}, {
+			"date": 1961,
+			"desc": "Agreement reached regarding high school program at Ermineskin IRS. General high school diploma pattern only to be offered, and students whose Gr. 9 marks indicate academic ability will be required to attend separate schools at Edmonton or Jasper Place ",
+			"ref": ["ERM-008181"]
+		}, {
+			"date": 1964,
+			"desc": "Policy of Government regarding High School students, admission, and residency, notes that approval of admission is its responsibility (not the Principal’s). High School students can attend on a day basis and may be admitted to residence if required for study purposes ",
+			"ref": ["ERM-006217"]
+		}, {
+			"date": 1965,
+			"desc": "First kindergarten class started on Nov. 22, 1965 ",
+			"ref": ["ERM-000831"]
+		}, {
+			"date": 1966,
+			"desc": "Opening of a new gym built by the Government ",
+			"ref": ["ERM-000071"]
+		}, {
+			"date": 1968,
+			"desc": "Plans to discontinue high school instruction at federal schools",
+			"ref": ["ERM-008120"]
+		}, {
+			"date": 1968,
+			"desc": "Separation of the classroom and residence administration to be effective on Sep. 1, 1968.  The residence’s name will change from “Residential School” to “Student Residence.” Person in charge of the Student Residence will be called the Administrator. Person in charge of the School currently designated as the Senior Teacher will be called the Principal ",
+			"ref": ["ERM-007295"]
+		}, {
+			"date": 1969,
+			"desc": "Difficulties arise from separation of administration of classroom blocks from residence with respect to combined staff whose duties encompass both areas, particularly janitors, caretakers, nightwatchmen, childcare supervisors, etc. ",
+			"ref": ["ERM-008601-0000"]
+		}, {
+			"date": 1969,
+			"desc": "Ermineskin IRS name changed to Ermineskin Student Residence ",
+			"ref": ["ERM-002006"]
+		}, {
+			"date": 1969,
+			"desc": "Construction of 16 classroom school and 12 unit staff accommodation officially completed ",
+			"ref": ["ERM-008268-0000"]
+		}, {
+			"date": 1969,
+			"desc": "Management of the residence by the Order of Oblate Fathers discontinued as of Apr. 1, 1969.  The federal government takes over operation of the residence on April 1, 1969 and all employees of the residence become federal public servants.",
+			"ref": ["ERM-002010", "ERM-030920"]
+		}, {
+			"date": 1971,
+			"desc": "The school on the grounds of Ermineskin IRS was administratively divided into the following 3 institutions: 1. Ermineskin Kindergarten School; 2. Ermineskin Primary School; 3. Ermineskin Elementary-Junior High School. The Kindergarten and Primary school was administered by one Principal and the Elementary – Junior High School by another Principal ",
+			"ref": ["ERM-007236", "ERM-007539-0001"]
+		}, {
+			"date": 1972,
+			"desc": "Reference to the possible closing of Ermineskin Residence if it is no longer needed for strictly educational purposes",
+			"ref": ["ERM-001181"]
+		}, {
+			"date": 1972,
+			"desc": "Letter from the District Supervisor to the Four Band Council regarding consultations about the possible future closure of the Residence ",
+			"ref": ["ERM-007187"]
+		}, {
+			"date": 1975,
+			"desc": "Government discontinued managing the Ermineskin Residence as of Sep. 1, 1975. Remaining students were either sent home or placed in foster care ",
+			"ref": ["ERM-001164", "ERM-007171", "ERM-002225", "ERM-007312"]
+		}, {
+			"date": 1979,
+			"desc": "The Ermineskin Band requested by Band Council Resolution that the Government turn over the old Residence building to the Band for use of the community. The Ermineskin Band also requested the Government turn over the 6 unit motel, two 3 bedroom bungalows and two 4 bedroom bungalows to the Band. These Band Council Resolutions were approved by the Government, “on the condition that the Band assumes all future responsibility (financial and otherwise) for the buildings” ",
+			"ref": ["ERM-002230", "ERM-002227", "ERM-002228", "ERM-002472-0001", "ERM-002477-0000", "ERM-002477-0001", "ERM-07192-0000", "ERM-007192-0001", "ERM-007192-0002"]
+		}, {
+			"date": 1980,
+			"desc": "Band Council Resolution requesting the Government turn over a 12-unit teacherage to the Band. Government approved authority to transfer the teacherage at no cost for Band use.",
+			"ref": ["ERM-002231", "ERM-002232"]
+		}, {
+			"date": 1985,
+			"desc": "Letter to the Four Band Education from the Government notifying them that direct federal involvement in the operation and maintenance of educational facilities will cease. The Government requests that “the Four Band Education organization consider taking over the operation and maintenance of the Education facilities at the Ermineskin site” ",
+			"ref": ["ERM-007021"]
+		}, {
+			"date": 1987,
+			"desc": "The last documented references to school activities are dated in the 1986/1987 school year ",
+			"ref": ["ERM-008571-0002"]
+		}],
+		"notesHistory": [{
+			"date": "",
+			"desc": "",
+			"ref": [""]
+		}],
+		"management": {
+			"church": [{
+				"startYear": 1895,
+				"endYear": 1934,
+				"org": "Sisters of Assumption",
+				"type": ["Management"],
+				"ref": ["ERM-001906", "ERM-030920"]
+			}, {
+				"startYear": 1934,
+				"endYear": 1955,
+				"org": "Order of the Oblate Fathers, Roman Catholic (R.C.) Church",
+				"type": ["Management"],
+				"ref": ["ERM-001572", "ERM-030920"]
+			}, {
+				"startYear": 1934,
+				"endYear": 1969,
+				"org": "Order of the Oblate Fathers",
+				"type": ["Management"],
+				"ref": ["ERM-002010", "ERM-030920"]
+			}],
+			"government": [{
+				"startYear": 1955,
+				"endYear": 1975,
+				"org": "Federal Government of Canada",
+				"type": ["Management"],
+				"ref": ["ERM-000960", "ERM-001572", "ERM-004363", "ERM-002010", "ERM-008157", "ERM-007171"]
+			}],
+			"band": [{
+				"startYear": 1975,
+				"endYear": 1987,
+				"org": "Ermineskin Band Council",
+				"type": ["Management"],
+				"ref": ["ERM-000919", "ERM-003050-0000", "ERM-003050-0001", "ERM-003040", "ERM-003042", "ERM-007553-0000", "ERM-008619", "ERM-007021"]
+			}]
+		},
+		"facilities": [{
+			"date": 1894,
+			"building": "School Buildings",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "The buildings used at Ermineskin IRS owned by the Sisters of Assumption - from 1894 to Nov. 22, 1937 ",
+			"ref": ["ERM-000622"]
+		}, {
+			"date": 1899,
+			"building": "School Buildings",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Letter refers to the boarding school being the property of the Government ",
+			"ref": ["ERM-008723-0001"]
+		}, {
+			"date": 1937,
+			"building": "School Buildings",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "The buildings used at Ermineskin IRS owned  by the Order of the Oblate Fathers, Roman Catholic Church - from Nov. 22, 1937 to Mar. 30, 1955 ",
+			"ref": ["ERM-000622", "ERM-001572"]
+		}, {
+			"date": 1954,
+			"building": "Dormitory",
+			"event": "construction",
+			"location": "Hobbema, Alberta",
+			"desc": "Contract awarded for construction of a dormitory building at Ermineskin IRS. New dormitory block will be owned by the Government ",
+			"ref": ["ERM-001531", "ERM-001537"]
+		}, {
+			"date": 1955,
+			"building": "Dormitory",
+			"event": "construction",
+			"location": "Hobbema, Alberta",
+			"desc": "Construction begins on a new dormitory, including kitchen, recreation hall, Sisters’ residence, and Father’s residence. Specifications of the building ",
+			"ref": ["ERM-000686", "ERM-002494-0001"]
+		}, {
+			"date": 1956,
+			"building": "Dormitory",
+			"event": "construction",
+			"location": "Hobbema, Alberta",
+			"desc": "New dormitory, including kitchen, recreation hall, Sisters’ residence, and Father’s residence completed ",
+			"ref": ["ERM-000695"]
+		}, {
+			"date": 1959,
+			"building": "School Buildings",
+			"event": "",
+			"location": "Hobbema, Alberta",
+			"desc": "The only Government owned buildings at Ermineskin IRS are the new classroom block and the residence dorm. The previous residence was Church owned, extremely old and not considered for purchase by the Government ",
+			"ref": ["ERM-003599"]
+		}, {
+			"date": 1962,
+			"building": "Dorm Buildings",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Original dorm building belongs to the Church and records indicate that the Government has not purchased the buildings from the Mission. ",
+			"ref": [""]
+		}, {
+			"date": 1962,
+			"building": "School Buildings",
+			"event": "",
+			"location": "Hobbema, Alberta",
+			"desc": "List of Church owned buildings at Ermineskin IRS detailed for insurance purposes",
+			"ref": ["OGP-031820"]
+		}, {
+			"date": 1965,
+			"building": "School Buildings",
+			"event": "",
+			"location": "Hobbema, Alberta",
+			"desc": "Letter noting that the Government is unsure of ownership of old school block, but the Oblates believe that this building still belongs to the Order ",
+			"ref": [""]
+		}, {
+			"date": 1965,
+			"building": "School Buildings",
+			"event": "",
+			"location": "Hobbema, Alberta",
+			"desc": "Details of insurance held by the church on church owned buildings at Ermineskin IRS ",
+			"ref": ["OGP-031911"]
+		}, {
+			"date": 1966,
+			"building": "School Buildings",
+			"event": "",
+			"location": "Hobbema, Alberta",
+			"desc": "Letter indicates that the Old School Building and the Family Institute Building are owned by the Oblate order ",
+			"ref": ["ERM-007501"]
+		}, {
+			"date": 1966,
+			"building": "School Buildings",
+			"event": "",
+			"location": "Hobbema, Alberta",
+			"desc": "List of buildings on the Ermineskin IRS property ",
+			"ref": ["ERM-007505-0002"]
+		}, {
+			"date": 1968,
+			"building": "Medical Officer's Residence",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Surplus medical officer’s residence to be transferred to Ermineskin IRS to be used for teachers housing ",
+			"ref": ["ERM-002797", "ERM-002813"]
+		}, {
+			"date": 1970,
+			"building": "Four bedroom dwelling",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Four bedroom Agency dwelling transferred to the Education Housing Inventory ",
+			"ref": ["ERM-002726"]
+		}, {
+			"date": 1971,
+			"building": "School Buildings",
+			"event": "",
+			"location": "Hobbema, Alberta",
+			"desc": "List of buildings on the Ermineskin IRS property including 5 residences, a 12 unit apartment, a 6 unit apartment, a 44 classroom school, a carpenters shop and residence, and a Student Residence",
+			"ref": ["ERM-008236"]
+		}, {
+			"date": 1973,
+			"building": "Superintendent's House",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Ermineskin Band Council Resolution requesting the transfer of the Superintendent’s House to the Ermineskin Band ",
+			"ref": ["ERM-002716-0002"]
+		}, {
+			"date": 1974,
+			"building": "Chapel",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Memo mentions an agreement for the Government to pay to the Oblates of Mary Immaculate maintenance costs for use of the Chapel in connection with the Ermineskin School Residence ",
+			"ref": ["ERM-003029"]
+		}, {
+			"date": 1974,
+			"building": "Superintendent's House",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Approval of an Ermineskin Band Council Resolution “for the transfer of the former Superintendent’s Residence to the Band as it is not required for staff accommodation…” ",
+			"ref": ["ERM-002716-0001"]
+		}, {
+			"date": 1975,
+			"building": "School Buildings",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Discussion regarding the possible takeover of the old Residence building by the Ermineskin Band Afor administration purposes for all four Bands”.  A suggestion was made that this be done on a rental basis to guarantee funds for up-keep and maintenance of the building ",
+			"ref": ["ERM-007207"]
+		}, {
+			"date": 1975,
+			"building": "School Buildings",
+			"event": "",
+			"location": "Hobbema, Alberta",
+			"desc": "Letter addressed to the Administrator of the Four Bands states that the building, including the inventory and supplies, are Government property paid for by the Government and the Government can dispose of the equipment and supplies as it sees fit ",
+			"ref": ["ERM-007203"]
+		}, {
+			"date": 1976,
+			"building": "School Buildings",
+			"event": "",
+			"location": "Hobbema, Alberta",
+			"desc": "Letter outlining the final dispensation of the inventory from the Ermineskin Residence indicates that material was distributed to other residential schools or left at the Ermineskin residence ",
+			"ref": ["ERM-007194-0000"]
+		}, {
+			"date": 1976,
+			"building": "School Buildings",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "A Band Council Resolution outlines the details of the transfer of the Ermineskin Student Residence from the Government to the Ermineskin Band ",
+			"ref": ["ERM-002497-0001"]
+		}, {
+			"date": 1976,
+			"building": "School Buildings",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Abeyance of approval of Residence building transfer until several issues, including the costs of maintenance and building operations and future uses, are clarified ",
+			"ref": ["ERM-002496"]
+		}, {
+			"date": 1978,
+			"building": "School Buildings",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Letter notes that “the Band Council wishes the student residence to be officially turned over to Band ownership” ",
+			"ref": ["ERM=007193"]
+		}, {
+			"date": 1979,
+			"building": "Residence Building",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Band Council Resolution requesting the government to turn over the old Residence building to the Band for operation and maintenance and use for community needs ",
+			"ref": ["ERM-002230"]
+		}, {
+			"date": 1979,
+			"building": "Motel",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Band Council Resolution requesting the Government to turn over the 6 unit motel, two 3 bedroom bungalows and two 4 bedroom bungalows to the Band ",
+			"ref": ["ERM-002227"]
+		}, {
+			"date": 1979,
+			"building": "School Buildings",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Turn over of the old Residence building, the6 unit motel, two 3 bedroom bungalows and two 4 bedroom bungalows approved by the government ",
+			"ref": ["ERM-002228"]
+		}, {
+			"date": 1979,
+			"building": "School Buildings",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Letters approving the transfer of surplus Government owned property to the Ermineskin Band “on the condition that the Band assumes all future responsibility (financial and otherwise) for the buildings” ",
+			"ref": ["ERM-002472-0001", "ERM-0024770000", "ERM-002477-0001", "ERM-007192-0000", "ERM-007192-0001", "ERM007192-0002"]
+		}, {
+			"date": 1980,
+			"building": "Teacherage",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Government approved authority to transfer the teacherage at no cost for Band use ",
+			"ref": ["ERM-002232"]
+		}, {
+			"date": 1981,
+			"building": "Teacherage",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Band Council Resolution requesting the government turn over a 12-unit teacherage to the Band ",
+			"ref": ["ERM-002231"]
+		}, {
+			"date": 1985,
+			"building": "School Buildings",
+			"event": "transfer",
+			"location": "Hobbema, Alberta",
+			"desc": "Letter to the Four Band Education from the Government notifying them that their direct involvement in the operation and maintenance of educational facilities will cease. The Government requests that “the Four Band Education organization consider taking over the operation and maintenance of the Education facilities at the Ermineskin site” ",
+			"ref": ["ERM-007021"]
+		}],
+		"land": [{
+			"date": 1887,
+			"owner": "Roman Catholic Church",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Band Council Resolution states that at “...its foundation in 1887..., Chief Ermineskin gave a piece of land to the Catholic Church for the purpose of setting up and supporting a catholic school” ",
+			"ref": ["ERM-007057-0000"]
+		}, {
+			"date": 1924,
+			"owner": "Indian Reserve",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "As there was no farm connected to the school, the Indian Commissioner recommended that land be acquired from the Indian Reserve to provide some land to the School for farm use",
+			"ref": ["ERM-000197"]
+		}, {
+			"date": 1931,
+			"owner": "Ermineskin Band",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "The Sisters of Assumption and the Ermineskin School agree to pay the Ermineskin Band for the use of the land occupied by Ermineskin IRS ",
+			"ref": ["OGP-030167"]
+		}, {
+			"date": 1936,
+			"owner": "",
+			"size": "875 acres",
+			"type": "land",
+			"location": "Hobbema, Alberta",
+			"note": "Audit report lists the farm associated with the school as being 875 acres, 65 of which are under cultivation ",
+			"ref": ["ERM-000609"]
+		}, {
+			"date": 1937,
+			"owner": "",
+			"size": "845 acres",
+			"type": "land",
+			"location": "Hobbema, Alberta",
+			"note": "Letter notes that the farm in connection with the Ermineskin IRS consists of 845 acres, of which 65 is under cultivation ",
+			"ref": ["ERM-006007-0002"]
+		}, {
+			"date": 1939,
+			"owner": "Ermineskin Band",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "The Ermineskin Band agrees to lend land to Ermineskin IRS for as long as the school is in operation ",
+			"ref": ["OGP-030242"]
+		}, {
+			"date": 1946,
+			"owner": "Ermineskin Band",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Terms and payment details discussed at Band Council regarding land rental to Ermineskin IRS ",
+			"ref": ["ERM-002705", "ERM-004744"]
+		}, {
+			"date": 1947,
+			"owner": "Ermineskin Band",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Letter refers to an agreement on May 15, 1947 between the Band Council and the Principal of Ermineskin IRS covering 70 acres (for a period of 5 crop years starting from the spring of 1948) ",
+			"ref": ["ERM-006240"]
+		}, {
+			"date": 1947,
+			"owner": "Ermineskin Band",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Reference to the acreage to be leased by the Principal from an Indian resident. The name on lease would be the “Ermineskin Indian School” and the proceeds would be entirely used for school benefit",
+			"ref": ["ERM-002703-0001"]
+		}, {
+			"date": 1948,
+			"owner": "Ermineskin Band",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Letter indicates that no land had been set aside for school purposes on the Ermineskin Reserve. The Government therefore presumed that when the school began operations, School management was given land on the understanding that it would remain with them as long as the school was operated",
+			"ref": ["ERM-002693"]
+		}, {
+			"date": 1950,
+			"owner": "Calgary Power Ltd",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Ermineskin IRS requests from the Agency permission to use a parcel of land under the Calgary Power Line on the Ermineskin Reserve. Calgary Power Ltd. gave permission for the school to fence and use the land parcel ",
+			"ref": ["ERM-004620"]
+		}, {
+			"date": 1950,
+			"owner": "Ermineskin Band",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "A lease of Ermineskin Band land for school purposes for 5 years. Upon the lease terminating the land will revert back to the Ermineskin Band ",
+			"ref": ["ERM-002674"]
+		}, {
+			"date": 1950,
+			"owner": "",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Ermineskin IRS leased additional land for farming purposes ",
+			"ref": ["ERM-001349"]
+		}, {
+			"date": 1950,
+			"owner": "Federal Government of Canada",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "300 acres leased by Ermineskin IRS from the Government",
+			"ref": ["ERM-000664"]
+		}, {
+			"date": 1953,
+			"owner": "",
+			"size": "40 acres",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Band Council Resolution notes that school officials exchanged 40 acres of school use farmland for 20 acres farmed by an Indian in order to allow room for building the dormitory near the school. The land exchanged is referred to as Oblate Missionary property, and the new land is to be turned over to the Government for school use ",
+			"ref": ["ERM-02656-0000", "ERM-002656-0001", "ERM-002656-0002"]
+		}, {
+			"date": 1953,
+			"owner": "Federal Government of Canada",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Land surrendered to the Government for the building of the dormitory block at Ermineskin IRS ",
+			"ref": ["ERM-001510"]
+		}, {
+			"date": 1955,
+			"owner": "Ermineskin Band",
+			"size": "",
+			"type": "land",
+			"location": "Hobbema, Alberta",
+			"note": "Ermineskin Band, Band Council Resolution, outlines 20 acres of land for use as a school site ",
+			"ref": ["ERM-008833-0002"]
+		}, {
+			"date": 1956,
+			"owner": "Ermineskin Band",
+			"size": "290 acres",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Ermineskin IRS gave up the lease of 290 acres from the Ermineskin Band and another 22 acre lease. Now leases from private owners ",
+			"ref": ["ERM-000695"]
+		}, {
+			"date": 1956,
+			"owner": "",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "The operation of the school farm was turned over to the Mission on Sep. 1, 1956 ",
+			"ref": ["ERM-000703"]
+		}, {
+			"date": 1960,
+			"owner": "",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Crop Share Lease between Ermineskin IRS and a citizen of Ponoka, AB",
+			"ref": ["OGP-032577"]
+		}, {
+			"date": 1961,
+			"owner": "",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Permission from Oblate Fathers to allow land leased by the Ermineskin Band to the Oblates for religious and educational purposes to be used by the Government to build a motel for teachers",
+			"ref": ["ERM-002921-0002"]
+		}, {
+			"date": 1964,
+			"owner": "Ermineskin Band",
+			"size": "4.5 acres",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Memorandum refers to an Ermineskin Band Council Resolution approving allocation of 4.5 acres of land for the construction of a new school which the Government intends to build within the near future ",
+			"ref": ["ERM-008839-0002"]
+		}, {
+			"date": 1965,
+			"owner": "Ermineskin Band",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Ermineskin Band Council Resolution allotting land for school purposes to the Government ",
+			"ref": ["ERM-002611-0001"]
+		}, {
+			"date": 1968,
+			"owner": "Ermineskin Band",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Band Council Resolution to transfer land to the Government for the purpose of constructing a new teacherage ",
+			"ref": ["ERM-008714"]
+		}, {
+			"date": 1969,
+			"owner": "Ermineskin Band",
+			"size": "",
+			"type": "land",
+			"location": "Hobbema, Alberta",
+			"note": "Memorandum refers to an Ermineskin Band Council Resolution which agrees to set aside land for a proposed kindergarten block at Ermineskin IRS ",
+			"ref": ["ERM-007628"]
+		}, {
+			"date": 1970,
+			"owner": "Ermineskin Band",
+			"size": "",
+			"type": "land",
+			"location": "Hobbema, Alberta",
+			"note": "Ermineskin Band Council Resolution reallocates land to be set aside for school purposes ",
+			"ref": []
+		}, {
+			"date": 1975,
+			"owner": "Federal Government of Canada",
+			"size": "",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Discussions took place between the Government and the Four Band Administration regarding the sale of Ermineskin IRS land to the Four Band Administration ",
+			"ref": ["ERM-008221-0000", "ERM-008221-0001", "ERM-008280"]
+		}, {
+			"date": 1975,
+			"owner": "Federal Government of Canada",
+			"size": "32 acres",
+			"type": "transfer",
+			"location": "Hobbema, Alberta",
+			"note": "Band Council Resolution “requesting that approximately 32 acres presently being used by the Ermineskin Schools be turned over to Four Band Administration... The land and buildings will then be used in common by all the Bands at Hobbema” [ERM-008221-0001]. Response from the Government states that the land upon which the school buildings are situated belongs to the Government as long as the buildings are needed for educational purposes. However, the Government would support the possible purchase of 32 acres of land if all Four Bands would send similar Resolutions so that the buildings became vacant. The buildings could then be turned over to the Four Band Administration rather than to one individual Band ",
+			"ref": ["ERM-008280"]
+		}],
+		"media": [{
+			"ref": "ERM-001379",
+			"date": "undated",
+			"desc": "Floor plan for third floor of Ermineskin Indian Residential School"
+		}, {
+			"ref": "ERM-003597",
+			"date": "undated",
+			"desc": "Sketch titled 'Trailer Site Ermineskin School' "
+		}, {
+			"ref": "ERM-003616",
+			"date": "undated",
+			"desc": "Sketch of Ermineskin School Teacherage - Dwelling Unit  #3 "
+		}, {
+			"ref": "ERM-007534",
+			"date": "undated",
+			"desc": "Architectural drawings of front and side elevations of the school. "
+		}, {
+			"ref": "ERM-007766-0003",
+			"date": "undated",
+			"desc": "Ermineskin Indian School, Hobbema, Alberta - Plan of Basement"
+		}, {
+			"ref": "ERM-007833-0003 ",
+			"date": "undated",
+			"desc": "Photographs of various school buildings."
+		}, {
+			"ref": "ERM-007404-0001 ",
+			"date": "undated",
+			"desc": "Fire Prevention Branch - sketches of Ermineskin Indian Residential School. "
+		}, {
+			"ref": "ERM-007092-0003 ",
+			"date": "undated",
+			"desc": "Plans for classroom additions."
+		}, {
+			"ref": "ERM-007627-0001 ",
+			"date": "undated",
+			"desc": "Map of present school buildings and proposed kindergarten addition. "
+		}, {
+			"ref": "ERM-008000-0001 ",
+			"date": "undated",
+			"desc": "Map of property reallocation depicting locations of school buildings. "
+		}, {
+			"ref": "ERM-004643-0001 ",
+			"date": "undated",
+			"desc": "Overview map of school grounds. "
+		}, {
+			"ref": "ERM-007221-0002 ",
+			"date": "undated",
+			"desc": "Sketch of a classroom, possibly the manual training room"
+		}, {
+			"ref": "ERM-001763 ",
+			"date": 1938,
+			"desc": "Sketch drawings of school. "
+		}, {
+			"ref": "ERM-007718-0004 ",
+			"date": 1938,
+			"desc": "Photographs of various rooms at the Ermineskin School. "
+		}, {
+			"ref": "ERM-007767-0004 ",
+			"date": 1938,
+			"desc": "Site photographs of buildings at the Hobbema Indian School"
+		}, {
+			"ref": "ERM-007807-0002 ",
+			"date": 1946,
+			"desc": "Plans of entire school grounds. "
+		}, {
+			"ref": "ERM-007833-0004 ",
+			"date": 1948,
+			"desc": "Ermineskin Indian Residential School floor plans. "
+		}, {
+			"ref": "ERM-004033 ",
+			"date": 1956,
+			"desc": "Floor plans of Old Building and New Addition. "
+		}, {
+			"ref": "ERM-006219-0003",
+			"date": 1960,
+			"desc": "Document is rough sketch of kitchen at Ermineskin student residence. "
+		}, {
+			"ref": "ERM-003835 ",
+			"date": 1962,
+			"desc": "Floor plans of School Residence and Furnace Room. "
+		}, {
+			"ref": "ERM-003394-0002 ",
+			"date": 1963,
+			"desc": "Nurse's examination room. "
+		}, {
+			"ref": "ERM-003639 ",
+			"date": 1963,
+			"desc": "Fire protection survey  - photograph of Ermineskin R.C. Indian Residential School Teacherage"
+		}, {
+			"ref": "ERM-003409-0002 ",
+			"date": 1963,
+			"desc": "Fire protection survey - photograph and sketch plans of Ermineskin IRS. "
+		}, {
+			"ref": "ERM-008278-0001 ",
+			"date": 1967,
+			"desc": "Sketches of existing site plan and new site plan. "
+		}, {
+			"ref": "ERM-008328-0002 ",
+			"date": 1968,
+			"desc": "Plans for 16 classroom school at Ermineskin. "
+		}, {
+			"ref": "ERM-002790-0001 ",
+			"date": 1969,
+			"desc": "Medical Officer’s Residence / Teacherage "
+		}, {
+			"ref": "ERM-007253-0001 ",
+			"date": 1969,
+			"desc": "Plans for classroom additions."
+		}, {
+			"ref": "ERM-007953",
+			"date": 1973,
+			"desc": "Construction floor plans - second floor. "
+		}, {
+			"ref": "ERM-007954 ",
+			"date": 1973,
+			"desc": "Construction floor plans - first floor. "
+		}, {
+			"ref": "ERM-008726 ",
+			"date": 1973,
+			"desc": "Additions and alterations to Industrial Arts and Home Economics at Ermineskin School"
+		}, {
+			"ref": "ERM-007967 ",
+			"date": 1976,
+			"desc": "Plan of Second Floor classrooms at Ermineskin. "
+		}, {
+			"ref": "ERM-008276 ",
+			"date": 1977,
+			"desc": "Architectural drawings of additions to the Ermineskin School."
+		}, {
+			"ref": "ERM-007874-0001",
+			"date": 1981,
+			"desc": "Photographs of the Ermineskin School site. "
+		}],
+		"enrollment": [{
+			"year": 1895,
+			"number": 20,
+			"notes": ""
+		}, {
+			"year": 1896,
+			"number": 20,
+			"notes": ""
+		}, {
+			"year": 1897,
+			"number": 20,
+			"notes": ""
+		}, {
+			"year": 1898,
+			"number": 20,
+			"notes": ""
+		}, {
+			"year": 1899,
+			"number": 20,
+			"notes": ""
+		}, {
+			"year": 1900,
+			"number": 54,
+			"notes": ""
+		}, {
+			"year": 1901,
+			"number": 54,
+			"notes": ""
+		}, {
+			"year": 1902,
+			"number": 54,
+			"notes": ""
+		}, {
+			"year": 1903,
+			"number": 54,
+			"notes": ""
+		}, {
+			"year": 1904,
+			"number": 54,
+			"notes": ""
+		}, {
+			"year": 1905,
+			"number": 54,
+			"notes": ""
+		}, {
+			"year": 1906,
+			"number": 54,
+			"notes": ""
+		}, {
+			"year": 1907,
+			"number": 58,
+			"notes": ""
+		}, {
+			"year": 1908,
+			"number": 58,
+			"notes": ""
+		}, {
+			"year": 1909,
+			"number": 58,
+			"notes": ""
+		}, {
+			"year": 1910,
+			"number": 58,
+			"notes": ""
+		}, {
+			"year": 1911,
+			"number": 58,
+			"notes": ""
+		}, {
+			"year": 1912,
+			"number": 58,
+			"notes": ""
+		}, {
+			"year": 1913,
+			"number": 58,
+			"notes": ""
+		}, {
+			"year": 1914,
+			"number": 58,
+			"notes": ""
+		}, {
+			"year": 1915,
+			"number": 58,
+			"notes": ""
+		}, {
+			"year": 1916,
+			"number": 55,
+			"notes": ""
+		}, {
+			"year": 1917,
+			"number": 55,
+			"notes": ""
+		}, {
+			"year": 1918,
+			"number": 55,
+			"notes": ""
+		}, {
+			"year": 1919,
+			"number": 55,
+			"notes": ""
+		}, {
+			"year": 1920,
+			"number": 55,
+			"notes": ""
+		}, {
+			"year": 1921,
+			"number": 55,
+			"notes": ""
+		}, {
+			"year": 1922,
+			"number": 72,
+			"notes": ""
+		}, {
+			"year": 1923,
+			"number": 72,
+			"notes": ""
+		}, {
+			"year": 1924,
+			"number": 72,
+			"notes": ""
+		}, {
+			"year": 1925,
+			"number": 72,
+			"notes": ""
+		}, {
+			"year": 1926,
+			"number": 109,
+			"notes": ""
+		}, {
+			"year": 1927,
+			"number": 123,
+			"notes": ""
+		}, {
+			"year": 1928,
+			"number": 122,
+			"notes": ""
+		}, {
+			"year": 1929,
+			"number": 133,
+			"notes": ""
+		}, {
+			"year": 1930,
+			"number": 152,
+			"notes": ""
+		}, {
+			"year": 1931,
+			"number": 147,
+			"notes": ""
+		}, {
+			"year": 1932,
+			"number": 147,
+			"notes": ""
+		}, {
+			"year": 1933,
+			"number": 147,
+			"notes": ""
+		}, {
+			"year": 1934,
+			"number": 147,
+			"notes": ""
+		}, {
+			"year": 1935,
+			"number": 154,
+			"notes": ""
+		}, {
+			"year": 1936,
+			"number": 154,
+			"notes": ""
+		}, {
+			"year": 1937,
+			"number": 153,
+			"notes": ""
+		}, {
+			"year": 1938,
+			"number": 155,
+			"notes": ""
+		}, {
+			"year": 1939,
+			"number": 160,
+			"notes": ""
+		}, {
+			"year": 1940,
+			"number": 160,
+			"notes": ""
+		}, {
+			"year": 1941,
+			"number": 160,
+			"notes": ""
+		}, {
+			"year": 1942,
+			"number": 157,
+			"notes": ""
+		}, {
+			"year": 1943,
+			"number": 184,
+			"notes": ""
+		}, {
+			"year": 1944,
+			"number": 177,
+			"notes": ""
+		}, {
+			"year": 1945,
+			"number": 182,
+			"notes": ""
+		}, {
+			"year": 1946,
+			"number": 170,
+			"notes": ""
+		}, {
+			"year": 1947,
+			"number": 152,
+			"notes": ""
+		}, {
+			"year": 1948,
+			"number": 197,
+			"notes": ""
+		}, {
+			"year": 1949,
+			"number": 1210,
+			"notes": ""
+		}, {
+			"year": 1950,
+			"number": 187,
+			"notes": ""
+		}, {
+			"year": 1951,
+			"number": 176,
+			"notes": ""
+		}, {
+			"year": 1952,
+			"number": 205,
+			"notes": ""
+		}, {
+			"year": 1953,
+			"number": 210,
+			"notes": ""
+		}, {
+			"year": 1954,
+			"number": 220,
+			"notes": ""
+		}, {
+			"year": 1955,
+			"number": 231,
+			"notes": ""
+		}, {
+			"year": 1956,
+			"number": 263,
+			"notes": ""
+		}, {
+			"year": 1957,
+			"number": 244,
+			"notes": ""
+		}, {
+			"year": 1958,
+			"number": 205,
+			"notes": ""
+		}, {
+			"year": 1959,
+			"number": 216,
+			"notes": ""
+		}, {
+			"year": 1960,
+			"number": 219,
+			"notes": ""
+		}, {
+			"year": 1961,
+			"number": 206,
+			"notes": ""
+		}, {
+			"year": 1962,
+			"number": 177,
+			"notes": ""
+		}, {
+			"year": 1963,
+			"number": 195,
+			"notes": ""
+		}, {
+			"year": 1964,
+			"number": 199,
+			"notes": ""
+		}, {
+			"year": 1965,
+			"number": 207,
+			"notes": ""
+		}, {
+			"year": 1966,
+			"number": 208,
+			"notes": ""
+		}, {
+			"year": 1967,
+			"number": 203,
+			"notes": ""
+		}, {
+			"year": 1968,
+			"number": 176,
+			"notes": ""
+		}, {
+			"year": 1969,
+			"number": 160,
+			"notes": ""
+		}, {
+			"year": 1970,
+			"number": 147,
+			"notes": ""
+		}, {
+			"year": 1971,
+			"number": 142,
+			"notes": ""
+		}, {
+			"year": 1972,
+			"number": 142,
+			"notes": ""
+		}, {
+			"year": 1973,
+			"number": 79,
+			"notes": ""
+		}, {
+			"year": 1974,
+			"number": 92,
+			"notes": ""
+		}],
+		"reserves": ["Alexander", "Alexis", "Beaver Lake", "Big Stone", "Cold Lake", "Enoch", "Ermineskin", "Heart Lake", "Kehewin", "Louis Bull", "Montana", "Paul's", "Poundmaker", "Saddle Lake", "Samson", "Sarcee", "Sunchild", "Winterburn"],
+		"religiousGroups": [{
+			"group": "Oblate Fathers of the Mary Immaculate",
+			"ref": ["ERM-003098"]
+		}, {
+			"group": "Sisteres of Assuption of Nicolet",
+			"ref": ["ERM-030920"]
+		}],
+		"writtenAgreements": [{
+			"date": 1911,
+			"title": "1911 Agreement",
+			"desc": "Standard agreement for operation of Ermineskin IRS: complete and signed ",
+			"ref": ["ERM-000186"]
+		}, {
+			"date": 1962,
+			"title": "1962 Indianescom Agreement",
+			"desc": "Agreement for operation of Ermineskin IRS: signed on Sep. 25, 1962 between the Government and Indianescom (Oblate Indian-Eskimo Commission) ",
+			"ref": ["ERM-001094"]
+		}],
+		"abuseReports": {
+			"physical": [{
+				"date": 1949,
+				"source": "",
+				"investigated": true,
+				"result": false,
+				"victim": "students",
+				"agressor": "Principal",
+				"notes": "Complaint against the Principal for truancy punishment. Truant boys were given two warnings. The 3rd time, they were given a choice between strapping or close hair cut, and the 4th time, they were given a close hair cut. Principal was brought before the Band Council at the Samson Band to explain the case for exceeding his authority.  Discussion states that other complaints (not listed) were being corrected by the Principal, and in one instance, that the services of a staff member were terminated and another person was hired ",
+				"ref": ["EDH-000379"]
+			}, {
+				"date": 1949,
+				"source": "",
+				"investigated": false,
+				"result": false,
+				"victim": "students",
+				"agressor": "Principal",
+				"notes": "Instruction given to the Principal to cease giving students hair cuts as punishment and to keep a log of strappings ",
+				"ref": ["48073", "48074"]
+			}, {
+				"date": 1965,
+				"source": "letter",
+				"investigated": true,
+				"result": false,
+				"victim": "two girls",
+				"agressor": "staff member",
+				"notes": "Letter from Ermineskin IRS staff member reporting bare-bottom strapping of teenage girls and boys as punishment. The letter states that other staff members know about it and will verify. Request to keep the source confidential. Includes letters from two girls, with descriptions of being strapped in an office with their bottoms bare ",
+				"ref": ["ERM-000058", "ERM-200048"]
+			}],
+			"sexual": [{
+				"date": 1965,
+				"source": "Letter",
+				"investigated": true,
+				"result": false,
+				"victim": "two girls",
+				"aggressor": "staff",
+				"notes": "Letter from Ermineskin IRS staff member reporting bare-bottom strapping of teenage girls and boys as punishment. The letter states that other staff members know about it and will verify. Request to keep the source confidential. Includes letters from two girls, with descriptions of being strapped in an office with their bottoms bare ",
+				"ref": ["48026A"]
+			}]
+		},
+		"additionalInfo": {
+			"studentAggression": [{
+				"date": "",
+				"students": "",
+				"type": "",
+				"notes": "",
+				"ref": [""]
+			}],
+			"studentSex": [{
+				"date": "",
+				"students": "",
+				"type": "",
+				"notes": "",
+				"ref": [""]
+			}],
+			"medical": [{
+				"startYear": "",
+				"endYear": "",
+				"type": "",
+				"ref": [""]
+			}]
+		}
+	}
+
+}

@@ -1,0 +1,292 @@
+{
+	"name": "Coppermine Tent Hostel",
+	"type": "Residential",
+	"location": {
+		"province": "...",
+		"city": "...",
+		"latLng": {
+			"lat": 0.000,
+			"lng": 0.000
+		}
+	},
+	"narrativeDate": "05-01-10",
+	"startYear": 1951,
+	"endYear": 1959,
+	"data": {
+		"nameVariants": [{
+			"startYear": "",
+			"endYear": "",
+			"name": "Coppermine Tent Hostel",
+			"note": "",
+			"ref": ["CPU-000329-0001"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "Coppermine Hostel",
+			"note": "",
+			"ref": ["CPU-000158"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "Coppermine Experimental Tent Hostel",
+			"note": "",
+			"ref": ["CPU-000295-0001"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "School Tent Hostel (operated by Anglican Mission)",
+			"note": "",
+			"ref": ["CPU-000001"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "Coppermine Tent Hostel School",
+			"note": "",
+			"ref": ["CPU-000006-0000"]
+		}],
+		"chronoHistory": [{
+			"date": 1951,
+			"desc": "The Coppermine Tent Hostel first went into operation in 1951. Operations in this year represented a brief “trial run” of the Hostel approach, with ten students in residence from March 27 through April 15, 1951. The degree of involvement of the Anglican Church at this time is not clear.",
+			"ref": ["CPU-000134-0001"]
+		}, {
+			"date": 1953,
+			"desc": "Meeting of the Sub-committee on Eskimo Education approves the Coppermine Tent Hostel program and sets out its parameters and objectives as a joint venture between the Federal Government and Anglican Church. The Hostel was slated to open in April 1954 for a five month summer term.",
+			"ref": ["CPU-000077"]
+		}, {
+			"date": 1954,
+			"desc": "The April 1954 opening was postponed to 1955 due to the slow pace of planning and construction, and delays in the arrival of supplies and equipment for the Hostel. A member of the sub-committee on Eskimo Education of the Indian School Administration of the Missionary Society of the Church of England [Anglican Church] in Canada, after reviewing an engineer's report on the Coppermine Tent Hostel site, also strongly recommended a delay in the opening of the Tent Hostel to allow for preparation of 'garbage and sewage pits, the sound construction of the tent frames and floors, the establishment of a satisfactory water source and storage facilities and a general clearing and proper layout of the site'",
+			"ref": ["CPU-0000105", "CPU-000118", "CPU-000096"]
+		}, {
+			"date": 1955,
+			"desc": "The first 'full' season of operation of the Coppermine Tent Hostel began April 15, 1955 and ran until August 22, 1955.  During the years 1955 to 1959, the Tent Hostel school term was held over the summer months (April through August, except 1959 in which the residence operated from March through September). 'Quarterly' Returns were filed monthly during this summer school term.",
+			"ref": ["CPU-000295-0001", "CPU-001206-0002", "CPU-000998", "CPU-001001", "CPU-001007", "CPU-001006"]
+		}, {
+			"date": 1958,
+			"desc": "The Superintendent of Schools of the Department of Northern Affairs recommended that the Tent Hostel not continue operation after 1958 as only five children had been in attendance for three consecutive years of operation despite annual attendance reaching thirty children. The Superintendent of Schools concluded that with the comparatively large sum of money required to establish and maintain the Hostel, the educational gains had been 'dubious'.",
+			"ref": ["CPU-000383"]
+		}, {
+			"date": 1959,
+			"desc": "After its fifth consecutive year of operations, the Coppermine Tent Hostel closed permanently on, or around, August 30, 1959, following a five-month summer term. With submission of the final report pertaining to the 1959 school term, Bishop Marsh declared 'the responsibility of the Diocese of The Arctic to the Tent Hostel ends'",
+			"ref": ["CPU-000437-0000"]
+		}, {
+			"date": 1959,
+			"desc": "Many students who had attended the final summer session of the Coppermine Tent Hostel were admitted to the new hostel facilities in Inuvik (with parental permission).",
+			"ref": ["CPU-000433", "CPU-000435", "CPU-000436"]
+		}, {
+			"date": 1959,
+			"desc": "A new Federally-constructed, owned and managed 12-pupil Small Hostel with permanent (that is, non tent) housing facilities was to open to replace the Tent Hostel. Construction of this new Small Hostel facility was completed but the new hostel never did go into operation. Instead, a program of local boarding in private residences was pursued.",
+			"ref": ["CPU-000390", "CPU-000461", "CPU-000465", "CPU-000469", "CPU-001506", "CPU-001507"]
+		}],
+		"notesHistory": [{
+			"date": "",
+			"desc": "",
+			"ref": [""]
+		}],
+		"management": {
+			"church": [{
+				"startYear": 1955,
+				"endYear": 1959,
+				"org": "Anglican Church",
+				"type": ["Management", "Teaching", "Staff"],
+				"ref": ["CPU-000190-0000", "CPU-000329-0001", "CPU-000418-0002", "CPU-000448-0002", "CPU-001183"]
+			}],
+			"government": [{
+				"startYear": 1951,
+				"endYear": 1959,
+				"org": "Federal Government of Canada",
+				"type": ["Management"],
+				"ref": ["CPU-000190-0000", "CPU-000329-0001", "CPU-000418-0002", "CPU-000448-0002", "CPU-001183"]
+			}],
+			"band": [{
+				"startYear": "",
+				"endYear": "",
+				"org": "",
+				"type": [""],
+				"ref": [""]
+			}]
+		},
+		"facilities": [{
+			"date": 1951,
+			"building": "School Buildings",
+			"event": "Refit",
+			"location": "Settlement of Coppermine",
+			"desc": "The Hostel had an initial, three week 'experimental season' of operations during which students were accommodated within the existing Teacher's Quarters in the Federal Day School building.",
+			"ref": ["CPU-000134-0001"]
+		}, {
+			"date": 1953,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "Settlement of Coppermine",
+			"desc": "Preparations began for opening the Hostel as a Tent-based residence on a regular basis, which would be composed of wood framed canvas tent facilities situated in close proximity to the Federal Day School",
+			"ref": ["CPU-000076", "CPU-000077"]
+		}, {
+			"date": 1955,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "Settlement of Coppermine",
+      "desc": "The Tent Hostel that opened consisted initially of: 1 large double-walled tent for dining (20' x 30'); Initially a single wall tent, the tent walls were doubled up after the first school term in 1955, and an additioanl heater was borrowed from the Nursing Station. The dining tent also served as the assembly hall, and as a bath and laundry room for the first full hostel term as the propane stove in the attached kitchen tent was the only means of heating water.  1 double-walled tent (14' x 16') for the kitchen with no running water and with a siz foot wall opening into the dining tent. 8 small double-walled tents (12' x 14'), each of which would provide accommodation for 4 students.  4 outdoor washroom facilities of unspecified construction (2 boys, 2 girls); For the 1955 hostel term, separate toilets were provided for boys and girls behind the row of tents, equipped with buckets emptied into pits 200 yards from tents. The Principal recommended digging holes under toilets, lining holes with lime, and moving the toilets perioidcally through season. Original wash tent (14' x 16'); used by caretaker and family as dwelling. 1 heated/insulated warehouse (14' x 16'). 1 ice house; converted to a waorkshop to serve the school and hsotel by October 1955. Ice was then stored under the shcool, a much larger storage area and colder location out of the direct sun.  'Gas house' for storing barrels of gasoline and kersoene in use; built from 'shorts ends' of lumber used for the construction of the warehouse addition.   In 1955 the hostel staff, including the Matron and Cook, reisded at the Anglican Mission house sharing a room, while the second teacher resided in the former work-shop.",
+			"ref": ["CPU-001206-0002", "RCN-002889", "CPU-000192", "CPU-000356", "CPU-000356", "CPU-000306", "CPU-000120", "CPU-001203"]
+		}, {
+			"date": 1956,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "Settlement of Coppermine",
+			"desc": "One additional tent was added in 1956 to bring capacity of the hostel up to 36 children.  Hostel staff accommodations were also improved from the 1955 hostel term. Following the first Tent Hostel term in 1955, the Federal Day School Principal constructed an addition to the warehouse (24' x 14') and a 12' x 4' entrance way, built with plywood exterior walls, wallboard inside, and a roof with asbestos shingles. The Principal intended the addition to be used in the next Hostel term to house Tent Hostel staff following the addition of a toilet and an additional large oil space heater. The warehouse building addition was constructed with the assistance of local Inuit labor and completed as a dwelling suitable for the accommodation of Tent Hostel staff in October 1955. The designated 'Hostel House' (the modified former warehouse) allowed the hostel staff to reside closer to the hostel tents and avoid the “considerable obstacles of drifts of snow and slush” on route to the main hostel tent, provided direct access from their quarters to the warehouse (containing all hostel food, clothing, and miscellaneous supplies), and a separate hostel staff office.",
+			"ref": ["CPU-001248", "CPU-000306", "RCN-002889", "CPU-001200", "CPU-001203", "CPU-001230"]
+		}, {
+			"date": 1957,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "Settlement of Coppermine",
+			"desc": "Two additional tents were added in 1957 to provide the capacity to house 44 students.",
+			"ref": ["CPU-000345"]
+		}],
+		"land": [{
+			"date": "",
+			"owner": "Federal Government of Canada",
+			"size": "",
+			"type": "land",
+			"location": "Kugluktuk",
+			"note": "Coppermine is located on the northern mainland coast of the central Arctic of Canada at the outlet of the Coppermine River into the western extremity of Coronation Gulf [67°48'22” N latitude and 115°12'32” W longitude]. Its traditional place name and name of current reference is Kugluktuk. Coppermine was (and is) a central community and trade centre linking the Coronation Gulf and adjacent islands (Victoria, Holman, Reid) with Inuvik to the west and Yellowknife to the south. The Coppermine Tent Hostel was not located within an Indian Treaty District. Vacant Crown Land was available in Coppermine for the Tent Hostel, which was erected to the south of the existing Federal Day School that stood on Lot 7. Adjacent and undeveloped Lot 6 was reserved for the school generally. Vacant land (15 to 20 acres) between Lots 4 and 10 was also reserved for general school and hostel purposes, including a recreational sports field. Land on which the Hostel was situated was owned and retained by the Crown before and during the period in which the Tent Hostel operated. No documentation indicates that ownership was transferred to the Anglican Church. Two pupil dormitories were constructed by the Department of Northern Affairs 'on the grounds of the old tent hostel area' in 1961.",
+			"ref": ["CPU000135", "CPU-000144-0000", "CPU-000144-0001"]
+		}],
+		"media": [{
+			"ref": "CPU-000525-0002",
+			"date": 1950,
+			"desc": "Plan of Coppermine School"
+		}, {
+			"ref": "CPU-000135, p.5-6",
+			"date": 1954,
+			"desc": "Site Plan of the Hostel, including Federal Day School"
+		}, {
+			"ref": "CPU-000144-0001",
+			"date": 1954,
+			"desc": "Community Site Plan, including Hostel"
+		}, {
+			"ref": "AGS-000284, p.2",
+			"date": 1955,
+			"desc": "Photograph of Hostel Tents"
+		}, {
+			"ref": "CPU-000921-0001",
+			"date": 1963,
+			"desc": "Federal Day School in 1963, as initially constructed in 1950"
+		}],
+		"enrollment": [{
+			"year": 1951,
+			"number": 10,
+			"notes": ""
+		}, {
+			"year": 1952,
+			"number": 0,
+			"notes": "Hostel not operational"
+		}, {
+			"year": 1953,
+			"number": 0,
+			"notes": "Hostel not operational"
+		}, {
+			"year": 1954,
+			"number": 0,
+			"notes": "Hostel not operational"
+		}, {
+			"year": 1955,
+			"number": 28,
+			"notes": "9 boys, 19 girls"
+		}, {
+			"year": 1956,
+			"number": 35,
+			"notes": "18 boys, 17 girls"
+		}, {
+			"year": 1957,
+			"number": 29,
+			"notes": ""
+		}, {
+			"year": 1958,
+			"number": 30,
+			"notes": ""
+		}, {
+			"year": 1959,
+			"number": 20,
+			"notes": ""
+		}],
+		"reserves": ["Bathurst Inlet", "Bernard Harbour", "Bernard Island", "Berkley Point", "Byron Bay", "Cambridge Bay", "Clifton Point", "Coppermine District", "Dew Line Site 12", "Holman Island", "Kopak River", "Lady Franklin Point", "Reid Island", "Richardson Island", "R[h]ymer Point", "Victoria Island [DEW Line] Site 16", "Young Point"],
+		"religiousGroups": [{
+			"group": "Diocese of the Arctic",
+			"ref": ["CPU-000354"]
+		}],
+		"writtenAgreements": [{
+			"date": 1951,
+			"title": "",
+			"desc": "The extent of the Anglican Church involvement in the 1951 'experimental year' remains unclear. However, it is clear from the outset of planning for a subsequent Tent Hostel that the responsibility for the Tent Hostel operations would rest with the Church of England",
+			"ref": ["CPU-000089"]
+		}, {
+			"date": 1955,
+			"title": "",
+			"desc": "Arrangements concerning the specific roles and responsibilities of the two parties for the 1955 and later school years were developed through a variety of correspondence and understandings arrived at meetings",
+			"ref": ["CPU-000412"]
+		}, {
+			"date": 1956,
+			"title": "Division of Duties between Church and Government Authorities",
+			"desc": "A statement of the “Division of Duties between Church and Government Authorities” appears. This document resembles the formal operating agreements that were to govern the operation of large hostels of the late 1950s/early 1960s, but it was unsigned. This document appears under cover of a memorandum from F.J.C. Cunningham, Director of the Northern Administration, to the Deputy Minister clarifying the specific roles and responsibilities of the Federal Government in relation to various issues surrounding the Hostel.",
+			"ref": ["CPU-000329-0001", "CPU-00329-0000"]
+		}, {
+			"date": 1959,
+			"title": "",
+			"desc": "The Anglican Church authorities were also responsible for transportation arrangements and fares for all Tent Hostel staff travel to Coppermine.",
+			"ref": ["CPU-001415"]
+		}],
+		"abuseReports": {
+			"physical": [{
+				"date": 1959,
+				"source": "Tent Hostel staff diary",
+				"investigated": false,
+				"result": false,
+				"victim": "unnamed student",
+				"agressor": "staff",
+				"notes": "The Tent Hostel staff diary for the 1959 hostel term indicates that in April 1959 a boy residing in the hostel returned to the hostel tents from the school appearing 'very down-hearted', 'did not speak, walked off by himself and appeared to be hurt. When asked what the matter was, it seemed that the school [staff member] had found it necessary to shake [the boy] by his shoulders'",
+				"ref": ["AGS-000671"]
+			}, {
+				"date": 1959,
+				"source": "Tent Hostel staff diary",
+				"investigated": false,
+				"result": false,
+				"victim": "four students",
+				"agressor": "staff",
+				"notes": "Also in April 1959, four hostels student returned from the school for lunch and had been crying, one student claimed to the hostel staff that he had not been crying but 'only had rain on his cheeks'. The hostel staff record indicates the students recounted that a school staff member had 'taken the children by the shoulders for a firm shaking because they ‘could not read''. One of the students was very upset and at first refused to return to school, only returning with the encouragement of the hostel staff. When the children returned from school again at the end of the school day, 'all seemed well except that the [school staff member] had lost his temper' and thrown the school bell on the floor.",
+				"ref": ["AGS-000671"]
+			}],
+			"sexual": [{
+				"date": "",
+				"source": "",
+				"investigated": "",
+				"result": "",
+				"victim": "",
+				"aggressor": "",
+				"notes": "",
+				"ref": [""]
+			}]
+		},
+		"additionalInfo": {
+			"studentAggression": [{
+				"date": "",
+				"students": "",
+				"type": "",
+				"notes": "",
+				"ref": [""]
+			}],
+			"studentSex": [{
+				"date": "",
+				"students": "",
+				"type": "",
+				"notes": "",
+				"ref": [""]
+			}],
+			"medical": [{
+				"startYear": "",
+				"endYear": "",
+				"type": "",
+				"ref": [""]
+			}]
+		}
+	}
+
+}
