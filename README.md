@@ -24,5 +24,9 @@ This project aims to investigate the IRS system, beginning with the narrative of
 * [Concept Development](https://github.com/svickars/thesis/blob/master/writing/02_conceptDevelopment.md)
 
 #### Exercise Two
-* [Introduction - Draft](https://github.com/svickars/thesis/tree/master/writing/06_introduction.md)
+* [Introduction - Draft (Markdown)](https://github.com/svickars/thesis/tree/master/writing/06_introduction.md)
+* [Introduction - Draft (PDF)](https://github.com/svickars/thesis/blob/master/writing/06_introduction.pdf)
 * [Sketches](https://github.com/svickars/thesis/tree/master/visualization/sketch)
+
+#### Exercise Three
+* [Treament - Draft (Markdown)](https://github.com/svickars/thesis/blob/master/writing/07_treatment.md)
