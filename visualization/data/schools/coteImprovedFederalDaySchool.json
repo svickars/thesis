@@ -2,11 +2,12 @@
     "name": "Cote Improved Federal Day School",
     "type": "Residential",
     "location": {
-        "province": "...",
-        "city": "...",
+        "province": "Saskatchewan",
+        "prov": "SK",
+        "city": "Kamsack",
         "latLng": {
-            "lat": 0.000,
-            "lng": 0.000
+            "lat": 51.6393333333333,
+            "lng": -101.91098055555557
         }
     },
     "narrativeDate": "08-11-12",

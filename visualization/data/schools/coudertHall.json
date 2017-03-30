@@ -2,11 +2,12 @@
     "name": "Coudert Hall SR",
     "type": "Residential",
     "location": {
-        "province": "...",
-        "city": "...",
+        "province": "Yukon",
+        "prov": "YT",
+        "city": "Whitehorse",
         "latLng": {
-            "lat": 0.000,
-            "lng": 0.000
+            "lat": 60.7043833333333,
+            "lng": -135.03717777777777
         }
     },
     "narrativeDate": "04-05-05",

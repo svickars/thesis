@@ -2,11 +2,12 @@
 	"name": "Elkhorn Indian Residential School",
 	"type": "Residential",
 	"location": {
-		"province": "...",
-		"city": "...",
+		"province": "Manitoba",
+		"prov": "MB",
+		"city": "Elkhorn",
 		"latLng": {
-			"lat": 0.000,
-			"lng": 0.000
+			"lat": 53.950125,
+			"lng": -97.84936666666667
 		}
 	},
 	"narrativeDate": "07-01-13",

@@ -2,11 +2,12 @@
 	"name": "Cross Lake Indian Residential School",
 	"type": "Residential",
 	"location": {
-		"province": "...",
-		"city": "...",
+		"province": "Manitoba",
+		"prov": "MB",
+		"city": "Cross Lake",
 		"latLng": {
-			"lat": 0.000,
-			"lng": 0.000
+			"lat": 54.60236666666667,
+			"lng": -97.77560833333334
 		}
 	},
 	"narrativeDate": "06-09-12",

@@ -2,11 +2,12 @@
 	"name": "Coppermine Tent Hostel",
 	"type": "Residential",
 	"location": {
-		"province": "...",
-		"city": "...",
+		"province": "Nunavut",
+		"prov": "NU",
+		"city": "Coppermine / Kugluktuk",
 		"latLng": {
-			"lat": 0.000,
-			"lng": 0.000
+			"lat": 67.82262222222222,
+			"lng": -115.09606944444444
 		}
 	},
 	"narrativeDate": "05-01-10",

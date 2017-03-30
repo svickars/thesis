@@ -2,11 +2,12 @@
 	"name": "Crowfoot IRS",
 	"type": "Residential",
 	"location": {
-		"province": "...",
-		"city": "...",
+		"province": "Alberta",
+		"prov": "AB",
+		"city": "Cluny",
 		"latLng": {
-			"lat": 0.000,
-			"lng": 0.000
+			"lat": 50.83276388888889,
+			"lng": -112.88692222222222
 		}
 	},
 	"narrativeDate": "11-08-04",

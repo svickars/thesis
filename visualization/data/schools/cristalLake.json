@@ -2,11 +2,12 @@
     "name": "Cristal Lake Indian Residential School",
     "type": "Residential",
     "location": {
-        "province": "...",
-        "city": "...",
+        "province": "Ontario",
+        "prov": "ON",
+        "city": "Cristal Lake",
         "latLng": {
-            "lat": 0.000,
-            "lng": 0.000
+            "lat": 52.11318055555556,
+            "lng": -90.08484999999999
         }
     },
     "narrativeDate": "21-02-13",

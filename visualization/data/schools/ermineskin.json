@@ -2,11 +2,12 @@
 	"name": "Ermineskin IRS",
 	"type": "Residential",
 	"location": {
-		"province": "...",
-		"city": "...",
+		"province": "Alberta",
+		"prov": "AB",
+		"city": "Hobbema",
 		"latLng": {
-			"lat": 0.000,
-			"lng": 0.000
+			"lat": 52.8363222222222,
+			"lng": -113.45735555555555
 		}
 	},
 	"narrativeDate": "15-09-00",

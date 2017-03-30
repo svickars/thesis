@@ -2,11 +2,12 @@
 	"name": "Coqualeetza IRS",
 	"type": "Residential",
 	"location": {
-		"province": "...",
-		"city": "...",
+		"province": "British Columbia",
+		"prov": "BC",
+		"city": "Chilliwack / Sardis",
 		"latLng": {
-			"lat": 0.000,
-			"lng": 0.000
+			"lat": 49.135930555555554,
+			"lng": -121.95994722222223
 		}
 	},
 	"narrativeDate": "09-11-04",

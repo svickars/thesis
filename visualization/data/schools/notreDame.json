@@ -2,11 +2,12 @@
 	"name": "Notre Dame (Jack River) Hostel",
 	"type": "Residential",
 	"location": {
-		"province": "...",
-		"city": "...",
+		"province": "Manitoba",
+		"prov": "MB",
+		"city": "Cross Lake",
 		"latLng": {
-			"lat": 0.000,
-			"lng": 0.000
+			"lat": 53.950125,
+			"lng": -97.84936666666667
 		}
 	},
 	"narrativeDate": "06-09-12",

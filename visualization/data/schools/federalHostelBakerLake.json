@@ -2,11 +2,12 @@
 	"name": "Federal Hostel at Baker Lake",
 	"type": "Residential",
 	"location": {
-		"province": "...",
-		"city": "...",
+		"province": "Nunavut",
+		"prov": "NU",
+		"city": "Qamanittuaq",
 		"latLng": {
-			"lat": 0.000,
-			"lng": 0.000
+			"lat": 64.31631944444445,
+			"lng": -96.01343333333334
 		}
 	},
 	"narrativeDate": "14-09-09",

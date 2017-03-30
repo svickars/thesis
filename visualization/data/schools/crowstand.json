@@ -2,11 +2,12 @@
 	"name": "Crowstand Indian Residential School",
 	"type": "Residential",
 	"location": {
-		"province": "...",
-		"city": "...",
+		"province": "Saskatchewan",
+		"prov": "SK",
+		"city": "Kamsack",
 		"latLng": {
-			"lat": 0.000,
-			"lng": 0.000
+			"lat": 51.527975,
+			"lng": -101.84322777777777
 		}
 	},
 	"narrativeDate": "31-12-12",

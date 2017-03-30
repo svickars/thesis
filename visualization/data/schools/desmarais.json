@@ -2,11 +2,12 @@
 	"name": "St. Martin's (Desmarais) Indian Residential School IRS",
 	"type": "Residential",
 	"location": {
-		"province": "...",
-		"city": "...",
+		"province": "Alberta",
+		"prov": "AB",
+		"city": "Desmarais-Wabasca",
 		"latLng": {
-			"lat": 0.000,
-			"lng": 0.000
+			"lat": 55.9438555555555,
+			"lng": -113.80587222222222
 		}
 	},
 	"narrativeDate": "20-09-05",
