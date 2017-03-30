@@ -30,3 +30,8 @@ This project aims to investigate the IRS system, beginning with the narrative of
 
 #### Exercise Three
 * [Treament - Draft (Markdown)](https://github.com/svickars/thesis/blob/master/writing/07_treatment.md)
+
+
+#### Issues and Dependancies
+* Haven't heard back from NCTR, will continue to work without their input and trying to get in touch.
+* Rate of data extraction with Amazon Mechanical Turk has slowed down -- I have enough data to get started and will be able to add in more as it is completed.
