@@ -1,0 +1,208 @@
+{
+	"name": "Notre Dame (Jack River) Hostel",
+	"type": "Residential",
+	"location": {
+		"province": "Manitoba",
+		"prov": "MB",
+		"city": "Cross Lake",
+		"latLng": {
+			"lat": 53.950125,
+			"lng": -97.84936666666667
+		}
+	},
+	"narrativeDate": "06-09-12",
+	"startYear": 1960,
+	"endYear": 1967,
+	"data": {
+		"nameVariants": [{
+			"startYear": 1960,
+			"endYear": 1967,
+			"name": "Notre Dame Hostel",
+			"note": "",
+			"ref": ["NHR-000794", "NHR-002514", "NHR-000137"]
+		}, {
+			"startYear": 1960,
+			"endYear": 1967,
+			"name": "Jack River Hostel",
+			"note": "",
+			"ref": ["CLD-001107", "NHR-000802"]
+		}, {
+			"startYear": 1962,
+			"endYear": 1965,
+			"name": "Jack River (Indian) Residential School / Hostel",
+			"note": "",
+			"ref": ["NHR-000343", "NHR-000141-0000"]
+		}],
+		"chronoHistory": [{
+			"date": 1960,
+			"desc": "The Norway House component of the Cross Lake IRS opened as a separate IRS called the Notre Dame (Jack River) Hostel, under establishment number 596. The IRS operated as an Oblate-owned Hostel. The Hostel had no classroom component.",
+			"ref": ["NHR-000474", "NHR-000899", "NHR-000475-0001", "CLD-001105", "CLD-001107", "NHR-000794"]
+		}, {
+			"date": 1965,
+			"desc": "Part of the Jack River Indian Day School Home Economics instruction was conducted in the Hostel building.",
+			"ref": ["NHR-000900"]
+		}, {
+			"date": 1966,
+			"desc": "The Establishment number for the Notre Dame (Jack River) Hostel changed from 596 to 016.  Both the 596 and 016 Establishment numbers appear on the return for the quarter ended June 1966.",
+			"ref": ["NHR-002529-0000, pg. 1", "NHR-002528-0000, pg. 1"]
+		}, {
+			"date": 1966,
+			"desc": "A federal government audit of the Notre Dame (Jack River) Hostel for the year ended 1966 noted that there were no Government owned residences or teacherages at the Jack River Hostel site. ",
+			"ref": ["NHR-000138-0001, pg. 3"]
+		}, {
+			"date": 1967,
+			"desc": "The Notre Dame (Jack River) Hostel was closed on June 30, 1967.",
+			"ref": ["NHR-000137", "NHR-000132"]
+		}],
+		"notesHistory": [{
+			"date": "",
+			"desc": "",
+			"ref": [""]
+		}],
+		"management": {
+			"church": [{
+				"startYear": 1960,
+				"endYear": 1967,
+				"org": "Missionary Oblates of Mary Immaculate, via the Roman Catholic Episcopal Corporation of Keewatin or Vicar Apostolic of Keewatin",
+				"type": ["Staff"],
+				"ref": ["NHR-000472", "CLD-001105", "CLD-001107", "NHR-000141-0000", "NHR-000132", "NHR-000134-0001, pg. 2"]
+			}],
+			"government": [{
+				"startYear": "",
+				"endYear": "",
+				"org": "",
+				"type": [""],
+				"ref": [""]
+			}],
+			"band": [{
+				"startYear": "",
+				"endYear": "",
+				"org": "",
+				"type": [""],
+				"ref": [""]
+			}]
+		},
+		"facilities": [{
+			"date": 1960,
+			"building": "School Buildings",
+			"event": "opening",
+			"location": "Norway House, Manitoba",
+			"desc": "In February, 1960, the layout of the Cross Lake IRS Annex, predecessor to the Notre Dame (Jack River) Hostel, in Norway House was described as follows: the central building contained dormitories, quarters for the Sisters, two classrooms, dining rooms and a kitchen. A playroom on the main floor, close to the kitchen, also served as a dining room for Day School pupils; the dining room for the boarders was an Lshaped room in the basement. There was a storeroom in the basement and a root house. A two storey square building housed offices and living quarters for the Fathers and Brothers. There was a Church on the grounds, as well as outbuildings for cows and hens. There was a skating rink on the meadow by the river where a canteen was operated.",
+			"ref": ["CLD-001100-0000", "CLD-001100-0001, pg. 1, 3, 4, 5"]
+		}, {
+			"date": 1960,
+			"building": "School Buildings",
+			"event": "ownership",
+			"location": "Norway House, Manitoba",
+			"desc": "Documents indicate that throughout its operation, the Notre Dame (Jack River) Hostel was owned by the Oblates of Mary Immaculate.",
+			"ref": ["NHR-000474", "NHR-000138-0001, pg. 3", "NHR-000146", "NHR-000134-0000"]
+		}],
+		"land": [{
+			"date": "",
+			"owner": "",
+			"size": "",
+			"type": "",
+			"location": "",
+			"note": "",
+			"ref": []
+		}],
+		"media": [{
+			"ref": "NHR-000344",
+			"date": 1960,
+			"desc": "Diagram of the electrical circuit at Notre Dame (Jack River) Hostel, showing proximity of Jack River Roman Catholic Day School building to Church, root house, Father’s residence, shop, manual training building, power plant and skating rink."
+		}, {
+			"ref": "CLD-001100-0000",
+			"date": 1960,
+			"desc": "In February, 1960, the layout of the Cross Lake IRS Annex, predecessor to the Notre Dame (Jack River) Hostel, in Norway House was described as follows: the central building contained dormitories, quarters for the Sisters, two classrooms, dining rooms and a kitchen. A playroom on the main floor, close to the kitchen, also served as a dining room for Day School pupils; the dining room for the boarders was an L-shaped room in the basement. There was a storeroom in the basement and a root house. A two storey square building housed offices and living quarters for the Fathers and Brothers. There was a Church on the grounds, as well as outbuildings for cows and hens. There was a skating rink on the meadow by the river where a canteen was operated."
+		}, {
+			"ref": "NPC-620170-0001",
+			"date": 1962,
+			"desc": "Diagram of kitchen at Jack River Hostel"
+		}],
+		"enrollment": [{
+			"year": 1960,
+			"number": 64,
+			"notes": ""
+		}, {
+			"year": 1961,
+			"number": 49,
+			"notes": ""
+		}, {
+			"year": 1962,
+			"number": 46,
+			"notes": ""
+		}, {
+			"year": 1963,
+			"number": 46,
+			"notes": ""
+		}, {
+			"year": 1964,
+			"number": 50,
+			"notes": ""
+		}, {
+			"year": 1965,
+			"number": 45,
+			"notes": ""
+		}, {
+			"year": 1966,
+			"number": 44,
+			"notes": ""
+		}],
+		"reserves": ["Saddle Lake", "Beaver Lake"],
+		"religiousGroups": [{
+			"group": "Diocese of St. Albert/Archdiocese of Edmonton",
+			"ref": ["00002"]
+		}],
+		"writtenAgreements": [{
+			"date": 1911,
+			"title": "Agreement For the Operation of a School",
+			"desc": "Agreement For the Operation of a School, Department of Indian Affairs, Representing His Majesty the King, Emile J. Legal, O.M.I., DD., Bishop, Diocese of St. Albert, 03/30/1911.",
+			"ref": ["00002"]
+		}],
+		"abuseReports": {
+			"physical": [{
+				"date": "",
+				"source": "",
+				"investigated": "",
+				"result": "",
+				"victim": "",
+				"agressor": "",
+				"notes": "",
+				"ref": [""]
+			}],
+			"sexual": [{
+				"date": "",
+				"source": "",
+				"investigated": "",
+				"result": "",
+				"victim": "",
+				"aggressor": "",
+				"notes": "",
+				"ref": [""]
+			}]
+		},
+		"additionalInfo": {
+			"studentAggression": [{
+				"date": "",
+				"students": "",
+				"type": "",
+				"notes": "",
+				"ref": [""]
+			}],
+			"studentSex": [{
+				"date": "",
+				"students": "",
+				"type": "",
+				"notes": "",
+				"ref": [""]
+			}],
+			"medical": [{
+				"startYear": "",
+				"endYear": "",
+				"type": "",
+				"ref": [""]
+			}]
+		}
+	}
+
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Visualizing Canada's Indian Residential Schools</title>
+
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome-animation.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/onepage-scroll.css">
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    
+    <!--Leaflet-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+    <!--D3 and Fonts-->
+    <script src="https://use.fontawesome.com/132433ada8.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://use.typekit.net/vxf5yng.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        }
+        catch (e) {}
+    </script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="main">
+            
+            <!-- page 1-->
+            <section id="page1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="container clearfix">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12">
+                                <h1>Canada's Indian Residential Schools</h1>
+                                <h5 id="oneYear">1876-1996</h5>
+                                <p id="oneIntro">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                                    lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto
+                                    odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row guide-row">
+                    <div class="col-md-6 col-md-offset-3 col-sm-12">
+                        <guide id="oneGuide">This visualization tells the story of Indian Residential Schools through a single school, before analyzing the system as a whole. Scroll on to explore. </guide>
+                    </div>
+                </div>
+                <div class="icon faa-float animated"><i class="fa fa-angle-down"></i></div>
+            </section>
+            
+            <!-- page 2-->
+            <section id="page2">
+                <div class="content">
+                    <div class="container clearfix">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12">
+                                <h2>It looks like you live near <span class="changeU">Edmonton</span>.</h2>
+                                <guide><div class="change">This visualization uses your current location to explore a story from nearby.</div>
+                                <div>If this is correct, <strong>continue to scroll</strong>. If not, or if you prefer to explore somewhere else, <strong>select a different option below</strong>.</div></guide>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2 col-sm-12">
+                                <div class="bSel"><button class="btn" type="submit" onclick="drawVisual('christie')">Tofino</button><button class="btn" type="submit" onclick="drawVisual('edmonton')">Edmonton</button><button class="btn" type="submit" onclick="drawVisual('churchill')">Churchill</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="icon faa-float animated"><i class="fa fa-angle-down"></i></div>
+            </section>
+            
+            <!-- page 3-->
+            <section id="page3">
+                <div class="p3">
+                    <div class="mapP3div" id="mapP3div"></div>
+                    <div class="content">
+                        <div class="container clearfix">
+                            <div class="row">
+                                <div class="col-md-10 col-md-offset-1 col-sm-12">
+                                    <div class="vizP3" id="vizP3"></div>
+            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon faa-float animated"><i class="fa fa-angle-down"></i></div>
+                </div>
+            </section>
+            
+            <!-- page 3-->
+            <section id="page4">
+                <div class="p4">
+                    <!--<div class="mapP3div" id="mapP3div"></div>-->
+                    <div class="content">
+                        <div class="container clearfix">
+                            <div class="row">
+                                <div class="col-md-10 col-md-offset-1 col-sm-12" id="sBox">
+                                    <div class="row top">
+                                        <div class="col-md-10 col-md-offset-1 col-sm-12" id="sBoxTop">
+                                        </div>
+                                    </div>
+                                    <div class="vizP4" id="vizP4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="icon faa-float animated"><i class="fa fa-angle-down"></i></div>
+                </div>
+            </section>
+            
+            
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="container">
+        <!--<div class="row">-->
+        <!--    <div class="col-xs-12">-->
+        <!--        <h6>Select Location</h6>-->
+        <!--        <div class="bSel"><button class="btn" type="submit" onclick="drawVisual('christie')">Tofino</button><button class="btn" type="submit" onclick="drawVisual('edmonton')">Edmonton</button><button class="btn" type="submit" onclick="drawVisual('churchill')">Churchill</button></div>-->
+        <!--    </div>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+        <!--    <div class="col-xs-12">-->
+        <!--        <div class="visualization" id="visualization"></div>-->
+        <!--    </div>-->
+        <!--</div>-->
+    </div>
+
+
+    <!-- LOAD SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/jquery.onepage-scroll.js"></script>
+    <script src="js/front.js"></script>
+    <script src="js/visualization.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!--Mouse Wheel JS-->
+    <script src="js/jquery.mousewheel.min.js"></script>
+    
+</body>
+
+</html>

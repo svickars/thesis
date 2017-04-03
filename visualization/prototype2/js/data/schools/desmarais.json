@@ -1,0 +1,738 @@
+{
+	"name": "St. Martin's (Desmarais) Indian Residential School IRS",
+	"type": "Residential",
+	"location": {
+		"province": "Alberta",
+		"prov": "AB",
+		"city": "Desmarais-Wabasca",
+		"latLng": {
+			"lat": 55.9438555555555,
+			"lng": -113.80587222222222
+		}
+	},
+	"narrativeDate": "20-09-05",
+	"startYear": 1900,
+	"endYear": 1973,
+	"data": {
+		"nameVariants": [{
+			"startYear": "",
+			"endYear": "",
+			"name": "St. Martin's IRS",
+			"note": "",
+			"ref": ["01593"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "Wabiscaw Roman Catholic Boarding School",
+			"note": "",
+			"ref": ["01776"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "Wabasca Roman Catholic IRS",
+			"note": "",
+			"ref": ["01313"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "Desmarais IRS",
+			"note": "",
+			"ref": ["00050"]
+		}, {
+			"startYear": "",
+			"endYear": "",
+			"name": "Desmarais Student Residence",
+			"note": "",
+			"ref": ["01095"]
+		}],
+		"chronoHistory": [{
+			"date": 1900,
+			"desc": "Bishop Grouard establishes a boarding school at St. Martin's Mission on Wabasca Lake. The building was partially built, but requests were made for grants of land and for the operation of the school. The estimate for 1901-1902 was for 30 students ",
+			"ref": ["08629"]
+		}, {
+			"date": 1901,
+			"desc": "Sisters ofProvidence from Montreal came to work at St. Martin's IRS in July  and the school opened in August of 1901",
+			"ref": ["04185", "04017"]
+		}, {
+			"date": 1928,
+			"desc": "A small temporary, two-storey hospital was built and linked to the school by a corridor to transport food from the school kitchen ",
+			"ref": ["04017"]
+		}, {
+			"date": 1959,
+			"desc": "May 1, 1959, the Oblate Order assumed responsibility for the new St. Martin's IRS and on May 2, 1959 the 'Sisters and the children started occupying the new building'. The official opening ceremony was to be held on December 10, 1959",
+			"ref": ["03495", "01914"]
+		}, {
+			"date": 1961,
+			"desc": "It was proposed to integrate the junior high school from Desmarais into the Wabasca Public School effective September, 1962 ",
+			"ref": ["02532"]
+		}, {
+			"date": 1962,
+			"desc": "Effective September 1, 1962, Desmarais junior high school students (grades 7, 8, and 9) lived in residence and attended schools operated by Northland School Division ",
+			"ref": ["00771", "03390"]
+		}, {
+			"date": 1963,
+			"desc": "A public high school, Misstassiniy School, opened in Desmarais for all students Grade 7 and up ",
+			"ref": ["04017"]
+		}, {
+			"date": 1964,
+			"desc": "Administration of the Desmarais Indian Residential School was 'turned over to theNorthland School Division effective September, 1, 1964. The Desmarais Indian Residential School will no longer be operated effective September 1, 1964' ",
+			"ref": ["01765"]
+		}, {
+			"date": 1964,
+			"desc": "Northland School Division leased and operated four classrooms in Desmarais IRS effective September 1, 1964 ",
+			"ref": ["03252"]
+		}, {
+			"date": 1965,
+			"desc": "Except for one primary class, all pupils in residence attended schools operated by Northland School Division (Mistassiniy School or St. Theresa School). The Bigstone Band requests the remaining operating IRS classrooms to be transferred to the Northland School Division effective the beginning ofthe 1965-66 school year",
+			"ref": ["01774", "00843"]
+		}, {
+			"date": 1973,
+			"desc": "The Residence is closed as of June 30, 1973 ",
+			"ref": ["03934"]
+		}, {
+			"date": 1974,
+			"desc": "Northland School Division continues to rent classrooms in the Residence building at a rate of$300 each per month; C.V.C. and A.V.C. (A.V.C. may refer to Alberta Vocational Centre, but this is not confirmed) rented one room at a rate of $250 ",
+			"ref": ["02959"]
+		}, {
+			"date": 1975,
+			"desc": "The Bigstone Band operated a Kindergarten out of an IRS classroom ",
+			"ref": ["02959"]
+		}, {
+			"date": 1975,
+			"desc": "The Government discussed the future use of Desmarais Residence with the Bigstone Band and requested proposals for the 'best possible use' of the building 'for the benefit of the treaty people of the area'. Negotiations were underway with the Band regarding turnover of the building. It appears that the province 'was unable to take over the Residence'.",
+			"ref": ["01092", "00820", "02962A"]
+		}, {
+			"date": 1980,
+			"desc": "The land and buildings were sold to Bigstone Band Enterprises Ltd.. The sale was authorized by Order in Council P.C. 1980-2268 dated August 27, 1980. ",
+			"ref": ["00912", "04006", "04005", "04005A"]
+		}],
+		"notesHistory": [{
+			"date": 1974,
+			"desc": "xxx",
+			"ref": ["07456B"]
+		}],
+		"management": {
+			"church": [{
+				"startYear": 1901,
+				"endYear": 1956,
+				"org": "Oblate Order",
+				"type": ["Management"],
+				"ref": ["01776", "01766", "00216"]
+			}],
+			"government": [{
+				"startYear": 1956,
+				"endYear": 1964,
+				"org": "Federal Government of Canada",
+				"type": ["Management", "Staff", "Teaching"],
+				"ref": ["00706", "00077", "150136"]
+			}],
+			"band": [{
+				"startYear": 1973,
+				"endYear": 1975,
+				"org": "Bigstone Band",
+				"type": ["Management"],
+				"ref": ["02959"]
+			}]
+		},
+		"facilities": [{
+			"date": 1899,
+			"building": "School Building",
+			"event": "construction",
+			"location": "Wabasca Settlement",
+			"desc": "A school was built out oflogs ",
+			"ref": ["01331"]
+		}, {
+			"date": 1927,
+			"building": "School Building",
+			"event": "",
+			"location": "Wabasca Settlement",
+			"desc": "The school building was said to be in unsatisfactory condition ",
+			"ref": ["01313"]
+		}, {
+			"date": 1928,
+			"building": "School Building",
+			"event": "construction",
+			"location": "Wabasca Settlement",
+			"desc": "The Government is urged to 'provide a grant of $15,000 next year' for the reconstruction ofWabasca Roman Catholic school",
+			"ref": ["04193"]
+		}, {
+			"date": 1930,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "Wabasca Settlement",
+			"desc": "The school was rebuilt in 1930 and a new larger convent was opened to house the Sisters and boarders who numbered about 120 ",
+			"ref": ["01327", "04017"]
+		}, {
+			"date": 1933,
+			"building": "Fire escape",
+			"event": "construction",
+			"location": "Wabasca Settlement",
+			"desc": "The means of escape in case of fire is said to be difficult for children on the top floor. This was brought to the attention of Bishop Guy and estimates were received for fire escape tubing. ",
+			"ref": ["01350", "01351", "01386"]
+		}, {
+			"date": 1933,
+			"building": "Farm",
+			"event": "",
+			"location": "Wabasca Settlement",
+			"desc": "The school had a 25 acre farm with 16 more acres to be cleared. They also had a large garden ",
+			"ref": ["01350"]
+		}, {
+			"date": 1934,
+			"building": "Barn",
+			"event": "construction",
+			"location": "Wabasca Settlement",
+			"desc": "Bishop Guy requested funding from the Government to build a stable and a barn",
+			"ref": ["04203"]
+		}, {
+			"date": 1934,
+			"building": "School Buildings",
+			"event": "Openig",
+			"location": "Wabasca Settlement",
+			"desc": "The new 20-bed St. Martin's Hospital opened ",
+			"ref": ["04017"]
+		}, {
+			"date": 1935,
+			"building": "Machine shed",
+			"event": "construction",
+			"location": "Wabasca Settlement",
+			"desc": "A machine shed and chicken house were built during the year",
+			"ref": ["04210"]
+		}, {
+			"date": 1948,
+			"building": "School building",
+			"event": "Renovation",
+			"location": "Wabasca Settlement",
+			"desc": "The floor in some of the rooms was in very bad condition and new linoleum was needed for repairs and replacement",
+			"ref": ["04446"]
+		}, {
+			"date": 1953,
+			"building": "School Buildings",
+			"event": "Renovation",
+			"location": "Wabasca Settlement",
+			"desc": "The building is in need of major repairs such as a new roof, new foundation and concrete floor to replace rotten wood, a new heating system which is noted as being 'of some urgency,' and the insulation of walls and ceilings",
+			"ref": ["03294"]
+		}, {
+			"date": 1954,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "Wabasca Settlement",
+			"desc": "The school buildings are said to be in very poor shape. Conditions are so bad that 'the roof may be blown off and the building crumble'. There is question that we should not permit children in residence under the present circumstances'. Plans for reconstruction ofthe school begin",
+			"ref": ["01591", "03297", "01596", "08803"]
+		}, {
+			"date": 1956,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "Wabasca Settlement",
+			"desc": "The new Residential School was to begin construction at Wabasca ",
+			"ref": ["01608"]
+		}, {
+			"date": 1957,
+			"building": "Church",
+			"event": "construction",
+			"location": "Wabasca Settlement",
+			"desc": "The first Church was built (religious services were held in the mission's chapel until then) between the Father's house and the Hospital",
+			"ref": ["04017"]
+		}, {
+			"date": 1958,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "Wabasca Settlement",
+			"desc": "Construction of new, government-owned school building commenced in 1957 and was completed by the summer of 1958",
+			"ref": ["00284", "01537"]
+		}, {
+			"date": 1958,
+			"building": "School Buildings",
+			"event": "construction",
+			"location": "Wabasca Settlement",
+			"desc": "Proposed construction for 1960- 1961 included a Duplex Residence for teachers and two additional classrooms ",
+			"ref": ["02723"]
+		}, {
+			"date": 1958,
+			"building": "School Buildings",
+			"event": "transfer",
+			"location": "Wabasca Settlement",
+			"desc": "The Principal assumed charge of the new building ",
+			"ref": ["01762"]
+		}, {
+			"date": 1959,
+			"building": "School Buildings",
+			"event": "transfer",
+			"location": "Wabasca Settlement",
+			"desc": "May 1, 1959, the Oblate Order assumes responsibility for the new St. Martin's IRS and on May 2, 1959 the 'Sisters and the children started occupying the new building'. The official opening ceremony was on December 10, 1959; the school represented a cost to the government (including furnishings) of approximately $2,000,000 ",
+			"ref": ["03495", "01914", "03106"]
+		}, {
+			"date": 1964,
+			"building": "School Buildings",
+			"event": "",
+			"location": "Wabasca Settlement",
+			"desc": "The collection of 'left-over building materials and other odds and ends' in the tank room of the school has been deemed a serious fire hazard. A request is made to remove these stored materials ",
+			"ref": ["06839"]
+		}, {
+			"date": 1972,
+			"building": "Roof",
+			"event": "renovation",
+			"location": "Wabasca Settlement",
+			"desc": "There is a problem with the roof leaking since the construction in 1957, due to poor design. It is necessary to re-roof the Desmarais Residence at a cost of $50,000 ",
+			"ref": ["01426"]
+		}, {
+			"date": 1975,
+			"building": "School Buildings",
+			"event": "",
+			"location": "Wabasca Settlement",
+			"desc": "Equipment is said to be 'very old and in some cases obsolete.' Indications that a major electrical problem was corrected and that Desmarais would continue to be operated, but only on a 'day to day basis'.",
+			"ref": ["02959"]
+		}],
+		"land": [{
+			"date": 1923,
+			"owner": "Roman Catholic Episcopal Corporation of Grouard",
+			"size": "",
+			"type": "land",
+			"location": "Wabiskaw Settlement",
+			"note": "As ofFebruary 13, 1923, the Roman Catholic Episcopal Corporation of Grouard is owner ofLots 25 and 27 of the Wabiskaw settlement",
+			"ref": ["03828"]
+		}, {
+			"date": 1956,
+			"owner": "",
+			"size": "",
+			"type": "land",
+			"location": "Wabasca Settlement",
+			"note": "It appears that the school building is located on Lot 25 of the Wabasca Settlement (Lot 25, Section 23, Township 80, Range 25, West 4th Meridian)",
+			"ref": ["08999", "03828"]
+		}, {
+			"date": 1958,
+			"owner": "R.C. Church",
+			"size": "",
+			"type": "land",
+			"location": "Wabasca Settlement",
+			"note": "The Roman Catholic Church owns Lots 24, 25, and 26, and possibly Lot 22, of the Settlement ofWabasca.1 It appears that the land on which the school is situated had not been transferred to the Government ",
+			"ref": []
+		}, {
+			"date": 1972,
+			"owner": "Federal Government of Canada",
+			"size": "",
+			"type": "transfer",
+			"location": "Wabasca Settlement",
+			"note": "The Government acquired the land upon which the government-owned Desmarais school sits, consisting of Lots 22, 24, 25. Prior to this, the Roman Catholic Episcopal Corporation of Grouard had Title to part of Lot 22 containing the Sewage Lagoon, Lot 24 containing the sewage line and Parcel B on Lot 25 containing the St. Martin's IRS building ",
+			"ref": []
+		}, {
+			"date": 1898,
+			"owner": "Bigstone Band Enterprises Ltd",
+			"size": "",
+			"type": "transfer",
+			"location": "Wabasca Settlement",
+			"note": "The land and buildings were sold to Bigstone Band Enterprises Ltd. authorized by Order in Council P.C. 1980-2268 dated August 27, 1980.",
+			"ref": ["00912", "04006", "04005", "04005A"]
+		}],
+		"media": [{
+			"ref": "02692",
+			"date": "undated",
+			"desc": "Location of skating rink, student residence and sewage lagoon"
+		}, {
+			"ref": "02764",
+			"date": "undated",
+			"desc": "Dominion Lands Office document with denoted school sections and RC Mission section "
+		}, {
+			"ref": "02727A",
+			"date": "undated",
+			"desc": "Sketch of location of school in relation to the Church, Father's Residence, Hospital, post office and air strip with Lot numbers identified "
+		}, {
+			"ref": "02987",
+			"date": "undated",
+			"desc": "Diagram noting the location ofMistassiniy school and Desmarais IRS and other buildings including location of proposed Health Centre"
+		}, {
+			"ref": "04028",
+			"date": 1914,
+			"desc": "Plan ofWabiskaw Settlement- Township 80 and 81, Range 25, West ofFourth Meridian- contains Lot numbers and dimensions "
+		}, {
+			"ref": "01315",
+			"date": 1927,
+			"desc": "Floor plan of the proposed building built c. 1931 - notes the rooms on each floor including the basement and 1st, 2nd and 3rd floors"
+		}, {
+			"ref": "01593",
+			"date": "undated",
+			"desc": "Photographs of St. Martin's IRS"
+		}, {
+			"ref": "08999",
+			"date": 1956,
+			"desc": "Site Plan noting proposed property line between the Church owned and Department owned land and buildings "
+		}, {
+			"ref": "04001",
+			"date": "undated",
+			"desc": "Photograph of St. Martin's IRS "
+		}, {
+			"ref": "03874C",
+			"date": 1959,
+			"desc": "Hand sketch of locations of reserves and numbers of Indians on reserve"
+		}, {
+			"ref": "01866",
+			"date": 1969,
+			"desc": "Site plan including location of new school built c. 1959 and old school built c. 1931 as well as other buildings such as church, staff residence and hospital"
+		}, {
+			"ref": "03888A",
+			"date": 1962,
+			"desc": "Hand drawn sketch showing distance from Desmarais to Edmonton, Slave Lake, Grouard and Trout Lake - Hand drawn sketch showing relative locations ofbuildings in Wabasca in relation to the Residential School at Desmarais and the swamp in between "
+		}, {
+			"ref": "04029",
+			"date": 1963,
+			"desc": "Plan of survey of Parcel Bin Lot 25, Wabiskaw settlement "
+		}, {
+			"ref": "08998",
+			"date": 1965,
+			"desc": "P.1 Floor plan ofMistassiniy school; P. 2 Sketch plan of proposed addition to Mistassiniy school"
+		}, {
+			"ref": "08997",
+			"date": 1969,
+			"desc": "Ventilation Improvements - Sketch of floor plan Desmarais Student Residence "
+		}, {
+			"ref": "04091",
+			"date": 1970,
+			"desc": "Sketch for 2nd Floor Boys Washroom addition "
+		}, {
+			"ref": "02990",
+			"date": 1977,
+			"desc": "Floor plan of what appears to be the Desmarais Residential School building noting Northland use of the various rooms"
+		}],
+		"enrollment": [{
+			"year": 1912,
+			"number": 10,
+			"notes": ""
+		}, {
+			"year": 1913,
+			"number": 21,
+			"notes": ""
+		}, {
+			"year": 1914,
+			"number": 23,
+			"notes": ""
+		}, {
+			"year": 1915,
+			"number": 22,
+			"notes": ""
+		}, {
+			"year": 1916,
+			"number": 22,
+			"notes": ""
+		}, {
+			"year": 1917,
+			"number": 19,
+			"notes": ""
+		}, {
+			"year": 1918,
+			"number": 22,
+			"notes": ""
+		}, {
+			"year": 1919,
+			"number": 23,
+			"notes": ""
+		}, {
+			"year": 1920,
+			"number": 21,
+			"notes": ""
+		}, {
+			"year": 1921,
+			"number": 22,
+			"notes": ""
+		}, {
+			"year": 1922,
+			"number": 20,
+			"notes": ""
+		}, {
+			"year": 1923,
+			"number": 22,
+			"notes": ""
+		}, {
+			"year": 1924,
+			"number": 17,
+			"notes": ""
+		}, {
+			"year": 1925,
+			"number": 27,
+			"notes": ""
+		}, {
+			"year": 1926,
+			"number": 30,
+			"notes": ""
+		}, {
+			"year": 1927,
+			"number": 33,
+			"notes": ""
+		}, {
+			"year": 1928,
+			"number": 37,
+			"notes": ""
+		}, {
+			"year": 1929,
+			"number": 47,
+			"notes": ""
+		}, {
+			"year": 1930,
+			"number": 53,
+			"notes": ""
+		}, {
+			"year": 1931,
+			"number": 60,
+			"notes": ""
+		}, {
+			"year": 1932,
+			"number": 68,
+			"notes": ""
+		}, {
+			"year": 1933,
+			"number": 115,
+			"notes": ""
+		}, {
+			"year": 1934,
+			"number": 115,
+			"notes": ""
+		}, {
+			"year": 1935,
+			"number": 115,
+			"notes": ""
+		}, {
+			"year": 1936,
+			"number": 115,
+			"notes": ""
+		}, {
+			"year": 1937,
+			"number": 115,
+			"notes": ""
+		}, {
+			"year": 1938,
+			"number": 115,
+			"notes": ""
+		}, {
+			"year": 1939,
+			"number": 115,
+			"notes": ""
+		}, {
+			"year": 1940,
+			"number": 115,
+			"notes": ""
+		}, {
+			"year": 1941,
+			"number": 125,
+			"notes": ""
+		}, {
+			"year": 1942,
+			"number": 122,
+			"notes": ""
+		}, {
+			"year": 1943,
+			"number": 120,
+			"notes": ""
+		}, {
+			"year": 1944,
+			"number": 115,
+			"notes": ""
+		}, {
+			"year": 1945,
+			"number": 106,
+			"notes": ""
+		}, {
+			"year": 1946,
+			"number": 93,
+			"notes": ""
+		}, {
+			"year": 1947,
+			"number": 85,
+			"notes": ""
+		}, {
+			"year": 1948,
+			"number": 82,
+			"notes": ""
+		}, {
+			"year": 1949,
+			"number": 72,
+			"notes": ""
+		}, {
+			"year": 1950,
+			"number": 66,
+			"notes": ""
+		}, {
+			"year": 1951,
+			"number": 65,
+			"notes": ""
+		}, {
+			"year": 1952,
+			"number": 88,
+			"notes": ""
+		}, {
+			"year": 1953,
+			"number": 100,
+			"notes": ""
+		}, {
+			"year": 1954,
+			"number": 117,
+			"notes": ""
+		}, {
+			"year": 1955,
+			"number": 131,
+			"notes": ""
+		}, {
+			"year": 1956,
+			"number": 134,
+			"notes": ""
+		}, {
+			"year": 1957,
+			"number": 122,
+			"notes": ""
+		}, {
+			"year": 1958,
+			"number": 114,
+			"notes": ""
+		}, {
+			"year": 1959,
+			"number": 93,
+			"notes": ""
+		}, {
+			"year": 1960,
+			"number": 102,
+			"notes": ""
+		}, {
+			"year": 1961,
+			"number": 99,
+			"notes": ""
+		}, {
+			"year": 1962,
+			"number": 96,
+			"notes": ""
+		}, {
+			"year": 1963,
+			"number": 65,
+			"notes": ""
+		}, {
+			"year": 1964,
+			"number": 96,
+			"notes": ""
+		}, {
+			"year": 1965,
+			"number": 99,
+			"notes": ""
+		}, {
+			"year": 1966,
+			"number": 92,
+			"notes": ""
+		}, {
+			"year": 1967,
+			"number": 136,
+			"notes": ""
+		}, {
+			"year": 1968,
+			"number": 135,
+			"notes": ""
+		}, {
+			"year": 1969,
+			"number": 131,
+			"notes": ""
+		}, {
+			"year": 1970,
+			"number": 40,
+			"notes": ""
+		}, {
+			"year": 1971,
+			"number": 65,
+			"notes": ""
+		}, {
+			"year": 1972,
+			"number": 28,
+			"notes": ""
+		}, {
+			"year": 1973,
+			"number": 27,
+			"notes": ""
+		}],
+		"reserves": ["Tall Cree", "Little R.River", "Athabaska Agen.", "Sturgeon Lake,", "Namew", "Saddle Lake", "Erminskin", "Samson", "Enoch", "Smith Band", "Fort Chipweyan", "Fitzgarals Smith", "Drift Pile", "Whitefish Lake", "Blood", "Boyer River", "Royal River", "Non-Treaty", "Legoff Band", "Alexis", "Slavey", "Janvier", "Alexander", "Tall Cree", "Lubicon", "Prov Welfare", "N.S.D.", "Ft. Vermillion", "Slaves of UHR", "Grouard"],
+		"religiousGroups": [{
+			"group": "The Roman Catholic Episcopal Corporation of Grouard & The Oblates of Mary Immaculate",
+			"ref": ["00077", "00045", "01211"]
+		}, {
+			"group": "The Sisters of Charity of Providence",
+			"ref": ["01350", "00921", "03323", "01331", "01122", "03858B", "03886A"]
+		}],
+		"writtenAgreements": [{
+			"date": 1911,
+			"title": "Agreement for the Operation of St. Martin's IRS",
+			"desc": "",
+			"ref": ["01776"]
+		}, {
+			"date": 1962,
+			"title": "Indianescom Agreement",
+			"desc": "Indianescom Agreement - Contract wherein the Government, represented by Indian Affairs ['Minister'], entered into an agreement with Indianescom [referred to as 'Management' in contract] for the operation of the Desmarais Indian Residential School [01766]. Indianescom was the incorporated body created in 1961 to be the only corporate entity to sign all the contracts concerning schoolsadministered by the Oblate Fathers. Formerly, this body was known as the Oblate Fathers Indian and Eskimo Welfare Commission, which was created in 1936 ",
+			"ref": ["01766"]
+		}, {
+			"date": 1962,
+			"title": "Agreement between the Crown and Northland School Division regarding payment of tuition ",
+			"desc": "",
+			"ref": ["01292"]
+		}, {
+			"date": 1965,
+			"title": "Agreements with Northland School Division for use of classrooms at the Desmarais Residence",
+			"desc": "",
+			"ref": ["00002"]
+		}, {
+			"date": 1969,
+			"title": "Service Contracts",
+			"desc": "Service Contracts signed between the Indian-Eskimo Council and the Crown for liaison duties, recruitment of Student Residence Administrators, and recruitment of Child Care Workers. Administrators and Child Care Workers did not fall under the Public Service Employment Act ",
+			"ref": ["010255", "013170", "010455", "014177"]
+		}, {
+			"date": 1970,
+			"title": "Chaplaincy Agreement",
+			"desc": "",
+			"ref": ["01032"]
+		}],
+		"abuseReports": {
+			"physical": [{
+				"date": "",
+				"source": "Comments",
+				"investigated": false,
+				"result": false,
+				"victim": "unnamed students",
+				"agressor": "staff",
+				"notes": "Two unrelated comments concerning severe discipline at the school",
+				"ref": ["00922", "00923"]
+			}, {
+				"date": "",
+				"source": "Reported incidents",
+				"investigated": false,
+				"result": false,
+				"victim": "unnamed students",
+				"agressor": "staff",
+				"notes": "Two reported incidents of corporal punishment of an 'approved Indian Residential pupil'",
+				"ref": ["02193", "02178"]
+			}],
+			"sexual": [{
+				"date": "",
+				"source": "",
+				"investigated": "",
+				"result": "",
+				"victim": "",
+				"aggressor": "",
+				"notes": "",
+				"ref": [""]
+			}]
+		},
+		"additionalInfo": {
+			"studentAggression": [{
+				"date": "",
+				"students": "",
+				"type": "",
+				"notes": "",
+				"ref": [""]
+			}],
+			"studentSex": [{
+				"date": "",
+				"students": "",
+				"type": "",
+				"notes": "",
+				"ref": [""]
+			}],
+			"medical": [{
+				"startYear": "",
+				"endYear": "",
+				"type": "",
+				"ref": [""]
+			}]
+		}
+	}
+
+}

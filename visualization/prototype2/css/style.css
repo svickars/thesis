@@ -1,0 +1,255 @@
+/*----------------*/
+/*---THE BASICS---*/
+
+html {
+    background-color: black;
+    height: 100%;
+}
+
+body {
+    height: 100% !important;
+    background-color: black !important;
+    text-align: center;
+    color: white !important;
+    /*overflow: hidden;*/
+    margin: 0 auto;
+}
+
+body.disabled-onepage-scroll .onepage-wrapper section {
+  min-height: 100%;
+  height: auto;
+}
+
+.wrapper {
+  height: 100% !important;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.main {
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  z-index: 3;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    position: relative;
+    padding: 80px 0;
+    top: 0;
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+/*----------*/
+/*---TEXT---*/
+
+h1 {
+    font-family: "freight-text-pro", georgia, serif !important;
+    text-transform: none !important;
+    font-weight: 600 !important;
+    font-size: 2em !important;
+    letter-spacing: 0px !important;
+    color: white !important;
+}
+
+h2 {
+    font-family: "freight-sans-pro", trebuchet, sans-serif !important;
+    text-transform: none !important;
+    letter-spacing: 0px !important;
+    font-weight: 500 !important;
+    color: white !important;
+    font-size: 1.75em !important;
+}
+
+h5 {
+    font-family: "freight-sans-pro", trebuchet, sans-serif !important;
+    color: #f15a24 !important;
+    font-weight: 500 !important;
+}
+
+h6 {
+    font-family: "freight-sans-pro", trebuchet, sans-serif !important;
+    font-size: 1em;
+}
+
+p {
+    font-family: "freight-text-pro", georgia, serif !important;
+    font-size: 1em !important;
+    font-weight: 400 !important;
+}
+
+.changeU {
+    text-decoration: underline;
+    color: #f15a24;
+}
+
+.change {
+    text-decoration: none !important;
+    color: #f15a24;
+}
+
+guide {
+    font-family: "freight-sans-pro", trebuchet, sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    color: #555555;
+}
+
+.icon {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #f15a24;
+    z-index: 3;
+}
+
+/*------------------------*/
+/*---LOCATION SELECTION---*/
+
+button {
+    font-family: "freight-sans-pro", trebuchet, sans-serif !important;
+    text-transform: none !important;
+}
+
+.btn {
+    background: none !important;
+    border-bottom: 1px solid white !important;
+    color: white;
+    border-radius: 0px !important;
+    padding-bottom: 0px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn:focus,
+.btn:active,
+.btn:hover {
+    outline: none !important;
+    border-bottom: 1px solid #f15a24 !important;
+    color: #f15a24 !important;
+}
+
+
+
+
+
+/*---------------*/
+/*---THE STORY---*/
+
+/*.blank {*/
+/*    height: 500%;*/
+/*}*/
+
+.row-guide {
+    margin-top: 30px;
+}
+
+#section1 {
+    width: 100%;
+    height: 100%;
+}
+
+#section2 {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+#intro {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#location {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#section3 {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 200%;
+}
+
+#sIntro {
+    width: 100%;
+    /*background-color: blue;*/
+    position: fixed;
+    left: 50%;
+    /*top: 15%;*/
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+
+.blackBox {
+    background-color: rgba(0,0,0,.8);
+    padding: 20px;
+}
+
+
+/*--------------*/
+/*---THE MAPS---*/
+
+#mapS3 {
+    /*position: absolute;*/
+    /*left: 0px;*/
+    /*height: 500px;*/
+    /*width: 100%;*/
+    z-index: -99;
+}
+
+/*--------------*/
+/*---TRIGGERS---*/
+#sIntroFadeIN_trigger {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#sIntroFadeOUT_trigger {
+    position: absolute;
+}
+#sMapZoomIN_trigger {
+    position: absolute;
+}

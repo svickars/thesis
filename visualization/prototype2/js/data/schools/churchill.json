@@ -1,0 +1,275 @@
+{
+    "name": "Churchill Vocational Centre",
+    "type": "Residential",
+    "location": {
+        "province": "Manitoba",
+        "prov": "MB",
+        "city": "Churchill",
+        "latLng": {
+            "lat": 58.75689444444444,
+            "lng": -94.07794444444444
+        }
+    },
+    "narrativeDate": "12-12-12",
+    "startYear": 1964,
+    "endYear": 1973,
+    "data": {
+        "nameVariants": [{
+            "startYear": 1964,
+            "endYear": 1973,
+            "name": "(Fort) Churchill School",
+            "note": "",
+            "ref": ["CVC-001468","CVC-000467-0000"]
+        },{
+            "startYear": 1964,
+            "endYear": 1965,
+            "name": "(Fort) Churchill Federal School",
+            "note": "",
+            "ref": ["CVC-000331","CVC-001906"]
+        },{
+            "startYear": 1964,
+            "endYear": 1968,
+            "name": "(Fort) Churchill Hostel",
+            "note": "",
+            "ref": ["CVC-000467-0000","CVC-000411","CVC-001427-0000"]
+        },{
+            "startYear": 1965,
+            "endYear": 1970,
+            "name": "(Fort) Churchill Pupil Residence",
+            "note": "",
+            "ref": ["CVC-003213-0001","CVC-000443","CVC-001732-0001"]
+        },{
+            "startYear": 1965,
+            "endYear": 1973,
+            "name": "Churchill Vocational Centre",
+            "note": "",
+            "ref": ["CVC-000951-0001","CVC-000299-0000","CVC-000205-0001"]
+        },{
+            "startYear": 1966,
+            "endYear": 1973,
+            "name": "Churchill Vocational School (Vocational School at Churchill",
+            "note": "",
+            "ref": ["CVC-001865-0000","CVC-000615-0000"]
+        },{
+            "startYear": 1970,
+            "endYear": 1970,
+            "name": "(Churchill) Student Residence",
+            "note": "",
+            "ref": ["CVC-000879"]
+        },{
+            "startYear": 1971,
+            "endYear": 1971,
+            "name": "Eskimo Residential School",
+            "note": "",
+            "ref": ["CVC-000832"]
+        }],
+        "chronoHistory": [{
+            "date": 1964,
+            "desc": "The Churchill Vocational Centre opened in former military barracks, and it was owned by the federal government throughout its operation",
+            "ref": ["CVC-000332","CVC-001217-0000","CVC-001529"]
+        },{
+            "date": 1966,
+            "desc": "Students in the academic program were obligated to remain at the IRS each year until the end of June, whereas vocatioal students were often returned to their settlements prior to ice break-up each spring. The federal government decided to begin the 1966/67 school year at the Churchill Vocational Centre in late August and to operate during the Easter break.  As a result, the school year ended earlier in June to allow pupils to return home before the ice break-up",
+            "ref": ["CVC-001896-0000","CVC-001883","CVC-001871"]
+        },{
+            "date": 1968,
+            "desc": "An agreement was made between the federal government and the Canadian National Institute for the Blind (C.N.I.B.) to provide food services for students and staff at the Churchill Vocational Centre",
+            "ref": ["CVC-001427-0003"]
+        },{
+            "date": 1970,
+            "desc": "The Principal of the Churchill Vocational Centre decided that students would not be allowed to return to their home settlements for Easter, due to difficulties encountered when some students returned to their homes for the previous Christmas",
+            "ref": ["CVC-001628"]
+        },{
+            "date": 1970,
+            "desc": "Officers of the Northwest Territories and Quebec governments were allowed access to the Churchill Vocational Center, including the student residence, provided acvance notice was given. These provincial and territorial officers assumed an advisory role",
+            "ref": ["CVC-000501"]
+        },{
+            "date": 1971,
+            "desc": "The Churchill Vocational Centre admitted to the residence Indian students receiving classroom instruction at Duke of Edinburgh school",
+            "ref": ["CVC-000821-0000","CVC-000821-0001"]
+        },{
+            "date": 1971,
+            "desc": "There was a reduction in the number of students from the Northwest Territories and Arctic Quebec.  The primary group of students remaining at the Churchill Vocational Centre was students returning to complete their second and third year of the vocational program",
+            "ref": ["CVC-000299-0000","CVC-000861"]
+        },{
+            "date": 1973,
+            "desc": "The Churchill Vocational Centre closed",
+            "ref": ["CVC-000615-0000","CVC-000006-0000"]
+        }],
+        "notesHistory": [{
+            "date": "",
+            "desc": "",
+            "ref": [""]
+        }],
+        "management": {
+            "church": [{
+                "startYear": "",
+                "endYear": "",
+                "org": "",
+                "type": [""],
+                "ref": [""]
+            }],
+            "government": [{
+                "startYear": 1964,
+                "endYear": 1973,
+                "org": "Federal Government of Canada",
+                "type": ["Management"],
+                "ref": ["CVC-000332","CVC-001217-0000","CVC-001529"]
+            }],
+            "band": [{
+                "startYear": "",
+                "endYear": "",
+                "org": "",
+                "type": [""],
+                "ref": [""]
+            }]
+        },
+        "facilities": [{
+            "date": 1964,
+            "building": "School Buildings",
+            "event": "Refit",
+            "location": "Fort Churchill",
+            "desc": "The Churchill Vocational Centre buildings had previously been part of a military base that was jointly owned and operated by the Canadian and American governments.  The facilities consisted of a military barracks block which was converted into classrooms, residences, workshops, and other facilities for students and staff.  The boys' shops were located in a remodeled hangar, while the laboratories for the girls' programs were situated in the classroom wing. The physical layout of the complex extended one quarter of a mile from one end to the other",
+            "ref": ["CVC-001468","CVC-001467-0000","CVC-001467-0001","CVC-001217-0000","CVC-001443","CVC-000401"]
+        }],
+        "land": [{
+            "date": "",
+            "owner": "",
+            "size": "",
+            "type": "",
+            "location": "",
+            "note": "",
+            "ref": []
+        }],
+        "media": [{
+            "ref": "CVC-000043",
+            "date": "undated",
+            "desc": "Diagrams and floor plans of the dormitory, dining, recreation building, and classroom building"
+        },{
+            "ref": "CVC-001896-0000",
+            "date": "undated",
+            "desc": "Diagram of dormitory wing and room layout"
+        },{
+            "ref": "CVC-001217-0010",
+            "date": "1964",
+            "desc": "Plan showing use of Fort Churchill buildings by Northern Affairs and Natural Resources including Duke of Edinburgh School, Pre Vocational I.A. [Industrial Arts] Shop, and male and female residences"
+        },{
+            "ref": "CVC-002340-0002",
+            "date": "1966",
+            "desc": "Diagram of a dormitory"
+        },{
+            "ref": "CVC-002343-0002",
+            "date": "1966",
+            "desc": "Second floor plan of the residence"
+        },{
+            "ref": "CVC-003021-0001",
+            "date": "1968",
+            "desc": "Diagram of the Churchill Vocational Centre facilities illustrating recreational facilities, Boy's and Girl's hostel wing, and general relationship to other nearby buildings such as the Boy's Shop Building, Duke of Edinburgh School, Hudson's Bay Store, Churches, hospital, and to rink and gymnasium"
+        },{
+            "ref": "CVC-003021-0002",
+            "date": "1968",
+            "desc": "Diagram of t aypical dormitory block and study bedroom plan"
+        },{
+            "ref": "CVC-000001",
+            "date": "1968/1969",
+            "desc": "Photographs of the Churchill Vocational Centre and Boy's Shop Building"
+        }],
+        "enrollment": [{
+            "year": 1964,
+            "number": 154,
+            "notes": ""
+        },{
+            "year": 1965,
+            "number": 251,
+            "notes": ""
+        },{
+            "year": 1966,
+            "number": 237,
+            "notes": ""
+        },{
+            "year": 1967,
+            "number": 226,
+            "notes": ""
+        },{
+            "year": 1968,
+            "number": 230,
+            "notes": ""
+        },{
+            "year": 1969,
+            "number": 234,
+            "notes": ""
+        },{
+            "year": 1970,
+            "number": 290,
+            "notes": ""
+        },{
+            "year": 1971,
+            "number": 142,
+            "notes": ""
+        },{
+            "year": 1972,
+            "number": 75,
+            "notes": ""
+        },{
+            "year": 1973,
+            "number": 75,
+            "notes": ""
+        }],
+        "reserves": ["", ""],
+        "religiousGroups": [{
+            "group": "",
+            "ref": [""]
+        }],
+        "writtenAgreements": [{
+            "date": "",
+            "title": "",
+            "desc": "",
+            "ref": [""]
+        }],
+        "abuseReports": {
+            "physical": [{
+                "date": 1973,
+                "source": "Incident report",
+                "investigated": true,
+                "result": false,
+                "victim": "staff",
+                "agressor": "unnamed student",
+                "notes": "A student allegedly assaulted a staff member who had been called in to assist when the student was found “drunk and disorderly” in the Garrison Theatre. Upon being asked to return to the dorm, the student responded by becoming verbally and physically abusive towards staff resulting in the RCMP being called in to remove him from the building. The incident report lists other episodes in which this same student had been drunk or abusive",
+                "ref": ["CVC-000205-0000", "CVC-000205-0001","CVC-000205-0002","CVC-000205-0003"]
+            }],
+            "sexual": [{
+                "date": 1965,
+                "source": "Letter to the federal government",
+                "investigated": false,
+                "result": false,
+                "victim": "students",
+                "aggressor": "staff",
+                "notes": "In a letter to the federal government, the Bishop of the Arctic noted that there was a problem regarding a male 'Supervisor who has become too familiar with the students'. No further details on this matter were found.",
+                "ref": ["CVC-000411"]
+            }]
+        },
+        "additionalInfo": {
+            "studentAggression": [{
+                "date": "",
+                "students": "",
+                "type": "",
+                "notes": "xxx",
+                "ref": ["01728"]
+            }],
+            "studentSex": [{
+                "date": "",
+                "students": "",
+                "type": "",
+                "notes": "",
+                "ref": [""]
+            }],
+            "medical": [{
+                "startYear": "",
+                "endYear": "",
+                "type": "",
+                "ref": [""]
+            }]
+        }
+    }
+
+}

@@ -1,13 +1,13 @@
 {
-	"name": "Edmonton Indian Residential School (IRS)",
+	"name": "Edmonton Indian Residential School",
 	"type": "Residential",
 	"location": {
 		"province": "Alberta",
 		"prov": "AB",
 		"city": "St. Albert",
 		"latLng": {
-			"lat": 53.950125,
-			"lng": -97.84936666666667
+			"lat": 53.6522333333333,
+			"lng": -113.57271388888888
 		}
 	},
 	"narrativeDate": "01-03-04",
