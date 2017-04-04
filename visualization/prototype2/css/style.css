@@ -176,9 +176,16 @@ button {
     height: 100%;
 }
 
+#section1break {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #111111;
+}
+
 #section2 {
     position: absolute;
-    top: 100%;
+    top: 200%;
     width: 100%;
     height: 100%;
 }
