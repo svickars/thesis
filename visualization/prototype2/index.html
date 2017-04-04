@@ -40,7 +40,7 @@
     <div id="section1">
         <div class="container clearfix" id="intro">
             <div class="row">
-                <div class="col-md-10 col-md-offset-1 col-xs-12">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
                     <h1>Canada's Indian Residential Schools</h1>
                     <h5>1876–1996</h5>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
@@ -49,7 +49,7 @@
                 </div>
             </div>
             <div class="row row-guide">
-                <div class="col-md-10 col-md-offset-1 col-xs-12">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
                     <guide>This visualization tells the story of Indian Residential Schools through a single school, before analyzing the system as a whole. Scroll on to explore.</guide>
                 </div>
             </div>
@@ -61,7 +61,7 @@
     <div id="section2">
         <div class="container clearfix" id="location">
             <div class="row">
-                <div class="col-md-10 col-md-offset-1 col-xs-12">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
                     <h6>Select your location:</h6>
                     <div class="bSel"><button class="btn" type="submit" onclick="drawVisual('christie')">Tofino</button><button class="btn" type="submit" onclick="drawVisual('edmonton')">Edmonton</button><button class="btn" type="submit" onclick="drawVisual('churchill')">Churchill</button></div>
                 </div>
@@ -72,38 +72,32 @@
 
     <div class="main">
         <div class="container clearfix">
-            <!--SECTION THREE --SCHOOL INTRO AND DATA WITH MAP-->
+            <!--SECTION THREE --SCHOOL INTRO MAP-->
             <div class="row" id="section3">
                 <div id="sMap">
                     <div id="sIntroFadeIN_trigger"></div>
                     <div id="sIntroFadeOUT_trigger"></div>
                     <div id="sMapZoomIN_trigger"></div>
-                        <div class="row" id="sIntro">
-                            
-                        </div>
+                    <div class="row" id="sIntro"></div>
                 </div>
-                <div class="col-md-10 col-md-offset-1 col-xs-12">
+            </div>
 
+            <!--BREAK SECTION-->
+            <div class="row break" id="section3break">
+                <!--<div class="col-md-8 col-md-offset-2 col-xs-12" id="section3break_text">-->
+                <!--</div>-->
+            </div>
+
+            <!--SECTION FOUR -- SCHOOL DATA-->
+            <div class="row" id="section4">
+                <div class="col-sm-8" id="sData_left">
+                    <div class="vSchool" id="vSchool"></div>
+                </div>
+                <div class="col-sm-4" id="sData_right">
                 </div>
             </div>
         </div>
     </div>
-
-
-
-    <!--<div class="container">-->
-    <!--<div class="row">-->
-    <!--    <div class="col-xs-12">-->
-    <!--        <h6>Select Location</h6>-->
-    <!--        <div class="bSel"><button class="btn" type="submit" onclick="drawVisual('christie')">Tofino</button><button class="btn" type="submit" onclick="drawVisual('edmonton')">Edmonton</button><button class="btn" type="submit" onclick="drawVisual('churchill')">Churchill</button></div>-->
-    <!--    </div>-->
-    <!--</div>-->
-    <!--<div class="row">-->
-    <!--    <div class="col-xs-12">-->
-    <!--        <div class="visualization" id="visualization"></div>-->
-    <!--    </div>-->
-    <!--</div>-->
-    <!--</div>-->
 
 
     <!-- LOAD SCRIPTS -->
