@@ -30,7 +30,7 @@ This project aims to investigate the IRS system, beginning with the narrative of
 
 #### Exercise Three
 * [Treament - Draft (Markdown)](https://github.com/svickars/thesis/blob/master/writing/07_treatment.md)
-
+* [Prototype - Ongoing Draft](https://svickars.github.io/thesis/visualization/prototype2/index.html)
 
 #### Issues and Dependancies
 * Haven't heard back from NCTR, will continue to work without their input and trying to get in touch.
