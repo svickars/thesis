@@ -176,7 +176,10 @@ function drawVisual(loc) {
 			var currentL_s = new ScrollMagic.Scene({
 			        triggerElement: '#sYearly' + (i+sOpen),
 			    })
-			    .offset(document.getElementById('sYearly' + currentY).offsetHeight)
+			 //   .on("enter", function() {
+			 //       currentL.transition().duration(200).ease(d3.easeLinear).style("transform", "translate(" + move + "px, 0)");
+			 //   })
+			    .offset(-document.getElementById('sYearly' + currentY).offsetHeight)
 			    .setTween(currentL_t)
 			    .addIndicators()
 			    .addTo(controller);
