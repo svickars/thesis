@@ -35,15 +35,7 @@ var width = "100%";
 // FUNCTIONS
 // *********
 
-var x = d3.scaleTime()
-    .rangeRound([0, width]);
 
-var y = d3.scaleLinear()
-    .rangeRound([height, 0]);
-
-var line = d3.line()
-    .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.number); });
 
 
 
@@ -104,40 +96,6 @@ function drawVisual(loc) {
         // SCHOOL DATA
         // set left height
         d3.select("#sData_left").style("height", window.innerHeight + "px");
-        
-        
-        // timeline
-        var sTimeline = data.data.chronoHistory;
-        
-        for (var i = 0; i < sTimeline.length; i++ ){
-            var sTimeline_box = d3.select("#sData_right").append("div").attr("class", "sTimeline_box").attr("id", "sTimeline" + i);
-            sTimeline_box.html("<span class='change'>" + sTimeline[i].date + "</span><br> " +  sTimeline[i].desc);
-        
-            var sTimeline_boxFI_t = new TweenMax.to('#sTimeline' + i, .25, {
-                opacity: 1.0
-            });
-            
-            var sTimeline_boxFO_t = new TweenMax.to('#sTimeline' + i, .25, {
-                opacity: .1
-            });
-            
-            var sTimeline_boxFI_s = new ScrollMagic.Scene({
-                triggerElement: '#sTimeline' + i
-            })
-            // .offset(document.getElementById('sTimeline' + i).offsetHeight / 2)
-            .setTween(sTimeline_boxFI_t)
-            .addIndicators()
-            .addTo(controller);
-            
-            var sTimeline_boxFI_s = new ScrollMagic.Scene({
-                triggerElement: '#sTimeline' + i
-            })
-            .offset(document.getElementById('sTimeline' + i).offsetHeight)
-            .setTween(sTimeline_boxFO_t)
-            .addIndicators()
-            .addTo(controller);
-            
-        }
 
         // visualization
         var svgSchool = d3.select("#vSchool")
@@ -147,19 +105,144 @@ function drawVisual(loc) {
             .attr("height", window.innerHeight + "px");
             
         var margin = {top: 20, right: 20, bottom: 30, left: 50},
-            width = +svgSchool.attr("width") - margin.left - margin.right,
-            height = +svgSchool.attr("height") - margin.top - margin.bottom,
+            width = document.getElementById('sData_left').offsetWidth - margin.left - margin.right,
+            height = window.innerHeight - margin.top - margin.bottom,
+            heightBottom = 100,
             g = svgSchool.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
     
+        
+        // height transform
+        var xAxisVTrans = height + margin.top - margin.bottom - heightBottom;
+        
+        var x = d3.scaleLinear().range([margin.left, width - margin.right]).domain([sOpen,sClose]);
+        var y = d3.scaleLinear().range([height - margin.top, margin.bottom + heightBottom]).domain([0,300]);
+        
+        // create axes variables
+        var xAxis = svgSchool.append("g")
+	            .attr("id", "xAxis")
+	            .style("transform", "translate(0," +xAxisVTrans +"px)");
+	    var yAxis = svgSchool.append("g")
+	            .attr("id", "yAxis")
+	            .style("transform", "translate(" + margin.left +"px,-"+heightBottom+"px)")
+	     
+	    // draw axes
+	    xAxis.attr("class", "xAxis axis").call(d3.axisBottom(x)
+	                                        .tickFormat(d3.format("d")));
+        yAxis.attr("class", "yAxis axis").call(d3.axisLeft(y));
+        
+        // draw line
+        var line = d3.line()
+            .curve(d3.curveMonotoneX)
+            .x(function(d) {
+                return x(d.year);
+            })
+            .y(function(d) {
+                return y(d.number);
+            });
+        
+        
+
+
+        // create scroll triggers at year marks
         var sEnrol = data.data.enrollment;
         
-        console.log(typeof sEnrol[i].number)
+        d3.select("#sData_right").style("min-height", sEnrol.length*50 + "px");
         
-        // svgSchool.append('svg:path')
-        //     .attr('d', line(sEnrol))
-        //     .attr('stroke', 'green')
-        //     .attr('stroke-width', 2)
-        //     .attr('fill', 'none');
+        for (var i=0; i<sEnrol.length; i++ ) {
+            
+            var currentL = svgSchool.append("line")
+                                    .attr("id", "currentL")
+                                    .attr("x1", 50)
+                                    .attr("y1", margin.top)
+                                    .attr("x2", 50)
+                                    .attr("y2", height-heightBottom)
+                                    .style("stroke-width", 1)
+                                    .style("stroke", "white")
+                                    .style("fill", "none")
+                                    .style("left", 0);
+                                    
+            
+            var sYearly = d3.select("#sData_right").append("div").attr("class", "sYearly").attr("id", "sYearly" + (i+sOpen));
+            // sYearly.html(sEnrol[i].year)
+            // d3.select("#sYearly"+(i+sOpen)).style("top", (rightHeight/sEnrol.length)*i + "px");
+            
+            var move = width/sEnrol.length * i;
+            
+            var currentL_t = new TweenMax.to('#currentL', .25, {
+                css: { transform: 'translate(' + move + 'px, 0)' }});
+			
+			var currentY = i+sOpen;
+			
+			var currentL_s = new ScrollMagic.Scene({
+			        triggerElement: '#sYearly' + (i+sOpen),
+			    })
+			    .offset(document.getElementById('sYearly' + currentY).offsetHeight)
+			    .setTween(currentL_t)
+			    .addIndicators()
+			    .addTo(controller);
+							
+            var sYearly_s = new ScrollMagic.Scene({
+                    triggerElement: '#sYearly' + (i+sOpen)
+                })
+                .on("enter", function() {
+                    // draw path
+                    var path = svgSchool.append('svg:path')
+                        .attr('d', line(sEnrol))
+                        .attr('stroke', 'green')
+                        .attr('stroke-width', 2)
+                        .attr('fill', 'none')
+                        .style('transform', 'translate(0,-' + heightBottom + 'px)');
+                    
+                    // var totalLength = path.node().getTotalLength();
+                    
+                    // path.attr("stroke-dasharray", totalLength + " " + totalLength)
+                    //     .attr("stroke-dashoffset", totalLength)
+                    //     .transition()
+                    //     .duration(1000)
+                    //     .attr("stroke-dashoffset", 0);
+                })
+                .addIndicators()
+                .addTo(controller);
+        };
+        
+        // timeline
+        var sTimeline = data.data.chronoHistory;
+        
+        for (var i = 0; i < sTimeline.length; i++ ){
+            var sTimelineBox = d3.select("#sYearly" + sTimeline[i].date).append("div").attr("class", "sTimeline_box").attr("id", "sTimeline" + sTimeline[i].date);
+            sTimelineBox.html("<span class='change'>"+sTimeline[i].date+"</span><br>"+sTimeline[i].desc);
+            
+            var sTimeline_boxFI_t = new TweenMax.to('#sTimeline' + sTimeline[i].date, .25, {
+                opacity: 1.0
+            });
+            
+            var sTimeline_boxFO_t = new TweenMax.to('#sTimeline' + sTimeline[i].date, .25, {
+                opacity: .1
+            });
+            
+            var sTimeline_boxFI_s = new ScrollMagic.Scene({
+                triggerElement: '#sTimeline' + sTimeline[i].date
+            })
+            .offset(document.getElementById('sTimeline' + sTimeline[i].date).offsetHeight / 2)
+            .setTween(sTimeline_boxFI_t)
+            .addIndicators()
+            .addTo(controller);
+            
+            var sTimeline_boxFO_s = new ScrollMagic.Scene({
+                triggerElement: '#sTimeline' + sTimeline[i].date
+            })
+            .offset(document.getElementById('sTimeline' + sTimeline[i].date).offsetHeight)
+            .setTween(sTimeline_boxFO_t)
+            .addIndicators()
+            .addTo(controller);
+            
+        };
+
+
+
+
+
+
 
 
         // SET TRIGGER HEIGHTS
@@ -169,6 +252,14 @@ function drawVisual(loc) {
         d3.select("#sIntro").style("top", window.innerHeight / 2 + "px");
 
         // SCENES (MAP)
+        var locFO_t = new TweenMax.to('#location', .5, {
+            opacity: .1
+        });
+        
+        var iLocFO_t = new TweenMax.to('#iLoc', .5, {
+            opacity: 0
+        });
+        
         var mapS3fI_t = new TweenMax.to('#mapS3', 2.5, {
             opacity: 1.0
         });
@@ -180,6 +271,24 @@ function drawVisual(loc) {
         var sIntroFO_t = new TweenMax.to('#sIntro_box', .25, {
             opacity: 0
         });
+        
+        var locFO_s = new ScrollMagic.Scene({
+                triggerElement: '#sIntroFadeIN_trigger'
+            })
+            .triggerHook('onEnter')
+            .setTween(locFO_t)
+            .addIndicators()
+            .addTo(controller);
+            
+        var ilocFO_s = new ScrollMagic.Scene({
+                triggerElement: '#sIntroFadeIN_trigger'
+            })
+            .triggerHook('onEnter')
+            .setTween(iLocFO_t)
+            .addIndicators()
+            .addTo(controller);
+            
+            
 
         var mapS3FI_s = new ScrollMagic.Scene({
                 triggerElement: '#section3'
@@ -193,7 +302,7 @@ function drawVisual(loc) {
                 triggerElement: '#section3',
                 duration: "225%"
             })
-            .triggerHook("onLeave")
+            .triggerHook('onLeave')
             .setPin('#mapS3')
             .addIndicators()
             .addTo(controller);

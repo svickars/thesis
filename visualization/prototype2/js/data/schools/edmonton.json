@@ -11,16 +11,10 @@
 		}
 	},
 	"narrativeDate": "01-03-04",
-	"startYear": 1920,
+	"startYear": 1924,
 	"endYear": 1968,
 	"data": {
 		"nameVariants": [{
-			"startYear": 1920,
-			"endYear": 1923,
-			"name": "Edmonton Indian Industrial School",
-			"note": "",
-			"ref": ["000287"]
-		}, {
 			"startYear": 1924,
 			"endYear": 1968,
 			"name": "Edmonton Indian Residential School",
@@ -113,14 +107,6 @@
 			"date": 1968,
 			"desc": "The residence closed on June 30, 1968 ",
 			"ref": ["003716"]
-		}, {
-			"date": 1974,
-			"desc": "In 1974, the school building was selected as the site for Poundmaker Lodge, 'a native-controlled native alcohol rehabilitation centre'",
-			"ref": ["009628A"]
-		}, {
-			"date": 2000,
-			"desc": "On July 16, 2000, a fire destroyed the old residence building which was no longer in use ",
-			"ref": ["011748"]
 		}],
 		"notesHistory": [{
 			"date": "",
@@ -449,7 +435,7 @@
 			"notes": ""
 		}, {
 			"year": 1942,
-			"number": 1110,
+			"number": 111,
 			"notes": ""
 		}, {
 			"year": 1943,
