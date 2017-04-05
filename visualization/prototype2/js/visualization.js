@@ -90,9 +90,11 @@ function drawVisual(loc) {
 
 
         // SCHOOL INTRO
-        var sIntro = d3.select("#sIntro").append("div").attr("id", "sIntro_box").attr("class", "sBox");
-        sIntro.style("opacity", 0)
-            .html("<div class='col-md-10 col-md-offset-1 col-xs-12 blackBox' id='sIntro_blackBox'><h1>The <span class='changeU'>" + sName + "</span> opened in <span class='changeU'>" + sPlace + "</span> in <span class='changeU'>" + sOpen + "</span>.</h1> <guide><div class='change'>This visualization will walk you through the story of this residential school.</div><div>Scroll on to explore.</div></guide></div>");
+        var sIntro = d3.select("#sIntro").append("div");
+        sIntro.html("<div class='col-md-10 col-md-offset-1 col-xs-12 blackbox'><h1>The <span class='changeU'>" + sName + "</span> opened in <span class='changeU'>" + sPlace + "</span> in <span class='changeU'>" + sOpen + "</span>.</h1> <guide><div class='change'>This visualization will walk you through the story of this residential school.</div><div>Scroll on to explore.</div></guide></div>");
+        // var sIntro = d3.select("#sIntro").append("div").attr("id", "sIntro_box").attr("class", "sBox");
+        // sIntro.style("opacity", 0)
+        //     .html("<div class='col-md-10 col-md-offset-1 col-xs-12 blackBox' id='sIntro_blackBox'><h1>The <span class='changeU'>" + sName + "</span> opened in <span class='changeU'>" + sPlace + "</span> in <span class='changeU'>" + sOpen + "</span>.</h1> <guide><div class='change'>This visualization will walk you through the story of this residential school.</div><div>Scroll on to explore.</div></guide></div>");
 
         // BREAK ONE (3-4)
         var bOne = d3.select("#section3break").append("div").attr("class", "col-md-8 col-md-offset-2 col-xs-12").attr("id", "section3break_text");
@@ -265,60 +267,18 @@ function drawVisual(loc) {
         // d3.select("#sIntro").style("top", window.innerHeight / 2 + "px");
 
         // SCENES (MAP)
-        var locFO_t = new TweenMax.to('#location', .5, {
-            opacity: .1
-        });
-        
-        var iLocFO_t = new TweenMax.to('#iLoc', .5, {
-            opacity: 0
-        });
         
         var mapS3fI_t = new TweenMax.to('#mapS3', 2.5, {
             opacity: 1.0
         });
 
-        var sIntroFI_t = new TweenMax.to('#sIntro_box', .25, {
+        var sIntroFI_t = new TweenMax.to('#sIntro', .5, {
             opacity: 1.0
         });
 
-        var sIntroFO_t = new TweenMax.to('#sIntro_box', .25, {
+        var sIntroFO_t = new TweenMax.to('#sIntro', .5, {
             opacity: 0
         });
-        
-        var locFO_s = new ScrollMagic.Scene({
-                triggerElement: '#sIntroFadeIN_trigger'
-            })
-            .triggerHook('onEnter')
-            .setTween(locFO_t)
-            .addIndicators({name: 'sIntro-FI'})
-            .addTo(controller);
-            
-        var ilocFO_s = new ScrollMagic.Scene({
-                triggerElement: '#sIntroFadeOUT_trigger'
-            })
-            .triggerHook('onEnter')
-            .setTween(iLocFO_t)
-            .addIndicators({name: 'sIntroFO'})
-            .addTo(controller);
-            
-        var sMapZI_s = new ScrollMagic.Scene({
-                triggerElement: '#sMapZoomIN_trigger'
-            })
-            // .on("enter", function(event) {
-            //     if (map.getZoom() == 10) {
-            //         map.setView([data.location.latLng.lat, data.location.latLng.lng], 13, {
-            //             "animate": true
-            //         });
-            //     }
-            //     else {
-            //         map.setView([data.location.latLng.lat, data.location.latLng.lng], 10, {
-            //             "animate": true
-            //         });
-            //     };
-            // })
-            .triggerHook('onEnter')
-            .addIndicators({name: 'sMapZI'})
-            .addTo(controller);
         
 
         // var mapS3FI_s = new ScrollMagic.Scene({
@@ -331,29 +291,64 @@ function drawVisual(loc) {
 
         var mapS3P_s = new ScrollMagic.Scene({
                 triggerElement: '#section3',
-                duration: '225%'
+                duration: '300%'
             })
+            // .offset("50%")
             .triggerHook('onEnter')
             .setPin('#mapS3')
-            .addIndicators({name: "map-pin"})
+            .addIndicators({name: 'map-pin'})
             .addTo(controller);
 
 
-        // var sIntroFI_s = new ScrollMagic.Scene({
-        //         triggerElement: '#sIntroFadeIN_trigger'
-        //     })
-        //     .triggerHook('onEnter')
-        //     .setTween(sIntroFI_t)
-        //     .addIndicators()
-        //     .addTo(controller);
+        var sIntroFI_s = new ScrollMagic.Scene({
+                triggerElement: '#sIntroFadeIN_trigger'
+            })
+            // .triggerHook('onEnter')
+            .offset(document.getElementById('sIntro').offsetHeight / 2)
+            .setTween(sIntroFI_t)
+            .addIndicators({name: 'sIntroFI'})
+            .addTo(controller);
+        
+        var sIntroP_s = new ScrollMagic.Scene({
+                triggerElement: '#sIntroFadeIN_trigger',
+                duration: '50%'
+            })
+            // .triggerHook('onEnter')
+            .offset(document.getElementById('sIntro').offsetHeight / 2)
+            // .setTween(sIntroFI_t)
+            .setPin('#sIntro')
+            .addIndicators({name: 'sIntroP'})
+            .addTo(controller);
 
-        // var sIntroFO_s = new ScrollMagic.Scene({
-        //         triggerElement: '#sIntroFadeOUT_trigger'
-        //     })
-        //     .triggerHook('onEnter')
-        //     .setTween(sIntroFO_t)
-        //     .addIndicators()
-        //     .addTo(controller);
+        var sIntroFO_s = new ScrollMagic.Scene({
+                triggerElement: '#sIntroFadeOUT_trigger'
+            })
+            // .triggerHook('onEnter')
+            .setTween(sIntroFO_t)
+            .offset(document.getElementById('sIntro').offsetHeight / 2)
+            .addIndicators({name: 'sIntroFO'})
+            .addTo(controller);
+        
+         var sMapZI_s = new ScrollMagic.Scene({
+                triggerElement: '#sMapZoomIN_trigger'
+            })
+            .on("enter", function(event) {
+                if (map.getZoom() == 10) {
+                    map.setView([data.location.latLng.lat, data.location.latLng.lng], 13, {
+                        "animate": true
+                    });
+                }
+                else {
+                    map.setView([data.location.latLng.lat, data.location.latLng.lng], 10, {
+                        "animate": true
+                    });
+                };
+            })
+            // .triggerHook('onEnter')
+            .addIndicators({name: 'sMapZI'})
+            .addTo(controller);
+            
+            
             
         var sTimeline_boxP_s = new ScrollMagic.Scene({
                 triggerElement: '#section4',

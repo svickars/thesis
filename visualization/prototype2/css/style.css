@@ -11,7 +11,7 @@ body {
     background-color: black !important;
     text-align: center;
     color: white !important;
-    /*overflow: hidden;*/
+    overflow-x: hidden;
     margin: 0 auto;
 }
 
@@ -217,35 +217,39 @@ button {
     opacity: 0;
 }
 
+
+
+
 #section3 {
     height: 100%;
     width: 100%;
     position: relative;
     align-items: center;
-    /*margin-top: -100%;*/
     
     display: none;
 }
 
 #sMap {
-    /*position: absolute;*/
+    margin-top: 75.6%;
 }
 
-#sIntro_box {
-    position: fixed;
-    width: 95%;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translateX(-50%);
-    -webkit-transform: translate(-50%, 0);
-    transform: translate(-50%, 0);
+#sIntro {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    opacity: 0;
+}
+
+.blackbox {
+    background-color: rgba(0,0,0,.85);
+    padding-bottom: 15px;
 }
 
 
-.blackBox {
-    background-color: rgba(0,0,0,.8);
-    padding: 20px;
-}
+
+
+
 
 #section3break {
     position: absolute;
@@ -320,17 +324,17 @@ button {
 #sIntroFadeIN_trigger {
     position: absolute;
     left: 0px;
-    top: 25%;
+    top: 100%;
 }
 #sIntroFadeOUT_trigger {
     position: absolute;
     left: 0px;
-    top: 50%;
+    top: 150%;
 }
 #sMapZoomIN_trigger {
     position: absolute;
     left: 0px;
-    top: 75%;
+    top: 200%;
 }
 
 
