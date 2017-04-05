@@ -74,9 +74,10 @@ function drawVisual(loc) {
 
 
         // DRAW MAP
-        var sMap = d3.select("#sMap").append("div").attr("class", "sMap").attr("id", "mapS3");
-        d3.select("#mapS3").style("height", window.innerHeight + "px").style("width", window.innerWidth + "px").style("opacity", 1);
-        var map = L.map('mapS3', {
+        d3.select("#map1").style("height", window.innerHeight*.9 + "px").style("width", window.innerWidth*.9 + "px");
+        var map1 = d3.select("#map1").append("div").attr("class", "map");
+        // d3.select("#sMap").style("height", window.innerHeight + "px").style("width", window.innerWidth + "px").style("opacity", 1);
+        var map = L.map('map1', {
             zoomControl: false,
             scrollWheelZoom: false,
             dragging: false,
@@ -293,9 +294,10 @@ function drawVisual(loc) {
                 triggerElement: '#section3',
                 duration: '300%'
             })
-            // .offset("50%")
-            .triggerHook('onEnter')
-            .setPin('#mapS3')
+            // .offset(window.innerHeight/2)
+            .triggerHook('onLeave')
+            .offset(-(window.innerHeight*.05))
+            .setPin('#map1')
             .addIndicators({name: 'map-pin'})
             .addTo(controller);
 
@@ -329,24 +331,24 @@ function drawVisual(loc) {
             .addIndicators({name: 'sIntroFO'})
             .addTo(controller);
         
-         var sMapZI_s = new ScrollMagic.Scene({
-                triggerElement: '#sMapZoomIN_trigger'
-            })
-            .on("enter", function(event) {
-                if (map.getZoom() == 10) {
-                    map.setView([data.location.latLng.lat, data.location.latLng.lng], 13, {
-                        "animate": true
-                    });
-                }
-                else {
-                    map.setView([data.location.latLng.lat, data.location.latLng.lng], 10, {
-                        "animate": true
-                    });
-                };
-            })
-            // .triggerHook('onEnter')
-            .addIndicators({name: 'sMapZI'})
-            .addTo(controller);
+        //  var sMapZI_s = new ScrollMagic.Scene({
+        //         triggerElement: '#sMapZoomIN_trigger'
+        //     })
+        //     .on("enter", function(event) {
+        //         if (map.getZoom() == 10) {
+        //             map.setView([data.location.latLng.lat, data.location.latLng.lng], 13, {
+        //                 "animate": true
+        //             });
+        //         }
+        //         else {
+        //             map.setView([data.location.latLng.lat, data.location.latLng.lng], 10, {
+        //                 "animate": true
+        //             });
+        //         };
+        //     })
+        //     // .triggerHook('onEnter')
+        //     .addIndicators({name: 'sMapZI'})
+        //     .addTo(controller);
             
             
             
