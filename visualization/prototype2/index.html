@@ -11,7 +11,7 @@
     <!--Leaflet-->
     <link rel="stylesheet" type="text/css" href="css/leaflet.css">
     <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
-    
+
     <!--Stylesheets-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -48,25 +48,22 @@
         </div>
         <div class="icon faa-float animated"><i class="fa fa-angle-down"></i></div>
     </div>
-    <div class="container clearfix row-guide">
-            <div class="row">
-                <div class="col-sm-8 col-sm-offset-2 col-xs-12">
-                    <guide>This visualization tells the story of Indian Residential Schools through a single school, before analyzing the system as a whole. Scroll on to explore.</guide>
-                </div>
-            </div>
-            </div>
-    
+
     <div id="section1break">
-        <div class="container clearfix" id="intro">
+        <div class="container clearfix">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 col-xs-12">
+                    <h1>This is a quick intro (some context and background)</h1>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
                         nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
                         blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue
+                        duis dolore te feugait nulla facilisi.</p>
+                    <guide>This visualization tells the story of Indian Residential Schools through a single school, before analyzing the system as a whole. <span class="change">Scroll on to explore.</span></guide>
                 </div>
             </div>
         </div>
-        <div class="icon faa-float animated"><i class="fa fa-angle-down"></i></div>
+        <div class="scroll-arrow faa-float animated"><i class="fa fa-angle-down"></i></div>
     </div>
 
     <!--SECTION TWO -- LOCATION SELECTION-->
@@ -79,34 +76,34 @@
                 </div>
             </div>
         </div>
-        <div class="icon faa-float animated" id="iLoc"><i class="fa fa-angle-down"></i></div>
+        <div class="scroll-arrow faa-float animated" id="s2arrow"><i class="fa fa-angle-down"></i></div>
     </div>
 
-    <div class="main">
-        <div class="container clearfix">
-            <!--SECTION THREE --SCHOOL INTRO MAP-->
-            <div class="row" id="section3">
-                <div id="sMap">
-                    <div id="sIntroFadeIN_trigger"></div>
-                    <div id="sIntroFadeOUT_trigger"></div>
-                    <div id="sMapZoomIN_trigger"></div>
-                    <div class="row" id="sIntro"></div>
+    <!--SECTION THREE --SCHOOL INTRO MAP-->
+    <div id="section3">
+            <div id="sMap">
+                <div class="container clearfix">
+                <div id="sIntroFadeIN_trigger">intro IN</div>
+                <div id="sIntroFadeOUT_trigger">intro OUT</div>
+                <div id="sMapZoomIN_trigger">zoom IN</div>
+                <div id="sIntro"></div>
                 </div>
-            </div>
+        </div>
+    </div>
 
-            <!--BREAK SECTION-->
-            <div class="row break" id="section3break">
-                <!--<div class="col-md-8 col-md-offset-2 col-xs-12" id="section3break_text">-->
-                <!--</div>-->
-            </div>
+    <!--BREAK SECTION-->
+    <div class="container clearfix">
+        <div class="row break" id="section3break">
+            <!--<div class="col-md-8 col-md-offset-2 col-xs-12" id="section3break_text">-->
+            <!--</div>-->
+        </div>
 
-            <!--SECTION FOUR -- SCHOOL DATA-->
-            <div class="row" id="section4">
-                <div class="col-sm-8" id="sData_left">
-                    <div class="vSchool" id="vSchool"></div>
-                </div>
-                <div class="col-sm-4" id="sData_right">
-                </div>
+        <!--SECTION FOUR -- SCHOOL DATA-->
+        <div class="row" id="section4">
+            <div class="col-sm-8" id="sData_left">
+                <div class="vSchool" id="vSchool"></div>
+            </div>
+            <div class="col-sm-4" id="sData_right">
             </div>
         </div>
     </div>
