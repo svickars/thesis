@@ -17,19 +17,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/font-awesome-animation.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Rubik:400,400i,500,500i" rel="stylesheet">
 
-    <!--D3 and Fonts-->
+    <!--D3-->
     <script src="https://use.fontawesome.com/132433ada8.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://use.typekit.net/vxf5yng.js"></script>
-    <script>
-        try {
-            Typekit.load({
-                async: true
-            });
-        }
-        catch (e) {}
-    </script>
 
 </head>
 
@@ -81,28 +74,55 @@
 
     <!--SECTION THREE --SCHOOL INTRO MAP-->
     <div id="section3">
+        <div id="map1"></div>
+        <div id="sIntroFadeIN_trigger"></div>
+        <div id="sIntroFadeOUT_trigger"></div>
+        <div id="sMapZoomIN_trigger"></div>
         <div class="container clearfix">
-            <div id="map1"></div>
-            <div id="sIntroFadeIN_trigger">intro IN</div>
-            <div id="sIntroFadeOUT_trigger">intro OUT</div>
-            <div id="sMapZoomIN_trigger">zoom IN</div>
-            <div id="sIntro"></div>
+            <div class="row" id="intro_row">
+                <div id="s3_intro"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="section3break">
+        <div class="container clearfix">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-12" id="section3break_inner">
+
+                </div>
+            </div>
         </div>
     </div>
 
     <!--BREAK SECTION-->
-    <div class="container clearfix">
-        <div class="row break" id="section3break">
-            <!--<div class="col-md-8 col-md-offset-2 col-xs-12" id="section3break_text">-->
-            <!--</div>-->
-        </div>
 
-        <!--SECTION FOUR -- SCHOOL DATA-->
-        <div class="row" id="section4">
-            <div class="col-sm-8" id="sData_left">
-                <div class="vSchool" id="vSchool"></div>
+
+    <!--SECTION FOUR -- SCHOOL DATA-->
+    <div id="section4">
+        <div class="container clearfix marginFix">
+            <div id="section4_container"></div>
+            <div class="row">
+                <div class="col-sm-8" id="sData_left">
+                    <div class="vSchool" id="vSchool"></div>
+                </div>
+                <div class="col-sm-4" id="sData_right">
+                </div>
             </div>
-            <div class="col-sm-4" id="sData_right">
+        </div>
+    </div>
+
+    <!--SECTION FIV -- SCHOOL DATA-->
+    <div id="section5">
+        <div class="container clearfix marginFix">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-xs-12">
+                    <h1 style="text-align: left">Qualitative Data</h1>
+                    <p>This is where we introduce some school-specific qualitative data, before bringing the map back to analyze the network of schools as a whole.</p>
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue
+                        duis dolore te feugait nulla facilisi.</p>
+                    <guide>This visualization tells the story of Indian Residential Schools through a single school, before analyzing the system as a whole. <span class="change">Scroll on to explore.</span></guide>
+                </div>
             </div>
         </div>
     </div>
@@ -115,6 +135,7 @@
 
     <script src="js/bootstrap.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/segment-js/1.0.8/segment.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
