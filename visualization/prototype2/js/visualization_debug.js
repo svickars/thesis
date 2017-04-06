@@ -269,6 +269,9 @@ function drawVisual(loc) {
                 //   })
                 // .offset(-document.getElementById('sYearly' + currentY).offsetHeight)
                 .setTween(currentL_t)
+                .addIndicators({
+                    name: currentY
+                })
                 .addTo(controller);
                 
             
@@ -294,6 +297,7 @@ function drawVisual(loc) {
                 })
                 .triggerHook("onCenter")
                 .setTween(tween)
+                .addIndicators() // add indicators (requires plugin)
                 .addTo(controller);
             
             
@@ -343,6 +347,7 @@ function drawVisual(loc) {
                 })
                 // .offset(document.getElementById('sTimeline' + sTimeline[i].date).offsetHeight / 2)
                 .setTween(sTimeline_boxFI_t)
+                .addIndicators({name: "timeline" + sTimeline[i].date + "fade in"})
                 .addTo(controller);
 
             var sTimeline_boxFO_s = new ScrollMagic.Scene({
@@ -350,6 +355,7 @@ function drawVisual(loc) {
                 })
                 .offset(document.getElementById('sTimeline' + sTimeline[i].date).offsetHeight)
                 .setTween(sTimeline_boxFO_t)
+                .addIndicators({name: "timeline" + sTimeline[i].date + "fade out"})
                 .addTo(controller);
 
         };
@@ -371,6 +377,9 @@ function drawVisual(loc) {
             })
             .triggerHook('onLeave')
             .setPin('#map1')
+            .addIndicators({
+                name: 'map-pin'
+            })
             .addTo(controller);
 
         // set up tweens to fade in/out the school intro box
@@ -390,6 +399,7 @@ function drawVisual(loc) {
             })
             .offset(document.getElementById('s3_intro').offsetHeight/2)
             .setTween(s3_intro_FI_t)
+            .addIndicators()
             .addTo(controller);
         
         var s3_intro_FO_s = new ScrollMagic.Scene({
@@ -397,6 +407,7 @@ function drawVisual(loc) {
             })
             .offset(document.getElementById('s3_intro').offsetHeight/2)
             .setTween(s3_intro_FO_t)
+            .addIndicators()
             .addTo(controller);
 
         // pin the school intro box from the fade in trigger to the fade out trigger   
@@ -406,6 +417,9 @@ function drawVisual(loc) {
             })
             .offset(document.getElementById('s3_intro').offsetHeight/2)
             .setPin('#s3_intro')
+            .addIndicators({
+                name: 's3_intro-pin'
+            })
             .addTo(controller);
 
         // pin the section 3 break until the map is done
@@ -415,6 +429,9 @@ function drawVisual(loc) {
             })
             .triggerHook('onEnter')
             .setPin('#section3break')
+            .addIndicators({
+                name: 's3-pin'
+            })
             .addTo(controller);
 
 
@@ -427,6 +444,9 @@ function drawVisual(loc) {
             })
             .triggerHook('onLeave')
             .setPin('#section4_container')
+            .addIndicators({
+                name: 's4c-pin'
+            })
             .addTo(controller);
 
         // pin the section 4 left pane (chart) for the duration of sData_right
@@ -436,6 +456,9 @@ function drawVisual(loc) {
             })
             .triggerHook('onLeave')
             .setPin('#sData_left')
+            .addIndicators({
+                name: 's4_left-pin'
+            })
             .addTo(controller);
             
         // pin section 5 until its turn
@@ -445,6 +468,9 @@ function drawVisual(loc) {
             })
             .triggerHook('onLeave')
             .setPin('#section5')
+            .addIndicators({
+                name: 's5-pin'
+            })
             .addTo(controller);
 
 
@@ -467,6 +493,9 @@ function drawVisual(loc) {
                 };
             })
             // .triggerHook('onEnter')
+            .addIndicators({
+                name: 'sMapZI'
+            })
             .addTo(controller);
 
 
