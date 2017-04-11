@@ -4,9 +4,7 @@
 	- [1.3 Audience](#audience)
 	- [1.4 Data Use](#datause)
 2. [Indian Residential School System](#irs)
-	- [2.1 Understanding](#understanding)
-		- [2.1.1 *Terminology, Organizations, and Definitions*](#terminology)
-		- [2.1.2 *Cultural Genocide*](#genocide)
+	- [2.1 Terminology, Organizations, and Definitions](#terminology)
 	- [2.2 Justification](#justification)
 		- [2.2.1 *Early History*](#history)
 		- [2.2.2 *Assimilation*](#assimilation)
@@ -87,7 +85,7 @@ Data sources include the reports of the National Truth and Reconciliation Commis
 
 #  <a id="irs"></a> 2. The Indian Residential School System
 
-## <a id="understanding"></a> 2.1 Terminology, Organizations, and Definitions
+## <a id="terminology"></a> 2.1 Terminology, Organizations, and Definitions
 
 
 For this study, and indeed, as defined by the Government of Canada and the commission that investigated it, the Indian Residential School (IRS) system refers to one hundred and thirty-two schools across ten Canadian provinces and territories.  There were no schools in the maritime provinces of Newfoundland, Prince Edward Island, or New Brunswick. The term “residential school” refers to boarding schools, at which most or all students live while in attendance, and which, in the case of the IRS system, were often located on or near native reservations.
