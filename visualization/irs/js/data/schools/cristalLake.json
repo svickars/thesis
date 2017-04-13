@@ -1,0 +1,230 @@
+{
+    "name": "Cristal Lake Indian Residential School",
+    "type": "Residential",
+    "location": {
+        "province": "Ontario",
+        "prov": "ON",
+        "city": "Cristal Lake",
+        "latLng": {
+            "lat": 52.11318055555556,
+            "lng": -90.08484999999999
+        }
+    },
+    "narrativeDate": "21-02-13",
+    "startYear": 1976,
+    "endYear": 1986,
+    "data": {
+        "nameVariants": [{
+            "startYear": 1976,
+            "endYear": 1986,
+            "name": "Cristal Lake School",
+            "note": "It appears that this school was a predecessor to Blue Quills Indian Residential School",
+            "ref": ["01528"]
+        }],
+        "chronoHistory": [{
+            "date": 1976,
+            "desc": "The Cristal Lake IRS opened for the 1976/77 school year and offered grades 9, 10 and 11 to fifteen Indian girls.",
+            "ref": ["CLS-000001-0001","CLS-000045-0000","CLS-000051"]
+        },{
+            "date": 1979,
+            "desc": "The Northern Youth Programs Inc. submitted a proposed budget contract to the federal government for tuition and administration for 48 male and female Indian high school students at the Cristal Lake IRS and the Stirland Lake IRS for the 1979/80 school year. ",
+            "ref": ["SLS-000014-0000","SLS-000014-0001","SLS-000014-0002","SLS-000014-0003"]
+        },{
+            "date": 1980,
+            "desc": "A forest fire near the Stirland Lake IRS led to the evacuation of pupils to the Cristal Lake IRS.  The girls from the Cristal Lake IRS had been moved to Beaver Lake.  The boys from the Stirland Lake IRS stayed at the Cristal Lake IRS for five days.",
+            "ref": ["SLS-000056, pg.2"]
+        },{
+            "date": 1981,
+            "desc": "Officials from the Ontario Ministry of Education visited the Cristal Lake IRS to determine if its curriculum met the required provincial guidelines for private schools.  The federal government had requested that the program at the IRS be reviewed with an emphasis on its provincial accreditation as a private school.",
+            "ref": ["SLS-000030-0000","SLS-000008"]
+        },{
+            "date": 1982,
+            "desc": "A tuition agreement and addendum were signed between the Northern Youth Programs and the federal government for the period September 1, 1981 to August 30, 1982.  The agreement was for secondary school education, pupil maintenance and special cultural courses for 20 female Indian students at the Cristal Lake IRS.",
+            "ref": ["SLS-000171-0000","SLS-000171-0001","SLS-000171-0002","SLS-000171-0003"]
+        },{
+            "date": 1983,
+            "desc": "A tuition agreement was signed between the Northern Youth Programs, the Northern Nishnawbe Education Council, and the federal government for the period January 1 to December 31, 1983.  The agreement was for secondary school education, pupil maintenance and special cultural courses for 57 Indian students for both the Stirland Lake IRS and the Cristal Lake IRS.",
+            "ref": ["SLS-000170-0000","SLS-000170-0003","SLS-000170-0004","SLS-000170-0005"]
+        },{
+            "date": 1984,
+            "desc": "A tuition agreement was signed between the Northern Youth Programs, the Northern Nishnawbe Education Council, and the federal government for the period January 1 to December 31, 1985.  The agreement was for secondary school education, pupil maintenance and special cultural courses for 58 Indian students for both the Stirland Lake IRS and the Cristal Lake IRS. The Northern Nishnawbe Education Council was to provide the Northern Youth Programs with lists of qualified students to be enrolled at each IRS.",
+            "ref": ["SLS-000169-0000","SLS-000169-0001","SLS-000169-0002","SLS-000169-0003"]
+        },{
+            "date": 1986,
+            "desc": "The Cristal Lake IRS closed at the end of the 1985/86 school year. The last day of classes was held on June 12, 1986.",
+            "ref": ["CLS-000105-0000"]
+        }],
+        "notesHistory": [{
+            "date": "",
+            "desc": "",
+            "ref": [""]
+        }],
+        "management": {
+            "church": [{
+                "startYear": 1976,
+                "endYear": 1986,
+                "org": "Northern Youth Programs Inc., a branch of the Mennonite Northern Light Gospel Missions",
+                "type": ["Management"],
+                "ref": ["PHD-000222","CLS-000001-0000","SLS-000171-0003","SLS-000169-0001"]
+            }],
+            "government": [{
+                "startYear": "",
+                "endYear": "",
+                "org": "",
+                "type": [""],
+                "ref": [""]
+            }],
+            "band": [{
+                "startYear": "",
+                "endYear": "",
+                "org": "",
+                "type": [""],
+                "ref": [""]
+            }]
+        },
+        "facilities": [{
+            "date": 1976,
+            "building": "School Buildings",
+            "event": "opening",
+            "location": "Cristal Lake, Ontario",
+            "desc": "The IRS buildings consisted of a student dormitory, a classroom building, a Home Economics classroom and several staff residence buildings.",
+            "ref": ["CLS-000001-0001"]
+        },{
+            "date": 1979,
+            "building": "Gymnasium",
+            "event": "renovation",
+            "location": "Cristal Lake, Ontario",
+            "desc": "The girls at the IRS decorated the newly paneled gym walls.  The paneling work had been done by the “Cristal Lake men”.",
+            "ref": ["CLS-000033, pg.3"]
+        },{
+            "date": 1979,
+            "building": "School Buildings",
+            "event": "construction",
+            "location": "Cristal Lake, Ontario",
+            "desc": "The Lakeview Dorm was depicted in the IRS yearbook as a separate building. The classroom building was detached from the dorm.",
+            "ref": ["CLS-000017, pg.29,31"]
+        },{
+            "date": 1983,
+            "building": "School Buildings",
+            "event": "renovation",
+            "location": "Cristal Lake, Ontario",
+            "desc": "Work crews from Maryland, Ohio, Indiana, and Pennsylvania spent a week each at the Cristal Lake IRS undertaking remodeling, small carpentry projects, repairs to the buildings and grounds and cutting wood.",
+            "ref": ["CLS-000021, pg.23"]
+        }],
+        "land": [{
+            "date": "",
+            "owner": "",
+            "size": "",
+            "type": "",
+            "location": "",
+            "note": "",
+            "ref": [""]
+        }],
+        "media": [{
+            "ref": "CLS-000017, pg.29,31",
+            "date": 1979,
+            "desc": "The IRS yearbook featured a picture of the exterior of the classroom building, and pictures of students at their desks. The exterior of the Lakeview Dorm building was also featured"
+        },{
+            "ref": "CLS-000021, pg.35",
+            "date": 1983,
+            "desc": "The IRS yearbook featured pictures of “dorm life” at the IRS, including an exterior picture of a side of the dorm and several interior pictures"
+        }],
+        "enrollment": [{
+            "year": 1976,
+            "number": 15,
+            "notes": ""
+        },{
+            "year": 1977,
+            "number": 20,
+            "notes": ""
+        },{
+            "year": 1978,
+            "number": 26,
+            "notes": ""
+        },{
+            "year": 1979,
+            "number": 24,
+            "notes": ""
+        },{
+            "year": 1980,
+            "number": 27,
+            "notes": ""
+        },{
+            "year": 1981,
+            "number": 25,
+            "notes": ""
+        },{
+            "year": 1982,
+            "number": 28,
+            "notes": ""
+        },{
+            "year": 1983,
+            "number": 25,
+            "notes": ""
+        },{
+            "year": 1984,
+            "number": 28,
+            "notes": ""
+        },{
+            "year": 1985,
+            "number": 29,
+            "notes": ""
+        }],
+        "reserves": ["", ""],
+        "religiousGroups": [{
+            "group": "Northern Youth Programs Inc., a branch of the Mennonnnite Northern Light Gospel Missions",
+            "ref": ["PHD-000222","CLS-000001-0000","SLS000171-0003","SLS-000169-0001"]
+        }],
+        "writtenAgreements": [{
+            "date": "",
+            "title": "",
+            "desc": "",
+            "ref": [""]
+        }],
+        "abuseReports": {
+            "physical": [{
+                "date": "",
+                "source": "",
+                "investigated": "",
+                "result": "",
+                "victim": "",
+                "agressor": "",
+                "notes": "",
+                "ref": [""]
+            }],
+            "sexual": [{
+                "date": "",
+                "source": "",
+                "investigated": "",
+                "result": "",
+                "victim": "",
+                "aggressor": "",
+                "notes": "",
+                "ref": [""]
+            }]
+        },
+        "additionalInfo": {
+            "studentAggression": [{
+                "date": "",
+                "students": "",
+                "type": "",
+                "notes": "",
+                "ref": [""]
+            }],
+            "studentSex": [{
+                "date": "",
+                "students": "",
+                "type": "",
+                "notes": "",
+                "ref": [""]
+            }],
+            "medical": [{
+                "startYear": "",
+                "endYear": "",
+                "type": "",
+                "ref": [""]
+            }]
+        }
+    }
+
+}
