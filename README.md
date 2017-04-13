@@ -35,3 +35,9 @@ This project aims to investigate the IRS system, beginning with the narrative of
 #### Issues and Dependancies
 * Haven't heard back from NCTR, will continue to work without their input and trying to get in touch.
 * Rate of data extraction with Amazon Mechanical Turk has slowed down -- I have enough data to get started and will be able to add in more as it is completed.
+
+#### Feature List
+* Make hard-to-access NCTR and NTRC data tangible and available to all Canadians
+* Understand the IRS system through personal stories and qualitative informaiton
+* Provide a home for IRS data outside of government databases
+* Track reconcilation attempts and recommdation progress
