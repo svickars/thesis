@@ -12,8 +12,8 @@
 	- [2.3 The Schools](#schools)
 		- [2.3.1 *Demographics*](#demographics)
 		- [2.3.2 *Student life*](#studentlife)
-		- [2.3.3 *Facilities, locations, sizes, names*](#facilities)
-		- [2.3.4 *Student base (i.e. where did students come from?)*](#studentbase)
+		- [2.3.3 *Student base (i.e. where did students come from?)*](#studentbase)
+		- [2.3.4 *Incidents*](#incidents)
 	- 2.4 The School System
 		- 2.4.1 *Schools in relation to Canada*
 		- 2.4.2 *Schools in relation to “white” schools*
@@ -125,8 +125,8 @@ Something about this becoming the IRS system
 ## <a id="schools"></a>2.3 The Schools
 ### <a id="demographics"></a>2.3.1 Demographics
 ### <a id="studentlife"></a>2.3.2 Student Life
-### <a id="facilities"></a>2.3.3 Facilities, Locations, Sizes
-### <a id="studentbase"></a>2.3.4 Student Base
+### <a id="studentbase"></a>2.3.3 Student Base
+### <a id="incidents"></a>2.3.4 Incidents
 
 ## <a id="schoolsystem"></a>2.4 The System
 
