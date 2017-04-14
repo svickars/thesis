@@ -1168,6 +1168,80 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/js\/data\/stories\/images\/bbaxter.png": {
+		"ft": 32768,
+		"iS": 171702,
+		"oA": 0,
+		"oAP": "\/js\/data\/stories\/images\/bbaxter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/data\/stories\/images\/dadolph.png": {
+		"ft": 32768,
+		"iS": 195466,
+		"oA": 0,
+		"oAP": "\/js\/data\/stories\/images\/dadolph.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/data\/stories\/images\/dantoine.png": {
+		"ft": 32768,
+		"iS": 170434,
+		"oA": 0,
+		"oAP": "\/js\/data\/stories\/images\/dantoine.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/data\/stories\/images\/lpmcdonald.png": {
+		"ft": 32768,
+		"iS": 171953,
+		"oA": 0,
+		"oAP": "\/js\/data\/stories\/images\/lpmcdonald.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/data\/stories\/images\/nstarblanket.png": {
+		"ft": 32768,
+		"iS": 147807,
+		"oA": 0,
+		"oAP": "\/js\/data\/stories\/images\/nstarblanket.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/data\/stories\/images\/rhall.png": {
+		"ft": 32768,
+		"iS": 191129,
+		"oA": 0,
+		"oAP": "\/js\/data\/stories\/images\/rhall.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/js\/data\/stories\/stories.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/data\/stories\/stories-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/js\/visualization-min.js": {
 		"ft": 64,
 		"mi": 1,
