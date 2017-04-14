@@ -1,0 +1,97 @@
+@import "neat";
+@import "bourbon", "bitters/base";
+
+// variables
+$neat-grid: (
+  columns: 12,
+  gutter: 20px,
+);
+
+$tablet-neat-grid: (
+  columns: 12,
+  gutter: 15px,
+  media: 768px,
+);
+
+
+// basics
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0 auto;
+}
+
+
+// typography
+h1 {
+  font-weight: $regular;
+}
+
+h2 {
+  font-weight: $regular;
+  border-bottom: 2px solid $orange;
+  padding-bottom: 10px;
+}
+
+h6 {
+  font-family: $sansserif;
+  font-size: .8em;
+  line-height: .9em;
+  color: $orange;
+}
+
+p {
+  // font-size: 1em;
+  // line-height: 1.1em;
+  color: $dark-gray;
+}
+
+
+// scroll/section guide
+.scroll-arrow {
+  position: absolute;
+  color: $orange;
+  left: 50%;
+  top: 95%;
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+
+.guide {
+  color: $medium-gray;
+  font-size: .8em;
+}
+
+
+// sections
+.full {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+.centered {
+  @include grid-column(12);
+  @include grid-media($tablet-neat-grid){
+    @include grid-column(8);
+    @include grid-push(2);
+  }
+}
+
+// section specifics
+#p1 {
+  text-align: center;
+}
