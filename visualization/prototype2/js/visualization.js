@@ -193,7 +193,7 @@ function drawVisual(loc) {
         // create scroll triggers at year marks
         var sEnrol = data.data.enrollment;
 
-        
+
         // draw path
         var path = svgSchool.append('svg:path')
             .attr('id', 'chart')
@@ -210,26 +210,26 @@ function drawVisual(loc) {
         //     .transition()
         //     .duration(1000)
         //     .attr("stroke-dashoffset", 0);
-        
+
         function pathPrepare($el, i, total) {
             var lineLength = $el[0].getTotalLength();
             $el.css("stroke-dasharray", lineLength);
             $el.css("stroke-dashoffset", lineLength);
         }
-        
+
         var $chart = $("path#chart");
-        
-        
-        
-        
-        
-        
-        
-        
-        
 
 
-        
+
+
+
+
+
+
+
+
+
+
 
         d3.select("#sData_right").style("min-height", sEnrol.length * 50 + "px");
 
@@ -273,22 +273,22 @@ function drawVisual(loc) {
                     name: currentY
                 })
                 .addTo(controller);
-                
-            
-            
-            
+
+
+
+
             // prepare SVG
             pathPrepare($chart, i, sEnrol.length);
-            
-            
-            
-            
+
+
+
+
             var tween = new TimelineMax()
                 .add(TweenMax.to($chart, .25, {
                     strokeDashoffset: 0,
                     ease: Linear.easeNone
                 }));
-            
+
             // build scene
             var scene = new ScrollMagic.Scene({
                     triggerElement: "#sYearly" + (i + sOpen),
@@ -299,9 +299,9 @@ function drawVisual(loc) {
                 .setTween(tween)
                 .addIndicators() // add indicators (requires plugin)
                 .addTo(controller);
-            
-            
-            
+
+
+
 
             // var sYearly_s = new ScrollMagic.Scene({
             //         triggerElement: '#sYearly' + (i + sOpen)
@@ -384,15 +384,15 @@ function drawVisual(loc) {
 
         // set up tweens to fade in/out the school intro box
         d3.select("#s3_intro").style("opacity", "0");
-        
+
         var s3_intro_FI_t = TweenMax.to('#s3_intro', 1, {
             opacity: '1'
         });
-        
+
         var s3_intro_FO_t = TweenMax.to('#s3_intro', 1, {
             opacity: '0'
         });
-        
+
         // fade in the intro box
         var s3_intro_FI_s = new ScrollMagic.Scene({
                 triggerElement: '#sIntroFadeIN_trigger'
@@ -401,7 +401,7 @@ function drawVisual(loc) {
             .setTween(s3_intro_FI_t)
             .addIndicators()
             .addTo(controller);
-        
+
         var s3_intro_FO_s = new ScrollMagic.Scene({
                 triggerElement: '#sIntroFadeOUT_trigger'
             })
@@ -410,7 +410,7 @@ function drawVisual(loc) {
             .addIndicators()
             .addTo(controller);
 
-        // pin the school intro box from the fade in trigger to the fade out trigger   
+        // pin the school intro box from the fade in trigger to the fade out trigger
         var s3_introP_s = new ScrollMagic.Scene({
                 triggerElement: '#sIntroFadeIN_trigger',
                 duration: '50%'
@@ -460,7 +460,7 @@ function drawVisual(loc) {
                 name: 's4_left-pin'
             })
             .addTo(controller);
-            
+
         // pin section 5 until its turn
         var s4cP_s = new ScrollMagic.Scene({
                 triggerElement: '#section3',

@@ -91,6 +91,15 @@ p {
   }
 }
 
+.centered-small {
+  @include grid-column(8);
+  @include grid-media($tablet-neat-grid){
+    @include grid-column(4);
+    @include grid-push(4);
+  }
+}
+
+
 // section specifics
 #p1, #p3 {
   text-align: center;
@@ -115,8 +124,10 @@ p {
 }
 
 #stories-select {
-  float: left;
-
+  // float: left;
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
 
 .clear {
@@ -168,4 +179,23 @@ white-space: normal;
   cursor: pointer;
   outline: 2px solid $orange;
   color: $dark-gray;
+}
+
+#p4 {
+  position: relative;
+}
+
+#storyNameFI {
+  position: absolute;
+  top:80%;
+  left: 0;
+}
+
+#storyName {
+  text-align: center;
+  opacity: 0;
+}
+
+.storyName {
+  border-bottom: 2px solid $orange;
 }
