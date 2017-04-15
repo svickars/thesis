@@ -248,16 +248,29 @@ p {
 
 .stories {
   min-width: 100%;
-  height: 20em;
-  overflow-x: scroll;
+  height: 25em;
+  overflow: hidden;
+  cursor: move; }
+
+.stories-content {
+  padding: .5em;
   overflow-y: hidden;
+  height: 30em;
+  width: 100%;
+  position: relative;
   white-space: nowrap; }
+
+#stories-select {
+  float: left; }
+
+.clear {
+  clear: both; }
 
 .story-option-container {
   display: inline-block;
-  vertical-align: middle;
-  width: 10em;
-  height: 20em;
+  vertical-align: top;
+  width: 12em;
+  padding: 1em;
   margin: 0 2em 0 2em; }
 
 .story-option-circle {
@@ -287,3 +300,8 @@ p {
   font-style: italic;
   padding-top: 10px;
   color: #999; }
+
+.story-option-container:hover {
+  cursor: pointer;
+  outline: 2px solid #f15a24;
+  color: #333; }

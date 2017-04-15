@@ -26,31 +26,14 @@ $(function() {
 });
 
 // horizontal drag on story selection
-var x, y, top, left, down;
-
-$("#stories").mousedown(function(e) {
-    e.preventDefault();
-    down = true;
-    x = e.pageX;
-    y = e.pageY;
-    top = $(this).scrollTop();
-    left = $(this).scrollLeft();
-});
-
-$("body").mousemove(function(e) {
-    if (down) {
-        var newX = e.pageX;
-        var newY = e.pageY;
-
-        //console.log(y+", "+newY+", "+top+", "+(top+(newY-y)));
-
-        $("#stories").scrollTop(top - newY + y);
-        $("#stories").scrollLeft(left - newX + x);
-    }
-});
-
-$("body").mouseup(function(e) {
-    down = false;
+jQuery("#stories-select").draggable({
+    axis: "x",
+    cursor: "move",
+    containment: "stories",
+    // stop: function() {
+    //     if (jQuery("#stories-select").position().left < 1)
+    //         jQuery("#stories-select").css("left", "720px");
+    // }
 });
 
 
@@ -58,9 +41,9 @@ $("body").mouseup(function(e) {
 function drawStoryOptions() {
     d3.json("js/data/stories/stories.json", function(data) {
         for (var i = 0; i < data.stories.length; i++) {
-
+            console.log(data.stories[i].name);
             var story_option_container = d3.select("#stories-select").append("div").attr("class", "story-option-container").attr("id", "story-option-container-" + i).on("click", function(i) {
-                storyClick(i);
+                console.log(i);
             });
 
             var story_option_circle = d3.select("#story-option-container-" + i).append("div").attr("class", "story-option-circle").attr("id", "story-option" + i);
