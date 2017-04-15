@@ -92,6 +92,61 @@ p {
 }
 
 // section specifics
-#p1 {
+#p1, #p3 {
   text-align: center;
 }
+
+.stories {
+  min-width: 100%;
+  height: 20em;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.story-option-container {
+  display: inline-block;
+  vertical-align: middle;
+  width: 10em;
+  height: 20em;
+  margin: 0 2em 0 2em;
+}
+
+.story-option-circle {
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+  background-color: $orange;
+}
+
+.story-option-circle:hover {
+  background-color: $dark-gray;
+}
+
+.story-label {
+white-space: normal;
+  text-align: center;
+  padding-top: 25px;
+  font-size: .8em;
+  line-height: 1.25em;
+}
+
+.story-option-name {
+  margin-left: -100%;
+  margin-right: -100%;
+  font-family: $serif;
+  color: $dark-gray;
+}
+
+.story-option-quote {
+  width: 12em;
+  font-style: italic;
+  padding-top: 10px;
+  color: $medium-gray;
+}
+
+// .story-option-container:hover {
+//   cursor: pointer;
+//   background-color: $light-gray;
+//   color: $dark-gray;
+// }
