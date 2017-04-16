@@ -8,7 +8,7 @@ Overall, there were 130 (?) schools, as recognized by the National Truth and Rec
 
 In recent years and in light of official apologies issued by the Government of Canada, individual provinces and territories, the Vatican, and church groups, information about the schools and their students' welfare has become public knowledge: physical and sexual abuse was common, both between students and involving administrators; malnourishment and poor living conditions were typical; and assimilation, deprivation of culture traditions, and punishment was the standard. It is estimated that 6000 children died while in attendance.
 
-This project aims to investigate the IRS system, beginning with the narrative of a single school, its student demographics, policies, everyday life, and management, and visualizing how it fits into the larger network by synthesizing various resources, documentation, and data sources. 
+This project aims to investigate the IRS system, beginning with the narrative of a single school, its student demographics, policies, everyday life, and management, and visualizing how it fits into the larger network by synthesizing various resources, documentation, and data sources.
 
 
 
@@ -30,7 +30,7 @@ This project aims to investigate the IRS system, beginning with the narrative of
 
 #### Exercise Three
 * [Treament - Draft (Markdown)](https://github.com/svickars/thesis/blob/master/writing/07_treatment.md)
-* [Prototype - Ongoing Draft](https://svickars.github.io/thesis/visualization/prototype2/index.html)
+* [Prototype - Ongoing Draft](https://svickars.github.io/thesis/visualization/irs/index.html)
 
 #### Issues and Dependancies
 * Haven't heard back from NCTR, will continue to work without their input and trying to get in touch.
