@@ -13,6 +13,12 @@ $tablet-neat-grid: (
   media: 768px,
 );
 
+$phone-neat-grid: (
+  columns: 12,
+  gutter: 15px,
+  media: 480px,
+);
+
 
 // basics
 html {
@@ -92,13 +98,21 @@ p {
 }
 
 .centered-small {
-  @include grid-column(8);
+  @include grid-column(12);
+  // @include grid-push(1);
+  @include grid-media($phone-neat-grid){
+    @include grid-column(8);
+    @include grid-push(2);
+  }
   @include grid-media($tablet-neat-grid){
     @include grid-column(4);
     @include grid-push(4);
   }
 }
 
+.orange {
+  color: $orange;
+}
 
 // section specifics
 #p1, #p3 {
@@ -164,13 +178,14 @@ white-space: normal;
 .story-option-name {
   margin-left: -100%;
   margin-right: -100%;
-  font-family: $serif;
+  font-family: $sansserif;
+  font-size: 1.25em;
   color: $dark-gray;
 }
 
 .story-option-quote {
+font-family: $serif;
   width: 12em;
-  font-style: italic;
   padding-top: 10px;
   color: $medium-gray;
 }
@@ -191,11 +206,35 @@ white-space: normal;
   left: 0;
 }
 
-#storyName {
-  text-align: center;
-  opacity: 0;
+#p5 {
+  position: relative;
 }
 
-.storyName {
-  border-bottom: 2px solid $orange;
+#storyName {
+  text-align: center;
+}
+
+#storyBioT {
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.story-section {
+  color: $orange;
+  font-size: .75em;
+}
+
+.story-pre {
+  color: $medium-gray;
+  // font-style: italic;
+  font-size: .75em;
+}
+
+.story-quote {
+  font-family: $serif;
+}
+
+#p6 h1 {
+  text-align: center;
 }

@@ -48,6 +48,9 @@ var drawStory_s = new ScrollMagic.Scene({
         pageSix();
     })
     .triggerHook('onEnter')
+    .addIndicators({
+        name: 'drawStory'
+    })
     .addTo(controller);
 
 
@@ -107,6 +110,9 @@ function drawStory(storyID) {
             })
             .offset(document.getElementById('storyName').offsetHeight / 2 + "px")
             .setPin("#storyName")
+            .addIndicators({
+                name: "storyName_pin"
+            })
             .addTo(controller);
 
         storyBio_p = new ScrollMagic.Scene({
@@ -115,6 +121,9 @@ function drawStory(storyID) {
             })
             .offset(document.getElementById('storyBio').offsetHeight / 2 + "px")
             .setPin("#storyBio")
+            .addIndicators({
+                name: "storyBio_pin"
+            })
             .addTo(controller);
 
         storySchoolBio_p = new ScrollMagic.Scene({
@@ -123,6 +132,9 @@ function drawStory(storyID) {
             })
             .offset(document.getElementById('storySchoolBio').offsetHeight / 2 + "px")
             .setPin("#storySchoolBio")
+            .addIndicators({
+                name: "storySchoolBio_pin"
+            })
             .addTo(controller);
 
         var storyName_f = TweenMax.to("#storyName", .5, {
@@ -142,6 +154,9 @@ function drawStory(storyID) {
             })
             .triggerHook("onEnter")
             .setTween(storyName_f)
+            .addIndicators({
+                name: "storyName_f"
+            })
             .addTo(controller);
 
         var storyBio_f_s = new ScrollMagic.Scene({
@@ -149,6 +164,9 @@ function drawStory(storyID) {
             })
             .triggerHook("onEnter")
             .setTween(storyBio_f)
+            .addIndicators({
+                name: "storyName_f"
+            })
             .addTo(controller);
 
         var storySchoolBio_f_s = new ScrollMagic.Scene({
@@ -156,6 +174,9 @@ function drawStory(storyID) {
             })
             .triggerHook("onEnter")
             .setTween(storySchoolBio_f)
+            .addIndicators({
+                name: "storyName_f"
+            })
             .addTo(controller);
 
 
@@ -179,6 +200,9 @@ function drawStory(storyID) {
                 })
                 .offset(document.getElementById('story-' + i).offsetHeight / 2 + "px")
                 .setPin("#story-" + i)
+                .addIndicators({
+                    name: "story-" + i + "_pin"
+                })
                 .addTo(controller);
 
             var storyStory_FO_t = TweenMax.to("#story-" + i, .5, {
@@ -190,6 +214,9 @@ function drawStory(storyID) {
                     })
                     .triggerHook("onEnter")
                     .setTween(storyStory_FO_t)
+                    .addIndicators({
+                        name: "storyStory_FO_s"
+                    })
                     .addTo(controller);
             }
         }
@@ -200,6 +227,9 @@ function drawStory(storyID) {
             })
             .offset(document.getElementById('story-' + totalStories).offsetHeight / 2 + "px")
             .setPin("#story-" + totalStories)
+            .addIndicators({
+                name: "story-" + totalStories + "_pin"
+            })
             .addTo(controller);
     });
 }

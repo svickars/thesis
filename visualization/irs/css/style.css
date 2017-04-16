@@ -244,15 +244,24 @@ p {
       margin-left: calc(16.6666666667% - 17.5px + 30px); } }
 
 .centered-small {
-  width: calc(66.6666666667% - 33.3333333333px);
+  width: calc(100% - 40px);
   float: left;
   margin-left: 20px; }
+  @media only screen and (min-width: 480px) {
+    .centered-small {
+      width: calc(66.6666666667% - 25px);
+      float: left;
+      margin-left: 15px;
+      margin-left: calc(16.6666666667% - 17.5px + 30px); } }
   @media only screen and (min-width: 768px) {
     .centered-small {
       width: calc(33.3333333333% - 20px);
       float: left;
       margin-left: 15px;
       margin-left: calc(33.3333333333% - 20px + 30px); } }
+
+.orange {
+  color: #f15a24; }
 
 #p1, #p3 {
   text-align: center; }
@@ -305,12 +314,13 @@ p {
 .story-option-name {
   margin-left: -100%;
   margin-right: -100%;
-  font-family: "Libre Baskerville", Georgia, serif;
+  font-family: "Rubik", Trebuchet, sans-serif;
+  font-size: 1.25em;
   color: #333; }
 
 .story-option-quote {
+  font-family: "Libre Baskerville", Georgia, serif;
   width: 12em;
-  font-style: italic;
   padding-top: 10px;
   color: #999; }
 
@@ -327,9 +337,27 @@ p {
   top: 80%;
   left: 0; }
 
-#storyName {
-  text-align: center;
-  opacity: 0; }
+#p5 {
+  position: relative; }
 
-.storyName {
-  border-bottom: 2px solid #f15a24; }
+#storyName {
+  text-align: center; }
+
+#storyBioT {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.story-section {
+  color: #f15a24;
+  font-size: .75em; }
+
+.story-pre {
+  color: #999;
+  font-size: .75em; }
+
+.story-quote {
+  font-family: "Libre Baskerville", Georgia, serif; }
+
+#p6 h1 {
+  text-align: center; }
