@@ -1,7 +1,8 @@
 // declare starting variables and run functions on load
 window.onload = drawStoryOptions;
-var storyID = "bbaxter";
+var storyID = "aelias";
 var storySelected = "These students were";
+var orange = "#f15a24";
 // window.onload = pageSix();
 
 // scroll jumps
@@ -45,11 +46,76 @@ var drawStory_s = new ScrollMagic.Scene({
     })
     .on("enter", function(event) {
         drawStory(storyID);
-        pageSix();
+        pageSix('Albert Elias');
     })
     .triggerHook('onEnter')
     .addTo(controller);
 
+// initialize maps
+var map1 = d3.select("#map1_cont").append("div").attr("class", "map").attr("id", "map1");
+d3.select("#map1").style("height", window.innerHeight + "px").style("width", window.innerWidth + "px");
+var map = L.map('map1', {
+    zoomControl: false,
+    scrollWheelZoom: false,
+    dragging: false,
+    touchZoom: false,
+    doubleClickZoom: false,
+    boxZoom: false,
+    tap: false,
+    keyboard: false
+}).setView([50.12052777777778, -92.01173055555556], 7);
+L.tileLayer('https://api.mapbox.com/styles/v1/svickars/cj15o81vo00212rqu9mw0wgkp/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic3ZpY2thcnMiLCJhIjoiY2l1aW5saDhkMDAwMTNvbDdmcTlncnp1cyJ9.wIpJKF-DW1C2uPgKnUtNWg', {}).addTo(map);
+
+// add school points to map
+var svgLayer = L.svg();
+svgLayer.addTo(map);
+var mapsvg = d3.select("#map1").select("svg"),
+    g = mapsvg.append("g");
+
+d3.json("js/data/school_locations.json", function(collection) {
+    collection.schools.forEach(function(d) {
+        d.LatLng = new L.LatLng(d.latitude,
+            d.longitude);
+        d.label = d.type;
+    });
+
+    var feature = g.selectAll("circle")
+        .data(collection.schools)
+        .enter().append("circle")
+        .style("stroke", "none")
+        .style("opacity", 1.0)
+        .style("fill", orange)
+        .attr("r", 5);
+    var labelName = g.selectAll("text")
+        .data(collection.schools)
+        .enter().append("text")
+        .attr("class", "schoolLabel")
+        .attr("dy", "6px")
+        .attr("dx", "10px")
+        .text(function(d) {
+            return d.locationName + " " + d.title;
+        });
+
+    map.on("viewreset", update);
+    update();
+
+    function update() {
+        feature.attr("transform",
+            function(d) {
+                return "translate(" +
+                    map.latLngToLayerPoint(d.LatLng).x + "," +
+                    map.latLngToLayerPoint(d.LatLng).y + ")";
+            }
+        );
+        labelName.attr("transform",
+            function(d) {
+                return "translate(" +
+                    map.latLngToLayerPoint(d.LatLng).x + "," +
+                    map.latLngToLayerPoint(d.LatLng).y + ")";
+            }
+        );
+    }
+})
 
 // draw story options
 function drawStoryOptions() {
@@ -93,7 +159,7 @@ function drawStory(storyID) {
         var storySchoolBio_content = story.schoolBio;
 
         storySelected = story.name + " was";
-        pageSix();
+        pageSix(storyName_content);
 
         // draw basic story elements
         var storyTime = d3.select("#storyTime").append("div").attr("class", "storyTime").html("<div id='storyName'></div><div id='storyBio'></div><div id='storySchoolBio'></div><div id='storyStories'></div>")
@@ -204,36 +270,35 @@ function drawStory(storyID) {
     });
 }
 
-function pageSix() {
+function pageSix(name) {
+    d3.select("#map1").remove();
+
     d3.select(".p6header").remove();
     var p6header = d3.select("#p6header").append("h1").attr("class", "p6header").html(storySelected + " one of an estimated <span class='orange'>150,000</span> Aboriginal children to attend a residential school in Canada.");
-    var p6header2 = d3.select("#p6header2").append("h1").attr("class", "p6header").html("<span class='orange'>132</span> schools operated in every Canadian province and territory except Newfoundland, Prince Edward Island, or New Brunswick.");
 
     var controller = new ScrollMagic.Controller();
     TweenLite.defaultOverwrite = false;
+    d3.json("js/data/stories/stories.json", function(data) {
 
-    // var pageSix_header_p = new ScrollMagic.Scene({
-    //         triggerElement: "#p6header",
-    //         duration: "25%"
-    //     })
-    //     .triggerHook("onLeave")
-    //     .offset(-window.innerHeight * .25)
-    //     .setPin("#p6header")
-    //     .addIndicators()
-    //     .addTo(controller);
-    // var pageSix_header_f = TweenMax.to("#p6header", .5, {
-    //     opacity: ".25"
-    // });
-    // var pageSix_header_f_s = new ScrollMagic.Scene({
-    //         triggerElement: "#p6header"
-    //     })
-    //     .triggerHook("onLeave")
-    //     .offset(-window.innerHeight * .25)
-    //     .setTween(pageSix_header_f)
-    //     .addIndicators()
-    //     .addTo(controller);
-}
+        data = data.stories.filter(function(d) {
+            return ((d.name === name));
+        });
+        data = data[0];
 
-function studentCircles() {
-    console.log("do it!");
+        // set map 1 view
+        map.setView([data.latLng.lat, data.latLng.lng], data.zoom, {
+            "animate": false
+        });
+
+    });
+    var map1_p = new ScrollMagic.Scene({
+            triggerElement: "#tMap1_p",
+            duration: "200%"
+        })
+        .triggerHook("onLeave")
+        .setPin("#map1")
+        .addIndicators({
+            name: "map_pin"
+        })
+        .addTo(controller);
 }

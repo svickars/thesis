@@ -359,5 +359,28 @@ p {
 .story-quote {
   font-family: "Libre Baskerville", Georgia, serif; }
 
-#p6 h1 {
+#p6 h1, #p7 h1 {
   text-align: center; }
+
+#p8 {
+  padding: 0;
+  position: relative; }
+
+.trigger {
+  color: black;
+  z-index: 99;
+  position: absolute; }
+
+#tMap1_p {
+  top: 0;
+  left: 0; }
+
+#map1_cont {
+  z-index: -99; }
+
+.schoolLabel {
+  font-size: 1.5em;
+  font-family: "Rubik", Trebuchet, sans-serif;
+  font-weight: 700;
+  fill: #333;
+  stroke-location: outside; }

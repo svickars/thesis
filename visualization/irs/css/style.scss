@@ -235,6 +235,37 @@ font-family: $serif;
   font-family: $serif;
 }
 
-#p6 h1 {
+#p6 h1, #p7 h1 {
   text-align: center;
+}
+
+#p8 {
+  padding: 0;
+  position: relative;
+}
+
+// triggers
+.trigger {
+  color: black;
+  z-index: 99;
+  position: absolute;
+}
+#tMap1_p {
+  top: 0;
+  left: 0;
+}
+
+// map components
+#map1_cont {
+  z-index: -99;
+}
+
+.schoolLabel {
+  font-size: 1.5em;
+  font-family: $sansserif;
+  font-weight: 700;
+  fill: $dark-gray;
+  // stroke: white;
+  // stroke-width: .1px;
+  stroke-location: outside;
 }
