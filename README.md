@@ -38,6 +38,6 @@ This project aims to investigate the IRS system, beginning with the narrative of
 
 #### Feature List
 * Make hard-to-access NCTR and NTRC data tangible and available to all Canadians
-* Understand the IRS system through personal stories and qualitative informaiton
+* Understand the IRS system through personal stories and qualitative information
 * Provide a home for IRS data outside of government databases
 * Track reconcilation attempts and recommdation progress
