@@ -3,39 +3,83 @@ window.onload = drawStoryOptions;
 var storyID = "aelias";
 var storySelected = "These students were";
 var orange = "#f15a24";
-// window.onload = pageSix();
+
+// header
+jQuery(document).ready(function($) {
+    // function drawHeader() {
+    var mainHeader = $('.auto-hide-header'),
+        headerHeight = mainHeader.height();
+
+    //set scrolling variables
+    var scrolling = false,
+        previousTop = 0,
+        currentTop = 0,
+        scrollDelta = 10,
+        scrollOffset = 150;
+
+    $(window).on('scroll', function() {
+        if (!scrolling) {
+            scrolling = true;
+            (!window.requestAnimationFrame) ?
+            setTimeout(autoHideHeader, 250): requestAnimationFrame(autoHideHeader);
+        }
+    });
+
+    $(window).on('resize', function() {
+        headerHeight = mainHeader.height();
+    });
+
+    function autoHideHeader() {
+        var currentTop = $(window).scrollTop();
+
+        if (previousTop - currentTop > scrollDelta) {
+            //if scrolling up...
+            mainHeader.removeClass('is-hidden');
+        } else if (currentTop - previousTop > scrollDelta && currentTop > scrollOffset) {
+            //if scrolling down...
+            mainHeader.addClass('is-hidden');
+        }
+
+        previousTop = currentTop;
+        scrolling = false;
+    }
+});
+
+
+
+
+
+
+
+
 
 // scroll jumps
-$(function() {
-    $.scrollify({
-        section: "section",
-        sectionName: "chapter-name",
-        interstitialSection: "",
-        easing: "easeOutExpo",
-        scrollSpeed: 1100,
-        offset: 0,
-        scrollbars: true,
-        standardScrollElements: ".free-scroll",
-        setHeights: false,
-        overflowScroll: true,
-        updateHash: true,
-        touchScroll: true,
-        before: function() {},
-        after: function() {},
-        afterResize: function() {},
-        afterRender: function() {}
-    });
-});
+// $(function() {
+//     $.scrollify({
+//         section: "section",
+//         sectionName: "chapter-name",
+//         interstitialSection: "",
+//         easing: "easeOutExpo",
+//         scrollSpeed: 1100,
+//         offset: 0,
+//         scrollbars: true,
+//         standardScrollElements: ".free-scroll",
+//         setHeights: false,
+//         overflowScroll: true,
+//         updateHash: true,
+//         touchScroll: true,
+//         before: function() {},
+//         after: function() {},
+//         afterResize: function() {},
+//         afterRender: function() {}
+//     });
+// });
 
 // horizontal drag on story selection
 jQuery("#stories-select").draggable({
     axis: "x",
     cursor: "move",
     containment: "stories",
-    // stop: function() {
-    //     if (jQuery("#stories-select").position().left < 1)
-    //         jQuery("#stories-select").css("left", "720px");
-    // }
 });
 
 // draw first story when selection is brought into view
@@ -50,6 +94,7 @@ var drawStory_s = new ScrollMagic.Scene({
     })
     .triggerHook('onEnter')
     .addTo(controller);
+
 
 // initialize maps
 var map1 = d3.select("#map1_cont").append("div").attr("class", "map").attr("id", "map1");
@@ -228,18 +273,31 @@ function drawStory(storyID) {
         // draw each story
         for (var i = 0; i < story.story.length; i++) {
             var storyStory = d3.select("#storyStories").append("div").attr("class", "storyStories").attr("id", "story-" + i);
-            if (story.story[i].quote === "") {
-                storyStory.html("<p class='story-section'>" + story.story[i].section + "</p><p class='story-quote'>" + story.story[i].pre + "</p>");
-            } else {
-                storyStory.html("<p class='story-section'>" + story.story[i].section + "</p><p class='story-pre'>" + story.story[i].pre + "</p><p class='story-quote'>&ldquo;" + story.story[i].quote + "&rdquo;</p>");
-            }
+            var strSec = story.story[i].section,
+                strPre = story.story[i].pre,
+                strQuo = story.story[i].quote;
+            var rs = RiString(strQuo),
+                words = rs.words(),
+                pos = rs.pos();
 
+            if (story.story[i].quote === "") {
+                storyStory.html("<p class='story-section'>" + strSec + "</p><p class='story-quote'>" + strPre + "</p>");
+            } else {
+                storyStory.html("<p class='story-section'>" + strSec + "</p><p class='story-pre'>" + strPre + "</p><p class='story-quote'>&ldquo;<span id='story-quote-" + i + "'></span>&rdquo;</p>");
+            }
+            for (var j = 0; j < words.length; j++) {
+                if (/[,.?\-]/.test(words[j + 1])) {
+                    var storyQuote = d3.select("#story-quote-" + i).append("span").attr("id", "quote-" + j).attr("class", "pos-" + pos[j]).html(words[j]);
+                } else {
+                    var storyQuote = d3.select("#story-quote-" + i).append("span").attr("id", "quote-" + j).attr("class", "pos-" + pos[j]).html(words[j] + " ");
+                }
+            }
         }
 
         // pin and fade each story
         for (var i = 0; i < story.story.length - 1; i++) {
             var n = i + 1;
-            storyStory_p = new ScrollMagic.Scene({
+            var storyStory_p = new ScrollMagic.Scene({
                     triggerElement: "#story-" + i,
                     duration: "100%"
                 })
@@ -251,7 +309,7 @@ function drawStory(storyID) {
                 opacity: "0"
             });
             if (i < story.story.length) {
-                storyStory_FO_s = new ScrollMagic.Scene({
+                var storyStory_FO_s = new ScrollMagic.Scene({
                         triggerElement: "#story-" + n
                     })
                     .triggerHook("onEnter")
@@ -267,11 +325,20 @@ function drawStory(storyID) {
             .offset(document.getElementById('story-' + totalStories).offsetHeight / 2 + "px")
             .setPin("#story-" + totalStories)
             .addTo(controller);
+        var storyStory_FO_t = TweenMax.to("#story-" + totalStories, .5, {
+            opacity: "0"
+        });
+        var storyStory_FO_s = new ScrollMagic.Scene({
+                triggerElement: "#p6",
+            })
+            .triggerHook("onEnter")
+            .setTween(storyStory_FO_t)
+            .addTo(controller);
     });
 }
 
 function pageSix(name) {
-    d3.select("#map1").remove();
+    // d3.select("#map1").remove();
 
     d3.select(".p6header").remove();
     var p6header = d3.select("#p6header").append("h1").attr("class", "p6header").html(storySelected + " one of an estimated <span class='orange'>150,000</span> Aboriginal children to attend a residential school in Canada.");

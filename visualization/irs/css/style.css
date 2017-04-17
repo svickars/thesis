@@ -207,6 +207,37 @@ h6 {
 p {
   color: #333; }
 
+.auto-hide-header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  /* Force Hardware Acceleration */
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s; }
+
+.auto-hide-header::after {
+  clear: both;
+  content: "";
+  display: block; }
+
+.auto-hide-header.is-hidden {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%); }
+
+@media only screen and (min-width: 1024px) {
+  .auto-hide-header {
+    height: 80px; } }
+
 .scroll-arrow {
   position: absolute;
   color: #f15a24;
@@ -329,7 +360,7 @@ p {
   outline: 2px solid #f15a24;
   color: #333; }
 
-#p4 {
+#p2, #p4 {
   position: relative; }
 
 #storyNameFI {
@@ -384,3 +415,9 @@ p {
   font-weight: 700;
   fill: #333;
   stroke-location: outside; }
+
+.pos-prp {
+  color: #f15a24; }
+
+.pos-nnps, .pos-nnp {
+  color: #999; }
