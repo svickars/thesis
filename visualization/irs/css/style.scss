@@ -10,7 +10,7 @@ $neat-grid: (
 $tablet-neat-grid: (
   columns: 12,
   gutter: 15px,
-  media: 768px,
+  media: 1025px,
 );
 
 $phone-neat-grid: (
@@ -95,6 +95,7 @@ p {
 
 
 .hCenter {
+  text-align: center;
   font-family: $serif;
   font-weight: 400;
   font-size: 1em;
@@ -103,6 +104,20 @@ p {
 
 .hLeft {
   margin-top: -5px;
+}
+
+.leftDektop {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1024px) {
+  .leftDesktop {
+    display: none;
+  }
+}
+
+.leftMobile {
+  display: none;
 }
 
 .viewerChoice {
@@ -135,7 +150,7 @@ p {
 
 .search {
   position: absolute;
-  width: 35%;
+  width: 50%;
   top: 0;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -177,6 +192,18 @@ p {
   z-index: 0 !important;
 }
 
+@media only screen and (max-width: 1024px) {
+  .search {
+    margin-top: 20px;
+    width: 75%;
+  }
+  .leftMobile {
+    display: inline-block;
+  }
+  .hLeft {
+    margin-top: 15px;
+  }
+}
 
 
 
@@ -249,6 +276,7 @@ p {
 }
 
 .halfwidth {
+  // background-color: $light-gray;
   @include grid-column(12);
   @include grid-media($tablet-neat-grid){
     @include grid-column(6);
@@ -262,6 +290,16 @@ p {
   @include grid-column(12);
   @include grid-media($tablet-neat-grid){
     @include grid-column(4);
+  }
+}
+
+.quarterwidth {
+  position: relative;
+  text-align: center;
+  // background-color: $light-gray;
+  @include grid-column(6);
+  @include grid-media($tablet-neat-grid){
+    @include grid-column(3);
   }
 }
 
@@ -421,6 +459,14 @@ font-family: $serif;
 }
 #tMap1_p {
   top: 0;
+  left: 0;
+}
+#tMap1_zo {
+  top: 50%;
+  left: 0;
+}
+#tMap1_irs {
+  top: 75%;
   left: 0;
 }
 

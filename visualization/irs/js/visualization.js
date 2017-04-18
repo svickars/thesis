@@ -123,6 +123,16 @@ var map = L.map('map1', {
     keyboard: false
 }).setView([50.12052777777778, -92.01173055555556], 7);
 L.tileLayer('https://api.mapbox.com/styles/v1/svickars/cj15o81vo00212rqu9mw0wgkp/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic3ZpY2thcnMiLCJhIjoiY2l1aW5saDhkMDAwMTNvbDdmcTlncnp1cyJ9.wIpJKF-DW1C2uPgKnUtNWg', {}).addTo(map);
+var map1_p = new ScrollMagic.Scene({
+        triggerElement: "#tMap1_p",
+        duration: "500%"
+    })
+    .triggerHook("onLeave")
+    .setPin("#map1_cont")
+    .addIndicators({
+        name: "map_pin"
+    })
+    .addTo(controller);
 
 // add school points to map
 var svgLayer = L.svg();
@@ -140,6 +150,7 @@ d3.json("js/data/school_locations.json", function(collection) {
     var feature = g.selectAll("circle")
         .data(collection.schools)
         .enter().append("circle")
+        .attr("class", "schoolMarker")
         .style("stroke", "none")
         .style("opacity", 1.0)
         .style("fill", orange)
@@ -173,7 +184,7 @@ d3.json("js/data/school_locations.json", function(collection) {
             }
         );
     }
-})
+});
 
 // draw story options
 function drawStoryOptions() {
@@ -372,15 +383,24 @@ function pageSix(name) {
             "animate": false
         });
 
+        // zoom out
+        var map1_zo_s = new ScrollMagic.Scene({
+                triggerElement: '#tMap1_zo'
+            })
+            .on("enter", function(event) {
+                d3.selectAll(".schoolLabel").style("opacity", "0");
+                d3.selectAll(".schoolMarker").style("opacity", "0");
+                map.setView([57, -100], 4.5, {
+                    "animate": true
+                });
+            })
+            .addTo(controller);
+        var map1_draw_s = new ScrollMagic.Scene({
+                triggerElement: '#tMap1_irs'
+            })
+            .on("enter", function(event) {
+                d3.selectAll(".schoolMarker").transition().duration(600).ease(d3.easeLinear).style("opacity", 1);
+            })
+            .addTo(controller);
     });
-    var map1_p = new ScrollMagic.Scene({
-            triggerElement: "#tMap1_p",
-            duration: "200%"
-        })
-        .triggerHook("onLeave")
-        .setPin("#map1")
-        .addIndicators({
-            name: "map_pin"
-        })
-        .addTo(controller);
 }
