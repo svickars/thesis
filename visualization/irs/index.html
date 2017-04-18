@@ -27,12 +27,29 @@
 
 
         <header class="auto-hide-header">
-            <div class="hTitle">
-                Hello
+            <div class="centered">
+                <div class="thirdwidth">
+                    <div class="hLeft">
+                        <span class="viewerChoice viewerChosen" id="mStory" onclick="storyMode()">Story</span> <span class="viewerChoice" id="mResearch" onclick="researchMode()">Research</span>
+                    </div>
+                </div>
+                <div class="thirdwidth">
+                    <div class="hCenter">
+                        Canada's Indian Residential Schools
+                    </div>
+                </div>
+                <div class="thirdwidth">
+                    <div class="hRight">
+                        <div class="search">
+                            <input type="text" name="search" id="search" class="searchBox" placeholder="Search..." />
+                            <!-- <input id="tags" placeholder="Search..." class="searchBox" /> -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
 
-        <section id="p1" class="page full dark" data-chapter-name="one">
+        <section id="p1" class="page storytelling full dark" data-chapter-name="one">
             <div class="centered">
                 <h1>Canada's Indian Residential Schools</h1>
                 <h6>1876-1996</h6>
@@ -40,7 +57,7 @@
             <div class="scroll-arrow faa-float animated"><i class="fa fa-angle-down"></i></div>
         </section>
 
-        <section id="p2" class="page full light" data-chapter-name="two">
+        <section id="p2" class="page storytelling full light" data-chapter-name="two">
             <div class="centered">
                 <h2>This is a quick intro (some context and background)</h2>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
@@ -52,13 +69,13 @@
             </div>
             <div class="scroll-arrow faa-float animated"><i class="fa fa-angle-down"></i></div>
         </section>
-        <section id="p3" class="page full light" data-chapter-name="three">
+        <section id="p3" class="page storytelling full light" data-chapter-name="three">
             <div class="centered">
                 <p class="guide">The following is a selection of stories as told by Residential School survivors, gathered by the National Truth and Reconciliation Commisison between 2008 and 2015.</p>
             </div>
             <div class="scroll-arrow faa-float animated"><i class="fa fa-angle-down"></i></div>
         </section>
-        <section id="p4" class="page full light free-scroll" data-chapter-name="four">
+        <section id="p4" class="page storytelling full light free-scroll" data-chapter-name="four">
             <div class="stories" id="stories">
                 <div class="stories-content">
                     <div class="stories-select" id="stories-select"></div>
@@ -68,40 +85,40 @@
             <div class="scroll-arrow faa-float animated"><i class="fa fa-angle-down"></i></div>
             <div id="storyNameFI"></div>
         </section>
-        <section id="p5" class="page full light free-scroll" data-chapter-name="five">
+        <section id="p5" class="page storytelling full light free-scroll" data-chapter-name="five">
             <div class="centered-small" id="storyTime">
             </div>
         </section>
-        <section id="p6" class="page full dark free-scroll" data-chapter-name="six">
+        <section id="p6" class="page storytelling full dark free-scroll" data-chapter-name="six">
             <div class="centered">
                 <div id="p6header"></div>
             </div>
         </section>
-        <section id="p7" class="page full dark free-scroll" data-chapter-name="seven">
+        <section id="p7" class="page storytelling full dark free-scroll" data-chapter-name="seven">
             <div class="centered">
-                <h1>There were <span class="orange">132</span> residential schools all across Canada.
+                <h1>There were <span class="orange">132</span> residential schools all across the country.
           </div>
         </section>
-        <section id="p8" class="page full light free-scroll" data-chapter-name="eight">
+        <section id="p8" class="page storytelling full light free-scroll" data-chapter-name="eight">
             <div class="trigger" id="tMap1_p">Map1_pin</div>
             <div id="map1_cont"></div>
         </section>
-        <section id="p9" class="page full light free-scroll" data-chapter-name="nine">
+        <section id="p9" class="page storytelling full light free-scroll" data-chapter-name="nine">
             <div class="centered">
                 <h1>There were <span class="orange">132</span> schools all across Canada.
           </div>
         </section>
-        <section id="p11" class="page full light free-scroll" data-chapter-name="eleven">
+        <section id="p11" class="page storytelling full light free-scroll" data-chapter-name="eleven">
             <div class="centered">
                 <h1>There were <span class="orange">132</span> schools all across Canada.
           </div>
         </section>
-        <section id="p12" class="page full light free-scroll" data-chapter-name="twelve">
+        <section id="p12" class="page storytelling full light free-scroll" data-chapter-name="twelve">
             <div class="centered">
                 <h1>There were <span class="orange">132</span> schools all across Canada.
           </div>
         </section>
-        <section id="p13" class="page full light free-scroll" data-chapter-name="thirteen">
+        <section id="p13" class="page storytelling full light free-scroll" data-chapter-name="thirteen">
             <div class="centered">
                 <h1>There were <span class="orange">132</span> schools all across Canada.
           </div>
@@ -123,6 +140,7 @@
         <script src="js/rita-full.min.js" type="text/javascript"></script>
 
         <script src="js/visualization.js"></script>
+        <script src="js/search.js"></script>
 
     </body>
 

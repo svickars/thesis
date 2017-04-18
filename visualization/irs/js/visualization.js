@@ -9,6 +9,7 @@ jQuery(document).ready(function($) {
     // function drawHeader() {
     var mainHeader = $('.auto-hide-header'),
         headerHeight = mainHeader.height();
+    mainHeader.addClass('is-hidden');
 
     //set scrolling variables
     var scrolling = false,
@@ -45,7 +46,19 @@ jQuery(document).ready(function($) {
     }
 });
 
+function researchMode() {
+    var cmStory = $("#mStory"),
+        cmResearch = $("#mResearch");
+    cmStory.removeClass("viewerChosen");
+    cmResearch.addClass("viewerChosen");
+}
 
+function storyMode() {
+    var cmStory = $("#mStory"),
+        cmResearch = $("#mResearch");
+    cmResearch.removeClass("viewerChosen");
+    cmStory.addClass("viewerChosen");
+}
 
 
 
@@ -273,16 +286,18 @@ function drawStory(storyID) {
         // draw each story
         for (var i = 0; i < story.story.length; i++) {
             var storyStory = d3.select("#storyStories").append("div").attr("class", "storyStories").attr("id", "story-" + i);
-            var strSec = story.story[i].section,
-                strPre = story.story[i].pre,
-                strQuo = story.story[i].quote;
-            var rs = RiString(strQuo),
-                words = rs.words(),
-                pos = rs.pos();
 
             if (story.story[i].quote === "") {
+                var strSec = story.story[i].section,
+                    strPre = story.story[i].pre;
                 storyStory.html("<p class='story-section'>" + strSec + "</p><p class='story-quote'>" + strPre + "</p>");
             } else {
+                var strSec = story.story[i].section,
+                    strPre = story.story[i].pre,
+                    strQuo = story.story[i].quote;
+                var rs = RiString(strQuo),
+                    words = rs.words(),
+                    pos = rs.pos();
                 storyStory.html("<p class='story-section'>" + strSec + "</p><p class='story-pre'>" + strPre + "</p><p class='story-quote'>&ldquo;<span id='story-quote-" + i + "'></span>&rdquo;</p>");
             }
             for (var j = 0; j < words.length; j++) {

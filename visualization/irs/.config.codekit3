@@ -1184,6 +1184,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/js\/data\/search_terms.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/data\/search_terms-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/js\/data\/stories\/images\/bbaxter.png": {
 		"ft": 32768,
 		"iS": 171702,
@@ -1263,6 +1271,24 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/rita-full.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/search-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/search-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/search.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/search-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
