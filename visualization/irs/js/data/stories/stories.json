@@ -1,25 +1,23 @@
 {
-  "stories": [
-    {
+  "stories": [{
       "name": "Bob Baxter",
       "id": "bbaxter",
       "picture": "bbaxter.png",
       "pull": "I remember when the lights used to go out everybody used to cry.",
       "school": "Pelican Lake Residential School",
-      "schoolId": "pelican",
+      "schoolID": "pelicanLake",
       "location": "Sioux Lookout, Ontario",
       "years": "",
       "age": "",
       "latLng": {
-  			"lat": 50.12052777777778,
-  			"lng": -92.01173055555556
-  		},
+        "lat": 50.12052777777778,
+        "lng": -92.01173055555556
+      },
       "zoom": 10,
       "bio": "Bob Baxter attended Pelican Lake Residential School at Sioux Lookout, Ontario, which was open from 1927 to 1978 and operaed by the Anglican Church. He gave a statement to the Truth and Reconciliation Commision on 24 November, 2010 in Thunder Bay, Ontario.",
       "schoolBio": "Pelican Lake School was established in 1926 near Sioux Lookout, ON. Despite its location on the Canadian Shield, the students cleared a portion of the school’s 287 acres for a farm operation. In the late 1940s there was severe overcrowding in the school. In the 1950s the school increasingly served as a residence for students attending local day schools. The federal government took over administration of the school in 1969. In 1978 the school, which by then was operating solely as a hostel, closed.",
       "source": "TRC, AVS, Bob Baxter, Statement to the Truth and Reconciliation Commission of Canada, Thunder Bay, Ontario, 24 November 2010, Statement Number: 01 - ON - 24 NOV10 - 012.",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential School",
           "pre": "",
           "quote": "When I think back to my childhood, it brings back memories, really nice memories of how life was as Anishinaabe, as you know, how we, how we lived before, before we were sent to school. And the things that I remember, the legends at night that my dad used to tell us, stories, and how he used to show us how to trap and funny things that happened. You know there’s a lot of things that are really, that are still in my thoughts of how we were loved by our parents. They really cared for us. And it was such a good life, you know. It, it’s doing the things, like, it was free, we were free I guess is the word I’m looking for, is a real free environment of us. I’m not saying that we didn’t get disciplined if we got, if we did something wrong, we, you know. There was that, but not, but it was a friendly, friendly, like a loving discipline, if you will."
@@ -47,20 +45,19 @@
       "picture": "",
       "pull": "I was a different person, you know.",
       "school": "All Saints (Aklavic Anglican) Residential School",
-      "schoolId": "allsaints",
+      "schoolID": "aklavik",
       "location": "Aklavik, Northwest Territories",
       "years": "1952-1955",
       "age": "",
       "latLng": {
-  			"lat": 68.2209972222222,
-  			"lng": -135.00754444444445
-  		},
+        "lat": 68.2209972222222,
+        "lng": -135.00754444444445
+      },
       "zoom": 10,
       "bio": "Albert Elias attended All Saints Residential School in Aklavik, Northwest Territories from approximately 1952-1955. The school was run by the Anglican Church. He gave a statement to the Truth and Reconciliation Commission on 1 July 2011 in Inuvik, Northwest Territories.",
       "schoolBio": "In the mid-1930s, the Anglican Church closed its residential schools in Shingle Point and Hay River, transferring the students to the new All Saints School in Aklavik, NWT. Over time, as more students moved to the community to attend the day school, the residence became increasingly overcrowded. In 1959, All Saints was closed and its students were transferred to Inuvik.",
       "source": "TRC, AVS, Albert Elias, Statement to the Truth and Reconciliation Commission of Canada, Inuvik, Northwest Territories, 1 July 2011, Statement Number: SC092",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential School ",
           "pre": "Albert Elias grew up in the Northwest Territories near the community of Tuktoyaktuk",
           "quote": "Yeah, when I first opened, like, when I first saw the world, I guess, we were outdoors and when I opened my eyes and started to, you know, and I was just a baby, I guess, and I, we were out in the land. The land was all around me, the snow, the sky, the sun, and I had my parents. And we had a dog team. We were travelling, I think it was on Banks Island, and I was amazed at what I saw, just the environment, the peace, the strength, the love, the smile on my dad’s face. And when I wake up he’s singing a short song to me of love."
@@ -83,20 +80,19 @@
       "picture": "lpmcdonald.png",
       "pull": "There’s just a little bit of light coming through that door, and, and I sat there I don’t know how many hours.",
       "school": "St. Mary's (St. Anthony's) Residential School",
-      "schoolId": "stMary",
+      "schoolID": "stAnthonys",
       "location": "Kenora, Ontario",
       "years": "1950s",
       "age": "4",
       "latLng": {
-  			"lat": 49.744347222222224,
-  			"lng": -94.48271111111112
-  		},
+        "lat": 49.744347222222224,
+        "lng": -94.48271111111112
+      },
       "zoom": 10,
       "bio": "Lynda Pahpasay McDonald attended St. Mary's, a Roman Catholic residential school, in Kenora, Ontario in the 1950s, starting when she was four years old. She gave a statement to the Truth and Reconciliation Commission on 16 June 2010 in Winnipeg, Manitoba.",
       "schoolBio": "Opened in 1897 at Rat Portage in northwestern Ontario this school was first known as the Rat Portage Boarding School, then the Kenora Boarding School and then St. Anthony’s Roman Catholic School. From 1938 it was known as St. Mary’s School. Early in its history, the local band negotiated an agreement that students would not be converted to Catholicism against their parent’s will. A fire destroyed one of the school residences in 1938. During the 1960s, the school began to integrate its students into the local day school system. The school closed in 1972.",
       "source": "TRC, AVS, Lynda Pahpasay McDonald, Statement to the Truth and Reconciliation Commission of Canada, Winnipeg, Manitoba, 16 June 2010, Statement Number: 02-MB-16JU10-130.",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential School",
           "pre": "Prior to attending the Roman Catholic school in Kenora, Ontario, Lynda Pahpasay McDonald lived with her family near Sydney Lake in northwestern Ontario in the 1950s.",
           "quote": "We spent most of our time in the trapline, in the cabin, and we’d play outside and it was really good. There was no drinking. There was, it was, like, it was a small sized cabin, and my parents took good care of us. And they were really, I remember those happy days, like there was no violence. We had a little bit of food, but we always had a meal, like we ate, the beaver meat or moose meat if my dad got a moose, and deer meat, and, and fish."
@@ -124,20 +120,19 @@
       "picture": "",
       "pull": "I reported that to the principal’s wife. And oh boy she, she, she, sure didn’t like that and she dealt with it and he was sent home.",
       "school": "Akaitcho Hall (Yellowknife Federal Hostel)",
-      "schoolId": "akaitcho",
+      "schoolID": "akaitcho",
       "location": "Yellowknife, Northwest Territories",
       "years": "",
       "age": "",
       "latLng": {
-  			"lat": 62.4530722222222,
-  			"lng": -114.36136666666665
-  		},
+        "lat": 62.4530722222222,
+        "lng": -114.36136666666665
+      },
       "zoom": 10,
       "bio": "Mabel Brown attended Akaitcho Hall, also known as Yellowknife Federal Hostel, in Yellowknife, Northwest Territories. The school was operated by the federal government and was open from 1958 until 1994. Mabel gave a statement to the Truth and Reconciliation Commission on 28 September 2011 in Inuvik, Northwest Territories.",
       "schoolBio": "Akaitcho Hall opened in Yellowknife, NWT in 1958. The residence was operated by the federal government without church involvement, and, for much of its history, had a large non-Aboriginal population. Inspectors’ reports show that the hostel’s laundry facilities and janitorial storage were inadequate, and that office and counseling spaces were non-existent. Akaitcho Hall was transferred to the Northwest Territories government in 1969, which operated it until 1994.",
       "source": "TRC, AVS, Mabel Brown, Statement to the Truth and Reconciliation Commission of Canada, Inuvik, Northwest Territories, 28 September 2011, Statement Number: 2011-0325",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential School",
           "pre": "Mabel Brown had similar memories of her life growing up in the Northwest Territories.",
           "quote": "You know life in the bush is really good. And when, when we were growing up we went, when my dad was alive, him and my mom brought us out into the bush. And we, we went as a family together. They taught us, when they’d teach us they taught us how to do things. They’d tell us first, they’d show us, and then we’d do it and then that’s how we learned that. And that’s how so many people now know when, when we see a snare or how to set it or set traps because my grandmother showed me how to set traps. And how to tell what kind of trees are what and what the different kind of things you take off the gum, and things like that; what it’s used for and you know, chew and my mom and dad used to dig up roots from the ground and I used to just love that roots. Chew on it and all those things are medicine for our bodies too. And I still, I still, can’t eat just store-bought foods. I have to have caribou or fish or moose meat or something like that and to, to feel full; to feel satisfied."
@@ -155,20 +150,19 @@
       "picture": "",
       "pull": "I didn’t know I was going away to school. I thought I was just going for a train ride and I was just excited to go.",
       "school": "Gordon's Residential School",
-      "schoolId": "gordons",
+      "schoolID": "gordons",
       "location": "Punichy, Saskatchewan",
       "years": "",
       "age": "",
       "latLng": {
-  			"lat": 51.28932777777778,
-  			"lng": -104.296975
-  		},
+        "lat": 51.28932777777778,
+        "lng": -104.296975
+      },
       "zoom": 10,
       "bio": "Emily Kematch attended Gordon's Residential School in Punichy, Saskatchewan, one of the longest operating schools and operated by the Anglican Church. She came from York Landing in Northern Manitoba. Emily gave a statement to the Truth and Reconciliation Commission on 18 June 2010 in Winnipeg, Manitoba.",
-      "schoolBio": "The Anglican Church of Canada established a day school on Gordon’s Reserve just north of Regina, in 1876. In 1888, it was expanded to provide housing to students attending the school. In 1929 the school was destroyed by fire. It was rebuilt, but problems with water supply and maintenance led to its being closed for much of the time between 1947 and 1953. In 1941 a boy, who was fearful of discipline at the school, died of exposure after running away. In 1993 a former employee plead guilty to charges of sexual assaulting students at the Gordon’s school and residence from 19681984. The residence was closed in 1996.",
+      "schoolBio": "The Anglican Church of Canada established a day school on Gordon’s Reserve just north of Regina, in 1876. In 1888, it was expanded to provide housing to students attending the school. In 1929 the school was destroyed by fire. It was rebuilt, but problems with water supply and maintenance led to its being closed for much of the time between 1947 and 1953. In 1941 a boy, who was fearful of discipline at the school, died of exposure after running away. In 1993 a former employee plead guilty to charges of sexually assaulting students at the Gordon’s school and residence from 1968-1984. The residence was closed in 1996.",
       "source": "TRC, AVS, Emily Kematch, Statement to the Truth and Reconciliation Commission of Canada, Winnipeg, Manitoba, 18 June 2010, Statement Number: 02-MB-18JU10-063",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential School",
           "pre": "Emily Kematch was born in 1953 in York Factory, Manitoba, and grew up in York Landing.",
           "quote": "My family is Cree in origin. My mom and dad spoke Cree and that’s my Native language is Cree and that’s the only language I spoke at home. And when I was six years old, I only understood basic, really like from my brothers and sisters when they came back from residential school. Like, 'What is your name?'' And I knew to say, 'Emily' and not very much English. And I was very close to my mother. Her and I were, I was just attached to her like, I loved my mother and I knew she loved me. Same with my father, he showed it in different ways. He was a very quiet man, but his actions spoke volumes. He hunted, he was a hunter, a trapper, a fisherman and that’s how we survived, my family because he didn’t work, he didn’t have a job and my father was a, what they call a lay reader in the Anglican faith. He led church services in my community and my family was Anglican in faith. My father ran the services in my hometown of York Landing. He did the services in Cree and that’s what I miss about our community right now, is that aspect is the Cree singing, ’cause it’s not around anymore."
@@ -206,20 +200,19 @@
       "picture": "",
       "pull": "I was born in a tent in the woods so I was brought to the world in a very harsh environment, which I guess is a good thing because it made me the tough guy I am.",
       "school": "St. Mary's (St. Anthony's) Residential School",
-      "schoolId": "stMary",
+      "schoolID": "stAnthonys",
       "location": "Kenora, Ontario",
       "years": "",
       "age": "",
       "latLng": {
-  			"lat": 49.744347222222224,
-  			"lng": -94.48271111111112
-  		},
+        "lat": 49.744347222222224,
+        "lng": -94.48271111111112
+      },
       "zoom": 10,
       "bio": "Anthony Henry attended St. Mary's Residential School in Kenora, Ontaro. He gave a statement to the Truth and Reconciliation Commission on 17 June 2010 in Winnipeg, Manitoba.",
       "schoolBio": "Opened in 1897 at Rat Portage in northwestern Ontario this school was first known as the Rat Portage Boarding School, then the Kenora Boarding School and then St. Anthony’s Roman Catholic School. From 1938 it was known as St. Mary’s School. Early in its history, the local band negotiated an agreement that students would not be converted to Catholicism against their parent’s will. A fire destroyed one of the school residences in 1938. During the 1960s, the school began to integrate its students into the local day school system. The school closed in 1972.",
       "source": "TRC, AVS, Anthony Henry, Statement to the Truth and Reconciliation Commission of Canada, Winnipeg, Manitoba, 17 June 2010, Statement Number: 02-MB-17JU10-086",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential School",
           "pre": "Anthony Henry was born in Swan Lake, Ontario.",
           "quote": "I was born in a tent in the woods so I was brought to the world in a very harsh environment, which I guess is a good thing because it made me the tough guy I am."
@@ -242,20 +235,19 @@
       "picture": "",
       "pull": "I was a good athlete, I was a good hockey player, I was a good runner.",
       "school": "Beauval Indian Residential School",
-      "schoolId": "beauval",
+      "schoolID": "beauval",
       "location": "Beauval, Saskatchewan",
       "years": "",
       "age": "",
       "latLng": {
-  			"lat": 55.15725,
-  			"lng": -107.58172222222221
-  		},
+        "lat": 55.15725,
+        "lng": -107.58172222222221
+      },
       "zoom": 10,
       "bio": "Albert Fiddler attended Beauval Residential School, also known as St. Bruno's, in Beauval, Saskatchewan, which operated from 1897 to 1995. It was run by the Catholic church. He gave a statement to the Turth and Reconciliation Commission on 24 June 2012 in Saskatoon, Saskatchewan.",
       "schoolBio": "St. Bruno’s boarding school was opened by Roman Catholic missionaries in 1860 at Ile à la Crosse. Poor living conditions at the school led the Grey Nuns teaching at the school to leave in 1905. In 1906 the school was moved to the confluence of the La Plonge and Beaver Rivers. In 1927 nineteen students and one teacher died in a fire that destroyed the school and the dormitories. In 1969 the federal government took over the administration of the school. In 1985 full control of the school and residence was transferred to the Meadow Lake Tribal Council. The residence closed in 1995.",
       "source": "TRC, AVS, Albert Fiddler, Statement to the Truth and Reconciliation Commission of Canada, Saskatoon, Saskatchewan, 24 June 2012, Statement Number: 2011-1760.",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential School",
           "pre": "As Albert Fiddler was growing up in Saskatchewan, his father taught him how to live off the land.",
           "quote": "I remember my dad teaching me how to hunt, and learn how to snare rabbits, learn how to take care of horses. I was riding horses already on, four years old, and I’m riding with a bareback, and I enjoy that thing. I still remember that because I was a fairly decent cowboy, you know, like little beaver, as they used to call him in the comic books. I used to hang on onto just the mane. I didn’t, I didn’t even have a bridle."
@@ -293,20 +285,19 @@
       "picture": "",
       "pull": "I was always hungry. And we stole food.",
       "school": "Anglican Schools in Manitoba and Saskatchewan",
-      "schoolId": "",
+      "schoolID": "",
       "location": "",
       "years": "",
       "age": "",
       "latLng": {
-  			"lat": 53.0145,
-  			"lng": -109.8591
-  		},
+        "lat": 53.0145,
+        "lng": -109.8591
+      },
       "zoom": 8,
       "bio": "Doris Young attended Anglican residential schools in both Manitoba and Saskatchewan. Doris grew up in Northern Manitoba. She gave a statement to the Truth and Reconciliation Commission on 22 June 2012 in Saskatoon, Saskatchewan.",
       "schoolBio": "It's not known which school Doris Young attended.",
       "source": "TRC, AVS, Doris Young, Statement to the Truth and Reconciliation Commission of Canada, Saskatoon, Saskatchewan, 22 June 2012, Statement Number: 2011-3517.",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential School",
           "pre": "Doris Young attended residential schools in Manitoba and Saskatchewan. Her early childhood was spent in northern Manitoba.",
           "quote": "The family that I had, my mother and father, and my brothers and sisters, and my grandparents, and my aunties and uncles. The community that I lived in was a safe one. It was a place where we were cared for, and loved by our parents, and our grandparents, and that community that I lived at we were safe. We were, we were well taken care of. We lived off the land, and off the water, meaning by fishing. My dad was a chief, but he was also what we would call a labourer in those days, but he was also a hunter, trapper, and fisherman, and that’s how he supported us. And my mother spoke only Cree, and that’s the language that we spoke in our household, and she thought it was very important for us to, to have that language because, it was the basis of our culture, as I came to understand it later in life. And she was the one that enforced that, that language that we spoke in our house."
@@ -338,21 +329,20 @@
       "id": "dadolph",
       "picture": "dadolph.png",
       "pull": "The nun slapped me across the face, and, and I had too much soap in my hair, and my ears.",
-      "school": "Mission Residential School",
-      "schoolId": "mission",
+      "school": "St. Mary's (Mission) Residential School",
+      "schoolID": "stMarys",
       "location": "Mission, British Columbia",
       "years": "",
       "age": "",
       "latLng": {
-  			"lat": 49.1374,
-  			"lng": -122.28794722222221
-  		},
+        "lat": 49.1374,
+        "lng": -122.28794722222221
+      },
       "zoom": 10,
       "bio": "Delores Adolph attended the residential school in Mission, British Columbia likely called St. Mary's sometime in the 1950s. The school was operated by the Catholic church from 1867 to 1984. Delores gave a statement to the Truth and Reconciliation Commission on 19 May 2011 in Mission, British Columbia.",
       "schoolBio": "Missionaries opened a boarding school at the St. Mary mission in the Fraser Valley in 1863. The school was relocated in 1882 and a new school was built in 1933. In its early years the school made little use of corporal punishment, but this policy was dropped as the school was increasingly integrated into the federal residential school system. The school closed in 1984. In 2004 a former school employee was convicted of 12 counts of indecent assault in relation to his time at the school and was sentenced to three years in prison.",
       "source": "TRC, AVS, Delores Adolph, Statement to the Truth and Reconciliation Commission of Canada, Mission, British Columbia, 19 May 2011, Statement Number: 2011-3458.",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential School",
           "pre": "Delores Adolph was born in 1951 and grew up in a self-sufficient Aboriginal family in British Columbia.",
           "quote": "Before I came to residential school, our, our families fished and hunted for our food. Our mother, she grew our own vegetables, because we were quite a ways from the stores, and because we lived in the remote area where, where there is no stores. And you know there was, our means of travel was canoes, so that’s how we travelled. And our, our home life, it was not the greatest, but what our parents were trying to teach us how to, how to be, to keep busy, and then, and for us not to say there’s nothing to do. So, we, we packed water, and we packed, we packed our wood. Sometimes we had to roll our wood up, up the dike, and then roll it down the other side, and, and we had to learn how to cut our, our wood, and make kindling for the fire, and that was our way of life. And, and my grandfather was busy trying to teach us how to build canoes. Build, make paddles. Build a bailer, to bail water out of our canoe. And, and then they were trying to teach us how to, how to race on those old fishing canoes, and we always beat the boys. And they didn’t like that, because we, we beat them all the time. So, that meant that we were, that we were strong at that point, before we came to residential school. And my life has been upside down since I came to residential school."
@@ -370,20 +360,19 @@
       "picture": "",
       "pull": "We had staff members who took us under their wing. And one, over the years, started to recognize us as, like, younger siblings.",
       "school": "Poplar Hill Residential School",
-      "schoolId": "poplarHill",
+      "schoolID": "poplarHill",
       "location": "Poplar Hill, Ontario",
       "years": "1980s",
       "age": "",
       "latLng": {
-  			"lat": 52.099925,
-  			"lng": -92.01173055555556
-  		},
+        "lat": 52.099925,
+        "lng": -94.3018806
+      },
       "zoom": 10,
       "bio": "Martha Loon attended Poplar Hill Residential School at Poplar Hill, Ontario in the 1980s. The school was Mennonite-operated. Martha gave a statement to the Truth and Reconciliation Commission on 25 Novemeber 2010 in Thunder Bay, Ontario.",
       "schoolBio": "The Poplar Hill School opened in 1962 in a small school building that had previously been operated by the Mennonite Northern Light Gospel Mission of Red Lake, Ontario. The Northern Youth Program branch of the Mission operated the residential school. Aside from elementary education, the school provided academic and vocational training for young adults. In 1969 it became the Poplar Hill Development School. The school closed in 1989.",
       "source": "TRC, AVS, Martha Loon, Statement to the Truth and Reconciliation Commission of Canada, Thunder Bay, Ontario, 25 November 2010, Statement Number 01-ON-24NOV10-021",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential Schools",
           "pre": "Martha Loon was born in 1972 in northwestern Ontario and attended the Poplar Hill, Ontario, school in the 1980s. Stories were a large part of the education she received from her parents.",
           "quote": "They were stories that, you know, they, they taught us how, how to behave. You know they taught us our values. We even just, you know how, you know you hear stories about the beaver, and I always used to wonder why my mom would every time she was skinning beaver, she’d always set aside the, the kneecaps separately. She’d put those aside. And then afterwards she’d go, she’d go, either paddle out to the water somewhere, like a deep part, and that’s where she threw them in. And, and I always know, wondered why she would do that. I’ve never questioned. It wasn’t until I was older I asked her, like, “Why do you do that?” She says, you know, “This is what we’re supposed to do, to respect and honour the beaver, to thank the beaver for giving its life so that we could eat it, use its pelt. This is what the beaver wants us to do.” The same thing as you treat a duck, a duck, the duck bones a certain way. You know all that’s got, got purpose and a reason for it."
@@ -401,20 +390,19 @@
       "picture": "rhall.png",
       "pull": "I was twelve years old. At twelve years old I began drinking alcohol to forget.",
       "school": "Alberni Residential School",
-      "schoolId": "alberni",
+      "schoolID": "alberni",
       "location": "Port Alberni, British Columbia",
       "years": "1950s",
       "age": "12",
       "latLng": {
-  			"lat": 49.264005555555556,
-  			"lng": -124.84431388888889
-  		},
+        "lat": 49.264005555555556,
+        "lng": -124.84431388888889
+      },
       "zoom": 10,
       "bio": "Richard Hall first attended the residential school in Port Alberni, British Columbia in the 1950s when he was twelve years old. The school was operated by the Presbyterian church and closed in 1973. Richard gave a statement to the Turth and Reconciliation Commission on 18 September 2013 in Vancouver, British Columbia.",
       "schoolBio": "In 1893, the Presbyterian Church built the Alberni Girls Home on Vancouver Island a few miles outside Port Alberni. It was taken over by the United Church in 1925. The school was destroyed by fire in 1917, 1937, and 1941 and rebuilt following each fire. The West Coast Council of Indian Chiefs campaigned for the school’s closing in the 1960s, charging that children in need of care were being dumped into the school. The school was eventually closed in 1973. In 1995 a former supervisor at the school from 1948 to 1968 was convicted of 18 counts of indecent assault against Aboriginal students and sentenced to 11 years in jail.",
       "source": "TRC, AVS, Richard Hall, Statement to the Truth and Reconciliation Commission of Canada, Vancouver, British Columbia, 18 September 2013, Statement Number: 2011-1852",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential School",
           "pre": "Grandparents played an important role in raising children in many communities. Richard Hall, who went to the Alberni, British Columbia, school, recalled with deep affection his pre-residential school upbringing and the role that his grandparents played.",
           "quote": "And my grandmother she taught us to be orderly. She taught us to go to church. She dressed us to go to church. She loved the church. My playground was my friends, with my friends was the mountains, streams, the ocean, and we’re raised in the ocean because we went fishing all summer long and we travelled to the communities, the fishing grounds because at the mountains where … the places where we spend our days, times, the rivers, from in playing in the river, no fear and that was normal. With my grandfather, he took me with him at the young age, he took me, he taught me to work in the boats with him. He taught me how to repair boats. He will take me to talk to his friends and all I did was to speak their language and speak their Native tongue while they prepared fish around the fire. He took me wherever he went and I later learned that he was my lifeline. He helped me and guided me the best he could."
@@ -442,20 +430,19 @@
       "picture": "nstarblanket.png",
       "pull": "I had some good moments, in particular in the sports side, ’cause I really enjoyed sports.",
       "school": "Lebret (Qu'Appelle) Residential School",
-      "schoolId": "lebret",
+      "schoolID": "lebret",
       "location": "Lebret, Saskatchewan",
       "years": "",
       "age": "",
       "latLng": {
-  			"lat": 50.75785,
-  			"lng": -92.01173055555556
-  		},
+        "lat": 50.75785,
+        "lng": -92.01173055555556
+      },
       "zoom": 10,
       "bio": "Noel Starblanket attended Lebret Residential School at Fort Qu'Appelle, Saskatchewan. The school was open from 1884 until 1998 and was operated by the Catholic church. Noel gave a statement to the Truth and Reconciliation Commission on 16 January 2012 in Regina, Saskatchewan.",
       "schoolBio": "The Lebret school (also known as Qu’Appelle, St. Paul’s and Whitecalf), was one of the first three industrial schools. Built on the Qu’Appelle Reserve, the school was expanded in 1887, 1889, and 1895. In the school’s early years Aboriginal languages were allowed in the school and in 1886, the federal government approved the publication of a Cree-English primer. In 1951 the school was one of the first residential schools to offer high-school education. Administration was transferred to the Qu’Appelle Indian Residential School Council in 1973. It closed in 1998.",
       "source": "TRC, AVS, Noel Starblanket, Statement to the Truth and Reconciliation Commission of Canada, Regina, Saskatchewan, 16 January 2012, Statement Number: 2011-3314",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential School",
           "pre": "Before going to the Qu’Appelle, Saskatchewan, school, Noel Starblanket was raised by his grandparents.",
           "quote": "I attended ceremonies, I went to Sun Dances. I picked medicines with them. We did medicine ceremonies. We did pipe ceremonies. We did feasts. We did all of those things with my grandparents, and I spent time with my grandfather in those ceremonies, and I worked with my grandfather. He made me work at a very tender age. I was cutting wood, cutting pickets, cutting hay, hauling hay, all of that kind of stuff, looking after animals, horses and cattle. So, I spent a lot of good times with my grandparents, my, and the love that I had from them, and the kindness, and the very deep spirituality that they had. And so my formative years were with them. I would spend time with my parents, but not a whole lot. So, mostly my grandparents raised me. My parents never hit me, my grandparents. I didn’t know what, what it meant to be hit, physically abused. All I needed was one stare, or one look from my dad, or my grandfather, and my grandmother or my mother would always say “wâpam awa”20 [look at that one], then I would stop what I was doing, because I knew how to respect my grandfather and my dad, didn’t have to hit us, just, just took one look. [laughs] And so I grew up with that. And if we were acting foolish, or anything like that, or misbehaving, or whatever, they, they would just, they would just tell us in a good, kind way not to behave like that, and or if we were acting too silly, or whatever, they would tell us to calm down. They would always tell us that if you’re gonna hit a high like that, you’re gonna hit low, and I’ll always remember that teaching, ’cause I tell my grandchildren the same thing. When they get too excited, or too animated, or laughing too hard, or tickling, or whatever on an emotional high, I’ll just tell them what my grandparents said, and I’ll never forget that."
@@ -483,20 +470,19 @@
       "picture": "",
       "pull": "But he’ll make you have a cold shower first, so you don’t have, just to make you remember.",
       "school": "Brandon Residential School",
-      "schoolId": "brandon",
+      "schoolID": "brandon",
       "location": "Brandon, Manitoba",
       "years": "",
       "age": "",
       "latLng": {
-  			"lat": 49.86935,
-  			"lng": -99.98953055555556
-  		},
+        "lat": 49.86935,
+        "lng": -99.98953055555556
+      },
       "zoom": 10,
       "bio": "Patrick James Hall attended the Brandon Residential School in Brandon, Manitoba in the 1960s or 1970s. The school was run by the Methodist United Catholic church from 895 until 1972. Patrick gave a statement to the Truth and Reconciliation Commission on 21 December 2010 in Winnipeg, Manitoba.",
       "schoolBio": "The Brandon School was built under the direction of Methodist missionary John Semmens. During the 1940s and 1950s the school was the subject of ongoing controversy as many students ran away, complaining of harsh discipline and poor food. At one point, parents from communities in Saskatchewan refused to send younger children to the school. While the government raised a number of these concerns with the United Church, it did not force any changes in administration. From 1967 to 1972, the school operated as a residence for students attending local day schools.",
       "source": "TRC, AVS, Patrick James Hall, Statement to the Truth and Reconciliation Commission of Canada, Winnipeg, Manitoba, 21 December 2010, Statement Number: 03-001-10-036",
-      "story": [
-        {
+      "story": [{
           "section": "Life Before Residential School",
           "pre": "Patrick James Hall was born in 1960 and grew up in what is now called the Dakota Tipi First Nation.",
           "quote": "And, I remember, I remember a lot of times, I guess, with my grandfather, my grandmother. One of them in my mind, I remember. My grandfather used to haul wood on a sleigh. He had horses. And, so, my older brothers would go with him, too, and we just, he’d take us for horse rides. And, he used to talk with us all the time in Dakota. I mean, we used to, we used to remember what he said because we’d always be laughing, having fun, and.… My grandpa was very, very active guy. He, he always made sure, you know, he made sure that we had everything for the family. We used to go hunting, deer hunting and fishing, trapping. And, my mother, too, she was a very hard worker ’cause she used to be hauling water, cutting wood. And that was just during the winters. It was very hard ’cause we have to cut wood, and break the ice for water, and heat it up for the stove."
@@ -514,20 +500,19 @@
       "picture": "",
       "pull": "“Well, I’m going to residential school,” ’cause I didn’t want my dad to go to jail.",
       "school": "",
-      "schoolId": "",
+      "schoolID": "",
       "location": "",
       "years": "",
       "age": "",
       "latLng": {
-  			"lat": 53.19320277777778,
-  			"lng": -105.77296388888888
-  		},
+        "lat": 53.19320277777778,
+        "lng": -105.77296388888888
+      },
       "zoom": 10,
       "bio": "Isaac Daniels left home in 1945 and attended a school in Prince Albert, Saskatchewan run by the Anglican church. He gave a statement to the Truth and Reconciliation Commission on 22 June 2012 in Saskatoon, Saskatchewan.",
       "schoolBio": "The Prince Albert school was established in 1947 to take in students from the Anglican school at Lac La Ronge. The school was established in what was originally meant to be a temporary location in a former army base on the edge of Prince Albert. Instead, the Prince Albert school grew to be the second-largest residential school in Canada. After 1961 the school was used as a residence to house students attending local day schools. In 1969, the federal government took over the administration of the school. First Nations played a growing role in the administration of the residence, which closed in 1997.",
       "source": "TRC, AVS, Isaac Daniels, Statement to the Truth and Reconciliation Commission of Canada, Saskatoon, Saskatchewan, 22 June 2012, Statement Number: 2011-1779",
-      "story": [
-        {
+      "story": [{
           "section": "Forced Departure",
           "pre": "Isaac Daniels recalled one dramatic evening in 1945, when the Indian agent came to his father’s home on the James Smith Reserve in Saskatchewan.",
           "quote": "I didn’t understand a word, ’cause I spoke Cree. Cree was the main language in our family. So, so my dad was kind of angry. I kept seeing him pointing to that Indian agent. So that night we were going to bed, it was just a one-room shack we all lived in, and I heard my dad talking to my mom there, and he was kind of crying, but he was talking in Cree now. He said that, “It’s either residential school for my boys, or I go to jail.” He said that in Cree. So, I overheard him. So I said the next morning, we all got up, and I said, “Well, I’m going to residential school,” ’cause I didn’t want my dad to go to jail."
@@ -550,20 +535,19 @@
       "picture": "dantoine.png",
       "pull": "Why is that happening? What did I do to deserve to be treated like this?",
       "school": "Roman Catholic School in BC",
-      "schoolId": "",
+      "schoolID": "",
       "location": "",
       "years": "",
       "age": "",
       "latLng": {
-  			"lat": 50.587,
-  			"lng": -125.7711
-  		},
+        "lat": 50.587,
+        "lng": -125.7711
+      },
       "zoom": 8,
       "bio": "Donna Antoine attended residential schools in British Columbia run by the Roman Catholic church. She gave a statement to the Truth and Reconciliation Commission on 13 October 2011 in Enderby, British Columbia.",
       "schoolBio": "Donna Antoine did not specify which school she attended.",
       "source": "TRC, AVS, Donna Antoine, Statement to the Truth and Reconciliation Commission of Canada, Enderby, British Columbia, 13 October 2011, Statement Number: 2011-3287",
-      "story": [
-        {
+      "story": [{
           "section": "Forced Departure",
           "pre": "Donna Antoine was enrolled in a British Columbia residential school after a visit from a government official to her family.",
           "quote": "It must have been in the summer, the, the Indian agent came to, to see my father. I imagine it must have been the Indian agent because it looked pretty serious. He was talking to him for some time, and because we couldn’t understand, we, we couldn’t even eavesdrop what they were talking about. So after some time spent there, Father sat, sat us down, and told us that this Indian agent came to tell us, tell him that we had to go to school, to a boarding school, one that is not close to our home, but far away."
