@@ -1,0 +1,3914 @@
+[
+  {
+    "reserve": "Abitibi-Dominion",
+    "id": "abitibiDominion",
+    "lat": 48.7645722,
+    "lng": -74.0158713
+  },
+  {
+    "reserve": "Abitibi-Ontario",
+    "id": "abitibiOntario",
+    "lat": 49.024506,
+    "lng": -80.8822129
+  },
+  {
+    "reserve": "Adams Lake",
+    "id": "adamsLake",
+    "lat": 51.1746684,
+    "lng": -119.5707686
+  },
+  {
+    "reserve": "Ahousaht",
+    "id": "ahousaht",
+    "lat": 49.2761659,
+    "lng": -126.0563673
+  },
+  {
+    "reserve": "Aishihik",
+    "id": "aishihik",
+    "lat": 61.600204,
+    "lng": -137.509432
+  },
+  {
+    "reserve": "Aiyansh",
+    "id": "aiyansh",
+    "lat": 55.20578,
+    "lng": -129.07833
+  },
+  {
+    "reserve": "Aklavik",
+    "id": "aklavik",
+    "lat": 68.219916,
+    "lng": -135.007788
+  },
+  {
+    "reserve": "Albany",
+    "id": "albany",
+    "lat": 46.286052,
+    "lng": -63.643834
+  },
+  {
+    "reserve": "Alert Bay",
+    "id": "alertBay",
+    "lat": 50.5844855,
+    "lng": -126.9254093
+  },
+  {
+    "reserve": "Alexander",
+    "id": "alexander",
+    "lat": 49.829851,
+    "lng": -100.295269
+  },
+  {
+    "reserve": "Alexandria",
+    "id": "alexandria",
+    "lat": 45.3111798,
+    "lng": -74.6367158
+  },
+  {
+    "reserve": "Alexis",
+    "id": "alexis",
+    "lat": 53.748889,
+    "lng": -114.486389
+  },
+  {
+    "reserve": "Alexis Creek",
+    "id": "alexisCreek",
+    "lat": 52.082986,
+    "lng": -123.277992
+  },
+  {
+    "reserve": "Alkali Lake",
+    "id": "alkaliLake",
+    "lat": 51.788563,
+    "lng": -122.228337
+  },
+  {
+    "reserve": "Amadjuak",
+    "id": "amadjuak",
+    "lat": 64.016667,
+    "lng": -72.65
+  },
+  {
+    "reserve": "Amos",
+    "id": "amos",
+    "lat": 48.5650196,
+    "lng": -78.1125205
+  },
+  {
+    "reserve": "Anahim Lake",
+    "id": "anahimLake",
+    "lat": 52.466667,
+    "lng": -125.316667
+  },
+  {
+    "reserve": "Anderson Lake",
+    "id": "andersonLake",
+    "lat": 50.635632,
+    "lng": -122.4127527
+  },
+  {
+    "reserve": "Anzac",
+    "id": "anzac",
+    "lat": 56.448899,
+    "lng": -111.036765
+  },
+  {
+    "reserve": "Arctic Bay",
+    "id": "arcticBay",
+    "lat": 73.037575,
+    "lng": -85.148031
+  },
+  {
+    "reserve": "Arctic Red River",
+    "id": "arcticRedRiver",
+    "lat": 67.450577,
+    "lng": -133.711807
+  },
+  {
+    "reserve": "Arrandale",
+    "id": "arrandale",
+    "lat": 54.96735,
+    "lng": -130.012894
+  },
+  {
+    "reserve": "Arrow",
+    "id": "arrow",
+    "lat": 49.2449287,
+    "lng": -122.9723898
+  },
+  {
+    "reserve": "Ashcroft",
+    "id": "ashcroft",
+    "lat": 50.7259246,
+    "lng": -121.2804736
+  },
+  {
+    "reserve": "Assabaska",
+    "id": "assabaska",
+    "lat": 48.9859626,
+    "lng": -94.3882656
+  },
+  {
+    "reserve": "Athelmer",
+    "id": "athelmer",
+    "lat": 50.517378,
+    "lng": -116.036891
+  },
+  {
+    "reserve": "Atikameg",
+    "id": "atikameg",
+    "lat": 55.908325,
+    "lng": -115.638719
+  },
+  {
+    "reserve": "Atlin",
+    "id": "atlin",
+    "lat": 59.578028,
+    "lng": -133.689524
+  },
+  {
+    "reserve": "Atlin-Teslin",
+    "id": "atlin-Teslin",
+    "lat": 59.5588937,
+    "lng": -133.690772
+  },
+  {
+    "reserve": "Attawapiscat",
+    "id": "attawapiscat",
+    "lat": 52.9258846,
+    "lng": -82.4288922
+  },
+  {
+    "reserve": "Attikameks de la Mauricie",
+    "id": "attikameksdelaMauricie",
+    "lat": 46.856049,
+    "lng": -71.35304
+  },
+  {
+    "reserve": "Avatuktoo",
+    "id": "avatuktoo",
+    "lat": 66.25,
+    "lng": -66.3166667
+  },
+  {
+    "reserve": "Babine",
+    "id": "babine",
+    "lat": 55.5633426,
+    "lng": -127.1887685
+  },
+  {
+    "reserve": "Baffin Island",
+    "id": "baffinIsland",
+    "lat": 65.4215054,
+    "lng": -70.9654211
+  },
+  {
+    "reserve": "Baker Lake",
+    "id": "bakerLake",
+    "lat": 64.317604,
+    "lng": -96.022001
+  },
+  {
+    "reserve": "Bala",
+    "id": "bala",
+    "lat": 45.016543,
+    "lng": -79.615314
+  },
+  {
+    "reserve": "Banks Island",
+    "id": "banksIsland",
+    "lat": 73.0758199,
+    "lng": -120.7232954
+  },
+  {
+    "reserve": "Barriere",
+    "id": "barriere",
+    "lat": 51.1824784,
+    "lng": -120.1237108
+  },
+  {
+    "reserve": "Bathhurst Inlet",
+    "id": "bathhurstInlet",
+    "lat": 66.8660679,
+    "lng": -108.1046072
+  },
+  {
+    "reserve": "Battleford",
+    "id": "battleford",
+    "lat": 52.7362682,
+    "lng": -108.3052431
+  },
+  {
+    "reserve": "Bear Lake",
+    "id": "bearLake",
+    "lat": 65.9179578,
+    "lng": -120.8193382
+  },
+  {
+    "reserve": "Bearspaw",
+    "id": "bearspaw",
+    "lat": 51.138655,
+    "lng": -114.311164
+  },
+  {
+    "reserve": "Beaver Lake",
+    "id": "beaverLake",
+    "lat": 54.6929547,
+    "lng": -111.779194
+  },
+  {
+    "reserve": "Beecher Bay",
+    "id": "beecherBay",
+    "lat": 48.3376824,
+    "lng": -123.6066705
+  },
+  {
+    "reserve": "Belcher Islands",
+    "id": "belcherIslands",
+    "lat": 56.19632,
+    "lng": -78.877357
+  },
+  {
+    "reserve": "Bella Bella",
+    "id": "bellaBella",
+    "lat": 52.1605419,
+    "lng": -128.1455793
+  },
+  {
+    "reserve": "Bella Coola",
+    "id": "bellaCoola",
+    "lat": 52.3721277,
+    "lng": -126.7539346
+  },
+  {
+    "reserve": "Berkley Point",
+    "id": "berkleyPoint",
+    "lat": 49.856777,
+    "lng": -97.303483
+  },
+  {
+    "reserve": "Bernard Harbour",
+    "id": "bernardHarbour",
+    "lat": 68.7653957,
+    "lng": -114.7093159
+  },
+  {
+    "reserve": "Bernard Island",
+    "id": "bernardIsland",
+    "lat": 49.4863406,
+    "lng": -124.2758774
+  },
+  {
+    "reserve": "Bersimis",
+    "id": "bersimis",
+    "lat": 48.930611,
+    "lng": -68.706749
+  },
+  {
+    "reserve": "Big Stone",
+    "id": "bigStone",
+    "lat": 51.2261529,
+    "lng": -111.190182
+  },
+  {
+    "reserve": "Birtle",
+    "id": "birtle",
+    "lat": 50.4221254,
+    "lng": -101.0449519
+  },
+  {
+    "reserve": "Blackfoot",
+    "id": "blackfoot",
+    "lat": 53.288219,
+    "lng": -110.175376
+  },
+  {
+    "reserve": "Blackwater",
+    "id": "blackwater",
+    "lat": 44.233878,
+    "lng": -79.051564
+  },
+  {
+    "reserve": "Blood",
+    "id": "blood",
+    "lat": 45.3813128,
+    "lng": -75.7460188
+  },
+  {
+    "reserve": "Bon Accord",
+    "id": "bonAccord",
+    "lat": 53.8372598,
+    "lng": -113.4121256
+  },
+  {
+    "reserve": "Bonaparte",
+    "id": "bonaparte",
+    "lat": 45.5032731,
+    "lng": -73.5560354
+  },
+  {
+    "reserve": "Boothroyd",
+    "id": "boothroyd",
+    "lat": 49.965278,
+    "lng": -121.483333
+  },
+  {
+    "reserve": "Bootkia Peninsula",
+    "id": "bootkiaPeninsula",
+    "lat": 70.5,
+    "lng": -94.5
+  },
+  {
+    "reserve": "Boston Bar",
+    "id": "bostonBar",
+    "lat": 49.8634258,
+    "lng": -121.4425737
+  },
+  {
+    "reserve": "Boyer River",
+    "id": "boyerRiver",
+    "lat": 58.4464436,
+    "lng": -116.7135787
+  },
+  {
+    "reserve": "Brantford",
+    "id": "brantford",
+    "lat": 43.1393867,
+    "lng": -80.2644254
+  },
+  {
+    "reserve": "Bridge River",
+    "id": "bridgeRiver",
+    "lat": 50.813116,
+    "lng": -122.0598313
+  },
+  {
+    "reserve": "Broughton Island",
+    "id": "broughtonIsland",
+    "lat": 67.524849,
+    "lng": -63.766102
+  },
+  {
+    "reserve": "Brunswick",
+    "id": "brunswick",
+    "lat": 46.0829249,
+    "lng": -65.5705759
+  },
+  {
+    "reserve": "Burns Lake",
+    "id": "burnsLake",
+    "lat": 54.2334148,
+    "lng": -125.763613
+  },
+  {
+    "reserve": "Burrard",
+    "id": "burrard",
+    "lat": 49.279878,
+    "lng": -123.127695
+  },
+  {
+    "reserve": "Burwash",
+    "id": "burwash",
+    "lat": 46.233333,
+    "lng": -80.85
+  },
+  {
+    "reserve": "Byron Bay",
+    "id": "byronBay",
+    "lat": 68.75378,
+    "lng": -109.08184
+  },
+  {
+    "reserve": "Calgary",
+    "id": "calgary",
+    "lat": 51.0486151,
+    "lng": -114.0708459
+  },
+  {
+    "reserve": "Callihoo Band",
+    "id": "callihooBand",
+    "lat": 54.042,
+    "lng": -112.81
+  },
+  {
+    "reserve": "Calling Lake",
+    "id": "callingLake",
+    "lat": 55.210335,
+    "lng": -113.193325
+  },
+  {
+    "reserve": "Cambridge Bay",
+    "id": "cambridgeBay",
+    "lat": 69.1168641,
+    "lng": -105.0596814
+  },
+  {
+    "reserve": "Campbell River",
+    "id": "campbellRiver",
+    "lat": 50.0331226,
+    "lng": -125.2733354
+  },
+  {
+    "reserve": "Canim Lake",
+    "id": "canimLake",
+    "lat": 51.774437,
+    "lng": -120.930601
+  },
+  {
+    "reserve": "Canoe Creek",
+    "id": "canoeCreek",
+    "lat": 51.4689844,
+    "lng": -122.1548902
+  },
+  {
+    "reserve": "Canyon City",
+    "id": "canyonCity",
+    "lat": 60.6291175,
+    "lng": -134.7673393
+  },
+  {
+    "reserve": "Canyon Creek",
+    "id": "canyonCreek",
+    "lat": 55.371739,
+    "lng": -115.08826
+  },
+  {
+    "reserve": "Cape Croke",
+    "id": "capeCroke",
+    "lat": 44.922911,
+    "lng": -81.021299
+  },
+  {
+    "reserve": "Cape Dyer",
+    "id": "capeDyer",
+    "lat": 66.665374,
+    "lng": -61.358524
+  },
+  {
+    "reserve": "Cape Mudge",
+    "id": "capeMudge",
+    "lat": 49.9966002,
+    "lng": -125.1876382
+  },
+  {
+    "reserve": "Cape Parry",
+    "id": "capeParry",
+    "lat": 70.2,
+    "lng": -124.5833333
+  },
+  {
+    "reserve": "Capilano",
+    "id": "capilano",
+    "lat": 53.5545551,
+    "lng": -113.4244465
+  },
+  {
+    "reserve": "Carcross",
+    "id": "carcross",
+    "lat": 60.1675851,
+    "lng": -134.7073506
+  },
+  {
+    "reserve": "Cardston",
+    "id": "cardston",
+    "lat": 49.1950663,
+    "lng": -113.301798
+  },
+  {
+    "reserve": "Carlton",
+    "id": "carlton",
+    "lat": 45.3875812,
+    "lng": -75.6960202
+  },
+  {
+    "reserve": "Carmacks",
+    "id": "carmacks",
+    "lat": 62.088468,
+    "lng": -136.28729
+  },
+  {
+    "reserve": "Carriers",
+    "id": "carriers",
+    "lat": 51.0269942,
+    "lng": -114.0316034
+  },
+  {
+    "reserve": "Carry the Kettle",
+    "id": "carrytheKettle",
+    "lat": 50.3543074,
+    "lng": -103.4679039
+  },
+  {
+    "reserve": "Casca",
+    "id": "casca",
+    "lat": 60.71878,
+    "lng": -135.052929
+  },
+  {
+    "reserve": "Cassiar",
+    "id": "cassiar",
+    "lat": 59.28215,
+    "lng": -129.816895
+  },
+  {
+    "reserve": "Champagne",
+    "id": "champagne",
+    "lat": 60.789428,
+    "lng": -136.471353
+  },
+  {
+    "reserve": "Chapleau",
+    "id": "chapleau",
+    "lat": 47.8423282,
+    "lng": -83.4026108
+  },
+  {
+    "reserve": "Chard",
+    "id": "chard",
+    "lat": 55.845505,
+    "lng": -110.905504
+  },
+  {
+    "reserve": "Cheam",
+    "id": "cheam",
+    "lat": 49.1866666,
+    "lng": -121.6816666
+  },
+  {
+    "reserve": "Chehalis",
+    "id": "chehalis",
+    "lat": 49.2984479,
+    "lng": -121.9044574
+  },
+  {
+    "reserve": "Chemainus",
+    "id": "chemainus",
+    "lat": 48.9301648,
+    "lng": -123.7344814
+  },
+  {
+    "reserve": "Cheslatta",
+    "id": "cheslatta",
+    "lat": 53.816667,
+    "lng": -125.8
+  },
+  {
+    "reserve": "Chesterfield Inlet",
+    "id": "chesterfieldInlet",
+    "lat": 63.346514,
+    "lng": -90.736827
+  },
+  {
+    "reserve": "Chilcotin",
+    "id": "chilcotin",
+    "lat": 51.9219332,
+    "lng": -122.9310895
+  },
+  {
+    "reserve": "Chilliwack",
+    "id": "chilliwack",
+    "lat": 49.1579401,
+    "lng": -121.9514666
+  },
+  {
+    "reserve": "Chiniquay",
+    "id": "chiniquay",
+    "lat": 43.5646757,
+    "lng": -81.702628
+  },
+  {
+    "reserve": "Chipewyan",
+    "id": "chipewyan",
+    "lat": 58.719637,
+    "lng": -111.140697
+  },
+  {
+    "reserve": "Chochrane",
+    "id": "chochrane",
+    "lat": 51.1909883,
+    "lng": -114.4678603
+  },
+  {
+    "reserve": "Churchill",
+    "id": "churchill",
+    "lat": 58.7684112,
+    "lng": -94.164964
+  },
+  {
+    "reserve": "Cisco",
+    "id": "cisco",
+    "lat": 53.544932,
+    "lng": -113.4931207
+  },
+  {
+    "reserve": "Clayoquot",
+    "id": "clayoquot",
+    "lat": 49.1573644,
+    "lng": -125.9322765
+  },
+  {
+    "reserve": "Clifton Point",
+    "id": "cliftonPoint",
+    "lat": 43.0908436,
+    "lng": -79.0754576
+  },
+  {
+    "reserve": "Clinton",
+    "id": "clinton",
+    "lat": 43.6172804,
+    "lng": -81.5393953
+  },
+  {
+    "reserve": "Clo'oose",
+    "id": "clooose",
+    "lat": 48.6533779,
+    "lng": -124.804508
+  },
+  {
+    "reserve": "Clyde River",
+    "id": "clydeRiver",
+    "lat": 70.476365,
+    "lng": -68.601265
+  },
+  {
+    "reserve": "Cochrane",
+    "id": "cochrane",
+    "lat": 51.1909883,
+    "lng": -114.4678603
+  },
+  {
+    "reserve": "Cold Lake",
+    "id": "coldLake",
+    "lat": 54.4643173,
+    "lng": -110.1731468
+  },
+  {
+    "reserve": "Coldwater",
+    "id": "coldwater",
+    "lat": 44.7099419,
+    "lng": -79.643778
+  },
+  {
+    "reserve": "Columbia Lake",
+    "id": "columbiaLake",
+    "lat": 50.1812569,
+    "lng": -115.8356386
+  },
+  {
+    "reserve": "Colville Lake",
+    "id": "colvilleLake",
+    "lat": 67.0386393,
+    "lng": -126.0881066
+  },
+  {
+    "reserve": "Comox",
+    "id": "comox",
+    "lat": 49.6735133,
+    "lng": -124.9282659
+  },
+  {
+    "reserve": "Conklin",
+    "id": "conklin",
+    "lat": 55.631388,
+    "lng": -111.083884
+  },
+  {
+    "reserve": "Contwoyto Lake",
+    "id": "contwoytoLake",
+    "lat": 65.697541,
+    "lng": -110.8324552
+  },
+  {
+    "reserve": "Cook's Ferry",
+    "id": "cooksFerry",
+    "lat": 50.422669,
+    "lng": -121.345091
+  },
+  {
+    "reserve": "Coppermine",
+    "id": "coppermine",
+    "lat": 67.813457,
+    "lng": -115.0812529
+  },
+  {
+    "reserve": "Coquitlam",
+    "id": "coquitlam",
+    "lat": 49.2837626,
+    "lng": -122.7932065
+  },
+  {
+    "reserve": "Coral Harbour",
+    "id": "coralHarbour",
+    "lat": 64.138834,
+    "lng": -83.169897
+  },
+  {
+    "reserve": "Cote",
+    "id": "cote",
+    "lat": 51.5219688,
+    "lng": -101.7978998
+  },
+  {
+    "reserve": "Cowessess",
+    "id": "cowessess",
+    "lat": 50.5802752,
+    "lng": -102.6614974
+  },
+  {
+    "reserve": "Cowichan",
+    "id": "cowichan",
+    "lat": 48.7569005,
+    "lng": -124.0309983
+  },
+  {
+    "reserve": "Cranbrook",
+    "id": "cranbrook",
+    "lat": 49.5129678,
+    "lng": -115.7694002
+  },
+  {
+    "reserve": "Cree",
+    "id": "cree",
+    "lat": 43.7148083,
+    "lng": -79.6255139
+  },
+  {
+    "reserve": "Creekside",
+    "id": "creekside",
+    "lat": 52.367111,
+    "lng": -114.934558
+  },
+  {
+    "reserve": "Crooked Lake",
+    "id": "crookedLake",
+    "lat": 52.275562,
+    "lng": -120.725326
+  },
+  {
+    "reserve": "Crowfoot",
+    "id": "crowfoot",
+    "lat": 51.1260443,
+    "lng": -114.2021513
+  },
+  {
+    "reserve": "Dawson",
+    "id": "dawson",
+    "lat": 64.0600696,
+    "lng": -139.4320347
+  },
+  {
+    "reserve": "Day Star",
+    "id": "dayStar",
+    "lat": 32.861916,
+    "lng": -97.106502
+  },
+  {
+    "reserve": "Deadman's Creek",
+    "id": "deadmansCreek",
+    "lat": 42.9235499,
+    "lng": -81.3431098
+  },
+  {
+    "reserve": "Dease Lake",
+    "id": "deaseLake",
+    "lat": 58.43741,
+    "lng": -129.999378
+  },
+  {
+    "reserve": "Deazadeash Lake",
+    "id": "deazadeashLake",
+    "lat": 60.4602199,
+    "lng": -137.0030273
+  },
+  {
+    "reserve": "Decker Lake",
+    "id": "deckerLake",
+    "lat": 54.293395,
+    "lng": -125.833358
+  },
+  {
+    "reserve": "Deer Lake",
+    "id": "deerLake",
+    "lat": 49.1731682,
+    "lng": -57.4338728
+  },
+  {
+    "reserve": "Delta",
+    "id": "delta",
+    "lat": 49.0952155,
+    "lng": -123.0264759
+  },
+  {
+    "reserve": "Desmaris",
+    "id": "desmaris",
+    "lat": 55.9459547,
+    "lng": -113.8006274
+  },
+  {
+    "reserve": "DEW Line",
+    "id": "dEWLine",
+    "lat": 43.133924,
+    "lng": -76.213059
+  },
+  {
+    "reserve": "Dog Creek",
+    "id": "dogCreek",
+    "lat": 51.581613,
+    "lng": -122.237828
+  },
+  {
+    "reserve": "Dog Rib",
+    "id": "dogRib",
+    "lat": 57.135203,
+    "lng": -122.3184407
+  },
+  {
+    "reserve": "Dorset",
+    "id": "dorset",
+    "lat": 45.2444301,
+    "lng": -78.8939439
+  },
+  {
+    "reserve": "Drift Pile",
+    "id": "driftPile",
+    "lat": 55.333333,
+    "lng": -115.766667
+  },
+  {
+    "reserve": "Duck Lake",
+    "id": "duckLake",
+    "lat": 52.8118546,
+    "lng": -106.2260275
+  },
+  {
+    "reserve": "Duncon's",
+    "id": "duncons",
+    "lat": 44.5006533,
+    "lng": -63.5312323
+  },
+  {
+    "reserve": "Eastmain",
+    "id": "eastmain",
+    "lat": 52.233724,
+    "lng": -78.517759
+  },
+  {
+    "reserve": "Ebb",
+    "id": "ebb",
+    "lat": 51.0260446,
+    "lng": -99.0388668
+  },
+  {
+    "reserve": "Edmonton",
+    "id": "edmonton",
+    "lat": 53.544389,
+    "lng": -113.4909267
+  },
+  {
+    "reserve": "Edmonton Agency",
+    "id": "edmontonAgency",
+    "lat": 53.5426424,
+    "lng": -113.4866434
+  },
+  {
+    "reserve": "Ehatishat",
+    "id": "ehatishat",
+    "lat": 49.90811,
+    "lng": -126.8743
+  },
+  {
+    "reserve": "Eldorado",
+    "id": "eldorado",
+    "lat": 59.557323,
+    "lng": -108.499825
+  },
+  {
+    "reserve": "Enderby",
+    "id": "enderby",
+    "lat": 50.5508499,
+    "lng": -119.1396705
+  },
+  {
+    "reserve": "Enoch",
+    "id": "enoch",
+    "lat": 53.5104488,
+    "lng": -113.6970316
+  },
+  {
+    "reserve": "Ermineskin",
+    "id": "ermineskin",
+    "lat": 53.4574816,
+    "lng": -113.5060584
+  },
+  {
+    "reserve": "Eskimo Point",
+    "id": "eskimoPoint",
+    "lat": 61.1078279,
+    "lng": -94.0623691
+  },
+  {
+    "reserve": "Euchinico",
+    "id": "euchinico",
+    "lat": 53.2175288,
+    "lng": -123.5060941
+  },
+  {
+    "reserve": "File Hills",
+    "id": "fileHills",
+    "lat": 50.757432,
+    "lng": -103.789275
+  },
+  {
+    "reserve": "Findlay River",
+    "id": "findlayRiver",
+    "lat": 57.2716338,
+    "lng": -125.9358404
+  },
+  {
+    "reserve": "Finlay Forks",
+    "id": "finlayForks",
+    "lat": 55.7999901,
+    "lng": -123.6400102
+  },
+  {
+    "reserve": "Finlay River",
+    "id": "finlayRiver",
+    "lat": 57.2716338,
+    "lng": -125.9358404
+  },
+  {
+    "reserve": "Fisher",
+    "id": "fisher",
+    "lat": 53.033333,
+    "lng": -105.45
+  },
+  {
+    "reserve": "Fishing Lake",
+    "id": "fishingLake",
+    "lat": 51.8333333,
+    "lng": -103.5333333
+  },
+  {
+    "reserve": "Fitzgarals Smith",
+    "id": "fitzgaralsSmith",
+    "lat": 59.8591456,
+    "lng": -111.6024877
+  },
+  {
+    "reserve": "Flow",
+    "id": "flow",
+    "lat": 53.4815535,
+    "lng": -113.4802396
+  },
+  {
+    "reserve": "Forestdale/Forest Dale",
+    "id": "forestdale/ForestDale",
+    "lat": 54.4135506,
+    "lng": -126.1612649
+  },
+  {
+    "reserve": "Fort Albany",
+    "id": "fortAlbany",
+    "lat": 52.207757,
+    "lng": -81.684454
+  },
+  {
+    "reserve": "Fort Alexander",
+    "id": "fortAlexander",
+    "lat": 50.610446,
+    "lng": -96.298722
+  },
+  {
+    "reserve": "Fort Babine",
+    "id": "fortBabine",
+    "lat": 55.3248763,
+    "lng": -126.6123885
+  },
+  {
+    "reserve": "Fort Chimo",
+    "id": "fortChimo",
+    "lat": 58.102996,
+    "lng": -68.418839
+  },
+  {
+    "reserve": "Fort Chipewyan",
+    "id": "fortChipewyan",
+    "lat": 58.719637,
+    "lng": -111.140697
+  },
+  {
+    "reserve": "Fort Connelly",
+    "id": "fortConnelly",
+    "lat": 56.195,
+    "lng": -126.841301
+  },
+  {
+    "reserve": "Fort Francis",
+    "id": "fortFrancis",
+    "lat": 48.6099494,
+    "lng": -93.3955282
+  },
+  {
+    "reserve": "Fort Franklin",
+    "id": "fortFranklin",
+    "lat": 65.188683,
+    "lng": -123.415802
+  },
+  {
+    "reserve": "Fort Fraser",
+    "id": "fortFraser",
+    "lat": 54.061971,
+    "lng": -124.552796
+  },
+  {
+    "reserve": "Fort George",
+    "id": "fortGeorge",
+    "lat": 43.250735,
+    "lng": -79.061212
+  },
+  {
+    "reserve": "Fort Good Hope",
+    "id": "fortGoodHope",
+    "lat": 66.2556759,
+    "lng": -128.634021
+  },
+  {
+    "reserve": "Fort Grahame",
+    "id": "fortGrahame",
+    "lat": 56.523981,
+    "lng": -124.472446
+  },
+  {
+    "reserve": "Fort Hope",
+    "id": "fortHope",
+    "lat": 51.556199,
+    "lng": -87.901846
+  },
+  {
+    "reserve": "Fort Liard",
+    "id": "fortLiard",
+    "lat": 60.2395738,
+    "lng": -123.4733158
+  },
+  {
+    "reserve": "Fort MacPherson",
+    "id": "fortMacPherson",
+    "lat": 67.436445,
+    "lng": -134.880755
+  },
+  {
+    "reserve": "Fort McKay",
+    "id": "fortMcKay",
+    "lat": 57.186758,
+    "lng": -111.636785
+  },
+  {
+    "reserve": "Fort McLeod",
+    "id": "fortMcLeod",
+    "lat": 49.7216792,
+    "lng": -113.4000408
+  },
+  {
+    "reserve": "Fort McPherson",
+    "id": "fortMcPherson",
+    "lat": 67.436445,
+    "lng": -134.880755
+  },
+  {
+    "reserve": "Fort Nelson",
+    "id": "fortNelson",
+    "lat": 58.8050174,
+    "lng": -122.697236
+  },
+  {
+    "reserve": "Fort Norman",
+    "id": "fortNorman",
+    "lat": 64.9012599,
+    "lng": -125.577904
+  },
+  {
+    "reserve": "Fort Providence",
+    "id": "fortProvidence",
+    "lat": 61.3576238,
+    "lng": -117.6606538
+  },
+  {
+    "reserve": "Fort Rae",
+    "id": "fortRae",
+    "lat": 62.8230147,
+    "lng": -115.9883081
+  },
+  {
+    "reserve": "Fort Resolution",
+    "id": "fortResolution",
+    "lat": 61.172054,
+    "lng": -113.673764
+  },
+  {
+    "reserve": "Fort Simpson",
+    "id": "fortSimpson",
+    "lat": 61.8627978,
+    "lng": -121.353033
+  },
+  {
+    "reserve": "Fort Smith",
+    "id": "fortSmith",
+    "lat": 60.00552,
+    "lng": -111.8849379
+  },
+  {
+    "reserve": "Fort St. James",
+    "id": "fortSt.James",
+    "lat": 54.4425721,
+    "lng": -124.2510475
+  },
+  {
+    "reserve": "Fort St. John",
+    "id": "fortSt.John",
+    "lat": 56.252423,
+    "lng": -120.846409
+  },
+  {
+    "reserve": "Fort Vermiliom",
+    "id": "fortVermiliom",
+    "lat": 58.3873325,
+    "lng": -116.0197006
+  },
+  {
+    "reserve": "Fort Ware",
+    "id": "fortWare",
+    "lat": 57.4230262,
+    "lng": -125.6270035
+  },
+  {
+    "reserve": "Fort William",
+    "id": "fortWilliam",
+    "lat": 48.3450222,
+    "lng": -89.3583181
+  },
+  {
+    "reserve": "Fort Wrigley",
+    "id": "fortWrigley",
+    "lat": 63.221472,
+    "lng": -123.454781
+  },
+  {
+    "reserve": "Fort Yukon",
+    "id": "fortYukon",
+    "lat": 66.56735,
+    "lng": -145.2513402
+  },
+  {
+    "reserve": "Forty Mile",
+    "id": "fortyMile",
+    "lat": 64.4238524,
+    "lng": -140.5331772
+  },
+  {
+    "reserve": "Fot Liard",
+    "id": "fotLiard",
+    "lat": 60.2395738,
+    "lng": -123.4733158
+  },
+  {
+    "reserve": "Fountain",
+    "id": "fountain",
+    "lat": 50.75216,
+    "lng": -121.893324
+  },
+  {
+    "reserve": "Fox Lake",
+    "id": "foxLake",
+    "lat": 58.4649348,
+    "lng": -114.5360857
+  },
+  {
+    "reserve": "Foxe Main",
+    "id": "foxeMain",
+    "lat": 45.337916,
+    "lng": -61.104313
+  },
+  {
+    "reserve": "Frances Lake",
+    "id": "francesLake",
+    "lat": 61.4497924,
+    "lng": -129.3969561
+  },
+  {
+    "reserve": "Fraser Lake",
+    "id": "fraserLake",
+    "lat": 54.0562303,
+    "lng": -124.8495549
+  },
+  {
+    "reserve": "Frobisher Bay",
+    "id": "frobisherBay",
+    "lat": 63.746693,
+    "lng": -68.5169669
+  },
+  {
+    "reserve": "Frog Lake",
+    "id": "frogLake",
+    "lat": 53.8321927,
+    "lng": -110.4020593
+  },
+  {
+    "reserve": "Ft. Vermillion",
+    "id": "ft.Vermillion",
+    "lat": 58.3873325,
+    "lng": -116.0197006
+  },
+  {
+    "reserve": "Ft.McPherson",
+    "id": "ft.McPherson",
+    "lat": 67.436445,
+    "lng": -134.880755
+  },
+  {
+    "reserve": "Gambler",
+    "id": "gambler",
+    "lat": 50.594309,
+    "lng": -101.3613699
+  },
+  {
+    "reserve": "Gibson",
+    "id": "gibson",
+    "lat": 44.604809,
+    "lng": -79.976451
+  },
+  {
+    "reserve": "Gilford Island",
+    "id": "gilfordIsland",
+    "lat": 50.7173101,
+    "lng": -126.3690612
+  },
+  {
+    "reserve": "Gitlakdamix",
+    "id": "gitlakdamix",
+    "lat": 55.191753,
+    "lng": -129.221334
+  },
+  {
+    "reserve": "Gjoa Haven",
+    "id": "gjoaHaven",
+    "lat": 68.6355559,
+    "lng": -95.849722
+  },
+  {
+    "reserve": "Gleichen",
+    "id": "gleichen",
+    "lat": 50.866153,
+    "lng": -113.051568
+  },
+  {
+    "reserve": "Glen Vowell",
+    "id": "glenVowell",
+    "lat": 55.3119575,
+    "lng": -127.6788854
+  },
+  {
+    "reserve": "Good Hope Lake",
+    "id": "goodHopeLake",
+    "lat": 59.281944,
+    "lng": -129.302778
+  },
+  {
+    "reserve": "Goodfish (Whitefish) Lake",
+    "id": "goodfish(Whitefish)Lake",
+    "lat": 54.2914827,
+    "lng": -111.8100769
+  },
+  {
+    "reserve": "Grand Rapids",
+    "id": "grandRapids",
+    "lat": 53.1841527,
+    "lng": -99.2678509
+  },
+  {
+    "reserve": "Great Whale River",
+    "id": "greatWhaleRiver",
+    "lat": 55.3,
+    "lng": -77.8
+  },
+  {
+    "reserve": "Greenville",
+    "id": "greenville",
+    "lat": 55.032217,
+    "lng": -129.58121
+  },
+  {
+    "reserve": "Grise Fiord",
+    "id": "griseFiord",
+    "lat": 76.4189856,
+    "lng": -82.9016082
+  },
+  {
+    "reserve": "Grouard",
+    "id": "grouard",
+    "lat": 55.523223,
+    "lng": -116.159278
+  },
+  {
+    "reserve": "Gwinaha",
+    "id": "gwinaha",
+    "lat": 55.1931242,
+    "lng": -129.2210841
+  },
+  {
+    "reserve": "Hagwilget",
+    "id": "hagwilget",
+    "lat": 55.2579695,
+    "lng": -127.5971465
+  },
+  {
+    "reserve": "Haida",
+    "id": "haida",
+    "lat": 51.922753,
+    "lng": -129.9173008
+  },
+  {
+    "reserve": "Haines Junction",
+    "id": "hainesJunction",
+    "lat": 60.7544541,
+    "lng": -137.5117818
+  },
+  {
+    "reserve": "Halfway",
+    "id": "halfway",
+    "lat": 45.41642,
+    "lng": -77.579818
+  },
+  {
+    "reserve": "Hall Beach",
+    "id": "hallBeach",
+    "lat": 68.772735,
+    "lng": -81.235208
+  },
+  {
+    "reserve": "Hartley Bay",
+    "id": "hartleyBay",
+    "lat": 53.423919,
+    "lng": -129.25351
+  },
+  {
+    "reserve": "Hay Lakes",
+    "id": "hayLakes",
+    "lat": 53.1964307,
+    "lng": -113.0547715
+  },
+  {
+    "reserve": "Hazelton",
+    "id": "hazelton",
+    "lat": 55.2568166,
+    "lng": -127.672002
+  },
+  {
+    "reserve": "Heart Lake",
+    "id": "heartLake",
+    "lat": 43.741033,
+    "lng": -79.7953518
+  },
+  {
+    "reserve": "Herschel Island",
+    "id": "herschelIsland",
+    "lat": 69.5794566,
+    "lng": -139.0762055
+  },
+  {
+    "reserve": "Hesquiaht",
+    "id": "hesquiaht",
+    "lat": 49.39422,
+    "lng": -126.465575
+  },
+  {
+    "reserve": "High Bar",
+    "id": "highBar",
+    "lat": 51.1093651,
+    "lng": -121.9894326
+  },
+  {
+    "reserve": "Hobbema Agency",
+    "id": "hobbemaAgency",
+    "lat": 52.8349731,
+    "lng": -113.4456396
+  },
+  {
+    "reserve": "Holman Island",
+    "id": "holmanIsland",
+    "lat": 70.6579503,
+    "lng": -117.7466991
+  },
+  {
+    "reserve": "Homalco",
+    "id": "homalco",
+    "lat": 49.9518844,
+    "lng": -125.2432712
+  },
+  {
+    "reserve": "Hope",
+    "id": "hope",
+    "lat": 49.3829931,
+    "lng": -121.4424751
+  },
+  {
+    "reserve": "Horse Lake",
+    "id": "horseLake",
+    "lat": 51.5881646,
+    "lng": -121.1076812
+  },
+  {
+    "reserve": "Houston",
+    "id": "houston",
+    "lat": 54.3979972,
+    "lng": -126.6482087
+  },
+  {
+    "reserve": "Hudson Hope",
+    "id": "hudsonHope",
+    "lat": 56.0357172,
+    "lng": -121.9038286
+  },
+  {
+    "reserve": "Hurons",
+    "id": "hurons",
+    "lat": 45.479396,
+    "lng": -73.230327
+  },
+  {
+    "reserve": "Iglooik",
+    "id": "iglooik",
+    "lat": 69.372505,
+    "lng": -81.82465
+  },
+  {
+    "reserve": "Iglootalik",
+    "id": "iglootalik",
+    "lat": 69.372505,
+    "lng": -81.82465
+  },
+  {
+    "reserve": "Imigen",
+    "id": "imigen",
+    "lat": 43.6882923,
+    "lng": -79.3912429
+  },
+  {
+    "reserve": "Ingenika",
+    "id": "ingenika",
+    "lat": 56.790353,
+    "lng": -124.895944
+  },
+  {
+    "reserve": "Inkamoop",
+    "id": "inkamoop",
+    "lat": 49.02825,
+    "lng": -119.435737
+  },
+  {
+    "reserve": "Inuvik",
+    "id": "inuvik",
+    "lat": 68.3607437,
+    "lng": -133.7230177
+  },
+  {
+    "reserve": "Island Falls",
+    "id": "islandFalls",
+    "lat": 55.526498,
+    "lng": -102.34823
+  },
+  {
+    "reserve": "Island Lake",
+    "id": "islandLake",
+    "lat": 53.8024368,
+    "lng": -94.4133148
+  },
+  {
+    "reserve": "Islington",
+    "id": "islington",
+    "lat": 43.6309156,
+    "lng": -79.5434841
+  },
+  {
+    "reserve": "James Bay Agency",
+    "id": "jamesBayAgency",
+    "lat": 53.5368913,
+    "lng": -80.5456523
+  },
+  {
+    "reserve": "James Smith",
+    "id": "jamesSmith",
+    "lat": 52.8721724,
+    "lng": -104.658341
+  },
+  {
+    "reserve": "Janvier",
+    "id": "janvier",
+    "lat": 55.845505,
+    "lng": -110.905504
+  },
+  {
+    "reserve": "Jean Baptiste",
+    "id": "jeanBaptiste",
+    "lat": 49.266073,
+    "lng": -97.342296
+  },
+  {
+    "reserve": "Jean Marie River",
+    "id": "jeanMarieRiver",
+    "lat": 61.532927,
+    "lng": -120.634679
+  },
+  {
+    "reserve": "John Smith",
+    "id": "johnSmith",
+    "lat": 44.889126,
+    "lng": -76.016193
+  },
+  {
+    "reserve": "Johnson's Crossing",
+    "id": "johnsonsCrossing",
+    "lat": 60.488664,
+    "lng": -133.294924
+  },
+  {
+    "reserve": "Joseph Bighead",
+    "id": "josephBighead",
+    "lat": 53.2410531,
+    "lng": 53.2410531
+  },
+  {
+    "reserve": "Kahkewhistehew",
+    "id": "kahkewhistehew",
+    "lat": 50.5004733,
+    "lng": -102.5356248
+  },
+  {
+    "reserve": "Kakisa",
+    "id": "kakisa",
+    "lat": 60.932498,
+    "lng": -117.421123
+  },
+  {
+    "reserve": "Kamloops",
+    "id": "kamloops",
+    "lat": 50.674522,
+    "lng": -120.3272674
+  },
+  {
+    "reserve": "Kanaka Bar",
+    "id": "kanakaBar",
+    "lat": 50.115318,
+    "lng": -121.563842
+  },
+  {
+    "reserve": "Katsie",
+    "id": "katsie",
+    "lat": 43.8352728,
+    "lng": -79.0863283
+  },
+  {
+    "reserve": "Katz",
+    "id": "katz",
+    "lat": 53.544759,
+    "lng": -113.494129
+  },
+  {
+    "reserve": "Keeseekoose",
+    "id": "keeseekoose",
+    "lat": 51.7190157,
+    "lng": -101.9084669
+  },
+  {
+    "reserve": "Kehewin",
+    "id": "kehewin",
+    "lat": 54.1227535,
+    "lng": -110.8069613
+  },
+  {
+    "reserve": "Kemano",
+    "id": "kemano",
+    "lat": 53.560594,
+    "lng": -127.939773
+  },
+  {
+    "reserve": "Key",
+    "id": "key",
+    "lat": 43.754813,
+    "lng": -79.7089174
+  },
+  {
+    "reserve": "Kilgard",
+    "id": "kilgard",
+    "lat": 49.067743,
+    "lng": -122.19357
+  },
+  {
+    "reserve": "Kincolith",
+    "id": "kincolith",
+    "lat": 54.994444,
+    "lng": -129.954167
+  },
+  {
+    "reserve": "Kingcombe",
+    "id": "kingcombe",
+    "lat": 50.966667,
+    "lng": -126.183333
+  },
+  {
+    "reserve": "Kinistino",
+    "id": "kinistino",
+    "lat": 52.9518312,
+    "lng": -105.0307621
+  },
+  {
+    "reserve": "Kispiox",
+    "id": "kispiox",
+    "lat": 55.349017,
+    "lng": -127.68778
+  },
+  {
+    "reserve": "Kitamaat",
+    "id": "kitamaat",
+    "lat": 53.974585,
+    "lng": -128.647123
+  },
+  {
+    "reserve": "Kitasoo",
+    "id": "kitasoo",
+    "lat": 52.5940546,
+    "lng": -128.5227442
+  },
+  {
+    "reserve": "Kitikshan",
+    "id": "kitikshan",
+    "lat": 54.506601,
+    "lng": -128.595521
+  },
+  {
+    "reserve": "Kitkatla",
+    "id": "kitkatla",
+    "lat": 53.79448,
+    "lng": -130.433219
+  },
+  {
+    "reserve": "Kitlakdamix",
+    "id": "kitlakdamix",
+    "lat": 55.191753,
+    "lng": -129.221334
+  },
+  {
+    "reserve": "Kitlope",
+    "id": "kitlope",
+    "lat": 53.2740311,
+    "lng": -127.5047369
+  },
+  {
+    "reserve": "Kitsegucla",
+    "id": "kitsegucla",
+    "lat": 55.083333,
+    "lng": -127.833333
+  },
+  {
+    "reserve": "Kitselas",
+    "id": "kitselas",
+    "lat": 54.5127086,
+    "lng": -128.5618359
+  },
+  {
+    "reserve": "Kitsumkalum",
+    "id": "kitsumkalum",
+    "lat": 54.518018,
+    "lng": -128.6371399
+  },
+  {
+    "reserve": "Kitsumkaylum",
+    "id": "kitsumkaylum",
+    "lat": 54.5252675,
+    "lng": -128.6743681
+  },
+  {
+    "reserve": "Kitwancool",
+    "id": "kitwancool",
+    "lat": 55.2726327,
+    "lng": -128.076977
+  },
+  {
+    "reserve": "Kitwanga",
+    "id": "kitwanga",
+    "lat": 55.111672,
+    "lng": -128.0267755
+  },
+  {
+    "reserve": "Klahoose",
+    "id": "klahoose",
+    "lat": 50.1261903,
+    "lng": -124.9208634
+  },
+  {
+    "reserve": "Klemtu",
+    "id": "klemtu",
+    "lat": 52.5936331,
+    "lng": -128.5241004
+  },
+  {
+    "reserve": "Klowitsis",
+    "id": "klowitsis",
+    "lat": 49.9510134,
+    "lng": -125.2462626
+  },
+  {
+    "reserve": "Kluane Lake",
+    "id": "kluaneLake",
+    "lat": 61.2761083,
+    "lng": -138.7511613
+  },
+  {
+    "reserve": "Kluskus",
+    "id": "kluskus",
+    "lat": 53.0883066,
+    "lng": -124.4659327
+  },
+  {
+    "reserve": "Koksilah",
+    "id": "koksilah",
+    "lat": 48.758618,
+    "lng": -123.682508
+  },
+  {
+    "reserve": "Kyoquot",
+    "id": "kyoquot",
+    "lat": 50.0306331,
+    "lng": -127.3788126
+  },
+  {
+    "reserve": "La Romaine",
+    "id": "laRomaine",
+    "lat": 50.2187547,
+    "lng": -60.6710849
+  },
+  {
+    "reserve": "Laberge",
+    "id": "laberge",
+    "lat": 61.0585361,
+    "lng": -135.1054718
+  },
+  {
+    "reserve": "Lac des Mille Lacs",
+    "id": "lacdesMilleLacs",
+    "lat": 48.8334904,
+    "lng": -90.5311144
+  },
+  {
+    "reserve": "Lac La Biche",
+    "id": "lacLaBiche",
+    "lat": 54.7696415,
+    "lng": -111.972514
+  },
+  {
+    "reserve": "Lac La Martre",
+    "id": "lacLaMartre",
+    "lat": 63.35,
+    "lng": -117.966667
+  },
+  {
+    "reserve": "Lac La Ronge",
+    "id": "lacLaRonge",
+    "lat": 55.0430404,
+    "lng": -104.9033041
+  },
+  {
+    "reserve": "Lac Seul",
+    "id": "lacSeul",
+    "lat": 50.3320854,
+    "lng": -92.4819935
+  },
+  {
+    "reserve": "Lac Simon",
+    "id": "lacSimon",
+    "lat": 45.899929,
+    "lng": -75.097922
+  },
+  {
+    "reserve": "Lac Victoria",
+    "id": "lacVictoria",
+    "lat": 47.5285096,
+    "lng": -77.4801803
+  },
+  {
+    "reserve": "Lac-Ste-Anne",
+    "id": "lac-Ste-Anne",
+    "lat": 53.8547978,
+    "lng": -114.6773996
+  },
+  {
+    "reserve": "Lady Franklin Point",
+    "id": "ladyFranklinPoint",
+    "lat": 68.477258,
+    "lng": -113.223232
+  },
+  {
+    "reserve": "Lake Babine",
+    "id": "lakeBabine",
+    "lat": 54.7966955,
+    "lng": -126.0272086
+  },
+  {
+    "reserve": "Lake Cowichan",
+    "id": "lakeCowichan",
+    "lat": 48.8258118,
+    "lng": -124.054167
+  },
+  {
+    "reserve": "Lake Harbour",
+    "id": "lakeHarbour",
+    "lat": 62.847419,
+    "lng": -69.869203
+  },
+  {
+    "reserve": "Lake Manitoba",
+    "id": "lakeManitoba",
+    "lat": 50.626293,
+    "lng": -98.3987593
+  },
+  {
+    "reserve": "Lake Similk",
+    "id": "lakeSimilk",
+    "lat": 49.0780179,
+    "lng": -119.5675024
+  },
+  {
+    "reserve": "Lake Tache",
+    "id": "lakeTache",
+    "lat": 49.8542952,
+    "lng": -97.0762238
+  },
+  {
+    "reserve": "Lansing Creek",
+    "id": "lansingCreek",
+    "lat": 42.2560565,
+    "lng": -83.0552114
+  },
+  {
+    "reserve": "Leask",
+    "id": "leask",
+    "lat": 53.01884,
+    "lng": -106.7364258
+  },
+  {
+    "reserve": "Les Escoumins",
+    "id": "lesEscoumins",
+    "lat": 48.4544089,
+    "lng": -69.4972523
+  },
+  {
+    "reserve": "Lesser Slave Lake",
+    "id": "lesserSlaveLake",
+    "lat": 55.4312556,
+    "lng": -115.6038964
+  },
+  {
+    "reserve": "Liard",
+    "id": "liard",
+    "lat": 60.5613026,
+    "lng": -126.356632
+  },
+  {
+    "reserve": "Liard River",
+    "id": "liardRiver",
+    "lat": 60.5613026,
+    "lng": -126.356632
+  },
+  {
+    "reserve": "Lillooet",
+    "id": "lillooet",
+    "lat": 50.6863017,
+    "lng": -121.9367502
+  },
+  {
+    "reserve": "Little Black Bear",
+    "id": "littleBlackBear",
+    "lat": 51.0060457,
+    "lng": -103.3170176
+  },
+  {
+    "reserve": "Little Pine",
+    "id": "littlePine",
+    "lat": 52.9164926,
+    "lng": -109.0608071
+  },
+  {
+    "reserve": "Little Red River",
+    "id": "littleRedRiver",
+    "lat": 58.405471,
+    "lng": -114.755747
+  },
+  {
+    "reserve": "Little Shuswap",
+    "id": "littleShuswap",
+    "lat": 50.8464389,
+    "lng": -119.6413893
+  },
+  {
+    "reserve": "Long Island",
+    "id": "longIsland",
+    "lat": 44.3303252,
+    "lng": -66.2719891
+  },
+  {
+    "reserve": "Long Lake",
+    "id": "longLake",
+    "lat": 44.690894,
+    "lng": -76.763206
+  },
+  {
+    "reserve": "Long Plain",
+    "id": "longPlain",
+    "lat": 49.844108,
+    "lng": -98.4743
+  },
+  {
+    "reserve": "Longue-Pointe",
+    "id": "longue-Pointe",
+    "lat": 45.581033,
+    "lng": -73.5361086
+  },
+  {
+    "reserve": "Loon Lake",
+    "id": "loonLake",
+    "lat": 54.0261584,
+    "lng": -109.1585151
+  },
+  {
+    "reserve": "Loucheaux",
+    "id": "loucheaux",
+    "lat": 60.7436271,
+    "lng": -135.0728971
+  },
+  {
+    "reserve": "Louis Bull",
+    "id": "louisBull",
+    "lat": 52.8893166,
+    "lng": -113.5655719
+  },
+  {
+    "reserve": "Lower Kootenay",
+    "id": "lowerKootenay",
+    "lat": 49.0660968,
+    "lng": -116.5155389
+  },
+  {
+    "reserve": "Lower Nicola",
+    "id": "lowerNicola",
+    "lat": 50.156549,
+    "lng": -120.879792
+  },
+  {
+    "reserve": "Lower Post",
+    "id": "lowerPost",
+    "lat": 59.923837,
+    "lng": -128.4863905
+  },
+  {
+    "reserve": "Lower Similkameen",
+    "id": "lowerSimilkameen",
+    "lat": 49.5173467,
+    "lng": -120.1281752
+  },
+  {
+    "reserve": "Lubicon Lake",
+    "id": "lubiconLake",
+    "lat": 56.366667,
+    "lng": -115.866667
+  },
+  {
+    "reserve": "Lytton",
+    "id": "lytton",
+    "lat": 50.233258,
+    "lng": -121.581404
+  },
+  {
+    "reserve": "Mackenzie Delta",
+    "id": "mackenzieDelta",
+    "lat": 65.1778128,
+    "lng": -126.2714093
+  },
+  {
+    "reserve": "Malahat",
+    "id": "malahat",
+    "lat": 48.544839,
+    "lng": -123.5645413
+  },
+  {
+    "reserve": "Maliotenam",
+    "id": "maliotenam",
+    "lat": 50.2140189,
+    "lng": -66.196333
+  },
+  {
+    "reserve": "Maniwaki",
+    "id": "maniwaki",
+    "lat": 46.3775167,
+    "lng": -75.9647519
+  },
+  {
+    "reserve": "Manouane",
+    "id": "manouane",
+    "lat": 47.2119447,
+    "lng": -74.3857974
+  },
+  {
+    "reserve": "Manowan",
+    "id": "manowan",
+    "lat": 47.2119447,
+    "lng": -74.3857974
+  },
+  {
+    "reserve": "Manson Creek",
+    "id": "mansonCreek",
+    "lat": 55.671712,
+    "lng": -124.487338
+  },
+  {
+    "reserve": "Maple Creek",
+    "id": "mapleCreek",
+    "lat": 49.906595,
+    "lng": -109.480174
+  },
+  {
+    "reserve": "Marion Lake",
+    "id": "marionLake",
+    "lat": 51.0480229,
+    "lng": -116.3595231
+  },
+  {
+    "reserve": "Marten Lake",
+    "id": "martenLake",
+    "lat": 46.7019814,
+    "lng": -79.7430906
+  },
+  {
+    "reserve": "Martin Falls",
+    "id": "martinFalls",
+    "lat": 47.058832,
+    "lng": -67.724731
+  },
+  {
+    "reserve": "Masset",
+    "id": "masset",
+    "lat": 54.0114581,
+    "lng": -132.1471978
+  },
+  {
+    "reserve": "Matilpi",
+    "id": "matilpi",
+    "lat": 50.55,
+    "lng": -126.183333
+  },
+  {
+    "reserve": "Matsqui",
+    "id": "matsqui",
+    "lat": 49.1063822,
+    "lng": -122.2929597
+  },
+  {
+    "reserve": "Maurice",
+    "id": "maurice",
+    "lat": 46.471499,
+    "lng": -72.5375551
+  },
+  {
+    "reserve": "Maxim Lake",
+    "id": "maximLake",
+    "lat": 51.6812288,
+    "lng": -91.5383081
+  },
+  {
+    "reserve": "Mayo",
+    "id": "mayo",
+    "lat": 63.594262,
+    "lng": -135.896492
+  },
+  {
+    "reserve": "McDame",
+    "id": "mcDame",
+    "lat": 59.186423,
+    "lng": -129.2266129
+  },
+  {
+    "reserve": "McLeod",
+    "id": "mcLeod",
+    "lat": 53.6109882,
+    "lng": -113.4354975
+  },
+  {
+    "reserve": "McMurray",
+    "id": "mcMurray",
+    "lat": 56.7263796,
+    "lng": -111.3803407
+  },
+  {
+    "reserve": "Merritt",
+    "id": "merritt",
+    "lat": 50.1113079,
+    "lng": -120.7862222
+  },
+  {
+    "reserve": "Metlakatla",
+    "id": "metlakatla",
+    "lat": 54.337324,
+    "lng": -130.444669
+  },
+  {
+    "reserve": "Michel",
+    "id": "michel",
+    "lat": 55.984143,
+    "lng": -109.100166
+  },
+  {
+    "reserve": "Michel Reserve",
+    "id": "michelReserve",
+    "lat": 46.711985,
+    "lng": -73.695913
+  },
+  {
+    "reserve": "Mile 898",
+    "id": "mile898",
+    "lat": 43.1894068,
+    "lng": -79.1069562
+  },
+  {
+    "reserve": "Mingan",
+    "id": "mingan",
+    "lat": 50.291457,
+    "lng": -64.023161
+  },
+  {
+    "reserve": "Missanabie",
+    "id": "missanabie",
+    "lat": 48.316667,
+    "lng": -84.083333
+  },
+  {
+    "reserve": "Mistawasis",
+    "id": "mistawasis",
+    "lat": 53.175208,
+    "lng": -106.806875
+  },
+  {
+    "reserve": "Mistissini",
+    "id": "mistissini",
+    "lat": 50.418441,
+    "lng": -73.873727
+  },
+  {
+    "reserve": "Montagnais (Lac Saint-Jean)",
+    "id": "montagnais(LacSaint-Jean)",
+    "lat": 48.5764132,
+    "lng": -72.2293487
+  },
+  {
+    "reserve": "Montana",
+    "id": "montana",
+    "lat": 43.6449181,
+    "lng": -79.6345827
+  },
+  {
+    "reserve": "Montreal Lake",
+    "id": "montrealLake",
+    "lat": 54.2600751,
+    "lng": -105.7436391
+  },
+  {
+    "reserve": "Moose Fort",
+    "id": "mooseFort",
+    "lat": 56.7360728,
+    "lng": -111.4355063
+  },
+  {
+    "reserve": "Moose Woods",
+    "id": "mooseWoods",
+    "lat": 51.8732327,
+    "lng": -106.7019392
+  },
+  {
+    "reserve": "Moosehide",
+    "id": "moosehide",
+    "lat": 64.0964,
+    "lng": -139.438157
+  },
+  {
+    "reserve": "Moosonee",
+    "id": "moosonee",
+    "lat": 51.273089,
+    "lng": -80.640049
+  },
+  {
+    "reserve": "Moricetown",
+    "id": "moricetown",
+    "lat": 55.033333,
+    "lng": -127.333333
+  },
+  {
+    "reserve": "Mosquito",
+    "id": "mosquito",
+    "lat": 46.987846,
+    "lng": -53.684621
+  },
+  {
+    "reserve": "Mount Currie",
+    "id": "mountCurrie",
+    "lat": 50.3163843,
+    "lng": -122.7173501
+  },
+  {
+    "reserve": "Muchalat",
+    "id": "muchalat",
+    "lat": 49.733868,
+    "lng": -126.0828494
+  },
+  {
+    "reserve": "Muncey",
+    "id": "muncey",
+    "lat": 42.820147,
+    "lng": -81.440304
+  },
+  {
+    "reserve": "Muscopetung",
+    "id": "muscopetung",
+    "lat": 50.7149693,
+    "lng": -103.8091223
+  },
+  {
+    "reserve": "Muscowequan",
+    "id": "muscowequan",
+    "lat": 50.4452112,
+    "lng": -104.6188944
+  },
+  {
+    "reserve": "Muscowpetung",
+    "id": "muscowpetung",
+    "lat": 50.7149693,
+    "lng": -103.8091223
+  },
+  {
+    "reserve": "Musqueam",
+    "id": "musqueam",
+    "lat": 49.2234694,
+    "lng": -123.1995785
+  },
+  {
+    "reserve": "Nahanni",
+    "id": "nahanni",
+    "lat": 61.5006973,
+    "lng": -125.5004695
+  },
+  {
+    "reserve": "Nahanni Butte",
+    "id": "nahanniButte",
+    "lat": 61.0334654,
+    "lng": -123.3833648
+  },
+  {
+    "reserve": "Nakwakto",
+    "id": "nakwakto",
+    "lat": 50.722478,
+    "lng": -127.490018
+  },
+  {
+    "reserve": "Namew",
+    "id": "namew",
+    "lat": 53.4554008,
+    "lng": -113.4299369
+  },
+  {
+    "reserve": "Nanaimo",
+    "id": "nanaimo",
+    "lat": 49.1658836,
+    "lng": -123.9400647
+  },
+  {
+    "reserve": "Nanoose",
+    "id": "nanoose",
+    "lat": 49.2723165,
+    "lng": -124.1930531
+  },
+  {
+    "reserve": "Natashquan",
+    "id": "natashquan",
+    "lat": 50.194501,
+    "lng": -61.831508
+  },
+  {
+    "reserve": "Nazko",
+    "id": "nazko",
+    "lat": 53,
+    "lng": -123.616667
+  },
+  {
+    "reserve": "Necosalie/Necoslie",
+    "id": "necosalie/Necoslie",
+    "lat": 54.4281187,
+    "lng": -124.2482119
+  },
+  {
+    "reserve": "Nelson River",
+    "id": "nelsonRiver",
+    "lat": 56.7213226,
+    "lng": -93.5679212
+  },
+  {
+    "reserve": "Nemiah Valley",
+    "id": "nemiahValley",
+    "lat": 51.483333,
+    "lng": -123.883333
+  },
+  {
+    "reserve": "Nepigon",
+    "id": "nepigon",
+    "lat": 49.0157351,
+    "lng": -88.268316
+  },
+  {
+    "reserve": "Neskainlith",
+    "id": "neskainlith",
+    "lat": 50.783487,
+    "lng": -119.7443457
+  },
+  {
+    "reserve": "New Brunswick House",
+    "id": "newBrunswickHouse",
+    "lat": 45.9142479,
+    "lng": -66.6149208
+  },
+  {
+    "reserve": "Nicoamen",
+    "id": "nicoamen",
+    "lat": 50.2685696,
+    "lng": -121.3992758
+  },
+  {
+    "reserve": "Nicola",
+    "id": "nicola",
+    "lat": 50.163604,
+    "lng": -120.670557
+  },
+  {
+    "reserve": "Nimkish",
+    "id": "nimkish",
+    "lat": 50.332817,
+    "lng": -126.916935
+  },
+  {
+    "reserve": "Nipigon",
+    "id": "nipigon",
+    "lat": 49.0157351,
+    "lng": -88.268316
+  },
+  {
+    "reserve": "Nishga",
+    "id": "nishga",
+    "lat": 55.1386732,
+    "lng": -129.5180444
+  },
+  {
+    "reserve": "Nitinaht",
+    "id": "nitinaht",
+    "lat": 48.743587,
+    "lng": -124.7491272
+  },
+  {
+    "reserve": "Nitinat",
+    "id": "nitinat",
+    "lat": 48.743587,
+    "lng": -124.7491272
+  },
+  {
+    "reserve": "Nootka",
+    "id": "nootka",
+    "lat": 49.6842999,
+    "lng": -126.7894679
+  },
+  {
+    "reserve": "Norman Wells",
+    "id": "normanWells",
+    "lat": 65.2814938,
+    "lng": -126.8286524
+  },
+  {
+    "reserve": "North Takla",
+    "id": "northTakla",
+    "lat": 55.3955275,
+    "lng": -125.8556613
+  },
+  {
+    "reserve": "North Thompson",
+    "id": "northThompson",
+    "lat": 51.6516591,
+    "lng": -119.7431933
+  },
+  {
+    "reserve": "North West Angle No 33",
+    "id": "northWestAngleNo33",
+    "lat": 49.7657386,
+    "lng": -94.4861517
+  },
+  {
+    "reserve": "North West Angle No 37",
+    "id": "northWestAngleNo37",
+    "lat": 49.4108329,
+    "lng": -94.095833
+  },
+  {
+    "reserve": "Nuchatlaht",
+    "id": "nuchatlaht",
+    "lat": 49.988982,
+    "lng": -126.8532629
+  },
+  {
+    "reserve": "Nuchatlitz",
+    "id": "nuchatlitz",
+    "lat": 49.8069489,
+    "lng": -126.9633782
+  },
+  {
+    "reserve": "Nut Lake",
+    "id": "nutLake",
+    "lat": 52.3666667,
+    "lng": -103.7
+  },
+  {
+    "reserve": "O'Hawel",
+    "id": "oHawel",
+    "lat": 44.9319484,
+    "lng": -76.2435224
+  },
+  {
+    "reserve": "Obedjiwan",
+    "id": "obedjiwan",
+    "lat": 48.6580427,
+    "lng": -74.9377152
+  },
+  {
+    "reserve": "Ochapawace",
+    "id": "ochapawace",
+    "lat": 50.4082694,
+    "lng": -102.2420199
+  },
+  {
+    "reserve": "Odanak",
+    "id": "odanak",
+    "lat": 46.0737189,
+    "lng": -72.814462
+  },
+  {
+    "reserve": "Ohiat",
+    "id": "ohiat",
+    "lat": 49.3406482,
+    "lng": -124.5433284
+  },
+  {
+    "reserve": "Okanagan",
+    "id": "okanagan",
+    "lat": 49.83385,
+    "lng": -119.5236098
+  },
+  {
+    "reserve": "Okanogan",
+    "id": "okanogan",
+    "lat": 49.83385,
+    "lng": -119.5236098
+  },
+  {
+    "reserve": "Old Crow",
+    "id": "oldCrow",
+    "lat": 67.5696339,
+    "lng": -139.828784
+  },
+  {
+    "reserve": "Old Factory",
+    "id": "oldFactory",
+    "lat": 49.8828012,
+    "lng": -119.4731513
+  },
+  {
+    "reserve": "Old Fort",
+    "id": "oldFort",
+    "lat": 56.202882,
+    "lng": -120.825938
+  },
+  {
+    "reserve": "Omineca",
+    "id": "omineca",
+    "lat": 56.5,
+    "lng": -125.5
+  },
+  {
+    "reserve": "One",
+    "id": "one",
+    "lat": 51.5051277,
+    "lng": -0.0197083
+  },
+  {
+    "reserve": "One Arrow",
+    "id": "oneArrow",
+    "lat": 43.7364374,
+    "lng": -79.5284307
+  },
+  {
+    "reserve": "Onion Lake",
+    "id": "onionLake",
+    "lat": 53.717104,
+    "lng": -109.997634
+  },
+  {
+    "reserve": "Opitsaht",
+    "id": "opitsaht",
+    "lat": 49.173504,
+    "lng": -125.90717
+  },
+  {
+    "reserve": "Opitsat",
+    "id": "opitsat",
+    "lat": 49.173504,
+    "lng": -125.90717
+  },
+  {
+    "reserve": "Oregon Jack",
+    "id": "oregonJack",
+    "lat": 50.590961,
+    "lng": -121.3216775
+  },
+  {
+    "reserve": "Osnaburgh",
+    "id": "osnaburgh",
+    "lat": 51.135052,
+    "lng": -90.275592
+  },
+  {
+    "reserve": "Osoyoos",
+    "id": "osoyoos",
+    "lat": 49.032304,
+    "lng": -119.468163
+  },
+  {
+    "reserve": "Oweekano",
+    "id": "oweekano",
+    "lat": 51.680556,
+    "lng": -127.225
+  },
+  {
+    "reserve": "Pacheenaht",
+    "id": "pacheenaht",
+    "lat": 48.5769415,
+    "lng": -124.4121935
+  },
+  {
+    "reserve": "Paint Hills",
+    "id": "paintHills",
+    "lat": 52.9760348,
+    "lng": -78.9312458
+  },
+  {
+    "reserve": "Pangnirtung",
+    "id": "pangnirtung",
+    "lat": 66.1465578,
+    "lng": -65.7012182
+  },
+  {
+    "reserve": "Parry Island",
+    "id": "parryIsland",
+    "lat": 45.316667,
+    "lng": -80.066667
+  },
+  {
+    "reserve": "Pas",
+    "id": "pas",
+    "lat": 53.8255265,
+    "lng": -101.2476129
+  },
+  {
+    "reserve": "Pasqua",
+    "id": "pasqua",
+    "lat": 50.373791,
+    "lng": -105.376629
+  },
+  {
+    "reserve": "Paulaktuk",
+    "id": "paulaktuk",
+    "lat": 69.350935,
+    "lng": -124.071209
+  },
+  {
+    "reserve": "Pauquachin",
+    "id": "pauquachin",
+    "lat": 48.6270775,
+    "lng": -123.458346
+  },
+  {
+    "reserve": "Pavillion",
+    "id": "pavillion",
+    "lat": 50.883894,
+    "lng": -121.822792
+  },
+  {
+    "reserve": "Pays-Plat",
+    "id": "pays-Plat",
+    "lat": 48.8771259,
+    "lng": -87.584039
+  },
+  {
+    "reserve": "Peel River",
+    "id": "peelRiver",
+    "lat": 66.7579931,
+    "lng": -135.5639105
+  },
+  {
+    "reserve": "Peepeekeesis",
+    "id": "peepeekeesis",
+    "lat": 50.8017128,
+    "lng": -103.5448295
+  },
+  {
+    "reserve": "Peguis",
+    "id": "peguis",
+    "lat": 51.31567,
+    "lng": -97.5601434
+  },
+  {
+    "reserve": "Peigan",
+    "id": "peigan",
+    "lat": 49.5412116,
+    "lng": -113.6390657
+  },
+  {
+    "reserve": "Pelly",
+    "id": "pelly",
+    "lat": 51.8558702,
+    "lng": -101.9316317
+  },
+  {
+    "reserve": "Pelly Bay",
+    "id": "pellyBay",
+    "lat": 68.883333,
+    "lng": -90.083333
+  },
+  {
+    "reserve": "Pelly Crossing",
+    "id": "pellyCrossing",
+    "lat": 62.817979,
+    "lng": -136.568795
+  },
+  {
+    "reserve": "Pelly Lakes",
+    "id": "pellyLakes",
+    "lat": 62.056817,
+    "lng": -130.238278
+  },
+  {
+    "reserve": "Pemberton",
+    "id": "pemberton",
+    "lat": 50.322028,
+    "lng": -122.8050498
+  },
+  {
+    "reserve": "Penelakut",
+    "id": "penelakut",
+    "lat": 48.9708618,
+    "lng": -123.6435871
+  },
+  {
+    "reserve": "Penticton",
+    "id": "penticton",
+    "lat": 49.4991381,
+    "lng": -119.5937077
+  },
+  {
+    "reserve": "Perry River",
+    "id": "perryRiver",
+    "lat": 67.6832486,
+    "lng": -102.1656476
+  },
+  {
+    "reserve": "Peter Ballantyne",
+    "id": "peterBallantyne",
+    "lat": 53.1983547,
+    "lng": -105.781302
+  },
+  {
+    "reserve": "Piapot",
+    "id": "piapot",
+    "lat": 49.9895032,
+    "lng": -109.1218464
+  },
+  {
+    "reserve": "Pic Mobert",
+    "id": "picMobert",
+    "lat": 48.6903408,
+    "lng": -85.6414869
+  },
+  {
+    "reserve": "Pic River",
+    "id": "picRiver",
+    "lat": 48.605131,
+    "lng": -86.296068
+  },
+  {
+    "reserve": "PIN Main",
+    "id": "pINMain",
+    "lat": 53.3061661,
+    "lng": -107.0624542
+  },
+  {
+    "reserve": "Pinchi",
+    "id": "pinchi",
+    "lat": 54.566667,
+    "lng": -124.5
+  },
+  {
+    "reserve": "Pine Point",
+    "id": "pinePoint",
+    "lat": 60.833646,
+    "lng": -114.4545
+  },
+  {
+    "reserve": "Pointe Bleue",
+    "id": "pointeBleue",
+    "lat": 48.5766338,
+    "lng": -72.2295941
+  },
+  {
+    "reserve": "Pointe-Bleue Montagnais",
+    "id": "pointe-BleueMontagnais",
+    "lat": 48.5764132,
+    "lng": -72.2293487
+  },
+  {
+    "reserve": "Pond Inlet",
+    "id": "pondInlet",
+    "lat": 72.7001169,
+    "lng": -77.9585316
+  },
+  {
+    "reserve": "Poorman",
+    "id": "poorman",
+    "lat": 49.4767909,
+    "lng": -117.3911571
+  },
+  {
+    "reserve": "Port Alberni",
+    "id": "portAlberni",
+    "lat": 49.2338882,
+    "lng": -124.8055494
+  },
+  {
+    "reserve": "Port Douglas",
+    "id": "portDouglas",
+    "lat": 49.766667,
+    "lng": -122.166667
+  },
+  {
+    "reserve": "Port Essington",
+    "id": "portEssington",
+    "lat": 54.15,
+    "lng": -129.966667
+  },
+  {
+    "reserve": "Port Renfrew",
+    "id": "portRenfrew",
+    "lat": 48.552966,
+    "lng": -124.422299
+  },
+  {
+    "reserve": "Port Simpson",
+    "id": "portSimpson",
+    "lat": 54.554381,
+    "lng": -130.43393
+  },
+  {
+    "reserve": "Portage",
+    "id": "portage",
+    "lat": 49.9723205,
+    "lng": -98.2903251
+  },
+  {
+    "reserve": "Poundmaker",
+    "id": "poundmaker",
+    "lat": 51.8515655,
+    "lng": -104.8610407
+  },
+  {
+    "reserve": "Prince Albert",
+    "id": "princeAlbert",
+    "lat": 53.2033494,
+    "lng": -105.7530705
+  },
+  {
+    "reserve": "Prince Rupert",
+    "id": "princeRupert",
+    "lat": 54.3150367,
+    "lng": -130.3208187
+  },
+  {
+    "reserve": "Providence",
+    "id": "providence",
+    "lat": 43.6653271,
+    "lng": -79.6479369
+  },
+  {
+    "reserve": "Qu' Appelle",
+    "id": "quAppelle",
+    "lat": 50.5426135,
+    "lng": -103.8776698
+  },
+  {
+    "reserve": "Quamichan",
+    "id": "quamichan",
+    "lat": 48.800959,
+    "lng": -123.642015
+  },
+  {
+    "reserve": "Quatsino",
+    "id": "quatsino",
+    "lat": 50.535387,
+    "lng": -127.654504
+  },
+  {
+    "reserve": "Queen Charlotte",
+    "id": "queenCharlotte",
+    "lat": 53.2549952,
+    "lng": -132.0868676
+  },
+  {
+    "reserve": "Quesnel",
+    "id": "quesnel",
+    "lat": 52.9817372,
+    "lng": -122.4949058
+  },
+  {
+    "reserve": "Rama",
+    "id": "rama",
+    "lat": 51.7576679,
+    "lng": -102.998585
+  },
+  {
+    "reserve": "Rankin Inlet",
+    "id": "rankinInlet",
+    "lat": 62.808375,
+    "lng": -92.0852853
+  },
+  {
+    "reserve": "Rat Portage",
+    "id": "ratPortage",
+    "lat": 49.7670416,
+    "lng": -94.4893924
+  },
+  {
+    "reserve": "Ray Rock",
+    "id": "rayRock",
+    "lat": 47.6392229,
+    "lng": -59.2876124
+  },
+  {
+    "reserve": "Read Island",
+    "id": "readIsland",
+    "lat": 50.1868849,
+    "lng": -125.091656
+  },
+  {
+    "reserve": "Red Earth",
+    "id": "redEarth",
+    "lat": 56.546984,
+    "lng": -115.256549
+  },
+  {
+    "reserve": "Redstone",
+    "id": "redstone",
+    "lat": 52.124665,
+    "lng": -123.681047
+  },
+  {
+    "reserve": "Reid Island",
+    "id": "reidIsland",
+    "lat": 49.0017028,
+    "lng": -123.6268719
+  },
+  {
+    "reserve": "Reindeer Camp",
+    "id": "reindeerCamp",
+    "lat": 56.4791857,
+    "lng": -103.0898077
+  },
+  {
+    "reserve": "Reindeer Station",
+    "id": "reindeerStation",
+    "lat": 68.6916959,
+    "lng": -134.13071
+  },
+  {
+    "reserve": "Repulse Bay",
+    "id": "repulseBay",
+    "lat": 66.528295,
+    "lng": -86.244657
+  },
+  {
+    "reserve": "Resolute Bay",
+    "id": "resoluteBay",
+    "lat": 74.697299,
+    "lng": -94.829729
+  },
+  {
+    "reserve": "Rhymer Point",
+    "id": "rhymerPoint",
+    "lat": 42.8663617,
+    "lng": -79.5275163
+  },
+  {
+    "reserve": "Richardson Island",
+    "id": "richardsonIsland",
+    "lat": 68.5685417,
+    "lng": -110.6397562
+  },
+  {
+    "reserve": "Riske Creek",
+    "id": "riskeCreek",
+    "lat": 51.968415,
+    "lng": -122.529743
+  },
+  {
+    "reserve": "River Desert",
+    "id": "riverDesert",
+    "lat": 46.3637416,
+    "lng": -75.990383
+  },
+  {
+    "reserve": "Rocher River",
+    "id": "rocherRiver",
+    "lat": 61.381944,
+    "lng": -112.740278
+  },
+  {
+    "reserve": "Rocky Mountain House",
+    "id": "rockyMountainHouse",
+    "lat": 52.3793432,
+    "lng": -114.9182883
+  },
+  {
+    "reserve": "Ross River",
+    "id": "rossRiver",
+    "lat": 61.9791171,
+    "lng": -132.4484775
+  },
+  {
+    "reserve": "Royal River",
+    "id": "royalRiver",
+    "lat": 49.2021161,
+    "lng": -123.0512815
+  },
+  {
+    "reserve": "Rupert House",
+    "id": "rupertHouse",
+    "lat": 51.3695754,
+    "lng": -78.6965173
+  },
+  {
+    "reserve": "Rymer Point",
+    "id": "rymerPoint",
+    "lat": 42.8663617,
+    "lng": -79.5275163
+  },
+  {
+    "reserve": "Saanich",
+    "id": "saanich",
+    "lat": 48.4592626,
+    "lng": -123.3767223
+  },
+  {
+    "reserve": "Saanichton",
+    "id": "saanichton",
+    "lat": 48.5962689,
+    "lng": -123.4169022
+  },
+  {
+    "reserve": "Saanish",
+    "id": "saanish",
+    "lat": 48.4592626,
+    "lng": -123.3767223
+  },
+  {
+    "reserve": "Sachs Harbour",
+    "id": "sachsHarbour",
+    "lat": 71.985123,
+    "lng": -125.246483
+  },
+  {
+    "reserve": "Saddle Lake",
+    "id": "saddleLake",
+    "lat": 53.9705711,
+    "lng": -111.6898849
+  },
+  {
+    "reserve": "Sakimay",
+    "id": "sakimay",
+    "lat": 50.5378087,
+    "lng": -102.7884834
+  },
+  {
+    "reserve": "Sakimay",
+    "id": "sakimay",
+    "lat": 50.5378087,
+    "lng": -102.7884834
+  },
+  {
+    "reserve": "Salishan",
+    "id": "salishan",
+    "lat": 43.607987,
+    "lng": -79.6576206
+  },
+  {
+    "reserve": "Salmon River",
+    "id": "salmonRiver",
+    "lat": 45.426287,
+    "lng": -63.2156647
+  },
+  {
+    "reserve": "Samson",
+    "id": "samson",
+    "lat": 46.2992364,
+    "lng": -72.2721153
+  },
+  {
+    "reserve": "Samson",
+    "id": "samson",
+    "lat": 46.2992364,
+    "lng": -72.2721153
+  },
+  {
+    "reserve": "Sandy Bay",
+    "id": "sandyBay",
+    "lat": 55.525592,
+    "lng": -102.315742
+  },
+  {
+    "reserve": "Sandy Lake",
+    "id": "sandyLake",
+    "lat": 53.0634269,
+    "lng": -93.3294051
+  },
+  {
+    "reserve": "Sanikiluaq",
+    "id": "sanikiluaq",
+    "lat": 56.5407678,
+    "lng": -79.22321
+  },
+  {
+    "reserve": "Sarcee",
+    "id": "sarcee",
+    "lat": 51.1556321,
+    "lng": -114.1595248
+  },
+  {
+    "reserve": "Sarita",
+    "id": "sarita",
+    "lat": 48.883333,
+    "lng": -125.033333
+  },
+  {
+    "reserve": "Savanne",
+    "id": "savanne",
+    "lat": 48.953573,
+    "lng": -90.246547
+  },
+  {
+    "reserve": "Schefferville",
+    "id": "schefferville",
+    "lat": 54.8245589,
+    "lng": -66.8174795
+  },
+  {
+    "reserve": "Scotty Creek",
+    "id": "scottyCreek",
+    "lat": 49.9285008,
+    "lng": -119.3263514
+  },
+  {
+    "reserve": "Scowlitz",
+    "id": "scowlitz",
+    "lat": 49.235973,
+    "lng": -122.006015
+  },
+  {
+    "reserve": "Seabird Island",
+    "id": "seabirdIsland",
+    "lat": 49.2551356,
+    "lng": -121.7303402
+  },
+  {
+    "reserve": "Sechelt",
+    "id": "sechelt",
+    "lat": 49.4741736,
+    "lng": -123.7545601
+  },
+  {
+    "reserve": "Seine River",
+    "id": "seineRiver",
+    "lat": 48.719284,
+    "lng": -92.425934
+  },
+  {
+    "reserve": "Sekanis",
+    "id": "sekanis",
+    "lat": 53.9145693,
+    "lng": -122.7416826
+  },
+  {
+    "reserve": "Sekanni",
+    "id": "sekanni",
+    "lat": 53.9145693,
+    "lng": -122.7416826
+  },
+  {
+    "reserve": "Selkirk",
+    "id": "selkirk",
+    "lat": 50.1435276,
+    "lng": -96.8754295
+  },
+  {
+    "reserve": "Semiahmoo",
+    "id": "semiahmoo",
+    "lat": 49.0122582,
+    "lng": -122.7686343
+  },
+  {
+    "reserve": "Senneterre",
+    "id": "senneterre",
+    "lat": 48.390597,
+    "lng": -77.2411674
+  },
+  {
+    "reserve": "Seton Lake",
+    "id": "setonLake",
+    "lat": 50.6872193,
+    "lng": -122.1057702
+  },
+  {
+    "reserve": "Seven Islands",
+    "id": "sevenIslands",
+    "lat": 67.384341,
+    "lng": -131.936467
+  },
+  {
+    "reserve": "Shacken",
+    "id": "shacken",
+    "lat": 51.0374184,
+    "lng": -113.9655315
+  },
+  {
+    "reserve": "Shamatwa",
+    "id": "shamatwa",
+    "lat": 55.86172,
+    "lng": -92.098404
+  },
+  {
+    "reserve": "Shaousaht",
+    "id": "shaousaht",
+    "lat": 49.2761659,
+    "lng": -126.0563673
+  },
+  {
+    "reserve": "Shelley/Shelly",
+    "id": "shelley/Shelly",
+    "lat": 43.7551181,
+    "lng": -79.3576522
+  },
+  {
+    "reserve": "Shoal Lake",
+    "id": "shoalLake",
+    "lat": 50.4380866,
+    "lng": -100.5907301
+  },
+  {
+    "reserve": "Shulus",
+    "id": "shulus",
+    "lat": 50.139607,
+    "lng": -120.857
+  },
+  {
+    "reserve": "Shuswap",
+    "id": "shuswap",
+    "lat": 50.7857259,
+    "lng": -119.710952
+  },
+  {
+    "reserve": "Similkameen",
+    "id": "similkameen",
+    "lat": 49.1780382,
+    "lng": -120.1353559
+  },
+  {
+    "reserve": "Siska",
+    "id": "siska",
+    "lat": 50.135835,
+    "lng": -121.5716272
+  },
+  {
+    "reserve": "Skeah",
+    "id": "skeah",
+    "lat": 49.276923,
+    "lng": -123.1199
+  },
+  {
+    "reserve": "Skeena Crossing",
+    "id": "skeenaCrossing",
+    "lat": 55.098611,
+    "lng": -127.811111
+  },
+  {
+    "reserve": "Skeena River",
+    "id": "skeenaRiver",
+    "lat": 55.6118776,
+    "lng": -128.743935
+  },
+  {
+    "reserve": "Skidegate",
+    "id": "skidegate",
+    "lat": 53.2665,
+    "lng": -131.9913154
+  },
+  {
+    "reserve": "Skuppah",
+    "id": "skuppah",
+    "lat": 50.2332661,
+    "lng": -121.5818816
+  },
+  {
+    "reserve": "Skwah",
+    "id": "skwah",
+    "lat": 53.685581,
+    "lng": -103.348
+  },
+  {
+    "reserve": "Slave Lake",
+    "id": "slaveLake",
+    "lat": 55.2866833,
+    "lng": -114.7711184
+  },
+  {
+    "reserve": "Slavey",
+    "id": "slavey",
+    "lat": 55.2866833,
+    "lng": -114.7711184
+  },
+  {
+    "reserve": "Sliammon",
+    "id": "sliammon",
+    "lat": 49.898488,
+    "lng": -124.603327
+  },
+  {
+    "reserve": "Smith Band",
+    "id": "smithBand",
+    "lat": 53.1056258,
+    "lng": -104.8774694
+  },
+  {
+    "reserve": "Snag Point",
+    "id": "snagPoint",
+    "lat": 62.383333,
+    "lng": -140.366667
+  },
+  {
+    "reserve": "Snowdrift",
+    "id": "snowdrift",
+    "lat": 62.41095,
+    "lng": -110.7155
+  },
+  {
+    "reserve": "Soda Creek",
+    "id": "sodaCreek",
+    "lat": 52.35,
+    "lng": -122.283333
+  },
+  {
+    "reserve": "Somenos",
+    "id": "somenos",
+    "lat": 48.81418,
+    "lng": -123.736086
+  },
+  {
+    "reserve": "Songhees",
+    "id": "songhees",
+    "lat": 48.441559,
+    "lng": -123.4286758
+  },
+  {
+    "reserve": "Soowahlia",
+    "id": "soowahlia",
+    "lat": 49.0813968,
+    "lng": -121.9690749
+  },
+  {
+    "reserve": "Southbank",
+    "id": "southbank",
+    "lat": 54.016667,
+    "lng": -125.766667
+  },
+  {
+    "reserve": "Spallumchene",
+    "id": "spallumchene",
+    "lat": 50.4279241,
+    "lng": -119.2469274
+  },
+  {
+    "reserve": "Spedden",
+    "id": "spedden",
+    "lat": 54.136678,
+    "lng": -111.728211
+  },
+  {
+    "reserve": "Spence Bay",
+    "id": "spenceBay",
+    "lat": 69.543823,
+    "lng": -93.523804
+  },
+  {
+    "reserve": "Spences Bridge",
+    "id": "spencesBridge",
+    "lat": 50.414053,
+    "lng": -121.359529
+  },
+  {
+    "reserve": "Split Lake",
+    "id": "splitLake",
+    "lat": 56.245139,
+    "lng": -96.095057
+  },
+  {
+    "reserve": "Splitriver",
+    "id": "splitriver",
+    "lat": 48.8907092,
+    "lng": -94.1165966
+  },
+  {
+    "reserve": "Spuzzum",
+    "id": "spuzzum",
+    "lat": 49.675172,
+    "lng": -121.418656
+  },
+  {
+    "reserve": "Squamish",
+    "id": "squamish",
+    "lat": 49.7016339,
+    "lng": -123.1558121
+  },
+  {
+    "reserve": "Squamish River",
+    "id": "squamishRiver",
+    "lat": 49.9083264,
+    "lng": -123.2704619
+  },
+  {
+    "reserve": "Squanga Lake",
+    "id": "squangaLake",
+    "lat": 60.4455097,
+    "lng": -133.6017269
+  },
+  {
+    "reserve": "St-Augustine",
+    "id": "st-Augustine",
+    "lat": 51.2327688,
+    "lng": -58.6515444
+  },
+  {
+    "reserve": "St. Mary’s",
+    "id": "st.Mary’s",
+    "lat": 43.2595868,
+    "lng": -81.140653
+  },
+  {
+    "reserve": "Standing Buffalo",
+    "id": "standingBuffalo",
+    "lat": 50.7776168,
+    "lng": -103.7892821
+  },
+  {
+    "reserve": "Star Blanket",
+    "id": "starBlanket",
+    "lat": 53.3818399,
+    "lng": -106.934279
+  },
+  {
+    "reserve": "Stella",
+    "id": "stella",
+    "lat": 44.170086,
+    "lng": -76.7010169
+  },
+  {
+    "reserve": "Stellaquo",
+    "id": "stellaquo",
+    "lat": 54.046676,
+    "lng": -124.897698
+  },
+  {
+    "reserve": "Steward River",
+    "id": "stewardRiver",
+    "lat": 54.2029677,
+    "lng": -123.8774203
+  },
+  {
+    "reserve": "Stikine",
+    "id": "stikine",
+    "lat": 56.695618,
+    "lng": -131.807429
+  },
+  {
+    "reserve": "Stone (Stoney)",
+    "id": "stone(Stoney)",
+    "lat": 43.1934304,
+    "lng": -79.8137405
+  },
+  {
+    "reserve": "Stony",
+    "id": "stony",
+    "lat": 53.5279314,
+    "lng": -114.0019279
+  },
+  {
+    "reserve": "Stony Creek",
+    "id": "stonyCreek",
+    "lat": 43.2272182,
+    "lng": -79.7195586
+  },
+  {
+    "reserve": "Stuart Lake",
+    "id": "stuartLake",
+    "lat": 54.5367406,
+    "lng": -124.5073315
+  },
+  {
+    "reserve": "Trembleur",
+    "id": "trembleur",
+    "lat": 54.8567773,
+    "lng": -125.0982735
+  },
+  {
+    "reserve": "Sturgeon Lake",
+    "id": "sturgeonLake",
+    "lat": 55.070919,
+    "lng": -117.499001
+  },
+  {
+    "reserve": "Styne",
+    "id": "styne",
+    "lat": 53.4375435,
+    "lng": -113.5836365
+  },
+  {
+    "reserve": "Sumas",
+    "id": "sumas",
+    "lat": 49.0001217,
+    "lng": -122.2648752
+  },
+  {
+    "reserve": "Sunchild",
+    "id": "sunchild",
+    "lat": 52.6790643,
+    "lng": -115.3318777
+  },
+  {
+    "reserve": "Sweet Grass",
+    "id": "sweetGrass",
+    "lat": 53.4630134,
+    "lng": -113.5275872
+  },
+  {
+    "reserve": "Tachi",
+    "id": "tachi",
+    "lat": 43.2921556,
+    "lng": -78.7017197
+  },
+  {
+    "reserve": "Tahltan",
+    "id": "tahltan",
+    "lat": 58.003239,
+    "lng": -130.997305
+  },
+  {
+    "reserve": "Takla Lake",
+    "id": "taklaLake",
+    "lat": 55.3955275,
+    "lng": -125.8556613
+  },
+  {
+    "reserve": "Takla Landing",
+    "id": "taklaLanding",
+    "lat": 55.483333,
+    "lng": -125.966667
+  },
+  {
+    "reserve": "Tall Cree",
+    "id": "tallCree",
+    "lat": 58.3873325,
+    "lng": -116.0197006
+  },
+  {
+    "reserve": "Telegraph Creek",
+    "id": "telegraphCreek",
+    "lat": 57.90293,
+    "lng": -131.159156
+  },
+  {
+    "reserve": "Telkwa",
+    "id": "telkwa",
+    "lat": 54.695016,
+    "lng": -127.04761
+  },
+  {
+    "reserve": "Temiscamingue",
+    "id": "temiscamingue",
+    "lat": 47.2075221,
+    "lng": -78.7246393
+  },
+  {
+    "reserve": "Termission",
+    "id": "termission",
+    "lat": 43.6862318,
+    "lng": -79.77155
+  },
+  {
+    "reserve": "Terrace",
+    "id": "terrace",
+    "lat": 54.5181925,
+    "lng": -128.603154
+  },
+  {
+    "reserve": "Teslin",
+    "id": "teslin",
+    "lat": 60.1686052,
+    "lng": -132.7203711
+  },
+  {
+    "reserve": "Teslin Lake",
+    "id": "teslinLake",
+    "lat": 59.9132729,
+    "lng": -132.3492168
+  },
+  {
+    "reserve": "Thom Bay",
+    "id": "thomBay",
+    "lat": 70.15,
+    "lng": -92.4
+  },
+  {
+    "reserve": "Thunderchild",
+    "id": "thunderchild",
+    "lat": 53.475489,
+    "lng": -108.929831
+  },
+  {
+    "reserve": "Tobacco Plains",
+    "id": "tobaccoPlains",
+    "lat": 49.0003384,
+    "lng": -115.0560545
+  },
+  {
+    "reserve": "Toosey",
+    "id": "toosey",
+    "lat": 51.9330418,
+    "lng": -122.5068169
+  },
+  {
+    "reserve": "Toquaht",
+    "id": "toquaht",
+    "lat": 48.9447114,
+    "lng": -125.5565389
+  },
+  {
+    "reserve": "Trembleur Lake",
+    "id": "trembleurLake",
+    "lat": 54.8567773,
+    "lng": -125.0982735
+  },
+  {
+    "reserve": "Trembly Lake",
+    "id": "tremblyLake",
+    "lat": 43.8594156,
+    "lng": -78.8534706
+  },
+  {
+    "reserve": "Trout Rock",
+    "id": "troutRock",
+    "lat": 62.466288,
+    "lng": -114.976108
+  },
+  {
+    "reserve": "Tsartlip",
+    "id": "tsartlip",
+    "lat": 48.5807325,
+    "lng": -123.4661
+  },
+  {
+    "reserve": "Tsawassen",
+    "id": "tsawassen",
+    "lat": 49.018038,
+    "lng": -123.0818253
+  },
+  {
+    "reserve": "Tsawout",
+    "id": "tsawout",
+    "lat": 48.5919901,
+    "lng": -123.391303
+  },
+  {
+    "reserve": "Tsimpsean",
+    "id": "tsimpsean",
+    "lat": 54.3666667,
+    "lng": -130.25
+  },
+  {
+    "reserve": "Tsitsk",
+    "id": "tsitsk",
+    "lat": 55.2607273,
+    "lng": -127.609673
+  },
+  {
+    "reserve": "Tuakjuak",
+    "id": "tuakjuak",
+    "lat": 58.455121,
+    "lng": -78.105103
+  },
+  {
+    "reserve": "Tuktoyaktuk",
+    "id": "tuktoyaktuk",
+    "lat": 69.445358,
+    "lng": -133.034181
+  },
+  {
+    "reserve": "Tumour Island",
+    "id": "tumourIsland",
+    "lat": 48.431809,
+    "lng": -123.329987
+  },
+  {
+    "reserve": "Turner Island",
+    "id": "turnerIsland",
+    "lat": 57.3882763,
+    "lng": -106.634822
+  },
+  {
+    "reserve": "Tzeachton",
+    "id": "tzeachton",
+    "lat": 49.1114424,
+    "lng": -121.9544051
+  },
+  {
+    "reserve": "Uchucklasaht",
+    "id": "uchucklasaht",
+    "lat": 49.2347154,
+    "lng": -124.8114195
+  },
+  {
+    "reserve": "Ucluelet",
+    "id": "ucluelet",
+    "lat": 48.9415997,
+    "lng": -125.5463445
+  },
+  {
+    "reserve": "Ulkatcho",
+    "id": "ulkatcho",
+    "lat": 53,
+    "lng": -125.7
+  },
+  {
+    "reserve": "Uncha Lake",
+    "id": "unchaLake",
+    "lat": 53.9175678,
+    "lng": -125.6094332
+  },
+  {
+    "reserve": "Union Bar",
+    "id": "unionBar",
+    "lat": 49.3452281,
+    "lng": -123.1719304
+  },
+  {
+    "reserve": "Upper Laberge",
+    "id": "upperLaberge",
+    "lat": 60.948275,
+    "lng": -135.093975
+  },
+  {
+    "reserve": "Upper Liard",
+    "id": "upperLiard",
+    "lat": 60.049913,
+    "lng": -128.900668
+  },
+  {
+    "reserve": "Upper Nicola",
+    "id": "upperNicola",
+    "lat": 50.163604,
+    "lng": -120.670557
+  },
+  {
+    "reserve": "Vernon",
+    "id": "vernon",
+    "lat": 50.2670137,
+    "lng": -119.2720107
+  },
+  {
+    "reserve": "Victoria Island",
+    "id": "victoriaIsland",
+    "lat": 70.9192002,
+    "lng": -109.957401
+  },
+  {
+    "reserve": "Wabamun Reserve",
+    "id": "wabamunReserve",
+    "lat": 53.5101572,
+    "lng": -114.40556
+  },
+  {
+    "reserve": "Wabasca",
+    "id": "wabasca",
+    "lat": 56.0144698,
+    "lng": -113.8215527
+  },
+  {
+    "reserve": "Waswanipi",
+    "id": "waswanipi",
+    "lat": 49.6975432,
+    "lng": -75.9607362
+  },
+  {
+    "reserve": "Watson Lake",
+    "id": "watsonLake",
+    "lat": 60.062806,
+    "lng": -128.710913
+  },
+  {
+    "reserve": "Weiweikum",
+    "id": "weiweikum",
+    "lat": 50.035743,
+    "lng": -125.246254
+  },
+  {
+    "reserve": "Wesley",
+    "id": "wesley",
+    "lat": 44.011108,
+    "lng": -80.411845
+  },
+  {
+    "reserve": "Westbank",
+    "id": "westbank",
+    "lat": 49.8313652,
+    "lng": -119.6281931
+  },
+  {
+    "reserve": "Weymontachie (Sanmaur)",
+    "id": "weymontachie(Sanmaur)",
+    "lat": 47.895833,
+    "lng": -73.794444
+  },
+  {
+    "reserve": "White Bear",
+    "id": "whiteBear",
+    "lat": 50.8759299,
+    "lng": -108.22119
+  },
+  {
+    "reserve": "White River",
+    "id": "whiteRiver",
+    "lat": 48.593953,
+    "lng": -85.274809
+  },
+  {
+    "reserve": "Whitecap Sioux",
+    "id": "whitecapSioux",
+    "lat": 51.8863087,
+    "lng": -106.7157716
+  },
+  {
+    "reserve": "Whitefish Bay",
+    "id": "whitefishBay",
+    "lat": 49.410833,
+    "lng": -94.0958329
+  },
+  {
+    "reserve": "Whitefish Lake",
+    "id": "whitefishLake",
+    "lat": 44.9065946,
+    "lng": -77.4060309
+  },
+  {
+    "reserve": "Whitehorse",
+    "id": "whitehorse",
+    "lat": 60.7211871,
+    "lng": -135.0568449
+  },
+  {
+    "reserve": "Williams Lake",
+    "id": "williamsLake",
+    "lat": 52.1416736,
+    "lng": -122.1416885
+  },
+  {
+    "reserve": "Wilmot Islands",
+    "id": "wilmotIslands",
+    "lat": 45.331552,
+    "lng": -60.983442
+  },
+  {
+    "reserve": "Winterburn",
+    "id": "winterburn",
+    "lat": 53.5418374,
+    "lng": -113.6885466
+  },
+  {
+    "reserve": "Wistaria",
+    "id": "wistaria",
+    "lat": 53.85,
+    "lng": -126.266667
+  },
+  {
+    "reserve": "Wolf Lake",
+    "id": "wolfLake",
+    "lat": 60.6416552,
+    "lng": -131.6667995
+  },
+  {
+    "reserve": "Yellow Quilt",
+    "id": "yellowQuilt",
+    "lat": 44.0558065,
+    "lng": -79.4848827
+  },
+  {
+    "reserve": "Yellowknife",
+    "id": "yellowknife",
+    "lat": 62.4539717,
+    "lng": -114.3717886
+  },
+  {
+    "reserve": "York Factory",
+    "id": "yorkFactory",
+    "lat": 57.004871,
+    "lng": -92.310666
+  },
+  {
+    "reserve": "Young Point",
+    "id": "youngPoint",
+    "lat": 44.490345,
+    "lng": -78.236007
+  },
+  {
+    "reserve": "Yukon",
+    "id": "yukon",
+    "lat": 64.2823274,
+    "lng": -135
+  },
+  {
+    "reserve": "Zoht",
+    "id": "zoht",
+    "lat": 50.2282981,
+    "lng": -120.618013
+  }
+]
