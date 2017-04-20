@@ -140,17 +140,24 @@ svgLayer.addTo(map);
 var mapsvg = d3.select("#map1").select("svg"),
     g = mapsvg.append("g");
 
-d3.json("js/data/school_locations.json", function(collection) {
+d3.json("js/data/locations.json", function(collection) {
+    console.log(collection.schools);
     collection.schools.forEach(function(d) {
         d.LatLng = new L.LatLng(d.latitude,
             d.longitude);
-        d.label = d.type;
+    });
+    collection.reservations.forEach(function(d) {
+        d.LatLng = new L.LatLng(d.lat,
+            d.lng);
     });
 
     var feature = g.selectAll("circle")
         .data(collection.schools)
         .enter().append("circle")
-        .attr("class", "schoolMarker")
+        .attr("class", "dot schoolMarker")
+        .attr("id", function(d) {
+            return "dot-" + d.schoolID;
+        })
         .style("stroke", "none")
         .style("opacity", 1.0)
         .style("fill", orange)
@@ -158,12 +165,27 @@ d3.json("js/data/school_locations.json", function(collection) {
     var labelName = g.selectAll("text")
         .data(collection.schools)
         .enter().append("text")
-        .attr("class", "schoolLabel")
+        .attr("class", "label schoolLabel")
+        .attr("id", function(d) {
+            return "label-" + d.schoolID;
+        })
         .attr("dy", "6px")
         .attr("dx", "10px")
         .text(function(d) {
             return d.locationName + " " + d.title;
         });
+
+    var featureR = g.selectAll(".rDot")
+        .data(collection.reservations)
+        .enter().append("circle", ".rDot")
+        .attr("class", "reserveDot")
+        // .attr("id", function(d) {
+        //     return "dot-" + d.schoolID;
+        // })
+        .style("stroke", "none")
+        .style("opacity", 0)
+        .style("fill", "#333")
+        .attr("r", 15);
 
     map.on("viewreset", update);
     update();
@@ -183,8 +205,130 @@ d3.json("js/data/school_locations.json", function(collection) {
                     map.latLngToLayerPoint(d.LatLng).y + ")";
             }
         );
+        featureR.attr("transform",
+            function(d) {
+                return "translate(" +
+                    map.latLngToLayerPoint(d.LatLng).x + "," +
+                    map.latLngToLayerPoint(d.LatLng).y + ")";
+            }
+        );
     }
 });
+
+// d3.json("js/data/reserves.json", function(collectionR) {
+//     collectionR.forEach(function(d) {
+//         d.LatLng = new L.LatLng(d.lat,
+//             d.lng);
+//     });
+//
+//     var featureR = g.selectAll(".rDot")
+//         .data(collectionR)
+//         .enter().append("circle", ".rDot")
+//         .attr("class", "reserveDot")
+//         // .attr("id", function(d) {
+//         //     return "dot-" + d.schoolID;
+//         // })
+//         .style("stroke", "none")
+//         .style("opacity", 0)
+//         .style("fill", "#333")
+//         .attr("r", 15);
+//
+//     map.on("viewreset", updateR);
+//     updateR();
+//
+//     function updateR() {
+//         featureR.attr("transform",
+//             function(d) {
+//                 return "translate(" +
+//                     map.latLngToLayerPoint(d.LatLng).x + "," +
+//                     map.latLngToLayerPoint(d.LatLng).y + ")";
+//             }
+//         );
+//     }
+// });
+
+// d3.json("js/data/connections.json", function(collection) {
+//
+//     // var featuresdata = collection.filter(function(d) {
+//     //         return d.properties.id == "route1"
+//     //     })
+//
+//     // var toLine = d3.svg.line()
+//     //     .interpolate("linear")
+//     //     .x(function(d) {
+//     //         return applyLatLngToLayer(d).x
+//     //     })
+//     //     .y(function(d) {
+//     //         return applyLatLngToLayer(d).y
+//     //     });
+//     //
+//     // function applyLatLngToLayer(d) {
+//     //     var y = d.geometry.coordinates[1]
+//     //     var x = d.geometry.coordinates[0]
+//     //     return map.latLngToLayerPoint(new L.LatLng(y, x))
+//     // }
+//
+//
+//
+//
+//
+//
+//
+//     collection.forEach(function(d) {
+//         d.sLatLng = new L.LatLng(d.sLat,
+//             d.sLng);
+//         d.eLatLng = new L.LatLng(d.eLat,
+//             d.eLng);
+//     });
+//
+//
+//
+//     var connectionFeature = g.selectAll("line")
+//         .data(collection)
+//         .enter().append("line")
+//         .attr("x1", function(d) {
+//             return d.sLat;
+//         })
+//         .attr("y1", function(d) {
+//             return d.sLng;
+//         })
+//         .attr("x2", function(d) {
+//             return d.eLat;
+//         })
+//         .attr("y2", function(d) {
+//             return d.eLng;
+//         })
+//         // .attr("class", "dot schoolMarker")
+//         .style("stroke", "black")
+//         .style("opacity", 1.0)
+//     // .style("fill", "blue")
+//     // .attr("r", 5);
+//     // var labelName = g.selectAll("text")
+//     //     .data(collection.schools)
+//     //     .enter().append("text")
+//     //     .attr("class", "label schoolLabel")
+//     //     .attr("id", function(d) {
+//     //         return "label-" + d.schoolID;
+//     //     })
+//     //     .attr("dy", "6px")
+//     //     .attr("dx", "10px")
+//     //     .text(function(d) {
+//     //         return d.locationName + " " + d.title;
+//     //     });
+//     //
+//     map.on("viewreset", update);
+//     update();
+//
+//     function update() {
+//         connectionFeature.attr("transform",
+//             function(d) {
+//                 return "translate(" +
+//                     map.latLngToLayerPoint(d.sLatLng).x + "," +
+//                     map.latLngToLayerPoint(d.sLatLng).y + ")";
+//             }
+//         );
+//     }
+// });
 
 // draw story options
 function drawStoryOptions() {
@@ -366,8 +510,13 @@ function drawStory(storyID) {
 function pageSix(name) {
     // d3.select("#map1").remove();
 
-    d3.select(".p6header").remove();
-    var p6header = d3.select("#p6header").append("h1").attr("class", "p6header").html(storySelected + " one of an estimated <span class='orange'>150,000</span> Aboriginal children to attend a residential school in Canada.");
+    d3.selectAll(".overlay").remove();
+    d3.selectAll(".dot").classed("schoolMarker", true).style("opacity", 1);
+    d3.selectAll(".label").classed("schoolLabel", true).style("opacity", 1);
+
+    var oneofText = d3.select("#oneof").append("div").attr("class", "overlay").html(storySelected + " one of an estimated <span class='orange'>150,000</span> Aboriginal children to attend a residential school in Canada.");
+
+    var thismanytext = d3.select("#thismany").append("div").attr("class", "overlay").html("There were <span class='orange'>132</span> schools located throughout the country.");
 
     var controller = new ScrollMagic.Controller();
     TweenLite.defaultOverwrite = false;
@@ -378,29 +527,108 @@ function pageSix(name) {
         });
         data = data[0];
 
+
         // set map 1 view
         map.setView([data.latLng.lat, data.latLng.lng], data.zoom, {
             "animate": false
         });
+        console.log(data.schoolID);
+        d3.select("#dot-" + data.schoolID).classed("schoolMarker", false);
+        d3.select("#label-" + data.schoolID).classed("schoolLabel", false);
 
         // zoom out
         var map1_zo_s = new ScrollMagic.Scene({
                 triggerElement: '#tMap1_zo'
             })
-            .on("enter", function(event) {
+            .addTo(controller);
+
+        map1_zo_s.on("progress", function(event) {
+            var dir = event.scrollDirection;
+            if (dir === "FORWARD") {
                 d3.selectAll(".schoolLabel").style("opacity", "0");
                 d3.selectAll(".schoolMarker").style("opacity", "0");
                 map.setView([57, -100], 4.5, {
                     "animate": true
                 });
-            })
-            .addTo(controller);
-        var map1_draw_s = new ScrollMagic.Scene({
+            } else {
+                // d3.select("#dot-" + data.schoolID).style("opacity", 1);
+                // d3.select("#label-" + data.schoolID).style("opacity", 1);
+                map.setView([data.latLng.lat, data.latLng.lng], data.zoom, {
+                    "animate": true
+                });
+            };
+        });
+
+        // show school markers
+        var map1_irs_s = new ScrollMagic.Scene({
                 triggerElement: '#tMap1_irs'
             })
-            .on("enter", function(event) {
+            .addTo(controller);
+
+        map1_irs_s.on("progress", function(event) {
+            var dir = event.scrollDirection;
+            if (dir === "FORWARD") {
                 d3.selectAll(".schoolMarker").transition().duration(600).ease(d3.easeLinear).style("opacity", 1);
+                d3.select("#label-" + data.schoolID).transition().duration(600).ease(d3.easeLinear).style("opacity", 0);
+            } else {
+                d3.selectAll(".schoolMarker").transition().duration(600).ease(d3.easeLinear).style("opacity", 0);
+                d3.select("#label-" + data.schoolID).transition().duration(600).ease(d3.easeLinear).style("opacity", 1);
+            };
+        })
+
+        // show reserves
+        var map1_reserves_s = new ScrollMagic.Scene({
+                triggerElement: '#tMap1_reserves'
             })
             .addTo(controller);
+
+        map1_reserves_s.on("progress", function(event) {
+            var dir = event.scrollDirection;
+            if (dir === "FORWARD") {
+                d3.selectAll(".reserveDot").transition().duration(600).ease(d3.easeLinear).style("opacity", 0.1);
+            } else {
+                d3.selectAll(".reserveDot").transition().duration(600).ease(d3.easeLinear).style("opacity", 0);
+            };
+        })
+
+        var oneof_p_s = new ScrollMagic.Scene({
+                triggerElement: "#oneof",
+                duration: "100%"
+            })
+            .offset(document.getElementById('oneof').offsetHeight / 2 + "px")
+            .setPin("#oneof")
+            .addTo(controller);
+        var oneof_fo_t = TweenMax.to("#oneof", .5, {
+            opacity: "0"
+        });
+        var oneof_fo_s = new ScrollMagic.Scene({
+                triggerElement: "#thismany",
+            })
+            .triggerHook("onEnter")
+            .setTween(oneof_fo_t)
+            .addTo(controller);
+
+        var thismany_p_s = new ScrollMagic.Scene({
+                triggerElement: "#thismany",
+                duration: "100%"
+            })
+            .offset(document.getElementById('thismany').offsetHeight / 2 + "px")
+            .setPin("#thismany")
+            .addTo(controller);
+        var thismany_fo_t = TweenMax.to("#thismany", .5, {
+            opacity: "0"
+        });
+        var oneof_fo_s = new ScrollMagic.Scene({
+                triggerElement: "#tMap1_reserves",
+            })
+            .setTween(thismany_fo_t)
+            .addTo(controller);
     });
+
+}
+
+function camelize(str) {
+    return str.replace(/[.,\'\/#!$%\^&\*;:{}=\-_`~()]/g, "").replace(/(?:^\w|[A-Z]|\b\w)/g, function(letter, index) {
+        return index == 0 ? letter.toLowerCase() : letter.toUpperCase();
+    }).replace(/\s+/g, '');
 }
