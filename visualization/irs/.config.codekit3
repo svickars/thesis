@@ -1040,6 +1040,14 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/js\/data\/connections.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/data\/connections-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/js\/data\/IRSloc.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -1048,10 +1056,18 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/js\/data\/school_locations.json": {
+	"\/js\/data\/locations.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/school_locations-min.json",
+		"oAP": "\/js\/data\/locations-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/data\/reserves.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/data\/reserves-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1

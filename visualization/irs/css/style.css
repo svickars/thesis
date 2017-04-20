@@ -356,6 +356,9 @@ p {
   background-color: black;
   color: white; }
 
+.dark p {
+  color: white; }
+
 .centered {
   width: calc(100% - 40px);
   float: left;
@@ -419,10 +422,10 @@ p {
       margin-left: calc(16.6666666667% - 17.5px + 30px); } }
   @media only screen and (min-width: 1025px) {
     .centered-small {
-      width: calc(33.3333333333% - 20px);
+      width: calc(50% - 22.5px);
       float: left;
       margin-left: 15px;
-      margin-left: calc(33.3333333333% - 20px + 30px); } }
+      margin-left: calc(25% - 18.75px + 30px); } }
 
 .orange {
   color: #f15a24; }
@@ -523,12 +526,28 @@ p {
 .story-quote {
   font-family: "Libre Baskerville", Georgia, serif; }
 
-#p6 h1, #p7 h1 {
-  text-align: center; }
-
-#p8 {
+#p6 {
   padding: 0;
   position: relative; }
+
+.over {
+  position: absolute;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.overlay {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); }
+
+#oneof {
+  top: 20%;
+  left: 50%; }
+
+#thismany {
+  top: 40%;
+  left: 50%; }
 
 .trigger {
   color: black;
@@ -540,20 +559,24 @@ p {
   left: 0; }
 
 #tMap1_zo {
-  top: 50%;
+  top: 30%;
   left: 0; }
 
 #tMap1_irs {
-  top: 75%;
+  top: 40%;
+  left: 0; }
+
+#tMap1_reserves {
+  top: 60%;
   left: 0; }
 
 #map1_cont {
   z-index: -99; }
 
-.schoolLabel {
+.label {
   font-size: 1.5em;
   font-family: "Rubik", Trebuchet, sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   fill: #333;
   stroke-location: outside; }
 

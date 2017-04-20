@@ -262,6 +262,10 @@ p {
   color: white;
 }
 
+.dark p {
+  color: white;
+}
+
 .centered {
   @include grid-column(12);
   @include grid-media($tablet-neat-grid){
@@ -312,8 +316,8 @@ p {
     @include grid-push(2);
   }
   @include grid-media($tablet-neat-grid){
-    @include grid-column(4);
-    @include grid-push(4);
+    @include grid-column(6);
+    @include grid-push(3);
   }
 }
 
@@ -442,13 +446,39 @@ font-family: $serif;
   font-family: $serif;
 }
 
-#p6 h1, #p7 h1 {
-  text-align: center;
-}
+// #p6 h1, #p7 h1 {
+//   text-align: center;
+// }
 
-#p8 {
+#p6 {
   padding: 0;
   position: relative;
+}
+
+.over {
+  position: absolute;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  // width: 100%;
+  // display: flex;
+  // align-items: center;
+}
+
+.overlay {
+  padding: 20px;
+  background-color: rgba(255,255,255,.9);
+}
+
+#oneof {
+  top: 20%;
+  left: 50%;
+}
+
+#thismany {
+  top:40%;
+  left: 50%;
 }
 
 // triggers
@@ -462,23 +492,29 @@ font-family: $serif;
   left: 0;
 }
 #tMap1_zo {
-  top: 50%;
+  top: 30%;
   left: 0;
 }
 #tMap1_irs {
-  top: 75%;
+  top: 40%;
   left: 0;
 }
+#tMap1_reserves {
+  top: 60%;
+  left: 0;
+}
+
+
 
 // map components
 #map1_cont {
   z-index: -99;
 }
 
-.schoolLabel {
+.label {
   font-size: 1.5em;
   font-family: $sansserif;
-  font-weight: 700;
+  font-weight: 400;
   fill: $dark-gray;
   // stroke: white;
   // stroke-width: .1px;
