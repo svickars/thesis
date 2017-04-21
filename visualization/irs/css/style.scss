@@ -481,6 +481,11 @@ font-family: $serif;
   left: 50%;
 }
 
+#fromreserves {
+  top: 60%;
+  left: 50%;
+}
+
 // triggers
 .trigger {
   color: black;
@@ -503,12 +508,16 @@ font-family: $serif;
   top: 60%;
   left: 0;
 }
+#tMap1_connections {
+  top: 80%;
+  left: 0;
+}
 
 
 
 // map components
 #map1_cont {
-  z-index: -99;
+  z-index: 0;
 }
 
 .label {
@@ -519,6 +528,12 @@ font-family: $serif;
   // stroke: white;
   // stroke-width: .1px;
   stroke-location: outside;
+}
+
+.map1Tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 // parts of speech

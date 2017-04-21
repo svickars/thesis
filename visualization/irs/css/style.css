@@ -549,6 +549,10 @@ p {
   top: 40%;
   left: 50%; }
 
+#fromreserves {
+  top: 60%;
+  left: 50%; }
+
 .trigger {
   color: black;
   z-index: 99;
@@ -570,8 +574,12 @@ p {
   top: 60%;
   left: 0; }
 
+#tMap1_connections {
+  top: 80%;
+  left: 0; }
+
 #map1_cont {
-  z-index: -99; }
+  z-index: 0; }
 
 .label {
   font-size: 1.5em;
@@ -579,6 +587,11 @@ p {
   font-weight: 400;
   fill: #333;
   stroke-location: outside; }
+
+.map1Tooltip {
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 .pos-prp {
   color: #f15a24; }
