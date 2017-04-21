@@ -285,7 +285,7 @@
       "picture": "",
       "pull": "I was always hungry. And we stole food.",
       "school": "Anglican Schools in Manitoba and Saskatchewan",
-      "schoolID": "",
+      "schoolID": "blueQuills",
       "location": "",
       "years": "",
       "age": "",
@@ -436,7 +436,7 @@
       "age": "",
       "latLng": {
         "lat": 50.75785,
-        "lng": -92.01173055555556
+        "lng": -103.71157222222223
       },
       "zoom": 10,
       "bio": "Noel Starblanket attended Lebret Residential School at Fort Qu'Appelle, Saskatchewan. The school was open from 1884 until 1998 and was operated by the Catholic church. Noel gave a statement to the Truth and Reconciliation Commission on 16 January 2012 in Regina, Saskatchewan.",
@@ -500,7 +500,7 @@
       "picture": "",
       "pull": "“Well, I’m going to residential school,” ’cause I didn’t want my dad to go to jail.",
       "school": "",
-      "schoolID": "",
+      "schoolID": "princeAlbert",
       "location": "",
       "years": "",
       "age": "",
@@ -535,7 +535,7 @@
       "picture": "dantoine.png",
       "pull": "Why is that happening? What did I do to deserve to be treated like this?",
       "school": "Roman Catholic School in BC",
-      "schoolID": "",
+      "schoolID": "stMichaels",
       "location": "",
       "years": "",
       "age": "",
