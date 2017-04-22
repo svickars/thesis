@@ -1,79 +1,4697 @@
-{
-  "searchTerms": [
-    {
-      "name": "Bob Baxter",
-      "type": "story",
-      "id": "bbaxter"
-    },
-    {
-      "name": "Albert Elias",
-      "type": "story",
-      "id": "aelias"
-    },
-    {
-      "name": "Lynda Pahpasay McDonald",
-      "type": "story",
-      "id": "lpmcdonald"
-    },
-    {
-      "name": "Mabel Brown",
-      "type": "story",
-      "id": "mbrown"
-    },
-    {
-      "name": "Emily Kematch",
-      "type": "story",
-      "id": "ekematch"
-    },
-    {
-      "name": "Anthony Henry",
-      "type": "story",
-      "id": "ahenry"
-    },
-    {
-      "name": "Albert Fiddler",
-      "type": "story",
-      "id": "afiddler"
-    },
-    {
-      "name": "Doris Young",
-      "type": "story",
-      "id": "dyoung"
-    },
-    {
-      "name": "Delores Adolph",
-      "type": "story",
-      "id": "dadolph"
-    },
-    {
-      "name": "Martha Loon",
-      "type": "story",
-      "id": "mloon"
-    },
-    {
-      "name": "Richard Hall",
-      "type": "story",
-      "id": "rhall"
-    },
-    {
-      "name": "Noel Starblanket",
-      "type": "story",
-      "id": "nstarblanket"
-    },
-    {
-      "name": "Patrick James Hall ",
-      "type": "story",
-      "id": "pjhall"
-    },
-    {
-      "name": "Isaac Daniels",
-      "type": "story",
-      "id": "idaniels"
-    },
-    {
-      "name": "Donna Antoine",
-      "type": "story",
-      "id": "dantoine"
-    }
-  ]
-}
+[
+  {
+    "name": "Bob Baxter",
+    "type": "story",
+    "id": "bbaxter"
+  },
+  {
+    "name": "Albert Elias",
+    "type": "story",
+    "id": "aelias"
+  },
+  {
+    "name": "Lynda Pahpasay McDonald",
+    "type": "story",
+    "id": "lpmcdonald"
+  },
+  {
+    "name": "Mabel Brown",
+    "type": "story",
+    "id": "mbrown"
+  },
+  {
+    "name": "Emily Kematch",
+    "type": "story",
+    "id": "ekematch"
+  },
+  {
+    "name": "Anthony Henry",
+    "type": "story",
+    "id": "ahenry"
+  },
+  {
+    "name": "Albert Fiddler",
+    "type": "story",
+    "id": "afiddler"
+  },
+  {
+    "name": "Doris Young",
+    "type": "story",
+    "id": "dyoung"
+  },
+  {
+    "name": "Delores Adolph",
+    "type": "story",
+    "id": "dadolph"
+  },
+  {
+    "name": "Martha Loon",
+    "type": "story",
+    "id": "mloon"
+  },
+  {
+    "name": "Richard Hall",
+    "type": "story",
+    "id": "rhall"
+  },
+  {
+    "name": "Noel Starblanket",
+    "type": "story",
+    "id": "nstarblanket"
+  },
+  {
+    "name": "Patrick James Hall",
+    "type": "story",
+    "id": "pjhall"
+  },
+  {
+    "name": "Isaac Daniels",
+    "type": "story",
+    "id": "idaniels"
+  },
+  {
+    "name": "Donna Antoine",
+    "type": "story",
+    "id": "dantoine"
+  },
+  {
+    "name": "Ahousaht",
+    "type": "school",
+    "id": "ahousaht"
+  },
+  {
+    "name": "Akaitcho Hall (Yellowknife Federal Hostel)",
+    "type": "school",
+    "id": "akaitcho"
+  },
+  {
+    "name": "Alberni",
+    "type": "school",
+    "id": "alberni"
+  },
+  {
+    "name": "All Saints (Aklavik Anglican)",
+    "type": "school",
+    "id": "aklavik"
+  },
+  {
+    "name": "Amos (Saint-Marc-de-Figuery)",
+    "type": "school",
+    "id": "amos"
+  },
+  {
+    "name": "Anahim Lake Dormitory (Ulkatcho)",
+    "type": "school",
+    "id": "anahimLake"
+  },
+  {
+    "name": "Assiniboia (Winnipeg)",
+    "type": "school",
+    "id": "assiniboia"
+  },
+  {
+    "name": "Assumption (Hay Lakes)",
+    "type": "school",
+    "id": "assumption"
+  },
+  {
+    "name": "Battleford",
+    "type": "school",
+    "id": "battleford"
+  },
+  {
+    "name": "Beauval (Ile a la Crosse)",
+    "type": "school",
+    "id": "beauval"
+  },
+  {
+    "name": "Birtle",
+    "type": "school",
+    "id": "birtle"
+  },
+  {
+    "name": "Bishop Horden Hall (Moose Factory)",
+    "type": "school",
+    "id": "bishopHordenHall"
+  },
+  {
+    "name": "Blue Quills (Sacred Heart)",
+    "type": "school",
+    "id": "blueQuills"
+  },
+  {
+    "name": "Bompas Hall (Koe Go Cho)",
+    "type": "school",
+    "id": "bompasHall"
+  },
+  {
+    "name": "Brandon",
+    "type": "school",
+    "id": "brandon"
+  },
+  {
+    "name": "Breynat Hall (Fort Smith Hostel)",
+    "type": "school",
+    "id": "breynatHal"
+  },
+  {
+    "name": "Carcross (Chooutla)",
+    "type": "school",
+    "id": "carcross"
+  },
+  {
+    "name": "Cariboo (Williams Lake)",
+    "type": "school",
+    "id": "cariboo"
+  },
+  {
+    "name": "Cecilia Jeffrey (Shoal Lake)",
+    "type": "school",
+    "id": "ceciliaJeffrey"
+  },
+  {
+    "name": "Chapleau (St. John's)",
+    "type": "school",
+    "id": "chapleau"
+  },
+  {
+    "name": "Chesterfield Inlet (Turquetil Hall)",
+    "type": "school",
+    "id": "chesterfieldInlet"
+  },
+  {
+    "name": "Christie (Tofino)",
+    "type": "school",
+    "id": "christie"
+  },
+  {
+    "name": "Churchill",
+    "type": "school",
+    "id": "churchill"
+  },
+  {
+    "name": "Coqualeetza (Chilliwack Home)",
+    "type": "school",
+    "id": "coqualeetza"
+  },
+  {
+    "name": "Cote Improved Federal Day School (School #604)",
+    "type": "school",
+    "id": "coteImprovedFederal"
+  },
+  {
+    "name": "Coudert Hall (Whitehorse Hostel)",
+    "type": "school",
+    "id": "coudertHall"
+  },
+  {
+    "name": "Cranbrook (St. Eugene's)",
+    "type": "school",
+    "id": "cranbrook"
+  },
+  {
+    "name": "Cristal Lake High School",
+    "type": "school",
+    "id": "cristalLake"
+  },
+  {
+    "name": "Cross Lake",
+    "type": "school",
+    "id": "crossLake"
+  },
+  {
+    "name": "Crowfoot (St. Joseph's)",
+    "type": "school",
+    "id": "crowfoot"
+  },
+  {
+    "name": "Crowstand",
+    "type": "school",
+    "id": "crowstand"
+  },
+  {
+    "name": "Desmarais (St. Martin's)",
+    "type": "school",
+    "id": "desmarais"
+  },
+  {
+    "name": "Edmonton (Poundmaker)",
+    "type": "school",
+    "id": "edmonton"
+  },
+  {
+    "name": "Elkhorn (Washakada)",
+    "type": "school",
+    "id": "elkhorn"
+  },
+  {
+    "name": "Ermineskin (Hobbema)",
+    "type": "school",
+    "id": "ermineskin"
+  },
+  {
+    "name": "Federal Hostel at Baker Lake (Qamani'tuaq)",
+    "type": "school",
+    "id": "bakerLake"
+  },
+  {
+    "name": "Federal Hostel at Belcher Islands",
+    "type": "school",
+    "id": "belcherIslands"
+  },
+  {
+    "name": "Federal Hostel at Broughton Island (Qikiqtarjuaq)",
+    "type": "school",
+    "id": "broughtonIsland"
+  },
+  {
+    "name": "Federal Hostel at Cambridge Bay",
+    "type": "school",
+    "id": "cambridgeBay"
+  },
+  {
+    "name": "Federal Hostel at Cape Dorset (Kinngait)",
+    "type": "school",
+    "id": "capeDorest"
+  },
+  {
+    "name": "Federal Hostel at Eskimo Point (Arviat)",
+    "type": "school",
+    "id": "eskimoPoint"
+  },
+  {
+    "name": "Federal Hostel at Fort Franklin",
+    "type": "school",
+    "id": "fortFranklin"
+  },
+  {
+    "name": "Federal Hostel at Frobisher Bay (Ukkivik Student Residence)",
+    "type": "school",
+    "id": "frobisherBay"
+  },
+  {
+    "name": "Federal Hostel at George River (Kangiqsualujjuaq)",
+    "type": "school",
+    "id": "georgeRiver"
+  },
+  {
+    "name": "Federal Hostel at Great Whale River (Poste-de-la-Baleine)",
+    "type": "school",
+    "id": "greatWhaleRiver"
+  },
+  {
+    "name": "Federal Hostel at Igloolik (Iglulik)",
+    "type": "school",
+    "id": "iglooik"
+  },
+  {
+    "name": "Federal Hostel at Lake Harbour (Kimmirut Hostel)",
+    "type": "school",
+    "id": "lakeHarbour"
+  },
+  {
+    "name": "Federal Hostel at Pangnirtung (Pangnirtang)",
+    "type": "school",
+    "id": "pangnirtung"
+  },
+  {
+    "name": "Federal Hostel at Payne Bay (Bellin)",
+    "type": "school",
+    "id": "payneBay"
+  },
+  {
+    "name": "Federal Hostel at Pond Inlet (Mittimatalik)",
+    "type": "school",
+    "id": "pondInlet"
+  },
+  {
+    "name": "Federal Hostel at Port Harrison (Inoucdjouac)",
+    "type": "school",
+    "id": "portHarrison"
+  },
+  {
+    "name": "Federal Tent Hostel at Coppermine",
+    "type": "school",
+    "id": "coppermine"
+  },
+  {
+    "name": "File Hills",
+    "type": "school",
+    "id": "fileHills"
+  },
+  {
+    "name": "Fleming Hall (St. Matthew's Anglican Hostel)",
+    "type": "school",
+    "id": "flemingHall"
+  },
+  {
+    "name": "Fort Alexander (Pine Falls)",
+    "type": "school",
+    "id": "fortAlexander"
+  },
+  {
+    "name": "Fort Frances (Coochiching)",
+    "type": "school",
+    "id": "fortFrances"
+  },
+  {
+    "name": "Fort George Church of England (St. Philip's)",
+    "type": "school",
+    "id": "stPhilips"
+  },
+  {
+    "name": "Fort George Hostels",
+    "type": "school",
+    "id": "fortGeorge"
+  },
+  {
+    "name": "Fort George Roman Catholic (Residence Couture)",
+    "type": "school",
+    "id": "fortGeorgeCouture"
+  },
+  {
+    "name": "Fort Pelly (St. Philip's)",
+    "type": "school",
+    "id": "fortPelly"
+  },
+  {
+    "name": "Fort Vermilion (St. Henri)",
+    "type": "school",
+    "id": "fortVermilion"
+  },
+  {
+    "name": "Fort William (St. Joseph's)",
+    "type": "school",
+    "id": "fortWilliam"
+  },
+  {
+    "name": "Gordon's",
+    "type": "school",
+    "id": "gordons"
+  },
+  {
+    "name": "Grandin College",
+    "type": "school",
+    "id": "grandin"
+  },
+  {
+    "name": "Grollier Hall (Notre-Dame Residence)",
+    "type": "school",
+    "id": "grollier"
+  },
+  {
+    "name": "Grouard (St. Bernard's)",
+    "type": "school",
+    "id": "grouard"
+  },
+  {
+    "name": "Guy Hill (Clearwater)",
+    "type": "school",
+    "id": "guyHill"
+  },
+  {
+    "name": "Hay River (All Saints)",
+    "type": "school",
+    "id": "hayRiver"
+  },
+  {
+    "name": "Holy Angels (Fort Chipewyan)",
+    "type": "school",
+    "id": "holeAngels"
+  },
+  {
+    "name": "Immaculate Conception (Aklavik Roman Catholic)",
+    "type": "school",
+    "id": "immaculateConception"
+  },
+  {
+    "name": "Joussard (St. Bruno's)",
+    "type": "school",
+    "id": "joussard"
+  },
+  {
+    "name": "Kamloops (St. Louis)",
+    "type": "school",
+    "id": "kamloops"
+  },
+  {
+    "name": "Kitimaat (Elizabeth Long Memorial Home for Girls)",
+    "type": "school",
+    "id": "kitimaat"
+  },
+  {
+    "name": "Kuper Island",
+    "type": "school",
+    "id": "kuperIsland"
+  },
+  {
+    "name": "La Tuque",
+    "type": "school",
+    "id": "laTuque"
+  },
+  {
+    "name": "Lac la Biche (Notre Dame des Victoires)",
+    "type": "school",
+    "id": "lacLaBiche"
+  },
+  {
+    "name": "Lac La Ronge (All Saints)",
+    "type": "school",
+    "id": "lacLaRonge"
+  },
+  {
+    "name": "Lapointe Hall (Deh Cho Hall)",
+    "type": "school",
+    "id": "lapointeHall"
+  },
+  {
+    "name": "Lebret (Qu'Appelle)",
+    "type": "school",
+    "id": "lebret"
+  },
+  {
+    "name": "Lejac (Stuart Lake)",
+    "type": "school",
+    "id": "lejac"
+  },
+  {
+    "name": "Lesser Slave Lake (St. Peter's)",
+    "type": "school",
+    "id": "lesserSlaveLake"
+  },
+  {
+    "name": "Lower Post",
+    "type": "school",
+    "id": "lowerPost"
+  },
+  {
+    "name": "Marieval (Cowesess)",
+    "type": "school",
+    "id": "marieval"
+  },
+  {
+    "name": "McIntosh (Kenora)",
+    "type": "school",
+    "id": "mcIntosh"
+  },
+  {
+    "name": "McKay (Dauphin)",
+    "type": "school",
+    "id": "mcKay"
+  },
+  {
+    "name": "Mistassini Hostels",
+    "type": "school",
+    "id": "mistassini"
+  },
+  {
+    "name": "Mohawk Institute (Mechanic's Institute)",
+    "type": "school",
+    "id": "mohawk"
+  },
+  {
+    "name": "Morley (Stony)",
+    "type": "school",
+    "id": "morley"
+  },
+  {
+    "name": "Mount Elgin (Muncey)",
+    "type": "school",
+    "id": "mountElgin"
+  },
+  {
+    "name": "Muscowequan (Touchwood)",
+    "type": "school",
+    "id": "muscowequan"
+  },
+  {
+    "name": "Norway House (Rossville)",
+    "type": "school",
+    "id": "norwayHouse"
+  },
+  {
+    "name": "Notre Dame Hostel (Jack River Annex)",
+    "type": "school",
+    "id": "notreDame"
+  },
+  {
+    "name": "Old Sun (Blackfoot)",
+    "type": "school",
+    "id": "oldSun"
+  },
+  {
+    "name": "Pelican Lake (Pelican Falls)",
+    "type": "school",
+    "id": "pelicanLake"
+  },
+  {
+    "name": "Pine Creek (Camperville)",
+    "type": "school",
+    "id": "pineCreek"
+  },
+  {
+    "name": "Pointe Bleue",
+    "type": "school",
+    "id": "pointeBleue"
+  },
+  {
+    "name": "Poplar Hill",
+    "type": "school",
+    "id": "poplarHill"
+  },
+  {
+    "name": "Port Simpson (Crosby Home for Girls)",
+    "type": "school",
+    "id": "portSimpson"
+  },
+  {
+    "name": "Portage la Prairie",
+    "type": "school",
+    "id": "portageLaPrairie"
+  },
+  {
+    "name": "Prince Albert",
+    "type": "school",
+    "id": "princeAlbert"
+  },
+  {
+    "name": "Regina",
+    "type": "school",
+    "id": "regina"
+  },
+  {
+    "name": "Round Lake",
+    "type": "school",
+    "id": "roundLake"
+  },
+  {
+    "name": "Sacred Heart (Peigan)",
+    "type": "school",
+    "id": "sacredHeartPeigan"
+  },
+  {
+    "name": "Sacred Heart (Providence Mission)",
+    "type": "school",
+    "id": "sacredHeartProvidence"
+  },
+  {
+    "name": "Sandy Bay",
+    "type": "school",
+    "id": "sandyBay"
+  },
+  {
+    "name": "Sarcee (St. Barnabas)",
+    "type": "school",
+    "id": "sarcee"
+  },
+  {
+    "name": "Sechelt (St. Augustine's)",
+    "type": "school",
+    "id": "sechelt"
+  },
+  {
+    "name": "Sept-Iles (Maliotenam)",
+    "type": "school",
+    "id": "septIles"
+  },
+  {
+    "name": "Shingle Point (St. John's)",
+    "type": "school",
+    "id": "shinglePoint"
+  },
+  {
+    "name": "Shingwauk (Wawanosh)",
+    "type": "school",
+    "id": "shingwauk"
+  },
+  {
+    "name": "Shubenacadie (St. Anne's Convent)",
+    "type": "school",
+    "id": "shubenacadie"
+  },
+  {
+    "name": "Spanish Boys School (St. Peter Claver)",
+    "type": "school",
+    "id": "spanishBoys"
+  },
+  {
+    "name": "Spanish Girls School (St. Anne's)",
+    "type": "school",
+    "id": "spanishGirls"
+  },
+  {
+    "name": "St. Albert (Youville)",
+    "type": "school",
+    "id": "stAlbert"
+  },
+  {
+    "name": "St. Anne's (Fort Albany)",
+    "type": "school",
+    "id": "stAnnes"
+  },
+  {
+    "name": "St. Anthony's (Sacred Heart)",
+    "type": "school",
+    "id": "sacredHeart"
+  },
+  {
+    "name": "St. Augustine (Smoky River)",
+    "type": "school",
+    "id": "stAugustine"
+  },
+  {
+    "name": "St. Cyprian's (Queen Victoria's Jubilee Home)",
+    "type": "school",
+    "id": "stCyprian"
+  },
+  {
+    "name": "St. George's (Lytton)",
+    "type": "school",
+    "id": "stGeorge"
+  },
+  {
+    "name": "St. Joseph's (Dunbow)",
+    "type": "school",
+    "id": "dunbow"
+  },
+  {
+    "name": "St. Joseph's (Fort Resolution)",
+    "type": "school",
+    "id": "fortResolution"
+  },
+  {
+    "name": "St. Mary's (Blood)",
+    "type": "school",
+    "id": "blood"
+  },
+  {
+    "name": "St. Mary's (Mission)",
+    "type": "school",
+    "id": "stMarys"
+  },
+  {
+    "name": "St. Mary's (St. Anthony's)",
+    "type": "school",
+    "id": "stAnthonys"
+  },
+  {
+    "name": "St. Michael's (Alert Bay)",
+    "type": "school",
+    "id": "stMichaels"
+  },
+  {
+    "name": "St. Michael's (Duck Lake)",
+    "type": "school",
+    "id": "duckLake"
+  },
+  {
+    "name": "St. Paul's (Blood)",
+    "type": "school",
+    "id": "stPauls"
+  },
+  {
+    "name": "St. Paul's (Squamish)",
+    "type": "school",
+    "id": "squamish"
+  },
+  {
+    "name": "St. Paul's Hostel",
+    "type": "school",
+    "id": "dawson"
+  },
+  {
+    "name": "St. Philip's",
+    "type": "school",
+    "id": "kamsack"
+  },
+  {
+    "name": "Stirland Lake High School (Wahbon Bay Academy)",
+    "type": "school",
+    "id": "stirlandLake"
+  },
+  {
+    "name": "Stringer Hall (Inuvik Anglican Hostel)",
+    "type": "school",
+    "id": "stringerHall"
+  },
+  {
+    "name": "Sturgeon Lake (Calais)",
+    "type": "school",
+    "id": "sturgeonLake"
+  },
+  {
+    "name": "Sturgeon Landing",
+    "type": "school",
+    "id": "sturgeonLanding"
+  },
+  {
+    "name": "Thunderchild (St. Henri)",
+    "type": "school",
+    "id": "thunderchild"
+  },
+  {
+    "name": "Wabasca (St. John's)",
+    "type": "school",
+    "id": "wabasca"
+  },
+  {
+    "name": "Wawanosh Home",
+    "type": "school",
+    "id": "wawanoshHome"
+  },
+  {
+    "name": "Whitefish Lake (St. Andrew's)",
+    "type": "school",
+    "id": "whitefishLake"
+  },
+  {
+    "name": "Whitehorse Baptist (Lee School)",
+    "type": "school",
+    "id": "whitehorse"
+  },
+  {
+    "name": "Yukon Hall (Whitehorse)",
+    "type": "school",
+    "id": "yukonHall"
+  },
+  {
+    "name": "Ahousaht",
+    "type": "school",
+    "id": "ahousaht"
+  },
+  {
+    "name": "Yellowknife",
+    "type": "school",
+    "id": "akaitcho"
+  },
+  {
+    "name": "Port Alberni",
+    "type": "school",
+    "id": "alberni"
+  },
+  {
+    "name": "Aklavik",
+    "type": "school",
+    "id": "aklavik"
+  },
+  {
+    "name": "Amos",
+    "type": "school",
+    "id": "amos"
+  },
+  {
+    "name": "Anahim Lake",
+    "type": "school",
+    "id": "anahimLake"
+  },
+  {
+    "name": "Winnipeg",
+    "type": "school",
+    "id": "assiniboia"
+  },
+  {
+    "name": "Assumption",
+    "type": "school",
+    "id": "assumption"
+  },
+  {
+    "name": "Battleford",
+    "type": "school",
+    "id": "battleford"
+  },
+  {
+    "name": "Beauval",
+    "type": "school",
+    "id": "beauval"
+  },
+  {
+    "name": "Birtle",
+    "type": "school",
+    "id": "birtle"
+  },
+  {
+    "name": "Moose Island",
+    "type": "school",
+    "id": "bishopHordenHall"
+  },
+  {
+    "name": "St. Paul",
+    "type": "school",
+    "id": "blueQuills"
+  },
+  {
+    "name": "Fort Simpson",
+    "type": "school",
+    "id": "bompasHall"
+  },
+  {
+    "name": "Brandon",
+    "type": "school",
+    "id": "brandon"
+  },
+  {
+    "name": "Fort Smith",
+    "type": "school",
+    "id": "breynatHal"
+  },
+  {
+    "name": "Carcross",
+    "type": "school",
+    "id": "carcross"
+  },
+  {
+    "name": "Williams Lake",
+    "type": "school",
+    "id": "cariboo"
+  },
+  {
+    "name": "Kenora",
+    "type": "school",
+    "id": "ceciliaJeffrey"
+  },
+  {
+    "name": "Chapleau",
+    "type": "school",
+    "id": "chapleau"
+  },
+  {
+    "name": "Chesterfield Inlet",
+    "type": "school",
+    "id": "chesterfieldInlet"
+  },
+  {
+    "name": "Meares Island / Tofino",
+    "type": "school",
+    "id": "christie"
+  },
+  {
+    "name": "Churchill",
+    "type": "school",
+    "id": "churchill"
+  },
+  {
+    "name": "Chilliwack / Sardis",
+    "type": "school",
+    "id": "coqualeetza"
+  },
+  {
+    "name": "Kamsack",
+    "type": "school",
+    "id": "coteImprovedFederal"
+  },
+  {
+    "name": "Whitehorse",
+    "type": "school",
+    "id": "coudertHall"
+  },
+  {
+    "name": "Cranbrook",
+    "type": "school",
+    "id": "cranbrook"
+  },
+  {
+    "name": "Cristal Lake",
+    "type": "school",
+    "id": "cristalLake"
+  },
+  {
+    "name": "Cross Lake",
+    "type": "school",
+    "id": "crossLake"
+  },
+  {
+    "name": "Cluny",
+    "type": "school",
+    "id": "crowfoot"
+  },
+  {
+    "name": "Kamsack",
+    "type": "school",
+    "id": "crowstand"
+  },
+  {
+    "name": "Desmarais-Wabasca",
+    "type": "school",
+    "id": "desmarais"
+  },
+  {
+    "name": "St. Albert",
+    "type": "school",
+    "id": "edmonton"
+  },
+  {
+    "name": "Elkhorn",
+    "type": "school",
+    "id": "elkhorn"
+  },
+  {
+    "name": "Hobbema",
+    "type": "school",
+    "id": "ermineskin"
+  },
+  {
+    "name": "Qamanittuaq",
+    "type": "school",
+    "id": "bakerLake"
+  },
+  {
+    "name": "Flaherty Island (South Camp) / Sanikiluaq",
+    "type": "school",
+    "id": "belcherIslands"
+  },
+  {
+    "name": "Qikiqtarjuaq",
+    "type": "school",
+    "id": "broughtonIsland"
+  },
+  {
+    "name": "Cambridge Bay",
+    "type": "school",
+    "id": "cambridgeBay"
+  },
+  {
+    "name": "Kinngait",
+    "type": "school",
+    "id": "capeDorest"
+  },
+  {
+    "name": "Arviat",
+    "type": "school",
+    "id": "eskimoPoint"
+  },
+  {
+    "name": "D�line",
+    "type": "school",
+    "id": "fortFranklin"
+  },
+  {
+    "name": "Iqaluit",
+    "type": "school",
+    "id": "frobisherBay"
+  },
+  {
+    "name": "Kangirsualujjuaq",
+    "type": "school",
+    "id": "georgeRiver"
+  },
+  {
+    "name": "Kuujjuaraapik / Whapmagoostui",
+    "type": "school",
+    "id": "greatWhaleRiver"
+  },
+  {
+    "name": "Igloolik / Iglulik",
+    "type": "school",
+    "id": "iglooik"
+  },
+  {
+    "name": "Kimmirut",
+    "type": "school",
+    "id": "lakeHarbour"
+  },
+  {
+    "name": "Panniqtuuq",
+    "type": "school",
+    "id": "pangnirtung"
+  },
+  {
+    "name": "Kangirsuk",
+    "type": "school",
+    "id": "payneBay"
+  },
+  {
+    "name": "Mittimatalik",
+    "type": "school",
+    "id": "pondInlet"
+  },
+  {
+    "name": "Inukjuak",
+    "type": "school",
+    "id": "portHarrison"
+  },
+  {
+    "name": "Coppermine",
+    "type": "school",
+    "id": "coppermine"
+  },
+  {
+    "name": "Balcarres",
+    "type": "school",
+    "id": "fileHills"
+  },
+  {
+    "name": "Fort McPherson",
+    "type": "school",
+    "id": "flemingHall"
+  },
+  {
+    "name": "Fort Alexander",
+    "type": "school",
+    "id": "fortAlexander"
+  },
+  {
+    "name": "Fort Frances",
+    "type": "school",
+    "id": "fortFrances"
+  },
+  {
+    "name": "Fort George",
+    "type": "school",
+    "id": "stPhilips"
+  },
+  {
+    "name": "Fort George",
+    "type": "school",
+    "id": "fortGeorge"
+  },
+  {
+    "name": "Fort George",
+    "type": "school",
+    "id": "fortGeorgeCouture"
+  },
+  {
+    "name": "Fort Pelly",
+    "type": "school",
+    "id": "fortPelly"
+  },
+  {
+    "name": "Fort Vermilion",
+    "type": "school",
+    "id": "fortVermilion"
+  },
+  {
+    "name": "Fort William",
+    "type": "school",
+    "id": "fortWilliam"
+  },
+  {
+    "name": "Punnichy (Gordon's Reserve)",
+    "type": "school",
+    "id": "gordons"
+  },
+  {
+    "name": "Fort Smith",
+    "type": "school",
+    "id": "grandin"
+  },
+  {
+    "name": "Inuvik",
+    "type": "school",
+    "id": "grollier"
+  },
+  {
+    "name": "Grouard",
+    "type": "school",
+    "id": "grouard"
+  },
+  {
+    "name": "The Pas",
+    "type": "school",
+    "id": "guyHill"
+  },
+  {
+    "name": "Hay River",
+    "type": "school",
+    "id": "hayRiver"
+  },
+  {
+    "name": "Fort Chipewyan",
+    "type": "school",
+    "id": "holeAngels"
+  },
+  {
+    "name": "Aklavik",
+    "type": "school",
+    "id": "immaculateConception"
+  },
+  {
+    "name": "Joussard",
+    "type": "school",
+    "id": "joussard"
+  },
+  {
+    "name": "Kamloops",
+    "type": "school",
+    "id": "kamloops"
+  },
+  {
+    "name": "Kitimaat",
+    "type": "school",
+    "id": "kitimaat"
+  },
+  {
+    "name": "Kuper Island",
+    "type": "school",
+    "id": "kuperIsland"
+  },
+  {
+    "name": "La Tuque",
+    "type": "school",
+    "id": "laTuque"
+  },
+  {
+    "name": "Lac la Biche",
+    "type": "school",
+    "id": "lacLaBiche"
+  },
+  {
+    "name": "Lac La Ronge",
+    "type": "school",
+    "id": "lacLaRonge"
+  },
+  {
+    "name": "Fort Simpson",
+    "type": "school",
+    "id": "lapointeHall"
+  },
+  {
+    "name": "Lebret",
+    "type": "school",
+    "id": "lebret"
+  },
+  {
+    "name": "Fraser Lake",
+    "type": "school",
+    "id": "lejac"
+  },
+  {
+    "name": "Lesser Slave Lake",
+    "type": "school",
+    "id": "lesserSlaveLake"
+  },
+  {
+    "name": "Lower Post",
+    "type": "school",
+    "id": "lowerPost"
+  },
+  {
+    "name": "Grayson",
+    "type": "school",
+    "id": "marieval"
+  },
+  {
+    "name": "McIntosh",
+    "type": "school",
+    "id": "mcIntosh"
+  },
+  {
+    "name": "The Pas / Dauphin",
+    "type": "school",
+    "id": "mcKay"
+  },
+  {
+    "name": "Mistassini",
+    "type": "school",
+    "id": "mistassini"
+  },
+  {
+    "name": "Brantford",
+    "type": "school",
+    "id": "mohawk"
+  },
+  {
+    "name": "Morley",
+    "type": "school",
+    "id": "morley"
+  },
+  {
+    "name": "Munceytown",
+    "type": "school",
+    "id": "mountElgin"
+  },
+  {
+    "name": "Lestock",
+    "type": "school",
+    "id": "muscowequan"
+  },
+  {
+    "name": "Norway House",
+    "type": "school",
+    "id": "norwayHouse"
+  },
+  {
+    "name": "Cross Lake",
+    "type": "school",
+    "id": "notreDame"
+  },
+  {
+    "name": "Gleichen",
+    "type": "school",
+    "id": "oldSun"
+  },
+  {
+    "name": "Sioux Lookout",
+    "type": "school",
+    "id": "pelicanLake"
+  },
+  {
+    "name": "Camperville",
+    "type": "school",
+    "id": "pineCreek"
+  },
+  {
+    "name": "Pointe Bleue",
+    "type": "school",
+    "id": "pointeBleue"
+  },
+  {
+    "name": "Poplar Hill",
+    "type": "school",
+    "id": "poplarHill"
+  },
+  {
+    "name": "Port Simpson",
+    "type": "school",
+    "id": "portSimpson"
+  },
+  {
+    "name": "Portage la Prairie",
+    "type": "school",
+    "id": "portageLaPrairie"
+  },
+  {
+    "name": "Prince Albert",
+    "type": "school",
+    "id": "princeAlbert"
+  },
+  {
+    "name": "Regina",
+    "type": "school",
+    "id": "regina"
+  },
+  {
+    "name": "Stockholm",
+    "type": "school",
+    "id": "roundLake"
+  },
+  {
+    "name": "Brocket",
+    "type": "school",
+    "id": "sacredHeartPeigan"
+  },
+  {
+    "name": "Fort Providence",
+    "type": "school",
+    "id": "sacredHeartProvidence"
+  },
+  {
+    "name": "Marius",
+    "type": "school",
+    "id": "sandyBay"
+  },
+  {
+    "name": "Sarcee Junction (T'suu Tina)",
+    "type": "school",
+    "id": "sarcee"
+  },
+  {
+    "name": "Sechelt",
+    "type": "school",
+    "id": "sechelt"
+  },
+  {
+    "name": "Sept-Iles",
+    "type": "school",
+    "id": "septIles"
+  },
+  {
+    "name": "Shingle Point",
+    "type": "school",
+    "id": "shinglePoint"
+  },
+  {
+    "name": "Sault Ste. Marie",
+    "type": "school",
+    "id": "shingwauk"
+  },
+  {
+    "name": "Shubenacadie",
+    "type": "school",
+    "id": "shubenacadie"
+  },
+  {
+    "name": "Spanish",
+    "type": "school",
+    "id": "spanishBoys"
+  },
+  {
+    "name": "Spanish",
+    "type": "school",
+    "id": "spanishGirls"
+  },
+  {
+    "name": "Youville",
+    "type": "school",
+    "id": "stAlbert"
+  },
+  {
+    "name": "Fort Albany",
+    "type": "school",
+    "id": "stAnnes"
+  },
+  {
+    "name": "Onion Lake",
+    "type": "school",
+    "id": "sacredHeart"
+  },
+  {
+    "name": "Smoky River / Peace River",
+    "type": "school",
+    "id": "stAugustine"
+  },
+  {
+    "name": "Brocket (Peigan Reserve)",
+    "type": "school",
+    "id": "stCyprian"
+  },
+  {
+    "name": "Lytton",
+    "type": "school",
+    "id": "stGeorge"
+  },
+  {
+    "name": "High River",
+    "type": "school",
+    "id": "dunbow"
+  },
+  {
+    "name": "Fort Resolution",
+    "type": "school",
+    "id": "fortResolution"
+  },
+  {
+    "name": "Cardston",
+    "type": "school",
+    "id": "blood"
+  },
+  {
+    "name": "Mission",
+    "type": "school",
+    "id": "stMarys"
+  },
+  {
+    "name": "Kenora",
+    "type": "school",
+    "id": "stAnthonys"
+  },
+  {
+    "name": "Alert Bay",
+    "type": "school",
+    "id": "stMichaels"
+  },
+  {
+    "name": "Duck Lake",
+    "type": "school",
+    "id": "duckLake"
+  },
+  {
+    "name": "Cardston",
+    "type": "school",
+    "id": "stPauls"
+  },
+  {
+    "name": "North Vancouver",
+    "type": "school",
+    "id": "squamish"
+  },
+  {
+    "name": "Dawson City",
+    "type": "school",
+    "id": "dawson"
+  },
+  {
+    "name": "Kamsack",
+    "type": "school",
+    "id": "kamsack"
+  },
+  {
+    "name": "Stirland Lake",
+    "type": "school",
+    "id": "stirlandLake"
+  },
+  {
+    "name": "Inuvik",
+    "type": "school",
+    "id": "stringerHall"
+  },
+  {
+    "name": "Calais",
+    "type": "school",
+    "id": "sturgeonLake"
+  },
+  {
+    "name": "Sturgeon Landing",
+    "type": "school",
+    "id": "sturgeonLanding"
+  },
+  {
+    "name": "Delmas",
+    "type": "school",
+    "id": "thunderchild"
+  },
+  {
+    "name": "Wabasca",
+    "type": "school",
+    "id": "wabasca"
+  },
+  {
+    "name": "Sault Ste. Marie",
+    "type": "school",
+    "id": "wawanoshHome"
+  },
+  {
+    "name": "Whitefish Lake",
+    "type": "school",
+    "id": "whitefishLake"
+  },
+  {
+    "name": "Whitehorse",
+    "type": "school",
+    "id": "whitehorse"
+  },
+  {
+    "name": "Whitehorse",
+    "type": "school",
+    "id": "yukonHall"
+  },
+  {
+    "name": "Abitibi-Dominion",
+    "type": "reservation",
+    "id": "abitibiDominion"
+  },
+  {
+    "name": "Abitibi-Ontario",
+    "type": "reservation",
+    "id": "abitibiOntario"
+  },
+  {
+    "name": "Adams Lake",
+    "type": "reservation",
+    "id": "adamsLake"
+  },
+  {
+    "name": "Ahousaht",
+    "type": "reservation",
+    "id": "ahousaht"
+  },
+  {
+    "name": "Aishihik",
+    "type": "reservation",
+    "id": "aishihik"
+  },
+  {
+    "name": "Aiyansh",
+    "type": "reservation",
+    "id": "aiyansh"
+  },
+  {
+    "name": "Aklavik",
+    "type": "reservation",
+    "id": "aklavik"
+  },
+  {
+    "name": "Albany",
+    "type": "reservation",
+    "id": "albany"
+  },
+  {
+    "name": "Alert Bay",
+    "type": "reservation",
+    "id": "alertBay"
+  },
+  {
+    "name": "Alexander",
+    "type": "reservation",
+    "id": "alexander"
+  },
+  {
+    "name": "Alexandria",
+    "type": "reservation",
+    "id": "alexandria"
+  },
+  {
+    "name": "Alexis",
+    "type": "reservation",
+    "id": "alexis"
+  },
+  {
+    "name": "Alexis Creek",
+    "type": "reservation",
+    "id": "alexisCreek"
+  },
+  {
+    "name": "Alkali Lake",
+    "type": "reservation",
+    "id": "alkaliLake"
+  },
+  {
+    "name": "Amadjuak",
+    "type": "reservation",
+    "id": "amadjuak"
+  },
+  {
+    "name": "Amos",
+    "type": "reservation",
+    "id": "amos"
+  },
+  {
+    "name": "Anahim Lake",
+    "type": "reservation",
+    "id": "anahimLake"
+  },
+  {
+    "name": "Anderson Lake",
+    "type": "reservation",
+    "id": "andersonLake"
+  },
+  {
+    "name": "Anzac",
+    "type": "reservation",
+    "id": "anzac"
+  },
+  {
+    "name": "Arctic Bay",
+    "type": "reservation",
+    "id": "arcticBay"
+  },
+  {
+    "name": "Arctic Red River",
+    "type": "reservation",
+    "id": "arcticRedRiver"
+  },
+  {
+    "name": "Arrandale",
+    "type": "reservation",
+    "id": "arrandale"
+  },
+  {
+    "name": "Arrow",
+    "type": "reservation",
+    "id": "arrow"
+  },
+  {
+    "name": "Ashcroft",
+    "type": "reservation",
+    "id": "ashcroft"
+  },
+  {
+    "name": "Assabaska",
+    "type": "reservation",
+    "id": "assabaska"
+  },
+  {
+    "name": "Athelmer",
+    "type": "reservation",
+    "id": "athelmer"
+  },
+  {
+    "name": "Atikameg",
+    "type": "reservation",
+    "id": "atikameg"
+  },
+  {
+    "name": "Atlin",
+    "type": "reservation",
+    "id": "atlin"
+  },
+  {
+    "name": "Atlin-Teslin",
+    "type": "reservation",
+    "id": "atlin-Teslin"
+  },
+  {
+    "name": "Attawapiscat",
+    "type": "reservation",
+    "id": "attawapiscat"
+  },
+  {
+    "name": "Attikameks de la Mauricie",
+    "type": "reservation",
+    "id": "attikameksdelaMauricie"
+  },
+  {
+    "name": "Avatuktoo",
+    "type": "reservation",
+    "id": "avatuktoo"
+  },
+  {
+    "name": "Babine",
+    "type": "reservation",
+    "id": "babine"
+  },
+  {
+    "name": "Baffin Island",
+    "type": "reservation",
+    "id": "baffinIsland"
+  },
+  {
+    "name": "Baker Lake",
+    "type": "reservation",
+    "id": "bakerLake"
+  },
+  {
+    "name": "Bala",
+    "type": "reservation",
+    "id": "bala"
+  },
+  {
+    "name": "Banks Island",
+    "type": "reservation",
+    "id": "banksIsland"
+  },
+  {
+    "name": "Barriere",
+    "type": "reservation",
+    "id": "barriere"
+  },
+  {
+    "name": "Bathhurst Inlet",
+    "type": "reservation",
+    "id": "bathhurstInlet"
+  },
+  {
+    "name": "Battleford",
+    "type": "reservation",
+    "id": "battleford"
+  },
+  {
+    "name": "Bear Lake",
+    "type": "reservation",
+    "id": "bearLake"
+  },
+  {
+    "name": "Bearspaw",
+    "type": "reservation",
+    "id": "bearspaw"
+  },
+  {
+    "name": "Beaver Lake",
+    "type": "reservation",
+    "id": "beaverLake"
+  },
+  {
+    "name": "Beecher Bay",
+    "type": "reservation",
+    "id": "beecherBay"
+  },
+  {
+    "name": "Belcher Islands",
+    "type": "reservation",
+    "id": "belcherIslands"
+  },
+  {
+    "name": "Bella Bella",
+    "type": "reservation",
+    "id": "bellaBella"
+  },
+  {
+    "name": "Bella Coola",
+    "type": "reservation",
+    "id": "bellaCoola"
+  },
+  {
+    "name": "Berkley Point",
+    "type": "reservation",
+    "id": "berkleyPoint"
+  },
+  {
+    "name": "Bernard Harbour",
+    "type": "reservation",
+    "id": "bernardHarbour"
+  },
+  {
+    "name": "Bernard Island",
+    "type": "reservation",
+    "id": "bernardIsland"
+  },
+  {
+    "name": "Bersimis",
+    "type": "reservation",
+    "id": "bersimis"
+  },
+  {
+    "name": "Big Stone",
+    "type": "reservation",
+    "id": "bigStone"
+  },
+  {
+    "name": "Birtle",
+    "type": "reservation",
+    "id": "birtle"
+  },
+  {
+    "name": "Blackfoot",
+    "type": "reservation",
+    "id": "blackfoot"
+  },
+  {
+    "name": "Blackwater",
+    "type": "reservation",
+    "id": "blackwater"
+  },
+  {
+    "name": "Blood",
+    "type": "reservation",
+    "id": "blood"
+  },
+  {
+    "name": "Bon Accord",
+    "type": "reservation",
+    "id": "bonAccord"
+  },
+  {
+    "name": "Bonaparte",
+    "type": "reservation",
+    "id": "bonaparte"
+  },
+  {
+    "name": "Boothroyd",
+    "type": "reservation",
+    "id": "boothroyd"
+  },
+  {
+    "name": "Bootkia Peninsula",
+    "type": "reservation",
+    "id": "bootkiaPeninsula"
+  },
+  {
+    "name": "Boston Bar",
+    "type": "reservation",
+    "id": "bostonBar"
+  },
+  {
+    "name": "Boyer River",
+    "type": "reservation",
+    "id": "boyerRiver"
+  },
+  {
+    "name": "Brantford",
+    "type": "reservation",
+    "id": "brantford"
+  },
+  {
+    "name": "Bridge River",
+    "type": "reservation",
+    "id": "bridgeRiver"
+  },
+  {
+    "name": "Broughton Island",
+    "type": "reservation",
+    "id": "broughtonIsland"
+  },
+  {
+    "name": "Brunswick",
+    "type": "reservation",
+    "id": "brunswick"
+  },
+  {
+    "name": "Burns Lake",
+    "type": "reservation",
+    "id": "burnsLake"
+  },
+  {
+    "name": "Burrard",
+    "type": "reservation",
+    "id": "burrard"
+  },
+  {
+    "name": "Burwash",
+    "type": "reservation",
+    "id": "burwash"
+  },
+  {
+    "name": "Byron Bay",
+    "type": "reservation",
+    "id": "byronBay"
+  },
+  {
+    "name": "Calgary",
+    "type": "reservation",
+    "id": "calgary"
+  },
+  {
+    "name": "Callihoo Band",
+    "type": "reservation",
+    "id": "callihooBand"
+  },
+  {
+    "name": "Calling Lake",
+    "type": "reservation",
+    "id": "callingLake"
+  },
+  {
+    "name": "Cambridge Bay",
+    "type": "reservation",
+    "id": "cambridgeBay"
+  },
+  {
+    "name": "Campbell River",
+    "type": "reservation",
+    "id": "campbellRiver"
+  },
+  {
+    "name": "Canim Lake",
+    "type": "reservation",
+    "id": "canimLake"
+  },
+  {
+    "name": "Canoe Creek",
+    "type": "reservation",
+    "id": "canoeCreek"
+  },
+  {
+    "name": "Canyon City",
+    "type": "reservation",
+    "id": "canyonCity"
+  },
+  {
+    "name": "Canyon Creek",
+    "type": "reservation",
+    "id": "canyonCreek"
+  },
+  {
+    "name": "Cape Croke",
+    "type": "reservation",
+    "id": "capeCroke"
+  },
+  {
+    "name": "Cape Dyer",
+    "type": "reservation",
+    "id": "capeDyer"
+  },
+  {
+    "name": "Cape Mudge",
+    "type": "reservation",
+    "id": "capeMudge"
+  },
+  {
+    "name": "Cape Parry",
+    "type": "reservation",
+    "id": "capeParry"
+  },
+  {
+    "name": "Capilano",
+    "type": "reservation",
+    "id": "capilano"
+  },
+  {
+    "name": "Carcross",
+    "type": "reservation",
+    "id": "carcross"
+  },
+  {
+    "name": "Cardston",
+    "type": "reservation",
+    "id": "cardston"
+  },
+  {
+    "name": "Carlton",
+    "type": "reservation",
+    "id": "carlton"
+  },
+  {
+    "name": "Carmacks",
+    "type": "reservation",
+    "id": "carmacks"
+  },
+  {
+    "name": "Carriers",
+    "type": "reservation",
+    "id": "carriers"
+  },
+  {
+    "name": "Carry the Kettle",
+    "type": "reservation",
+    "id": "carrytheKettle"
+  },
+  {
+    "name": "Casca",
+    "type": "reservation",
+    "id": "casca"
+  },
+  {
+    "name": "Cassiar",
+    "type": "reservation",
+    "id": "cassiar"
+  },
+  {
+    "name": "Champagne",
+    "type": "reservation",
+    "id": "champagne"
+  },
+  {
+    "name": "Chapleau",
+    "type": "reservation",
+    "id": "chapleau"
+  },
+  {
+    "name": "Chard",
+    "type": "reservation",
+    "id": "chard"
+  },
+  {
+    "name": "Cheam",
+    "type": "reservation",
+    "id": "cheam"
+  },
+  {
+    "name": "Chehalis",
+    "type": "reservation",
+    "id": "chehalis"
+  },
+  {
+    "name": "Chemainus",
+    "type": "reservation",
+    "id": "chemainus"
+  },
+  {
+    "name": "Cheslatta",
+    "type": "reservation",
+    "id": "cheslatta"
+  },
+  {
+    "name": "Chesterfield Inlet",
+    "type": "reservation",
+    "id": "chesterfieldInlet"
+  },
+  {
+    "name": "Chilcotin",
+    "type": "reservation",
+    "id": "chilcotin"
+  },
+  {
+    "name": "Chilliwack",
+    "type": "reservation",
+    "id": "chilliwack"
+  },
+  {
+    "name": "Chiniquay",
+    "type": "reservation",
+    "id": "chiniquay"
+  },
+  {
+    "name": "Chipewyan",
+    "type": "reservation",
+    "id": "chipewyan"
+  },
+  {
+    "name": "Chochrane",
+    "type": "reservation",
+    "id": "chochrane"
+  },
+  {
+    "name": "Churchill",
+    "type": "reservation",
+    "id": "churchill"
+  },
+  {
+    "name": "Cisco",
+    "type": "reservation",
+    "id": "cisco"
+  },
+  {
+    "name": "Clayoquot",
+    "type": "reservation",
+    "id": "clayoquot"
+  },
+  {
+    "name": "Clifton Point",
+    "type": "reservation",
+    "id": "cliftonPoint"
+  },
+  {
+    "name": "Clinton",
+    "type": "reservation",
+    "id": "clinton"
+  },
+  {
+    "name": "Clo'oose",
+    "type": "reservation",
+    "id": "clooose"
+  },
+  {
+    "name": "Clyde River",
+    "type": "reservation",
+    "id": "clydeRiver"
+  },
+  {
+    "name": "Cochrane",
+    "type": "reservation",
+    "id": "cochrane"
+  },
+  {
+    "name": "Cold Lake",
+    "type": "reservation",
+    "id": "coldLake"
+  },
+  {
+    "name": "Coldwater",
+    "type": "reservation",
+    "id": "coldwater"
+  },
+  {
+    "name": "Columbia Lake",
+    "type": "reservation",
+    "id": "columbiaLake"
+  },
+  {
+    "name": "Colville Lake",
+    "type": "reservation",
+    "id": "colvilleLake"
+  },
+  {
+    "name": "Comox",
+    "type": "reservation",
+    "id": "comox"
+  },
+  {
+    "name": "Conklin",
+    "type": "reservation",
+    "id": "conklin"
+  },
+  {
+    "name": "Contwoyto Lake",
+    "type": "reservation",
+    "id": "contwoytoLake"
+  },
+  {
+    "name": "Cook's Ferry",
+    "type": "reservation",
+    "id": "cooksFerry"
+  },
+  {
+    "name": "Coppermine",
+    "type": "reservation",
+    "id": "coppermine"
+  },
+  {
+    "name": "Coquitlam",
+    "type": "reservation",
+    "id": "coquitlam"
+  },
+  {
+    "name": "Coral Harbour",
+    "type": "reservation",
+    "id": "coralHarbour"
+  },
+  {
+    "name": "Cote",
+    "type": "reservation",
+    "id": "cote"
+  },
+  {
+    "name": "Cowessess",
+    "type": "reservation",
+    "id": "cowessess"
+  },
+  {
+    "name": "Cowichan",
+    "type": "reservation",
+    "id": "cowichan"
+  },
+  {
+    "name": "Cranbrook",
+    "type": "reservation",
+    "id": "cranbrook"
+  },
+  {
+    "name": "Cree",
+    "type": "reservation",
+    "id": "cree"
+  },
+  {
+    "name": "Creekside",
+    "type": "reservation",
+    "id": "creekside"
+  },
+  {
+    "name": "Crooked Lake",
+    "type": "reservation",
+    "id": "crookedLake"
+  },
+  {
+    "name": "Crowfoot",
+    "type": "reservation",
+    "id": "crowfoot"
+  },
+  {
+    "name": "Dawson",
+    "type": "reservation",
+    "id": "dawson"
+  },
+  {
+    "name": "Day Star",
+    "type": "reservation",
+    "id": "dayStar"
+  },
+  {
+    "name": "Deadman's Creek",
+    "type": "reservation",
+    "id": "deadmansCreek"
+  },
+  {
+    "name": "Dease Lake",
+    "type": "reservation",
+    "id": "deaseLake"
+  },
+  {
+    "name": "Deazadeash Lake",
+    "type": "reservation",
+    "id": "deazadeashLake"
+  },
+  {
+    "name": "Decker Lake",
+    "type": "reservation",
+    "id": "deckerLake"
+  },
+  {
+    "name": "Deer Lake",
+    "type": "reservation",
+    "id": "deerLake"
+  },
+  {
+    "name": "Delta",
+    "type": "reservation",
+    "id": "delta"
+  },
+  {
+    "name": "Desmaris",
+    "type": "reservation",
+    "id": "desmaris"
+  },
+  {
+    "name": "DEW Line",
+    "type": "reservation",
+    "id": "dEWLine"
+  },
+  {
+    "name": "Dog Creek",
+    "type": "reservation",
+    "id": "dogCreek"
+  },
+  {
+    "name": "Dog Rib",
+    "type": "reservation",
+    "id": "dogRib"
+  },
+  {
+    "name": "Dorset",
+    "type": "reservation",
+    "id": "dorset"
+  },
+  {
+    "name": "Drift Pile",
+    "type": "reservation",
+    "id": "driftPile"
+  },
+  {
+    "name": "Duck Lake",
+    "type": "reservation",
+    "id": "duckLake"
+  },
+  {
+    "name": "Duncon's",
+    "type": "reservation",
+    "id": "duncons"
+  },
+  {
+    "name": "Eastmain",
+    "type": "reservation",
+    "id": "eastmain"
+  },
+  {
+    "name": "Ebb",
+    "type": "reservation",
+    "id": "ebb"
+  },
+  {
+    "name": "Edmonton",
+    "type": "reservation",
+    "id": "edmonton"
+  },
+  {
+    "name": "Edmonton Agency",
+    "type": "reservation",
+    "id": "edmontonAgency"
+  },
+  {
+    "name": "Ehatishat",
+    "type": "reservation",
+    "id": "ehatishat"
+  },
+  {
+    "name": "Eldorado",
+    "type": "reservation",
+    "id": "eldorado"
+  },
+  {
+    "name": "Enderby",
+    "type": "reservation",
+    "id": "enderby"
+  },
+  {
+    "name": "Enoch",
+    "type": "reservation",
+    "id": "enoch"
+  },
+  {
+    "name": "Ermineskin",
+    "type": "reservation",
+    "id": "ermineskin"
+  },
+  {
+    "name": "Eskimo Point",
+    "type": "reservation",
+    "id": "eskimoPoint"
+  },
+  {
+    "name": "Euchinico",
+    "type": "reservation",
+    "id": "euchinico"
+  },
+  {
+    "name": "File Hills",
+    "type": "reservation",
+    "id": "fileHills"
+  },
+  {
+    "name": "Findlay River",
+    "type": "reservation",
+    "id": "findlayRiver"
+  },
+  {
+    "name": "Finlay Forks",
+    "type": "reservation",
+    "id": "finlayForks"
+  },
+  {
+    "name": "Fisher",
+    "type": "reservation",
+    "id": "fisher"
+  },
+  {
+    "name": "Fishing Lake",
+    "type": "reservation",
+    "id": "fishingLake"
+  },
+  {
+    "name": "Fitzgarals Smith",
+    "type": "reservation",
+    "id": "fitzgaralsSmith"
+  },
+  {
+    "name": "Flow",
+    "type": "reservation",
+    "id": "flow"
+  },
+  {
+    "name": "Forestdale",
+    "type": "reservation",
+    "id": "forestdale"
+  },
+  {
+    "name": "Fort Albany",
+    "type": "reservation",
+    "id": "fortAlbany"
+  },
+  {
+    "name": "Fort Alexander",
+    "type": "reservation",
+    "id": "fortAlexander"
+  },
+  {
+    "name": "Fort Babine",
+    "type": "reservation",
+    "id": "fortBabine"
+  },
+  {
+    "name": "Fort Chimo",
+    "type": "reservation",
+    "id": "fortChimo"
+  },
+  {
+    "name": "Fort Chipewyan",
+    "type": "reservation",
+    "id": "fortChipewyan"
+  },
+  {
+    "name": "Fort Connelly",
+    "type": "reservation",
+    "id": "fortConnelly"
+  },
+  {
+    "name": "Fort Francis",
+    "type": "reservation",
+    "id": "fortFrancis"
+  },
+  {
+    "name": "Fort Franklin",
+    "type": "reservation",
+    "id": "fortFranklin"
+  },
+  {
+    "name": "Fort Fraser",
+    "type": "reservation",
+    "id": "fortFraser"
+  },
+  {
+    "name": "Fort George",
+    "type": "reservation",
+    "id": "fortGeorge"
+  },
+  {
+    "name": "Fort Good Hope",
+    "type": "reservation",
+    "id": "fortGoodHope"
+  },
+  {
+    "name": "Fort Grahame",
+    "type": "reservation",
+    "id": "fortGrahame"
+  },
+  {
+    "name": "Fort Hope",
+    "type": "reservation",
+    "id": "fortHope"
+  },
+  {
+    "name": "Fort Liard",
+    "type": "reservation",
+    "id": "fortLiard"
+  },
+  {
+    "name": "Fort MacPherson",
+    "type": "reservation",
+    "id": "fortMacPherson"
+  },
+  {
+    "name": "Fort McKay",
+    "type": "reservation",
+    "id": "fortMcKay"
+  },
+  {
+    "name": "Fort McLeod",
+    "type": "reservation",
+    "id": "fortMcLeod"
+  },
+  {
+    "name": "Fort McPherson",
+    "type": "reservation",
+    "id": "fortMcPherson"
+  },
+  {
+    "name": "Fort Nelson",
+    "type": "reservation",
+    "id": "fortNelson"
+  },
+  {
+    "name": "Fort Norman",
+    "type": "reservation",
+    "id": "fortNorman"
+  },
+  {
+    "name": "Fort Providence",
+    "type": "reservation",
+    "id": "fortProvidence"
+  },
+  {
+    "name": "Fort Rae",
+    "type": "reservation",
+    "id": "fortRae"
+  },
+  {
+    "name": "Fort Resolution",
+    "type": "reservation",
+    "id": "fortResolution"
+  },
+  {
+    "name": "Fort Simpson",
+    "type": "reservation",
+    "id": "fortSimpson"
+  },
+  {
+    "name": "Fort Smith",
+    "type": "reservation",
+    "id": "fortSmith"
+  },
+  {
+    "name": "Fort St. James",
+    "type": "reservation",
+    "id": "fortSt.James"
+  },
+  {
+    "name": "Fort St. John",
+    "type": "reservation",
+    "id": "fortSt.John"
+  },
+  {
+    "name": "Fort Vermilion",
+    "type": "reservation",
+    "id": "fortVermilion"
+  },
+  {
+    "name": "Fort Ware",
+    "type": "reservation",
+    "id": "fortWare"
+  },
+  {
+    "name": "Fort William",
+    "type": "reservation",
+    "id": "fortWilliam"
+  },
+  {
+    "name": "Fort Wrigley",
+    "type": "reservation",
+    "id": "fortWrigley"
+  },
+  {
+    "name": "Fort Yukon",
+    "type": "reservation",
+    "id": "fortYukon"
+  },
+  {
+    "name": "Forty Mile",
+    "type": "reservation",
+    "id": "fortyMile"
+  },
+  {
+    "name": "Fot Liard",
+    "type": "reservation",
+    "id": "fotLiard"
+  },
+  {
+    "name": "Fountain",
+    "type": "reservation",
+    "id": "fountain"
+  },
+  {
+    "name": "Fox Lake",
+    "type": "reservation",
+    "id": "foxLake"
+  },
+  {
+    "name": "Foxe Main",
+    "type": "reservation",
+    "id": "foxeMain"
+  },
+  {
+    "name": "Frances Lake",
+    "type": "reservation",
+    "id": "francesLake"
+  },
+  {
+    "name": "Fraser Lake",
+    "type": "reservation",
+    "id": "fraserLake"
+  },
+  {
+    "name": "Frobisher Bay",
+    "type": "reservation",
+    "id": "frobisherBay"
+  },
+  {
+    "name": "Frog Lake",
+    "type": "reservation",
+    "id": "frogLake"
+  },
+  {
+    "name": "Gambler",
+    "type": "reservation",
+    "id": "gambler"
+  },
+  {
+    "name": "Gibson",
+    "type": "reservation",
+    "id": "gibson"
+  },
+  {
+    "name": "Gilford Island",
+    "type": "reservation",
+    "id": "gilfordIsland"
+  },
+  {
+    "name": "Gitlakdamix",
+    "type": "reservation",
+    "id": "gitlakdamix"
+  },
+  {
+    "name": "Gjoa Haven",
+    "type": "reservation",
+    "id": "gjoaHaven"
+  },
+  {
+    "name": "Gleichen",
+    "type": "reservation",
+    "id": "gleichen"
+  },
+  {
+    "name": "Glen Vowell",
+    "type": "reservation",
+    "id": "glenVowell"
+  },
+  {
+    "name": "Good Hope Lake",
+    "type": "reservation",
+    "id": "goodHopeLake"
+  },
+  {
+    "name": "Goodfish (Whitefish) Lake",
+    "type": "reservation",
+    "id": "goodfishWhitefishLake"
+  },
+  {
+    "name": "Grand Rapids",
+    "type": "reservation",
+    "id": "grandRapids"
+  },
+  {
+    "name": "Great Whale River",
+    "type": "reservation",
+    "id": "greatWhaleRiver"
+  },
+  {
+    "name": "Greenville",
+    "type": "reservation",
+    "id": "greenville"
+  },
+  {
+    "name": "Grise Fiord",
+    "type": "reservation",
+    "id": "griseFiord"
+  },
+  {
+    "name": "Grouard",
+    "type": "reservation",
+    "id": "grouard"
+  },
+  {
+    "name": "Gwinaha",
+    "type": "reservation",
+    "id": "gwinaha"
+  },
+  {
+    "name": "Hagwilget",
+    "type": "reservation",
+    "id": "hagwilget"
+  },
+  {
+    "name": "Haida",
+    "type": "reservation",
+    "id": "haida"
+  },
+  {
+    "name": "Haines Junction",
+    "type": "reservation",
+    "id": "hainesJunction"
+  },
+  {
+    "name": "Halfway",
+    "type": "reservation",
+    "id": "halfway"
+  },
+  {
+    "name": "Hall Beach",
+    "type": "reservation",
+    "id": "hallBeach"
+  },
+  {
+    "name": "Hartley Bay",
+    "type": "reservation",
+    "id": "hartleyBay"
+  },
+  {
+    "name": "Hay Lakes",
+    "type": "reservation",
+    "id": "hayLakes"
+  },
+  {
+    "name": "Hazelton",
+    "type": "reservation",
+    "id": "hazelton"
+  },
+  {
+    "name": "Heart Lake",
+    "type": "reservation",
+    "id": "heartLake"
+  },
+  {
+    "name": "Herschel Island",
+    "type": "reservation",
+    "id": "herschelIsland"
+  },
+  {
+    "name": "Hesquiaht",
+    "type": "reservation",
+    "id": "hesquiaht"
+  },
+  {
+    "name": "High Bar",
+    "type": "reservation",
+    "id": "highBar"
+  },
+  {
+    "name": "Hobbema Agency",
+    "type": "reservation",
+    "id": "hobbemaAgency"
+  },
+  {
+    "name": "Holman Island",
+    "type": "reservation",
+    "id": "holmanIsland"
+  },
+  {
+    "name": "Homalco",
+    "type": "reservation",
+    "id": "homalco"
+  },
+  {
+    "name": "Hope",
+    "type": "reservation",
+    "id": "hope"
+  },
+  {
+    "name": "Horse Lake",
+    "type": "reservation",
+    "id": "horseLake"
+  },
+  {
+    "name": "Houston",
+    "type": "reservation",
+    "id": "houston"
+  },
+  {
+    "name": "Hudson Hope",
+    "type": "reservation",
+    "id": "hudsonHope"
+  },
+  {
+    "name": "Hurons",
+    "type": "reservation",
+    "id": "hurons"
+  },
+  {
+    "name": "Iglooik",
+    "type": "reservation",
+    "id": "iglooik"
+  },
+  {
+    "name": "Iglootalik",
+    "type": "reservation",
+    "id": "iglootalik"
+  },
+  {
+    "name": "Imigen",
+    "type": "reservation",
+    "id": "imigen"
+  },
+  {
+    "name": "Ingenika",
+    "type": "reservation",
+    "id": "ingenika"
+  },
+  {
+    "name": "Inkamoop",
+    "type": "reservation",
+    "id": "inkamoop"
+  },
+  {
+    "name": "Inuvik",
+    "type": "reservation",
+    "id": "inuvik"
+  },
+  {
+    "name": "Island Falls",
+    "type": "reservation",
+    "id": "islandFalls"
+  },
+  {
+    "name": "Island Lake",
+    "type": "reservation",
+    "id": "islandLake"
+  },
+  {
+    "name": "Islington",
+    "type": "reservation",
+    "id": "islington"
+  },
+  {
+    "name": "James Bay Agency",
+    "type": "reservation",
+    "id": "jamesBayAgency"
+  },
+  {
+    "name": "James Smith",
+    "type": "reservation",
+    "id": "jamesSmith"
+  },
+  {
+    "name": "Janvier",
+    "type": "reservation",
+    "id": "janvier"
+  },
+  {
+    "name": "Jean Baptiste",
+    "type": "reservation",
+    "id": "jeanBaptiste"
+  },
+  {
+    "name": "Jean Marie River",
+    "type": "reservation",
+    "id": "jeanMarieRiver"
+  },
+  {
+    "name": "John Smith",
+    "type": "reservation",
+    "id": "johnSmith"
+  },
+  {
+    "name": "Johnson's Crossing",
+    "type": "reservation",
+    "id": "johnsonsCrossing"
+  },
+  {
+    "name": "Joseph Bighead",
+    "type": "reservation",
+    "id": "josephBighead"
+  },
+  {
+    "name": "Kahkewhistehew",
+    "type": "reservation",
+    "id": "kahkewhistehew"
+  },
+  {
+    "name": "Kakisa",
+    "type": "reservation",
+    "id": "kakisa"
+  },
+  {
+    "name": "Kamloops",
+    "type": "reservation",
+    "id": "kamloops"
+  },
+  {
+    "name": "Kanaka Bar",
+    "type": "reservation",
+    "id": "kanakaBar"
+  },
+  {
+    "name": "Katsie",
+    "type": "reservation",
+    "id": "katsie"
+  },
+  {
+    "name": "Katz",
+    "type": "reservation",
+    "id": "katz"
+  },
+  {
+    "name": "Keeseekoose",
+    "type": "reservation",
+    "id": "keeseekoose"
+  },
+  {
+    "name": "Kehewin",
+    "type": "reservation",
+    "id": "kehewin"
+  },
+  {
+    "name": "Kemano",
+    "type": "reservation",
+    "id": "kemano"
+  },
+  {
+    "name": "Key",
+    "type": "reservation",
+    "id": "key"
+  },
+  {
+    "name": "Kilgard",
+    "type": "reservation",
+    "id": "kilgard"
+  },
+  {
+    "name": "Kincolith",
+    "type": "reservation",
+    "id": "kincolith"
+  },
+  {
+    "name": "Kingcombe",
+    "type": "reservation",
+    "id": "kingcombe"
+  },
+  {
+    "name": "Kinistino",
+    "type": "reservation",
+    "id": "kinistino"
+  },
+  {
+    "name": "Kispiox",
+    "type": "reservation",
+    "id": "kispiox"
+  },
+  {
+    "name": "Kitamaat",
+    "type": "reservation",
+    "id": "kitamaat"
+  },
+  {
+    "name": "Kitasoo",
+    "type": "reservation",
+    "id": "kitasoo"
+  },
+  {
+    "name": "Kitikshan",
+    "type": "reservation",
+    "id": "kitikshan"
+  },
+  {
+    "name": "Kitkatla",
+    "type": "reservation",
+    "id": "kitkatla"
+  },
+  {
+    "name": "Kitlakdamix",
+    "type": "reservation",
+    "id": "kitlakdamix"
+  },
+  {
+    "name": "Kitlope",
+    "type": "reservation",
+    "id": "kitlope"
+  },
+  {
+    "name": "Kitsegucla",
+    "type": "reservation",
+    "id": "kitsegucla"
+  },
+  {
+    "name": "Kitselas",
+    "type": "reservation",
+    "id": "kitselas"
+  },
+  {
+    "name": "Kitsumkalum",
+    "type": "reservation",
+    "id": "kitsumkalum"
+  },
+  {
+    "name": "Kitwancool",
+    "type": "reservation",
+    "id": "kitwancool"
+  },
+  {
+    "name": "Kitwanga",
+    "type": "reservation",
+    "id": "kitwanga"
+  },
+  {
+    "name": "Klahoose",
+    "type": "reservation",
+    "id": "klahoose"
+  },
+  {
+    "name": "Klemtu",
+    "type": "reservation",
+    "id": "klemtu"
+  },
+  {
+    "name": "Klowitsis",
+    "type": "reservation",
+    "id": "klowitsis"
+  },
+  {
+    "name": "Kluane Lake",
+    "type": "reservation",
+    "id": "kluaneLake"
+  },
+  {
+    "name": "Kluskus",
+    "type": "reservation",
+    "id": "kluskus"
+  },
+  {
+    "name": "Koksilah",
+    "type": "reservation",
+    "id": "koksilah"
+  },
+  {
+    "name": "Kyoquot",
+    "type": "reservation",
+    "id": "kyoquot"
+  },
+  {
+    "name": "La Romaine",
+    "type": "reservation",
+    "id": "laRomaine"
+  },
+  {
+    "name": "Laberge",
+    "type": "reservation",
+    "id": "laberge"
+  },
+  {
+    "name": "Lac des Mille Lacs",
+    "type": "reservation",
+    "id": "lacdesMilleLacs"
+  },
+  {
+    "name": "Lac La Biche",
+    "type": "reservation",
+    "id": "lacLaBiche"
+  },
+  {
+    "name": "Lac La Ronge",
+    "type": "reservation",
+    "id": "lacLaRonge"
+  },
+  {
+    "name": "Lac Seul",
+    "type": "reservation",
+    "id": "lacSeul"
+  },
+  {
+    "name": "Lac Simon",
+    "type": "reservation",
+    "id": "lacSimon"
+  },
+  {
+    "name": "Lac Victoria",
+    "type": "reservation",
+    "id": "lacVictoria"
+  },
+  {
+    "name": "Lac-Ste-Anne",
+    "type": "reservation",
+    "id": "lacSteAnne"
+  },
+  {
+    "name": "Lady Franklin Point",
+    "type": "reservation",
+    "id": "ladyFranklinPoint"
+  },
+  {
+    "name": "Lake Babine",
+    "type": "reservation",
+    "id": "lakeBabine"
+  },
+  {
+    "name": "Lake Cowichan",
+    "type": "reservation",
+    "id": "lakeCowichan"
+  },
+  {
+    "name": "Lake Harbour",
+    "type": "reservation",
+    "id": "lakeHarbour"
+  },
+  {
+    "name": "Lake Manitoba",
+    "type": "reservation",
+    "id": "lakeManitoba"
+  },
+  {
+    "name": "Lake Similk",
+    "type": "reservation",
+    "id": "lakeSimilk"
+  },
+  {
+    "name": "Lake Tache",
+    "type": "reservation",
+    "id": "lakeTache"
+  },
+  {
+    "name": "Lansing Creek",
+    "type": "reservation",
+    "id": "lansingCreek"
+  },
+  {
+    "name": "Leask",
+    "type": "reservation",
+    "id": "leask"
+  },
+  {
+    "name": "Les Escoumins",
+    "type": "reservation",
+    "id": "lesEscoumins"
+  },
+  {
+    "name": "Lesser Slave Lake",
+    "type": "reservation",
+    "id": "lesserSlaveLake"
+  },
+  {
+    "name": "Liard",
+    "type": "reservation",
+    "id": "liard"
+  },
+  {
+    "name": "Liard River",
+    "type": "reservation",
+    "id": "liardRiver"
+  },
+  {
+    "name": "Lillooet",
+    "type": "reservation",
+    "id": "lillooet"
+  },
+  {
+    "name": "Little Black Bear",
+    "type": "reservation",
+    "id": "littleBlackBear"
+  },
+  {
+    "name": "Little Pine",
+    "type": "reservation",
+    "id": "littlePine"
+  },
+  {
+    "name": "Little Red River",
+    "type": "reservation",
+    "id": "littleRedRiver"
+  },
+  {
+    "name": "Little Shuswap",
+    "type": "reservation",
+    "id": "littleShuswap"
+  },
+  {
+    "name": "Long Island",
+    "type": "reservation",
+    "id": "longIsland"
+  },
+  {
+    "name": "Long Lake",
+    "type": "reservation",
+    "id": "longLake"
+  },
+  {
+    "name": "Long Plain",
+    "type": "reservation",
+    "id": "longPlain"
+  },
+  {
+    "name": "Longue-Pointe",
+    "type": "reservation",
+    "id": "longuePointe"
+  },
+  {
+    "name": "Loon Lake",
+    "type": "reservation",
+    "id": "loonLake"
+  },
+  {
+    "name": "Loucheaux",
+    "type": "reservation",
+    "id": "loucheaux"
+  },
+  {
+    "name": "Louis Bull",
+    "type": "reservation",
+    "id": "louisBull"
+  },
+  {
+    "name": "Lower Kootenay",
+    "type": "reservation",
+    "id": "lowerKootenay"
+  },
+  {
+    "name": "Lower Nicola",
+    "type": "reservation",
+    "id": "lowerNicola"
+  },
+  {
+    "name": "Lower Post",
+    "type": "reservation",
+    "id": "lowerPost"
+  },
+  {
+    "name": "Lower Similkameen",
+    "type": "reservation",
+    "id": "lowerSimilkameen"
+  },
+  {
+    "name": "Lubicon Lake",
+    "type": "reservation",
+    "id": "lubiconLake"
+  },
+  {
+    "name": "Lytton",
+    "type": "reservation",
+    "id": "lytton"
+  },
+  {
+    "name": "Mackenzie Delta",
+    "type": "reservation",
+    "id": "mackenzieDelta"
+  },
+  {
+    "name": "Malahat",
+    "type": "reservation",
+    "id": "malahat"
+  },
+  {
+    "name": "Maliotenam",
+    "type": "reservation",
+    "id": "maliotenam"
+  },
+  {
+    "name": "Maniwaki",
+    "type": "reservation",
+    "id": "maniwaki"
+  },
+  {
+    "name": "Manouane",
+    "type": "reservation",
+    "id": "manouane"
+  },
+  {
+    "name": "Manowan",
+    "type": "reservation",
+    "id": "manowan"
+  },
+  {
+    "name": "Manson Creek",
+    "type": "reservation",
+    "id": "mansonCreek"
+  },
+  {
+    "name": "Maple Creek",
+    "type": "reservation",
+    "id": "mapleCreek"
+  },
+  {
+    "name": "Marion Lake",
+    "type": "reservation",
+    "id": "marionLake"
+  },
+  {
+    "name": "Marten Lake",
+    "type": "reservation",
+    "id": "martenLake"
+  },
+  {
+    "name": "Martin Falls",
+    "type": "reservation",
+    "id": "martinFalls"
+  },
+  {
+    "name": "Masset",
+    "type": "reservation",
+    "id": "masset"
+  },
+  {
+    "name": "Matilpi",
+    "type": "reservation",
+    "id": "matilpi"
+  },
+  {
+    "name": "Matsqui",
+    "type": "reservation",
+    "id": "matsqui"
+  },
+  {
+    "name": "Maurice",
+    "type": "reservation",
+    "id": "maurice"
+  },
+  {
+    "name": "Maxim Lake",
+    "type": "reservation",
+    "id": "maximLake"
+  },
+  {
+    "name": "Mayo",
+    "type": "reservation",
+    "id": "mayo"
+  },
+  {
+    "name": "McDame",
+    "type": "reservation",
+    "id": "mcDame"
+  },
+  {
+    "name": "McLeod",
+    "type": "reservation",
+    "id": "mcLeod"
+  },
+  {
+    "name": "McMurray",
+    "type": "reservation",
+    "id": "mcMurray"
+  },
+  {
+    "name": "Merritt",
+    "type": "reservation",
+    "id": "merritt"
+  },
+  {
+    "name": "Metlakatla",
+    "type": "reservation",
+    "id": "metlakatla"
+  },
+  {
+    "name": "Michel",
+    "type": "reservation",
+    "id": "michel"
+  },
+  {
+    "name": "Michel Reserve",
+    "type": "reservation",
+    "id": "michelReserve"
+  },
+  {
+    "name": "Mile 898",
+    "type": "reservation",
+    "id": "mile898"
+  },
+  {
+    "name": "Mingan",
+    "type": "reservation",
+    "id": "mingan"
+  },
+  {
+    "name": "Missanabie",
+    "type": "reservation",
+    "id": "missanabie"
+  },
+  {
+    "name": "Mistawasis",
+    "type": "reservation",
+    "id": "mistawasis"
+  },
+  {
+    "name": "Mistissini",
+    "type": "reservation",
+    "id": "mistissini"
+  },
+  {
+    "name": "Montagnais (Lac Saint-Jean)",
+    "type": "reservation",
+    "id": "montagnaisLacSaintJean"
+  },
+  {
+    "name": "Montana",
+    "type": "reservation",
+    "id": "montana"
+  },
+  {
+    "name": "Montreal Lake",
+    "type": "reservation",
+    "id": "montrealLake"
+  },
+  {
+    "name": "Moose Fort",
+    "type": "reservation",
+    "id": "mooseFort"
+  },
+  {
+    "name": "Moose Woods",
+    "type": "reservation",
+    "id": "mooseWoods"
+  },
+  {
+    "name": "Moosehide",
+    "type": "reservation",
+    "id": "moosehide"
+  },
+  {
+    "name": "Moosonee",
+    "type": "reservation",
+    "id": "moosonee"
+  },
+  {
+    "name": "Moricetown",
+    "type": "reservation",
+    "id": "moricetown"
+  },
+  {
+    "name": "Mosquito",
+    "type": "reservation",
+    "id": "mosquito"
+  },
+  {
+    "name": "Mount Currie",
+    "type": "reservation",
+    "id": "mountCurrie"
+  },
+  {
+    "name": "Muchalat",
+    "type": "reservation",
+    "id": "muchalat"
+  },
+  {
+    "name": "Muncey",
+    "type": "reservation",
+    "id": "muncey"
+  },
+  {
+    "name": "Muscopetung",
+    "type": "reservation",
+    "id": "muscopetung"
+  },
+  {
+    "name": "Muscowequan",
+    "type": "reservation",
+    "id": "muscowequan"
+  },
+  {
+    "name": "Muscowpetung",
+    "type": "reservation",
+    "id": "muscowpetung"
+  },
+  {
+    "name": "Musqueam",
+    "type": "reservation",
+    "id": "musqueam"
+  },
+  {
+    "name": "Nahanni",
+    "type": "reservation",
+    "id": "nahanni"
+  },
+  {
+    "name": "Nahanni Butte",
+    "type": "reservation",
+    "id": "nahanniButte"
+  },
+  {
+    "name": "Nakwakto",
+    "type": "reservation",
+    "id": "nakwakto"
+  },
+  {
+    "name": "Namew",
+    "type": "reservation",
+    "id": "namew"
+  },
+  {
+    "name": "Nanaimo",
+    "type": "reservation",
+    "id": "nanaimo"
+  },
+  {
+    "name": "Nanoose",
+    "type": "reservation",
+    "id": "nanoose"
+  },
+  {
+    "name": "Natashquan",
+    "type": "reservation",
+    "id": "natashquan"
+  },
+  {
+    "name": "Nazko",
+    "type": "reservation",
+    "id": "nazko"
+  },
+  {
+    "name": "Necosalie",
+    "type": "reservation",
+    "id": "necosalie"
+  },
+  {
+    "name": "Nelson River",
+    "type": "reservation",
+    "id": "nelsonRiver"
+  },
+  {
+    "name": "Nemiah Valley",
+    "type": "reservation",
+    "id": "nemiahValley"
+  },
+  {
+    "name": "Nepigon",
+    "type": "reservation",
+    "id": "nepigon"
+  },
+  {
+    "name": "Neskainlith",
+    "type": "reservation",
+    "id": "neskainlith"
+  },
+  {
+    "name": "New Brunswick House",
+    "type": "reservation",
+    "id": "newBrunswickHouse"
+  },
+  {
+    "name": "Nicoamen",
+    "type": "reservation",
+    "id": "nicoamen"
+  },
+  {
+    "name": "Nicola",
+    "type": "reservation",
+    "id": "nicola"
+  },
+  {
+    "name": "Nimkish",
+    "type": "reservation",
+    "id": "nimkish"
+  },
+  {
+    "name": "Nishga",
+    "type": "reservation",
+    "id": "nishga"
+  },
+  {
+    "name": "Nitinaht",
+    "type": "reservation",
+    "id": "nitinaht"
+  },
+  {
+    "name": "Nitinat",
+    "type": "reservation",
+    "id": "nitinat"
+  },
+  {
+    "name": "Nootka",
+    "type": "reservation",
+    "id": "nootka"
+  },
+  {
+    "name": "Norman Wells",
+    "type": "reservation",
+    "id": "normanWells"
+  },
+  {
+    "name": "North Takla",
+    "type": "reservation",
+    "id": "northTakla"
+  },
+  {
+    "name": "North Thompson",
+    "type": "reservation",
+    "id": "northThompson"
+  },
+  {
+    "name": "North West Angle No 33",
+    "type": "reservation",
+    "id": "northWestAngleNo33"
+  },
+  {
+    "name": "North West Angle No 37",
+    "type": "reservation",
+    "id": "northWestAngleNo37"
+  },
+  {
+    "name": "Nuchatlaht",
+    "type": "reservation",
+    "id": "nuchatlaht"
+  },
+  {
+    "name": "Nuchatlitz",
+    "type": "reservation",
+    "id": "nuchatlitz"
+  },
+  {
+    "name": "Nut Lake",
+    "type": "reservation",
+    "id": "nutLake"
+  },
+  {
+    "name": "O'Hawel",
+    "type": "reservation",
+    "id": "oHawel"
+  },
+  {
+    "name": "Obedjiwan",
+    "type": "reservation",
+    "id": "obedjiwan"
+  },
+  {
+    "name": "Ochapawace",
+    "type": "reservation",
+    "id": "ochapawace"
+  },
+  {
+    "name": "Odanak",
+    "type": "reservation",
+    "id": "odanak"
+  },
+  {
+    "name": "Ohiat",
+    "type": "reservation",
+    "id": "ohiat"
+  },
+  {
+    "name": "Okanagan",
+    "type": "reservation",
+    "id": "okanagan"
+  },
+  {
+    "name": "Okanogan",
+    "type": "reservation",
+    "id": "okanogan"
+  },
+  {
+    "name": "Old Crow",
+    "type": "reservation",
+    "id": "oldCrow"
+  },
+  {
+    "name": "Old Factory",
+    "type": "reservation",
+    "id": "oldFactory"
+  },
+  {
+    "name": "Old Fort",
+    "type": "reservation",
+    "id": "oldFort"
+  },
+  {
+    "name": "Omineca",
+    "type": "reservation",
+    "id": "omineca"
+  },
+  {
+    "name": "One",
+    "type": "reservation",
+    "id": "one"
+  },
+  {
+    "name": "One Arrow",
+    "type": "reservation",
+    "id": "oneArrow"
+  },
+  {
+    "name": "Onion Lake",
+    "type": "reservation",
+    "id": "onionLake"
+  },
+  {
+    "name": "Opitsaht",
+    "type": "reservation",
+    "id": "opitsaht"
+  },
+  {
+    "name": "Opitsat",
+    "type": "reservation",
+    "id": "opitsat"
+  },
+  {
+    "name": "Oregon Jack",
+    "type": "reservation",
+    "id": "oregonJack"
+  },
+  {
+    "name": "Osnaburgh",
+    "type": "reservation",
+    "id": "osnaburgh"
+  },
+  {
+    "name": "Osoyoos",
+    "type": "reservation",
+    "id": "osoyoos"
+  },
+  {
+    "name": "Oweekano",
+    "type": "reservation",
+    "id": "oweekano"
+  },
+  {
+    "name": "Pacheenaht",
+    "type": "reservation",
+    "id": "pacheenaht"
+  },
+  {
+    "name": "Paint Hills",
+    "type": "reservation",
+    "id": "paintHills"
+  },
+  {
+    "name": "Pangnirtung",
+    "type": "reservation",
+    "id": "pangnirtung"
+  },
+  {
+    "name": "Parry Island",
+    "type": "reservation",
+    "id": "parryIsland"
+  },
+  {
+    "name": "Pas",
+    "type": "reservation",
+    "id": "pas"
+  },
+  {
+    "name": "Pasqua",
+    "type": "reservation",
+    "id": "pasqua"
+  },
+  {
+    "name": "Paulaktuk",
+    "type": "reservation",
+    "id": "paulaktuk"
+  },
+  {
+    "name": "Pauquachin",
+    "type": "reservation",
+    "id": "pauquachin"
+  },
+  {
+    "name": "Pavillion",
+    "type": "reservation",
+    "id": "pavillion"
+  },
+  {
+    "name": "Pays-Plat",
+    "type": "reservation",
+    "id": "paysPlat"
+  },
+  {
+    "name": "Peel River",
+    "type": "reservation",
+    "id": "peelRiver"
+  },
+  {
+    "name": "Peepeekeesis",
+    "type": "reservation",
+    "id": "peepeekeesis"
+  },
+  {
+    "name": "Peguis",
+    "type": "reservation",
+    "id": "peguis"
+  },
+  {
+    "name": "Peigan",
+    "type": "reservation",
+    "id": "peigan"
+  },
+  {
+    "name": "Pelly",
+    "type": "reservation",
+    "id": "pelly"
+  },
+  {
+    "name": "Pelly Bay",
+    "type": "reservation",
+    "id": "pellyBay"
+  },
+  {
+    "name": "Pelly Crossing",
+    "type": "reservation",
+    "id": "pellyCrossing"
+  },
+  {
+    "name": "Pelly Lakes",
+    "type": "reservation",
+    "id": "pellyLakes"
+  },
+  {
+    "name": "Pemberton",
+    "type": "reservation",
+    "id": "pemberton"
+  },
+  {
+    "name": "Penelakut",
+    "type": "reservation",
+    "id": "penelakut"
+  },
+  {
+    "name": "Penticton",
+    "type": "reservation",
+    "id": "penticton"
+  },
+  {
+    "name": "Perry River",
+    "type": "reservation",
+    "id": "perryRiver"
+  },
+  {
+    "name": "Peter Ballantyne",
+    "type": "reservation",
+    "id": "peterBallantyne"
+  },
+  {
+    "name": "Piapot",
+    "type": "reservation",
+    "id": "piapot"
+  },
+  {
+    "name": "Pic Mobert",
+    "type": "reservation",
+    "id": "picMobert"
+  },
+  {
+    "name": "Pic River",
+    "type": "reservation",
+    "id": "picRiver"
+  },
+  {
+    "name": "PIN Main",
+    "type": "reservation",
+    "id": "pINMain"
+  },
+  {
+    "name": "Pinchi",
+    "type": "reservation",
+    "id": "pinchi"
+  },
+  {
+    "name": "Pine Point",
+    "type": "reservation",
+    "id": "pinePoint"
+  },
+  {
+    "name": "Pointe Bleue",
+    "type": "reservation",
+    "id": "pointeBleue"
+  },
+  {
+    "name": "Pointe-Bleue Montagnais",
+    "type": "reservation",
+    "id": "pointeBleueMontagnais"
+  },
+  {
+    "name": "Pond Inlet",
+    "type": "reservation",
+    "id": "pondInlet"
+  },
+  {
+    "name": "Poorman",
+    "type": "reservation",
+    "id": "poorman"
+  },
+  {
+    "name": "Port Alberni",
+    "type": "reservation",
+    "id": "portAlberni"
+  },
+  {
+    "name": "Port Douglas",
+    "type": "reservation",
+    "id": "portDouglas"
+  },
+  {
+    "name": "Port Essington",
+    "type": "reservation",
+    "id": "portEssington"
+  },
+  {
+    "name": "Port Renfrew",
+    "type": "reservation",
+    "id": "portRenfrew"
+  },
+  {
+    "name": "Port Simpson",
+    "type": "reservation",
+    "id": "portSimpson"
+  },
+  {
+    "name": "Portage",
+    "type": "reservation",
+    "id": "portage"
+  },
+  {
+    "name": "Poundmaker",
+    "type": "reservation",
+    "id": "poundmaker"
+  },
+  {
+    "name": "Prince Albert",
+    "type": "reservation",
+    "id": "princeAlbert"
+  },
+  {
+    "name": "Prince Rupert",
+    "type": "reservation",
+    "id": "princeRupert"
+  },
+  {
+    "name": "Providence",
+    "type": "reservation",
+    "id": "providence"
+  },
+  {
+    "name": "Qu' Appelle",
+    "type": "reservation",
+    "id": "quAppelle"
+  },
+  {
+    "name": "Quamichan",
+    "type": "reservation",
+    "id": "quamichan"
+  },
+  {
+    "name": "Quatsino",
+    "type": "reservation",
+    "id": "quatsino"
+  },
+  {
+    "name": "Queen Charlotte",
+    "type": "reservation",
+    "id": "queenCharlotte"
+  },
+  {
+    "name": "Quesnel",
+    "type": "reservation",
+    "id": "quesnel"
+  },
+  {
+    "name": "Rama",
+    "type": "reservation",
+    "id": "rama"
+  },
+  {
+    "name": "Rankin Inlet",
+    "type": "reservation",
+    "id": "rankinInlet"
+  },
+  {
+    "name": "Rat Portage",
+    "type": "reservation",
+    "id": "ratPortage"
+  },
+  {
+    "name": "Ray Rock",
+    "type": "reservation",
+    "id": "rayRock"
+  },
+  {
+    "name": "Read Island",
+    "type": "reservation",
+    "id": "readIsland"
+  },
+  {
+    "name": "Red Earth",
+    "type": "reservation",
+    "id": "redEarth"
+  },
+  {
+    "name": "Redstone",
+    "type": "reservation",
+    "id": "redstone"
+  },
+  {
+    "name": "Reid Island",
+    "type": "reservation",
+    "id": "reidIsland"
+  },
+  {
+    "name": "Reindeer Camp",
+    "type": "reservation",
+    "id": "reindeerCamp"
+  },
+  {
+    "name": "Reindeer Station",
+    "type": "reservation",
+    "id": "reindeerStation"
+  },
+  {
+    "name": "Repulse Bay",
+    "type": "reservation",
+    "id": "repulseBay"
+  },
+  {
+    "name": "Resolute Bay",
+    "type": "reservation",
+    "id": "resoluteBay"
+  },
+  {
+    "name": "Rhymer Point",
+    "type": "reservation",
+    "id": "rhymerPoint"
+  },
+  {
+    "name": "Richardson Island",
+    "type": "reservation",
+    "id": "richardsonIsland"
+  },
+  {
+    "name": "Riske Creek",
+    "type": "reservation",
+    "id": "riskeCreek"
+  },
+  {
+    "name": "River Desert",
+    "type": "reservation",
+    "id": "riverDesert"
+  },
+  {
+    "name": "Rocher River",
+    "type": "reservation",
+    "id": "rocherRiver"
+  },
+  {
+    "name": "Rocky Mountain House",
+    "type": "reservation",
+    "id": "rockyMountainHouse"
+  },
+  {
+    "name": "Ross River",
+    "type": "reservation",
+    "id": "rossRiver"
+  },
+  {
+    "name": "Royal River",
+    "type": "reservation",
+    "id": "royalRiver"
+  },
+  {
+    "name": "Rupert House",
+    "type": "reservation",
+    "id": "rupertHouse"
+  },
+  {
+    "name": "Rymer Point",
+    "type": "reservation",
+    "id": "rymerPoint"
+  },
+  {
+    "name": "Saanich",
+    "type": "reservation",
+    "id": "saanich"
+  },
+  {
+    "name": "Saanichton",
+    "type": "reservation",
+    "id": "saanichton"
+  },
+  {
+    "name": "Saanish",
+    "type": "reservation",
+    "id": "saanish"
+  },
+  {
+    "name": "Sachs Harbour",
+    "type": "reservation",
+    "id": "sachsHarbour"
+  },
+  {
+    "name": "Saddle Lake",
+    "type": "reservation",
+    "id": "saddleLake"
+  },
+  {
+    "name": "Sakimay",
+    "type": "reservation",
+    "id": "sakimay"
+  },
+  {
+    "name": "Sakimay",
+    "type": "reservation",
+    "id": "sakimay"
+  },
+  {
+    "name": "Salishan",
+    "type": "reservation",
+    "id": "salishan"
+  },
+  {
+    "name": "Salmon River",
+    "type": "reservation",
+    "id": "salmonRiver"
+  },
+  {
+    "name": "Samson",
+    "type": "reservation",
+    "id": "samson"
+  },
+  {
+    "name": "Samson",
+    "type": "reservation",
+    "id": "samson"
+  },
+  {
+    "name": "Sandy Bay",
+    "type": "reservation",
+    "id": "sandyBay"
+  },
+  {
+    "name": "Sandy Lake",
+    "type": "reservation",
+    "id": "sandyLake"
+  },
+  {
+    "name": "Sanikiluaq",
+    "type": "reservation",
+    "id": "sanikiluaq"
+  },
+  {
+    "name": "Sarcee",
+    "type": "reservation",
+    "id": "sarcee"
+  },
+  {
+    "name": "Sarita",
+    "type": "reservation",
+    "id": "sarita"
+  },
+  {
+    "name": "Savanne",
+    "type": "reservation",
+    "id": "savanne"
+  },
+  {
+    "name": "Schefferville",
+    "type": "reservation",
+    "id": "schefferville"
+  },
+  {
+    "name": "Scotty Creek",
+    "type": "reservation",
+    "id": "scottyCreek"
+  },
+  {
+    "name": "Scowlitz",
+    "type": "reservation",
+    "id": "scowlitz"
+  },
+  {
+    "name": "Seabird Island",
+    "type": "reservation",
+    "id": "seabirdIsland"
+  },
+  {
+    "name": "Sechelt",
+    "type": "reservation",
+    "id": "sechelt"
+  },
+  {
+    "name": "Seine River",
+    "type": "reservation",
+    "id": "seineRiver"
+  },
+  {
+    "name": "Sekanis",
+    "type": "reservation",
+    "id": "sekanis"
+  },
+  {
+    "name": "Sekanni",
+    "type": "reservation",
+    "id": "sekanni"
+  },
+  {
+    "name": "Selkirk",
+    "type": "reservation",
+    "id": "selkirk"
+  },
+  {
+    "name": "Semiahmoo",
+    "type": "reservation",
+    "id": "semiahmoo"
+  },
+  {
+    "name": "Senneterre",
+    "type": "reservation",
+    "id": "senneterre"
+  },
+  {
+    "name": "Seton Lake",
+    "type": "reservation",
+    "id": "setonLake"
+  },
+  {
+    "name": "Seven Islands",
+    "type": "reservation",
+    "id": "sevenIslands"
+  },
+  {
+    "name": "Shacken",
+    "type": "reservation",
+    "id": "shacken"
+  },
+  {
+    "name": "Shamatwa",
+    "type": "reservation",
+    "id": "shamatwa"
+  },
+  {
+    "name": "Shaousaht",
+    "type": "reservation",
+    "id": "shaousaht"
+  },
+  {
+    "name": "Shelly",
+    "type": "reservation",
+    "id": "shelly"
+  },
+  {
+    "name": "Shoal Lake",
+    "type": "reservation",
+    "id": "shoalLake"
+  },
+  {
+    "name": "Shulus",
+    "type": "reservation",
+    "id": "shulus"
+  },
+  {
+    "name": "Shuswap",
+    "type": "reservation",
+    "id": "shuswap"
+  },
+  {
+    "name": "Similkameen",
+    "type": "reservation",
+    "id": "similkameen"
+  },
+  {
+    "name": "Siska",
+    "type": "reservation",
+    "id": "siska"
+  },
+  {
+    "name": "Skeah",
+    "type": "reservation",
+    "id": "skeah"
+  },
+  {
+    "name": "Skeena Crossing",
+    "type": "reservation",
+    "id": "skeenaCrossing"
+  },
+  {
+    "name": "Skeena River",
+    "type": "reservation",
+    "id": "skeenaRiver"
+  },
+  {
+    "name": "Skidegate",
+    "type": "reservation",
+    "id": "skidegate"
+  },
+  {
+    "name": "Skuppah",
+    "type": "reservation",
+    "id": "skuppah"
+  },
+  {
+    "name": "Skwah",
+    "type": "reservation",
+    "id": "skwah"
+  },
+  {
+    "name": "Slave Lake",
+    "type": "reservation",
+    "id": "slaveLake"
+  },
+  {
+    "name": "Slavey",
+    "type": "reservation",
+    "id": "slavey"
+  },
+  {
+    "name": "Sliammon",
+    "type": "reservation",
+    "id": "sliammon"
+  },
+  {
+    "name": "Smith Band",
+    "type": "reservation",
+    "id": "smithBand"
+  },
+  {
+    "name": "Snag Point",
+    "type": "reservation",
+    "id": "snagPoint"
+  },
+  {
+    "name": "Snowdrift",
+    "type": "reservation",
+    "id": "snowdrift"
+  },
+  {
+    "name": "Soda Creek",
+    "type": "reservation",
+    "id": "sodaCreek"
+  },
+  {
+    "name": "Somenos",
+    "type": "reservation",
+    "id": "somenos"
+  },
+  {
+    "name": "Songhees",
+    "type": "reservation",
+    "id": "songhees"
+  },
+  {
+    "name": "Soowahlia",
+    "type": "reservation",
+    "id": "soowahlia"
+  },
+  {
+    "name": "Southbank",
+    "type": "reservation",
+    "id": "southbank"
+  },
+  {
+    "name": "Spallumchene",
+    "type": "reservation",
+    "id": "spallumchene"
+  },
+  {
+    "name": "Spedden",
+    "type": "reservation",
+    "id": "spedden"
+  },
+  {
+    "name": "Spence Bay",
+    "type": "reservation",
+    "id": "spenceBay"
+  },
+  {
+    "name": "Spences Bridge",
+    "type": "reservation",
+    "id": "spencesBridge"
+  },
+  {
+    "name": "Split Lake",
+    "type": "reservation",
+    "id": "splitLake"
+  },
+  {
+    "name": "Splitriver",
+    "type": "reservation",
+    "id": "splitriver"
+  },
+  {
+    "name": "Spuzzum",
+    "type": "reservation",
+    "id": "spuzzum"
+  },
+  {
+    "name": "Squamish",
+    "type": "reservation",
+    "id": "squamish"
+  },
+  {
+    "name": "Squamish River",
+    "type": "reservation",
+    "id": "squamishRiver"
+  },
+  {
+    "name": "Squanga Lake",
+    "type": "reservation",
+    "id": "squangaLake"
+  },
+  {
+    "name": "St-Augustine",
+    "type": "reservation",
+    "id": "stAugustine"
+  },
+  {
+    "name": "St. Mary’s",
+    "type": "reservation",
+    "id": "stMarys"
+  },
+  {
+    "name": "Standing Buffalo",
+    "type": "reservation",
+    "id": "standingBuffalo"
+  },
+  {
+    "name": "Star Blanket",
+    "type": "reservation",
+    "id": "starBlanket"
+  },
+  {
+    "name": "Stella",
+    "type": "reservation",
+    "id": "stella"
+  },
+  {
+    "name": "Stellaquo",
+    "type": "reservation",
+    "id": "stellaquo"
+  },
+  {
+    "name": "Steward River",
+    "type": "reservation",
+    "id": "stewardRiver"
+  },
+  {
+    "name": "Stikine",
+    "type": "reservation",
+    "id": "stikine"
+  },
+  {
+    "name": "Stone (Stoney)",
+    "type": "reservation",
+    "id": "stoney"
+  },
+  {
+    "name": "Stony",
+    "type": "reservation",
+    "id": "stony"
+  },
+  {
+    "name": "Stony Creek",
+    "type": "reservation",
+    "id": "stonyCreek"
+  },
+  {
+    "name": "Stuart Lake",
+    "type": "reservation",
+    "id": "stuartLake"
+  },
+  {
+    "name": "Sturgeon Lake",
+    "type": "reservation",
+    "id": "sturgeonLake"
+  },
+  {
+    "name": "Styne",
+    "type": "reservation",
+    "id": "styne"
+  },
+  {
+    "name": "Sumas",
+    "type": "reservation",
+    "id": "sumas"
+  },
+  {
+    "name": "Sunchild",
+    "type": "reservation",
+    "id": "sunchild"
+  },
+  {
+    "name": "Sweet Grass",
+    "type": "reservation",
+    "id": "sweetGrass"
+  },
+  {
+    "name": "Tachi",
+    "type": "reservation",
+    "id": "tachi"
+  },
+  {
+    "name": "Tahltan",
+    "type": "reservation",
+    "id": "tahltan"
+  },
+  {
+    "name": "Takla Lake",
+    "type": "reservation",
+    "id": "taklaLake"
+  },
+  {
+    "name": "Takla Landing",
+    "type": "reservation",
+    "id": "taklaLanding"
+  },
+  {
+    "name": "Tall Cree",
+    "type": "reservation",
+    "id": "tallCree"
+  },
+  {
+    "name": "Telegraph Creek",
+    "type": "reservation",
+    "id": "telegraphCreek"
+  },
+  {
+    "name": "Telkwa",
+    "type": "reservation",
+    "id": "telkwa"
+  },
+  {
+    "name": "Temiscamingue",
+    "type": "reservation",
+    "id": "temiscamingue"
+  },
+  {
+    "name": "Termission",
+    "type": "reservation",
+    "id": "termission"
+  },
+  {
+    "name": "Terrace",
+    "type": "reservation",
+    "id": "terrace"
+  },
+  {
+    "name": "Teslin",
+    "type": "reservation",
+    "id": "teslin"
+  },
+  {
+    "name": "Teslin Lake",
+    "type": "reservation",
+    "id": "teslinLake"
+  },
+  {
+    "name": "Thunderchild",
+    "type": "reservation",
+    "id": "thunderchild"
+  },
+  {
+    "name": "Tobacco Plains",
+    "type": "reservation",
+    "id": "tobaccoPlains"
+  },
+  {
+    "name": "Toosey",
+    "type": "reservation",
+    "id": "toosey"
+  },
+  {
+    "name": "Toquaht",
+    "type": "reservation",
+    "id": "toquaht"
+  },
+  {
+    "name": "Trembleur Lake",
+    "type": "reservation",
+    "id": "trembleurLake"
+  },
+  {
+    "name": "Trembly Lake",
+    "type": "reservation",
+    "id": "tremblyLake"
+  },
+  {
+    "name": "Trout Rock",
+    "type": "reservation",
+    "id": "troutRock"
+  },
+  {
+    "name": "Tsartlip",
+    "type": "reservation",
+    "id": "tsartlip"
+  },
+  {
+    "name": "Tsawassen",
+    "type": "reservation",
+    "id": "tsawassen"
+  },
+  {
+    "name": "Tsawout",
+    "type": "reservation",
+    "id": "tsawout"
+  },
+  {
+    "name": "Tsimpsean",
+    "type": "reservation",
+    "id": "tsimpsean"
+  },
+  {
+    "name": "Tsitsk",
+    "type": "reservation",
+    "id": "tsitsk"
+  },
+  {
+    "name": "Tuakjuak",
+    "type": "reservation",
+    "id": "tuakjuak"
+  },
+  {
+    "name": "Tuktoyaktuk",
+    "type": "reservation",
+    "id": "tuktoyaktuk"
+  },
+  {
+    "name": "Tumour Island",
+    "type": "reservation",
+    "id": "tumourIsland"
+  },
+  {
+    "name": "Turner Island",
+    "type": "reservation",
+    "id": "turnerIsland"
+  },
+  {
+    "name": "Tzeachton",
+    "type": "reservation",
+    "id": "tzeachton"
+  },
+  {
+    "name": "Uchucklasaht",
+    "type": "reservation",
+    "id": "uchucklasaht"
+  },
+  {
+    "name": "Ucluelet",
+    "type": "reservation",
+    "id": "ucluelet"
+  },
+  {
+    "name": "Ulkatcho",
+    "type": "reservation",
+    "id": "ulkatcho"
+  },
+  {
+    "name": "Uncha Lake",
+    "type": "reservation",
+    "id": "unchaLake"
+  },
+  {
+    "name": "Union Bar",
+    "type": "reservation",
+    "id": "unionBar"
+  },
+  {
+    "name": "Upper Laberge",
+    "type": "reservation",
+    "id": "upperLaberge"
+  },
+  {
+    "name": "Upper Liard",
+    "type": "reservation",
+    "id": "upperLiard"
+  },
+  {
+    "name": "Upper Nicola",
+    "type": "reservation",
+    "id": "upperNicola"
+  },
+  {
+    "name": "Vernon",
+    "type": "reservation",
+    "id": "vernon"
+  },
+  {
+    "name": "Victoria Island",
+    "type": "reservation",
+    "id": "victoriaIsland"
+  },
+  {
+    "name": "Wabamun Reserve",
+    "type": "reservation",
+    "id": "wabamunReserve"
+  },
+  {
+    "name": "Wabasca",
+    "type": "reservation",
+    "id": "wabasca"
+  },
+  {
+    "name": "Waswanipi",
+    "type": "reservation",
+    "id": "waswanipi"
+  },
+  {
+    "name": "Watson Lake",
+    "type": "reservation",
+    "id": "watsonLake"
+  },
+  {
+    "name": "Weiweikum",
+    "type": "reservation",
+    "id": "weiweikum"
+  },
+  {
+    "name": "Wesley",
+    "type": "reservation",
+    "id": "wesley"
+  },
+  {
+    "name": "Westbank",
+    "type": "reservation",
+    "id": "westbank"
+  },
+  {
+    "name": "Weymontachie (Sanmaur)",
+    "type": "reservation",
+    "id": "weymontachieSanmaur"
+  },
+  {
+    "name": "White Bear",
+    "type": "reservation",
+    "id": "whiteBear"
+  },
+  {
+    "name": "White River",
+    "type": "reservation",
+    "id": "whiteRiver"
+  },
+  {
+    "name": "Whitecap Sioux",
+    "type": "reservation",
+    "id": "whitecapSioux"
+  },
+  {
+    "name": "Whitefish Bay",
+    "type": "reservation",
+    "id": "whitefishBay"
+  },
+  {
+    "name": "Whitefish Lake",
+    "type": "reservation",
+    "id": "whitefishLake"
+  },
+  {
+    "name": "Whitehorse",
+    "type": "reservation",
+    "id": "whitehorse"
+  },
+  {
+    "name": "Williams Lake",
+    "type": "reservation",
+    "id": "williamsLake"
+  },
+  {
+    "name": "Wilmot Islands",
+    "type": "reservation",
+    "id": "wilmotIslands"
+  },
+  {
+    "name": "Winterburn",
+    "type": "reservation",
+    "id": "winterburn"
+  },
+  {
+    "name": "Wistaria",
+    "type": "reservation",
+    "id": "wistaria"
+  },
+  {
+    "name": "Wolf Lake",
+    "type": "reservation",
+    "id": "wolfLake"
+  },
+  {
+    "name": "Yellow Quilt",
+    "type": "reservation",
+    "id": "yellowQuilt"
+  },
+  {
+    "name": "Yellowknife",
+    "type": "reservation",
+    "id": "yellowknife"
+  },
+  {
+    "name": "York Factory",
+    "type": "reservation",
+    "id": "yorkFactory"
+  },
+  {
+    "name": "Young Point",
+    "type": "reservation",
+    "id": "youngPoint"
+  },
+  {
+    "name": "Yukon",
+    "type": "reservation",
+    "id": "yukon"
+  },
+  {
+    "name": "Zoht",
+    "type": "reservation",
+    "id": "zoht"
+  }
+]
