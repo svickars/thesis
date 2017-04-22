@@ -6378,7 +6378,7 @@
     "reserve": "Joseph Bighead",
     "reserveID": "josephBighead",
     "sLat": 53.2410531,
-    "sLng": 53.2410531,
+    "sLng": -110.0895879,
     "eLat": 51.28932778,
     "eLng": -104.296975,
     "distance": 8204.219511
@@ -9606,7 +9606,7 @@
     "reserve": "One",
     "reserveID": "one",
     "sLat": 51.5051277,
-    "sLng": -0.0197083,
+    "sLng": -79.5284307,
     "eLat": 51.28932778,
     "eLng": -104.296975,
     "distance": 6562.834537

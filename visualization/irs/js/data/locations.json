@@ -5175,7 +5175,7 @@
     "reserve": "Joseph Bighead",
     "id": "josephBighead",
     "lat": 53.2410531,
-    "lng": 53.2410531,
+    "lng": -110.0895879,
     "listSchools": "gordons",
     "listConnections": "josephBighead-gordons",
     "class": ".josephBighead-gordons"
@@ -6606,7 +6606,7 @@
     "reserve": "One",
     "id": "one",
     "lat": 51.5051277,
-    "lng": -0.0197083,
+    "lng": -79.5284307,
     "listSchools": "gordons",
     "listConnections": "one-gordons",
     "class": ".one-gordons"
