@@ -14,6 +14,7 @@
  * });
  *
  */
+var orange = "#f15a24";
 
 (function($) {
 
@@ -228,25 +229,13 @@
     };
 })(jQuery);
 
+var haystack = []
 
-
-
-var haystack = ["Bob Baxter",
-    "Albert Elias",
-    "Lynda Pahpasay McDonald",
-    "Mabel Brown",
-    "Emily Kematch",
-    "Anthony Henry",
-    "Albert Fiddler",
-    "Doris Young",
-    "Delores Adolph",
-    "Martha Loon",
-    "Richard Hall",
-    "Noel Starblanket",
-    "Patrick James Hall",
-    "Isaac Daniels",
-    "Donna Antoine"
-];
+d3.json("js/data/search_terms.json", function(terms) {
+    for (var i = 0; i < terms.length; i++) {
+        haystack.push(terms[i].name);
+    }
+})
 
 $(function() {
     $('#search').suggest(haystack, {
@@ -258,17 +247,26 @@ $(function() {
 
 $('#search').on('change', function() {
     var value = $(this).val();
-    Demo(value); //pass the value as paramter
+    runSearch(value); //pass the value as paramter
 });
 
+// $(document).ready(function() {
+//     $('#search').keydown(function(event) {
+//         if (event.keyCode == 13) {
+//             var value = $(this).val();
+//             runSearch(value); //pass the value as paramter
+//         }
+//     });
+// });
+
 //Handle it here
-function Demo(name) {
+function runSearch(name) {
     if (name === "") {
         drawStory("aelias");
         pageSix("Albert Elias");
     } else {
         d3.json("js/data/search_terms.json", function(data) {
-            var result = data.searchTerms.filter(function(d) {
+            var result = data.filter(function(d) {
                 return ((d.name.toLowerCase() === name.toLowerCase()));
             });
             result = result[0];
@@ -278,13 +276,51 @@ function Demo(name) {
             if (type === "story") {
                 drawStory(id);
                 pageSix(name);
-                document.querySelector('#p5').scrollIntoView({
-                    behavior: 'smooth'
+                document.querySelector("#p5").scrollIntoView({
+                    behavior: "smooth"
                 });
                 d3.selectAll(".story-option-container").transition().duration(200).ease(d3.easeLinear).style("opacity", .1);
                 d3.select("#" + id).transition().duration(200).ease(d3.easeLinear).style("opacity", 1.0);
+            } else {
+                if (type === "reservation") {
+                    document.querySelector("#tMap1_reserves").scrollIntoView({
+                        behavior: "smooth"
+                    });
+                    rSearch(id);
+                } else {
+                    document.querySelector("#tMap1_reserves").scrollIntoView({
+                        behavior: "smooth"
+                    });
+                    sSearch(id);
+                }
             };
         });
     }
 
+}
+
+function rSearch(id) {
+    // remove reserveDot class from current dot and dim all school dots, except current
+    d3.selectAll(".rDot").style("opacity", ".025").style("fill", "#333");
+    d3.select("#rDot-" + id).style("opacity", ".75").style("fill", orange);
+    d3.selectAll(".rTooltip").style("opacity", "0");
+    d3.selectAll(".dot").style("opacity", ".25").style("fill", orange);
+    d3.selectAll(".conn").style("opacity", ".05");
+    d3.selectAll(".sTooltip").style("opacity", 0);
+    d3.selectAll(".sTooltip2").style("opacity", 0);
+
+    // turn on school tooltip for current dot
+    d3.selectAll("#rTip-" + id).style("opacity", "1.0");
+}
+
+function sSearch(id) {
+    // remove reserveDot class from current dot and dim all school dots, except current
+    d3.selectAll(".dot").style("opacity", ".25").style("fill", orange);
+    d3.select("#dot-" + id).style("opacity", 1).style("fill", "#333");
+    d3.selectAll(".sTooltip").style("opacity", 0);
+    d3.selectAll(".sTooltip2").style("opacity", 0);
+    d3.selectAll("#sTip-" + id).style("opacity", 1);
+    d3.selectAll(".rDot").style("opacity", ".025").style("fill", "#333");
+    d3.selectAll(".rTooltip").style("opacity", "0")
+    d3.selectAll(".conn").style("opacity", ".05");
 }
