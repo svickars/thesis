@@ -588,10 +588,26 @@ p {
   fill: #333;
   stroke-location: outside; }
 
-.map1Tooltip {
-  position: absolute;
-  top: 0;
-  left: 0; }
+.sTooltip {
+  font-family: "Rubik", Trebuchet, sans-serif;
+  font-size: 14px;
+  fill: #333;
+  opacity: 0; }
+
+.sTooltip2 {
+  font-family: "Rubik", Trebuchet, sans-serif;
+  font-size: 12px;
+  fill: #999;
+  opacity: 0; }
+
+.rTooltip {
+  font-family: "Rubik", Trebuchet, sans-serif;
+  font-size: 14px;
+  fill: #333;
+  opacity: 0; }
+
+.dot, .rDot, .rTooltip, .sTooltip, .sTooltip2 {
+  cursor: default; }
 
 .pos-prp {
   color: #f15a24; }

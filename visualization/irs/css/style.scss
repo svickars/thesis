@@ -530,10 +530,29 @@ font-family: $serif;
   stroke-location: outside;
 }
 
-.map1Tooltip {
-  position: absolute;
-  top: 0;
-  left: 0;
+.sTooltip {
+  font-family: $sansserif;
+  font-size: 14px;
+  fill: $dark-gray;
+  opacity: 0;
+}
+
+.sTooltip2 {
+  font-family: $sansserif;
+  font-size: 12px;
+  fill: $medium-gray;
+  opacity: 0;
+}
+
+.rTooltip {
+  font-family: $sansserif;
+  font-size: 14px;
+  fill: $dark-gray;
+  opacity: 0;
+}
+
+.dot, .rDot, .rTooltip, .sTooltip, .sTooltip2 {
+  cursor: default;
 }
 
 // parts of speech

@@ -113,11 +113,11 @@ var drawStory_s = new ScrollMagic.Scene({
 var map1 = d3.select("#map1_cont").append("div").attr("class", "map").attr("id", "map1");
 d3.select("#map1").style("height", window.innerHeight + "px").style("width", window.innerWidth + "px");
 var map = L.map('map1', {
-    zoomControl: false,
+    zoomControl: true,
     scrollWheelZoom: false,
-    dragging: false,
+    dragging: true,
     touchZoom: false,
-    doubleClickZoom: false,
+    doubleClickZoom: true,
     boxZoom: false,
     tap: false,
     keyboard: false
@@ -151,10 +151,33 @@ d3.json("js/data/locations.json", function(collection) {
             d.lng);
     });
 
-    var feature = g.selectAll("circle")
+
+    var featureR = g.selectAll(".rDot")
+        .data(collection.reservations)
+        .enter().append("circle", ".rDot")
+        .attr("pointer-events", "visible")
+        .attr("class", function(d) {
+            return "rDot reserveDot " + d.listConnections;
+        })
+        .attr("id", function(d) {
+            return "rDot-" + d.id;
+        })
+        .style("stroke", "none")
+        .style("display", "none")
+        .style("opacity", "0")
+        .style("fill", "#333")
+        .attr("r", 15)
+        .on("mouseover", reserveDotMouseIn)
+        .on("mouseout", reserveDotMouseOut);
+
+
+
+    var feature = g.selectAll(".sCircle")
         .data(collection.schools)
-        .enter().append("circle")
-        .attr("class", "dot schoolMarker")
+        .enter().append("circle", ".sCircle")
+        .attr("class", function(d) {
+            return "schoolMarker dot " + d.listConnections;
+        })
         .attr("pointer-events", "visible")
         .attr("id", function(d) {
             return "dot-" + d.schoolID;
@@ -164,7 +187,8 @@ d3.json("js/data/locations.json", function(collection) {
         .style("fill", orange)
         .attr("r", 5)
         .on("mouseover", schoolDotMouseIn)
-        .on("mouseout", schoolDotMousOut);
+        .on("mouseout", schoolDotMouseOut)
+
 
 
 
@@ -181,33 +205,66 @@ d3.json("js/data/locations.json", function(collection) {
             return d.locationName + " " + d.title;
         });
 
-    var featureR = g.selectAll(".rDot")
+    var rTip = g.selectAll(".rTip")
         .data(collection.reservations)
-        .enter().append("circle", ".rDot")
-        .attr("class", "reserveDot")
-        .style("stroke", "none")
-        .style("opacity", 0)
-        .style("fill", "#333")
-        .attr("r", 15);
-
-    var labelReserve = g.selectAll(".rLabel")
-        .data(collection.reservations)
-        .enter().append("text", ".rLabel")
-        .attr("class", "label reservationLabel")
+        .enter().append("text", ".rtip")
+        .attr("class", "rTooltip")
         .attr("id", function(d) {
-            return "rlabel-" + d.id;
+            return "rTip-" + d.id;
         })
-        .attr("dy", "6px")
-        .attr("dx", "10px")
+        .attr("dx", "20px")
+        .attr("dy", "5px")
         .text(function(d) {
-            return d.reserve;
+            return d.reserve
         });
 
+    var sTip = g.selectAll(".sTip")
+        .data(collection.schools)
+        .enter().append("text", ".stip")
+        .attr("class", "sTooltip")
+        .attr("id", function(d) {
+            return "sTip-" + d.schoolID;
+        })
+        .attr("dx", "9px")
+        .attr("dy", "5px")
+        .text(function(d) {
+            return d.locationName + " " + d.title;
+        });
+
+    var sTip2 = g.selectAll(".sTip2")
+        .data(collection.schools)
+        .enter().append("text", ".stip2")
+        .attr("class", "sTooltip2")
+        .attr("id", function(d) {
+            return "sTip-" + d.schoolID;
+        })
+        .attr("dx", "9px")
+        .attr("dy", "19px")
+        .text(function(d) {
+            return d.start + " - " + d.end;
+        });
+
+
     map.on("viewreset", update);
+    map.on("zoomend", update);
     update();
 
     function update() {
         feature.attr("transform",
+            function(d) {
+                return "translate(" +
+                    map.latLngToLayerPoint(d.LatLng).x + "," +
+                    map.latLngToLayerPoint(d.LatLng).y + ")";
+            }
+        );
+        sTip.attr("transform",
+            function(d) {
+                return "translate(" +
+                    map.latLngToLayerPoint(d.LatLng).x + "," +
+                    map.latLngToLayerPoint(d.LatLng).y + ")";
+            }
+        );
+        sTip2.attr("transform",
             function(d) {
                 return "translate(" +
                     map.latLngToLayerPoint(d.LatLng).x + "," +
@@ -228,76 +285,93 @@ d3.json("js/data/locations.json", function(collection) {
                     map.latLngToLayerPoint(d.LatLng).y + ")";
             }
         );
-        labelReserve.attr("transform",
+        rTip.attr("transform",
             function(d) {
                 return "translate(" +
                     map.latLngToLayerPoint(d.LatLng).x + "," +
                     map.latLngToLayerPoint(d.LatLng).y + ")";
             }
         );
-        // map1tooltip1.attr("transform",
-        //     function(d) {
-        //         return "translate(" +
-        //             map.latLngToLayerPoint(d.LatLng).x + "," +
-        //             map.latLngToLayerPoint(d.LatLng).y + ")";
-        //     }
-        // );
 
     }
 
     function schoolDotMouseIn(d) {
-        d3.select("#dot-" + d.schoolID).style("fill", "#333");
-        d3.select("#label-" + d.schoolID).transition().duration(200).style("opacity", 1.0);
+        // remove schoolMarker class from current dot and dim all school dots, except current
+        d3.select("#dot-" + d.schoolID).classed("schoolMarker", false);
+        d3.selectAll(".schoolMarker").style("opacity", ".25");
+
+        // turn current dot dark gray
+        d3.select("#dot-" + d.schoolID).style("fill", "#333").style("opacity", 1);
+
+        // turn on school tooltip for current dot
+        d3.selectAll("#sTip-" + d.schoolID).style("opacity", "1.0");
+
+        // for schools with known reserve connections
+        if (d.listConnections === "") {} else {
+            // remove reserveDot class from the ones this school is connected to and un-dim those guys
+            d3.selectAll(d.class).classed("reserveDot", false).classed("connection", false);
+            d3.selectAll(d.class).style("opacity", ".6");
+        }
+        // dim the rest even more
+        d3.selectAll(".reserveDot").style("opacity", ".05");
+        d3.selectAll(".connection").style("opacity", ".05");
+
     };
 
-    function reservDotMouseIn(d) {
-        // d3.select("#dot-" + d.schoolID).style("fill", "#333");
-        d3.select("#rlabel-" + d.id).transition().duration(200).style("opacity", 1.0);
+    function reserveDotMouseIn(d) {
+        // remove reserveDot class from current dot and dim all school dots, except current
+        d3.select("#rDot-" + d.id).classed("reserveDot", false);
+        d3.selectAll(".reserveDot").style("opacity", ".025");
+
+
+        // turn on school tooltip for current dot
+        d3.selectAll("#rTip-" + d.id).style("opacity", "1.0");
+
+        // for schools with known reserve connections
+        if (d.listConnections === "") {} else {
+            // remove reserveDot class from the ones this school is connected to and un-dim those guys
+            d3.selectAll(d.class).classed("schoolMarker", false).classed("connection", false);
+            d3.selectAll(d.class).style("opacity", "1");
+            // unDim current dot
+            d3.select("#rDot-" + d.id).style("opacity", .25);
+        }
+        // dim the rest even more
+        d3.selectAll(".schoolMarker").style("opacity", ".25");
+        d3.selectAll(".connection").style("opacity", ".05");
     };
 
-    function schoolDotMousOut(d) {
-        d3.select("#dot-" + d.schoolID).style("fill", orange);
-        d3.select("#rlabel-" + d.id).transition().duration(200).style("opacity", 0);
+    function schoolDotMouseOut(d) {
+        // add schoolMarker class back on to all school dots and un-dim them all
+        d3.selectAll(".dot").classed("schoolMarker", true);
+        d3.selectAll(".schoolMarker").style("fill", orange).style("opacity", "1");
+
+        // turn off tooltips
+        d3.selectAll("#sTip-" + d.schoolID).style("opacity", "0");
+
+        // reapply reserveDot class to all reserve dots and un-dim and re-dim
+        d3.selectAll(".rDot").classed("reserveDot", true);
+        d3.selectAll(".reserveDot").style("opacity", ".1");
+
+        // reapply connection class to all connections and un-dim and re-dim
+        d3.selectAll(".conn").classed("connection", true);
+        d3.selectAll(".connection").style("opacity", "0.25");
     };
 
-    function reserveDotMousOut(d) {
-        // d3.select("#dot-" + d.schoolID).style("fill", orange);
-        d3.select("#label-" + d.schoolID).transition().duration(200).style("opacity", 0);
+    function reserveDotMouseOut(d) {
+        // remove reserveDot class from current dot and dim all school dots, except current
+        d3.selectAll(".rDot").classed("reserveDot", true);
+        d3.selectAll(".reserveDot").style("opacity", ".1");
+        d3.selectAll(".dot").classed("schoolMarker", true)
+        d3.selectAll(".schoolMarker").style("opacity", "1");
+        d3.selectAll(".conn").classed("connection", true);
+        d3.selectAll(".connection").style("opacity", "0.25");
+
+        // turn off tooltips
+        d3.selectAll("#rTip-" + d.id).style("opacity", "0");
     };
 
 });
 
-// d3.json("js/data/reserves.json", function(collectionR) {
-//     collectionR.forEach(function(d) {
-//         d.LatLng = new L.LatLng(d.lat,
-//             d.lng);
-//     });
-//
-//     var featureR = g.selectAll(".rDot")
-//         .data(collectionR)
-//         .enter().append("circle", ".rDot")
-//         .attr("class", "reserveDot")
-//         // .attr("id", function(d) {
-//         //     return "dot-" + d.schoolID;
-//         // })
-//         .style("stroke", "none")
-//         .style("opacity", 0)
-//         .style("fill", "#333")
-//         .attr("r", 15);
-//
-//     map.on("viewreset", updateR);
-//     updateR();
-//
-//     function updateR() {
-//         featureR.attr("transform",
-//             function(d) {
-//                 return "translate(" +
-//                     map.latLngToLayerPoint(d.LatLng).x + "," +
-//                     map.latLngToLayerPoint(d.LatLng).y + ")";
-//             }
-//         );
-//     }
-// });
 
 d3.json("js/data/connections.json", function(collection) {
     collection.forEach(function(d) {
@@ -310,35 +384,21 @@ d3.json("js/data/connections.json", function(collection) {
     var connectionFeature = g.selectAll("line")
         .data(collection)
         .enter().append("line")
-        // .attr("class", "dot schoolMarker")
+        .attr("class", function(d) {
+            return "connection conn " + d.id;
+        })
+        .attr("id", function(d) {
+            return "conn-" + d.id;
+        })
         .style("stroke", orange)
         .style("opacity", 0.25);
 
+    var drawn = false;
+
     map.on("viewreset", update);
+    map.on("zoomend", update);
     update();
 
-    function update() {
-        connectionFeature.attr("x1",
-                function(d) {
-                    return map.latLngToLayerPoint(d.sLatLng).x;
-                }
-            )
-            .attr("y1",
-                function(d) {
-                    return map.latLngToLayerPoint(d.sLatLng).y;
-                }
-            )
-            .attr("x2",
-                function(d) {
-                    return map.latLngToLayerPoint(d.sLatLng).x;
-                }
-            )
-            .attr("y2",
-                function(d) {
-                    return map.latLngToLayerPoint(d.sLatLng).y;
-                }
-            );
-    }
     var map1_connections_s = new ScrollMagic.Scene({
             triggerElement: '#tMap1_connections'
         })
@@ -347,6 +407,7 @@ d3.json("js/data/connections.json", function(collection) {
     map1_connections_s.on("progress", function(event) {
         var dir = event.scrollDirection;
         if (dir === "FORWARD") {
+            drawn = true;
             connectionFeature.transition().duration(1500)
                 .attr("x2",
                     function(d) {
@@ -359,6 +420,7 @@ d3.json("js/data/connections.json", function(collection) {
                     }
                 );
         } else {
+            drawn = false;
             connectionFeature.transition().duration(1500)
                 .attr("x2",
                     function(d) {
@@ -372,6 +434,53 @@ d3.json("js/data/connections.json", function(collection) {
                 );
         };
     })
+
+    function update() {
+        if (drawn === false) {
+            connectionFeature.attr("x1",
+                    function(d) {
+                        return map.latLngToLayerPoint(d.sLatLng).x;
+                    }
+                )
+                .attr("y1",
+                    function(d) {
+                        return map.latLngToLayerPoint(d.sLatLng).y;
+                    }
+                )
+                .attr("x2",
+                    function(d) {
+                        return map.latLngToLayerPoint(d.sLatLng).x;
+                    }
+                )
+                .attr("y2",
+                    function(d) {
+                        return map.latLngToLayerPoint(d.sLatLng).y;
+                    }
+                );
+        } else {
+            connectionFeature.attr("x1",
+                    function(d) {
+                        return map.latLngToLayerPoint(d.sLatLng).x;
+                    }
+                )
+                .attr("y1",
+                    function(d) {
+                        return map.latLngToLayerPoint(d.sLatLng).y;
+                    }
+                )
+                .attr("x2",
+                    function(d) {
+                        return map.latLngToLayerPoint(d.eLatLng).x;
+                    }
+                )
+                .attr("y2",
+                    function(d) {
+                        return map.latLngToLayerPoint(d.eLatLng).y;
+                    }
+                );
+        }
+    }
+
 });
 
 // draw story options
@@ -596,8 +705,8 @@ function pageSix(name) {
                     "animate": true
                 });
             } else {
-                // d3.select("#dot-" + data.schoolID).style("opacity", 1);
-                // d3.select("#label-" + data.schoolID).style("opacity", 1);
+                d3.select("#dot-" + data.schoolID).style("opacity", 1);
+                d3.select("#label-" + data.schoolID).style("opacity", 1);
                 map.setView([data.latLng.lat, data.latLng.lng], data.zoom, {
                     "animate": true
                 });
@@ -630,9 +739,10 @@ function pageSix(name) {
         map1_reserves_s.on("progress", function(event) {
             var dir = event.scrollDirection;
             if (dir === "FORWARD") {
-                d3.selectAll(".reserveDot").transition().duration(600).ease(d3.easeLinear).style("opacity", 0.1);
+                d3.selectAll(".reserveDot").style("display", "block").transition().duration(600).ease(d3.easeLinear).style("opacity", 0.1);
             } else {
                 d3.selectAll(".reserveDot").transition().duration(600).ease(d3.easeLinear).style("opacity", 0);
+                d3.selectAll(".reserveDot").transition().delay(600).style("display", "none");
             };
         })
 
