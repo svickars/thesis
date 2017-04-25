@@ -115,8 +115,8 @@ d3.select("#map1").style("height", window.innerHeight + "px").style("width", win
 var map = L.map('map1', {
     zoomControl: true,
     scrollWheelZoom: false,
-    dragging: true,
-    touchZoom: false,
+    dragging: !L.Browser.mobile,
+    touchZoom: true,
     doubleClickZoom: true,
     boxZoom: false,
     tap: false,
@@ -321,7 +321,7 @@ d3.json("js/data/locations.json", function(collection) {
     function reserveDotMouseIn(d) {
         // remove reserveDot class from current dot and dim all school dots, except current
         d3.select("#rDot-" + d.id).classed("reserveDot", false);
-        d3.selectAll(".reserveDot").style("opacity", ".025");
+        d3.selectAll(".reserveDot").style("opacity", ".025").style("fill", "#333");
 
 
         // turn on school tooltip for current dot
@@ -347,6 +347,8 @@ d3.json("js/data/locations.json", function(collection) {
 
         // turn off tooltips
         d3.selectAll("#sTip-" + d.schoolID).style("opacity", "0");
+        d3.selectAll(".sTooltip").style("opacity", "0");
+        d3.selectAll(".sTooltip2").style("opacity", "0");
 
         // reapply reserveDot class to all reserve dots and un-dim and re-dim
         d3.selectAll(".rDot").classed("reserveDot", true);
@@ -368,6 +370,7 @@ d3.json("js/data/locations.json", function(collection) {
 
         // turn off tooltips
         d3.selectAll("#rTip-" + d.id).style("opacity", "0");
+        d3.selectAll(".rTooltip").style("opacity", "0");
     };
 
 });
