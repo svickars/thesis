@@ -32,12 +32,17 @@ This project aims to investigate the IRS system, beginning with the narrative of
 * [Treament - Draft (Markdown)](https://github.com/svickars/thesis/blob/master/writing/07_treatment.md)
 * [Prototype - Ongoing Draft](https://svickars.github.io/thesis/visualization/irs/index.html)
 
-#### Issues and Dependancies
-* Haven't heard back from NCTR, will continue to work without their input and trying to get in touch.
-* Rate of data extraction with Amazon Mechanical Turk has slowed down -- I have enough data to get started and will be able to add in more as it is completed.
+#### Feature Complete (April 25)
+* [Features Presentation](https://github.com/svickars/thesis/blob/master/visualization/sketch/04_features.pdf)
+* [Working Prototype (~50%)](https://svickars.github.io/thesis/visualization/irs/index.html)
 
-#### Feature List
-* Make hard-to-access NCTR and NTRC data tangible and available to all Canadians
-* Understand the IRS system through personal stories and qualitative information
-* Provide a home for IRS data outside of government databases
-* Track reconcilation attempts and recommdation progress
+- Explore qualitative data and personal stories of residential school survivors
+- Explore interactive map showing residential schools, First Nations reservations, and the connections and movement between them
+- Show data from individual school reports in a narrative format, combining timeline format (qualitative data) with quantitative data
+- Search for specific story, school, or reservation
+
+- Make hard-to-access NTRC and NCTR data available to all Canadians; provide a home for IRS data outside of government databases
+- Understand the IRS system through the stories of the survivors and of a single school
+
+- Available on desktop and tablet format, in story and research modes, allowing for both a narrated presentation and research on specific survivors and schools
+- Also available in print format
