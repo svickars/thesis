@@ -1,497 +1,383 @@
 {
-    "name": "Coudert Hall SR",
-    "type": "Residential",
-    "location": {
-        "province": "Yukon",
-        "prov": "YT",
-        "city": "Whitehorse",
-        "latLng": {
-            "lat": 60.7043833333333,
-            "lng": -135.03717777777777
-        }
-    },
-    "narrativeDate": "04-05-05",
-    "startYear": 1960,
-    "endYear": 1972,
-    "data": {
-        "nameVariants": [{
-            "startYear": 1960,
-            "endYear": 1966,
-            "name": "Whitehorse Roman Catholic Hostel",
-            "note": "",
-            "ref": ["YS000333A"]
-        },{
-            "startYear": 1960,
-            "endYear": 1966,
-            "name": "Whitehorse R.C. Indian Hostel",
-            "note": "",
-            "ref": ["YS000842"]
-        },{
-            "startYear": 1960,
-            "endYear": 1966,
-            "name": "Whitehorse Hostel",
-            "note": "",
-            "ref": ["YS000371"]
-        },{
-            "startYear": 1960,
-            "endYear": 1966,
-            "name": "Our Lady of Whitehorse Hostel",
-            "note": "",
-            "ref": ["YS000371"]
-        },{
-            "startYear": 1960,
-            "endYear": 1966,
-            "name": "Whitehorse Indian Hostel",
-            "note": "",
-            "ref": ["YS005081"]
-        },{
-            "startYear": 1967,
-            "endYear": 1970,
-            "name": "Coudert Residence",
-            "note": "",
-            "ref": ["YS000134"]
-        },{
-            "startYear": 1967,
-            "endYear": 1970,
-            "name": "Coudert Student Residence",
-            "note": "",
-            "ref": ["YS004004B"]
-        },{
-            "startYear": 1967,
-            "endYear": 1970,
-            "name": "Coudert Hall",
-            "note": "",
-            "ref": ["YS002438"]
-        },{
-            "startYear": 1970,
-            "endYear": 1972,
-            "name": "Whitehorse Student Residence (Yukon Hall and Coudert Hall",
-            "note": "",
-            "ref": ["YS005159"]
-        },{
-            "startYear": 1970,
-            "endYear": 1972,
-            "name": "Coudert Hall",
-            "note": "",
-            "ref": ["YS005103"]
-        },{
-            "startYear": 1970,
-            "endYear": 1972,
-            "name": "Coudert Residence",
-            "note": "",
-            "ref": ["YS002870"]
-        }],
-        "chronoHistory": [{
-            "date": 1891,
-            "desc": "xxx",
-            "ref": ["01520"]
-        }],
-        "notesHistory": [{
-            "date": 1957,
-            "desc": "Planned establishment of a hostel in Whitehorse to be conducted under Roman Catholic auspices and called the Whitehorse Hostel",
-            "ref": ["CH000021"]
-        },{
-            "date": 1960,
-            "desc": "Whitehorse R.C. Hostel to open September 1960 and house approximately 100 Roman Catholic children who will attend class at Christ the King School in the town",
-            "ref": ["YS000333A"]
-        },{
-            "date": 1960,
-            "desc": "Agreement between the Government and the Roman Catholic Episcopal Corporation (RCEC) of Whitehorse stated, 'Whereas the parties hereto have agreed to share between them the cost of a school for Indian and non-Indian children, to be known as Christ the King School Annex.' Part of the agreement also stated the RCEC shall, 'Accept for enrolment in the school fifty children of Indian status resident at the Whitehorse Roman Catholic Indian Hostel'",
-            "ref": ["YS000842"]
-        },{
-            "date": 1960,
-            "desc": "Whitehorse Roman Catholic Hostel opened. Forty-seven Grade 8-12 Indian students admitted to the hostel on September 15th, 1960. Part-way through the year some students were set back a grade including some Grade 8 students set back to Grade 7",
-            "ref": ["YS000054"]
-        },{
-            "date": 1960,
-            "desc": "Chief of Education suggested only 10 non-native students should be admitted to Whitehorse Roman Catholic Hostel",
-            "ref": ["YS000365"]
-        },{
-            "date": 1960,
-            "desc": "Three of the Indian students who resided at the hostel attended grades 11 and 12 at the Whitehorse Public High School",
-            "ref": ["YS000836"]
-        },{
-            "date": 1961,
-            "desc": "Government decided to keep grades 7 to 12 at Whitehorse Hostel for September 1961",
-            "ref": ["YS000413"]
-        },{
-            "date": 1962,
-            "desc": "District Superintendent stated most of the children staying at the Whitehorse hostels were attending Christ the King High School and Selkirk Street school",
-            "ref": ["CH000044"]
-        },{
-            "date": 1962,
-            "desc": "Indian Superintendent suggested a priority enrolment for the Whitehorse Hostels to have them operating in full capacity whereby Indian status children were to be given first chance for admission",
-            "ref": ["YS000408"]
-        },{
-            "date": 1963,
-            "desc": "Possibility of amalgamating Yukon Hostel and Whitehorse Hostel suggested ",
-            "ref": ["YS003071"]
-        },{
-            "date": 1963,
-            "desc": "Two non-Indian students resided at Whitehorse Hostel. Indian Superintendent believed non-Indian students should be admitted to the extent of available space on payment of an appropriate rate of board ",
-            "ref": ["YS000406"]
-        },{
-            "date": 1963,
-            "desc": "Whitehorse Hostel accommodated students in grades 6-11",
-            "ref": ["YS000152A"]
-        },{
-            "date": 1963,
-            "desc": "Indian Superintendent advised that non-Indian children may be admitted to Yukon Hall and Whitehorse Hostel on the same basis as Indian students subject to the availability of space",
-            "ref": ["YS004214"]
-        },{
-            "date": 1963,
-            "desc": "Whitehorse Hostel accommodated students in grades 5-11",
-            "ref": ["YS008345A"]
-        },{
-            "date": 1965,
-            "desc": "Whitehorse Hostel accommodated students in grade 6 and up",
-            "ref": ["YS000081"]
-        },{
-            "date": 1966,
-            "desc": "Whitehorse Hostel accommodated students in grade 6 and up",
-            "ref": ["YS000126"]
-        },{
-            "date": 1966,
-            "desc": "Report indicated 15 of the 54 students present at the hostel were in the elementary grades ",
-            "ref": ["YS004038A"]
-        },{
-            "date": 1967,
-            "desc": "Whitehorse Hostel accommodated students aged 13-18 ",
-            "ref": ["YS002328"]
-        },{
-            "date": 1967,
-            "desc": "The name of Whitehorse Hostel changed to Coudert Residence as of January 3, 1967",
-            "ref": ["YS00134"]
-        },{
-            "date": 1968,
-            "desc": "Survey of Yukon Indian children for the year of 1968-1969 reported the hostel housed children from grades 6-12 and one grade 3 student",
-            "ref": ["YS004004B"]
-        },{
-            "date": 1968,
-            "desc": "Coudert Residence housed children from grades 7-12 ",
-            "ref": ["YS002445"]
-        },{
-            "date": 1970,
-            "desc": "Proposal that as of September 1, 1970, students will be divided between Coudert Residence and Yukon Hall by age. The likely dividing point to be age 12",
-            "ref": ["YS002570A"]
-        },{
-            "date": 1970,
-            "desc": "Student list for the hostel recorded students in grades 2, 4, and 6-12",
-            "ref": ["YS008393A"]
-        },{
-            "date": 1970,
-            "desc": "Plan to enroll the younger children at Coudert Residence and the older children at Yukon Hall",
-            "ref": ["YS002564"]
-        },{
-            "date": 1970,
-            "desc": "Yukon Hall and Coudert Residence to become one multi-denominational institution under a single administration effective September 1, 1970",
-            "ref": ["YS002552"]
-        },{
-            "date": 1970,
-            "desc": "Coudert Residence to house children from 6 to 12 years of age and Yukon Hall to house children 13 years of age and older",
-            "ref": ["YS004083A"]
-        },{
-            "date": 1970,
-            "desc": "Yukon Hall and Coudert Residence combined to form the Whitehorse Student Residence under the direction of the Government",
-            "ref": ["YS005159"]
-        },{
-            "date": 1971,
-            "desc": "Recommendation that the smaller Coudert Residence be closed before the start of the next school year because of the high costs of operating two residences",
-            "ref": ["YS002438"]
-        },{
-            "date": 1971,
-            "desc": "Plan to combine all student dormitories in Yukon Hall with the staff to reside in the Coudert Residence. The final disposition of Coudert Residence to be the subject of future consultation",
-            "ref": ["YS002877"]
-        },{
-            "date": 1971,
-            "desc": "Coudert Residence to be closed to students within a few weeks and used for some of the Whitehorse Student Residence’s staff",
-            "ref": ["YS004054A"]
-        },{
-            "date": 1971,
-            "desc": "Residents of the Whitehorse Student Residence amalgamated and resided at Yukon Hall. Coudert Residence no longer housed students",
-            "ref": ["YS005103"]
-        },{
-            "date": 1971,
-            "desc": "The Coudert Residence was to become surplus to requirements. The Yukon Native Brotherhood showed interest in taking over the building to turn it into an Indian Cultural Centre",
-            "ref": ["YS002870"]
-        },{
-            "date": 1971,
-            "desc": "Amalgamation of the two hostels completed as all students resided in the former Yukon Hall building with all kitchen, laundry, and janitorial services combined in the one building. The Coudert Hall building was being used to accommodate staff of the Whitehorse Student Residence",
-            "ref": ["YS002862"]
-        }],
-        "management": {
-            "church": [{
-                "startYear": 1960,
-                "endYear": 1870,
-                "org": "Catholic Church/Madonna House Apostolate",
-                "type": ["Management", "Staff"],
-                "ref": ["YS000372","YS000837","YS000063","YS003695","YS000147","YS000144","YS005079A","YS002438"]
-            }],
-            "government": [{
-                "startYear": 1970,
-                "endYear": 1971,
-                "org": "Federal Government of Canada",
-                "type": ["Management"],
-                "ref": ["YS002552","YS005159","YS002438"]
-            }],
-            "band": [{
-                "startYear": "",
-                "endYear": "",
-                "org": "",
-                "type": [""],
-                "ref": [""]
-            }]
-        },
-        "facilities": [{
-            "date": 1960,
-            "building": "School Buildings",
-            "event": "construction",
-            "location": "Whitehorse, Yukon",
-            "desc": "Construction of Whitehorse Roman Catholic Hostel completed ",
-            "ref": ["YS000054"]
-        },{
-            "date": 1961,
-            "building": "Dormitories",
-            "event": "Refit",
-            "location": "Whitehorse, Yukon",
-            "desc": "Two of the smaller boys’ dormitories had been allocated to sleeping quarters for the male staff",
-            "ref": ["YS000504"]
-        },{
-            "date": 1963,
-            "building": "Garage",
-            "event": "construction",
-            "location": "Whitehorse, Yukon",
-            "desc": "A three car garage to be constructed at the hostel",
-            "ref": ["YS001060"]
-        },{
-            "date": 1965,
-            "building": "School Buildings",
-            "event": "Renovation",
-            "location": "Whitehorse, Yukon",
-            "desc": "Budget report indicated general renovations and improvements to occur at the hostel",
-            "ref": ["YS001065"]
-        },{
-            "date": 1965,
-            "building": "School Buildings",
-            "event": "",
-            "location": "Whitehorse, Yukon",
-            "desc": "No staff houses or accommodations located at the hostel suitable for married staff",
-            "ref": ["YS003009"]
-        },{
-            "date": 1967,
-            "building": "School Buildings",
-            "event": "renovation",
-            "location": "Whitehorse, Yukon",
-            "desc": "A detailed study of the cost of renovating Yukon Hall and Whitehorse Hostel to accommodate two students per bedroom completed ",
-            "ref": ["YS004112"]
-        },{
-            "date": 1968,
-            "building": "Hockey Rink",
-            "event": "renovation",
-            "location": "Whitehorse, Yukon",
-            "desc": "Proposal to install lighting for the outdoor hockey rink at the hostel ",
-            "ref": ["YS000425"]
-        },{
-            "date": 1972,
-            "building": "School Buildings",
-            "event": "Transfer",
-            "location": "Whitehorse, Yukon",
-            "desc": "Hostel building leased out to the Yukon Native Brotherhood ",
-            "ref": [""]
-        }],
-        "land": [{
-            "date": "undated",
-            "owner": "",
-            "size": "",
-            "type": "land",
-            "location": "Whitehorse, Yukon",
-            "note": "A preliminary sketch of Whitehorse High School (Christ the King Annex) shows the school to be located next to Whitehorse Hostel on Nisutlin Drive in Whitehorse",
-            "ref": ["YS000805A"]
-        },{
-            "date": 1960,
-            "owner": "",
-            "size": "",
-            "type": "land",
-            "location": "Whitehorse, Yukon",
-            "note": "Construction difficulties caused the site of the hostel building to change. The site was moved to the extreme southeast boundary of the property which was bound by Federal Government-owned land",
-            "ref": ["CH000023"]
-        },{
-            "date": 1960,
-            "owner": "",
-            "size": "",
-            "type": "land",
-            "location": "Whitehorse, Yukon",
-            "note": "The new Whitehorse Roman Catholic Hostel was to open up in September on Nistulin Drive in Whitehorse across the road from the Yukon Protestant Hostel",
-            "ref": ["YS000333A"]
-        },{
-            "date": 1961,
-            "owner": "",
-            "size": "",
-            "type": "land",
-            "location": "Whitehorse, Yukon",
-            "note": "Recommendation put forward to extend the hostel property by 100 feet to protect the surroundings and privacy of the hostel",
-            "ref": ["CH000023"]
-        },{
-            "date": 1962,
-            "owner": "",
-            "size": "",
-            "type": "land",
-            "location": "Whitehorse, Yukon",
-            "note": "Lot 333 on which Whitehorse Hostel was located, was to have its depth increased by 100 feet",
-            "ref": ["YS005081"]
-        },{
-            "date": 1970,
-            "owner": "",
-            "size": "",
-            "type": "land",
-            "location": "Whitehorse, Yukon",
-            "note": "The Whitehorse hostels were located facing one another on the extension of Lewes Boulevard in Riverdale, near the Yukon River",
-            "ref": ["YS004083A"]
-        }],
-        "media": [{
-            "ref": "CH000108",
-            "date": "undated",
-            "desc": "Photograph of Whitehorse Hostel"
-        },{
-            "ref": "YS000805A",
-            "date": 1959,
-            "desc": "Preliminary sketch of Whitehorse Catholic High School (Christ the King Annex) shows the school to be located next to the Catholic Hostel on Nisutlin Drive"
-        },{
-            "ref": "YS000179",
-            "date": 1961,
-            "desc": "Sketch of the hostel kitchen"
-        },{
-            "ref": "CH000119B",
-            "date": 1962,
-            "desc": "Plan showing Lot 333 on which the hostel was located. Also shows a planned addition to the lot"
-        },{
-            "ref": "YS004083A",
-            "date": 1970,
-            "desc": "Photograph of Coudert Residence in a newspaper article"
-        }],
-        "enrollment": [{
-            "year": 1960,
-            "number": 46,
-            "notes": ""
-        },{
-            "year": 1961,
-            "number": 34,
-            "notes": ""
-        },{
-            "year": 1962,
-            "number": 33,
-            "notes": ""
-        },{
-            "year": 1963,
-            "number": 67,
-            "notes": ""
-        },{
-            "year": 1964,
-            "number": 70,
-            "notes": ""
-        },{
-            "year": 1965,
-            "number": 68,
-            "notes": ""
-        },{
-            "year": 1966,
-            "number": 68,
-            "notes": ""
-        },{
-            "year": 1967,
-            "number": 64,
-            "notes": ""
-        },{
-            "year": 1968,
-            "number": 69,
-            "notes": ""
-        },{
-            "year": 1969,
-            "number": 58,
-            "notes": ""
-        },{
-            "year": 1970,
-            "number": 41,
-            "notes": ""
-        },{
-            "year": 1971,
-            "number": 73,
-            "notes": ""
-        }],
-        "reserves": ["Aishihik", "Atlin-Teslin","Burwash","Carcross","Carmacks","Casca","Champagne","Dawson","Finlay River","Fort Nelson","Fort Ware","Frances Lake","Hudson Hope","Liard River","Kluane","Mayo","Nelson River","Ross River","Selkirk","Tahltan","Teslin","White River","Whitehorse"],
-        "religiousGroups": [{
-            "group": "Roman Catholic Episcopal Corporation of Whitehorse",
-            "ref": ["YS000842"]
-        },{
-            "group": "Madonna House Apostolate (Institute)",
-            "ref": ["YS000372"]
-        },{
-            "group": "Institute Voluntas Dei",
-            "ref": ["YS000144"]
-        },{
-            "group": "Institute of the Oblates of the Immaculate Mary",
-            "ref": ["YS000144"]
-        }],
-        "writtenAgreements": [{
-            "date": 1960,
-            "title": "Agreement between the Government and the (RCEC) of Whitehorse",
-            "desc": "Agreement between the Government and the (RCEC) of Whitehorse stated, 'Whereas the parties hereto have agreed to share between them the cost of a school for Indian and non-Indian children, to be known as Christ the King School Annex.' Part of the agreement also stated the RCEC shall, “Accept for enrolment in the school fifty children of Indian status resident at the Whitehorse Roman Catholic Indian Hostel",
-            "ref": ["YS000842"]
-        },{
-            "date": 1962,
-            "title": "Agreement between the Federal Government and the RCEC",
-            "desc": "Agreement between the Federal Government and the RCEC where the Federal Government will provide funds for the hostel and the RCEC will manage and operate the hostel. Agreement outlines several conditions related to the running of the hostel for both parties. One condition stated the RCEC would be responsible for appointing a principal of the hostel subject to approval by the Federal Government",
-            "ref": ["YS000063"]
-        },{
-            "date": 1968,
-            "title": "Agreement between the Federal Government and Commissioner of the Yukon Territory",
-            "desc": "Agreement between the Federal Government and Commissioner of the Yukon Territory. The agreement released the parties from previous agreements regarding the payments of tuition fees for Native children attending Territorial Schools",
-            "ref": ["YS000795"]
-        }],
-        "abuseReports": {
-            "physical": [{
-                "date": "",
-                "source": "Report",
-                "investigated": "",
-                "result": "",
-                "victim": "",
-                "agressor": "",
-                "notes": "",
-                "ref": [""]
-            }],
-            "sexual": [{
-                "date": 1970,
-                "source": "",
-                "investigated": true,
-                "result": true,
-                "victim": "unnamed student",
-                "aggressor": "Claude Frappier",
-                "notes": "Claude Frappier pleaded guilty to 13 counts of indecent assault and was sentenced to a term of imprisonment for five years on June 29, 1990. Frappier commenced his employment as a child care worker at Coudert Hall in September 1970. He was dismissed of his duties on October 23, 1971",
-                "ref": ["YS000201"]
-            }]
-        },
-        "additionalInfo": {
-            "studentAggression": [{
-                "date": "",
-                "students": "",
-                "type": "",
-                "notes": "",
-                "ref": [""]
-            }],
-            "studentSex": [{
-                "date": "",
-                "students": "",
-                "type": "",
-                "notes": "",
-                "ref": [""]
-            }],
-            "medical": [{
-                "startYear": "",
-                "endYear": "",
-                "type": "",
-                "ref": [""]
-            }]
-        }
+  "name": "school",
+  "type": "Residential",
+  "location": {
+    "province": "Yukon",
+    "city": "Whitehorse",
+    "latLng": {
+      "lat": 60.70438333,
+      "lng": -135.0371778
     }
-
+  },
+  "narrativeDate": "05-05-04",
+  "startYear": 1960,
+  "endYear": 1966,
+  "data": {
+    "nameVariants": [{
+      "startYear": 1960,
+      "endYear": 1966,
+      "name": "Whitehorse Roman Catholic Hostel",
+      "note": "",
+      "ref": ["YS000333A"]
+    }, {
+      "startYear": 1960,
+      "endYear": 1966,
+      "name": "Whitehorse R.C. Indian Hostel",
+      "note": "",
+      "ref": ["YS000842"]
+    }, {
+      "startYear": 1960,
+      "endYear": 1966,
+      "name": "Whitehorse Hostel",
+      "note": "",
+      "ref": ["YS000371"]
+    }, {
+      "startYear": 1960,
+      "endYear": 1966,
+      "name": "Our Lady of Whitehorse Hostel",
+      "note": "",
+      "ref": ["YS000371"]
+    }, {
+      "startYear": 1960,
+      "endYear": 1966,
+      "name": "Whitehorse Indian Hostel",
+      "note": "",
+      "ref": ["YS005081"]
+    }, {
+      "startYear": 1967,
+      "endYear": 1970,
+      "name": "Coudert Residence",
+      "note": "",
+      "ref": ["YS000134"]
+    }, {
+      "startYear": 1967,
+      "endYear": 1970,
+      "name": "Coudert Student Residence",
+      "note": "",
+      "ref": ["YS004004B"]
+    }, {
+      "startYear": 1967,
+      "endYear": 1970,
+      "name": "Coudert Hall",
+      "note": "",
+      "ref": ["YS002438"]
+    }, {
+      "startYear": 1970,
+      "endYear": 1972,
+      "name": "Whitehorse Student Residence (Yukon Hall and Coudert Hall",
+      "note": "",
+      "ref": ["YS005159"]
+    }, {
+      "startYear": 1970,
+      "endYear": 1972,
+      "name": "Coudert Hall",
+      "note": "",
+      "ref": ["YS005103"]
+    }, {
+      "startYear": 1970,
+      "endYear": 1972,
+      "name": "Coudert Residence",
+      "note": "",
+      "ref": ["YS002870"]
+    }],
+    "chronoHistory": [{
+      "date": 1957,
+      "desc": "Planned establishment of a hostel in Whitehorse to be conducted under Roman Catholic auspices and called the Whitehorse Hostel",
+      "ref": ["CH000021"]
+    }, {
+      "date": 1960,
+      "desc": "Whitehorse R.C. Hostel to open September 1960 and house approximately 100 Roman Catholic children who will attend class at Christ the King School in the town",
+      "ref": ["YS000333A"]
+    }, {
+      "date": 1960,
+      "desc": "Agreement between the Government and the Roman Catholic Episcopal Corporation (RCEC) of Whitehorse stated, 'Whereas the parties hereto have agreed to share between them the cost of a school for Indian and non-Indian children, to be known as Christ the King School Annex.' Part of the agreement also stated the RCEC shall, 'Accept for enrolment in the school fifty children of Indian status resident at the Whitehorse Roman Catholic Indian Hostel'",
+      "ref": ["YS000842"]
+    }, {
+      "date": 1960,
+      "desc": "Whitehorse Roman Catholic Hostel opened. Forty-seven Grade 8-12 Indian students admitted to the hostel on September 15th, 1960. Part-way through the year some students were set back a grade including some Grade 8 students set back to Grade 7",
+      "ref": ["YS000054"]
+    }, {
+      "date": 1960,
+      "desc": "Chief of Education suggested only 10 non-native students should be admitted to Whitehorse Roman Catholic Hostel",
+      "ref": ["YS000365"]
+    }, {
+      "date": 1960,
+      "desc": "Three of the Indian students who resided at the hostel attended grades 11 and 12 at the Whitehorse Public High School",
+      "ref": ["YS000836"]
+    }, {
+      "date": 1961,
+      "desc": "Government decided to keep grades 7 to 12 at Whitehorse Hostel for September 1961",
+      "ref": ["YS000413"]
+    }, {
+      "date": 1962,
+      "desc": "District Superintendent stated most of the children staying at the Whitehorse hostels were attending Christ the King High School and Selkirk Street school",
+      "ref": ["CH000044"]
+    }, {
+      "date": 1962,
+      "desc": "Indian Superintendent suggested a priority enrolment for the Whitehorse Hostels to have them operating in full capacity whereby Indian status children were to be given first chance for admission",
+      "ref": ["YS000408"]
+    }, {
+      "date": 1963,
+      "desc": "Possibility of amalgamating Yukon Hostel and Whitehorse Hostel suggested ",
+      "ref": ["YS003071"]
+    }, {
+      "date": 1963,
+      "desc": "Two non-Indian students resided at Whitehorse Hostel. Indian Superintendent believed non-Indian students should be admitted to the extent of available space on payment of an appropriate rate of board ",
+      "ref": ["YS000406"]
+    }, {
+      "date": 1963,
+      "desc": "Whitehorse Hostel accommodated students in grades 6-11",
+      "ref": ["YS000152A"]
+    }, {
+      "date": 1963,
+      "desc": "Indian Superintendent advised that non-Indian children may be admitted to Yukon Hall and Whitehorse Hostel on the same basis as Indian students subject to the availability of space",
+      "ref": ["YS004214"]
+    }, {
+      "date": 1963,
+      "desc": "Whitehorse Hostel accommodated students in grades 5-11",
+      "ref": ["YS008345A"]
+    }, {
+      "date": 1965,
+      "desc": "Whitehorse Hostel accommodated students in grade 6 and up",
+      "ref": ["YS000081"]
+    }, {
+      "date": 1966,
+      "desc": "Whitehorse Hostel accommodated students in grade 6 and up",
+      "ref": ["YS000126"]
+    }, {
+      "date": 1966,
+      "desc": "Report indicated 15 of the 54 students present at the hostel were in the elementary grades ",
+      "ref": ["YS004038A"]
+    }, {
+      "date": 1967,
+      "desc": "Whitehorse Hostel accommodated students aged 13-18 ",
+      "ref": ["YS002328"]
+    }, {
+      "date": 1967,
+      "desc": "The name of Whitehorse Hostel changed to Coudert Residence as of January 3, 1967",
+      "ref": ["YS00134"]
+    }, {
+      "date": 1968,
+      "desc": "Survey of Yukon Indian children for the year of 1968-1969 reported the hostel housed children from grades 6-12 and one grade 3 student",
+      "ref": ["YS004004B"]
+    }, {
+      "date": 1968,
+      "desc": "Coudert Residence housed children from grades 7-12 ",
+      "ref": ["YS002445"]
+    }, {
+      "date": 1970,
+      "desc": "Proposal that as of September 1, 1970, students will be divided between Coudert Residence and Yukon Hall by age. The likely dividing point to be age 12",
+      "ref": ["YS002570A"]
+    }, {
+      "date": 1970,
+      "desc": "Student list for the hostel recorded students in grades 2, 4, and 6-12",
+      "ref": ["YS008393A"]
+    }, {
+      "date": 1970,
+      "desc": "Plan to enroll the younger children at Coudert Residence and the older children at Yukon Hall",
+      "ref": ["YS002564"]
+    }, {
+      "date": 1970,
+      "desc": "Yukon Hall and Coudert Residence to become one multi-denominational institution under a single administration effective September 1, 1970",
+      "ref": ["YS002552"]
+    }, {
+      "date": 1970,
+      "desc": "Coudert Residence to house children from 6 to 12 years of age and Yukon Hall to house children 13 years of age and older",
+      "ref": ["YS004083A"]
+    }, {
+      "date": 1970,
+      "desc": "Yukon Hall and Coudert Residence combined to form the Whitehorse Student Residence under the direction of the Government",
+      "ref": ["YS005159"]
+    }, {
+      "date": 1971,
+      "desc": "Recommendation that the smaller Coudert Residence be closed before the start of the next school year because of the high costs of operating two residences",
+      "ref": ["YS002438"]
+    }, {
+      "date": 1971,
+      "desc": "Plan to combine all student dormitories in Yukon Hall with the staff to reside in the Coudert Residence. The final disposition of Coudert Residence to be the subject of future consultation",
+      "ref": ["YS002877"]
+    }, {
+      "date": 1971,
+      "desc": "Coudert Residence to be closed to students within a few weeks and used for some of the Whitehorse Student Residence’s staff",
+      "ref": ["YS004054A"]
+    }, {
+      "date": 1971,
+      "desc": "Residents of the Whitehorse Student Residence amalgamated and resided at Yukon Hall. Coudert Residence no longer housed students",
+      "ref": ["YS005103"]
+    }, {
+      "date": 1971,
+      "desc": "The Coudert Residence was to become surplus to requirements. The Yukon Native Brotherhood showed interest in taking over the building to turn it into an Indian Cultural Centre",
+      "ref": ["YS002870"]
+    }, {
+      "date": 1971,
+      "desc": "Amalgamation of the two hostels completed as all students resided in the former Yukon Hall building with all kitchen, laundry, and janitorial services combined in the one building. The Coudert Hall building was being used to accommodate staff of the Whitehorse Student Residence",
+      "ref": ["YS002862"]
+    }],
+    "notesHistory": [],
+    "management": [{
+      "startYear": 1960,
+      "endYear": 1970,
+      "org": "church",
+      "orgName": "Catholic Church/Madonna House Apostolate",
+      "type": ["Management", "Staff"],
+      "ref": ["YS000372", "YS000837", "YS000063", "YS003695", "YS000147", "YS000144", "YS005079A", "YS002438"]
+    }, {
+      "startYear": 1970,
+      "endYear": 1971,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["YS002552", "YS005159", "YS002438"]
+    }],
+    "enrollment": [{
+      "year": 1960,
+      "number": 46,
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": 34,
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": 33,
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": 67,
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": 70,
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": 68,
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": 68,
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": 64,
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": 69,
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": 58,
+      "notes": ""
+    }, {
+      "year": 1970,
+      "number": 41,
+      "notes": ""
+    }, {
+      "year": 1971,
+      "number": 73,
+      "notes": ""
+    }],
+    "reserves": ["Aishihik", "Atlin-Teslin", "Burwash", "Carcross", "Carmacks", "Casca", "Champagne", "Dawson", "Finlay River", "Fort Nelson", "Fort Ware", "Frances Lake", "Hudson Hope", "Liard River", "Kluane", "Mayo", "Nelson River", "Ross River", "Selkirk", "Tahltan", "Teslin", "White River", "Whitehorse"],
+    "religiousGroups": [{
+      "group": "Roman Catholic Episcopal Corporation of Whitehorse",
+      "ref": ["YS000842"]
+    }, {
+      "group": "Madonna House Apostolate (Institute)",
+      "ref": ["YS000372"]
+    }, {
+      "group": "Institute Voluntas Dei",
+      "ref": ["YS000144"]
+    }, {
+      "group": "Institute of the Oblates of the Immaculate Mary",
+      "ref": ["YS000144"]
+    }],
+    "writtenAgreements": [{
+      "date": 1960,
+      "title": "Agreement between the Government and the (RCEC) of Whitehorse",
+      "desc": "Agreement between the Government and the (RCEC) of Whitehorse stated, 'Whereas the parties hereto have agreed to share between them the cost of a school for Indian and non-Indian children, to be known as Christ the King School Annex.' Part of the agreement also stated the RCEC shall, “Accept for enrolment in the school fifty children of Indian status resident at the Whitehorse Roman Catholic Indian Hostel",
+      "ref": ["YS000842"]
+    }, {
+      "date": 1962,
+      "title": "Agreement between the Federal Government and the RCEC",
+      "desc": "Agreement between the Federal Government and the RCEC where the Federal Government will provide funds for the hostel and the RCEC will manage and operate the hostel. Agreement outlines several conditions related to the running of the hostel for both parties. One condition stated the RCEC would be responsible for appointing a principal of the hostel subject to approval by the Federal Government",
+      "ref": ["YS000063"]
+    }, {
+      "date": 1968,
+      "title": "Agreement between the Federal Government and Commissioner of the Yukon Territory",
+      "desc": "Agreement between the Federal Government and Commissioner of the Yukon Territory. The agreement released the parties from previous agreements regarding the payments of tuition fees for Native children attending Territorial Schools",
+      "ref": ["YS000795"]
+    }],
+    "additionalInformation": [{
+      "date": 1970,
+      "type": "sexual",
+      "victim": "",
+      "agressor": "Claude Frappier",
+      "notes": "Claude Frappier pleaded guilty to 13 counts of indecent assault and was sentenced to a term of imprisonment for five years on June 29, 1990. Frappier commenced his employment as a child care worker at Coudert Hall in September 1970. He was dismissed of his duties on October 23, 1971.",
+      "ref": ["YS000201"]
+    }, {
+      "date": 1961,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Principal Cullinane reported a deteriorating academic situation leading to a pronounced frustration from the students being unable to cope with the academic program.",
+      "ref": ["YS000054"]
+    }, {
+      "date": 1961,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Four girls ran away from the hostel. Two girls were over the age of 16 and were expelled under hostel policy. The other two girls were to be retrieved by the RCMP.",
+      "ref": ["YS000035"]
+    }, {
+      "date": 1962,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Principal Cullinane reported that the overwhelming majority of students had received poor grades and did not appear to be learning much in school. He stated that the hostel had become more settled and that weak and emotionally insecure teachers had been replaced by more stable and secure ones. He predicted a high drop-out rate again in June.",
+      "ref": ["CH000060"]
+    }, {
+      "date": 1965,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Report issued regarding corporal punishment given to three female students who left the hostel one weekend without permission.",
+      "ref": ["YS000125"]
+    }, {
+      "date": 1966,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "Issue raised of cigarettes and alcohol being introduced to the students at the hostel. Hostel had a special smoking lounge and students had been disciplined for bringing liquor into the hostel. One student had been expelled and another had been put on probation.",
+      "ref": ["YS000131"]
+    }, {
+      "date": 1966,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "Report indicated 22 of the 54 students who resided at the hostel were from British Columbia.",
+      "ref": ["YS004038A"]
+    }, {
+      "date": 1968,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "During the 1967/68 school year approximately 60% of the students at the hostel were residents of British Columbia.",
+      "ref": ["YS002449"]
+    }, {
+      "date": 1970,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "A Health Inspection Report documented some unsanitary conditions at the hostel. Several food preparation items in the kitchen were unclean and the cutlery was found to be in poor condition. The carpet and ashtray in the senior boys’ lounge were unclean and the chairs were badly in need of repair. The washroom received a poor review as the washbasins, toilets, baths, and curtains were all unclean. The recreational room was also found unclean. The girls’ dorms were found to be in very good condition.",
+      "ref": ["YS005043"]
+    }, {
+      "date": 1971,
+      "type": "policy",
+      "victim": "",
+      "agressor": "",
+      "notes": "Sunday services for children had been held by the Roman Catholic Chaplain at the Coudert Residence Chapel",
+      "ref": ["YS005159"]
+    }]
+  }
 }

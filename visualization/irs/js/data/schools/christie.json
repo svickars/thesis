@@ -1,987 +1,702 @@
 {
-	"name": "Christie IRS",
-	"type": "Residential",
-	"location": {
-		"province": "British Columbia",
-		"prov": "BC",
-		"city": "Meares Island / Tofino",
-		"latLng": {
-			"lat": 49.13110833333334,
-			"lng": -125.90098333333334
-		}
-	},
-	"narrativeDate": "19-01-05",
-	"startYear": 1900,
-	"endYear": 1983,
-	"data": {
-		"nameVariants": [{
-			"startYear": "",
-			"endYear": "",
-			"name": "Kakawis Indian School",
-			"note": "",
-			"ref": ["04454"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Kakawis School",
-			"note": "",
-			"ref": ["04611"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Kakawis IRS",
-			"note": "",
-			"ref": ["01718"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Christie Industrial School",
-			"note": "",
-			"ref": ["00862A"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Clayoquoy School",
-			"note": "",
-			"ref": ["00841"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Clayoquot Industrial School",
-			"note": "",
-			"ref": ["01686"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Clayoquot (Bishop Christie) School",
-			"note": "",
-			"ref": ["00485"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Clayquot Christie Boarding School",
-			"note": "",
-			"ref": ["08224"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Clayoquot Boarding School",
-			"note": "",
-			"ref": ["08207"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Clayoquot School",
-			"note": "",
-			"ref": ["08248"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Indian Boarding School at Clayoquot",
-			"note": "",
-			"ref": ["08201"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Clayoquot Indian Boarding School",
-			"note": "",
-			"ref": ["08226"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Roman Catholic Christie Indian Boarding School",
-			"note": "",
-			"ref": ["08229"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Bishop Christie Roman Catholic Boarding School",
-			"note": "",
-			"ref": ["08231"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Christie Indian Industrial School",
-			"note": "",
-			"ref": ["07639"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Christie's Boarding School",
-			"note": "",
-			"ref": ["08202"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Christie School",
-			"note": "",
-			"ref": ["00602"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Christie Indian School",
-			"note": "",
-			"ref": ["00591"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Christie Residential School",
-			"note": "",
-			"ref": ["00601"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Christie Indian Residential School",
-			"note": "",
-			"ref": ["00674"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Christie Student Residence",
-			"note": "",
-			"ref": ["03806"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Tofino Hostel",
-			"note": "",
-			"ref": ["05126"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Tofino Student Residence",
-			"note": "",
-			"ref": ["05126", "04049"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Tofino School",
-			"note": "",
-			"ref": ["05125"]
-		}, {
-			"startYear": "",
-			"endYear": "",
-			"name": "Christie Indian Student Residence",
-			"note": "",
-			"ref": ["04022A"]
-		}],
-		"chronoHistory": [{
-			"date": 1900,
-			"desc": "May 20, Christie Industrial School opened.",
-			"ref": ["08202", "08201"]
-		}, {
-			"date": 1922,
-			"desc": "May 20, Christie Industrial School opened.Gymnasium constructed, including a bowling alley, and room for basketball and handball.",
-			"ref": ["00862A"]
-		}, {
-			"date": 1924,
-			"desc": "Additions over three to four years include a recreation hall for boys, a recreation hall for girls, additional accommodation, three bathtubs, a classroom, and a house for Indian people who come to visit their children and often remain over night.",
-			"ref": ["08371"]
-		}, {
-			"date": 1946,
-			"desc": "A discussion was held regarding using a R.C.A.F hospital at Totino as a replacement for the existing Christie Indian School. It was eventually decided not to relocate to this new location.",
-			"ref": ["08188"]
-		}, {
-			"date": 1969,
-			"desc": "Four classrooms in operation, grades 1 to 8. This document comments that the school is 'church-owned'",
-			"ref": ["00029"]
-		}, {
-			"date": 1971,
-			"desc": "June, 'old' Christie IRS closed.",
-			"ref": ["04062", "CIS-00090"]
-		}, {
-			"date": 1971,
-			"desc": "October 30, official opening of Tofino/Christie Student Residence.",
-			"ref": ["05126", "04052"]
-		}, {
-			"date": 1973,
-			"desc": "June 23, official opening of the new gymnasium",
-			"ref": ["04031", "CIS-00092"]
-		}, {
-			"date": 1974,
-			"desc": "September, Christie Student Residence handed over to the West Coast District Council of Indian Chiefs to continue to operate as a student residence.",
-			"ref": ["00842", "00992"]
-		}, {
-			"date": 1975,
-			"desc": "August, Christie Student Residence handed back to the government to operate for the 1975-76 school year",
-			"ref": ["01000"]
-		}, {
-			"date": 1983,
-			"desc": "June 30, Christie Student Residence closed.",
-			"ref": ["05284"]
-		}],
-		"notesHistory": [{
-			"date": 1974,
-			"desc": "xxx",
-			"ref": ["07456B"]
-		}],
-		"management": {
-			"church": [{
-				"startYear": 1899,
-				"endYear": 1938,
-				"org": "Order of St. Benedict",
-				"type": ["Management"],
-				"ref": ["00848B", "00892B", "08202", "08206", "08024"]
-			}, {
-				"startYear": 1938,
-				"endYear": 1938,
-				"org": "Missionary Oblates of Mary Immaculate",
-				"type": ["Management"],
-				"ref": ["00892B", "01683", "CIS-000105", "OB-00451"]
-			}],
-			"government": [{
-				"startYear": 1969,
-				"endYear": 1974,
-				"org": "Federal Government of Canada",
-				"type": ["Management"],
-				"ref": ["00992"]
-			}, {
-				"startYear": 1975,
-				"endYear": 1976,
-				"org": "Federal Government of Canada",
-				"type": ["Management"],
-				"ref": ["01000"]
-			}],
-			"band": [{
-				"startYear": 1974,
-				"endYear": 1974,
-				"org": "West Coast District Council of Indian Chiefs",
-				"type": ["Management"],
-				"ref": ["00842", "00992"]
-			}]
-		},
-		"facilities": [{
-			"date": 1899,
-			"building": "school buildings",
-			"event": "construction",
-			"location": "",
-			"desc": "School buildings constructed and owned by the St. Order of Benedict.",
-			"ref": ["00848B", "00874B", "04978"]
-		}, {
-			"date": 1914,
-			"building": "laundry building",
-			"event": "construction",
-			"location": "",
-			"desc": "Circa this year a laundry building was constructed, one storey with attic. In addition, a carpenter shop was built, one storey.",
-			"ref": ["01418"]
-		}, {
-			"date": 1922,
-			"building": "gymnasium",
-			"event": "construction",
-			"location": "",
-			"desc": "Gymnasium constructed, including a bowling alley, and room for basketball and handball.",
-			"ref": ["00862A"]
-		}, {
-			"date": 1924,
-			"building": "school buildings",
-			"event": "construction",
-			"location": "",
-			"desc": "Additions over three to four years include a recreation hall for boys, a recreation hall for girls, additional accommodation, three bathtubs, a classroom, and a house for Indian people who come to visit their children and often remain over night.",
-			"ref": ["08371"]
-		}, {
-			"date": 1928,
-			"building": "bandstand",
-			"event": "construction",
-			"location": "",
-			"desc": "A pavilion/bandstand was erected.",
-			"ref": ["00852"]
-		}, {
-			"date": 1938,
-			"building": "reservoir",
-			"event": "construction",
-			"location": "",
-			"desc": "A trail was built from the boat landing to the school, and a reservoir to hold 90,000 gallons of water was completed.",
-			"ref": ["08026"]
-		}, {
-			"date": 1939,
-			"building": "training shop",
-			"event": "construction",
-			"location": "",
-			"desc": "A Manual Training Shop was constructed, 50 feet by 26 feet.",
-			"ref": ["00892D"]
-		}, {
-			"date": 1943,
-			"building": "school buildings",
-			"event": "construction",
-			"location": "",
-			"desc": "New classrooms and dormitory completed.",
-			"ref": ["08072"]
-		}, {
-			"date": 1959,
-			"building": "school buildings",
-			"event": "transfer",
-			"location": "",
-			"desc": "It was noted that the Christie IRS was not departmental property.",
-			"ref": ["01201"]
-		}, {
-			"date": 1965,
-			"building": "school buildings",
-			"event": "refit",
-			"location": "In this year buildings were described as ' ... a basement, three storey residence ... a detached carpenter shop, laundry, power house and gym. This [sic] is also a dock and boathouse about one half-mile detached.' It was further noted that there was a chapel on the second floor. As a result of a fire commissioner's report stating that if the dormitories were to remain on the 2nd and 3rd floors sprinklers would have to be installed; a suggestion was made to reduce enrolment so all dormitories could be on the main floor and the classroom moved upstairs, this eventually happened.",
-			"desc": "",
-			"ref": ["01418", "00832", "01029", "04266", "CIS-00603"]
-		}, {
-			"date": 1967,
-			"building": "bridge",
-			"event": "renovation",
-			"location": "",
-			"desc": "A severe storm destroyed a bridge and wharf at the school.",
-			"ref": ["01468"]
-		}, {
-			"date": 1968,
-			"building": "school buildings",
-			"event": "renovation",
-			"location": "",
-			"desc": "While a new hostel was being discussed, there was extensive correspondence regarding the dangerous state of the school buildings.",
-			"ref": ["01029", "01518A"]
-		}, {
-			"date": 1971,
-			"building": "school buildings",
-			"event": "construction",
-			"location": "",
-			"desc": "New student residence constructed at new location. This residence was comprised of 2-two storey dormitories, a 2 storey administration building and a 1 storey cafeteria.",
-			"ref": ["04060B"]
-		}, {
-			"date": 1973,
-			"building": "gymnasium",
-			"event": "construction",
-			"location": "",
-			"desc": "May, A Fire Protection Engineering Survey describes the school buildings as ' ... owned and maintained by the Department of lndian and Northern Affairs ... [they] are in excellent condition and well maintained ... The standard of fire protection provided for the Student Residence property is exceptionally good.' June 23, official opening of the new gymnasium",
-			"ref": [""]
-		}, {
-			"date": 1976,
-			"building": "family development centre",
-			"event": "construction",
-			"location": "",
-			"desc": "'Old' Christie developed into the Kakawis Family Development Centre. ",
-			"ref": ["CIS-00096"]
-		}, {
-			"date": 1983,
-			"building": "school buildings",
-			"event": "renovation",
-			"location": "",
-			"desc": "Appraisal completed of buildings. Describes administration building, dormitories, gymnasium and other structures.",
-			"ref": [""]
-		}, {
-			"date": 1984,
-			"building": "",
-			"event": "transfer",
-			"location": "",
-			"desc": "The government leased the Christie Student Residence to members of the Clayaquot Band in trust for the members of the same Band for a three year lease.",
-			"ref": ["08482"]
-		}, {
-			"date": 1985,
-			"building": "",
-			"event": "transfer",
-			"location": "",
-			"desc": "It was proposed that the Clayoquot Band enter into a long term lease of the former Christie residential school. There is no indication if this took place.",
-			"ref": ["07690"]
-		}],
-		"land": [{
-			"date": 1918,
-			"owner": "",
-			"size": "175 acres",
-			"type": "land",
-			"location": "",
-			"note": "It was noted in this year that there were 175 acres in connection with the 'Clayoquot Industrial School', 7 of which were cleared.",
-			"ref": []
-		}, {
-			"date": 1934,
-			"owner": "",
-			"size": "",
-			"type": "land",
-			"location": "",
-			"note": "A football field was constructed.",
-			"ref": ["00874B"]
-		}, {
-			"date": 1947,
-			"owner": "",
-			"size": "",
-			"type": "land",
-			"location": "",
-			"note": "The first road was constructed from the nearby Opitsat Village (1.25 miles from the school) to the school.",
-			"ref": ["01665", "01658"]
-		}, {
-			"date": 1969,
-			"owner": "Federal Government of Canada",
-			"size": "",
-			"type": "transfer",
-			"location": "",
-			"note": "Government purchased Lot Two, District Lot 126, Clayoquot District, on which to construct the new residential school.",
-			"ref": ["01474", "01799B", "01798B"]
-		}, {
-			"date": 1973,
-			"owner": "Department of Indian and Northern Affairs",
-			"size": "",
-			"type": "land",
-			"location": "",
-			"note": "May, A Fire Protection Engineering Survey describes the land as ' ... owned and maintained by the Department of Indian and Northern Affairs.'",
-			"ref": ["04022A"]
-		}],
-		"media": [{
-			"ref": "08263",
-			"date": "undated",
-			"desc": "Plans"
-		}, {
-			"ref": "CIS-00004",
-			"date": "undated",
-			"desc": "Photographs"
-		}, {
-			"ref": "CIS-00005",
-			"date": "undated",
-			"desc": "Photographs"
-		}, {
-			"ref": "CIS-00007",
-			"date": "1905",
-			"desc": "Newspaper Article"
-		}, {
-			"ref": "CIS-00639",
-			"date": "1925",
-			"desc": "Excerpt from Book"
-		}, {
-			"ref": "04434C",
-			"date": "1928",
-			"desc": "Plan"
-		}, {
-			"ref": "08102",
-			"date": "1944",
-			"desc": "Newspaper Article"
-		}, {
-			"ref": "00317A",
-			"date": "1949",
-			"desc": "Handwritten Plan"
-		}, {
-			"ref": "00317B",
-			"date": "1949",
-			"desc": "Handwritten Plan"
-		}, {
-			"ref": "CIS-00013",
-			"date": "1950",
-			"desc": "Newspaper Article"
-		}, {
-			"ref": "CIS-00014",
-			"date": "1950",
-			"desc": "Journal Article"
-		}, {
-			"ref": "CIS-00015",
-			"date": "1950",
-			"desc": "Photographs"
-		}, {
-			"ref": "CIS-00054",
-			"date": "1960",
-			"desc": "Newspaper Article"
-		}, {
-			"ref": "CIS-00056",
-			"date": "1960",
-			"desc": "Newspaper Article"
-		}, {
-			"ref": "CIS-00083",
-			"date": "1966",
-			"desc": "Newspaper Article"
-		}, {
-			"ref": "01622B",
-			"date": "1967",
-			"desc": "Map"
-		}, {
-			"ref": "01574A",
-			"date": "1967",
-			"desc": "Handwritten Plan"
-		}, {
-			"ref": "01579A",
-			"date": "1967",
-			"desc": "Handrwitten Plan"
-		}, {
-			"ref": "CIS-00086",
-			"date": "1967",
-			"desc": "Newspaper Article"
-		}, {
-			"ref": "01564A",
-			"date": "1968",
-			"desc": "Handwritten Plan"
-		}, {
-			"ref": "01510",
-			"date": "1968",
-			"desc": "Plan"
-		}, {
-			"ref": "00009",
-			"date": "1968",
-			"desc": "Newspaper article"
-		}, {
-			"ref": "01765B",
-			"date": "1968",
-			"desc": "Newspaper article"
-		}, {
-			"ref": "01765C",
-			"date": "1968",
-			"desc": "Design plan"
-		}, {
-			"ref": "09398",
-			"date": "1969",
-			"desc": "Floor plan"
-		}, {
-			"ref": "01835",
-			"date": "1969",
-			"desc": "Floor plan"
-		}, {
-			"ref": "04227",
-			"date": "1970",
-			"desc": "Newspaper Article"
-		}, {
-			"ref": "09508D",
-			"date": "1970",
-			"desc": "Plan"
-		}, {
-			"ref": "CIS-00090",
-			"date": "1971",
-			"desc": "Newspaper Article"
-		}, {
-			"ref": "01781C",
-			"date": "1972",
-			"desc": "Handwritten plan"
-		}, {
-			"ref": "04047A",
-			"date": "1972",
-			"desc": "Handwritten Map"
-		}, {
-			"ref": "CIS-00091",
-			"date": "1972",
-			"desc": "Photographs"
-		}, {
-			"ref": "04022B",
-			"date": "1973",
-			"desc": "Photographs"
-		}, {
-			"ref": "CIS-00092",
-			"date": "1973",
-			"desc": "Newspaper Article"
-		}, {
-			"ref": "CIS-00094",
-			"date": "1973",
-			"desc": "Newspaper Article"
-		}, {
-			"ref": "CIS-00096",
-			"date": "1976",
-			"desc": "Newspaper Article"
-		}],
-		"enrollment": [{
-			"year": 1900,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1901,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1902,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1903,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1904,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1905,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1906,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1907,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1908,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1909,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1910,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1911,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1912,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1913,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1914,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1915,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1916,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1917,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1918,
-			"number": 27,
-			"notes": ""
-		}, {
-			"year": 1919,
-			"number": 34,
-			"notes": ""
-		}, {
-			"year": 1920,
-			"number": 53,
-			"notes": ""
-		}, {
-			"year": 1921,
-			"number": 61,
-			"notes": ""
-		}, {
-			"year": 1922,
-			"number": 65,
-			"notes": ""
-		}, {
-			"year": 1923,
-			"number": 78,
-			"notes": ""
-		}, {
-			"year": 1924,
-			"number": 78,
-			"notes": ""
-		}, {
-			"year": 1925,
-			"number": 76,
-			"notes": ""
-		}, {
-			"year": 1926,
-			"number": 84,
-			"notes": ""
-		}, {
-			"year": 1927,
-			"number": 84,
-			"notes": ""
-		}, {
-			"year": 1928,
-			"number": 82,
-			"notes": ""
-		}, {
-			"year": 1929,
-			"number": 82,
-			"notes": ""
-		}, {
-			"year": 1930,
-			"number": 82,
-			"notes": ""
-		}, {
-			"year": 1931,
-			"number": 111,
-			"notes": ""
-		}, {
-			"year": 1932,
-			"number": 111,
-			"notes": ""
-		}, {
-			"year": 1933,
-			"number": 111,
-			"notes": ""
-		}, {
-			"year": 1934,
-			"number": 111,
-			"notes": ""
-		}, {
-			"year": 1935,
-			"number": 111,
-			"notes": ""
-		}, {
-			"year": 1936,
-			"number": 110,
-			"notes": ""
-		}, {
-			"year": 1937,
-			"number": 99,
-			"notes": ""
-		}, {
-			"year": 1938,
-			"number": 101,
-			"notes": ""
-		}, {
-			"year": 1939,
-			"number": 123,
-			"notes": ""
-		}, {
-			"year": 1940,
-			"number": 123,
-			"notes": ""
-		}, {
-			"year": 1941,
-			"number": 123,
-			"notes": ""
-		}, {
-			"year": 1942,
-			"number": 123,
-			"notes": ""
-		}, {
-			"year": 1943,
-			"number": 123,
-			"notes": ""
-		}, {
-			"year": 1944,
-			"number": 123,
-			"notes": ""
-		}, {
-			"year": 1945,
-			"number": 123,
-			"notes": ""
-		}, {
-			"year": 1946,
-			"number": 123,
-			"notes": ""
-		}, {
-			"year": 1947,
-			"number": 123,
-			"notes": ""
-		}, {
-			"year": 1948,
-			"number": 100,
-			"notes": ""
-		}, {
-			"year": 1949,
-			"number": 127,
-			"notes": ""
-		}, {
-			"year": 1950,
-			"number": 127,
-			"notes": ""
-		}, {
-			"year": 1951,
-			"number": 127,
-			"notes": ""
-		}, {
-			"year": 1952,
-			"number": 131,
-			"notes": ""
-		}, {
-			"year": 1953,
-			"number": 145,
-			"notes": ""
-		}, {
-			"year": 1954,
-			"number": 139,
-			"notes": ""
-		}, {
-			"year": 1955,
-			"number": 144,
-			"notes": ""
-		}, {
-			"year": 1956,
-			"number": 158,
-			"notes": ""
-		}, {
-			"year": 1957,
-			"number": 149,
-			"notes": ""
-		}, {
-			"year": 1958,
-			"number": 146,
-			"notes": ""
-		}, {
-			"year": 1959,
-			"number": 136,
-			"notes": ""
-		}, {
-			"year": 1960,
-			"number": 142,
-			"notes": ""
-		}, {
-			"year": 1961,
-			"number": 136,
-			"notes": ""
-		}, {
-			"year": 1962,
-			"number": 147,
-			"notes": ""
-		}, {
-			"year": 1963,
-			"number": 141,
-			"notes": ""
-		}, {
-			"year": 1964,
-			"number": 145,
-			"notes": ""
-		}, {
-			"year": 1965,
-			"number": 144,
-			"notes": ""
-		}, {
-			"year": 1966,
-			"number": 147,
-			"notes": ""
-		}, {
-			"year": 1967,
-			"number": 142,
-			"notes": ""
-		}, {
-			"year": 1968,
-			"number": 134,
-			"notes": ""
-		}, {
-			"year": 1969,
-			"number": 133,
-			"notes": ""
-		}, {
-			"year": 1970,
-			"number": 145,
-			"notes": ""
-		}, {
-			"year": 1971,
-			"number": 145,
-			"notes": ""
-		}, {
-			"year": 1972,
-			"number": 99,
-			"notes": ""
-		}, {
-			"year": 1973,
-			"number": 99,
-			"notes": ""
-		}, {
-			"year": 1974,
-			"number": 99,
-			"notes": ""
-		}, {
-			"year": 1975,
-			"number": 99,
-			"notes": ""
-		}, {
-			"year": 1976,
-			"number": 94,
-			"notes": ""
-		}, {
-			"year": 1977,
-			"number": 94,
-			"notes": ""
-		}, {
-			"year": 1978,
-			"number": 75,
-			"notes": ""
-		}, {
-			"year": 1979,
-			"number": 75,
-			"notes": ""
-		}, {
-			"year": 1980,
-			"number": 82,
-			"notes": ""
-		}, {
-			"year": 1981,
-			"number": 82,
-			"notes": ""
-		}, {
-			"year": 1982,
-			"number": 82,
-			"notes": ""
-		}, {
-			"year": 1983,
-			"number": 82,
-			"notes": ""
-		}],
-		"reserves": ["Ahousaht", "Chiclisat", "Clayoquot", "Cowichan", "Ehattisaht", "Hesquiaht", "Keltsemet", "Kyoquot", "Moachat", "Muchalat", "Nitinat", "Nootka", "Nuchatlitz", "Nuchatlaht", "Opitsat", "Pacheenaht", "Pauquachin", "Penelakut", "Saanish", "Sechelt", "Sheshaht", "Songhees", "Squamish", "Toquaht", "Uchucklisaht", "Ucluelet"],
-		"religiousGroups": [{
-			"group": "Order of St. Benedict",
-			"ref": ["00848B"]
-		}, {
-			"group": "Missionary Oblates of Mary Immaculate",
-			"ref": ["00892B", "01683", "CIS-000105", "OB-000451"]
-		}],
-		"writtenAgreements": [{
-			"date": 1971,
-			"title": "Chaplaincy Service Agreement between the Oblate Provincial and the Government.",
-			"desc": "December, Chaplaincy Service Agreement between the Oblate Provincial and the Government. This agreement provided that the Holy Family Parish would provide Chaplaincy services to the resident students and staff of Christie Student Residence.",
-			"ref": [""]
-		}, {
-			"date": 1972,
-			"title": "Chaplaincy Service Agreement between the Oblate Provincial and the Government",
-			"desc": "September, Chaplaincy Service Agreement between the Oblate Provincial and the Government. This agreement provided that the Holy Family Parish would provide Chaplaincy services to the resident students and staff of Christie Student Residence.",
-			"ref": ["01920", "01920A"]
-		}, {
-			"date": 1973,
-			"title": "Service Agreement between Oblates and the Government",
-			"desc": "June, Service Agreement between Oblates and the Government. This agreement provided that the Oblates would, among other things, continue to recruit and nominate administrators and child care workers for student residences and provide chaplaincy services for the residences.",
-			"ref": ["OB-002905"]
-		}, {
-			"date": 1974,
-			"title": "Agreement between Oblates and the Government.",
-			"desc": "June, Agreement between Oblates and the Government. This agreement provided that the Oblates would, among other things, coordinate chaplaincy services when such services are requested by parents of children in residence.",
-			"ref": ["OB-002919"]
-		}],
-		"abuseReports": {
-			"physical": [{
-				"date": 1924,
-				"source": "Report",
-				"investigated": true,
-				"result": false,
-				"victim": "unnamed student",
-				"agressor": "Principal",
-				"notes": "In 1924, it was reported that the Principal of the school was ' ... too severe in his punishment of the boys ... the boy's shirt was stripped from his back and the boy punished on the bare back.'",
-				"ref": ["00860A"]
-			}, {
-				"date": 1937,
-				"source": "Report",
-				"investigated": true,
-				"result": false,
-				"victim": "unnamed student",
-				"agressor": "unnamed staff member",
-				"notes": "In 1937 it was reported that 'It has been suggested ... that [a staff member] may be rather rough in his treatment of the boys.' There is no further mention of this report.",
-				"ref": ["00877"]
-			}],
-			"sexual": [{
-				"date": 1963,
-				"source": "Documents",
-				"investigated": true,
-				"result": true,
-				"victim": "unnamed female",
-				"aggressor": "unnamed student",
-				"notes": "Two documents, dated February 5th and 11th 1963, discuss a male student at Christie IRS who was discharged 'For an act of immorality- rape'. The documents do not indicate if the female involved was a student at the school or not.",
-				"ref": ["CIS-00642, CIS-00643"]
-			}]
-		},
-		"additionalInfo": {
-			"studentAggression": [{
-				"date": "",
-				"students": "",
-				"type": "",
-				"notes": "xxx",
-				"ref": [""]
-			}],
-			"studentSex": [{
-				"date": "",
-				"students": "",
-				"type": "",
-				"notes": "xxx",
-				"ref": [""]
-			}],
-			"medical": [{
-				"startYear": "",
-				"endYear": "",
-				"type": "",
-				"ref": [""]
-			}]
-		}
-	}
-
+  "name": "Christie IRS",
+  "type": "Residential",
+  "location": {
+    "province": "...",
+    "city": "...",
+    "latLng": {
+      "lat": 0.000,
+      "lng": 0.000
+    }
+  },
+  "narrativeDate": "19-01-05",
+  "startYear": 1900,
+  "endYear": 1983,
+  "data": {
+    "nameVariants": [{
+      "startYear": "",
+      "endYear": "",
+      "name": "Kakawis Indian School",
+      "note": "",
+      "ref": ["04454"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Kakawis School",
+      "note": "",
+      "ref": ["04611"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Kakawis IRS",
+      "note": "",
+      "ref": ["01718"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Christie Industrial School",
+      "note": "",
+      "ref": ["00862A"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Clayoquoy School",
+      "note": "",
+      "ref": ["00841"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Clayoquot Industrial School",
+      "note": "",
+      "ref": ["01686"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Clayoquot (Bishop Christie) School",
+      "note": "",
+      "ref": ["00485"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Clayquot Christie Boarding School",
+      "note": "",
+      "ref": ["08224"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Clayoquot Boarding School",
+      "note": "",
+      "ref": ["08207"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Clayoquot School",
+      "note": "",
+      "ref": ["08248"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Indian Boarding School at Clayoquot",
+      "note": "",
+      "ref": ["08201"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Clayoquot Indian Boarding School",
+      "note": "",
+      "ref": ["08226"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Roman Catholic Christie Indian Boarding School",
+      "note": "",
+      "ref": ["08229"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Bishop Christie Roman Catholic Boarding School",
+      "note": "",
+      "ref": ["08231"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Christie Indian Industrial School",
+      "note": "",
+      "ref": ["07639"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Christie's Boarding School",
+      "note": "",
+      "ref": ["08202"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Christie School",
+      "note": "",
+      "ref": ["00602"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Christie Indian School",
+      "note": "",
+      "ref": ["00591"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Christie Residential School",
+      "note": "",
+      "ref": ["00601"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Christie Indian Residential School",
+      "note": "",
+      "ref": ["00674"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Christie Student Residence",
+      "note": "",
+      "ref": ["03806"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Tofino Hostel",
+      "note": "",
+      "ref": ["05126"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Tofino Student Residence",
+      "note": "",
+      "ref": ["05126", "04049"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Tofino School",
+      "note": "",
+      "ref": ["05125"]
+    }, {
+      "startYear": "",
+      "endYear": "",
+      "name": "Christie Indian Student Residence",
+      "note": "",
+      "ref": ["04022A"]
+    }],
+    "chronoHistory": [{
+      "date": 1900,
+      "desc": "May 20, Christie Industrial School opened.",
+      "ref": ["08202", "08201"]
+    }, {
+      "date": 1922,
+      "desc": "May 20, Christie Industrial School opened.Gymnasium constructed, including a bowling alley, and room for basketball and handball.",
+      "ref": ["00862A"]
+    }, {
+      "date": 1924,
+      "desc": "Additions over three to four years include a recreation hall for boys, a recreation hall for girls, additional accommodation, three bathtubs, a classroom, and a house for Indian people who come to visit their children and often remain over night.",
+      "ref": ["08371"]
+    }, {
+      "date": 1946,
+      "desc": "A discussion was held regarding using a R.C.A.F hospital at Totino as a replacement for the existing Christie Indian School. It was eventually decided not to relocate to this new location.",
+      "ref": ["08188"]
+    }, {
+      "date": 1969,
+      "desc": "Four classrooms in operation, grades 1 to 8. This document comments that the school is 'church-owned'",
+      "ref": ["00029"]
+    }, {
+      "date": 1971,
+      "desc": "June, 'old' Christie IRS closed.",
+      "ref": ["04062", "CIS-00090"]
+    }, {
+      "date": 1971,
+      "desc": "October 30, official opening of Tofino/Christie Student Residence.",
+      "ref": ["05126", "04052"]
+    }, {
+      "date": 1973,
+      "desc": "June 23, official opening of the new gymnasium",
+      "ref": ["04031", "CIS-00092"]
+    }, {
+      "date": 1974,
+      "desc": "September, Christie Student Residence handed over to the West Coast District Council of Indian Chiefs to continue to operate as a student residence.",
+      "ref": ["00842", "00992"]
+    }, {
+      "date": 1975,
+      "desc": "August, Christie Student Residence handed back to the government to operate for the 1975-76 school year",
+      "ref": ["01000"]
+    }, {
+      "date": 1983,
+      "desc": "June 30, Christie Student Residence closed.",
+      "ref": ["05284"]
+    }],
+    "notesHistory": [],
+    "management": [{
+        "startYear": 1899,
+        "endYear": 1938,
+        "org": "church",
+        "orgName": "Order of St. Benedict",
+        "type": ["Management", "Teaching", "Staff"],
+        "ref": ["00848B", "00892B", "08202", "08206", "08024"]
+      },
+      {
+        "startYear": 1938,
+        "endYear": 1969,
+        "org": "church",
+        "orgName": "Missionary Oblates of Mary Immaculate",
+        "type": ["Management", "Teaching", "Staff"],
+        "ref": ["00892B", "01683", "CIS-000105", "OB-00451"]
+      },
+      {
+        "startYear": 1969,
+        "endYear": 1974,
+        "org": "government",
+        "orgName": "Federal Government of Canada",
+        "type": ["Management", "Teaching", "Staff"],
+        "ref": ["00992"]
+      },
+      {
+        "startYear": 1974,
+        "endYear": 1983,
+        "org": "band",
+        "orgName": "West Coast District Council of Indian Chiefs",
+        "type": ["Management", "Teaching", "Staff"],
+        "ref": ["00842", "00992"]
+      }
+    ],
+    "enrollment": [{
+      "year": 1900,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1901,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1902,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1903,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1904,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1905,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1906,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1907,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1908,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1909,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1910,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1911,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1912,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1913,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1914,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1915,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1916,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1917,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1918,
+      "number": 27,
+      "notes": ""
+    }, {
+      "year": 1919,
+      "number": 34,
+      "notes": ""
+    }, {
+      "year": 1920,
+      "number": 53,
+      "notes": ""
+    }, {
+      "year": 1921,
+      "number": 61,
+      "notes": ""
+    }, {
+      "year": 1922,
+      "number": 65,
+      "notes": ""
+    }, {
+      "year": 1923,
+      "number": 78,
+      "notes": ""
+    }, {
+      "year": 1924,
+      "number": 78,
+      "notes": ""
+    }, {
+      "year": 1925,
+      "number": 76,
+      "notes": ""
+    }, {
+      "year": 1926,
+      "number": 84,
+      "notes": ""
+    }, {
+      "year": 1927,
+      "number": 84,
+      "notes": ""
+    }, {
+      "year": 1928,
+      "number": 82,
+      "notes": ""
+    }, {
+      "year": 1929,
+      "number": 82,
+      "notes": ""
+    }, {
+      "year": 1930,
+      "number": 82,
+      "notes": ""
+    }, {
+      "year": 1931,
+      "number": 111,
+      "notes": ""
+    }, {
+      "year": 1932,
+      "number": 111,
+      "notes": ""
+    }, {
+      "year": 1933,
+      "number": 111,
+      "notes": ""
+    }, {
+      "year": 1934,
+      "number": 111,
+      "notes": ""
+    }, {
+      "year": 1935,
+      "number": 111,
+      "notes": ""
+    }, {
+      "year": 1936,
+      "number": 110,
+      "notes": ""
+    }, {
+      "year": 1937,
+      "number": 99,
+      "notes": ""
+    }, {
+      "year": 1938,
+      "number": 101,
+      "notes": ""
+    }, {
+      "year": 1939,
+      "number": 123,
+      "notes": ""
+    }, {
+      "year": 1940,
+      "number": 123,
+      "notes": ""
+    }, {
+      "year": 1941,
+      "number": 123,
+      "notes": ""
+    }, {
+      "year": 1942,
+      "number": 123,
+      "notes": ""
+    }, {
+      "year": 1943,
+      "number": 123,
+      "notes": ""
+    }, {
+      "year": 1944,
+      "number": 123,
+      "notes": ""
+    }, {
+      "year": 1945,
+      "number": 123,
+      "notes": ""
+    }, {
+      "year": 1946,
+      "number": 123,
+      "notes": ""
+    }, {
+      "year": 1947,
+      "number": 123,
+      "notes": ""
+    }, {
+      "year": 1948,
+      "number": 100,
+      "notes": ""
+    }, {
+      "year": 1949,
+      "number": 127,
+      "notes": ""
+    }, {
+      "year": 1950,
+      "number": 127,
+      "notes": ""
+    }, {
+      "year": 1951,
+      "number": 127,
+      "notes": ""
+    }, {
+      "year": 1952,
+      "number": 131,
+      "notes": ""
+    }, {
+      "year": 1953,
+      "number": 145,
+      "notes": ""
+    }, {
+      "year": 1954,
+      "number": 139,
+      "notes": ""
+    }, {
+      "year": 1955,
+      "number": 144,
+      "notes": ""
+    }, {
+      "year": 1956,
+      "number": 158,
+      "notes": ""
+    }, {
+      "year": 1957,
+      "number": 149,
+      "notes": ""
+    }, {
+      "year": 1958,
+      "number": 146,
+      "notes": ""
+    }, {
+      "year": 1959,
+      "number": 136,
+      "notes": ""
+    }, {
+      "year": 1960,
+      "number": 142,
+      "notes": ""
+    }, {
+      "year": 1961,
+      "number": 136,
+      "notes": ""
+    }, {
+      "year": 1962,
+      "number": 147,
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": 141,
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": 145,
+      "notes": ""
+    }, {
+      "year": 1965,
+      "number": 144,
+      "notes": ""
+    }, {
+      "year": 1966,
+      "number": 147,
+      "notes": ""
+    }, {
+      "year": 1967,
+      "number": 142,
+      "notes": ""
+    }, {
+      "year": 1968,
+      "number": 134,
+      "notes": ""
+    }, {
+      "year": 1969,
+      "number": 133,
+      "notes": ""
+    }, {
+      "year": 1970,
+      "number": 145,
+      "notes": ""
+    }, {
+      "year": 1971,
+      "number": 145,
+      "notes": ""
+    }, {
+      "year": 1972,
+      "number": 99,
+      "notes": ""
+    }, {
+      "year": 1973,
+      "number": 99,
+      "notes": ""
+    }, {
+      "year": 1974,
+      "number": 99,
+      "notes": ""
+    }, {
+      "year": 1975,
+      "number": 99,
+      "notes": ""
+    }, {
+      "year": 1976,
+      "number": 94,
+      "notes": ""
+    }, {
+      "year": 1977,
+      "number": 94,
+      "notes": ""
+    }, {
+      "year": 1978,
+      "number": 75,
+      "notes": ""
+    }, {
+      "year": 1979,
+      "number": 75,
+      "notes": ""
+    }, {
+      "year": 1980,
+      "number": 82,
+      "notes": ""
+    }, {
+      "year": 1981,
+      "number": 82,
+      "notes": ""
+    }, {
+      "year": 1982,
+      "number": 82,
+      "notes": ""
+    }, {
+      "year": 1983,
+      "number": 82,
+      "notes": ""
+    }],
+    "reserves": ["Ahousaht", "Chiclisat", "Clayoquot", "Cowichan", "Ehattisaht", "Hesquiaht", "Keltsemet", "Kyoquot", "Moachat", "Muchalat", "Nitinat", "Nootka", "Nuchatlitz", "Nuchatlaht", "Opitsat", "Pacheenaht", "Pauquachin", "Penelakut", "Saanish", "Sechelt", "Sheshaht", "Songhees", "Squamish", "Toquaht", "Uchucklisaht", "Ucluelet"],
+    "religiousGroups": [{
+      "group": "Order of St. Benedict",
+      "ref": ["00848B"]
+    }, {
+      "group": "Missionary Oblates of Mary Immaculate",
+      "ref": ["00892B", "01683", "CIS-000105", "OB-000451"]
+    }],
+    "writtenAgreements": [{
+      "date": 1971,
+      "title": "Chaplaincy Service Agreement between the Oblate Provincial and the Government.",
+      "desc": "December, Chaplaincy Service Agreement between the Oblate Provincial and the Government. This agreement provided that the Holy Family Parish would provide Chaplaincy services to the resident students and staff of Christie Student Residence.",
+      "ref": [""]
+    }, {
+      "date": 1972,
+      "title": "Chaplaincy Service Agreement between the Oblate Provincial and the Government",
+      "desc": "September, Chaplaincy Service Agreement between the Oblate Provincial and the Government. This agreement provided that the Holy Family Parish would provide Chaplaincy services to the resident students and staff of Christie Student Residence.",
+      "ref": ["01920", "01920A"]
+    }, {
+      "date": 1973,
+      "title": "Service Agreement between Oblates and the Government",
+      "desc": "June, Service Agreement between Oblates and the Government. This agreement provided that the Oblates would, among other things, continue to recruit and nominate administrators and child care workers for student residences and provide chaplaincy services for the residences.",
+      "ref": ["OB-002905"]
+    }, {
+      "date": 1974,
+      "title": "Agreement between Oblates and the Government.",
+      "desc": "June, Agreement between Oblates and the Government. This agreement provided that the Oblates would, among other things, coordinate chaplaincy services when such services are requested by parents of children in residence.",
+      "ref": ["OB-002919"]
+    }],
+    "additionalInformation": [{
+        "date": 1924,
+        "type": "physical",
+        "victim": "unnamed student",
+        "agressor": "principal",
+        "notes": "In 1924, it was reported that the Principal of the school was ' ... too severe in his punishment of the boys ... the boy's shirt was stripped from his back and the boy punished on the bare back.'",
+        "ref": ["00860A"]
+      },
+      {
+        "date": 1937,
+        "type": "physical",
+        "victim": "unnamed student",
+        "agressor": "unnamed staff member",
+        "notes": "In 1937 it was reported that 'It has been suggested ... that [a staff member] may be rather rough in his treatment of the boys.' There is no further mention of this report.",
+        "ref": ["00877"]
+      },
+      {
+        "date": 1963,
+        "type": "sexual",
+        "victim": "unnamed female",
+        "agressor": "unnamed student",
+        "notes": "Two documents, dated February 5th and 11th 1963, discuss a male student at Christie IRS who was discharged 'For an act of immorality- rape'. The documents do not indicate if the female involved was a student at the school or not.",
+        "ref": ["CIS-00642", "CIS-00643"]
+      },
+      {
+        "date": 1950,
+        "type": "report",
+        "victim": "",
+        "agressor": "",
+        "notes": "The Oblate Order also produced a booklet commemorating the Golden Jubilee of Christie IRS in 1950.",
+        "ref": ["CIS-00006"]
+      },
+      {
+        "date": 1960,
+        "type": "report",
+        "victim": "",
+        "agressor": "",
+        "notes": "In the mid-late 1960s there was extensive discussion about building a new hostel to replace the existing residential school.",
+        "ref": ["01117", "01029", "01765B", "01836", "01836A", "01766A", "00774", "01861", "00770", "01788"]
+      },
+      {
+        "date": 1960,
+        "type": "incident",
+        "victim": "",
+        "agressor": "",
+        "notes": "In 1960, 3 boys ran away, 2 did not return to the school and 1 was returned. All 3 were officially discharged within 3 months.",
+        "ref": ["03571", "08555", "09387"]
+      },
+      {
+        "date": 1964,
+        "type": "incident",
+        "victim": "",
+        "agressor": "",
+        "notes": "In 1964, 2 boys ran away from the school. They left in a dugout canoe and were missing for a day and a half before being returned to the school. They were described as being homesick.",
+        "ref": ["CIS-00593", "CIS-00638"]
+      },
+      {
+        "date": 1948,
+        "type": "health",
+        "victim": "",
+        "agressor": "",
+        "notes": "In 1948, 80 cases of measles were reports [sic].",
+        "ref": ["00885", "CIS-000309", "CIS-000572"]
+      },
+      {
+        "date": 1939,
+        "type": "health",
+        "victim": "",
+        "agressor": "",
+        "notes": "In 1939 and 1940, five children died of tubercular meningitis.",
+        "ref": ["CIS-000156", "06500"]
+      },
+      {
+        "date": 1941,
+        "type": "health",
+        "victim": "",
+        "agressor": "",
+        "notes": "One child died at the school in 1941.",
+        "ref": ["8089"]
+      },
+      {
+        "date": 1944,
+        "type": "health",
+        "victim": "",
+        "agressor": "",
+        "notes": "In 1944, a child died of Peritonitis at the school.",
+        "ref": ["08110"]
+      }
+    ]
+  }
 }
