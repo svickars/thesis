@@ -3,6 +3,8 @@
 var storyID = "aelias";
 window.onload = drawStory(storyID);
 var orange = "#f15a24";
+var rightBar = false;
+var status = "begin";
 
 // SCROLLMAGIC
 // define global controller
@@ -33,8 +35,10 @@ var map1_p = new ScrollMagic.Scene({
   })
   .triggerHook("onLeave")
   .setPin("#map1_cont")
+  .on("enter", function() {
+    status = "map";
+  })
   .addTo(controller);
-
 
 // Setup our svg layer that we can manipulate with d3
 var container = map.getCanvasContainer();
@@ -62,6 +66,62 @@ var path = d3.geoPath()
 
 d3.json("js/data/locations.json", function(collection) {
 
+  var labelName = g.selectAll("text")
+    .data(collection.schools)
+    .enter().append("text")
+    .attr("class", "label schoolLabel")
+    .attr("id", function(d) {
+      return "label-" + d.schoolID;
+    })
+    .attr("pointer-events", "none")
+    .attr("dy", "6px")
+    .attr("dx", "10px")
+    .text(function(d) {
+      return d.locationName + " " + d.title;
+    });
+
+  var rTip = g.selectAll(".rTip")
+    .data(collection.reservations)
+    .enter().append("text", ".rtip")
+    .attr("class", "rTooltip")
+    .attr("id", function(d) {
+      return "rTip-" + d.id;
+    })
+    .attr("pointer-events", "none")
+    .attr("dx", "20px")
+    .attr("dy", "5px")
+    .text(function(d) {
+      return d.reserve
+    });
+
+  var sTip = g.selectAll(".sTip")
+    .data(collection.schools)
+    .enter().append("text", ".stip")
+    .attr("class", "sTooltip")
+    .attr("id", function(d) {
+      return "sTip-" + d.schoolID;
+    })
+    .attr("pointer-events", "none")
+    .attr("dx", "9px")
+    .attr("dy", "5px")
+    .text(function(d) {
+      return d.locationName + " " + d.title;
+    });
+
+  var sTip2 = g.selectAll(".sTip2")
+    .data(collection.schools)
+    .enter().append("text", ".stip2")
+    .attr("class", "sTooltip2")
+    .attr("id", function(d) {
+      return "sTip-" + d.schoolID;
+    })
+    .attr("pointer-events", "none")
+    .attr("dx", "9px")
+    .attr("dy", "19px")
+    .text(function(d) {
+      return d.start + " - " + d.end;
+    });
+
   var featureR = g.selectAll(".rDot")
     .data(collection.reservations)
     .enter().append("circle", ".rDot")
@@ -76,9 +136,7 @@ d3.json("js/data/locations.json", function(collection) {
     .style("display", "none")
     .style("opacity", "0")
     .style("fill", "#333")
-    .attr("r", 15)
-    .on("mouseover", reserveDotMouseIn)
-    .on("mouseout", reserveDotMouseOut);
+    .attr("r", 15);
 
   var feature = g.selectAll(".sCircle")
     .data(collection.schools)
@@ -93,61 +151,7 @@ d3.json("js/data/locations.json", function(collection) {
     .style("stroke", "none")
     .style("opacity", 1.0)
     .style("fill", orange)
-    .attr("r", 5)
-    .on("mouseover", schoolDotMouseIn)
-    .on("mouseout", schoolDotMouseOut)
-
-  var labelName = g.selectAll("text")
-    .data(collection.schools)
-    .enter().append("text")
-    .attr("class", "label schoolLabel")
-    .attr("id", function(d) {
-      return "label-" + d.schoolID;
-    })
-    .attr("dy", "6px")
-    .attr("dx", "10px")
-    .text(function(d) {
-      return d.locationName + " " + d.title;
-    });
-
-  var rTip = g.selectAll(".rTip")
-    .data(collection.reservations)
-    .enter().append("text", ".rtip")
-    .attr("class", "rTooltip")
-    .attr("id", function(d) {
-      return "rTip-" + d.id;
-    })
-    .attr("dx", "20px")
-    .attr("dy", "5px")
-    .text(function(d) {
-      return d.reserve
-    });
-
-  var sTip = g.selectAll(".sTip")
-    .data(collection.schools)
-    .enter().append("text", ".stip")
-    .attr("class", "sTooltip")
-    .attr("id", function(d) {
-      return "sTip-" + d.schoolID;
-    })
-    .attr("dx", "9px")
-    .attr("dy", "5px")
-    .text(function(d) {
-      return d.locationName + " " + d.title;
-    });
-
-  var sTip2 = g.selectAll(".sTip2")
-    .data(collection.schools)
-    .enter().append("text", ".stip2")
-    .attr("class", "sTooltip2")
-    .attr("id", function(d) {
-      return "sTip-" + d.schoolID;
-    })
-    .attr("dx", "9px")
-    .attr("dy", "19px")
-    .text(function(d) {
-      return d.start + " - " + d.end;
-    });
+    .attr("r", 5);
 
 
 
@@ -191,6 +195,17 @@ d3.json("js/data/locations.json", function(collection) {
       .attr("y", function(d) {
         return d3Projection([d.lng, d.lat])[1];
       });
+
+    feature.on("mouseover", schoolDotMouseIn)
+      .on("click", function(d) {
+        rightBarOut(d);
+        d3.event.stopPropagation();
+      })
+      .on("mouseout", schoolDotMouseOut);
+
+    featureR.on("mouseover", reserveDotMouseIn)
+      .on("mouseout", reserveDotMouseOut);
+
   }
 
   // re-render our visualization whenever the view changes
@@ -274,7 +289,6 @@ d3.json("js/data/locations.json", function(collection) {
 })
 
 d3.json("js/data/connections.json", function(collection) {
-
 
   var connectionFeature = g.selectAll("line")
     .data(collection)
@@ -619,9 +633,8 @@ function pageSix(name) {
       center: [data.latLng.lng, data.latLng.lat],
       zoom: data.zoom,
       bearing: 0,
-
       speed: 100,
-      curve: 1, // change the speed at which it zooms out
+      curve: 1,
 
       easing: function(t) {
         return t;
@@ -757,4 +770,72 @@ function pageSix(name) {
       .addTo(controller);
   });
 
+}
+
+function rightBarOut(data) {
+  setTimeout(function() {
+    rightBar = true;
+    rightBarCurrent = true;
+  }, 500);
+  var lat = data.latitude,
+    lng = data.longitude;
+
+  map.flyTo({
+    center: [lng, lat],
+    zoom: 10,
+    bearing: 0,
+    speed: 2,
+    curve: 1,
+
+    easing: function(t) {
+      return t;
+    }
+  });
+
+  rightBarData(data);
+
+  // slide out right bar, shrink mapbox, hide and fade back in controller
+  d3.select("#rightBar").classed("rightBarOut", true);
+  d3.select(".mapboxgl-ctrl-top-right").transition().duration(0).style("opacity", 0);
+
+  var mapWidth = window.innerWidth - 500;
+
+  d3.select("#map").transition().delay(500).duration(0).style("height", window.innerHeight + "px").style("width", mapWidth + "px");
+  d3.select(".mapboxgl-ctrl-top-right").transition().delay(500).duration(500).style("opacity", 1);
+
+}
+
+map.on("click", function(d) {
+  if (rightBar === true) {
+    rightBarBack(d);
+  }
+})
+
+function rightBarData(data) {
+  console.log("let's do it");
+}
+
+function rightBarBack(data) {
+  d3.select("#map").style("height", window.innerHeight + "px").style("width", window.innerWidth + "px");
+  d3.select("#rightBar").classed("rightBarOut", false);
+  d3.select(".mapboxgl-ctrl-top-right").transition().duration(200).style("opacity", 0);
+  d3.select(".mapboxgl-ctrl-top-right").transition().delay(500).duration(500).style("opacity", 1);
+
+  map.flyTo({
+    center: [-100, 58],
+    zoom: 4,
+    bearing: 0,
+    speed: 2,
+    curve: 1,
+
+    easing: function(t) {
+      return t;
+    }
+  });
+
+  d3.selectAll(".reserveDot").style("display", "block").transition().duration(600).ease(d3.easeLinear).style("opacity", 0.1);
+  d3.selectAll(".schoolMarker").transition().duration(600).ease(d3.easeLinear).style("opacity", 1);
+  d3.selectAll(".schoolLabel").style("opacity", "0");
+
+  rightBar = false;
 }
