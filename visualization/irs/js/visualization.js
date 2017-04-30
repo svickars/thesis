@@ -29,7 +29,7 @@ map.addControl(new mapboxgl.Navigation());
 // scrollmagic: pin main map
 var map1_p = new ScrollMagic.Scene({
     triggerElement: "#tMap1_p",
-    duration: "500%"
+    duration: "800%"
   })
   .triggerHook("onLeave")
   .setPin("#map1_cont")
@@ -644,10 +644,10 @@ function pageSix(name) {
         d3.selectAll(".schoolMarker").style("opacity", "0");
 
         map.flyTo({
-          center: [-100, 57],
-          zoom: 4.5,
+          center: [-100, 58],
+          zoom: 4,
           bearing: 0,
-          speed: 5,
+          speed: 2,
           curve: 1,
 
           easing: function(t) {
@@ -706,36 +706,38 @@ function pageSix(name) {
 
     var oneof_p_s = new ScrollMagic.Scene({
         triggerElement: "#oneof",
-        duration: "100%"
+        duration: "150%"
       })
       .offset(document.getElementById('oneof').offsetHeight / 2 + "px")
       .setPin("#oneof")
       .addTo(controller);
-    // var oneof_fo_t = TweenMax.to("#oneof", .5, {
-    //     opacity: "0"
-    // });
-    // var oneof_fo_s = new ScrollMagic.Scene({
-    //         triggerElement: "#thismany",
-    //     })
-    //     .triggerHook("onEnter")
-    //     .setTween(oneof_fo_t)
-    //     .addTo(controller);
+    var oneof_fo_t = TweenMax.to("#oneof", .5, {
+      opacity: "0"
+    });
+    var oneof_fo_s = new ScrollMagic.Scene({
+        triggerElement: "#thismany",
+      })
+      .triggerHook("onEnter")
+      .setTween(oneof_fo_t)
+      .addTo(controller);
 
     var thismany_p_s = new ScrollMagic.Scene({
         triggerElement: "#thismany",
-        duration: "100%"
+        duration: "150%"
       })
       .offset(document.getElementById('thismany').offsetHeight / 2 + "px")
       .setPin("#thismany")
       .addTo(controller);
-    // var thismany_fo_t = TweenMax.to("#thismany", .5, {
-    //     opacity: "0"
-    // });
-    // var oneof_fo_s = new ScrollMagic.Scene({
-    //         triggerElement: "#tMap1_reserves",
-    //     })
-    //     .setTween(thismany_fo_t)
-    //     .addTo(controller);
+    var thismany_fo_t = TweenMax.to("#thismany", .5, {
+      opacity: "0"
+    });
+    var thismany_fo_s = new ScrollMagic.Scene({
+        triggerElement: "#fromreserves",
+      })
+      .triggerHook("onEnter")
+      .setTween(thismany_fo_t)
+      .addTo(controller);
+
 
     var fromreserves_p_s = new ScrollMagic.Scene({
         triggerElement: "#fromreserves",
@@ -744,14 +746,15 @@ function pageSix(name) {
       .offset(document.getElementById('fromreserves').offsetHeight / 2 + "px")
       .setPin("#fromreserves")
       .addTo(controller);
-    // var fromreserves_fo_t = TweenMax.to("#fromreserves", .5, {
-    //     opacity: "0"
-    // });
-    // var fromreserves_fo_s = new ScrollMagic.Scene({
-    //         triggerElement: "#tMap1_reserves",
-    //     })
-    //     .setTween(fromreserves_fo_t)
-    //     .addTo(controller);
+    var fromreserves_fo_t = TweenMax.to("#fromreserves", .5, {
+      opacity: "0"
+    });
+    var fromreserves_fo_s = new ScrollMagic.Scene({
+        triggerElement: "#tMap1_connections",
+      })
+      .triggerHook("onLeave")
+      .setTween(fromreserves_fo_t)
+      .addTo(controller);
   });
 
 }

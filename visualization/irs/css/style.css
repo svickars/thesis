@@ -549,15 +549,15 @@ p {
   background-color: rgba(255, 255, 255, 0.9); }
 
 #oneof {
-  top: 20%;
+  top: 25%;
   left: 50%; }
 
 #thismany {
-  top: 40%;
+  top: 43.75%;
   left: 50%; }
 
 #fromreserves {
-  top: 60%;
+  top: 62.5%;
   left: 50%; }
 
 .trigger {
@@ -570,15 +570,15 @@ p {
   left: 0; }
 
 #tMap1_zo {
-  top: 30%;
+  top: 25%;
   left: 0; }
 
 #tMap1_irs {
-  top: 40%;
+  top: 43.75%;
   left: 0; }
 
 #tMap1_reserves {
-  top: 60%;
+  top: 62.5%;
   left: 0; }
 
 #tMap1_connections {
