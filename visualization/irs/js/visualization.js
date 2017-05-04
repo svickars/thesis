@@ -1,10 +1,11 @@
 // GLOBAL
 // draw first story when page is loaded
-var storyID = "aelias";
+var storyID = "mbrown";
 window.onload = drawStory(storyID);
 var orange = "#f15a24";
 var rightBar = false;
 var status = "begin";
+var drawn = false;
 
 // SCROLLMAGIC
 // define global controller
@@ -21,11 +22,11 @@ var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/svickars/cj15o81vo00212rqu9mw0wgkp',
   center: [-92.01173055555556, 50.12052777777778],
-  zoom: 9
+  zoom: 9,
+  attributionControl: false
 });
-map.scrollZoom.disable()
-map.dragRotate.disable()
-
+map.scrollZoom.disable();
+map.dragRotate.disable();
 map.addControl(new mapboxgl.Navigation());
 
 // scrollmagic: pin main map
@@ -302,7 +303,7 @@ d3.json("js/data/connections.json", function(collection) {
     .style("stroke", orange)
     .style("opacity", 0.25);
 
-  var drawn = false;
+
 
   var map1_connections_s = new ScrollMagic.Scene({
       triggerElement: '#tMap1_connections'
@@ -660,7 +661,7 @@ function pageSix(name) {
           center: [-100, 58],
           zoom: 4,
           bearing: 0,
-          speed: 2,
+          speed: 1,
           curve: 1,
 
           easing: function(t) {
@@ -780,11 +781,23 @@ function rightBarOut(data) {
   var lat = data.latitude,
     lng = data.longitude;
 
+
+  rightBarData(data);
+
+  // slide out right bar, shrink mapbox, hide and fade back in controller
+  d3.select("#rightBar").classed("rightBarOut", true);
+  // d3.select(".mapboxgl-ctrl-top-right").transition().duration(0).style("opacity", 0);
+
+  var mapWidth = window.innerWidth / 2;
+
+  d3.select("#map").transition().delay(500).duration(0).style("height", window.innerHeight + "px").style("width", mapWidth + "px");
+  d3.select(".mapboxgl-ctrl-top-right").transition().delay(500).duration(500).style("opacity", 1);
+
   map.flyTo({
     center: [lng, lat],
     zoom: 10,
     bearing: 0,
-    speed: 2,
+    speed: 1,
     curve: 1,
 
     easing: function(t) {
@@ -792,17 +805,11 @@ function rightBarOut(data) {
     }
   });
 
-  rightBarData(data);
-
-  // slide out right bar, shrink mapbox, hide and fade back in controller
-  d3.select("#rightBar").classed("rightBarOut", true);
-  d3.select(".mapboxgl-ctrl-top-right").transition().duration(0).style("opacity", 0);
-
-  var mapWidth = window.innerWidth - 500;
-
-  d3.select("#map").transition().delay(500).duration(0).style("height", window.innerHeight + "px").style("width", mapWidth + "px");
-  d3.select(".mapboxgl-ctrl-top-right").transition().delay(500).duration(500).style("opacity", 1);
-
+  if (data.listConnections === "") {} else {
+    // remove reserveDot class from the ones this school is connected to and un-dim those guys
+    d3.selectAll(data.class).classed("reserveDot", false).classed("connection", false);
+    d3.selectAll(data.class).style("opacity", ".6");
+  }
 }
 
 map.on("click", function(d) {
@@ -812,10 +819,334 @@ map.on("click", function(d) {
 })
 
 function rightBarData(data) {
-  console.log("let's do it");
+  d3.selectAll(".rRemove").remove();
+  // var rightBarNeg = $("#rightBar").width() + 30;
+  // d3.select("#rightBar").style("right", "-" + rightBarNeg + "px");
+  var all = data;
+  d3.json("js/data/schools/" + data.schoolID + ".json", function(school) {
+    var rTitle = d3.select("#rTitle").append("h2").attr("class", "rRemove").html(school.name.replace("IRS", "Indian Residential School").replace("RS", "Residential School"));
+    var rSub = d3.select("#rSub").append("p").attr("class", "rRemove").html("Open from <span class='orange'>" + school.startYear + "</span> to <span class='orange'>" + school.endYear + "</span> in <span class='orange'>" + data.placeName + "</span>, <span class='orange'>" + data.province + "</span>.")
+
+    if (school.data.reserves.length === 0) {
+      var rReserves = d3.select("#rReserves").append("div").attr("class", "r1Content rRemove");
+      rReserves.append("h4").html("Data not yet available...");
+    } else {
+      var rReserves = d3.select("#rReserves").append("div").attr("class", "r1Content rRemove");
+      rReserves.append("h4").html("The school drew students from various bands, tribes, and reserves:");
+      for (var i = 0; i < data.reserves.length; i++) {
+        var distance = data.distances[i];
+        rReserves.append("div").html("<span class='rReservesName'>" + data.reserves[i] + "</span> <span class='rReservesDistance'>(" + Number(data.distances[i]).toFixed(0) + "km away)</span>");
+      }
+    }
+
+    if (school.data.religiousGroups.length === 0) {
+      var rReligiousGroups = d3.select("#rReligiousGroups").append("div").attr("class", "r1Content rRemove");
+      rReligiousGroups.append("h4").html("Data not yet available...");
+    } else {
+      var rReligiousGroups = d3.select("#rReligiousGroups").append("div").attr("class", "r1Content rRemove");
+      rReligiousGroups.append("h4").html("The school drew was affiliated with various religious groups:");
+      for (var i = 0; i < school.data.religiousGroups.length; i++) {
+        rReligiousGroups.append("div").html("<span class='rReservesName'>" + school.data.religiousGroups[i].group + "</span>");
+      }
+    }
+
+    var s = school;
+    var yOpen = s.startYear,
+      yClose = s.endYear,
+      sEnrol = s.data.enrollment;
+
+    var svgR = d3.select("#r3svg")
+      .append("svg")
+      .attr("class", "rRemove")
+      .attr("id", "svgR")
+      .style("width", $("#r3svg").width() + "px")
+      .style("height", $("#r3svg").height() + "px");
+
+    var margin = {
+        top: 5,
+        right: 10,
+        bottom: 0,
+        left: 80
+      },
+      width = $("#r3svg").width() - margin.left - margin.right,
+      height = $("#r3svg").height() - margin.top - margin.bottom,
+      heightB = height / 2,
+      g = svgR.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+    // height transform
+    // var xAxisVTrans = height + margin.top - margin.bottom - heightBottom;
+
+    var x = d3.scaleLinear().range([0, width]).domain([yOpen, yClose]);
+    var y = d3.scaleLinear().range([heightB, 0]).domain([0, 300]);
+
+    // create axes variables
+    var xAxis = g.append("g")
+      .attr("id", "xAxis")
+      .style("transform", "translate(0, -" + heightB + "px)");
+    var yAxis = g.append("g")
+      .attr("id", "yAxis")
+      .style("transform", "translate(0, 0)");
+
+    // draw axes
+    xAxis.attr("class", "xAxis axis").call(d3.axisBottom(x)
+      .tickFormat(d3.format("d"))
+      .tickSizeInner(-height));
+    var tHeight = height - 8;
+    var tTextHeight = heightB - 15;
+    xAxis.style("transform", "translate(0px, " + tHeight + "px)");
+    d3.select(".xAxis path").style("transform", "translate(0px, 0px)");
+    d3.selectAll(".xAxis text").style("transform", "translate(0px, -" + tTextHeight + "px)");
+    yAxis.attr("class", "yAxis axis").call(d3.axisLeft(y)
+      .ticks(5)
+      .tickSizeInner(-width));
+
+    // draw line
+    var line = d3.line()
+      .curve(d3.curveMonotoneX)
+      .x(function(d) {
+        return x(d.year);
+      })
+      .y(function(d) {
+        return y(d.number);
+      });
+
+    // draw path
+    var path = g.append("svg:path")
+      .attr("id", "chart")
+      .attr("d", line(sEnrol))
+      .attr("stroke", "green")
+      .attr("stroke-widt", 2)
+      .attr("fill", "none")
+      .style("transform", "translate(0,0px)");
+
+    // add other data
+    var sM = s.data.management;
+
+    var sMtip = d3.tip()
+      .attr('class', 'd3-tip')
+      .offset([-10, 0])
+      .html(function(d) {
+        return "<span class='sMorgName'>" + d.orgName + "</span><br><span class='sMyear'>" + d.startYear + "-" + s.endYear + "</span>";
+      })
+
+    svgR.call(sMtip);
+
+    var lineManagement = g.append("line")
+      .attr("class", "lineAI")
+      .attr("x1", 0)
+      .attr("x2", width)
+      .attr("y1", heightB + 32)
+      .attr("y2", heightB + 32);
+
+    var lineSexual = g.append("line")
+      .attr("class", "lineAI")
+      .attr("x1", 0)
+      .attr("x2", width)
+      .attr("y1", heightB + 50)
+      .attr("y2", heightB + 50);
+
+    var linePhysical = g.append("line")
+      .attr("class", "lineAI")
+      .attr("x1", 0)
+      .attr("x2", width)
+      .attr("y1", heightB + 65)
+      .attr("y2", heightB + 65);
+
+    var lineHealth = g.append("line")
+      .attr("class", "lineAI")
+      .attr("x1", 0)
+      .attr("x2", width)
+      .attr("y1", heightB + 80)
+      .attr("y2", heightB + 80);
+
+    var linePolicy = g.append("line")
+      .attr("class", "lineAI")
+      .attr("x1", 0)
+      .attr("x2", width)
+      .attr("y1", heightB + 95)
+      .attr("y2", heightB + 95);
+
+    var lineOther = g.append("line")
+      .attr("class", "lineAI")
+      .attr("x1", 0)
+      .attr("x2", width)
+      .attr("y1", heightB + 110)
+      .attr("y2", heightB + 110);
+
+    var sMrects = g.selectAll(".sMbars")
+      .data(sM)
+      .enter().append("line", ".sMbars")
+      .attr("class", "sMbar")
+      .attr("x1", function(d) {
+        return x(d.startYear);
+      })
+      .attr("x2", function(d) {
+        return x(d.endYear) - 5;
+      })
+      .attr("y1", heightB + 32)
+      .attr("y2", heightB + 32)
+      .on("mouseover", sMtip.show)
+      .on("mouseout", sMtip.hide);
+
+    var sMlabels = g.selectAll(".sMlabels")
+      .data(sM)
+      .enter().append("text", ".sMlabels")
+      .attr("class", "sMlabel")
+      .attr("x", function(d) {
+        return x(d.startYear)
+      })
+      .attr("dy", 11)
+      .attr("dx", 3)
+      .attr("y", heightB + 25)
+      .text(function(d) {
+        return d.org;
+      });
+
+    var dAIsexual = s.data.additionalInformation.filter(function(d) {
+      return ((d.type === "sexual"));
+    });
+    var dAIhealth = s.data.additionalInformation.filter(function(d) {
+      return ((d.type === "health"));
+    });
+    var dAIphysical = s.data.additionalInformation.filter(function(d) {
+      return ((d.type === "physical"));
+    });
+    var dAIpolicy = s.data.additionalInformation.filter(function(d) {
+      return ((d.type === "policy"));
+    });
+    var dAIother = s.data.additionalInformation.filter(function(d) {
+      return ((d.type === "other"));
+    });
+
+    var AItip = d3.tip()
+      .attr('class', 'd3-tip')
+      .offset([-10, 0])
+      .html(function(d) {
+        return d.notes;
+      })
+
+    svgR.call(AItip);
+
+    var lEnrolment = g.append("text")
+      .attr("class", "lEnrolment")
+      .attr("x", -heightB / 2)
+      .attr("dy", 2)
+      .attr("y", -40)
+      .attr("text-anchor", "middle")
+      .text("Average Enrolment");
+
+    var lManagement = g.append("text")
+      .attr("class", "lAI")
+      .attr("x", -10)
+      .attr("dy", 2)
+      .attr("y", heightB + 35)
+      .attr("text-anchor", "end")
+      .text("Management");
+
+    var lSexual = g.append("text")
+      .attr("class", "lAI")
+      .attr("x", -10)
+      .attr("dy", 2)
+      .attr("y", heightB + 50)
+      .attr("text-anchor", "end")
+      .text("Sexual Abuse");
+
+    var lPhysical = g.append("text")
+      .attr("class", "lAI")
+      .attr("x", -10)
+      .attr("dy", 2)
+      .attr("y", heightB + 65)
+      .attr("text-anchor", "end")
+      .text("Physical Abuse");
+
+    var lHealth = g.append("text")
+      .attr("class", "lAI")
+      .attr("x", -10)
+      .attr("dy", 2)
+      .attr("y", heightB + 80)
+      .attr("text-anchor", "end")
+      .text("Health/Medical");
+
+    var lPolicy = g.append("text")
+      .attr("class", "lAI")
+      .attr("x", -10)
+      .attr("dy", 2)
+      .attr("y", heightB + 95)
+      .attr("text-anchor", "end")
+      .text("Policy");
+
+    var lOther = g.append("text")
+      .attr("class", "lAI")
+      .attr("x", -10)
+      .attr("dy", 2)
+      .attr("y", heightB + 110)
+      .attr("text-anchor", "end")
+      .text("Other Reports");
+
+    var AIsexual = g.selectAll(".AIsexual")
+      .data(dAIsexual)
+      .enter().append("circle", ".AIsexual")
+      .attr("class", "AIsexual AIcircle")
+      .attr("cx", function(d) {
+        return x(d.date);
+      })
+      .attr("cy", heightB + 50)
+      .attr("r", 4)
+      .on("mouseover", AItip.show)
+      .on("mouseout", AItip.hide);
+
+    var AIphysical = g.selectAll(".AIphysical")
+      .data(dAIphysical)
+      .enter().append("circle", ".AIphysical")
+      .attr("class", "AIphysical AIcircle")
+      .attr("cx", function(d) {
+        return x(d.date);
+      })
+      .attr("cy", heightB + 65)
+      .attr("r", 4)
+      .on("mouseover", AItip.show)
+      .on("mouseout", AItip.hide);
+
+    var AIhealth = g.selectAll(".AIhealth")
+      .data(dAIhealth)
+      .enter().append("circle", ".AIhealth")
+      .attr("class", "AIhealth AIcircle")
+      .attr("cx", function(d) {
+        return x(d.date);
+      })
+      .attr("cy", heightB + 80)
+      .attr("r", 4)
+      .on("mouseover", AItip.show)
+      .on("mouseout", AItip.hide);
+
+    var AIpolicy = g.selectAll(".AIpolicy")
+      .data(dAIpolicy)
+      .enter().append("circle", ".AIpolicy")
+      .attr("class", "AIpolicy AIcircle")
+      .attr("cx", function(d) {
+        return x(d.date);
+      })
+      .attr("cy", heightB + 95)
+      .attr("r", 4)
+      .on("mouseover", AItip.show)
+      .on("mouseout", AItip.hide);
+
+    var AIother = g.selectAll(".AIother")
+      .data(dAIother)
+      .enter().append("circle", ".AIother")
+      .attr("class", "AIother AIcircle")
+      .attr("cx", function(d) {
+        return x(d.date);
+      })
+      .attr("cy", heightB + 110)
+      .attr("r", 4)
+      .on("mouseover", AItip.show)
+      .on("mouseout", AItip.hide);
+  });
 }
 
-function rightBarBack(data) {
+function rightBarBack() {
   d3.select("#map").style("height", window.innerHeight + "px").style("width", window.innerWidth + "px");
   d3.select("#rightBar").classed("rightBarOut", false);
   d3.select(".mapboxgl-ctrl-top-right").transition().duration(200).style("opacity", 0);

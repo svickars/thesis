@@ -641,11 +641,13 @@ svg {
 .rightBar {
   position: fixed;
   background: white;
-  width: 0;
+  min-width: 50%;
+  width: 500px;
+  max-width: 90%;
   height: 100%;
   top: 0;
-  right: 0;
-  padding: 10px 0px 10px 0px;
+  right: -50%;
+  padding: 10px 20px 10px 10px;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   transition: all .5s; }
@@ -657,9 +659,177 @@ svg {
   right: calc(25% + 15px) !important; }
 
 .rightBarOut {
-  min-width: 25%;
-  width: 500px;
-  max-width: 90%;
-  padding: 10px 10px 10px 10px;
+  right: 0;
   -webkit-box-shadow: 10px 10px 5px 10px #333;
   box-shadow: 10px 10px 5px 10px #333; }
+
+.rSection {
+  width: calc(100%);
+  margin: 0 0 10px 0; }
+
+.r3 {
+  height: -mox-calc(33% - 20px);
+  height: -webkit-calc(33% - 20px);
+  height: -o-calc(33% - 20px);
+  height: calc(33% - 10px);
+  min-height: 250px; }
+
+.r6 {
+  padding: 50px 0 15px 0; }
+
+.r6 h2 {
+  text-align: center;
+  font-family: "Libre Baskerville", Georgia, serif;
+  border: none; }
+
+.r3 h4 {
+  font-family: "Rubik", Trebuchet, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  color: #999;
+  border-bottom: 1.5px solid #f15a24;
+  height: 4em; }
+
+.r1Content {
+  font-size: .8em;
+  height: 60%;
+  overflow-y: scroll;
+  width: -moz-calc(100% + 16px);
+  width: -webkit-calc(100% + 16px);
+  width: -o-calc(100% + 16px);
+  width: calc(100% + 16px); }
+
+.rReservesName {
+  color: #333; }
+
+.rReservesDistance {
+  color: #ddd; }
+
+.r3 p, .r6 p {
+  text-align: center;
+  font-size: .75em; }
+
+.rExit {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  cursor: pointer;
+  color: #333; }
+
+.rExit:hover {
+  color: #999; }
+
+.rHalf {
+  margin-top: 30px !important;
+  height: 60%;
+  width: calc(50% - 30px);
+  float: left;
+  margin-left: 20px;
+  margin-left: 0px !important;
+  margin-right: 15px;
+  overflow: hidden; }
+
+#rReligiousGroups {
+  display: none; }
+
+#rReserves {
+  display: none; }
+
+.tick text {
+  font-family: "Rubik", Trebuchet, sans-serif;
+  fill: black; }
+
+/*--axes--*/
+.xAxis path {
+  display: none; }
+
+.yAxis path {
+  display: none;
+  stroke-width: 2px;
+  stroke: rgba(0, 0, 0, 0.25);
+  stroke-linecap: round;
+  stroke-dasharray: .1, 4; }
+
+.axis text {
+  font-family: "Rubik", Trebuchet, sans-serif;
+  font-size: 9px;
+  opacity: .5; }
+
+.yAxis text {
+  transform: translate(-5px, 0); }
+
+.tick line {
+  stroke: rgba(0, 0, 0, 0.25);
+  stroke-linecap: round;
+  stroke-dasharray: .1, 4; }
+
+.sMbar {
+  stroke: #f15a24;
+  stroke-width: 15px;
+  opacity: .9; }
+
+.sMlabel {
+  fill: white;
+  font-family: "Rubik", Trebuchet, sans-serif;
+  font-size: 10px;
+  text-transform: capitalize;
+  pointer-events: none; }
+
+.d3-tip {
+  line-height: 1;
+  padding: 6px;
+  background: #333;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: left; }
+
+.sMorgName {
+  font-weight: bold;
+  font-size: 10px; }
+
+.sMyear {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 9px;
+  opacity: .9; }
+
+.AIcircle {
+  fill: #999; }
+
+.lAI {
+  font-family: "Rubik", Trebuchet, sans-serif;
+  font-size: 9px;
+  opacity: .5; }
+
+.lEnrolment {
+  font-family: "Rubik", Trebuchet, sans-serif;
+  font-size: 9px;
+  opacity: .75;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg); }
+
+.lineAI {
+  stroke: rgba(0, 0, 0, 0.25);
+  stroke-linecap: round;
+  stroke-dasharray: .1, 4; }
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: #333;
+  content: "\25BC";
+  position: absolute;
+  text-align: center; }
+
+/* Style northward tooltips specifically */
+.d3-tip.n:after {
+  margin: -2px 0 0 0;
+  top: 100%;
+  left: 0; }
