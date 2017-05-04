@@ -1,0 +1,38 @@
+{
+  "name": "Fort Frances (Coochiching)",
+  "type": "Residential",
+  "location": {
+    "province": "Ontario",
+    "city": "city",
+    "latLng": {
+      "lat": 48.62881667,
+      "-93.35896389": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1906,
+  "endYear": 1974,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Holy Angels (Fort Chipewyan)",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "city",
+    "latLng": {
+      "lat": 58.7112,
+      "-111.1735111": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1900,
+  "endYear": 1974,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["chipewyan", "cree", "cree", "janvier", "littleRedRiver", "maurice", "tallCree"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

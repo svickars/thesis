@@ -1,0 +1,38 @@
+{
+  "name": "Federal Hostel at Cape Dorset (Kinngait)",
+  "type": "Residential",
+  "location": {
+    "province": "Nunavut",
+    "city": "city",
+    "latLng": {
+      "lat": 64.23037222,
+      "-76.54096389": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1962,
+  "endYear": 1965,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

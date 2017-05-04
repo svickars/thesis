@@ -1,0 +1,38 @@
+{
+  "name": "Gordon's",
+  "type": "Residential",
+  "location": {
+    "province": "Saskatchewan",
+    "city": "city",
+    "latLng": {
+      "lat": 51.28932778,
+      "-104.296975": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1888,
+  "endYear": 1996,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["arrow", "battleford", "bearspaw", "carrytheKettle", "chiniquay", "churchill", "cote", "cowessess", "dayStar", "fileHills", "fishingLake", "foxLake", "islandLake", "jamesSmith", "johnSmith", "josephBighead", "kahkewhistehew", "keeseekoose", "key", "kinistino", "lacLaRonge", "leask", "littleBlackBear", "littlePine", "littleRedRiver", "loonLake", "mapleCreek", "mistawasis", "montrealLake", "mooseWoods", "muscopetung", "muscowequan", "nutLake", "ochapawace", "one", "oneArrow", "pas", "pasqua", "peepeekeesis", "peguis", "pelly", "peterBallantyne", "piapot", "poorman", "poundmaker", "redEarth", "sakimay", "sandyLake", "shamatwa", "shoalLake", "splitLake", "splitriver", "standingBuffalo", "starBlanket", "sturgeonLake", "sweetGrass", "thunderchild", "wesley", "whiteBear", "whitecapSioux", "yellowQuilt", "yorkFactory"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

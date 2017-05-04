@@ -1,0 +1,38 @@
+{
+  "name": "Grandin College",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "city",
+    "latLng": {
+      "lat": 60.00223889,
+      "-111.8982028": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1960,
+  "endYear": 1985,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["aklavik", "arcticRedRiver", "calgary", "cambridgeBay", "capeParry", "chard", "colvilleLake", "conklin", "coppermine", "edmonton", "eldorado", "fortChipewyan", "fortFranklin", "fortNorman", "fortRae", "fortResolution", "fortSimpson", "fortSmith", "fotLiard", "foxLake", "goodHopeLake", "hayLakes", "iglooik", "inuvik", "jeanMarieRiver", "kakisa", "lacLaBiche", "mcMurray", "normanWells", "paulaktuk", "pinePoint", "pondInlet", "providence", "snowdrift", "troutRock", "tuktoyaktuk", "yellowknife"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

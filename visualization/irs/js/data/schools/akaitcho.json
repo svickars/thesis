@@ -1,5 +1,5 @@
 {
-  "name": "Akaitcho Hall",
+  "name": "Akaitcho Hall IRS",
   "type": "Residential",
   "location": {
     "province": "Northwest Territories",
@@ -69,7 +69,7 @@
     }],
     "notesHistory": [],
     "management": [{
-      "startYear": 1955,
+      "startYear": 1958,
       "endYear": 1969,
       "org": "government",
       "orgName": "Federal Government of Canada",
@@ -108,16 +108,12 @@
       "number": 170,
       "notes": ""
     }, {
-      "year": 1966,
-      "number": 297,
-      "notes": "average number of residents 297, capacity 250"
-    }, {
       "year": 1967,
-      "number": 297,
+      "number": 200,
       "notes": "average number of residents 297, capacity 250"
     }, {
       "year": 1968,
-      "number": 297,
+      "number": 257,
       "notes": "average number of residents 297, capacity 250"
     }, {
       "year": 1969,

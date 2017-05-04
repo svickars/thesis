@@ -1,0 +1,38 @@
+{
+  "name": "Joussard (St. Bruno's)",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "city",
+    "latLng": {
+      "lat": 55.401075,
+      "-115.9701389": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1913,
+  "endYear": 1969,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["alexander", "alexis", "assabaska", "atikameg", "beaverLake", "bigStone", "callingLake", "chipewyan", "chipewyan", "cree", "cree", "desmaris", "duncons", "edmonton", "enoch", "fortMcKay", "fortVermilion", "hayLakes", "horseLake", "janvier", "littleRedRiver", "lubiconLake", "michel", "pellyBay", "saddleLake", "slaveLake", "spenceBay", "sturgeonLake", "tallCree", "whitefishLake"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

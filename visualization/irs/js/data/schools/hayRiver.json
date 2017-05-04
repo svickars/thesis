@@ -1,0 +1,38 @@
+{
+  "name": "Hay River (All Saints)",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "city",
+    "latLng": {
+      "lat": 60.85754444,
+      "-115.7226611": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1895,
+  "endYear": 1937,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["coppermine", "hayLakes", "mackenzieDelta"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

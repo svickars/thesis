@@ -1,0 +1,38 @@
+{
+  "name": "St. Joseph's (Dunbow)",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "High River",
+    "latLng": {
+      "lat": 50.80824167,
+      "-113.7908111": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1884,
+  "endYear": 1922,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

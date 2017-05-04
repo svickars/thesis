@@ -1,0 +1,38 @@
+{
+  "name": "Federal Hostel at Frobisher Bay (Ukkivik Student Residence)",
+  "type": "Residential",
+  "location": {
+    "province": "Nunavut",
+    "city": "city",
+    "latLng": {
+      "lat": 63.757575,
+      "-68.54323333": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1971,
+  "endYear": 1995,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["arcticBay", "bakerLake", "broughtonIsland", "chesterfieldInlet", "clydeRiver", "coralHarbour", "dorset", "eskimoPoint", "griseFiord", "hallBeach", "iglooik", "lakeHarbour", "pangnirtung", "pondInlet", "rankinInlet", "repulseBay", "resoluteBay", "sanikiluaq"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

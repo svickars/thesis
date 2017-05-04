@@ -1,0 +1,38 @@
+{
+  "name": "Fleming Hall (St. Matthew's Anglican Hostel)",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "city",
+    "latLng": {
+      "lat": 67.43692222,
+      "-134.8817889": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1955,
+  "endYear": 1976,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["loucheaux", "oldCrow", "yukon"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

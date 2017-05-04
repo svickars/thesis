@@ -1,0 +1,38 @@
+{
+  "name": "St. Mary's (Blood)",
+  "type": "Residential",
+  "location": {
+    "province": "Alberta",
+    "city": "Cardston",
+    "latLng": {
+      "lat": 49.29872222,
+      "-113.3441": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1898,
+  "endYear": 1988,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["blackfoot", "peigan"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "File Hills",
+  "type": "Residential",
+  "location": {
+    "province": "Saskatchewan",
+    "city": "city",
+    "latLng": {
+      "lat": 50.93506944,
+      "-103.50555": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1889,
+  "endYear": 1949,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["duckLake", "fileHills", "muscowpetung", "pasqua", "piapot", "quAppelle"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

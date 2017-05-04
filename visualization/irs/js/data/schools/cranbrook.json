@@ -1,0 +1,38 @@
+{
+  "name": "Cranbrook (St. Eugene's)",
+  "type": "Residential",
+  "location": {
+    "province": "British Columbia",
+    "city": "city",
+    "latLng": {
+      "lat": 49.58550833,
+      "-115.7566444": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1890,
+  "endYear": 1970,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["aiyansh", "ashcroft", "athelmer", "bellaBella", "boothroyd", "bootkiaPeninsula", "bostonBar", "canyonCity", "capeMudge", "cardston", "cardston", "carmacks", "cheam", "cisco", "coldwater", "columbiaLake", "comox", "cooksFerry", "cranbrook", "deadmansCreek", "enderby", "fountain", "gitlakdamix", "glenVowell", "greenville", "hazelton", "hope", "inkamoop", "kamloops", "kanakaBar", "kincolith", "kispiox", "kitamaat", "kitasoo", "kitkatla", "kitsumkalum", "kitwancool", "kitwanga", "lakeSimilk", "littleShuswap", "lowerKootenay", "lowerNicola", "lowerSimilkameen", "lytton", "matsqui", "merritt", "moricetown", "musqueam", "neskainlith", "nicoamen", "nicola", "northThompson", "okanagan", "oregonJack", "osoyoos", "penticton", "portSimpson", "princeRupert", "seabirdIsland", "seabirdIsland", "shacken", "shulus", "shuswap", "similkameen", "siska", "skuppah", "spallumchene", "spencesBridge", "spuzzum", "squamish", "stMarys", "styne", "telegraphCreek", "termission", "tobaccoPlains", "tsartlip", "tsartlip", "unionBar", "upperNicola", "upperNicola", "vernon", "westbank", "zoht"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

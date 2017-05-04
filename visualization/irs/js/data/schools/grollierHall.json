@@ -1,0 +1,38 @@
+{
+  "name": "Grollier Hall (Notre-Dame Residence)",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "city",
+    "latLng": {
+      "lat": 68.35813889,
+      "-133.7176583": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1959,
+  "endYear": 1997,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["aklavik", "arcticRedRiver", "cambridgeBay", "capeParry", "colvilleLake", "coppermine", "dEWLine", "fortFranklin", "fortGoodHope", "fortMcPherson", "fortNorman", "fortSmith", "gjoaHaven", "holmanIsland", "normanWells", "paulaktuk", "pellyBay", "pINMain", "reindeerStation", "sachsHarbour", "spenceBay", "teslinLake", "tuktoyaktuk", "yellowknife"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

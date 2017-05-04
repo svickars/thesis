@@ -1,0 +1,38 @@
+{
+  "name": "Fort William (St. Joseph's)",
+  "type": "Residential",
+  "location": {
+    "province": "Ontario",
+    "city": "city",
+    "latLng": {
+      "lat": 48.38084722,
+      "-89.25665": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1885,
+  "endYear": 1970,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["fortWilliam", "longLake", "nepigon", "paysPlat", "picRiver", "savanne", "whiteRiver"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

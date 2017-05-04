@@ -1,0 +1,38 @@
+{
+  "name": "Federal Hostel at Igloolik (Iglulik)",
+  "type": "Residential",
+  "location": {
+    "province": "Nunavut",
+    "city": "city",
+    "latLng": {
+      "lat": 69.36733333,
+      "-81.82313056": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1961,
+  "endYear": 1969,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

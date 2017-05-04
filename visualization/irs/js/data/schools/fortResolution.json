@@ -1,0 +1,38 @@
+{
+  "name": "St. Joseph's (Fort Resolution)",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "Fort Resolution",
+    "latLng": {
+      "lat": 61.16741667,
+      "-113.6614111": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1903,
+  "endYear": 1957,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["chipewyan", "dogRib", "yellowknife"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

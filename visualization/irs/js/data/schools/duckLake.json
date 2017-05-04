@@ -1,0 +1,38 @@
+{
+  "name": "St. Michael's (Duck Lake)",
+  "type": "Residential",
+  "location": {
+    "province": "Saskatchewan",
+    "city": "Duck Lake",
+    "latLng": {
+      "lat": 52.79979722,
+      "-106.2326472": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1894,
+  "endYear": 1996,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": [""],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

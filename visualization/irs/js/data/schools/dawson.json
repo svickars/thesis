@@ -1,0 +1,38 @@
+{
+  "name": "St. Paul's Hostel",
+  "type": "Residential",
+  "location": {
+    "province": "Yukon Territory",
+    "city": "city",
+    "latLng": {
+      "lat": 64.05613056,
+      "-139.4342417": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1920,
+  "endYear": 1943,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["burwash", "canyonCreek", "carcross", "champagne", "dawson", "deazadeashLake", "fortYukon", "fortyMile", "halfway", "kluaneLake", "lansingCreek", "mayo", "moosehide", "oldCrow", "snagPoint", "stewardRiver", "whitehorse"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Fort George Roman Catholic (Residence Couture)",
+  "type": "Residential",
+  "location": {
+    "province": "Quebec",
+    "city": "city",
+    "latLng": {
+      "lat": 53.83073889,
+      "-78.98974722": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1937,
+  "endYear": 1981,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["albany", "attawapiscat", "eastmain", "fortGeorge", "greatWhaleRiver", "mooseFort", "moosonee", "oldFactory", "paintHills", "pointeBleue", "rupertHouse"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}

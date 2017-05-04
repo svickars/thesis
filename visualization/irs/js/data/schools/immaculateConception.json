@@ -1,0 +1,38 @@
+{
+  "name": "Immaculate Conception (Aklavik Roman Catholic)",
+  "type": "Residential",
+  "location": {
+    "province": "Northwest Territories",
+    "city": "city",
+    "latLng": {
+      "lat": 68.219917,
+      "-135.007789": 0.000
+    }
+  },
+  "narrativeDate": "09-11-01",
+  "startYear": 1926,
+  "endYear": 1959,
+  "data": {
+    "nameVariants": [],
+    "chronoHistory": [],
+    "notesHistory": [],
+    "management": [],
+    "enrollment": [],
+    "reserves": ["aklavik", "banksIsland", "cambridgeBay", "coppermine", "delta", "fortMcPherson", "fortNorman", "herschelIsland", "holmanIsland", "perryRiver", "reindeerCamp", "spenceBay", "tuktoyaktuk"],
+    "religiousGroups": [{
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }, {
+      "group": "group",
+      "ref": ["number"]
+    }],
+    "writtenAgreements": [],
+    "additionalInformation": []
+  }
+}
