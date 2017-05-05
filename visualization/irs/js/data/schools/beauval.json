@@ -28,67 +28,67 @@
     }],
     "chronoHistory": [{
       "date": 1860,
-      "desc": "Opening of School at Ile-à-la-Crosse",
+      "desc": ["Opening of School at Ile-à-la-Crosse"],
       "ref": []
     }, {
       "date": 1877,
-      "desc": "Received some government aid as early as this date",
+      "desc": ["Received some government aid as early as this date"],
       "ref": []
     }, {
       "date": 1897,
-      "desc": "Officially designated as a Boarding School",
+      "desc": ["Officially designated as a Boarding School"],
       "ref": []
     }, {
       "date": 1906,
-      "desc": "Opening of school at Lac la Plonge site",
+      "desc": ["Opening of school at Lac la Plonge site"],
       "ref": []
     }, {
       "date": 1911,
-      "desc": "First operating agreement",
+      "desc": ["First operating agreement"],
       "ref": []
     }, {
       "date": 1927,
-      "desc": "Fire destroys School",
+      "desc": ["Fire destroys School"],
       "ref": []
     }, {
       "date": 1932,
-      "desc": "New school opens",
+      "desc": ["New school opens"],
       "ref": []
     }, {
       "date": 1962,
-      "desc": "Second operating agreement",
+      "desc": ["Second operating agreement"],
       "ref": []
     }, {
       "date": 1963,
-      "desc": "Opening of new classroom block",
+      "desc": ["Opening of new classroom block"],
       "ref": []
     }, {
       "date": 1968,
-      "desc": "Beginning of Joint School Agreement",
+      "desc": ["Beginning of Joint School Agreement"],
       "ref": []
     }, {
       "date": 1969,
-      "desc": "Federal government takeover of residential schools",
+      "desc": ["Federal government takeover of residential schools"],
       "ref": []
     }, {
       "date": 1973,
-      "desc": "Some Band involvement in the residence begins",
+      "desc": ["Some Band involvement in the residence begins"],
       "ref": []
     }, {
       "date": 1974,
-      "desc": "Ending of Joint School Agreement",
+      "desc": ["Ending of Joint School Agreement"],
       "ref": []
     }, {
       "date": 1977,
-      "desc": "Opening of new school block",
+      "desc": ["Opening of new school block"],
       "ref": []
     }, {
       "date": 1985,
-      "desc": "Transfer to Band Control",
+      "desc": ["Transfer to Band Control"],
       "ref": []
     }, {
       "date": 1995,
-      "desc": "School closure",
+      "desc": ["School closure"],
       "ref": []
     }],
     "notesHistory": [],

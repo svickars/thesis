@@ -34,71 +34,51 @@
     }],
     "chronoHistory": [{
       "date": 1893,
-      "desc": "Alberni Girls Home was open at least as early as 1893 (some educational activities appear to have occurred in Alberni prior to 1893 but documents are unable to confirm this).",
+      "desc": ["Alberni Girls Home was open at least as early as 1893 (some educational activities appear to have occurred in Alberni prior to 1893 but documents are unable to confirm this)."],
       "ref": ["01113"]
     }, {
       "date": 1917,
-      "desc": "Alberni Boarding School destroyed by fire.",
+      "desc": ["Alberni Boarding School destroyed by fire."],
       "ref": ["00689"]
     }, {
       "date": 1920,
-      "desc": "Opening of re-built Alberni Boarding School.",
+      "desc": ["Opening of re-built Alberni Boarding School."],
       "ref": ["00694"]
     }, {
       "date": 1937,
-      "desc": "Alberni Residential School destroyed by fire.",
-      "ref": ["00701"]
-    }, {
-      "date": 1937,
-      "desc": "One-room Alberni Indian Day School opened.",
-      "ref": ["06959"]
+      "desc": ["Alberni Residential School destroyed by fire.", "One-room Alberni Indian Day School opened."],
+      "ref": ["00701", "06959"]
     }, {
       "date": 1940,
-      "desc": "Alberni Residential School re-opened.",
-      "ref": ["02056"]
-    }, {
-      "date": 1940,
-      "desc": "Coqualeetza IRS closed, transferring to Alberni IRS some staff, pupils and equipment.",
-      "ref": ["02987", "00719", "02057"]
-    }, {
-      "date": 1940,
-      "desc": "Alberni Indian Day School closed.",
-      "ref": ["01800"]
+      "desc": ["Alberni Residential School re-opened.", "Coqualeetza IRS closed, transferring to Alberni IRS some staff, pupils and equipment.", "Alberni Indian Day School closed."],
+      "ref": ["02056", "02987", "00719", "02057", "01800"]
     }, {
       "date": 1941,
-      "desc": "Classroom building of the AIRS destroyed by fire.",
-      "ref": ["02970A", "00982"]
-    }, {
-      "date": 1941,
-      "desc": "Official opening of the re-built Alberni Indian Residential School.",
-      "ref": ["02057"]
+      "desc": ["Classroom building of the AIRS destroyed by fire.", "Official opening of the re-built Alberni Indian Residential School."],
+      "ref": ["02970A", "00982", "02057"]
     }, {
       "date": 1947,
-      "desc": "Alberni Indian Day School re-opened.",
+      "desc": ["Alberni Indian Day School re-opened."],
       "ref": ["06951"]
     }, {
       "date": 1950,
-      "desc": "Alberni Indian Day School closed.",
+      "desc": ["Alberni Indian Day School closed.", "Alberni school board agreed to provide room for senior high school students from AIRS."],
       "ref": ["06947"]
     }, {
-      "date": 1950,
-      "desc": "Alberni school board agreed to provide room for senior high school students from AIRS.",
-      "ref": []
-    }, {
       "date": 1957,
-      "desc": "Grades 7, 8 and 9 from AIRS admitted to A.W. Neill Junior High School.",
+      "desc": ["Grades 7, 8 and 9 from AIRS admitted to A.W. Neill Junior High School."],
       "ref": ["01862"]
     }, {
       "date": 1964,
-      "desc": "Grades 4, 5 and 6 transferred to provincial schools.",
+      "desc": ["Grades 4, 5 and 6 transferred to provincial schools."],
       "ref": ["10121"]
     }, {
       "date": 1965,
-      "desc": "Grades 1, 2 and 3 transferred to provincial schools.",
+      "desc": ["Grades 1, 2 and 3 transferred to provincial schools."],
       "ref": ["00383"]
     }, {
       "date": 1973,
-      "desc": "Alberni Student Residence closed, building and land transferred to West Coast District Council oflndian Chiefs.",
+      "desc": ["Alberni Student Residence closed, building and land transferred to West Coast District Council of Indian Chiefs."],
       "ref": ["01079A", "00438A", "07364"]
     }],
     "notesHistory": [],

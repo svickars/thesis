@@ -100,123 +100,95 @@
     }],
     "chronoHistory": [{
       "date": 1894,
-      "desc": "School established in 1894",
+      "desc": ["School established in 1894"],
       "ref": ["ERM-006225-0001", "ERM-800010"]
     }, {
       "date": 1895,
-      "desc": "Request Oblates of Mary Immaculate to the Government for an Industrial Boarding School on Ermineskin reserve for the Nuns to operate, along with buildings and per capita grants. Management by the Sisters of Assumption began in 1895 ",
+      "desc": ["Request Oblates of Mary Immaculate to the Government for an Industrial Boarding School on Ermineskin reserve for the Nuns to operate, along with buildings and per capita grants. Management by the Sisters of Assumption began in 1895 "],
       "ref": ["ERM-001906", "ERM-030920"]
     }, {
       "date": 1934,
-      "desc": "Management by the Sisters of Assumption discontinued as of Apr. 1, 1934. School managed by the Order of the Oblate Fathers as of Apr. 1, 1934. Residence managed by the Order of the Oblate Fathers as of Apr. 1, 1934 ",
+      "desc": ["Management by the Sisters of Assumption discontinued as of Apr. 1, 1934. School managed by the Order of the Oblate Fathers as of Apr. 1, 1934. Residence managed by the Order of the Oblate Fathers as of Apr. 1, 1934 "],
       "ref": ["ERM-001906", "ERM-030920", "ERM-001572", "ERM-002010"]
     }, {
       "date": 1939,
-      "desc": "New building erected, including an upper floor boys’ dorm, the ground floor containing 4 classrooms and the basement including a playroom and gym ",
+      "desc": ["New building erected, including an upper floor boys’ dorm, the ground floor containing 4 classrooms and the basement including a playroom and gym "],
       "ref": ["ERM-003142-0000"]
     }, {
       "date": 1949,
-      "desc": "Hobbema Indian Day School opened on Sep. 6, 1949 ",
+      "desc": ["Hobbema Indian Day School opened on Sep. 6, 1949 "],
       "ref": ["ERM-001317", "ERM-008461"]
     }, {
       "date": 1950,
-      "desc": "Ermineskin Day School began operations ",
+      "desc": ["Ermineskin Day School began operations "],
       "ref": ["ERM-000109", "ERM-008654"]
     }, {
       "date": 1954,
-      "desc": "Contract awarded for construction of a dormitory building at Ermineskin IRS. New dormitory block will be owned by the Government ",
+      "desc": ["Contract awarded for construction of a dormitory building at Ermineskin IRS. New dormitory block will be owned by the Government "],
       "ref": ["ERM-001531", "ERM-001537"]
     }, {
       "date": 1955,
-      "desc": "Management of the school by the Order of Oblate fathers discontinued as of Sep. 1, 1955 ",
-      "ref": ["EREM-001572", "ERM-030920"]
-    }, {
-      "date": 1955,
-      "desc": "Construction begins on a new dormitory, including kitchen, recreation hall, Sisters’ residence, and Father’s residence. Specifications of the building ",
-      "ref": ["ERM-002494-0001"]
-    }, {
-      "date": 1955,
-      "desc": "Amalgamation of Ermineskin IRS and the Hobbema No. 2 Day School",
-      "ref": ["ERM-000293"]
+      "desc": ["Management of the school by the Order of Oblate fathers discontinued as of Sep. 1, 1955 ", "Construction begins on a new dormitory, including kitchen, recreation hall, Sisters’ residence, and Father’s residence. Specifications of the building ", "Amalgamation of Ermineskin IRS and the Hobbema No. 2 Day School"],
+      "ref": ["EREM-001572", "ERM-030920", "ERM-002494-0001", "ERM-000293"]
     }, {
       "date": 1956,
-      "desc": "New dormitory, including kitchen, recreation hall, Sisters’ residence, and Father’s residence completed ",
+      "desc": ["New dormitory, including kitchen, recreation hall, Sisters’ residence, and Father’s residence completed "],
       "ref": ["ERM-000695"]
     }, {
       "date": 1959,
-      "desc": "A Gr. 12 class was taught at Ermineskin IRS without approval from the Government ",
+      "desc": ["A Gr. 12 class was taught at Ermineskin IRS without approval from the Government "],
       "ref": ["ERM-000361"]
     }, {
       "date": 1961,
-      "desc": "Agreement reached regarding high school program at Ermineskin IRS. General high school diploma pattern only to be offered, and students whose Gr. 9 marks indicate academic ability will be required to attend separate schools at Edmonton or Jasper Place ",
+      "desc": ["Agreement reached regarding high school program at Ermineskin IRS. General high school diploma pattern only to be offered, and students whose Gr. 9 marks indicate academic ability will be required to attend separate schools at Edmonton or Jasper Place "],
       "ref": ["ERM-008181"]
     }, {
       "date": 1964,
-      "desc": "Policy of Government regarding High School students, admission, and residency, notes that approval of admission is its responsibility (not the Principal’s). High School students can attend on a day basis and may be admitted to residence if required for study purposes ",
+      "desc": ["Policy of Government regarding High School students, admission, and residency, notes that approval of admission is its responsibility (not the Principal’s). High School students can attend on a day basis and may be admitted to residence if required for study purposes "],
       "ref": ["ERM-006217"]
     }, {
       "date": 1965,
-      "desc": "First kindergarten class started on Nov. 22, 1965 ",
+      "desc": ["First kindergarten class started on Nov. 22, 1965 "],
       "ref": ["ERM-000831"]
     }, {
       "date": 1966,
-      "desc": "Opening of a new gym built by the Government ",
+      "desc": ["Opening of a new gym built by the Government "],
       "ref": ["ERM-000071"]
     }, {
       "date": 1968,
-      "desc": "Plans to discontinue high school instruction at federal schools",
-      "ref": ["ERM-008120"]
-    }, {
-      "date": 1968,
-      "desc": "Separation of the classroom and residence administration to be effective on Sep. 1, 1968.  The residence’s name will change from “Residential School” to “Student Residence.” Person in charge of the Student Residence will be called the Administrator. Person in charge of the School currently designated as the Senior Teacher will be called the Principal ",
-      "ref": ["ERM-007295"]
+      "desc": ["Plans to discontinue high school instruction at federal schools", "Separation of the classroom and residence administration to be effective on Sep. 1, 1968.  The residence’s name will change from “Residential School” to “Student Residence.” Person in charge of the Student Residence will be called the Administrator. Person in charge of the School currently designated as the Senior Teacher will be called the Principal "],
+      "ref": ["ERM-008120", "ERM-007295"]
     }, {
       "date": 1969,
-      "desc": "Difficulties arise from separation of administration of classroom blocks from residence with respect to combined staff whose duties encompass both areas, particularly janitors, caretakers, nightwatchmen, childcare supervisors, etc. ",
-      "ref": ["ERM-008601-0000"]
-    }, {
-      "date": 1969,
-      "desc": "Ermineskin IRS name changed to Ermineskin Student Residence ",
-      "ref": ["ERM-002006"]
-    }, {
-      "date": 1969,
-      "desc": "Construction of 16 classroom school and 12 unit staff accommodation officially completed ",
-      "ref": ["ERM-008268-0000"]
-    }, {
-      "date": 1969,
-      "desc": "Management of the residence by the Order of Oblate Fathers discontinued as of Apr. 1, 1969.  The federal government takes over operation of the residence on April 1, 1969 and all employees of the residence become federal public servants.",
-      "ref": ["ERM-002010", "ERM-030920"]
+      "desc": ["Difficulties arise from separation of administration of classroom blocks from residence with respect to combined staff whose duties encompass both areas, particularly janitors, caretakers, nightwatchmen, childcare supervisors, etc. ", "Ermineskin IRS name changed to Ermineskin Student Residence ", "Construction of 16 classroom school and 12 unit staff accommodation officially completed ", "Management of the residence by the Order of Oblate Fathers discontinued as of Apr. 1, 1969.  The federal government takes over operation of the residence on April 1, 1969 and all employees of the residence become federal public servants."],
+      "ref": ["ERM-008601-0000", "ERM-002006", "ERM-008268-0000", "ERM-002010", "ERM-030920"]
     }, {
       "date": 1971,
-      "desc": "The school on the grounds of Ermineskin IRS was administratively divided into the following 3 institutions: 1. Ermineskin Kindergarten School; 2. Ermineskin Primary School; 3. Ermineskin Elementary-Junior High School. The Kindergarten and Primary school was administered by one Principal and the Elementary – Junior High School by another Principal ",
+      "desc": ["The school on the grounds of Ermineskin IRS was administratively divided into the following 3 institutions: 1. Ermineskin Kindergarten School; 2. Ermineskin Primary School; 3. Ermineskin Elementary-Junior High School. The Kindergarten and Primary school was administered by one Principal and the Elementary – Junior High School by another Principal "],
       "ref": ["ERM-007236", "ERM-007539-0001"]
     }, {
       "date": 1972,
-      "desc": "Reference to the possible closing of Ermineskin Residence if it is no longer needed for strictly educational purposes",
-      "ref": ["ERM-001181"]
-    }, {
-      "date": 1972,
-      "desc": "Letter from the District Supervisor to the Four Band Council regarding consultations about the possible future closure of the Residence ",
-      "ref": ["ERM-007187"]
+      "desc": ["Reference to the possible closing of Ermineskin Residence if it is no longer needed for strictly educational purposes", "Letter from the District Supervisor to the Four Band Council regarding consultations about the possible future closure of the Residence "],
+      "ref": ["ERM-001181", "ERM-007187"]
     }, {
       "date": 1975,
-      "desc": "Government discontinued managing the Ermineskin Residence as of Sep. 1, 1975. Remaining students were either sent home or placed in foster care ",
+      "desc": ["Government discontinued managing the Ermineskin Residence as of Sep. 1, 1975. Remaining students were either sent home or placed in foster care "],
       "ref": ["ERM-001164", "ERM-007171", "ERM-002225", "ERM-007312"]
     }, {
       "date": 1979,
-      "desc": "The Ermineskin Band requested by Band Council Resolution that the Government turn over the old Residence building to the Band for use of the community. The Ermineskin Band also requested the Government turn over the 6 unit motel, two 3 bedroom bungalows and two 4 bedroom bungalows to the Band. These Band Council Resolutions were approved by the Government, “on the condition that the Band assumes all future responsibility (financial and otherwise) for the buildings” ",
+      "desc": ["The Ermineskin Band requested by Band Council Resolution that the Government turn over the old Residence building to the Band for use of the community. The Ermineskin Band also requested the Government turn over the 6 unit motel, two 3 bedroom bungalows and two 4 bedroom bungalows to the Band. These Band Council Resolutions were approved by the Government, “on the condition that the Band assumes all future responsibility (financial and otherwise) for the buildings” "],
       "ref": ["ERM-002230", "ERM-002227", "ERM-002228", "ERM-002472-0001", "ERM-002477-0000", "ERM-002477-0001", "ERM-07192-0000", "ERM-007192-0001", "ERM-007192-0002"]
     }, {
       "date": 1980,
-      "desc": "Band Council Resolution requesting the Government turn over a 12-unit teacherage to the Band. Government approved authority to transfer the teacherage at no cost for Band use.",
+      "desc": ["Band Council Resolution requesting the Government turn over a 12-unit teacherage to the Band. Government approved authority to transfer the teacherage at no cost for Band use."],
       "ref": ["ERM-002231", "ERM-002232"]
     }, {
       "date": 1985,
-      "desc": "Letter to the Four Band Education from the Government notifying them that direct federal involvement in the operation and maintenance of educational facilities will cease. The Government requests that “the Four Band Education organization consider taking over the operation and maintenance of the Education facilities at the Ermineskin site” ",
+      "desc": ["Letter to the Four Band Education from the Government notifying them that direct federal involvement in the operation and maintenance of educational facilities will cease. The Government requests that “the Four Band Education organization consider taking over the operation and maintenance of the Education facilities at the Ermineskin site” "],
       "ref": ["ERM-007021"]
     }, {
       "date": 1987,
-      "desc": "The last documented references to school activities are dated in the 1986/1987 school year ",
+      "desc": ["The last documented references to school activities are dated in the 1986/1987 school year "],
       "ref": ["ERM-008571-0002"]
     }],
     "notesHistory": [],

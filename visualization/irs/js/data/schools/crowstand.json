@@ -40,32 +40,28 @@
     }],
     "chronoHistory": [{
       "date": 1889,
-      "desc": "The Crowstand IRS opened under the auspices of the Presbyterian Church. ",
+      "desc": ["The Crowstand IRS opened under the auspices of the Presbyterian Church. "],
       "ref": ["CRW-000124, pg. 6", "CRW-000005, pg. 2"]
     }, {
       "date": 1890,
-      "desc": "During the summer, the Presbyterian Church enlarged the IRS by constructing a stone building",
+      "desc": ["During the summer, the Presbyterian Church enlarged the IRS by constructing a stone building"],
       "ref": ["CRW-000048, pg. 2"]
     }, {
       "date": 1899,
-      "desc": "The stone building at the IRS was condemned and torn down. The Presbyterian Church began construction on a new frame IRS building measuring 38' X 70' with a stone basement. ",
+      "desc": ["The stone building at the IRS was condemned and torn down. The Presbyterian Church began construction on a new frame IRS building measuring 38' X 70' with a stone basement. "],
       "ref": ["CRW-000080, pg. 6", "CRW-000292"]
     }, {
       "date": 1908,
-      "desc": "A new 24’ x 18’ two storey high wing was added to the main IRS building. The wing was to be used for isolation and general hospital purposes.",
+      "desc": ["A new 24’ x 18’ two storey high wing was added to the main IRS building. The wing was to be used for isolation and general hospital purposes."],
       "ref": ["CRW-000085, pg. 8"]
     }, {
       "date": 1912,
-      "desc": "Mission work of the Presbyterian Church of Canada, including the operation of the IRS, was transferred from the Foreign Mission Committee to the Board of Home Missions. ",
+      "desc": ["Mission work of the Presbyterian Church of Canada, including the operation of the IRS, was transferred from the Foreign Mission Committee to the Board of Home Missions. "],
       "ref": ["CRW-000098"]
     }, {
       "date": 1915,
-      "desc": "The IRS was slated for closure in June 1915, as the federal government planned to build an Improved Day School at the Cote reserve to replace the IRS. Due to delayed construction of the Day School, the IRS remained open from September to November",
-      "ref": ["CRW-000259", "CRW-000207", "CRW-000208", "CRW-000209 "]
-    }, {
-      "date": 1915,
-      "desc": "The Crowstand IRS closed. Eleven students were transferred to the File Hills IRS and the rest were sent home pending the opening of the new Cote Improved Federal Day School.",
-      "ref": ["CRW-000200, pg. 8"]
+      "desc": ["The IRS was slated for closure in June 1915, as the federal government planned to build an Improved Day School at the Cote reserve to replace the IRS. Due to delayed construction of the Day School, the IRS remained open from September to November", "The Crowstand IRS closed. Eleven students were transferred to the File Hills IRS and the rest were sent home pending the opening of the new Cote Improved Federal Day School."],
+      "ref": ["CRW-000259", "CRW-000207", "CRW-000208", "CRW-000209 ", "CRW-000200, pg. 8"]
     }],
     "notesHistory": [],
     "management": [{

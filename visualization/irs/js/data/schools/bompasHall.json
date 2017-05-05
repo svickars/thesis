@@ -34,15 +34,15 @@
     }],
     "chronoHistory": [{
       "date": 1960,
-      "desc": "Bompas Hall Anglican pupil residence opened in October 1960",
+      "desc": ["Bompas Hall Anglican pupil residence opened in October 1960"],
       "ref": ["ANGDC-84492"]
     }, {
       "date": 1961,
-      "desc": "The government adopts the policy to name the 'large hostels' after northern Anglican and Catholic missionaries, and the related day schools after northern explorers. The Anglican hostel in Fort Simpson is named Bompas Hall after Bishop William C. Bompas, the first Anglican Bishop of Athabasca, 1874; the first Bishop ofMackenzie River, 1884; and the first Bishop of Selkirk (Yukon), 1890",
+      "desc": ["The government adopts the policy to name the 'large hostels' after northern Anglican and Catholic missionaries, and the related day schools after northern explorers. The Anglican hostel in Fort Simpson is named Bompas Hall after Bishop William C. Bompas, the first Anglican Bishop of Athabasca, 1874; the first Bishop ofMackenzie River, 1884; and the first Bishop of Selkirk (Yukon), 1890"],
       "ref": ["NWT-000614"]
     }, {
       "date": 1969,
-      "desc": "The NTRC does not have specific information indicating the closing date of this institution. We do know that Bompas Hall was part ofthis federal day school/contract residence program from September 1, 1960 to April1, 1969. We have no direct documentary references to Bompas Hall after 1969 and therefore have no knowledge ofthe residence after that year.",
+      "desc": ["The NTRC does not have specific information indicating the closing date of this institution. We do know that Bompas Hall was part ofthis federal day school/contract residence program from September 1, 1960 to April1, 1969. We have no direct documentary references to Bompas Hall after 1969 and therefore have no knowledge ofthe residence after that year."],
       "ref": ["FNU-200601 NWT-000221"]
     }],
     "notesHistory": [],

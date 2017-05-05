@@ -64,31 +64,31 @@
     }],
     "chronoHistory": [{
       "date": 1891,
-      "desc": "Williams Lake Industrial School was opened under the auspices ofthe Roman Catholic Church.",
+      "desc": ["Williams Lake Industrial School was opened under the auspices ofthe Roman Catholic Church."],
       "ref": ["06600", "60001", "JP-0013"]
     }, {
       "date": 1954,
-      "desc": "Construction of new school building completed.",
+      "desc": ["Construction of new school building completed."],
       "ref": ["25540"]
     }, {
       "date": 1961,
-      "desc": "Approval granted for transfer ofgrade 9 students from Cariboo Indian Residential School to the Public High School at Williams Lake.",
+      "desc": ["Approval granted for transfer ofgrade 9 students from Cariboo Indian Residential School to the Public High School at Williams Lake."],
       "ref": ["28210"]
     }, {
       "date": 1962,
-      "desc": "For the 1962-1963 school year, grade 10 students are enrolled at the Prince George Catholic High School and grade 9 students at Williams Lake Public High School.",
+      "desc": ["For the 1962-1963 school year, grade 10 students are enrolled at the Prince George Catholic High School and grade 9 students at Williams Lake Public High School."],
       "ref": ["06207"]
     }, {
       "date": 1964,
-      "desc": "Stone Indian Day School closes until September 1965. As a result, 23 children transferred to Cariboo IRS in January 1965.",
+      "desc": ["Stone Indian Day School closes until September 1965. As a result, 23 children transferred to Cariboo IRS in January 1965."],
       "ref": ["13681"]
     }, {
       "date": 1968,
-      "desc": "Joint School Submission covering the complete integration of all Indian pupils in School District No. 27.",
+      "desc": ["Joint School Submission covering the complete integration of all Indian pupils in School District No. 27."],
       "ref": ["60201", "60202"]
     }, {
       "date": 1981,
-      "desc": "Cariboo Student Residence closed.",
+      "desc": ["Cariboo Student Residence closed."],
       "ref": ["28438A"]
     }],
     "notesHistory": [],

@@ -64,19 +64,19 @@
     }],
     "chronoHistory": [{
       "date": 1904,
-      "desc": "Ahousaht School opened in 1904 by the Women’s Missionary Society",
+      "desc": ["Ahousaht School opened in 1904 by the Women’s Missionary Society"],
       "ref": ["AEMR-200432"]
     }, {
       "date": 1917,
-      "desc": "In May of 1917 the Ahousaht Boarding School burnt down",
+      "desc": ["In May of 1917 the Ahousaht Boarding School burnt down"],
       "ref": ["ABR-000689"]
     }, {
       "date": 1931,
-      "desc": "A roof fire occurred in the classroom on May 7th, 1931",
+      "desc": ["A roof fire occurred in the classroom on May 7th, 1931"],
       "ref": ["number"]
     }, {
       "date": 1940,
-      "desc": "The main school building was destroyed by fire on January 26th, 1940. All students were returned to their homes.It was recommended that a temporary day school be opened at Ahousaht to care for the education needs of 40 pupils whose homes were located in Ahousaht.",
+      "desc": ["The main school building was destroyed by fire on January 26th, 1940. All students were returned to their homes.It was recommended that a temporary day school be opened at Ahousaht to care for the education needs of 40 pupils whose homes were located in Ahousaht."],
       "ref": ["AST-200085-0001"]
     }],
     "notesHistory": [],

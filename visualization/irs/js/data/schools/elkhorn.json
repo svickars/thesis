@@ -52,35 +52,35 @@
     }],
     "chronoHistory": [{
       "date": 1889,
-      "desc": "The IRS opened with residents.  The Principal referred to the IRS as “Homes for Indian Children.”  The original Elkhorn IRS consisted of a main building, and two residential buildings called the Washakada Home for girls and the Kasota Home for boys",
+      "desc": ["The IRS opened with residents.  The Principal referred to the IRS as “Homes for Indian Children.”  The original Elkhorn IRS consisted of a main building, and two residential buildings called the Washakada Home for girls and the Kasota Home for boys"],
       "ref": ["ELK-000039", "ELK-000431, pg. 2-3"]
     }, {
       "date": 1895,
-      "desc": "A fire destroyed the IRS buildings with the exception of the Kasota Home for boys.  As a result, the IRS temporarily operated out of buildings in the town of Elkhorn.  A former restaurant accommodated the female pupils, while a large store with a stock room was used as a dining hall, kitchen and classroom. The Kasota Home for boys was used to serve meals for residents.  The IRS buildings reached “from end to end” of the town.",
+      "desc": ["A fire destroyed the IRS buildings with the exception of the Kasota Home for boys.  As a result, the IRS temporarily operated out of buildings in the town of Elkhorn.  A former restaurant accommodated the female pupils, while a large store with a stock room was used as a dining hall, kitchen and classroom. The Kasota Home for boys was used to serve meals for residents.  The IRS buildings reached “from end to end” of the town."],
       "ref": ["ELK-000436, pg. 22", "ELK-000440, pg. 2", "ELK-000551, pg. 25-27"]
     }, {
       "date": 1899,
-      "desc": "The new Elkhorn IRS building was opened and occupied",
+      "desc": ["The new Elkhorn IRS building was opened and occupied"],
       "ref": ["ELK-000445, pg. 2"]
     }, {
       "date": 1908,
-      "desc": "A fire occurred at the IRS. No one was injured and both staff and students helped extinguish the fire. ",
+      "desc": ["A fire occurred at the IRS. No one was injured and both staff and students helped extinguish the fire. "],
       "ref": ["ELK-000217"]
     }, {
       "date": 1918,
-      "desc": "The Elkhorn IRS was closed due to a lack of agreement between the Anglican Church and the federal government regarding financial responsibility and in the “interests of economy.” ",
+      "desc": ["The Elkhorn IRS was closed due to a lack of agreement between the Anglican Church and the federal government regarding financial responsibility and in the “interests of economy.” "],
       "ref": ["ELLLK-000249", "ELK-000468, pg. 6", "ELK-000250"]
     }, {
       "date": 1924,
-      "desc": "The IRS re-opened for the 1923/24 school year with seventeen pupils.  Several students returned to the IRS in January 1924 from trapping with their parents",
+      "desc": ["The IRS re-opened for the 1923/24 school year with seventeen pupils.  Several students returned to the IRS in January 1924 from trapping with their parents"],
       "ref": ["AAC-083007, pg. 7", "AAC-085160, pg. 4", "ELK-000551, pg. 52-53"]
     }, {
       "date": 1947,
-      "desc": "By 1947, the IRS classroom block needed numerous repairs. In May 1948, one classroom was operating in the main IRS building.  The classroom block was also still in use, but an inspector noted that repairs to the classroom block “would be a waste of money.”  In July the federal government decided to reduce the pupilage at the IRS to 75 so that use of the classroom block would not be necessary. By November 1948, the only two classrooms in use at the IRS were located in the main IRS building. ",
+      "desc": ["By 1947, the IRS classroom block needed numerous repairs. In May 1948, one classroom was operating in the main IRS building.  The classroom block was also still in use, but an inspector noted that repairs to the classroom block “would be a waste of money.”  In July the federal government decided to reduce the pupilage at the IRS to 75 so that use of the classroom block would not be necessary. By November 1948, the only two classrooms in use at the IRS were located in the main IRS building. "],
       "ref": ["ELK-00146-0001", "ELK-000085", "ELK-000426", "ELK-000428"]
     }, {
       "date": 1949,
-      "desc": "The Elkhorn IRS closed.",
+      "desc": ["The Elkhorn IRS closed."],
       "ref": ["ELK-000160"]
     }],
     "notesHistory": [],

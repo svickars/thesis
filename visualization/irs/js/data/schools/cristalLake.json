@@ -22,35 +22,35 @@
     }],
     "chronoHistory": [{
       "date": 1976,
-      "desc": "The Cristal Lake IRS opened for the 1976/77 school year and offered grades 9, 10 and 11 to fifteen Indian girls.",
+      "desc": ["The Cristal Lake IRS opened for the 1976/77 school year and offered grades 9, 10 and 11 to fifteen Indian girls."],
       "ref": ["CLS-000001-0001", "CLS-000045-0000", "CLS-000051"]
     }, {
       "date": 1979,
-      "desc": "The Northern Youth Programs Inc. submitted a proposed budget contract to the federal government for tuition and administration for 48 male and female Indian high school students at the Cristal Lake IRS and the Stirland Lake IRS for the 1979/80 school year. ",
+      "desc": ["The Northern Youth Programs Inc. submitted a proposed budget contract to the federal government for tuition and administration for 48 male and female Indian high school students at the Cristal Lake IRS and the Stirland Lake IRS for the 1979/80 school year. "],
       "ref": ["SLS-000014-0000", "SLS-000014-0001", "SLS-000014-0002", "SLS-000014-0003"]
     }, {
       "date": 1980,
-      "desc": "A forest fire near the Stirland Lake IRS led to the evacuation of pupils to the Cristal Lake IRS.  The girls from the Cristal Lake IRS had been moved to Beaver Lake.  The boys from the Stirland Lake IRS stayed at the Cristal Lake IRS for five days.",
+      "desc": ["A forest fire near the Stirland Lake IRS led to the evacuation of pupils to the Cristal Lake IRS.  The girls from the Cristal Lake IRS had been moved to Beaver Lake.  The boys from the Stirland Lake IRS stayed at the Cristal Lake IRS for five days."],
       "ref": ["SLS-000056, pg.2"]
     }, {
       "date": 1981,
-      "desc": "Officials from the Ontario Ministry of Education visited the Cristal Lake IRS to determine if its curriculum met the required provincial guidelines for private schools.  The federal government had requested that the program at the IRS be reviewed with an emphasis on its provincial accreditation as a private school.",
+      "desc": ["Officials from the Ontario Ministry of Education visited the Cristal Lake IRS to determine if its curriculum met the required provincial guidelines for private schools.  The federal government had requested that the program at the IRS be reviewed with an emphasis on its provincial accreditation as a private school."],
       "ref": ["SLS-000030-0000", "SLS-000008"]
     }, {
       "date": 1982,
-      "desc": "A tuition agreement and addendum were signed between the Northern Youth Programs and the federal government for the period September 1, 1981 to August 30, 1982.  The agreement was for secondary school education, pupil maintenance and special cultural courses for 20 female Indian students at the Cristal Lake IRS.",
+      "desc": ["A tuition agreement and addendum were signed between the Northern Youth Programs and the federal government for the period September 1, 1981 to August 30, 1982.  The agreement was for secondary school education, pupil maintenance and special cultural courses for 20 female Indian students at the Cristal Lake IRS."],
       "ref": ["SLS-000171-0000", "SLS-000171-0001", "SLS-000171-0002", "SLS-000171-0003"]
     }, {
       "date": 1983,
-      "desc": "A tuition agreement was signed between the Northern Youth Programs, the Northern Nishnawbe Education Council, and the federal government for the period January 1 to December 31, 1983.  The agreement was for secondary school education, pupil maintenance and special cultural courses for 57 Indian students for both the Stirland Lake IRS and the Cristal Lake IRS.",
+      "desc": ["A tuition agreement was signed between the Northern Youth Programs, the Northern Nishnawbe Education Council, and the federal government for the period January 1 to December 31, 1983.  The agreement was for secondary school education, pupil maintenance and special cultural courses for 57 Indian students for both the Stirland Lake IRS and the Cristal Lake IRS."],
       "ref": ["SLS-000170-0000", "SLS-000170-0003", "SLS-000170-0004", "SLS-000170-0005"]
     }, {
       "date": 1984,
-      "desc": "A tuition agreement was signed between the Northern Youth Programs, the Northern Nishnawbe Education Council, and the federal government for the period January 1 to December 31, 1985.  The agreement was for secondary school education, pupil maintenance and special cultural courses for 58 Indian students for both the Stirland Lake IRS and the Cristal Lake IRS. The Northern Nishnawbe Education Council was to provide the Northern Youth Programs with lists of qualified students to be enrolled at each IRS.",
+      "desc": ["A tuition agreement was signed between the Northern Youth Programs, the Northern Nishnawbe Education Council, and the federal government for the period January 1 to December 31, 1985.  The agreement was for secondary school education, pupil maintenance and special cultural courses for 58 Indian students for both the Stirland Lake IRS and the Cristal Lake IRS. The Northern Nishnawbe Education Council was to provide the Northern Youth Programs with lists of qualified students to be enrolled at each IRS."],
       "ref": ["SLS-000169-0000", "SLS-000169-0001", "SLS-000169-0002", "SLS-000169-0003"]
     }, {
       "date": 1986,
-      "desc": "The Cristal Lake IRS closed at the end of the 1985/86 school year. The last day of classes was held on June 12, 1986.",
+      "desc": ["The Cristal Lake IRS closed at the end of the 1985/86 school year. The last day of classes was held on June 12, 1986."],
       "ref": ["CLS-000105-0000"]
     }],
     "notesHistory": [],

@@ -28,44 +28,32 @@
     }],
     "chronoHistory": [{
       "date": 1958,
-      "desc": "Yellowknife School and Hostel completed July 7, 1958.",
-      "ref": ["AHU-000017[000-000]"]
-    }, {
-      "date": 1958,
-      "desc": "Akaitcho Hall opened for the 1958-59 school year. The first student resident arrived on August 29, 1958. Services offered in the hostel included: Student Council, guidance and counseling, and gym activities.",
-      "ref": ["AHU-000005[000-002]"]
+      "desc": ["Yellowknife School and Hostel completed July 7, 1958.", "Akaitcho Hall opened for the 1958-59 school year. The first student resident arrived on August 29, 1958. Services offered in the hostel included: Student Council, guidance and counseling, and gym activities."],
+      "ref": ["AHU-000017[000-000]", "AHU-000005[000-002]"]
     }, {
       "date": 1959,
-      "desc": "The document titled <strong>Sir John Franklin School, Yellowknife Statement of Duties</strong> states the following about the role of the hostel in relation to the school:<br> 'The hostel is an essential part of the composite arrangement in Yellowknife. It is, however, not an integral part of the school. It exists for one purpose only: to provide a place where out-of-town students can live; and generally afford a 'home' while they are attending school. It is not designed for and would not be provided for Yellowknife students and their relationship to it must be governed at all times by the interests solely ofthe out-of-town students.'",
+      "desc": ["The document titled <strong>Sir John Franklin School, Yellowknife Statement of Duties</strong> states the following about the role of the hostel in relation to the school:<br> 'The hostel is an essential part of the composite arrangement in Yellowknife. It is, however, not an integral part of the school. It exists for one purpose only: to provide a place where out-of-town students can live; and generally afford a 'home' while they are attending school. It is not designed for and would not be provided for Yellowknife students and their relationship to it must be governed at all times by the interests solely ofthe out-of-town students.'"],
       "ref": ["AHU-000012[002-015]"]
     }, {
       "date": 1960,
-      "desc": "Inspection of Food Services Report details the condition ofthe kitchen and dining facilities as well as commenting on food preparation, diet, hygiene, and living conditions. The report states that there are four students residing in each room. Recreational activities provided in the residence are basketball, pool, ping-pong, and hockey. At this time there were two boys' supervisors and one girls' supervisor.",
+      "desc": ["Inspection of Food Services Report details the condition ofthe kitchen and dining facilities as well as commenting on food preparation, diet, hygiene, and living conditions. The report states that there are four students residing in each room. Recreational activities provided in the residence are basketball, pool, ping-pong, and hockey. At this time there were two boys' supervisors and one girls' supervisor."],
       "ref": ["AHU-000002[001-001]"]
     }, {
       "date": 1965,
-      "desc": "The Food Services Report states that there is a staff of approximately 20 at Akaitcho Hall. The hostel received a favourable report on diet and food preparation with some recommendations.",
+      "desc": ["The Food Services Report states that there is a staff of approximately 20 at Akaitcho Hall. The hostel received a favourable report on diet and food preparation with some recommendations.", "Seven dormitory supervisors, classified as Teachers' aides, were employed at the hostel."],
       "ref": ["AHU-000011[001-002]"]
     }, {
-      "date": 1965,
-      "desc": "Seven dormitory supervisors, classified as Teachers' aides, were employed at the hostel.",
-      "ref": ["AHU-000006[000-000"]
-    }, {
       "date": 1966,
-      "desc": "The Food Services Report delivers a favourable report on the diet and food preparation at the hostel with minor recommendations.",
+      "desc": ["The Food Services Report delivers a favourable report on the diet and food preparation at the hostel with minor recommendations."],
       "ref": ["AH-173218G"]
     }, {
       "date": 1969,
-      "desc": "Akaitcho Hall has a Residence Student Committee appointed by the Residence Superintendent, Mr. Boxer. The committee consists of '30 boys and girls of which 14 are white, 8 are Indian, 4 are Eskimo, and 4 are Metis.' There is also a sub-committee on rules review which consists of '3 boys and 3 girls which are as follows: 2 Indians and 4 Whites.'",
+      "desc": ["Akaitcho Hall has a Residence Student Committee appointed by the Residence Superintendent, Mr. Boxer. The committee consists of '30 boys and girls of which 14 are white, 8 are Indian, 4 are Eskimo, and 4 are Metis.' There is also a sub-committee on rules review which consists of '3 boys and 3 girls which are as follows: 2 Indians and 4 Whites.'"],
       "ref": ["AHU-000009[000-000]"]
     }, {
       "date": 1970,
-      "desc": "Letter indicates that the residence in Yellowknife is still operational.",
+      "desc": ["Letter indicates that the residence in Yellowknife is still operational.", "We do not have specific information indicating the closing date of this institution. This document is the latest dated document in our current collection indicating that Akaitcho Hall was open at this time. Further research is currently in progress."],
       "ref": ["AH-00531"]
-    }, {
-      "date": 1970,
-      "desc": "We do not have specific information indicating the closing date of this institution. This document is the latest dated document in our current collection indicating that Akaitcho Hall was open at this time. Further research is currently in progress.",
-      "ref": []
     }],
     "notesHistory": [],
     "management": [{
@@ -99,6 +87,18 @@
       "year": 1961,
       "number": 114,
       "notes": "114 residents: Indian:31, Eskimo:39, Other:44"
+    }, {
+      "year": 1962,
+      "number": 114,
+      "notes": ""
+    }, {
+      "year": 1963,
+      "number": 125,
+      "notes": ""
+    }, {
+      "year": 1964,
+      "number": 155,
+      "notes": ""
     }, {
       "year": 1965,
       "number": 170,

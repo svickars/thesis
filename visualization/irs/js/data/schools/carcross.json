@@ -94,79 +94,71 @@
     }],
     "chronoHistory": [{
       "date": 1903,
-      "desc": "The first Carcross School was established in the spring of 1903 by an Anglican Bishop.",
+      "desc": ["The first Carcross School was established in the spring of 1903 by an Anglican Bishop."],
       "ref": ["CA011225"]
     }, {
       "date": 1907,
-      "desc": "A request is made to the government to build an adequate building for the Carcross Indian School.",
+      "desc": ["A request is made to the government to build an adequate building for the Carcross Indian School."],
       "ref": ["CA011050"]
     }, {
       "date": 1908,
-      "desc": "The government establishes the current school as an Indian Residential School.",
+      "desc": ["The government establishes the current school as an Indian Residential School."],
       "ref": ["YS004084A"]
     }, {
       "date": 1910,
-      "desc": "Site for a new school was purchased.",
+      "desc": ["Site for a new school was purchased."],
       "ref": ["YS004084A"]
     }, {
       "date": 1913,
-      "desc": "New school was built about two miles from community ofCarcross",
+      "desc": ["New school was built about two miles from community of Carcross"],
       "ref": ["YS004084A"]
     }, {
       "date": 1939,
-      "desc": "On April 17, 1939, the school burned to the ground. Because ofthe war, the government could not immediately re-build the school, and small rented buildings were used.",
+      "desc": ["On April 17, 1939, the school burned to the ground. Because ofthe war, the government could not immediately re-build the school, and small rented buildings were used."],
       "ref": ["CA011309", "CA010223"]
     }, {
       "date": 1942,
-      "desc": "The school buildings are condemned by the medical health officer.",
+      "desc": ["The school buildings are condemned by the medical health officer."],
       "ref": ["CA011315"]
     }, {
       "date": 1944,
-      "desc": "The Anglican church re-builds the Carcross Indian Residential School and the school is opened in the fall of 1944.",
+      "desc": ["The Anglican church re-builds the Carcross Indian Residential School and the school is opened in the fall of 1944."],
       "ref": ["CA011328", "CA011330", "CA011331"]
     }, {
       "date": 1950,
-      "desc": "The government begins a consultation process with reference to the relocation of Carcross Indian Residential School.",
+      "desc": ["The government begins a consultation process with reference to the relocation of Carcross Indian Residential School."],
       "ref": ["YS000737"]
     }, {
       "date": 1954,
-      "desc": "When the new school opens, it is anticipated that students will be transferred in from the Whitehorse Day School",
+      "desc": ["When the new school opens, it is anticipated that students will be transferred in from the Whitehorse Day School", "New school opens some time soon after September 1954."],
       "ref": ["YS003428"]
     }, {
-      "date": 1954,
-      "desc": "New school opens some time soon after September 1954.",
-      "ref": ["YS000715"]
-    }, {
       "date": 1955,
-      "desc": "Student enrolled in the Carmacks Day School and the Whitehorse Indian Day School are to be accommodated in the newly built Carcross Residential School.",
+      "desc": ["Student enrolled in the Carmacks Day School and the Whitehorse Indian Day School are to be accommodated in the newly built Carcross Residential School."],
       "ref": ["CA010319"]
     }, {
       "date": 1956,
-      "desc": "The Mayo Indian Day School was closed on November 1, 1956, and children were transferred into Carcross.",
+      "desc": ["The Mayo Indian Day School was closed on November 1, 1956, and children were transferred into Carcross."],
       "ref": ["CA010393"]
     }, {
       "date": 1960,
-      "desc": "Students from Grades 5 up were transferred out of Carcross IRS and into the Whitehorse Hostels, leaving Carcross IRS with students in Grades 1 - 4.",
+      "desc": ["Students from Grades 5 up were transferred out of Carcross IRS and into the Whitehorse Hostels, leaving Carcross IRS with students in Grades 1 - 4."],
       "ref": ["YS003830A"]
     }, {
       "date": 1966,
-      "desc": "There was a fire in the boiler room ofCarcross IRS on June 5, 1966.",
+      "desc": ["There was a fire in the boiler room ofCarcross IRS on June 5, 1966."],
       "ref": ["CA011275"]
     }, {
       "date": 1967,
-      "desc": "Classrooms for the public school children and the residence children were integrated in September o f 1967.",
+      "desc": ["Classrooms for the public school children and the residence children were integrated in September o f 1967."],
       "ref": ["YS004110"]
     }, {
       "date": 1968,
-      "desc": "There was a fire in the boiler house on March 4, 1968.",
+      "desc": ["There was a fire in the boiler house on March 4, 1968.", "With the proposed closing of the school in 1969, enrollment is limited, keeping in residence only students in Grades 1 - 4 and a small number in Grade 5."],
       "ref": ["CA011276", "CA011276A"]
     }, {
-      "date": 1968,
-      "desc": "With the proposed closing ofthe school in 1969, enrollment is limited, keeping in residence only students in Grades 1 - 4 and a small number in Grade 5.",
-      "ref": ["YS000468"]
-    }, {
       "date": 1969,
-      "desc": "Carcross IRS closes June 30, 1969. Land and buildings are transferred to the Yukon Territorial Government.",
+      "desc": ["Carcross IRS closes June 30, 1969. Land and buildings are transferred to the Yukon Territorial Government."],
       "ref": ["CA011355", "CA011355A", "CA011355B", "CA011355C"]
     }],
     "notesHistory": [],

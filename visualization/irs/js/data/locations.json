@@ -1,5 +1,6 @@
 {
-  "schools": [{
+  "schools": [
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Ahousaht",
@@ -17,7 +18,8 @@
     "class": ".ahousaht-ahousaht, .ehatishat-ahousaht",
     "reserves": ["Ahousaht", "Ehatishat"],
     "distances": ["0.518921674836576", "92.2376338768286"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Akaitcho Hall (Yellowknife Federal Hostel)",
@@ -35,7 +37,8 @@
     "class": ".aklavik-akaitcho, .fortMacPherson-akaitcho, .fortNorman-akaitcho, .fortResolution-akaitcho, .fortSimpson-akaitcho, .fortSmith-akaitcho, .goodHopeLake-akaitcho, .hayLakes-akaitcho, .tuktoyaktuk-akaitcho, .yellowknife-akaitcho",
     "reserves": ["Aklavik", "Fort MacPherson", "Fort Norman", "Fort Resolution", "Fort Simpson", "Fort Smith", "Good Hope Lake", "Hay Lakes", "Tuktoyaktuk", "Yellowknife"],
     "distances": ["1144.13517518041", "1106.31074040938", "615.284536597075", "146.947692037248", "368.784214319509", "302.659575379668", "879.733585791267", "1032.1408121433", "1140.650042144", "0.545189648843474"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Alberni",
@@ -53,7 +56,8 @@
     "class": ".ahousaht-alberni, .aiyansh-alberni, .arrandale-alberni, .beecherBay-alberni, .bellaBella-alberni, .bellaCoola-alberni, .bostonBar-alberni, .campbellRiver-alberni, .canyonCity-alberni, .capeMudge-alberni, .capilano-alberni, .chemainus-alberni, .clayoquot-alberni, .cowichan-alberni, .gilfordIsland-alberni, .gitlakdamix-alberni, .glenVowell-alberni, .greenville-alberni, .gwinaha-alberni, .hagwilget-alberni, .hartleyBay-alberni, .hazelton-alberni, .hesquiaht-alberni, .kemano-alberni, .kincolith-alberni, .kingcombe-alberni, .kispiox-alberni, .kitamaat-alberni, .kitasoo-alberni, .kitkatla-alberni, .kitlakdamix-alberni, .kitlope-alberni, .kitsegucla-alberni, .kitselas-alberni, .kitsumkalum-alberni, .kitwancool-alberni, .kitwanga-alberni, .klemtu-alberni, .koksilah-alberni, .kyoquot-alberni, .lakeCowichan-alberni, .malahat-alberni, .masset-alberni, .metlakatla-alberni, .moricetown-alberni, .musqueam-alberni, .nanaimo-alberni, .nanoose-alberni, .neskainlith-alberni, .nimkish-alberni, .nishga-alberni, .nitinat-alberni, .nootka-alberni, .ohiat-alberni, .opitsaht-alberni, .oweekano-alberni, .penelakut-alberni, .portEssington-alberni, .portRenfrew-alberni, .portSimpson-alberni, .quamichan-alberni, .saanich-alberni, .saanichton-alberni, .sarita-alberni, .shaousaht-alberni, .skeenaCrossing-alberni, .skeenaRiver-alberni, .skidegate-alberni, .skuppah-alberni, .sliammon-alberni, .somenos-alberni, .songhees-alberni, .soowahlia-alberni, .stonyCreek-alberni, .sumas-alberni, .sweetGrass-alberni, .terrace-alberni, .toquaht-alberni, .tsawout-alberni, .turnerIsland-alberni, .tzeachton-alberni, .uchucklasaht-alberni, .ucluelet-alberni, .weiweikum-alberni",
     "reserves": ["Ahousaht", "Aiyansh", "Arrandale", "Beecher Bay", "Bella Bella", "Bella Coola", "Boston Bar", "Campbell River", "Canyon City", "Cape Mudge", "Capilano", "Chemainus", "Clayoquot", "Cowichan", "Gilford Island", "Gitlakdamix", "Glen Vowell", "Greenville", "Gwinaha", "Hagwilget", "Hartley Bay", "Hazelton", "Hesquiaht", "Kemano", "Kincolith", "Kingcombe", "Kispiox", "Kitamaat", "Kitasoo", "Kitkatla", "Kitlakdamix", "Kitlope", "Kitsegucla", "Kitselas", "Kitsumkalum", "Kitwancool", "Kitwanga", "Klemtu", "Koksilah", "Kyoquot", "Lake Cowichan", "Malahat", "Masset", "Metlakatla", "Moricetown", "Musqueam", "Nanaimo", "Nanoose", "Neskainlith", "Nimkish", "Nishga", "Nitinat", "Nootka", "Ohiat", "Opitsaht", "Oweekano", "Penelakut", "Port Essington", "Port Renfrew", "Port Simpson", "Quamichan", "Saanich", "Saanichton", "Sarita", "Shaousaht", "Skeena Crossing", "Skeena River", "Skidegate", "Skuppah", "Sliammon", "Somenos", "Songhees", "Soowahlia", "Stony Creek", "Sumas", "Sweet Grass", "Terrace", "Toquaht", "Tsawout", "Turner Island", "Tzeachton", "Uchucklasaht", "Ucluelet", "Weiweikum"],
     "distances": ["87.9488209162278", "720.542750495638", "725.309285725745", "137.205458328753", "397.106249762191", "370.696966160771", "254.204874698518", "90.9284067927359", "1410.18268120819", "85.1308010511363", "923.054716474494", "88.9224950159246", "79.914992905483", "81.8424075514572", "194.916080718079", "723.069955977108", "699.440783987181", "717.835039809667", "723.199920655157", "692.188472877626", "554.51744699319", "693.454319921153", "118.374713065241", "523.651860136083", "725.965535843057", "212.030054706099", "703.544797654376", "585.702246821811", "451.058542492489", "634.612499740118", "723.069955977108", "482.69694098311", "678.261607576766", "636.735863664224", "639.347383535022", "703.214054197265", "685.285164242921", "451.074993477819", "101.674471320809", "201.393263245157", "75.4358410409968", "123.059326310246", "729.118395080637", "682.568240721046", "663.506582851959", "119.478602591146", "66.5798656794142", "47.2623337061986", "401.493799631608", "190.392588268662", "726.35946796397", "58.2829577689222", "148.105444514226", "23.4284145533509", "77.8472143333337", "317.119735828797", "93.2669332070901", "647.504750248135", "84.8665068829878", "701.702562279651", "101.65328087948", "139.756342765144", "128.005934033208", "44.5118349704807", "87.9488209162278", "679.421041077458", "753.426481073229", "666.769510610173", "257.959291400655", "72.6589077106452", "95.0122028530201", "138.167596414921", "209.992692401568", "3480.47654157994", "189.941968175342", "912.424583397824", "638.423313683723", "62.8387201836499", "129.810705736545", "1501.65266400561", "210.695367752481", "4.03834833488036", "62.4271872082674", "90.5605702088006"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "All Saints (Aklavik Anglican)",
@@ -71,7 +75,8 @@
     "class": ".aklavik-aklavik, .banksIsland-aklavik, .cambridgeBay-aklavik, .delta-aklavik, .fortMcPherson-aklavik, .fortNorman-aklavik, .herschelIsland-aklavik, .holmanIsland-aklavik, .perryRiver-aklavik, .reindeerCamp-aklavik, .spenceBay-aklavik, .tuktoyaktuk-aklavik",
     "reserves": ["Aklavik", "Banks Island", "Cambridge Bay", "Delta", "Fort McPherson", "Fort Norman", "Herschel Island", "Holman Island", "Perry River", "Reindeer Camp", "Spence Bay", "Tuktoyaktuk"],
     "distances": ["0.120645523669949", "750.313611341542", "1203.23263337246", "2227.31257865028", "87.4002643388988", "555.930235343209", "222.050982495842", "723.363397416829", "1355.9206308672", "2061.67400770989", "1636.14584464083", "157.50238356469"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Amos (Saint-Marc-de-Figuery)",
@@ -89,7 +94,8 @@
     "class": ".abitibiDominion-amos, .abitibiOntario-amos, .amos-amos, .barriere-amos, .jamesBayAgency-amos, .lacSimon-amos, .lacVictoria-amos, .longuePointe-amos, .maniwaki-amos, .manowan-amos, .obedjiwan-amos, .pointeBleueMontagnais-amos, .riverDesert-amos, .rupertHouse-amos, .telkwa-amos, .waswanipi-amos, .weymontachieSanmaur-amos, .wolfLake-amos",
     "reserves": ["Abitibi-Dominion", "Abitibi-Ontario", "Amos", "Barriere", "James Bay Agency", "Lac Simon", "Lac Victoria", "Longue-Pointe", "Maniwaki", "Manowan", "Obedjiwan", "Pointe-Bleue Montagnais", "River Desert", "Rupert House", "Telkwa", "Waswanipi", "Weymontachie (Sanmaur)", "Wolf Lake"],
     "distances": ["298.278687192476", "218.015649161214", "14.5852043756102", "2993.10887187179", "592.87239218001", "359.778834836403", "109.895304688205", "466.752471922199", "277.774151951048", "305.359686750675", "229.850868998178", "428.466516084502", "277.976322989121", "328.860992848627", "3384.66950117472", "206.163733086131", "320.866596496259", "3593.79821060436"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Anahim Lake Dormitory (Ulkatcho)",
@@ -107,7 +113,8 @@
     "class": ".alexisCreek-anahimLake, .anahimLake-anahimLake, .anahimLake-anahimLake, .bellaBella-anahimLake, .blackwater-anahimLake, .chilcotin-anahimLake, .kluskus-anahimLake, .okanogan-anahimLake, .salmonRiver-anahimLake, .ulkatcho-anahimLake",
     "reserves": ["Alexis Creek", "Anahim Lake", "Anahim Lake", "Bella Bella", "Blackwater", "Chilcotin", "Kluskus", "Okanogan", "Salmon River", "Ulkatcho"],
     "distances": ["144.481879352266", "0.632616748940487", "0.632616748940487", "195.868056740619", "3473.70937146692", "172.880247062321", "89.4518564936923", "498.139020462084", "4458.00815779613", "65.0502329198668"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Assiniboia (Winnipeg)",
@@ -125,7 +132,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Assumption (Hay Lakes)",
@@ -143,7 +151,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Battleford",
@@ -161,7 +170,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Beauval (Ile a la Crosse)",
@@ -179,7 +189,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Birtle",
@@ -197,7 +208,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Bishop Horden Hall (Moose Factory)",
@@ -215,7 +227,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Blue Quills (Sacred Heart)",
@@ -233,7 +246,8 @@
     "class": ".anzac-blueQuills, .beaverLake-blueQuills, .coldLake-blueQuills, .fortChipewyan-blueQuills, .fortMcKay-blueQuills, .frogLake-blueQuills, .goodfishWhitefishLake-blueQuills, .heartLake-blueQuills, .janvier-blueQuills, .kehewin-blueQuills, .onionLake-blueQuills, .saddleLake-blueQuills",
     "reserves": ["Anzac", "Beaver Lake", "Cold Lake", "Fort Chipewyan", "Fort McKay", "Frog Lake", "Goodfish (Whitefish) Lake", "Heart Lake", "Janvier", "Kehewin", "Onion Lake", "Saddle Lake"],
     "distances": ["273.744104028208", "84.0620701578416", "89.9291044982198", "525.832626184119", "355.943009729427", "61.1463639825322", "47.2829618449521", "2542.06310945682", "207.658600766585", "35.0751116374289", "90.4314402747884", "25.8854470995724"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Bompas Hall (Koe Go Cho)",
@@ -251,7 +265,8 @@
     "class": ".bathhurstInlet-bompasHall, .cambridgeBay-bompasHall, .coppermine-bompasHall, .fortChipewyan-bompasHall, .fortLiard-bompasHall, .fortNorman-bompasHall, .fortProvidence-bompasHall, .fortProvidence-bompasHall, .fortRae-bompasHall, .fortResolution-bompasHall, .fortSimpson-bompasHall, .fortSmith-bompasHall, .fortWrigley-bompasHall, .fortWrigley-bompasHall, .hayLakes-bompasHall, .jeanMarieRiver-bompasHall, .lacLaBiche-bompasHall, .longIsland-bompasHall, .marionLake-bompasHall, .martenLake-bompasHall, .nahanni-bompasHall, .rankinInlet-bompasHall, .rayRock-bompasHall, .rocherRiver-bompasHall, .snowdrift-bompasHall, .spenceBay-bompasHall, .yellowknife-bompasHall, .yellowknife-bompasHall",
     "reserves": ["Bathhurst Inlet", "Cambridge Bay", "Coppermine", "Fort Chipewyan", "Fort Liard", "Fort Norman", "Fort Providence", "Fort Providence", "Fort Rae", "Fort Resolution", "Fort Simpson", "Fort Smith", "Fort Wrigley", "Fort Wrigley", "Hay Lakes", "Jean Marie River", "Lac La Biche", "Long Island", "Marion Lake", "Marten Lake", "Nahanni", "Rankin Inlet", "Ray Rock", "Rocher River", "Snowdrift", "Spence Bay", "Yellowknife", "Yellowknife"],
     "distances": ["842.896807409887", "1095.63452109895", "723.946203139607", "661.858619524002", "213.711518655392", "397.339504049784", "203.515383744264", "203.515383744264", "296.773574391038", "414.503075377601", "0.535781337346568", "551.384299478246", "185.014982872141", "185.014982872141", "1082.10138223362", "53.2489478340081", "958.833583593622", "4000.20221901924", "1240.67891182785", "3105.08240105101", "222.156418295062", "1501.73317166962", "4095.25298670755", "458.293705793305", "555.746161705257", "1512.0316883511", "368.469377267149", "368.469377267149"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Brandon",
@@ -269,7 +284,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Breynat Hall (Fort Smith Hostel)",
@@ -287,7 +303,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Carcross (Chooutla)",
@@ -305,7 +322,8 @@
     "class": ".alexandria-carcross, .alexisCreek-carcross, .alkaliLake-carcross, .anahimLake-carcross, .andersonLake-carcross, .ashcroft-carcross, .bonaparte-carcross, .bridgeRiver-carcross, .canimLake-carcross, .canoeCreek-carcross, .clinton-carcross, .coldwater-carcross, .cowichan-carcross, .dogCreek-carcross, .euchinico-carcross, .fountain-carcross, .highBar-carcross, .kamloops-carcross, .kluskus-carcross, .lakeBabine-carcross, .lillooet-carcross, .littleShuswap-carcross, .moricetown-carcross, .mountCurrie-carcross, .nazko-carcross, .nemiahValley-carcross, .northThompson-carcross, .pavillion-carcross, .pemberton-carcross, .quesnel-carcross, .redstone-carcross, .riskeCreek-carcross, .setonLake-carcross, .skwah-carcross, .sodaCreek-carcross, .squamish-carcross, .stoney-carcross, .toosey-carcross, .ulkatcho-carcross, .williamsLake-carcross",
     "reserves": ["Alexandria", "Alexis Creek", "Alkali Lake", "Anahim Lake", "Anderson Lake", "Ashcroft", "Bonaparte", "Bridge River", "Canim Lake", "Canoe Creek", "Clinton", "Coldwater", "Cowichan", "Dog Creek", "Euchinico", "Fountain", "High Bar", "Kamloops", "Kluskus", "Lake Babine", "Lillooet", "Little Shuswap", "Moricetown", "Mount Currie", "Nazko", "Nemiah Valley", "North Thompson", "Pavillion", "Pemberton", "Quesnel", "Redstone", "Riske Creek", "Seton Lake", "Skwah", "Soda Creek", "Squamish", "Stone (Stoney)", "Toosey", "Ulkatcho", "Williams Lake"],
     "distances": ["4189.7089816873", "1140.74054612681", "1208.18644277842", "1031.27643194815", "1308.86755118017", "1343.02186588134", "4234.09389358323", "1305.14756433591", "1261.68750124806", "1240.40962123151", "3943.49253133762", "3960.65408030613", "1440.08160377415", "1226.81663281877", "1028.69526724045", "1317.13702193205", "1280.1004234029", "1385.42257561592", "1003.20147045007", "789.304178771909", "1321.69405278046", "1397.95933884275", "719.090089350601", "1328.5031987469", "1043.81768491818", "1175.23084230725", "1322.51381548782", "1307.47638666073", "1324.86598345023", "1090.5530233547", "1121.80970417037", "1179.97198564219", "1315.29375869445", "2009.887543776", "1155.15972318188", "1373.36167846729", "4073.20029893936", "1184.10190732787", "967.078201417029", "1179.55921863766"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Cariboo (Williams Lake)",
@@ -323,7 +341,8 @@
     "class": ".alexandria-cariboo, .alexisCreek-cariboo, .alkaliLake-cariboo, .anahimLake-cariboo, .andersonLake-cariboo, .ashcroft-cariboo, .bonaparte-cariboo, .bridgeRiver-cariboo, .canimLake-cariboo, .canoeCreek-cariboo, .clinton-cariboo, .coldwater-cariboo, .cowichan-cariboo, .dogCreek-cariboo, .euchinico-cariboo, .fountain-cariboo, .highBar-cariboo, .kamloops-cariboo, .kluskus-cariboo, .lakeBabine-cariboo, .lillooet-cariboo, .littleShuswap-cariboo, .moricetown-cariboo, .mountCurrie-cariboo, .nazko-cariboo, .nemiahValley-cariboo, .northThompson-cariboo, .pavillion-cariboo, .pemberton-cariboo, .quesnel-cariboo, .redstone-cariboo, .riskeCreek-cariboo, .setonLake-cariboo, .skwah-cariboo, .sodaCreek-cariboo, .squamish-cariboo, .stoney-cariboo, .toosey-cariboo, .ulkatcho-cariboo, .williamsLake-cariboo",
     "reserves": ["Alexandria", "Alexis Creek", "Alkali Lake", "Anahim Lake", "Anderson Lake", "Ashcroft", "Bonaparte", "Bridge River", "Canim Lake", "Canoe Creek", "Clinton", "Coldwater", "Cowichan", "Dog Creek", "Euchinico", "Fountain", "High Bar", "Kamloops", "Kluskus", "Lake Babine", "Lillooet", "Little Shuswap", "Moricetown", "Mount Currie", "Nazko", "Nemiah Valley", "North Thompson", "Pavillion", "Pemberton", "Quesnel", "Redstone", "Riske Creek", "Seton Lake", "Skwah", "Soda Creek", "Squamish", "Stone (Stoney)", "Toosey", "Ulkatcho", "Williams Lake"],
     "distances": ["3488.12264522893", "90.6545983465602", "35.8334949947213", "233.32940592965", "161.808998208382", "155.707476591959", "3550.82853145467", "139.080274807938", "77.008832704406", "67.4114499042379", "3113.35338644522", "3180.30563938482", "395.906129387079", "56.9229573455145", "165.831531962179", "145.71433926562", "105.969559741791", "191.110963862301", "204.626395337151", "406.502976412771", "152.984231373294", "209.517881305436", "485.087599636132", "201.304581557003", "153.471295037226", "147.640893527339", "158.405500112708", "131.314675523047", "202.407726031225", "108.655557970982", "118.32063644067", "40.8847677214477", "153.250401475555", "1257.85768798447", "39.1736713639293", "275.712090873929", "3256.42649305419", "40.6019248990206", "274.095743938559", "15.6882415390723"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Cecilia Jeffrey (Shoal Lake)",
@@ -341,7 +360,8 @@
     "class": ".assabaska-ceciliaJeffrey, .deerLake-ceciliaJeffrey, .fisher-ceciliaJeffrey, .fortAlexander-ceciliaJeffrey, .fortHope-ceciliaJeffrey, .islington-ceciliaJeffrey, .lacdesMilleLacs-ceciliaJeffrey, .lacSeul-ceciliaJeffrey, .longPlain-ceciliaJeffrey, .martinFalls-ceciliaJeffrey, .northWestAngleNo33-ceciliaJeffrey, .northWestAngleNo37-ceciliaJeffrey, .osnaburgh-ceciliaJeffrey, .picMobert-ceciliaJeffrey, .ratPortage-ceciliaJeffrey, .seineRiver-ceciliaJeffrey, .shoalLake-ceciliaJeffrey, .whitefishBay-ceciliaJeffrey",
     "reserves": ["Assabaska", "Deer Lake", "Fisher", "Fort Alexander", "Fort Hope", "Islington", "Lac des Mille Lacs", "Lac Seul", "Long Plain", "Martin Falls", "North West Angle No 33", "North West Angle No 37", "Osnaburgh", "Pic Mobert", "Rat Portage", "Seine River", "Shoal Lake", "Whitefish Bay"],
     "distances": ["88.683368797719", "2647.17627091005", "843.68712358304", "161.153521401385", "500.972288811266", "1322.43607519916", "302.369605514584", "152.542645778931", "289.505924427499", "1983.75218329066", "3.81234365935657", "48.2319855264173", "330.870733067045", "649.853882780831", "3.94946505568023", "188.022897608544", "444.480325851824", "48.2319796856173"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Chapleau (St. John's)",
@@ -359,7 +379,8 @@
     "class": ".bala-chapleau, .brantford-chapleau, .brunswick-chapleau, .capeCroke-chapleau, .chapleau-chapleau, .chapleau-chapleau, .chochrane-chapleau, .cochrane-chapleau, .fortAlbany-chapleau, .fortFrancis-chapleau, .gibson-chapleau, .gibson-chapleau, .islandFalls-chapleau, .missanabie-chapleau, .missanabie-chapleau, .mistissini-chapleau, .muncey-chapleau, .newBrunswickHouse-chapleau, .nimkish-chapleau, .parryIsland-chapleau, .rama-chapleau, .rupertHouse-chapleau, .senneterre-chapleau",
     "reserves": ["Bala", "Brantford", "Brunswick", "Cape Croke", "Chapleau", "Chapleau", "Chochrane", "Cochrane", "Fort Albany", "Fort Francis", "Gibson", "Gibson", "Island Falls", "Missanabie", "Missanabie", "Mistissini", "Muncey", "New Brunswick House", "Nimkish", "Parry Island", "Rama", "Rupert House", "Senneterre"],
     "distances": ["425.280836513516", "574.489618420994", "1363.48802559719", "369.781471080102", "2.79326242608366", "2.79326242608366", "2257.42534416534", "2257.42534416534", "503.162193755063", "745.696031152907", "443.537889513932", "443.537889513932", "1555.15894159196", "75.4782413281353", "75.4782413281353", "750.121099258296", "576.283650346631", "1290.44307913671", "3136.98094894466", "376.845996524531", "1468.76897599998", "520.009939947405", "461.193327334793"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Chesterfield Inlet (Turquetil Hall)",
@@ -377,7 +398,8 @@
     "class": ".bakerLake-chesterfieldInlet, .capeDyer-chesterfieldInlet, .chesterfieldInlet-chesterfieldInlet, .coralHarbour-chesterfieldInlet, .eskimoPoint-chesterfieldInlet, .eskimoPoint-chesterfieldInlet, .foxeMain-chesterfieldInlet, .gjoaHaven-chesterfieldInlet, .iglooik-chesterfieldInlet, .pellyBay-chesterfieldInlet, .rankinInlet-chesterfieldInlet, .repulseBay-chesterfieldInlet, .spenceBay-chesterfieldInlet",
     "reserves": ["Baker Lake", "Cape Dyer", "Chesterfield Inlet", "Coral Harbour", "Eskimo Point", "Eskimo Point", "Foxe Main", "Gjoa Haven", "Iglooik", "Pelly Bay", "Rankin Inlet", "Repulse Bay", "Spence Bay"],
     "distances": ["282.391286724851", "1412.92500856599", "1.73248690360418", "380.966133253928", "303.026646774259", "303.026646774259", "2725.50290543217", "632.654760313126", "777.233342318845", "617.00479033522", "91.2401526221873", "411.879379645636", "700.916364101993"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Christie (Tofino)",
@@ -395,7 +417,8 @@
     "class": ".ahousaht-christie, .clayoquot-christie, .cowichan-christie, .ehatishat-christie, .hesquiaht-christie, .kyoquot-christie, .muchalat-christie, .nitinat-christie, .nootka-christie, .nuchatlaht-christie, .nuchatlitz-christie, .opitsat-christie, .pacheenaht-christie, .pauquachin-christie, .penelakut-christie, .saanish-christie, .sechelt-christie, .songhees-christie, .squamish-christie, .toquaht-christie, .uchucklasaht-christie, .ucluelet-christie",
     "reserves": ["Ahousaht", "Clayoquot", "Cowichan", "Ehatishat", "Hesquiaht", "Kyoquot", "Muchalat", "Nitinat", "Nootka", "Nuchatlaht", "Nuchatlitz", "Opitsat", "Pacheenaht", "Pauquachin", "Penelakut", "Saanish", "Sechelt", "Songhees", "Squamish", "Toquaht", "Uchucklasaht", "Ucluelet"],
     "distances": ["19.687694292424", "3.70202194353697", "142.763292925672", "111.358733498346", "50.343186671733", "146.133122958823", "68.3018978655654", "94.5254095690198", "88.9710564562824", "117.543875814054", "107.427538070292", "4.73560681442201", "125.144283535674", "187.199781735019", "165.465279786958", "199.410780839759", "160.229699082503", "196.676439868077", "208.45475702563", "32.5576892290497", "80.0247190707114", "33.3523045390579"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Churchill",
@@ -413,7 +436,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Coqualeetza (Chilliwack Home)",
@@ -431,7 +455,8 @@
     "class": ".aishihik-coqualeetza, .aiyansh-coqualeetza, .atlin-Teslin-coqualeetza, .bellaBella-coqualeetza, .bellaCoola-coqualeetza, .burwash-coqualeetza, .campbellRiver-coqualeetza, .capilano-coqualeetza, .carcross-coqualeetza, .carmacks-coqualeetza, .casca-coqualeetza, .champagne-coqualeetza, .chemainus-coqualeetza, .clooose-coqualeetza, .cowichan-coqualeetza, .dawson-coqualeetza, .findlayRiver-coqualeetza, .fortNelson-coqualeetza, .fortWare-coqualeetza, .francesLake-coqualeetza, .gitlakdamix-coqualeetza, .haida-coqualeetza, .hartleyBay-coqualeetza, .hazelton-coqualeetza, .hudsonHope-coqualeetza, .kemano-coqualeetza, .kilgard-coqualeetza, .kincolith-coqualeetza, .kitamaat-coqualeetza, .kitkatla-coqualeetza, .klemtu-coqualeetza, .kluaneLake-coqualeetza, .koksilah-coqualeetza, .liardRiver-coqualeetza, .lytton-coqualeetza, .malahat-coqualeetza, .masset-coqualeetza, .mayo-coqualeetza, .musqueam-coqualeetza, .nanaimo-coqualeetza, .nanoose-coqualeetza, .nelsonRiver-coqualeetza, .nitinaht-coqualeetza, .portEssington-coqualeetza, .portRenfrew-coqualeetza, .portSimpson-coqualeetza, .quamichan-coqualeetza, .rossRiver-coqualeetza, .saanichton-coqualeetza, .salishan-coqualeetza, .salmonRiver-coqualeetza, .selkirk-coqualeetza, .somenos-coqualeetza, .soowahlia-coqualeetza, .sumas-coqualeetza, .tahltan-coqualeetza, .teslin-coqualeetza, .whiteRiver-coqualeetza, .whitehorse-coqualeetza",
     "reserves": ["Aishihik", "Aiyansh", "Atlin-Teslin", "Bella Bella", "Bella Coola", "Burwash", "Campbell River", "Capilano", "Carcross", "Carmacks", "Casca", "Champagne", "Chemainus", "Clo'oose", "Cowichan", "Dawson", "Findlay River", "Fort Nelson", "Fort Ware", "Frances Lake", "Gitlakdamix", "Haida", "Hartley Bay", "Hazelton", "Hudson Hope", "Kemano", "Kilgard", "Kincolith", "Kitamaat", "Kitkatla", "Klemtu", "Kluane Lake", "Koksilah", "Liard River", "Lytton", "Malahat", "Masset", "Mayo", "Musqueam", "Nanaimo", "Nanoose", "Nelson River", "Nitinaht", "Port Essington", "Port Renfrew", "Port Simpson", "Quamichan", "Ross River", "Saanichton", "Salishan", "Salmon River", "Selkirk", "Somenos", "Soowahlia", "Sumas", "Tahltan", "Teslin", "White River", "Whitehorse"],
     "distances": ["1689.56107179205", "830.478980411505", "1381.68583491526", "550.424479971878", "492.970120921051", "3056.14350669953", "258.830885927604", "769.071037904563", "1469.98892224709", "1689.8231756347", "1529.61287931136", "1585.30597668616", "131.371611968675", "214.746885339426", "157.003170069948", "1959.70670695762", "942.200863597652", "1076.2171377622", "952.835126185144", "1445.71825147705", "834.967510720156", "641.677151379017", "695.557031292966", "783.492774658359", "767.230567421672", "643.395204222253", "18.6215051745233", "849.209984083236", "708.764281876134", "781.917541036622", "599.627397583681", "1709.17562840761", "132.602963874862", "1300.52722051165", "125.01897887469", "134.568828584992", "887.149862046385", "1813.40877763101", "90.6281220063587", "144.046668760639", "162.938586453989", "2062.26583986356", "208.32377334303", "784.002461958382", "191.484198295", "836.667717352317", "128.307250535234", "1568.5194840057", "122.300952030502", "3259.04864489446", "4338.34814335117", "1801.24474569385", "134.477651376982", "6.10016866726746", "26.8610919811229", "1150.30899098884", "1404.59652832377", "2657.69211747724", "1529.95491973551"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Cote Improved Federal Day School (School #604)",
@@ -449,7 +474,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Coudert Hall (Whitehorse Hostel)",
@@ -467,7 +493,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Cranbrook (St. Eugene's)",
@@ -485,7 +512,8 @@
     "class": ".aiyansh-cranbrook, .ashcroft-cranbrook, .athelmer-cranbrook, .bellaBella-cranbrook, .boothroyd-cranbrook, .bootkiaPeninsula-cranbrook, .bostonBar-cranbrook, .canyonCity-cranbrook, .capeMudge-cranbrook, .cardston-cranbrook, .cardston-cranbrook, .carmacks-cranbrook, .cheam-cranbrook, .cisco-cranbrook, .coldwater-cranbrook, .columbiaLake-cranbrook, .comox-cranbrook, .cooksFerry-cranbrook, .cranbrook-cranbrook, .deadmansCreek-cranbrook, .enderby-cranbrook, .fountain-cranbrook, .gitlakdamix-cranbrook, .glenVowell-cranbrook, .greenville-cranbrook, .hazelton-cranbrook, .hope-cranbrook, .inkamoop-cranbrook, .kamloops-cranbrook, .kanakaBar-cranbrook, .kincolith-cranbrook, .kispiox-cranbrook, .kitamaat-cranbrook, .kitasoo-cranbrook, .kitkatla-cranbrook, .kitsumkalum-cranbrook, .kitwancool-cranbrook, .kitwanga-cranbrook, .lakeSimilk-cranbrook, .littleShuswap-cranbrook, .lowerKootenay-cranbrook, .lowerNicola-cranbrook, .lowerSimilkameen-cranbrook, .lytton-cranbrook, .matsqui-cranbrook, .merritt-cranbrook, .moricetown-cranbrook, .musqueam-cranbrook, .neskainlith-cranbrook, .nicoamen-cranbrook, .nicola-cranbrook, .northThompson-cranbrook, .okanagan-cranbrook, .oregonJack-cranbrook, .osoyoos-cranbrook, .penticton-cranbrook, .portSimpson-cranbrook, .princeRupert-cranbrook, .seabirdIsland-cranbrook, .seabirdIsland-cranbrook, .shacken-cranbrook, .shulus-cranbrook, .shuswap-cranbrook, .similkameen-cranbrook, .siska-cranbrook, .skuppah-cranbrook, .spallumchene-cranbrook, .spencesBridge-cranbrook, .spuzzum-cranbrook, .squamish-cranbrook, .stMarys-cranbrook, .styne-cranbrook, .telegraphCreek-cranbrook, .termission-cranbrook, .tobaccoPlains-cranbrook, .tsartlip-cranbrook, .tsartlip-cranbrook, .unionBar-cranbrook, .upperNicola-cranbrook, .upperNicola-cranbrook, .vernon-cranbrook, .westbank-cranbrook, .zoht-cranbrook",
     "reserves": ["Aiyansh", "Ashcroft", "Athelmer", "Bella Bella", "Boothroyd", "Bootkia Peninsula", "Boston Bar", "Canyon City", "Cape Mudge", "Cardston", "Cardston", "Carmacks", "Cheam", "Cisco", "Coldwater", "Columbia Lake", "Comox", "Cook's Ferry", "Cranbrook", "Deadman's Creek", "Enderby", "Fountain", "Gitlakdamix", "Glen Vowell", "Greenville", "Hazelton", "Hope", "Inkamoop", "Kamloops", "Kanaka Bar", "Kincolith", "Kispiox", "Kitamaat", "Kitasoo", "Kitkatla", "Kitsumkalum", "Kitwancool", "Kitwanga", "Lake Similk", "Little Shuswap", "Lower Kootenay", "Lower Nicola", "Lower Similkameen", "Lytton", "Matsqui", "Merritt", "Moricetown", "Musqueam", "Neskainlith", "Nicoamen", "Nicola", "North Thompson", "Okanagan", "Oregon Jack", "Osoyoos", "Penticton", "Port Simpson", "Prince Rupert", "Seabird Island", "Seabird Island", "Shacken", "Shulus", "Shuswap", "Similkameen", "Siska", "Skuppah", "Spallumchene", "Spences Bridge", "Spuzzum", "Squamish", "St. Mary’s", "Styne", "Telegraph Creek", "Termission", "Tobacco Plains", "Tsartlip", "Tsartlip", "Union Bar", "Upper Nicola", "Upper Nicola", "Vernon", "Westbank", "Zoht"],
     "distances": ["1096.04472614094", "413.341852246608", "105.533178120298", "913.900975491443", "413.281910809161", "1522.78495369713", "409.791768576249", "1711.36102098992", "678.091537638465", "182.892758843786", "182.892758843786", "1874.90216303242", "431.04559545928", "467.179514158521", "2756.47593902832", "66.4855472954057", "660.239501375696", "409.994544639327", "8.11846245573877", "2721.22508840008", "264.20961365482", "455.763930263885", "1103.2232543226", "1026.39594559768", "1115.10608114841", "1022.66892021979", "411.254710715216", "273.805864679828", "347.503692048224", "420.394270058152", "1134.47296943711", "1029.13808268092", "1010.09545063748", "950.715576986851", "1111.9414391657", "1037.72910428703", "1045.22829098328", "1033.09675623072", "281.820900735376", "309.88439660081", "79.7525440720377", "372.528804754461", "315.406310527348", "423.165282660711", "476.340323250298", "365.255350468534", "991.083483681507", "539.822401669554", "313.565036194485", "410.890043252158", "357.885435278669", "363.072208331133", "272.239858759624", "412.355439619148", "275.984000062609", "276.991508865183", "1142.1635373393", "1125.25837916276", "433.537615290522", "433.537615290522", "205.513698022948", "370.666196715529", "311.515743113623", "320.147871703595", "421.183682774203", "423.199076316883", "266.408929710198", "410.81819582107", "407.819222760078", "532.704916796806", "2718.56863514338", "453.901890278072", "1365.79133652035", "2795.92897046125", "82.5534002591438", "572.204552807312", "572.204552807312", "536.32394654141", "357.885435278669", "357.885435278669", "262.777962932848", "279.699736121267", "355.329523293692"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Cristal Lake High School",
@@ -503,7 +531,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Cross Lake",
@@ -521,7 +550,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Crowfoot (St. Joseph's)",
@@ -539,7 +569,8 @@
     "class": ".peigan-crowfoot",
     "reserves": ["Peigan"],
     "distances": ["153.270733197773"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Crowstand",
@@ -557,7 +588,8 @@
     "class": ".babine-crowstand, .beaverLake-crowstand, .bellaCoola-crowstand, .blackfoot-crowstand, .blood-crowstand, .champagne-crowstand, .crookedLake-crowstand, .dawson-crowstand, .edmontonAgency-crowstand, .fileHills-crowstand, .hobbemaAgency-crowstand, .lesserSlaveLake-crowstand, .quAppelle-crowstand, .queenCharlotte-crowstand, .rockyMountainHouse-crowstand, .saddleLake-crowstand, .saddleLake-crowstand, .sarcee-crowstand, .skeenaRiver-crowstand, .terrace-crowstand",
     "reserves": ["Babine", "Beaver Lake", "Bella Coola", "Blackfoot", "Blood", "Champagne", "Crooked Lake", "Dawson", "Edmonton Agency", "File Hills", "Hobbema Agency", "Lesser Slave Lake", "Qu' Appelle", "Queen Charlotte", "Rocky Mountain House", "Saddle Lake", "Saddle Lake", "Sarcee", "Skeena River", "Terrace"],
     "distances": ["1722.90688091151", "749.851124072185", "1701.36426441721", "597.700298647985", "2029.27198737329", "2342.17764113454", "1294.44892708476", "2570.88239698531", "817.705949446682", "160.52791955439", "803.366706654293", "1006.42710079543", "179.548753402408", "2045.76475193766", "899.762240328803", "715.475413970869", "715.475413970869", "855.483933379262", "1820.77543759086", "1808.88113535201"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Desmarais (St. Martin's)",
@@ -575,7 +607,8 @@
     "class": ".alexander-desmarais, .alexis-desmarais, .assabaska-desmarais, .blood-desmarais, .boyerRiver-desmarais, .driftPile-desmarais, .enoch-desmarais, .ermineskin-desmarais, .fitzgaralsSmith-desmarais, .fortChipewyan-desmarais, .fortVermilion-desmarais, .grouard-desmarais, .janvier-desmarais, .littleRedRiver-desmarais, .lubiconLake-desmarais, .namew-desmarais, .royalRiver-desmarais, .saddleLake-desmarais, .samson-desmarais, .slavey-desmarais, .smithBand-desmarais, .sturgeonLake-desmarais, .tallCree-desmarais, .tallCree-desmarais, .whitefishLake-desmarais",
     "reserves": ["Alexander", "Alexis", "Assabaska", "Blood", "Boyer River", "Drift Pile", "Enoch", "Ermineskin", "Fitzgarals Smith", "Fort Chipewyan", "Fort Vermilion", "Grouard", "Janvier", "Little Red River", "Lubicon Lake", "Namew", "Royal River", "Saddle Lake", "Samson", "Slavey", "Smith Band", "Sturgeon Lake", "Tall Cree", "Tall Cree", "Whitefish Lake"],
     "distances": ["1129.87282054792", "247.924015891757", "1518.43635464663", "2881.97849379463", "328.749989030761", "140.534845841088", "270.672633474589", "277.141771776319", "454.345347237768", "347.577751413842", "302.677825698406", "154.577241664699", "181.151363162759", "279.635713286756", "136.001487856834", "277.754776945363", "974.189351585616", "257.647696168339", "3036.06942277314", "94.9400399159434", "656.245046663388", "251.958959993889", "302.677825698406", "302.677825698406", "2812.68989164842"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Edmonton (Poundmaker)",
@@ -593,7 +626,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Elkhorn (Washakada)",
@@ -611,7 +645,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Ermineskin (Hobbema)",
@@ -629,7 +664,8 @@
     "class": ".alexander-ermineskin, .alexis-ermineskin, .beaverLake-ermineskin, .bigStone-ermineskin, .coldLake-ermineskin, .enoch-ermineskin, .ermineskin-ermineskin, .heartLake-ermineskin, .kehewin-ermineskin, .louisBull-ermineskin, .montana-ermineskin, .poundmaker-ermineskin, .saddleLake-ermineskin, .samson-ermineskin, .sarcee-ermineskin, .sunchild-ermineskin, .winterburn-ermineskin",
     "reserves": ["Alexander", "Alexis", "Beaver Lake", "Big Stone", "Cold Lake", "Enoch", "Ermineskin", "Heart Lake", "Kehewin", "Louis Bull", "Montana", "Poundmaker", "Saddle Lake", "Samson", "Sarcee", "Sunchild", "Winterburn"],
     "distances": ["971.89884622174", "122.367335217052", "234.050674800429", "236.855621719325", "282.120557119807", "76.6425512694826", "69.146094749021", "2657.6967097233", "226.295781276118", "9.35412651570925", "2674.39830722442", "593.755417019239", "172.139150077974", "3013.05618261188", "192.965785883875", "127.346044514509", "79.9474549462403"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Federal Hostel at Baker Lake (Qamani'tuaq)",
@@ -647,7 +683,8 @@
     "class": ".bakerLake-bakerLake",
     "reserves": ["Baker Lake"],
     "distances": ["0.436893749642644"]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Federal Hostel at Belcher Islands",
@@ -665,7 +702,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Federal Hostel at Broughton Island (Qikiqtarjuaq)",
@@ -683,7 +721,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Federal Hostel at Cambridge Bay",
@@ -701,7 +740,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Federal Hostel at Cape Dorset (Kinngait)",
@@ -719,7 +759,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Federal Hostel at Eskimo Point (Arviat)",
@@ -737,7 +778,8 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
     "locationName": "Federal Hostel at Fort Franklin",
@@ -755,12 +797,11 @@
     "class": "",
     "reserves": [""],
     "distances": [""]
-  }, {
+  },
+  {
     "type": "School",
     "title": "Residential School",
-    "locationName": "Federal Hostel at Frobisher Bay (Ukkivik Student Residence)",
-    "schoolID": "frobisherBay",
-    "placeName": "Iqaluit",
+    "locationName": "Federal Hostel at FrobishIqaluit",
     "latitude": 63.757575,
     "longitude": -68.54323333,
     "start": 1971,

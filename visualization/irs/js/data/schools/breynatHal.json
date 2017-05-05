@@ -28,35 +28,27 @@
     }],
     "chronoHistory": [{
       "date": 1955,
-      "desc": "A draft letter from the government to the Roman Catholic Education Association in Fort Smith states that a Roman Catholic Day School and a Federal Day School (FDS) were both in operation. The FDS was non-denominational but 75 out of 100 students were Roman Catholic. The introduction ofthe large hostel program meant that 'these two schools will be replaced by one school in which the principal will be Roman Catholic and all the teachers in grades 1-8 will be Roman Catholic.' In situations where Protestant children are present in a classroom religious symbols will be removed and non- denominational curriculum applied.",
+      "desc": ["A draft letter from the government to the Roman Catholic Education Association in Fort Smith states that a Roman Catholic Day School and a Federal Day School (FDS) were both in operation. The FDS was non-denominational but 75 out of 100 students were Roman Catholic. The introduction ofthe large hostel program meant that 'these two schools will be replaced by one school in which the principal will be Roman Catholic and all the teachers in grades 1-8 will be Roman Catholic.' In situations where Protestant children are present in a classroom religious symbols will be removed and non- denominational curriculum applied."],
       "ref": ["NWT-003163[001-001]"]
     }, {
       "date": 1957,
-      "desc": "A government memorandum states: <em>\nIt was not our intention to build up the Fort Smith hostel as a hostel for high school students, since the high school facilities which will be available at Fort Smith are not in any way comparable to those which will be provided at Yellowknife. The high school at Fort Smith is primarily for local residents.</em>",
-      "ref": ["BTU- 0000 55 [000-000]"]
-    }, {
-      "date": 1957,
-      "desc": "Students were transferred from Fort Resolution Residential School December 27 and 28, 1957 via air transportation to the new hostel in Fort Smith. The transfer ofthese students marked the opening ofthe hostel.",
-      "ref": ["BTU-000106[000-000]"]
+      "desc": ["A government memorandum states: <em>\nIt was not our intention to build up the Fort Smith hostel as a hostel for high school students, since the high school facilities which will be available at Fort Smith are not in any way comparable to those which will be provided at Yellowknife. The high school at Fort Smith is primarily for local residents.</em>", "Students were transferred from Fort Resolution Residential School December 27 and 28, 1957 via air transportation to the new hostel in Fort Smith. The transfer ofthese students marked the opening ofthe hostel."],
+      "ref": ["BTU- 0000 55 [000-000]", "BTU-000106[000-000]"]
     }, {
       "date": 1958,
-      "desc": "An article from the Western Oblate Studies, July 1991, titled 'Residential Schooling at Fort Chipewyan and Fort Resolution 1874-1974' states: <em>After St. Joseph's [Roman Catholic residential school in Fort Resolution] closed, the children ofthe decreasing number offamilies who stayed on the land and children who were thought to be neglected were sent to an integrated federal school (J.B. Tyrell) and a government-owned, church-managed pupil residence (Breynat Hall) in Fort Smith. There they were taught by certified teachers who followed the Alberta curriculum which included virtually no reference to traditional cultures or languages. The pupil residence in Fort Smith and the residential facilities at Chipewyan also became custodial centres for many children whom welfare or law enforcement authorities had determined were in need of remedial treatment of some kind. </em>",
+      "desc": ["An article from the Western Oblate Studies, July 1991, titled 'Residential Schooling at Fort Chipewyan and Fort Resolution 1874-1974' states: <em>After St. Joseph's [Roman Catholic residential school in Fort Resolution] closed, the children ofthe decreasing number offamilies who stayed on the land and children who were thought to be neglected were sent to an integrated federal school (J.B. Tyrell) and a government-owned, church-managed pupil residence (Breynat Hall) in Fort Smith. There they were taught by certified teachers who followed the Alberta curriculum which included virtually no reference to traditional cultures or languages. The pupil residence in Fort Smith and the residential facilities at Chipewyan also became custodial centres for many children whom welfare or law enforcement authorities had determined were in need of remedial treatment of some kind. </em>"],
       "ref": ["FSU-01187"]
     }, {
       "date": 1969,
-      "desc": "All educational responsibilities in the Mackenzie District, including the management of student residences and therefore Breynat Hall, were transferred to the Government ofthe Northwest Territories.",
+      "desc": ["All educational responsibilities in the Mackenzie District, including the management of student residences and therefore Breynat Hall, were transferred to the Government ofthe Northwest Territories."],
       "ref": ["NWTG-001324[000-000]"]
     }, {
       "date": 1975,
-      "desc": "A document dated April 14, 1975, from the Continuing Education Division, states that the 'Fort Smith student residence' was destroyed in a fire. The community of Fort Chipewyan Alberta offered to house some ofthe displaced students in foster homes. The Government was considering improving housing conditions in students' communities so that they could reside at home.",
+      "desc": ["A document dated April 14, 1975, from the Continuing Education Division, states that the 'Fort Smith student residence' was destroyed in a fire. The community of Fort Chipewyan Alberta offered to house some ofthe displaced students in foster homes. The Government was considering improving housing conditions in students' communities so that they could reside at home.", "A document dated September 9, 1975 from the Continuing Education Division states that the 'Fort Smith Hostel is in operation, but getting a supervisor is a problem.'"],
       "ref": ["BTU-000318[000-000]"]
     }, {
-      "date": 1975,
-      "desc": "A document dated September 9, 1975 from the Continuing Education Division states that the 'Fort Smith Hostel is in operation, but getting a supervisor is a problem.'",
-      "ref": ["BTU- 000319[00-000]"]
-    }, {
       "date": 1976,
-      "desc": "A letter cancelling a service contract for the accommodation ofgirls from Fort Chipewyan at the hostel in Fort Smith is evidence that the pupil residence referred to as 'Girls' Residence of Fort Smith' was in operation in June of 1976. It is not known if this\n residence is Breynat Hall or a separate residence.",
+      "desc": ["A letter cancelling a service contract for the accommodation ofgirls from Fort Chipewyan at the hostel in Fort Smith is evidence that the pupil residence referred to as 'Girls' Residence of Fort Smith' was in operation in June of 1976. It is not known if this residence is Breynat Hall or a separate residence."],
       "ref": ["FSU-02551"]
     }],
     "notesHistory": [],

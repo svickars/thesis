@@ -46,36 +46,28 @@
     }],
     "chronoHistory": [{
       "date": 1951,
-      "desc": "The Coppermine Tent Hostel first went into operation in 1951. Operations in this year represented a brief “trial run” of the Hostel approach, with ten students in residence from March 27 through April 15, 1951. The degree of involvement of the Anglican Church at this time is not clear.",
+      "desc": ["The Coppermine Tent Hostel first went into operation in 1951. Operations in this year represented a brief “trial run” of the Hostel approach, with ten students in residence from March 27 through April 15, 1951. The degree of involvement of the Anglican Church at this time is not clear."],
       "ref": ["CPU-000134-0001"]
     }, {
       "date": 1953,
-      "desc": "Meeting of the Sub-committee on Eskimo Education approves the Coppermine Tent Hostel program and sets out its parameters and objectives as a joint venture between the Federal Government and Anglican Church. The Hostel was slated to open in April 1954 for a five month summer term.",
+      "desc": ["Meeting of the Sub-committee on Eskimo Education approves the Coppermine Tent Hostel program and sets out its parameters and objectives as a joint venture between the Federal Government and Anglican Church. The Hostel was slated to open in April 1954 for a five month summer term."],
       "ref": ["CPU-000077"]
     }, {
       "date": 1954,
-      "desc": "The April 1954 opening was postponed to 1955 due to the slow pace of planning and construction, and delays in the arrival of supplies and equipment for the Hostel. A member of the sub-committee on Eskimo Education of the Indian School Administration of the Missionary Society of the Church of England [Anglican Church] in Canada, after reviewing an engineer's report on the Coppermine Tent Hostel site, also strongly recommended a delay in the opening of the Tent Hostel to allow for preparation of 'garbage and sewage pits, the sound construction of the tent frames and floors, the establishment of a satisfactory water source and storage facilities and a general clearing and proper layout of the site'",
+      "desc": ["The April 1954 opening was postponed to 1955 due to the slow pace of planning and construction, and delays in the arrival of supplies and equipment for the Hostel. A member of the sub-committee on Eskimo Education of the Indian School Administration of the Missionary Society of the Church of England [Anglican Church] in Canada, after reviewing an engineer's report on the Coppermine Tent Hostel site, also strongly recommended a delay in the opening of the Tent Hostel to allow for preparation of 'garbage and sewage pits, the sound construction of the tent frames and floors, the establishment of a satisfactory water source and storage facilities and a general clearing and proper layout of the site'"],
       "ref": ["CPU-0000105", "CPU-000118", "CPU-000096"]
     }, {
       "date": 1955,
-      "desc": "The first 'full' season of operation of the Coppermine Tent Hostel began April 15, 1955 and ran until August 22, 1955.  During the years 1955 to 1959, the Tent Hostel school term was held over the summer months (April through August, except 1959 in which the residence operated from March through September). 'Quarterly' Returns were filed monthly during this summer school term.",
+      "desc": ["The first 'full' season of operation of the Coppermine Tent Hostel began April 15, 1955 and ran until August 22, 1955.  During the years 1955 to 1959, the Tent Hostel school term was held over the summer months (April through August, except 1959 in which the residence operated from March through September). 'Quarterly' Returns were filed monthly during this summer school term."],
       "ref": ["CPU-000295-0001", "CPU-001206-0002", "CPU-000998", "CPU-001001", "CPU-001007", "CPU-001006"]
     }, {
       "date": 1958,
-      "desc": "The Superintendent of Schools of the Department of Northern Affairs recommended that the Tent Hostel not continue operation after 1958 as only five children had been in attendance for three consecutive years of operation despite annual attendance reaching thirty children. The Superintendent of Schools concluded that with the comparatively large sum of money required to establish and maintain the Hostel, the educational gains had been 'dubious'.",
+      "desc": ["The Superintendent of Schools of the Department of Northern Affairs recommended that the Tent Hostel not continue operation after 1958 as only five children had been in attendance for three consecutive years of operation despite annual attendance reaching thirty children. The Superintendent of Schools concluded that with the comparatively large sum of money required to establish and maintain the Hostel, the educational gains had been 'dubious'."],
       "ref": ["CPU-000383"]
     }, {
       "date": 1959,
-      "desc": "After its fifth consecutive year of operations, the Coppermine Tent Hostel closed permanently on, or around, August 30, 1959, following a five-month summer term. With submission of the final report pertaining to the 1959 school term, Bishop Marsh declared 'the responsibility of the Diocese of The Arctic to the Tent Hostel ends'",
-      "ref": ["CPU-000437-0000"]
-    }, {
-      "date": 1959,
-      "desc": "Many students who had attended the final summer session of the Coppermine Tent Hostel were admitted to the new hostel facilities in Inuvik (with parental permission).",
-      "ref": ["CPU-000433", "CPU-000435", "CPU-000436"]
-    }, {
-      "date": 1959,
-      "desc": "A new Federally-constructed, owned and managed 12-pupil Small Hostel with permanent (that is, non tent) housing facilities was to open to replace the Tent Hostel. Construction of this new Small Hostel facility was completed but the new hostel never did go into operation. Instead, a program of local boarding in private residences was pursued.",
-      "ref": ["CPU-000390", "CPU-000461", "CPU-000465", "CPU-000469", "CPU-001506", "CPU-001507"]
+      "desc": ["After its fifth consecutive year of operations, the Coppermine Tent Hostel closed permanently on, or around, August 30, 1959, following a five-month summer term. With submission of the final report pertaining to the 1959 school term, Bishop Marsh declared 'the responsibility of the Diocese of The Arctic to the Tent Hostel ends'", "Many students who had attended the final summer session of the Coppermine Tent Hostel were admitted to the new hostel facilities in Inuvik (with parental permission).", "A new Federally-constructed, owned and managed 12-pupil Small Hostel with permanent (that is, non tent) housing facilities was to open to replace the Tent Hostel. Construction of this new Small Hostel facility was completed but the new hostel never did go into operation. Instead, a program of local boarding in private residences was pursued."],
+      "ref": ["CPU-000437-0000", "CPU-000433", "CPU-000435", "CPU-000436", "CPU-000390", "CPU-000461", "CPU-000465", "CPU-000469", "CPU-001506", "CPU-001507"]
     }],
     "notesHistory": [],
     "management": [{

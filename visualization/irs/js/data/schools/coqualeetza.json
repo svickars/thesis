@@ -88,56 +88,32 @@
     }],
     "chronoHistory": [{
       "date": 1886,
-      "desc": "First Day School organized at the Mission House at Coqualeetza.",
+      "desc": ["First Day School organized at the Mission House at Coqualeetza."],
       "ref": ["00957", "00897A"]
     }, {
       "date": 1887,
-      "desc": "First pupils taken into residence at Mission House at Coqualeetza.",
+      "desc": ["First pupils taken into residence at Mission House at Coqualeetza."],
       "ref": ["00973", "00984", "00957", "00897A"]
     }, {
       "date": 1889,
-      "desc": "School building constructed.",
+      "desc": ["School building constructed."],
       "ref": ["00984"]
     }, {
       "date": 1891,
-      "desc": "Fire destroyed the school building.",
+      "desc": ["Fire destroyed the school building."],
       "ref": ["00973", "00961"]
     }, {
       "date": 1894,
-      "desc": "April 26, Coqualeetza Industrial Institue opened",
+      "desc": ["April 26, Coqualeetza Industrial Institue opened"],
       "ref": ["00984", "00972", "00280"]
     }, {
       "date": 1924,
-      "desc": "The new Coqualeetza IRS was formally opened in October.",
+      "desc": ["The new Coqualeetza IRS was formally opened in October."],
       "ref": ["00973", "00972", "00916"]
     }, {
       "date": 1939,
-      "desc": "February, first mention of Coqualeetza IRS being transformed into a sanatorium. June, a resolution was adopted by the Executive of the Board of Home Missions of the United Church of Canada approving the handing over of the Coqualeetza IRS to be used as a Government Tuberculosis sanatorium.",
+      "desc": ["February, first mention of Coqualeetza IRS being transformed into a sanatorium. June, a resolution was adopted by the Executive of the Board of Home Missions of the United Church of Canada approving the handing over of the Coqualeetza IRS to be used as a Government Tuberculosis sanatorium."],
       "ref": ["00572", "00589B", "00607A", "00629A"]
-    }, {
-      "date": 1940,
-      "desc": "A press release was issued describing the transition into a sanatarium. August, The furnishings from Coqualeetza IRS were transferred to Albemi IRS.September, all pupils from Coqualeetza IRS were transferred to other institutions including St. Michael's IRS and Albemi IRS. October, an auction was held that sold the effects and stock of the Coqualeetza IRS which were not taken to Albemi IRS.",
-      "ref": ["00629A", "00944", "00922", "00923", "00938", "00939", "00659A"]
-    }, {
-      "date": 1941,
-      "desc": "September, the Coqualeetza Indian Hospital opened.",
-      "ref": ["00983", "00897A"]
-    }, {
-      "date": 1950,
-      "desc": "An alumni of ex-students and teachers was created",
-      "ref": ["5294"]
-    }, {
-      "date": 1953,
-      "desc": "The alumni group re-organized to form the Coqualeetza Fellowship. This incorporated society welcomed anyone '...interested in the welfare of the Natives and their culture.'",
-      "ref": ["5294"]
-    }, {
-      "date": 1969,
-      "desc": "The Coqualeetza Hospital closed",
-      "ref": ["00988"]
-    }, {
-      "date": 1970,
-      "desc": "Early 1970s. The Stolo Nation took control ofthe land and buildings and used them as their headquarters.",
-      "ref": ["00982"]
     }],
     "notesHistory": [],
     "management": [{

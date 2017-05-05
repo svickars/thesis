@@ -70,63 +70,43 @@
     }],
     "chronoHistory": [{
       "date": 1960,
-      "desc": "A dormitory for girls has been constructed at Anahim Lake; the dormitory was built by the local Indian band and adjoins the Sisters’ residence.The boys were boarded with other families.",
+      "desc": ["A dormitory for girls has been constructed at Anahim Lake; the dormitory was built by the local Indian band and adjoins the Sisters’ residence.The boys were boarded with other families."],
       "ref": ["JOE-060142"]
     }, {
       "date": 1963,
-      "desc": "A new dormitory was built at Anahim Lake in the summer of 1963. The Archbishop of Vancouver provided $1000 to the Sisters of Christ the King so they could construct a dormitory for the children of Anahim Lake.",
+      "desc": ["A new dormitory was built at Anahim Lake in the summer of 1963. The Archbishop of Vancouver provided $1000 to the Sisters of Christ the King so they could construct a dormitory for the children of Anahim Lake."],
       "ref": ["ALD-200079", "ABV-002438", "ABV-002440"]
     }, {
       "date": 1965,
-      "desc": "The Sisters of Christ the King met with a contractor to discuss the building of a dormitory at Anahim Lake.",
-      "ref": ["ALD-200529-0000"]
-    }, {
-      "date": 1965,
-      "desc": "In November, the Williams Lake Agency set aside $400 to move the Anahim Lake dormitory from the old school site to the new site.",
-      "ref": ["ANH-018346-0000"]
+      "desc": ["The Sisters of Christ the King met with a contractor to discuss the building of a dormitory at Anahim Lake.", "In November, the Williams Lake Agency set aside $400 to move the Anahim Lake dormitory from the old school site to the new site."],
+      "ref": ["ALD-200529-0000", "ANH-018346-0000"]
     }, {
       "date": 1966,
-      "desc": "In December, the Sisters of Christ the King approached the Education Services office about the dormitory buildings for sale at the radar station in Punzti Lake. The Education Services office agreed to examine the buildings to determine their suitability for use at Anahim Lake.",
+      "desc": ["In December, the Sisters of Christ the King approached the Education Services office about the dormitory buildings for sale at the radar station in Punzti Lake. The Education Services office agreed to examine the buildings to determine their suitability for use at Anahim Lake."],
       "ref": ["ALD-200611"]
     }, {
       "date": 1967,
-      "desc": "The Regional Superintendent of Schools recommends building two 25-person capacity dormitories at Anahim Lake which serves as a base for the children on the Anahim Lake Reserve while the parents are away from home; these dormitories would be operated by the Sisters of Christ the King.",
-      "ref": ["JOE-018270-0002"]
-    }, {
-      "date": 1967,
-      "desc": "In November, the Department agreed to the transfer of the surplus building from the Puntzi Mountain Airforce Base to Anahim Lake to be used as a dormitory.",
-      "ref": ["ALD-200628", "ANH-18257"]
+      "desc": ["The Regional Superintendent of Schools recommends building two 25-person capacity dormitories at Anahim Lake which serves as a base for the children on the Anahim Lake Reserve while the parents are away from home; these dormitories would be operated by the Sisters of Christ the King.", "In November, the Department agreed to the transfer of the surplus building from the Puntzi Mountain Airforce Base to Anahim Lake to be used as a dormitory."],
+      "ref": ["JOE-018270-0002", "ALD-200628", "ANH-18257"]
     }, {
       "date": 1968,
-      "desc": "In March, the surplus building from the Puntzi Mountain Base has not been transferred to Anahim Lake. By May, the building had not been transferred to Anahim Lake. The official turnover of the building was scheduled to take place in June. In November, the new dormitory at Anahim Lake was almost in operation.",
+      "desc": ["In March, the surplus building from the Puntzi Mountain Base has not been transferred to Anahim Lake. By May, the building had not been transferred to Anahim Lake. The official turnover of the building was scheduled to take place in June. In November, the new dormitory at Anahim Lake was almost in operation."],
       "ref": ["ANH-018252", "ANH-018250", "ANH-018241", "ANH-018240", "JOE-025969"]
     }, {
       "date": 1969,
-      "desc": "The Anahim Lake Dormitory is completed. The building was moved from Puntzi 'last autumn after taking two weeks to tear down, was eight months being re-constructed'.",
-      "ref": ["ALD-200822-0002"]
-    }, {
-      "date": 1969,
-      "desc": "Staff and students moved into the Anahim Lake Dormitory on approximately April 30th, 1969.",
-      "ref": ["ALD-200822-0001"]
-    }, {
-      "date": 1969,
-      "desc": "In June, a request for additional funds was made to the Regional Superintendent of Education in order to complete work on the dormitory. Additional funds in the amount of $12 000 are made available.",
-      "ref": ["ANH-018424", "ANH-018420"]
+      "desc": ["The Anahim Lake Dormitory is completed. The building was moved from Puntzi 'last autumn after taking two weeks to tear down, was eight months being re-constructed'.", "Staff and students moved into the Anahim Lake Dormitory on approximately April 30th, 1969.", "In June, a request for additional funds was made to the Regional Superintendent of Education in order to complete work on the dormitory. Additional funds in the amount of $12 000 are made available."],
+      "ref": ["ALD-200822-0002", "ALD-200822-0001", "ANH-018424", "ANH-018420"]
     }, {
       "date": 1973,
-      "desc": "The Department decided to discontinue the Anahim Lake Indian Day School because the Williams Lake School Board No. 27 had decided to build a new school in Anahim Lake.",
-      "ref": ["ANH-200166"]
-    }, {
-      "date": 1973,
-      "desc": "The Anahim Lake Indian Day School is closed as of September 1, 1973.",
-      "ref": ["ABR-200943"]
-    }, {
+      "desc": ["The Department decided to discontinue the Anahim Lake Indian Day School because the Williams Lake School Board No. 27 had decided to build a new school in Anahim Lake.", "The Anahim Lake Indian Day School is closed as of September 1, 1973."],
+      "ref": ["ANH-200166", "ABR-200943"]
+    }, , {
       "date": 1975,
-      "desc": "Plans were put in place to turn the dormitory, school, and teacherage over to the Ulkatcho Band.",
+      "desc": ["Plans were put in place to turn the dormitory, school, and teacherage over to the Ulkatcho Band."],
       "ref": ["JOE-017534"]
     }, {
       "date": 1977,
-      "desc": "In May, the District Superintendent of Education proposed the idea of closing the Anahim Lake Dormitory at the end of the 1976-1977 school year. A boarding home program was to be set up for education purposes and was to be administered out of the Williams Lake District Office. However, in August, a decision was reached to operate the Anahim Lake Dormitory for another year; a committee was to be set up to examine the need for the dormitory in the future.",
+      "desc": ["In May, the District Superintendent of Education proposed the idea of closing the Anahim Lake Dormitory at the end of the 1976-1977 school year. A boarding home program was to be set up for education purposes and was to be administered out of the Williams Lake District Office. However, in August, a decision was reached to operate the Anahim Lake Dormitory for another year; a committee was to be set up to examine the need for the dormitory in the future."],
       "ref": ["JOE-014589", "JOE-014593", "ALD-200436", "ALD-200150"]
     }],
     "notesHistory": [],

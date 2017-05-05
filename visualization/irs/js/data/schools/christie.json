@@ -166,83 +166,75 @@
     }],
     "chronoHistory": [{
       "date": 1900,
-      "desc": "May 20, Christie Industrial School opened.",
+      "desc": ["May 20, Christie Industrial School opened."],
       "ref": ["08202", "08201"]
     }, {
       "date": 1922,
-      "desc": "May 20, Christie Industrial School opened.Gymnasium constructed, including a bowling alley, and room for basketball and handball.",
+      "desc": ["May 20, Christie Industrial School opened.Gymnasium constructed, including a bowling alley, and room for basketball and handball."],
       "ref": ["00862A"]
     }, {
       "date": 1924,
-      "desc": "Additions over three to four years include a recreation hall for boys, a recreation hall for girls, additional accommodation, three bathtubs, a classroom, and a house for Indian people who come to visit their children and often remain over night.",
+      "desc": ["Additions over three to four years include a recreation hall for boys, a recreation hall for girls, additional accommodation, three bathtubs, a classroom, and a house for Indian people who come to visit their children and often remain over night."],
       "ref": ["08371"]
     }, {
       "date": 1946,
-      "desc": "A discussion was held regarding using a R.C.A.F hospital at Totino as a replacement for the existing Christie Indian School. It was eventually decided not to relocate to this new location.",
+      "desc": ["A discussion was held regarding using a R.C.A.F hospital at Totino as a replacement for the existing Christie Indian School. It was eventually decided not to relocate to this new location."],
       "ref": ["08188"]
     }, {
       "date": 1969,
-      "desc": "Four classrooms in operation, grades 1 to 8. This document comments that the school is 'church-owned'",
+      "desc": ["Four classrooms in operation, grades 1 to 8. This document comments that the school is 'church-owned'"],
       "ref": ["00029"]
     }, {
       "date": 1971,
-      "desc": "June, 'old' Christie IRS closed.",
-      "ref": ["04062", "CIS-00090"]
-    }, {
-      "date": 1971,
-      "desc": "October 30, official opening of Tofino/Christie Student Residence.",
-      "ref": ["05126", "04052"]
+      "desc": ["June, 'old' Christie IRS closed.", "October 30, official opening of Tofino/Christie Student Residence."],
+      "ref": ["04062", "CIS-00090", "05126", "04052"]
     }, {
       "date": 1973,
-      "desc": "June 23, official opening of the new gymnasium",
+      "desc": ["June 23, official opening of the new gymnasium"],
       "ref": ["04031", "CIS-00092"]
     }, {
       "date": 1974,
-      "desc": "September, Christie Student Residence handed over to the West Coast District Council of Indian Chiefs to continue to operate as a student residence.",
+      "desc": ["September, Christie Student Residence handed over to the West Coast District Council of Indian Chiefs to continue to operate as a student residence."],
       "ref": ["00842", "00992"]
     }, {
       "date": 1975,
-      "desc": "August, Christie Student Residence handed back to the government to operate for the 1975-76 school year",
+      "desc": ["August, Christie Student Residence handed back to the government to operate for the 1975-76 school year"],
       "ref": ["01000"]
     }, {
       "date": 1983,
-      "desc": "June 30, Christie Student Residence closed.",
+      "desc": ["June 30, Christie Student Residence closed."],
       "ref": ["05284"]
     }],
     "notesHistory": [],
     "management": [{
-        "startYear": 1899,
-        "endYear": 1938,
-        "org": "church",
-        "orgName": "Order of St. Benedict",
-        "type": ["Management", "Teaching", "Staff"],
-        "ref": ["00848B", "00892B", "08202", "08206", "08024"]
-      },
-      {
-        "startYear": 1938,
-        "endYear": 1969,
-        "org": "church",
-        "orgName": "Missionary Oblates of Mary Immaculate",
-        "type": ["Management", "Teaching", "Staff"],
-        "ref": ["00892B", "01683", "CIS-000105", "OB-00451"]
-      },
-      {
-        "startYear": 1969,
-        "endYear": 1974,
-        "org": "government",
-        "orgName": "Federal Government of Canada",
-        "type": ["Management", "Teaching", "Staff"],
-        "ref": ["00992"]
-      },
-      {
-        "startYear": 1974,
-        "endYear": 1983,
-        "org": "band",
-        "orgName": "West Coast District Council of Indian Chiefs",
-        "type": ["Management", "Teaching", "Staff"],
-        "ref": ["00842", "00992"]
-      }
-    ],
+      "startYear": 1899,
+      "endYear": 1938,
+      "org": "church",
+      "orgName": "Order of St. Benedict",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["00848B", "00892B", "08202", "08206", "08024"]
+    }, {
+      "startYear": 1938,
+      "endYear": 1969,
+      "org": "church",
+      "orgName": "Missionary Oblates of Mary Immaculate",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["00892B", "01683", "CIS-000105", "OB-00451"]
+    }, {
+      "startYear": 1969,
+      "endYear": 1974,
+      "org": "government",
+      "orgName": "Federal Government of Canada",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["00992"]
+    }, {
+      "startYear": 1974,
+      "endYear": 1983,
+      "org": "band",
+      "orgName": "West Coast District Council of Indian Chiefs",
+      "type": ["Management", "Teaching", "Staff"],
+      "ref": ["00842", "00992"]
+    }],
     "enrollment": [{
       "year": 1900,
       "number": 27,
@@ -610,93 +602,82 @@
       "ref": ["OB-002919"]
     }],
     "additionalInformation": [{
-        "date": 1924,
-        "type": "physical",
-        "victim": "unnamed student",
-        "agressor": "principal",
-        "notes": "In 1924, it was reported that the Principal of the school was ' ... too severe in his punishment of the boys ... the boy's shirt was stripped from his back and the boy punished on the bare back.'",
-        "ref": ["00860A"]
-      },
-      {
-        "date": 1937,
-        "type": "physical",
-        "victim": "unnamed student",
-        "agressor": "unnamed staff member",
-        "notes": "In 1937 it was reported that 'It has been suggested ... that [a staff member] may be rather rough in his treatment of the boys.' There is no further mention of this report.",
-        "ref": ["00877"]
-      },
-      {
-        "date": 1963,
-        "type": "sexual",
-        "victim": "unnamed female",
-        "agressor": "unnamed student",
-        "notes": "Two documents, dated February 5th and 11th 1963, discuss a male student at Christie IRS who was discharged 'For an act of immorality- rape'. The documents do not indicate if the female involved was a student at the school or not.",
-        "ref": ["CIS-00642", "CIS-00643"]
-      },
-      {
-        "date": 1950,
-        "type": "report",
-        "victim": "",
-        "agressor": "",
-        "notes": "The Oblate Order also produced a booklet commemorating the Golden Jubilee of Christie IRS in 1950.",
-        "ref": ["CIS-00006"]
-      },
-      {
-        "date": 1960,
-        "type": "report",
-        "victim": "",
-        "agressor": "",
-        "notes": "In the mid-late 1960s there was extensive discussion about building a new hostel to replace the existing residential school.",
-        "ref": ["01117", "01029", "01765B", "01836", "01836A", "01766A", "00774", "01861", "00770", "01788"]
-      },
-      {
-        "date": 1960,
-        "type": "incident",
-        "victim": "",
-        "agressor": "",
-        "notes": "In 1960, 3 boys ran away, 2 did not return to the school and 1 was returned. All 3 were officially discharged within 3 months.",
-        "ref": ["03571", "08555", "09387"]
-      },
-      {
-        "date": 1964,
-        "type": "incident",
-        "victim": "",
-        "agressor": "",
-        "notes": "In 1964, 2 boys ran away from the school. They left in a dugout canoe and were missing for a day and a half before being returned to the school. They were described as being homesick.",
-        "ref": ["CIS-00593", "CIS-00638"]
-      },
-      {
-        "date": 1948,
-        "type": "health",
-        "victim": "",
-        "agressor": "",
-        "notes": "In 1948, 80 cases of measles were reports [sic].",
-        "ref": ["00885", "CIS-000309", "CIS-000572"]
-      },
-      {
-        "date": 1939,
-        "type": "health",
-        "victim": "",
-        "agressor": "",
-        "notes": "In 1939 and 1940, five children died of tubercular meningitis.",
-        "ref": ["CIS-000156", "06500"]
-      },
-      {
-        "date": 1941,
-        "type": "health",
-        "victim": "",
-        "agressor": "",
-        "notes": "One child died at the school in 1941.",
-        "ref": ["8089"]
-      },
-      {
-        "date": 1944,
-        "type": "health",
-        "victim": "",
-        "agressor": "",
-        "notes": "In 1944, a child died of Peritonitis at the school.",
-        "ref": ["08110"]
-      }
-    ]
+      "date": 1924,
+      "type": "physical",
+      "victim": "unnamed student",
+      "agressor": "principal",
+      "notes": "In 1924, it was reported that the Principal of the school was ' ... too severe in his punishment of the boys ... the boy's shirt was stripped from his back and the boy punished on the bare back.'",
+      "ref": ["00860A"]
+    }, {
+      "date": 1937,
+      "type": "physical",
+      "victim": "unnamed student",
+      "agressor": "unnamed staff member",
+      "notes": "In 1937 it was reported that 'It has been suggested ... that [a staff member] may be rather rough in his treatment of the boys.' There is no further mention of this report.",
+      "ref": ["00877"]
+    }, {
+      "date": 1963,
+      "type": "sexual",
+      "victim": "unnamed female",
+      "agressor": "unnamed student",
+      "notes": "Two documents, dated February 5th and 11th 1963, discuss a male student at Christie IRS who was discharged 'For an act of immorality- rape'. The documents do not indicate if the female involved was a student at the school or not.",
+      "ref": ["CIS-00642", "CIS-00643"]
+    }, {
+      "date": 1950,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "The Oblate Order also produced a booklet commemorating the Golden Jubilee of Christie IRS in 1950.",
+      "ref": ["CIS-00006"]
+    }, {
+      "date": 1960,
+      "type": "report",
+      "victim": "",
+      "agressor": "",
+      "notes": "In the mid-late 1960s there was extensive discussion about building a new hostel to replace the existing residential school.",
+      "ref": ["01117", "01029", "01765B", "01836", "01836A", "01766A", "00774", "01861", "00770", "01788"]
+    }, {
+      "date": 1960,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1960, 3 boys ran away, 2 did not return to the school and 1 was returned. All 3 were officially discharged within 3 months.",
+      "ref": ["03571", "08555", "09387"]
+    }, {
+      "date": 1964,
+      "type": "incident",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1964, 2 boys ran away from the school. They left in a dugout canoe and were missing for a day and a half before being returned to the school. They were described as being homesick.",
+      "ref": ["CIS-00593", "CIS-00638"]
+    }, {
+      "date": 1948,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1948, 80 cases of measles were reports [sic].",
+      "ref": ["00885", "CIS-000309", "CIS-000572"]
+    }, {
+      "date": 1939,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1939 and 1940, five children died of tubercular meningitis.",
+      "ref": ["CIS-000156", "06500"]
+    }, {
+      "date": 1941,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "One child died at the school in 1941.",
+      "ref": ["8089"]
+    }, {
+      "date": 1944,
+      "type": "health",
+      "victim": "",
+      "agressor": "",
+      "notes": "In 1944, a child died of Peritonitis at the school.",
+      "ref": ["08110"]
+    }]
   }
 }

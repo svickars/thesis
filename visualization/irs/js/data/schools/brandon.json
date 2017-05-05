@@ -40,51 +40,43 @@
     }],
     "chronoHistory": [{
       "date": 1895,
-      "desc": "The IRS, then known as Brandon Industrial School, opened.",
+      "desc": ["The IRS, then known as Brandon Industrial School, opened."],
       "ref": ["BRS-000181 BRS-000180 BRS-000407"]
     }, {
       "date": 1929,
-      "desc": "In July 1929, the Brandon IRS closed while a new residence building was under construction. During this time, 83 students were transferred to the Edmonton IRS, with the remaining pupils returning to their homes to attend day schools. The new Brandon IRS opened on July 18, 1930.",
+      "desc": ["In July 1929, the Brandon IRS closed while a new residence building was under construction. During this time, 83 students were transferred to the Edmonton IRS, with the remaining pupils returning to their homes to attend day schools. The new Brandon IRS opened on July 18, 1930."],
       "ref": ["BRS-003666 BRS-003667 BRS-003668 BRS-000407 BRS-000230 BRS-000231"]
     }, {
       "date": 1957,
-      "desc": "Farm operations at the IRS ceased.\nThere were 6 operating classrooms at the IRS. Two additional classrooms were being built near the main IRS building.",
+      "desc": ["Farm operations at the IRS ceased.", "There were 6 operating classrooms at the IRS. Two additional classrooms were being built near the main IRS building."],
       "ref": ["BRS-001436-0000 BRS-001946"]
     }, {
       "date": 1962,
-      "desc": "The federal government and the United Church of Canada signed an agreement for the operation of the Brandon IRS.",
+      "desc": ["The federal government and the United Church of Canada signed an agreement for the operation of the Brandon IRS."],
       "ref": ["BRS-000627-0001"]
     }, {
       "date": 1964,
-      "desc": "A report indicated that grades 1 and 2 were taught in a Brandon IRS building referred to as the 'Cottage School'. A plan of the IRS site identifies the building as a 'two classroom school' near the main IRS building.",
+      "desc": ["A report indicated that grades 1 and 2 were taught in a Brandon IRS building referred to as the 'Cottage School'. A plan of the IRS site identifies the building as a 'two classroom school' near the main IRS building."],
       "ref": ["BRS-001941 BRS-000639-0001"]
     }, {
       "date": 1967,
-      "desc": "The name of the IRS changed from Brandon Indian Residential School to the Brandon Residence for Indian Children.",
+      "desc": ["The name of the IRS changed from Brandon Indian Residential School to the Brandon Residence for Indian Children."],
       "ref": ["BRS-000686"]
     }, {
       "date": 1968,
-      "desc": "By June 1968, one class was operating at the IRS, and by November all residents were attending non-federal schools.",
-      "ref": ["NCA-000984 BRS-002032 BRS-103082"]
-    }, {
-      "date": 1968,
-      "desc": "The name of the IRS changed from Brandon Residence for Indian Children to Brandon Student Residence during the 1968/69 school year.",
-      "ref": ["BRS-006936 BRS-000647"]
+      "desc": ["By June 1968, one class was operating at the IRS, and by November all residents were attending non-federal schools.", "The name of the IRS changed from Brandon Residence for Indian Children to Brandon Student Residence during the 1968/69 school year."],
+      "ref": ["NCA-000984 BRS-002032 BRS-103082", "BRS-006936 BRS-000647"]
     }, {
       "date": 1969,
-      "desc": "From June to October 1969, it was decided that Roman Catholic pupils in need of a hostel would be accommodated at the Brandon IRS for the 1970/71 school year. This decision was based on the closure of Roman Catholic Indian Residential Schools in Manitoba (Pine Creek IRS, Fort Alexander IRS, and Sandy Bay IRS) and the Brandon IRS having fewer than 50 pupils.",
+      "desc": ["From June to October 1969, it was decided that Roman Catholic pupils in need of a hostel would be accommodated at the Brandon IRS for the 1970/71 school year. This decision was based on the closure of Roman Catholic Indian Residential Schools in Manitoba (Pine Creek IRS, Fort Alexander IRS, and Sandy Bay IRS) and the Brandon IRS having fewer than 50 pupils."],
       "ref": ["BRS-000742 BRS-000748 BRS-000767"]
     }, {
       "date": 1970,
-      "desc": "Guidance Cousellors relocated from their district office to the IRS building.",
-      "ref": ["BRS-004812"]
-    }, {
-      "date": 1970,
-      "desc": "Management of the IRS was transferred from the United Church of Canada to the Roman Catholic Oblate Indian and Eskimo Commission (INDIANESCOM).",
-      "ref": ["BRS-000771-0001 BRS-000779-0000"]
+      "desc": ["Guidance Cousellors relocated from their district office to the IRS building.", "Management of the IRS was transferred from the United Church of Canada to the Roman Catholic Oblate Indian and Eskimo Commission (INDIANESCOM)."],
+      "ref": ["BRS-004812", "BRS-000771-0001", "BRS-000779-0000"]
     }, {
       "date": 1972,
-      "desc": "The IRS closed in June. About 12 students were to be transferred to Guy Hill IRS at The Pas after the closure, but the majority of students would be able to attend school from their own homes. Other children, if necessary, would be placed in foster homes and the homes of relatives.",
+      "desc": ["The IRS closed in June. About 12 students were to be transferred to Guy Hill IRS at The Pas after the closure, but the majority of students would be able to attend school from their own homes. Other children, if necessary, would be placed in foster homes and the homes of relatives."],
       "ref": ["BRS-000837 BRS-000853 BRS-000854 BRS-006760-0001"]
     }],
     "notesHistory": [],

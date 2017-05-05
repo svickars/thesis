@@ -3,6 +3,7 @@
 var storyID = "mbrown";
 window.onload = drawStory(storyID);
 var orange = "#f15a24";
+var mediumGray = "#999";
 var rightBar = false;
 var status = "begin";
 var drawn = false;
@@ -827,6 +828,9 @@ function rightBarData(data) {
     var rTitle = d3.select("#rTitle").append("h2").attr("class", "rRemove").html(school.name.replace("IRS", "Indian Residential School").replace("RS", "Residential School"));
     var rSub = d3.select("#rSub").append("p").attr("class", "rRemove").html("Open from <span class='orange'>" + school.startYear + "</span> to <span class='orange'>" + school.endYear + "</span> in <span class='orange'>" + data.placeName + "</span>, <span class='orange'>" + data.province + "</span>.")
 
+    var r25height = (document.getElementById("rightBar").offsetHeight - document.getElementById("r5").offsetHeight - 20 - 20) / 2
+    d3.selectAll(".r25").style("height", r25height + "px");
+
     if (school.data.reserves.length === 0) {
       var rReserves = d3.select("#rReserves").append("div").attr("class", "r1Content rRemove");
       rReserves.append("h4").html("Data not yet available...");
@@ -873,6 +877,18 @@ function rightBarData(data) {
       heightB = height / 2,
       g = svgR.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+    var bisectDate = d3.bisector(function(d) {
+      if (d.year >= yClose - 0.5) {
+        return d.year;
+      } else {
+        return d.year - 0.5;
+      }
+    }).left;
+
+    var focus = svgR.append("g")
+      .style("display", "none")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
 
     // height transform
     // var xAxisVTrans = height + margin.top - margin.bottom - heightBottom;
@@ -903,7 +919,7 @@ function rightBarData(data) {
 
     // draw line
     var line = d3.line()
-      .curve(d3.curveMonotoneX)
+      .curve(d3.curveStep)
       .x(function(d) {
         return x(d.year);
       })
@@ -915,10 +931,84 @@ function rightBarData(data) {
     var path = g.append("svg:path")
       .attr("id", "chart")
       .attr("d", line(sEnrol))
-      .attr("stroke", "green")
-      .attr("stroke-widt", 2)
+      .attr("stroke", orange)
+      .attr("stroke-width", 2)
       .attr("fill", "none")
       .style("transform", "translate(0,0px)");
+
+    focus.append("circle")
+      .attr("class", "y")
+      .style("fill", orange)
+      .style("stroke", "none")
+      .attr("r", 4);
+
+    // append the x line
+    focus.append("line")
+      .attr("class", "x")
+      .style("stroke", orange)
+      .attr("y1", 0)
+      .attr("y2", height);
+
+    var vLine = g.append("line")
+      .attr("id", "vLine")
+      .attr("stroke", mediumGray)
+      .attr("x1", 0)
+      .attr("x2", 0)
+      .attr("y1", 0)
+      .attr("y2", height);
+
+    svgR.append("rect")
+      .attr("width", width)
+      .attr("height", heightB)
+      .style("fill", "none")
+      .style("pointer-events", "all")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+      .on("mouseover", function() {
+        focus.style("display", null);
+      })
+      .on("mouseout", function() {
+        // focus.style("display", "none");
+      })
+      .on("mousemove", mousemove);
+
+    var lineTooltip = d3.select("#r3svg").append("div").attr("class", "lineTooltip");
+
+    var sM = s.data.management;
+
+    function mousemove() {
+      var x0 = x.invert(d3.mouse(this)[0]);
+      if (x0 >= yClose - 0.5) {
+        i = bisectDate(sEnrol, x0, 0),
+          d0 = sEnrol[i],
+          d1 = sEnrol[i],
+          d = x0 - d0.year > d1.date - x0 ? d1 : d0;
+      } else {
+        i = bisectDate(sEnrol, x0, 0),
+          d0 = sEnrol[i - 1],
+          d1 = sEnrol[i],
+          d = x0 - d0.year > d1.date - x0 ? d1 : d0;
+      }
+
+      focus.select("circle.y")
+        .attr("transform",
+          "translate(" + x(d.year) + "," + y(d.number) + ")");
+
+      focus.select(".x")
+        .attr("transform", "translate(" + x(d.year) + "," + y(d.number) + ")")
+        .attr("y2", height - y(d.number));
+
+      var lTooltipY = y(d.number) - 35;
+      lineTooltip.style("transform", "translate(" + x(d.year) + "px ," + lTooltipY + "px)")
+        .html("<div class='lTip'>" + d.number + "</div>");
+
+      var defaultDuration = 500,
+        edgeOffset = 30,
+        myDiv = document.getElementById("rTimelineContainer");
+      var myScroller = zenscroll.createScroller(myDiv, defaultDuration, edgeOffset);
+      var target = document.getElementById("rTLC-" + d.year);
+      myScroller.center(target);
+    }
+
 
     // add other data
     var sM = s.data.management;
@@ -927,7 +1017,7 @@ function rightBarData(data) {
       .attr('class', 'd3-tip')
       .offset([-10, 0])
       .html(function(d) {
-        return "<span class='sMorgName'>" + d.orgName + "</span><br><span class='sMyear'>" + d.startYear + "-" + s.endYear + "</span>";
+        return "<span class='sMorgName'>" + d.orgName + "</span><br><span class='sMyear'>" + d.startYear + "-" + d.endYear + "</span><br><span class='sMtype'>" + d.type.toString().replace(/,/g, ", ") + "</span>";
       })
 
     svgR.call(sMtip);
@@ -953,26 +1043,40 @@ function rightBarData(data) {
       .attr("y1", heightB + 65)
       .attr("y2", heightB + 65);
 
-    var lineHealth = g.append("line")
+    var lineIncident = g.append("line")
       .attr("class", "lineAI")
       .attr("x1", 0)
       .attr("x2", width)
       .attr("y1", heightB + 80)
       .attr("y2", heightB + 80);
 
-    var linePolicy = g.append("line")
+    var lineHealth = g.append("line")
       .attr("class", "lineAI")
       .attr("x1", 0)
       .attr("x2", width)
       .attr("y1", heightB + 95)
       .attr("y2", heightB + 95);
 
-    var lineOther = g.append("line")
+    var linePolicy = g.append("line")
       .attr("class", "lineAI")
       .attr("x1", 0)
       .attr("x2", width)
       .attr("y1", heightB + 110)
       .attr("y2", heightB + 110);
+
+    var linePolicy = g.append("line")
+      .attr("class", "lineAI")
+      .attr("x1", 0)
+      .attr("x2", width)
+      .attr("y1", heightB + 125)
+      .attr("y2", heightB + 125);
+
+    var lineOther = g.append("line")
+      .attr("class", "lineAI")
+      .attr("x1", 0)
+      .attr("x2", width)
+      .attr("y1", heightB + 140)
+      .attr("y2", heightB + 140);
 
     var sMrects = g.selectAll(".sMbars")
       .data(sM)
@@ -986,7 +1090,7 @@ function rightBarData(data) {
       })
       .attr("y1", heightB + 32)
       .attr("y2", heightB + 32)
-      .on("mouseover", sMtip.show)
+      .on("mousemove", sMtip.show)
       .on("mouseout", sMtip.hide);
 
     var sMlabels = g.selectAll(".sMlabels")
@@ -1012,8 +1116,14 @@ function rightBarData(data) {
     var dAIphysical = s.data.additionalInformation.filter(function(d) {
       return ((d.type === "physical"));
     });
+    var dAIincident = s.data.additionalInformation.filter(function(d) {
+      return ((d.type === "incident"));
+    });
     var dAIpolicy = s.data.additionalInformation.filter(function(d) {
       return ((d.type === "policy"));
+    });
+    var dAIprogram = s.data.additionalInformation.filter(function(d) {
+      return ((d.type === "program"));
     });
     var dAIother = s.data.additionalInformation.filter(function(d) {
       return ((d.type === "other"));
@@ -1023,10 +1133,46 @@ function rightBarData(data) {
       .attr('class', 'd3-tip')
       .offset([-10, 0])
       .html(function(d) {
-        return d.notes;
+        if (d.type === "sexual") {
+          d.type = "sexual assault"
+        }
+        if (d.type === "physical") {
+          d.type = "physical assault"
+        }
+        if (d.notes.length > 300) {
+          return "<span class='AItip-h'>" + d.type + "</span><br><span class='AItip-p'>" + d.notes.substring(0, 250) + "...</span><br><span class='AItip-more'>Click to read more.</span>";
+        } else {
+          return "<span class='AItip-h'>" + d.type + "</span><br><span class='AItip-p'>" + d.notes + "</span>";
+        }
       })
 
     svgR.call(AItip);
+
+    var lightbox = d3.select("#rightBar").append("div").attr("class", "lightbox").style("display", "none");
+    lightbox.on("click", function() {
+      lbclick()
+    });
+
+    function aiclick(d) {
+      AItip.hide
+      lightbox.style("display", "flex");
+      if (d.type === "sexual") {
+        d.type = "sexual assault"
+      }
+      if (d.type === "physical") {
+        d.type = "physical assault"
+      }
+      if (d.agressor != "" && d.victim != "") {
+        lightbox.append("div").attr("class", "lbRemove").html("<div class='lbType'>" + d.date + ": " + d.type + " Incident</div><br><div class='lbBetween'> between " + d.agressor + " and " + d.victim + "</div><br><div class='lbNotes'>" + d.notes.replace(/<br>/g, "<br><br>") + "</div><div class='lbRef'> References:" + d.ref + "</div>")
+      } else {
+        lightbox.append("div").attr("class", "lbRemove").html("<div class='lbType'>" + d.date + ": " + d.type + " Incident</div><br><div class='lbNotes'>" + d.notes.replace(/<br>/g, "<br><br>") + "</div><div class='lbRef'>References: " + d.ref + "</div>")
+      }
+    }
+
+    function lbclick() {
+      lightbox.style("display", "none");
+      d3.selectAll(".lbRemove").remove();
+    }
 
     var lEnrolment = g.append("text")
       .attr("class", "lEnrolment")
@@ -1060,11 +1206,19 @@ function rightBarData(data) {
       .attr("text-anchor", "end")
       .text("Physical Abuse");
 
-    var lHealth = g.append("text")
+    var lIncident = g.append("text")
       .attr("class", "lAI")
       .attr("x", -10)
       .attr("dy", 2)
       .attr("y", heightB + 80)
+      .attr("text-anchor", "end")
+      .text("Other Incidents");
+
+    var lHealth = g.append("text")
+      .attr("class", "lAI")
+      .attr("x", -10)
+      .attr("dy", 2)
+      .attr("y", heightB + 95)
       .attr("text-anchor", "end")
       .text("Health/Medical");
 
@@ -1072,15 +1226,23 @@ function rightBarData(data) {
       .attr("class", "lAI")
       .attr("x", -10)
       .attr("dy", 2)
-      .attr("y", heightB + 95)
+      .attr("y", heightB + 110)
       .attr("text-anchor", "end")
       .text("Policy");
+
+    var lProgram = g.append("text")
+      .attr("class", "lAI")
+      .attr("x", -10)
+      .attr("dy", 2)
+      .attr("y", heightB + 125)
+      .attr("text-anchor", "end")
+      .text("Programming");
 
     var lOther = g.append("text")
       .attr("class", "lAI")
       .attr("x", -10)
       .attr("dy", 2)
-      .attr("y", heightB + 110)
+      .attr("y", heightB + 140)
       .attr("text-anchor", "end")
       .text("Other Reports");
 
@@ -1093,7 +1255,10 @@ function rightBarData(data) {
       })
       .attr("cy", heightB + 50)
       .attr("r", 4)
-      .on("mouseover", AItip.show)
+      .on("mousemove", AItip.show)
+      .on("click", function(d) {
+        aiclick(d);
+      })
       .on("mouseout", AItip.hide);
 
     var AIphysical = g.selectAll(".AIphysical")
@@ -1105,7 +1270,25 @@ function rightBarData(data) {
       })
       .attr("cy", heightB + 65)
       .attr("r", 4)
-      .on("mouseover", AItip.show)
+      .on("mousemove", AItip.show)
+      .on("click", function(d) {
+        aiclick(d);
+      })
+      .on("mouseout", AItip.hide);
+
+    var AIincident = g.selectAll(".AIincident")
+      .data(dAIincident)
+      .enter().append("circle", ".AIincident")
+      .attr("class", "AIincident AIcircle")
+      .attr("cx", function(d) {
+        return x(d.date);
+      })
+      .attr("cy", heightB + 80)
+      .attr("r", 4)
+      .on("mousemove", AItip.show)
+      .on("click", function(d) {
+        aiclick(d);
+      })
       .on("mouseout", AItip.hide);
 
     var AIhealth = g.selectAll(".AIhealth")
@@ -1115,9 +1298,12 @@ function rightBarData(data) {
       .attr("cx", function(d) {
         return x(d.date);
       })
-      .attr("cy", heightB + 80)
+      .attr("cy", heightB + 95)
       .attr("r", 4)
-      .on("mouseover", AItip.show)
+      .on("mousemove", AItip.show)
+      .on("click", function(d) {
+        aiclick(d);
+      })
       .on("mouseout", AItip.hide);
 
     var AIpolicy = g.selectAll(".AIpolicy")
@@ -1127,9 +1313,24 @@ function rightBarData(data) {
       .attr("cx", function(d) {
         return x(d.date);
       })
-      .attr("cy", heightB + 95)
+      .attr("cy", heightB + 110)
       .attr("r", 4)
-      .on("mouseover", AItip.show)
+      .on("mousemove", AItip.show)
+      .on("click", function(d) {
+        aiclick(d);
+      })
+      .on("mouseout", AItip.hide);
+
+    var AIprogram = g.selectAll(".AIprogram")
+      .data(dAIprogram)
+      .enter().append("circle", ".AIprogram")
+      .attr("class", "AIprogram AIcircle")
+      .attr("cx", function(d) {
+        return x(d.date);
+      })
+      .attr("cy", heightB + 125)
+      .attr("r", 4)
+      .on("mousemove", AItip.show)
       .on("mouseout", AItip.hide);
 
     var AIother = g.selectAll(".AIother")
@@ -1139,10 +1340,55 @@ function rightBarData(data) {
       .attr("cx", function(d) {
         return x(d.date);
       })
-      .attr("cy", heightB + 110)
+      .attr("cy", heightB + 140)
       .attr("r", 4)
-      .on("mouseover", AItip.show)
+      .on("mousemove", AItip.show)
+      .on("click", function(d) {
+        aiclick(d);
+      })
       .on("mouseout", AItip.hide);
+
+    var sH = s.data.chronoHistory
+    var rTimelineContainer = d3.select("#rTimeline").append("div").attr("class", "rTimelineContainer rRemove").attr("id", "rTimelineContainer");
+    d3.select(".rTimelineContainer").style("height", r25height + "px");
+
+    for (var i = 0; i < sH.length; i++) {
+      var currentY = sH[i].date;
+      rTimelineContainer.append("div")
+        .attr("class", "rTimelineEach")
+        .attr("id", "rTLC-" + currentY)
+        .style("height", r25height + "px");
+
+      var move = x(currentY);
+
+      var f = bisectDate(sEnrol, currentY, 0),
+        d0 = sEnrol[f],
+        d1 = sEnrol[f],
+        d = currentY - d0.year > d1.date - currentY ? d1 : d0;
+
+      var vLine_t = new TweenMax.to('#vLine', .25, {
+        css: {
+          transform: 'translate(' + move + 'px, 0)'
+        }
+      });
+
+      var vLine_s = new ScrollMagic.Scene({
+          triggerElement: '#rTLC-' + currentY
+        })
+        // .offset(document.getElementById("rTLC-" + sH[j].date).offsetHeight)
+        .triggerHook(.75)
+        .setTween(vLine_t)
+        .addTo(controller);
+    }
+
+    for (var j = 0; j < sH.length; j++) {
+      var rTL = d3.select("#rTLC-" + sH[j].date).append("div").attr("class", "rTL").attr("id", "rTL-" + sH[j].date).html("<br>").html("<div class='rTLy'>" + sH[j].date + "</div>");
+
+      for (var h = 0; h < sH[j].desc.length; h++) {
+        rTL.append("div").attr("class", "rTLd").html(sH[j].desc[h]);
+      }
+    }
+    // var blankBottom = d3.select("#rTL-" + s.endYear).append("div").style("height", r25height + "px");
   });
 }
 

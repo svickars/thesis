@@ -40,51 +40,47 @@
     }],
     "chronoHistory": [{
       "date": 1958,
-      "desc": "The Assiniboia IRS opened. Members of the Oblate Order had been residing in the building since June 1958, though students did not arrive at the IRS until September. The classroom block at the I RS consisted of four classrooms for Grades 8 to 10. ",
+      "desc": ["The Assiniboia IRS opened. Members of the Oblate Order had been residing in the building since June 1958, though students did not arrive at the IRS until September. The classroom block at the I RS consisted of four classrooms for Grades 8 to 10."],
       "ref": ["ARS-000045-0000", "ARS-003389-0000", "ARS-001723"]
     }, {
       "date": 1959,
-      "desc": "Five classrooms were in operation at the IRS for Grades 8 to 11.",
+      "desc": ["Five classrooms were in operation at the IRS for Grades 8 to 11."],
       "ref": ["ARS-003189"]
     }, {
       "date": 1960,
-      "desc": "Grade 12 was added to the IRS. ",
+      "desc": ["Grade 12 was added to the IRS."],
       "ref": ["ARS-003181"]
     }, {
       "date": 1962,
-      "desc": "The federal government and the Oblate Indian Eskimo Commission (INDIANESCOM) signed an agreement for the operation of the Assiniboia IRS. ",
+      "desc": ["The federal government and the Oblate Indian Eskimo Commission (INDIANESCOM) signed an agreement for the operation of the Assiniboia IRS."],
       "ref": ["ARS-000105 "]
     }, {
       "date": 1962,
-      "desc": "Grade 8 was discontinued at the IRS by the beginning of the fall term. Five classrooms continued to operate for Grades 9 to 12.",
+      "desc": ["Grade 8 was discontinued at the IRS by the beginning of the fall term. Five classrooms continued to operate for Grades 9 to 12."],
       "ref": ["ARS-003155"]
     }, {
       "date": 1964,
-      "desc": "Six classrooms were in operation at the IRS.",
+      "desc": ["Six classrooms were in operation at the IRS."],
       "ref": ["ARS-003133"]
     }, {
       "date": 1965,
-      "desc": "In September 1965, Grade 9 was no longer taught at the IRS. Grades 10 to 12 continued to be taught in five classrooms for the 1965/66 school year. During the 1966/67 school year, four classrooms operated at the IRS for Grades 10 to 12.",
+      "desc": ["In September 1965, Grade 9 was no longer taught at the IRS. Grades 10 to 12 continued to be taught in five classrooms for the 1965/66 school year. During the 1966/67 school year, four classrooms operated at the IRS for Grades 10 to 12."],
       "ref": ["ARS-003123", "ARS-003112", "ARS-003103"]
     }, {
       "date": 1967,
-      "desc": "Assiniboia IRS became a hostel only, and all residents were sent to local high schools in Winnipeg for classroom instruction. The gymnasium and library were still used for sports and study.",
+      "desc": ["Assiniboia IRS became a hostel only, and all residents were sent to local high schools in Winnipeg for classroom instruction. The gymnasium and library were still used for sports and study."],
       "ref": ["ARS-003102", "ARS-006175-0000", "ARS-006175-0001"]
     }, {
       "date": 1969,
-      "desc": "The management of Assiniboia IRS was transferred to the Government of Canada.",
-      "ref": ["ARS-001102", "CJC-000315", "NCA-008943-0005"]
-    }, {
-      "date": 1969,
-      "desc": "The Bosco Centre of the Roman Catholic Church agreed to provide chaplaincy services to the IRS from September 1969 to August 1970, from September 1971 to August 1972, and from September 1972 to IRS closure in June 1973.",
-      "ref": ["ARS-006831-0001", "ARS-006802-0001", "ARS-006773-0002"]
+      "desc": ["The management of Assiniboia IRS was transferred to the Government of Canada.", "The Bosco Centre of the Roman Catholic Church agreed to provide chaplaincy services to the IRS from September 1969 to August 1970, from September 1971 to August 1972, and from September 1972 to IRS closure in June 1973."],
+      "ref": ["ARS-001102", "CJC-000315", "NCA-008943-0005", "ARS-006831-0001", "ARS-006802-0001", "ARS-006773-0002"]
     }, {
       "date": 1972,
-      "desc": "During the 1972/73 school year, the federal government Winnipeg Guidance Office moved into the chapel of the IRS, and the classroom block, except for part of the basement, was rented to the Children's Home of Winnipeg as a day centre. Documents at the time indicate that the classroom block had been 'unused for several years'.",
+      "desc": ["During the 1972/73 school year, the federal government Winnipeg Guidance Office moved into the chapel of the IRS, and the classroom block, except for part of the basement, was rented to the Children's Home of Winnipeg as a day centre. Documents at the time indicate that the classroom block had been 'unused for several years'."],
       "ref": ["ARS-000167-0001", "ARS-000171", "ARS-004302"]
     }, {
       "date": 1973,
-      "desc": "The Assiniboia IRS closed. ",
+      "desc": ["The Assiniboia IRS closed."],
       "ref": ["ARS-000178-0000"]
     }],
     "notesHistory": [],

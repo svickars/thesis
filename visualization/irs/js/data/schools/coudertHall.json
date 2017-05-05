@@ -82,136 +82,48 @@
     }],
     "chronoHistory": [{
       "date": 1957,
-      "desc": "Planned establishment of a hostel in Whitehorse to be conducted under Roman Catholic auspices and called the Whitehorse Hostel",
+      "desc": ["Planned establishment of a hostel in Whitehorse to be conducted under Roman Catholic auspices and called the Whitehorse Hostel"],
       "ref": ["CH000021"]
     }, {
       "date": 1960,
-      "desc": "Whitehorse R.C. Hostel to open September 1960 and house approximately 100 Roman Catholic children who will attend class at Christ the King School in the town",
-      "ref": ["YS000333A"]
-    }, {
-      "date": 1960,
-      "desc": "Agreement between the Government and the Roman Catholic Episcopal Corporation (RCEC) of Whitehorse stated, 'Whereas the parties hereto have agreed to share between them the cost of a school for Indian and non-Indian children, to be known as Christ the King School Annex.' Part of the agreement also stated the RCEC shall, 'Accept for enrolment in the school fifty children of Indian status resident at the Whitehorse Roman Catholic Indian Hostel'",
-      "ref": ["YS000842"]
-    }, {
-      "date": 1960,
-      "desc": "Whitehorse Roman Catholic Hostel opened. Forty-seven Grade 8-12 Indian students admitted to the hostel on September 15th, 1960. Part-way through the year some students were set back a grade including some Grade 8 students set back to Grade 7",
-      "ref": ["YS000054"]
-    }, {
-      "date": 1960,
-      "desc": "Chief of Education suggested only 10 non-native students should be admitted to Whitehorse Roman Catholic Hostel",
-      "ref": ["YS000365"]
-    }, {
-      "date": 1960,
-      "desc": "Three of the Indian students who resided at the hostel attended grades 11 and 12 at the Whitehorse Public High School",
-      "ref": ["YS000836"]
+      "desc": ["Whitehorse R.C. Hostel to open September 1960 and house approximately 100 Roman Catholic children who will attend class at Christ the King School in the town", "Agreement between the Government and the Roman Catholic Episcopal Corporation (RCEC) of Whitehorse stated, 'Whereas the parties hereto have agreed to share between them the cost of a school for Indian and non-Indian children, to be known as Christ the King School Annex.' Part of the agreement also stated the RCEC shall, 'Accept for enrolment in the school fifty children of Indian status resident at the Whitehorse Roman Catholic Indian Hostel'", "Whitehorse Roman Catholic Hostel opened. Forty-seven Grade 8-12 Indian students admitted to the hostel on September 15th, 1960. Part-way through the year some students were set back a grade including some Grade 8 students set back to Grade 7", "Chief of Education suggested only 10 non-native students should be admitted to Whitehorse Roman Catholic Hostel", "Three of the Indian students who resided at the hostel attended grades 11 and 12 at the Whitehorse Public High School"],
+      "ref": ["YS000333A", "YS000842", "YS000054", "YS000365", "YS000836"]
     }, {
       "date": 1961,
-      "desc": "Government decided to keep grades 7 to 12 at Whitehorse Hostel for September 1961",
+      "desc": ["Government decided to keep grades 7 to 12 at Whitehorse Hostel for September 1961"],
       "ref": ["YS000413"]
     }, {
       "date": 1962,
-      "desc": "District Superintendent stated most of the children staying at the Whitehorse hostels were attending Christ the King High School and Selkirk Street school",
-      "ref": ["CH000044"]
-    }, {
-      "date": 1962,
-      "desc": "Indian Superintendent suggested a priority enrolment for the Whitehorse Hostels to have them operating in full capacity whereby Indian status children were to be given first chance for admission",
-      "ref": ["YS000408"]
+      "desc": ["District Superintendent stated most of the children staying at the Whitehorse hostels were attending Christ the King High School and Selkirk Street school", "Indian Superintendent suggested a priority enrolment for the Whitehorse Hostels to have them operating in full capacity whereby Indian status children were to be given first chance for admission"],
+      "ref": ["CH000044", "YS000408"]
     }, {
       "date": 1963,
-      "desc": "Possibility of amalgamating Yukon Hostel and Whitehorse Hostel suggested ",
-      "ref": ["YS003071"]
-    }, {
-      "date": 1963,
-      "desc": "Two non-Indian students resided at Whitehorse Hostel. Indian Superintendent believed non-Indian students should be admitted to the extent of available space on payment of an appropriate rate of board ",
-      "ref": ["YS000406"]
-    }, {
-      "date": 1963,
-      "desc": "Whitehorse Hostel accommodated students in grades 6-11",
-      "ref": ["YS000152A"]
-    }, {
-      "date": 1963,
-      "desc": "Indian Superintendent advised that non-Indian children may be admitted to Yukon Hall and Whitehorse Hostel on the same basis as Indian students subject to the availability of space",
-      "ref": ["YS004214"]
-    }, {
-      "date": 1963,
-      "desc": "Whitehorse Hostel accommodated students in grades 5-11",
-      "ref": ["YS008345A"]
+      "desc": ["Possibility of amalgamating Yukon Hostel and Whitehorse Hostel suggested ", "Two non-Indian students resided at Whitehorse Hostel. Indian Superintendent believed non-Indian students should be admitted to the extent of available space on payment of an appropriate rate of board ", "Whitehorse Hostel accommodated students in grades 6-11", "Indian Superintendent advised that non-Indian children may be admitted to Yukon Hall and Whitehorse Hostel on the same basis as Indian students subject to the availability of space", "Whitehorse Hostel accommodated students in grades 5-11", ],
+      "ref": ["YS003071", "YS000406", "YS000152A", "YS004214", "YS008345A"]
     }, {
       "date": 1965,
-      "desc": "Whitehorse Hostel accommodated students in grade 6 and up",
+      "desc": ["Whitehorse Hostel accommodated students in grade 6 and up"],
       "ref": ["YS000081"]
     }, {
       "date": 1966,
-      "desc": "Whitehorse Hostel accommodated students in grade 6 and up",
-      "ref": ["YS000126"]
-    }, {
-      "date": 1966,
-      "desc": "Report indicated 15 of the 54 students present at the hostel were in the elementary grades ",
-      "ref": ["YS004038A"]
+      "desc": ["Whitehorse Hostel accommodated students in grade 6 and up", "Report indicated 15 of the 54 students present at the hostel were in the elementary grades "],
+      "ref": ["YS000126", "YS004038A"]
     }, {
       "date": 1967,
-      "desc": "Whitehorse Hostel accommodated students aged 13-18 ",
-      "ref": ["YS002328"]
-    }, {
-      "date": 1967,
-      "desc": "The name of Whitehorse Hostel changed to Coudert Residence as of January 3, 1967",
-      "ref": ["YS00134"]
+      "desc": ["Whitehorse Hostel accommodated students aged 13-18 ", "The name of Whitehorse Hostel changed to Coudert Residence as of January 3, 1967"],
+      "ref": ["YS002328", "YS00134"]
     }, {
       "date": 1968,
-      "desc": "Survey of Yukon Indian children for the year of 1968-1969 reported the hostel housed children from grades 6-12 and one grade 3 student",
-      "ref": ["YS004004B"]
-    }, {
-      "date": 1968,
-      "desc": "Coudert Residence housed children from grades 7-12 ",
-      "ref": ["YS002445"]
+      "desc": ["Survey of Yukon Indian children for the year of 1968-1969 reported the hostel housed children from grades 6-12 and one grade 3 student", "Coudert Residence housed children from grades 7-12 "],
+      "ref": ["YS004004B", "YS002445"]
     }, {
       "date": 1970,
-      "desc": "Proposal that as of September 1, 1970, students will be divided between Coudert Residence and Yukon Hall by age. The likely dividing point to be age 12",
-      "ref": ["YS002570A"]
-    }, {
-      "date": 1970,
-      "desc": "Student list for the hostel recorded students in grades 2, 4, and 6-12",
-      "ref": ["YS008393A"]
-    }, {
-      "date": 1970,
-      "desc": "Plan to enroll the younger children at Coudert Residence and the older children at Yukon Hall",
-      "ref": ["YS002564"]
-    }, {
-      "date": 1970,
-      "desc": "Yukon Hall and Coudert Residence to become one multi-denominational institution under a single administration effective September 1, 1970",
-      "ref": ["YS002552"]
-    }, {
-      "date": 1970,
-      "desc": "Coudert Residence to house children from 6 to 12 years of age and Yukon Hall to house children 13 years of age and older",
-      "ref": ["YS004083A"]
-    }, {
-      "date": 1970,
-      "desc": "Yukon Hall and Coudert Residence combined to form the Whitehorse Student Residence under the direction of the Government",
-      "ref": ["YS005159"]
+      "desc": ["Proposal that as of September 1, 1970, students will be divided between Coudert Residence and Yukon Hall by age. The likely dividing point to be age 12", "Student list for the hostel recorded students in grades 2, 4, and 6-12", "Plan to enroll the younger children at Coudert Residence and the older children at Yukon Hall", "Yukon Hall and Coudert Residence to become one multi-denominational institution under a single administration effective September 1, 1970", "Coudert Residence to house children from 6 to 12 years of age and Yukon Hall to house children 13 years of age and older", "Yukon Hall and Coudert Residence combined to form the Whitehorse Student Residence under the direction of the Government"],
+      "ref": ["YS002570A", "YS008393A", "YS002564", "YS002552", "YS004083A", "YS005159"]
     }, {
       "date": 1971,
-      "desc": "Recommendation that the smaller Coudert Residence be closed before the start of the next school year because of the high costs of operating two residences",
-      "ref": ["YS002438"]
-    }, {
-      "date": 1971,
-      "desc": "Plan to combine all student dormitories in Yukon Hall with the staff to reside in the Coudert Residence. The final disposition of Coudert Residence to be the subject of future consultation",
-      "ref": ["YS002877"]
-    }, {
-      "date": 1971,
-      "desc": "Coudert Residence to be closed to students within a few weeks and used for some of the Whitehorse Student Residence’s staff",
-      "ref": ["YS004054A"]
-    }, {
-      "date": 1971,
-      "desc": "Residents of the Whitehorse Student Residence amalgamated and resided at Yukon Hall. Coudert Residence no longer housed students",
-      "ref": ["YS005103"]
-    }, {
-      "date": 1971,
-      "desc": "The Coudert Residence was to become surplus to requirements. The Yukon Native Brotherhood showed interest in taking over the building to turn it into an Indian Cultural Centre",
-      "ref": ["YS002870"]
-    }, {
-      "date": 1971,
-      "desc": "Amalgamation of the two hostels completed as all students resided in the former Yukon Hall building with all kitchen, laundry, and janitorial services combined in the one building. The Coudert Hall building was being used to accommodate staff of the Whitehorse Student Residence",
-      "ref": ["YS002862"]
+      "desc": ["Recommendation that the smaller Coudert Residence be closed before the start of the next school year because of the high costs of operating two residences", "Plan to combine all student dormitories in Yukon Hall with the staff to reside in the Coudert Residence. The final disposition of Coudert Residence to be the subject of future consultation", "Coudert Residence to be closed to students within a few weeks and used for some of the Whitehorse Student Residence’s staff", "Residents of the Whitehorse Student Residence amalgamated and resided at Yukon Hall. Coudert Residence no longer housed students", "The Coudert Residence was to become surplus to requirements. The Yukon Native Brotherhood showed interest in taking over the building to turn it into an Indian Cultural Centre", "Amalgamation of the two hostels completed as all students resided in the former Yukon Hall building with all kitchen, laundry, and janitorial services combined in the one building. The Coudert Hall building was being used to accommodate staff of the Whitehorse Student Residence"],
+      "ref": ["YS002438", "YS002877", "YS004054A", "YS005103", "YS002870", "YS002862"]
     }],
     "notesHistory": [],
     "management": [{

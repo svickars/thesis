@@ -28,11 +28,11 @@
     }],
     "chronoHistory": [{
       "date": 1928,
-      "desc": "The federal government officially recognized and supported the boarding of children at Cote Improved Federal Day School. From Monday to Friday, the IRS accommodated boarders who could not travel daily between their homes and the school.",
+      "desc": ["The federal government officially recognized and supported the boarding of children at Cote Improved Federal Day School. From Monday to Friday, the IRS accommodated boarders who could not travel daily between their homes and the school."],
       "ref": ["CTS-000448", "CTS-000415", "CTS-000418-0000", "CTS-000420", "CTS-000424"]
     }, {
       "date": 1940,
-      "desc": "The Cote Improved Federal Day School ceased the boarding of students at the end of the 1939/40 school year.  After June 30, 1940, the former IRS operated only as a day school.",
+      "desc": ["The Cote Improved Federal Day School ceased the boarding of students at the end of the 1939/40 school year.  After June 30, 1940, the former IRS operated only as a day school."],
       "ref": ["CTS-000492", "CTS-000331", "CTS-000470-0001"]
     }],
     "notesHistory": [],

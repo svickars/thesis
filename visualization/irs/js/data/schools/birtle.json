@@ -58,51 +58,43 @@
     }],
     "chronoHistory": [{
       "date": 1888,
-      "desc": "The Birtle IRS was opened by the Presbyterian Church with Federal Government support. The IRS was conducted in a public school building leased from the town of Birtle until about the summer of 1893.",
+      "desc": ["The Birtle IRS was opened by the Presbyterian Church with Federal Government support. The IRS was conducted in a public school building leased from the town of Birtle until about the summer of 1893."],
       "ref": ["BIR-060006", "BIR-060000", "BIR-000012", "BIR-000049"]
     }, {
       "date": 1893,
-      "desc": "Since the first stone building was not well suited for IRS purposes, a new stone building was constructed at the expense of the Presbyterian Church in the summer of 1893. The building was occupied by October 1893 with an average of thirty pupils.",
+      "desc": ["Since the first stone building was not well suited for IRS purposes, a new stone building was constructed at the expense of the Presbyterian Church in the summer of 1893. The building was occupied by October 1893 with an average of thirty pupils."],
       "ref": ["BIR-000412", "BIR-000008", "BIR-000049", "BIR-000012"]
     }, {
       "date": 1911,
-      "desc": "An agreement was signed between the federal government and the Foreign Mission Committee of the Presbyterian Church in Canada for the operation of the Birtle IRS.",
+      "desc": ["An agreement was signed between the federal government and the Foreign Mission Committee of the Presbyterian Church in Canada for the operation of the Birtle IRS."],
       "ref": ["BIR-000022"]
     }, {
       "date": 1924,
-      "desc": "A new two classroom building was near completion.",
-      "ref": ["BIR-000061", "BIR-000062", "BIR-002322-0002", "BIR-000081-0000"]
-    }, {
-      "date": 1924,
-      "desc": "Students attended class half of the day and worked on the farm or in the residence for the other half day.",
-      "ref": ["BIR-002314-0001"]
+      "desc": ["A new two classroom building was near completion.", "Students attended class half of the day and worked on the farm or in the residence for the other half day."],
+      "ref": ["BIR-000061", "BIR-000062", "BIR-002322-0002", "BIR-000081-0000", "BIR-002314-0001"]
     }, {
       "date": 1930,
-      "desc": "Authority was granted for the federal government to purchase a total of 655 acres of land for the Birtle IRS from the Presbyterian Church, the town of Birtle, and private citizens. The portion of land purchased from the town of Birtle comprised Blocks 211, 212, 213, and 214, Plan M. in N.E. 1/4 Sec. 6, and totalled approximately 20 acres. This parcel was the building site for the new Birtle IRS. The land was adjacent to the N.E. 1/4 Sec. 6 comprising 30 acres that was being purchased from the Presbyterian Church Missionary to be used for playgrounds, garden, and pasture.",
-      "ref": ["BIR-000164", "BIR-000162", "BIR-000163"]
-    }, {
-      "date": 1930,
-      "desc": "A new Birtle IRS building was built between 1930 and 1931 and occupied by the 1931/32 school year.",
-      "ref": ["BIR-000114", "BIR-000109", "BIR-000131", "BIR-000137-0000", "BIR-000138", "BIR-060042", "BIR-000177 BIR-000457", "BIR-002403"]
+      "desc": ["Authority was granted for the federal government to purchase a total of 655 acres of land for the Birtle IRS from the Presbyterian Church, the town of Birtle, and private citizens. The portion of land purchased from the town of Birtle comprised Blocks 211, 212, 213, and 214, Plan M. in N.E. 1/4 Sec. 6, and totalled approximately 20 acres. This parcel was the building site for the new Birtle IRS. The land was adjacent to the N.E. 1/4 Sec. 6 comprising 30 acres that was being purchased from the Presbyterian Church Missionary to be used for playgrounds, garden, and pasture.", "A new Birtle IRS building was built between 1930 and 1931 and occupied by the 1931/32 school year."],
+      "ref": ["BIR-000164", "BIR-000162", "BIR-000163", "BIR-000114", "BIR-000109", "BIR-000131", "BIR-000137-0000", "BIR-000138", "BIR-060042", "BIR-000177 BIR-000457", "BIR-002403"]
     }, {
       "date": 1959,
-      "desc": "Beginning in September, grades one to eight were taught at the Birtle IRS and residents in grades 9 to 12 were sent to the Birtle High School in town. There were five classrooms in operation at the Birtle IRS.",
+      "desc": ["Beginning in September, grades one to eight were taught at the Birtle IRS and residents in grades 9 to 12 were sent to the Birtle High School in town. There were five classrooms in operation at the Birtle IRS."],
       "ref": ["BIR-001241"]
     }, {
       "date": 1962,
-      "desc": "An agreement was signed between the federal government and Women’s Missionary Society (Western Division) of the Presbyterian Church in Canada for the operation of the Birtle IRS.",
+      "desc": ["An agreement was signed between the federal government and Women’s Missionary Society (Western Division) of the Presbyterian Church in Canada for the operation of the Birtle IRS."],
       "ref": ["BIR-000406"]
     }, {
       "date": 1968,
-      "desc": "By the 1968/69 school year, the IRS was referred to as the Birtle Indian Student Residence or the Birtle Student Residence, though two classrooms for grades 5 and 6 were still in operation at the IRS",
+      "desc": ["By the 1968/69 school year, the IRS was referred to as the Birtle Indian Student Residence or the Birtle Student Residence, though two classrooms for grades 5 and 6 were still in operation at the IRS"],
       "ref": ["BIR-000773-0001", "BIR-001141-0001"]
     }, {
       "date": 1969,
-      "desc": "Due to the enrolment of younger pupils in the IRS, it was determined in February 1969 that the farm would not be worked during the year. By July 1969, all farming operations had ceased and the farm land, equipment, and livestock had been sold to private interests.",
+      "desc": ["Due to the enrolment of younger pupils in the IRS, it was determined in February 1969 that the farm would not be worked during the year. By July 1969, all farming operations had ceased and the farm land, equipment, and livestock had been sold to private interests."],
       "ref": ["BIR-000418", "BIR-000417", "BIR-001545", "BIR-000959-0001"]
     }, {
       "date": 1970,
-      "desc": "The Birtle IRS closed after the 1969/70 school year due to low admission.",
+      "desc": ["The Birtle IRS closed after the 1969/70 school year due to low admission."],
       "ref": ["BIR-000455", "BIR-000449", "NCA-001847"]
     }],
     "notesHistory": [],

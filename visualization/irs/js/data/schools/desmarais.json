@@ -46,64 +46,44 @@
     }],
     "chronoHistory": [{
       "date": 1900,
-      "desc": "Bishop Grouard establishes a boarding school at St. Martin's Mission on Wabasca Lake. The building was partially built, but requests were made for grants of land and for the operation of the school. The estimate for 1901-1902 was for 30 students ",
+      "desc": ["Bishop Grouard establishes a boarding school at St. Martin's Mission on Wabasca Lake. The building was partially built, but requests were made for grants of land and for the operation of the school. The estimate for 1901-1902 was for 30 students."],
       "ref": ["08629"]
     }, {
       "date": 1901,
-      "desc": "Sisters ofProvidence from Montreal came to work at St. Martin's IRS in July  and the school opened in August of 1901",
+      "desc": ["Sisters of Providence from Montreal came to work at St. Martin's IRS in July  and the school opened in August of 1901"],
       "ref": ["04185", "04017"]
     }, {
       "date": 1928,
-      "desc": "A small temporary, two-storey hospital was built and linked to the school by a corridor to transport food from the school kitchen ",
+      "desc": ["A small temporary, two-storey hospital was built and linked to the school by a corridor to transport food from the school kitchen "],
       "ref": ["04017"]
     }, {
       "date": 1959,
-      "desc": "May 1, 1959, the Oblate Order assumed responsibility for the new St. Martin's IRS and on May 2, 1959 the 'Sisters and the children started occupying the new building'. The official opening ceremony was to be held on December 10, 1959",
+      "desc": ["May 1, 1959, the Oblate Order assumed responsibility for the new St. Martin's IRS and on May 2, 1959 the 'Sisters and the children started occupying the new building'. The official opening ceremony was to be held on December 10, 1959"],
       "ref": ["03495", "01914"]
     }, {
       "date": 1961,
-      "desc": "It was proposed to integrate the junior high school from Desmarais into the Wabasca Public School effective September, 1962 ",
+      "desc": ["It was proposed to integrate the junior high school from Desmarais into the Wabasca Public School effective September, 1962 "],
       "ref": ["02532"]
     }, {
       "date": 1962,
-      "desc": "Effective September 1, 1962, Desmarais junior high school students (grades 7, 8, and 9) lived in residence and attended schools operated by Northland School Division ",
+      "desc": ["Effective September 1, 1962, Desmarais junior high school students (grades 7, 8, and 9) lived in residence and attended schools operated by Northland School Division "],
       "ref": ["00771", "03390"]
     }, {
       "date": 1963,
-      "desc": "A public high school, Misstassiniy School, opened in Desmarais for all students Grade 7 and up ",
+      "desc": ["A public high school, Misstassiniy School, opened in Desmarais for all students Grade 7 and up "],
       "ref": ["04017"]
     }, {
       "date": 1964,
-      "desc": "Administration of the Desmarais Indian Residential School was 'turned over to theNorthland School Division effective September, 1, 1964. The Desmarais Indian Residential School will no longer be operated effective September 1, 1964' ",
-      "ref": ["01765"]
-    }, {
-      "date": 1964,
-      "desc": "Northland School Division leased and operated four classrooms in Desmarais IRS effective September 1, 1964 ",
-      "ref": ["03252"]
+      "desc": ["Administration of the Desmarais Indian Residential School was 'turned over to theNorthland School Division effective September, 1, 1964. The Desmarais Indian Residential School will no longer be operated effective September 1, 1964'.", "Northland School Division leased and operated four classrooms in Desmarais IRS effective September 1, 1964."],
+      "ref": ["01765", "03252"]
     }, {
       "date": 1965,
-      "desc": "Except for one primary class, all pupils in residence attended schools operated by Northland School Division (Mistassiniy School or St. Theresa School). The Bigstone Band requests the remaining operating IRS classrooms to be transferred to the Northland School Division effective the beginning ofthe 1965-66 school year",
+      "desc": ["Except for one primary class, all pupils in residence attended schools operated by Northland School Division (Mistassiniy School or St. Theresa School). The Bigstone Band requests the remaining operating IRS classrooms to be transferred to the Northland School Division effective the beginning ofthe 1965-66 school year"],
       "ref": ["01774", "00843"]
     }, {
       "date": 1973,
-      "desc": "The Residence is closed as of June 30, 1973 ",
+      "desc": ["The Residence is closed as of June 30, 1973 "],
       "ref": ["03934"]
-    }, {
-      "date": 1974,
-      "desc": "Northland School Division continues to rent classrooms in the Residence building at a rate of$300 each per month; C.V.C. and A.V.C. (A.V.C. may refer to Alberta Vocational Centre, but this is not confirmed) rented one room at a rate of $250 ",
-      "ref": ["02959"]
-    }, {
-      "date": 1975,
-      "desc": "The Bigstone Band operated a Kindergarten out of an IRS classroom ",
-      "ref": ["02959"]
-    }, {
-      "date": 1975,
-      "desc": "The Government discussed the future use of Desmarais Residence with the Bigstone Band and requested proposals for the 'best possible use' of the building 'for the benefit of the treaty people of the area'. Negotiations were underway with the Band regarding turnover of the building. It appears that the province 'was unable to take over the Residence'.",
-      "ref": ["01092", "00820", "02962A"]
-    }, {
-      "date": 1980,
-      "desc": "The land and buildings were sold to Bigstone Band Enterprises Ltd.. The sale was authorized by Order in Council P.C. 1980-2268 dated August 27, 1980. ",
-      "ref": ["00912", "04006", "04005", "04005A"]
     }],
     "notesHistory": [],
     "management": [{

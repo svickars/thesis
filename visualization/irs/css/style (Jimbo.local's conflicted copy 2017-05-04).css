@@ -667,19 +667,22 @@ svg {
   width: calc(100%);
   margin: 0 0 10px 0; }
 
-.r25 {
+.r3 {
+  height: -mox-calc(33% - 20px);
+  height: -webkit-calc(33% - 20px);
+  height: -o-calc(33% - 20px);
+  height: calc(33% - 10px);
   min-height: 250px; }
 
-.r5 {
-  padding: 25px 0 15px 0;
-  min-height: 100px; }
+.r6 {
+  padding: 50px 0 15px 0; }
 
-.r5 h2 {
+.r6 h2 {
   text-align: center;
   font-family: "Libre Baskerville", Georgia, serif;
   border: none; }
 
-.r25 h4 {
+.r3 h4 {
   font-family: "Rubik", Trebuchet, sans-serif;
   font-size: 1em;
   font-weight: 300;
@@ -702,7 +705,7 @@ svg {
 .rReservesDistance {
   color: #ddd; }
 
-.r25 p, .r5 p {
+.r3 p, .r6 p {
   text-align: center;
   font-size: .75em; }
 
@@ -736,6 +739,7 @@ svg {
   font-family: "Rubik", Trebuchet, sans-serif;
   fill: black; }
 
+/*--axes--*/
 .xAxis path {
   display: none; }
 
@@ -754,11 +758,6 @@ svg {
 .yAxis text {
   transform: translate(-5px, 0); }
 
-.xAxis text {
-  stroke: black;
-  stroke-width: .25;
-  font-weight: 900; }
-
 .tick line {
   stroke: rgba(0, 0, 0, 0.25);
   stroke-linecap: round;
@@ -776,6 +775,15 @@ svg {
   text-transform: capitalize;
   pointer-events: none; }
 
+.d3-tip {
+  line-height: 1;
+  padding: 6px;
+  background: #333;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: left; }
+
 .sMorgName {
   font-weight: bold;
   font-size: 10px; }
@@ -785,12 +793,6 @@ svg {
   font-style: italic;
   font-size: 9px;
   opacity: .9; }
-
-.sMtype {
-  font-size: 9px;
-  opacity: .9;
-  font-style: italic;
-  font-weight: normal; }
 
 .AIcircle {
   fill: #999; }
@@ -814,14 +816,11 @@ svg {
   stroke-linecap: round;
   stroke-dasharray: .1, 4; }
 
-.rFull {
-  overflow: hidden; }
-
-#rTimeline {
-  position: relative; }
-
-.rTimelineContainer {
+.r3 {
   overflow-y: scroll;
+  overflow-x: hidden; }
+
+#rTimelineInner {
   width: -moz-calc(100% + 16px);
   width: -webkit-calc(100% + 16px);
   width: -o-calc(100% + 16px);
@@ -830,41 +829,10 @@ svg {
 .rTimelineEach {
   display: flex;
   align-items: center;
+  background-color: yellow;
+  min-height: 50px;
   height: auto;
-  margin-bottom: 25px;
-  padding-right: 25px; }
-
-.rTL {
-  min-height: 150px;
-  height: auto;
-  width: 100%;
-  overflow-y: hidden; }
-
-.rTLy {
-  width: 15%;
-  font-size: .8em;
-  color: #999;
-  float: left;
-  text-align: center; }
-
-.rTLd {
-  display: block;
-  width: 85%;
-  font-size: .8em;
-  color: #333;
-  font-family: "Libre Baskerville", Georgia, serif;
-  float: right;
-  margin-bottom: 20px; }
-
-.d3-tip {
-  line-height: 1;
-  padding: 6px;
-  background: #333;
-  color: #fff;
-  border-radius: 4px;
-  font-size: 12px;
-  text-align: left;
-  max-width: 250px; }
+  margin-bottom: 25px; }
 
 /* Creates a small triangle extender for the tooltip */
 .d3-tip:after {
@@ -883,87 +851,3 @@ svg {
   margin: -2px 0 0 0;
   top: 100%;
   left: 0; }
-
-.AItip-h {
-  font-size: 10px;
-  font-weight: bold;
-  font-style: italic;
-  text-transform: capitalize;
-  line-height: 16px; }
-
-.AItip-p {
-  font-size: 10px;
-  font-weight: normal;
-  margin-bottom: 10px; }
-
-.AItip-more {
-  font-size: 9px;
-  font-weight: light;
-  line-height: 14px;
-  opacity: .75; }
-
-.lightbox {
-  position: fixed;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 50%;
-  background-color: rgba(0, 0, 0, 0.9);
-  display: flex;
-  align-items: center;
-  color: white;
-  padding: 5%; }
-
-.lbType {
-  font-size: 11px;
-  font-family: "Rubik", Trebuchet, sans-serif;
-  font-weight: bold;
-  text-transform: capitalize;
-  text-align: center; }
-
-.lbBetween {
-  font-size: 10px;
-  font-family: "Rubik", Trebuchet, sans-serif;
-  margin-top: -15px;
-  color: #f15a24;
-  font-weight: normal;
-  text-transform: capitalize;
-  text-align: center; }
-
-.lbNotes {
-  font-size: 10px;
-  font-family: "Libre Baskerville", Georgia, serif; }
-
-.lbRef {
-  font-size: 8px;
-  font-family: "Rubik", Trebuchet, sans-serif;
-  margin-top: 15px;
-  color: #999; }
-
-.lineTooltip {
-  width: 50px; }
-
-.lTip {
-  line-height: 1;
-  padding: 6px;
-  background: #333;
-  color: #fff;
-  border-radius: 4px;
-  font-size: 12px;
-  text-align: center;
-  width: 100%;
-  margin-left: 55px; }
-
-.lTip:after {
-  box-sizing: border-box;
-  display: inline;
-  font-size: 10px;
-  width: 100%;
-  line-height: 1;
-  color: #333;
-  content: "\25BC";
-  position: absolute;
-  text-align: center;
-  margin: -2px 0 0 0;
-  top: 100%;
-  left: 55px; }

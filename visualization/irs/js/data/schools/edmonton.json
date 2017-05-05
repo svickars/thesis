@@ -58,59 +58,59 @@
     }],
     "chronoHistory": [{
       "date": 1924,
-      "desc": "Edmonton IRS opened its doors to pupils in March 1924. The official opening of the school was on October 23, 1924 ",
+      "desc": ["Edmonton IRS opened its doors to pupils in March 1924. The official opening of the school was on October 23, 1924 "],
       "ref": ["000293"]
     }, {
       "date": 1931,
-      "desc": "A 1931 Inspection Report indicates that the school had two classrooms",
+      "desc": ["A 1931 Inspection Report indicates that the school had two classrooms"],
       "ref": ["000302"]
     }, {
       "date": 1933,
-      "desc": "A 1933 Inspection Report indicates grades 1 to 8 were taught at the school ",
+      "desc": ["A 1933 Inspection Report indicates grades 1 to 8 were taught at the school "],
       "ref": ["000315"]
     }, {
       "date": 1946,
-      "desc": "Classes in manual training for the boys and handicrafts for the girls opened in the fall of 1946. The manual training or 'shop work' class was held in a separate building called the utility building or garage. By December 1946, a third classroom in the main school building was required to alleviate the crowded conditions and the arrival of more students at the school. The date ofthe classroom opening is not known at this time; however, an inspection report dated Sept. 30, 1948 references three classrooms at the school.",
+      "desc": ["Classes in manual training for the boys and handicrafts for the girls opened in the fall of 1946. The manual training or 'shop work' class was held in a separate building called the utility building or garage. By December 1946, a third classroom in the main school building was required to alleviate the crowded conditions and the arrival of more students at the school. The date ofthe classroom opening is not known at this time; however, an inspection report dated Sept. 30, 1948 references three classrooms at the school."],
       "ref": ["004982", "001082", "004418", "000087, p.5"]
     }, {
       "date": 1952,
-      "desc": "A fourth classroom was opened in the main residence in the 1952-1953 school year to accommodate students from British Columbia and allow for a full-time academic program. (It was the fifth classroom at the school, as the manual training shop was counted as a classroom.) ",
+      "desc": ["A fourth classroom was opened in the main residence in the 1952-1953 school year to accommodate students from British Columbia and allow for a full-time academic program. (It was the fifth classroom at the school, as the manual training shop was counted as a classroom.) "],
       "ref": ["000151", "000211", "007578"]
     }, {
       "date": 1953,
-      "desc": "A sixth classroom was opened January 5, 1953 in a renovated room adjacent to the manual training shop in the utility building or garage. The new classroom provided improvised accommodation for a senior class of pupils in grades 6 to 8 which had been held in the school chapel since September 1952 ",
+      "desc": ["A sixth classroom was opened January 5, 1953 in a renovated room adjacent to the manual training shop in the utility building or garage. The new classroom provided improvised accommodation for a senior class of pupils in grades 6 to 8 which had been held in the school chapel since September 1952 "],
       "ref": ["007580", "004871", "004830", "007654", "004804"]
     }, {
       "date": 1955,
-      "desc": "A Home Economics class using the existing school kitchen began in 1955. In 1956, a room was provided and a new kitchen installed to accommodate the Home Economics class.",
+      "desc": ["A Home Economics class using the existing school kitchen began in 1955. In 1956, a room was provided and a new kitchen installed to accommodate the Home Economics class."],
       "ref": ["004998", "004997", "008026"]
     }, {
       "date": 1956,
-      "desc": "The government began an integrated education program in 1956. For one year only, Edmonton IRS pupils in grades 7 to 9 were bused to the 'Guthrie School at Namao Airport', a school4 Yz miles away operated by the Defence Department. The start of the integration program allowed for the closure of the improvised classroom over the garage at Edmonton IRS. Instruction in Industrial Arts commenced at the school as of Sept. 1, 1956 ",
+      "desc": ["The government began an integrated education program in 1956. For one year only, Edmonton IRS pupils in grades 7 to 9 were bused to the 'Guthrie School at Namao Airport', a school4 Yz miles away operated by the Defence Department. The start of the integration program allowed for the closure of the improvised classroom over the garage at Edmonton IRS. Instruction in Industrial Arts commenced at the school as of Sept. 1, 1956 "],
       "ref": ["08030", "008041", "000224", "000219"]
     }, {
       "date": 1957,
-      "desc": "In 1957, the government entered into an agreement with the West Jasper Place School District to allow pupils from Edmonton IRS to attend provincial public schools in Jasper Place, a residential suburb adjacent to the west end of the City of Edmonton",
+      "desc": ["In 1957, the government entered into an agreement with the West Jasper Place School District to allow pupils from Edmonton IRS to attend provincial public schools in Jasper Place, a residential suburb adjacent to the west end of the City of Edmonton"],
       "ref": ["001121", "003306", "003301", "003299"]
     }, {
       "date": 1958,
-      "desc": "A 'Terminal Course Class' for students who had not progressed in the public school integration program began in 1958. The integration program with Jasper Place schools was expanded; Edmonton IRS pupils attended city classes from Grade 5 to Grade 12. The school ceased farming operations at the end of 1958. In late November, the livestock and farm machinery was sold by public auction ",
+      "desc": ["A 'Terminal Course Class' for students who had not progressed in the public school integration program began in 1958. The integration program with Jasper Place schools was expanded; Edmonton IRS pupils attended city classes from Grade 5 to Grade 12. The school ceased farming operations at the end of 1958. In late November, the livestock and farm machinery was sold by public auction "],
       "ref": ["006290", "006289", "US 80256G", "000400"]
     }, {
       "date": 1960,
-      "desc": "Edmonton IRS became a residence-only facility (hostel). All classroom instruction ceased in September 1960, including classes in Home Economics and Industrial Arts; all pupils residing at Edmonton IRS began attending public schools in Jasper Place ",
+      "desc": ["Edmonton IRS became a residence-only facility (hostel). All classroom instruction ceased in September 1960, including classes in Home Economics and Industrial Arts; all pupils residing at Edmonton IRS began attending public schools in Jasper Place "],
       "ref": ["0011128", "000640, p. 3"]
     }, {
       "date": 1962,
-      "desc": "Edmonton IRS became a hostel for high school students. Beginning in 1962, new admissions to Edmonton IRS were limited to grades 8 to 12 Gunior and senior high school grades). Students previously enrolled in lower grades were expected to continue to attend Jasper Place schools to complete their schooling. Modernization of the school building included the provision of four well-appointed classrooms for the use of study groups under the tutelage of teacher-advisors. Old barns were removed ",
+      "desc": ["Edmonton IRS became a hostel for high school students. Beginning in 1962, new admissions to Edmonton IRS were limited to grades 8 to 12 Gunior and senior high school grades). Students previously enrolled in lower grades were expected to continue to attend Jasper Place schools to complete their schooling. Modernization of the school building included the provision of four well-appointed classrooms for the use of study groups under the tutelage of teacher-advisors. Old barns were removed "],
       "ref": ["000014", "US 80256K (p. 1)"]
     }, {
       "date": 1965,
-      "desc": "Recreational facilities at the school were considered inadequate; however, the government diverted money earmarked for a new gymnasium/auditorium to other building projects due to the uncertainty of the future ofEdmonton IRS ",
+      "desc": ["Recreational facilities at the school were considered inadequate; however, the government diverted money earmarked for a new gymnasium/auditorium to other building projects due to the uncertainty of the future ofEdmonton IRS "],
       "ref": ["000056, p. 5"]
     }, {
       "date": 1968,
-      "desc": "The residence closed on June 30, 1968 ",
+      "desc": ["The residence closed on June 30, 1968 "],
       "ref": ["003716"]
     }],
     "notesHistory": [],
