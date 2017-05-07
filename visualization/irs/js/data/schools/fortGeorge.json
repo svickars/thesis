@@ -3,10 +3,10 @@
   "type": "Residential",
   "location": {
     "province": "Quebec",
-    "city": "city",
+    "city": "Fort George",
     "latLng": {
       "lat": 53.83091111,
-      "-78.98991944": 0.000
+      "lng": -78.98991944
     }
   },
   "narrativeDate": "09-11-01",

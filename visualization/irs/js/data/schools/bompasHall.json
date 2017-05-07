@@ -1,5 +1,5 @@
 {
-  "name": "Bompas Hall (Fort Simpson, N.W.T.) Student Residence",
+  "name": "Bompas Hall (Koe Go Cho)",
   "type": "Residential",
   "location": {
     "province": "Northwest Territories",
@@ -9,9 +9,9 @@
       "lng": -121.3590028
     }
   },
-  "narrativeDate": "05-12-19",
+  "narrativeDate": "09-11-01",
   "startYear": 1960,
-  "endYear": 1969,
+  "endYear": 1975,
   "data": {
     "nameVariants": [{
       "startYear": 0,

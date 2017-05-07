@@ -1,15 +1,15 @@
 {
-  "name": "Carcross IRS",
+  "name": "Carcross IRS (Chooutla)",
   "type": "Residential",
   "location": {
-    "province": "Yukon",
+    "province": "Yukon Territory",
     "city": "Carcross",
     "latLng": {
       "lat": 60.17613333,
       "lng": -134.6760667
     }
   },
-  "narrativeDate": "",
+  "narrativeDate": "09-11-01",
   "startYear": 1903,
   "endYear": 1969,
   "data": {

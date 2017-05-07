@@ -1,5 +1,5 @@
 {
-  "name": "Federal Hostel at Baker Lake",
+  "name": "Federal Hostel at Baker Lake (Qamani'tuaq)",
   "type": "Residential",
   "location": {
     "province": "Nunavut",
@@ -9,8 +9,8 @@
       "lng": -96.01343333
     }
   },
-  "narrativeDate": "09-09-14",
-  "startYear": 1959,
+  "narrativeDate": "09-11-01",
+  "startYear": 1961,
   "endYear": 1968,
   "data": {
     "nameVariants": [{
@@ -70,7 +70,7 @@
       "ref": ["BLS-000006-0001", "BLS-000425-0001", "BLS-000008", "BLS-000009", "BLS-000455", "BLS-000010"]
     }, {
       "date": 1964,
-      "desc": ["A Memorandum to the Administrator of the Arctic, dated 1/6/1964, states that no new hostel will be built at Baker Lake in the foreseeable future. “If the plans envisaged for Fort Churchill are carried out, it is probable that the children from outside Baker Lake who cannot be accommodated in the two hostels would be accommodated at Fort Churchill.” ", "Speaking to the need for more student accommodation at Baker Lake, a Memorandum from the Regional Administrator to the Administrator of the Arctic, dated 1/28/1964, states that “although extreme care had been taken in the selection of homes to which children have been assigned for local boarding purposes, cases of outright neglect have been detected, and through close cooperation with the local nurses they have attempted to deal with such problems.” The Memorandum points out that there is an unoccupied building at Baker Lake which the Principal there has suggested would, with minimal renovation, be adequate to serve as a third hostel. ", "The 3/31/1964 Quarterly Return identifies seventeen students in residence at the Baker Lake hostels. ", "The 6/30/1964 Quarterly Return identifies twenty-one students in residence at the Baker Lake hostels. ", "Owing to poor weather and the absence of an available airplane to return children to their homes at outlying camps, the Baker Lake hostels remained open until 7/24/1964. ", "The 9/30/1964 Quarterly Return identifies nineteen students in residence at the Baker Lake hostels.", "The 12/31/1964 Quarterly Return identifies sixteen students in residence at the Baker Lake hostels. ", ],
+      "desc": ["A Memorandum to the Administrator of the Arctic, dated 1/6/1964, states that no new hostel will be built at Baker Lake in the foreseeable future. “If the plans envisaged for Fort Churchill are carried out, it is probable that the children from outside Baker Lake who cannot be accommodated in the two hostels would be accommodated at Fort Churchill.” ", "Speaking to the need for more student accommodation at Baker Lake, a Memorandum from the Regional Administrator to the Administrator of the Arctic, dated 1/28/1964, states that “although extreme care had been taken in the selection of homes to which children have been assigned for local boarding purposes, cases of outright neglect have been detected, and through close cooperation with the local nurses they have attempted to deal with such problems.” The Memorandum points out that there is an unoccupied building at Baker Lake which the Principal there has suggested would, with minimal renovation, be adequate to serve as a third hostel. ", "The 3/31/1964 Quarterly Return identifies seventeen students in residence at the Baker Lake hostels. ", "The 6/30/1964 Quarterly Return identifies twenty-one students in residence at the Baker Lake hostels. ", "Owing to poor weather and the absence of an available airplane to return children to their homes at outlying camps, the Baker Lake hostels remained open until 7/24/1964. ", "The 9/30/1964 Quarterly Return identifies nineteen students in residence at the Baker Lake hostels.", "The 12/31/1964 Quarterly Return identifies sixteen students in residence at the Baker Lake hostels."],
       "ref": ["BLS-000458", "BLS-000464", "BLS-000011", "BLS-000012", "BLS-000487", "BLS-000013", "BLS-000014"]
     }, {
       "date": 1965,
@@ -78,7 +78,7 @@
       "ref": ["BLS-000015", "BLS-000501", "BLS-000016", "BLS-000017", "BLS-000018"]
     }, {
       "date": 1966,
-      "desc": ["The 3/31/1966 Quarterly Return identifies ten students in residence at the Baker Lake hostels. "]
+      "desc": ["The 3/31/1966 Quarterly Return identifies ten students in residence at the Baker Lake hostels."],
       "ref": ["BLS-000019"]
     }, {
       "date": 1967,
@@ -99,14 +99,6 @@
       "ref": ["BLS-000352", "BLS-000320", "BLS-000001", "BLA-000027-0001"]
     }],
     "enrollment": [{
-      "year": 1959,
-      "number": 3,
-      "notes": ""
-    }, {
-      "year": 1960,
-      "number": 8,
-      "notes": ""
-    }, {
       "year": 1961,
       "number": 15,
       "notes": ""

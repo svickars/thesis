@@ -1,15 +1,15 @@
 {
-  "name": "Christie IRS",
+  "name": "Christie IRS (Tofino)",
   "type": "Residential",
   "location": {
-    "province": "...",
-    "city": "...",
+    "province": "British Columbia",
+    "city": "Meares Island / Tofino",
     "latLng": {
-      "lat": 0.000,
-      "lng": 0.000
+      "lat": 49.13110833,
+      "lng": -125.9009833
     }
   },
-  "narrativeDate": "19-01-05",
+  "narrativeDate": "09-11-01",
   "startYear": 1900,
   "endYear": 1983,
   "data": {

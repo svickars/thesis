@@ -1,5 +1,5 @@
 {
-  "name": "Turquetil Hall Student Residence (Chesterfield Inlet, Nunavut)",
+  "name": "Chesterfield Inlet IRS (Turquetil Hall)",
   "type": "Residential",
   "location": {
     "province": "Nunavut",
@@ -9,7 +9,7 @@
       "lng": -90.70515833
     }
   },
-  "narrativeDate": "10-12-09",
+  "narrativeDate": "09-11-01",
   "startYear": 1954,
   "endYear": 1969,
   "data": {

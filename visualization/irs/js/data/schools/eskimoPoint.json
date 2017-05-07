@@ -1,15 +1,15 @@
 {
-  "name": "Federal Hostel at Eskimo Point",
+  "name": "Federal Hostel at Eskimo Point (Arviat)",
   "type": "Residential",
   "location": {
     "province": "Nunavut",
     "city": "Arviat",
     "latLng": {
       "lat": 61.10782778,
-      "lng": -94.06236944
+      "lng": -94.0623694444444
     }
   },
-  "narrativeDate": "09-05-08",
+  "narrativeDate": "09-11-01",
   "startYear": 1962,
   "endYear": 1967,
   "data": {

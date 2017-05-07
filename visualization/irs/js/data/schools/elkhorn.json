@@ -1,5 +1,5 @@
 {
-  "name": "Elkhorn Indian Residential School",
+  "name": "Elkhorn (Washakada) IRS",
   "type": "Residential",
   "location": {
     "province": "Manitoba",
@@ -9,9 +9,9 @@
       "lng": -101.25095
     }
   },
-  "narrativeDate": "13-01-07",
+  "narrativeDate": "09-11-01",
   "startYear": 1889,
-  "endYear": 1923,
+  "endYear": 1949,
   "data": {
     "nameVariants": [{
       "startYear": 1889,

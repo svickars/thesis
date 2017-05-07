@@ -1,5 +1,5 @@
 {
-  "name": "St. Joseph's (Cariboo) IRS",
+  "name": "Cariboo IRS (Williams Lake)",
   "type": "Residential",
   "location": {
     "province": "British Columbia",
@@ -9,7 +9,7 @@
       "lng": -121.9520306
     }
   },
-  "narrativeDate": "04-10-08",
+  "narrativeDate": "09-11-01",
   "startYear": 1891,
   "endYear": 1981,
   "data": {

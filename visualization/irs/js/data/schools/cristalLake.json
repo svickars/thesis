@@ -1,5 +1,5 @@
 {
-  "name": "Cristal Lake Indian Residential School",
+  "name": "Cristal Lake High School",
   "type": "Residential",
   "location": {
     "province": "Ontario",
@@ -9,7 +9,7 @@
       "lng": -90.08485
     }
   },
-  "narrativeDate": "13-02-21",
+  "narrativeDate": "09-11-01",
   "startYear": 1976,
   "endYear": 1986,
   "data": {

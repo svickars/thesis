@@ -1,5 +1,5 @@
 {
-  "name": "Ermineskin IRS",
+  "name": "Ermineskin (Hobbema) IRS",
   "type": "Residential",
   "location": {
     "province": "Alberta",
@@ -9,9 +9,9 @@
       "lng": -113.4573556
     }
   },
-  "narrativeDate": "09-09-15",
+  "narrativeDate": "09-11-01",
   "startYear": 1894,
-  "endYear": 1987,
+  "endYear": 1975,
   "data": {
     "nameVariants": [{
       "startYear": 1877,

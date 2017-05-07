@@ -1,5 +1,5 @@
 {
-  "name": "Cecilia Jeffrey IRS",
+  "name": "Cecilia Jeffrey IRS (Shoal Lake)",
   "type": "Residential",
   "location": {
     "province": "Ontario",
@@ -9,8 +9,8 @@
       "lng": -94.4401
     }
   },
-  "narrativeDate": "",
-  "startYear": 1899,
+  "narrativeDate": "09-11-01",
+  "startYear": 1902,
   "endYear": 1976,
   "data": {
     "nameVariants": [{

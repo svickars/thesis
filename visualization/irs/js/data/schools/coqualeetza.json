@@ -1,5 +1,5 @@
 {
-  "name": "Coqualeetza IRS",
+  "name": "Coqualeetza RS (Chilliwack Home)",
   "type": "Residential",
   "location": {
     "province": "British Columbia",
@@ -9,9 +9,9 @@
       "lng": -121.9599472
     }
   },
-  "narrativeDate": "04-11-09",
+  "narrativeDate": "09-11-01",
   "startYear": 1889,
-  "endYear": 1939,
+  "endYear": 1940,
   "data": {
     "nameVariants": [{
       "startYear": "1889",
@@ -87,14 +87,6 @@
       "ref": ["00004"]
     }],
     "chronoHistory": [{
-      "date": 1886,
-      "desc": ["First Day School organized at the Mission House at Coqualeetza."],
-      "ref": ["00957", "00897A"]
-    }, {
-      "date": 1887,
-      "desc": ["First pupils taken into residence at Mission House at Coqualeetza."],
-      "ref": ["00973", "00984", "00957", "00897A"]
-    }, {
       "date": 1889,
       "desc": ["School building constructed."],
       "ref": ["00984"]

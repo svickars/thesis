@@ -1,5 +1,5 @@
 {
-  "name": "Anahim Lake Dormitory",
+  "name": "Anahim Lake Dormitory (Ulkatcho)",
   "type": "Residential",
   "location": {
     "province": "British Columbia",
@@ -10,7 +10,7 @@
     }
   },
   "narrativeDate": "09-11-01",
-  "startYear": 1960,
+  "startYear": 1968,
   "endYear": 1977,
   "data": {
     "nameVariants": [{
@@ -100,7 +100,7 @@
       "date": 1973,
       "desc": ["The Department decided to discontinue the Anahim Lake Indian Day School because the Williams Lake School Board No. 27 had decided to build a new school in Anahim Lake.", "The Anahim Lake Indian Day School is closed as of September 1, 1973."],
       "ref": ["ANH-200166", "ABR-200943"]
-    }, , {
+    }, {
       "date": 1975,
       "desc": ["Plans were put in place to turn the dormitory, school, and teacherage over to the Ulkatcho Band."],
       "ref": ["JOE-017534"]
@@ -111,20 +111,6 @@
     }],
     "notesHistory": [],
     "management": [{
-      "startYear": 1960,
-      "endYear": 1969,
-      "org": "church",
-      "orgName": "Sisters of Christ the King and Oblates of Mary Immaculate",
-      "type": ["Management", "Teaching", "Staff"],
-      "ref": []
-    }, {
-      "startYear": 1960,
-      "endYear": 1966,
-      "org": "church",
-      "orgName": "Sisters of Christ the King",
-      "type": ["Management", "Teaching", "Staff"],
-      "ref": ["ALD-200231"]
-    }, {
       "startYear": 1968,
       "endYear": 1977,
       "org": "government",
@@ -133,10 +119,6 @@
       "ref": []
     }],
     "enrollment": [{
-      "year": 1967,
-      "number": 50,
-      "notes": ""
-    }, {
       "year": 1968,
       "number": 42,
       "notes": ""

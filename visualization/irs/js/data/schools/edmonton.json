@@ -1,5 +1,5 @@
 {
-  "name": "Edmonton Indian Residential School (IRS)",
+  "name": "Edmonton (Poundmaker) IRS",
   "type": "Residential",
   "location": {
     "province": "Alberta",
@@ -9,8 +9,8 @@
       "lng": -113.5727139
     }
   },
-  "narrativeDate": "04-03-01",
-  "startYear": 1920,
+  "narrativeDate": "09-11-01",
+  "startYear": 1924,
   "endYear": 1968,
   "data": {
     "nameVariants": [{

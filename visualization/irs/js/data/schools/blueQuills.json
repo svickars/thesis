@@ -1,5 +1,5 @@
 {
-  "name": "Blue Quills Indian Residential School",
+  "name": "Blue Quills (Sacred Heart) IRS",
   "type": "Residential",
   "location": {
     "province": "Alberta",
@@ -9,9 +9,9 @@
       "lng": -111.2956139
     }
   },
-  "narrativeDate": "04-03-22",
+  "narrativeDate": "09-11-01",
   "startYear": 1891,
-  "endYear": 1979,
+  "endYear": 1990,
   "data": {
     "nameVariants": [{
       "startYear": 1891,
@@ -46,31 +46,31 @@
     }],
     "chronoHistory": [{
       "date": 1891,
-      "desc": "Opening of Lac Ia Biche Boarding School at Lac la Biche R.C. Mission, Lac la Biche, Alberta (some educational activities appear to have occurred at the Mission prior to 1891, however, Government documents are unable to confirm this)",
+      "desc": ["Opening of Lac Ia Biche Boarding School at Lac la Biche R.C. Mission, Lac la Biche, Alberta (some educational activities appear to have occurred at the Mission prior to 1891, however, Government documents are unable to confirm this)"],
       "ref": ["01520"]
     }, {
       "date": 1898,
-      "desc": "Removal of school buildings from Lac la Biche Boarding School to new location on Saddle Lake Reserve ('Blue Quill's' reserve) and opening ofBlue Quills [Quill's] Boarding School",
+      "desc": ["Removal of school buildings from Lac la Biche Boarding School to new location on Saddle Lake Reserve ('Blue Quill's' reserve) and opening ofBlue Quills [Quill's] Boarding School"],
       "ref": ["07304"]
     }, {
       "date": 1931,
-      "desc": "Opening of Blue Quills Indian [R.C.] Residential School, near St. Paul, Alberta on non-reserve Crown land, Section 11, Township 58, Range 10, West ofthe 4th Meridian",
+      "desc": ["Opening of Blue Quills Indian [R.C.] Residential School, near St. Paul, Alberta on non-reserve Crown land, Section 11, Township 58, Range 10, West ofthe 4th Meridian"],
       "ref": ["07654"]
     }, {
       "date": 1956,
-      "desc": "Beginning in this academic year, high school students who lived in residence at Blue Quills IRS were bussed to schools in St. Paul, Alberta. [Item# 04385] These schoolswereProvincialpublicschools. Elementaryandjuniorhighschool students [to Grade 8 inclusive] in residence continued to receive educational services at Blue Quills I.R.S.",
+      "desc": ["Beginning in this academic year, high school students who lived in residence at Blue Quills IRS were bussed to schools in St. Paul, Alberta. [Item# 04385] These schoolswereProvincialpublicschools. Elementaryandjuniorhighschool students [to Grade 8 inclusive] in residence continued to receive educational services at Blue Quills I.R.S."],
       "ref": ["02455"]
     }, {
       "date": 1961,
-      "desc": "Joint school agreement with the Town of St. Paul. [Item# 02226] The Government provided $190, 212, or 25% ofthe cost of a new school the St. Paul School Board had built and that in doing so, the Government purchased space for 125 Indian students from both Blue Quills IRS and the Saddle Lake Reserve for students in grade 1 to 12 beginning in 1961 - 1962 school year.",
+      "desc": ["Joint school agreement with the Town of St. Paul. [Item# 02226] The Government provided $190, 212, or 25% ofthe cost of a new school the St. Paul School Board had built and that in doing so, the Government purchased space for 125 Indian students from both Blue Quills IRS and the Saddle Lake Reserve for students in grade 1 to 12 beginning in 1961 - 1962 school year."],
       "ref": ["02229"]
     }, {
       "date": 1971,
-      "desc": "The Blue Quills Native Education Council (BQNEC) took over operations of the residence.",
+      "desc": ["The Blue Quills Native Education Council (BQNEC) took over operations of the residence."],
       "ref": [""]
     }, {
       "date": 1972,
-      "desc": "The Blue Quills Native Education Council (BQNEC) took over operations of the classrooms.",
+      "desc": ["The Blue Quills Native Education Council (BQNEC) took over operations of the classrooms."],
       "ref": [""]
     }],
     "notesHistory": [],
@@ -82,7 +82,7 @@
       "type": ["Management"],
       "ref": ["01690", "07783", "00850"]
     }, {
-      "startYear": 1890,
+      "startYear": 1891,
       "endYear": 1969,
       "org": "church",
       "orgName": "Sisters of Charity, Grey Nuns of Montreal",

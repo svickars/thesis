@@ -1,5 +1,5 @@
 {
-  "name": "Cross Lake Indian Residential School",
+  "name": "Cross Lake IRS",
   "type": "Residential",
   "location": {
     "province": "Manitoba",
@@ -9,7 +9,7 @@
       "lng": -97.77560833
     }
   },
-  "narrativeDate": "12-09-06",
+  "narrativeDate": "09-11-01",
   "startYear": 1912,
   "endYear": 1969,
   "data": {

@@ -1,5 +1,5 @@
 {
-  "name": "Crowstand Indian Residential School",
+  "name": "Crowstand IRS",
   "type": "Residential",
   "location": {
     "province": "Saskatchewan",
@@ -9,7 +9,7 @@
       "lng": -101.8432278
     }
   },
-  "narrativeDate": "12-12-31",
+  "narrativeDate": "09-11-01",
   "startYear": 1889,
   "endYear": 1915,
   "data": {
@@ -73,10 +73,6 @@
       "ref": [""]
     }],
     "enrollment": [{
-      "year": 1888,
-      "number": 41,
-      "notes": ""
-    }, {
       "year": 1889,
       "number": 37,
       "notes": ""

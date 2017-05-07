@@ -1,5 +1,5 @@
 {
-  "name": "St. Martin's (Desmarais) Indian Residential School IRS",
+  "name": "Desmarais (St. Martin's) IRS",
   "type": "Residential",
   "location": {
     "province": "Alberta",
@@ -9,8 +9,8 @@
       "lng": -113.8058722
     }
   },
-  "narrativeDate": "05-09-20",
-  "startYear": 1900,
+  "narrativeDate": "09-11-01",
+  "startYear": 1902,
   "endYear": 1973,
   "data": {
     "nameVariants": [{

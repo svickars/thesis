@@ -1,5 +1,5 @@
 {
-  "name": "Akaitcho Hall IRS",
+  "name": "Akaitcho Hall (Yellowknife Federal Hostel)",
   "type": "Residential",
   "location": {
     "province": "Northwest Territories",
@@ -9,7 +9,7 @@
       "lng": -114.3613667
     }
   },
-  "narrativeDate": "05-11-08",
+  "narrativeDate": "09-11-01",
   "startYear": 1958,
   "endYear": 1970,
   "data": {

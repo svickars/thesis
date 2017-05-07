@@ -1,5 +1,5 @@
 {
-  "name": "Breynat Hall Student Residence",
+  "name": "Breynat Hall (Fort Smith Hostel)",
   "type": "Residential",
   "location": {
     "province": "Northwest Territories",
@@ -9,9 +9,9 @@
       "lng": -111.8933278
     }
   },
-  "narrativeDate": "05-10-01",
-  "startYear": 1955,
-  "endYear": 1976,
+  "narrativeDate": "09-11-01",
+  "startYear": 1957,
+  "endYear": 1975,
   "data": {
     "nameVariants": [{
       "startYear": 1958,

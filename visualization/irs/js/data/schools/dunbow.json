@@ -1,12 +1,12 @@
 {
-  "name": "St. Joseph's (Dunbow)",
+  "name": "St. Joseph's IRS (Dunbow)",
   "type": "Residential",
   "location": {
     "province": "Alberta",
     "city": "High River",
     "latLng": {
       "lat": 50.80824167,
-      "-113.7908111": 0.000
+      "lng": -113.7908111
     }
   },
   "narrativeDate": "09-11-01",
@@ -19,19 +19,7 @@
     "management": [],
     "enrollment": [],
     "reserves": [""],
-    "religiousGroups": [{
-      "group": "group",
-      "ref": ["number"]
-    }, {
-      "group": "group",
-      "ref": ["number"]
-    }, {
-      "group": "group",
-      "ref": ["number"]
-    }, {
-      "group": "group",
-      "ref": ["number"]
-    }],
+    "religiousGroups": [],
     "writtenAgreements": [],
     "additionalInformation": []
   }

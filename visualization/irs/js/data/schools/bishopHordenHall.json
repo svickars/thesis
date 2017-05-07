@@ -1,5 +1,5 @@
 {
-  "name": "Bishop Horden Hall",
+  "name": "Bishop Horden Hall (Moose Factory)",
   "type": "Residential",
   "location": {
     "province": "Ontario",
@@ -9,7 +9,7 @@
       "lng": -80.61425
     }
   },
-  "narrativeDate": "12-05-01",
+  "narrativeDate": "09-11-01",
   "startYear": 1906,
   "endYear": 1976,
   "data": {

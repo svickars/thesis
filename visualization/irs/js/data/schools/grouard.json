@@ -1,12 +1,12 @@
 {
-  "name": "Grouard (St. Bernard's)",
+  "name": "Grouard (St. Bernard's) IRS",
   "type": "Residential",
   "location": {
     "province": "Alberta",
-    "city": "city",
+    "city": "Grouard",
     "latLng": {
       "lat": 55.5471667,
-      "-116.1220556": 0.000
+      "lng": -116.1220556
     }
   },
   "narrativeDate": "09-11-01",
@@ -19,19 +19,7 @@
     "management": [],
     "enrollment": [],
     "reserves": [""],
-    "religiousGroups": [{
-      "group": "group",
-      "ref": ["number"]
-    }, {
-      "group": "group",
-      "ref": ["number"]
-    }, {
-      "group": "group",
-      "ref": ["number"]
-    }, {
-      "group": "group",
-      "ref": ["number"]
-    }],
+    "religiousGroups": [],
     "writtenAgreements": [],
     "additionalInformation": []
   }

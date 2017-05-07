@@ -1,12 +1,12 @@
 {
-  "name": "Assumption (Hay Lakes)",
+  "name": "Assumption IRS (Hay Lakes)",
   "type": "Residential",
   "location": {
     "province": "Alberta",
-    "city": "city",
+    "city": "Assumption",
     "latLng": {
       "lat": 58.7018,
-      "-118.686322": 0.000
+      "lng": -118.686322
     }
   },
   "narrativeDate": "09-11-01",
@@ -19,19 +19,7 @@
     "management": [],
     "enrollment": [],
     "reserves": [""],
-    "religiousGroups": [{
-      "group": "group",
-      "ref": ["number"]
-    }, {
-      "group": "group",
-      "ref": ["number"]
-    }, {
-      "group": "group",
-      "ref": ["number"]
-    }, {
-      "group": "group",
-      "ref": ["number"]
-    }],
+    "religiousGroups": [],
     "writtenAgreements": [],
     "additionalInformation": []
   }

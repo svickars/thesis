@@ -1,17 +1,17 @@
 {
-  "name": "school",
+  "name": "Coudert Hall (Whitehorse Hostel)",
   "type": "Residential",
   "location": {
-    "province": "Yukon",
+    "province": "Yukon Territory",
     "city": "Whitehorse",
     "latLng": {
       "lat": 60.70438333,
       "lng": -135.0371778
     }
   },
-  "narrativeDate": "05-05-04",
+  "narrativeDate": "09-11-01",
   "startYear": 1960,
-  "endYear": 1966,
+  "endYear": 1971,
   "data": {
     "nameVariants": [{
       "startYear": 1960,

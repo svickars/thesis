@@ -1,5 +1,5 @@
 {
-  "name": "Churchill Vocational Centre",
+  "name": "Churchill IRS",
   "type": "Residential",
   "location": {
     "province": "Manitoba",
@@ -9,7 +9,7 @@
       "lng": -94.07794444
     }
   },
-  "narrativeDate": "12-12-12",
+  "narrativeDate": "09-11-01",
   "startYear": 1964,
   "endYear": 1973,
   "data": {

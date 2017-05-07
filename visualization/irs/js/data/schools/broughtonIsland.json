@@ -1,5 +1,5 @@
 {
-  "name": "Federal Hostel at Broughton Island",
+  "name": "Federal Hostel at Broughton Island (Qikiqtarjuaq)",
   "type": "Residential",
   "location": {
     "province": "Nunavut",
@@ -9,7 +9,7 @@
       "lng": 67.55561667
     }
   },
-  "narrativeDate": "09-12-11",
+  "narrativeDate": "09-11-01",
   "startYear": 1961,
   "endYear": 1966,
   "data": {

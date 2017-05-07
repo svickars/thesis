@@ -1,5 +1,5 @@
 {
-  "name": "Crowfoot IRS",
+  "name": "Crowfoot (St. Joseph's) IRS",
   "type": "Residential",
   "location": {
     "province": "Alberta",
@@ -9,9 +9,9 @@
       "lng": -112.8869222
     }
   },
-  "narrativeDate": "04-08-11",
+  "narrativeDate": "09-11-01",
   "startYear": 1900,
-  "endYear": 1975,
+  "endYear": 1968,
   "data": {
     "nameVariants": [{
       "startYear": "",

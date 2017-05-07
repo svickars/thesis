@@ -1,5 +1,5 @@
 {
-  "name": "All Saints Aklavik RS",
+  "name": "All Saints (Aklavik Anglican) RS",
   "type": "Residential",
   "location": {
     "province": "Northwest Territories",
@@ -9,7 +9,7 @@
       "lng": -135.0075444
     }
   },
-  "narrativeDate": "05-06-06",
+  "narrativeDate": "09-11-01",
   "startYear": 1936,
   "endYear": 1959,
   "data": {

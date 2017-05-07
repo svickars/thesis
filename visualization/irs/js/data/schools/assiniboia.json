@@ -1,5 +1,5 @@
 {
-  "name": "Assiniboia Indian Residential School",
+  "name": "Assiniboia IRS (Winnipeg)",
   "type": "Residential",
   "location": {
     "province": "Manitoba",
@@ -9,7 +9,7 @@
       "lng": -97.19981944
     }
   },
-  "narrativeDate": "12-11-23",
+  "narrativeDate": "09-11-01",
   "startYear": 1958,
   "endYear": 1973,
   "data": {

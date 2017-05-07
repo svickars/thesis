@@ -1,5 +1,5 @@
 {
-  "name": "Amos Indian Residential School",
+  "name": "Amos (Saint-Marc-de-Figuery) IRS",
   "type": "Residential",
   "location": {
     "province": "Quebec",
@@ -9,7 +9,7 @@
       "lng": -78.04351667
     }
   },
-  "narrativeDate": "",
+  "narrativeDate": "09-11-01",
   "startYear": 1955,
   "endYear": 1973,
   "data": {

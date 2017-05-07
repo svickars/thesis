@@ -1,5 +1,5 @@
 {
-  "name": "Beauval (Ile a la Crosse) Indian Residential School",
+  "name": "Beauval IRS (Ile a la Crosse)",
   "type": "Residential",
   "location": {
     "province": "Saskatchewan",
@@ -9,8 +9,8 @@
       "lng": -107.5817222
     }
   },
-  "narrativeDate": "",
-  "startYear": 1860,
+  "narrativeDate": "09-11-01",
+  "startYear": 1897,
   "endYear": 1995,
   "data": {
     "nameVariants": [{
@@ -93,14 +93,14 @@
     }],
     "notesHistory": [],
     "management": [{
-      "startYear": 1860,
+      "startYear": 1897,
       "endYear": 1969,
       "org": "church",
-      "orgName": "ROman Catholic Church",
+      "orgName": "Roman Catholic Church",
       "type": ["Management", "Teaching", "Staff"],
       "ref": []
     }, {
-      "startYear": 1860,
+      "startYear": 1897,
       "endYear": 1905,
       "org": "church",
       "orgName": "Grey Nuns",

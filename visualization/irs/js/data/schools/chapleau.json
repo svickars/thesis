@@ -1,5 +1,5 @@
 {
-  "name": "Chapleau (St. John's) IRS",
+  "name": "Chapleau IRS (St. John's)",
   "type": "Residential",
   "location": {
     "province": "Ontario",
@@ -9,7 +9,7 @@
       "lng": -83.39447778
     }
   },
-  "narrativeDate": "",
+  "narrativeDate": "09-11-01",
   "startYear": 1907,
   "endYear": 1948,
   "data": {

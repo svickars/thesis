@@ -1,5 +1,5 @@
 {
-  "name": "Battleford Industrial School",
+  "name": "Battleford IRS",
   "type": "Residential",
   "location": {
     "province": "Saskatchewan",
@@ -9,7 +9,7 @@
       "lng": -108.3087472
     }
   },
-  "narrativeDate": "13-01-17",
+  "narrativeDate": "09-11-01",
   "startYear": 1883,
   "endYear": 1914,
   "data": {

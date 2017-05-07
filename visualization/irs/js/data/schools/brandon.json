@@ -1,5 +1,5 @@
 {
-  "name": "Brandon Indian Residential School",
+  "name": "Brandon IRS",
   "type": "Residential",
   "location": {
     "province": "Manitoba",
@@ -9,7 +9,7 @@
       "lng": -99.98953056
     }
   },
-  "narrativeDate": "12-09-14",
+  "narrativeDate": "09-11-01",
   "startYear": 1895,
   "endYear": 1972,
   "data": {
