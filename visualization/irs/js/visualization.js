@@ -1,12 +1,13 @@
 // GLOBAL
 // draw first story when page is loaded
-var storyID = "mbrown";
+var storyID = "mbrown",
+  orange = "#f15a24",
+  mediumGray = "#999",
+  rightBar = false,
+  status = "begin",
+  mapStatus = "none",
+  drawn = false;
 window.onload = drawStory(storyID);
-var orange = "#f15a24";
-var mediumGray = "#999";
-var rightBar = false;
-var status = "begin";
-var drawn = false;
 
 // SCROLLMAGIC
 // define global controller
@@ -23,8 +24,8 @@ var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/svickars/cj15o81vo00212rqu9mw0wgkp',
   center: [-92.01173055555556, 50.12052777777778],
-  zoom: 9,
-  attributionControl: false
+  zoom: 9
+  // attributionControl: false
 });
 map.scrollZoom.disable();
 map.dragRotate.disable();
@@ -39,6 +40,7 @@ var map1_p = new ScrollMagic.Scene({
   .setPin("#map1_cont")
   .on("enter", function() {
     status = "map";
+    mapStatus = "zoomedIn";
   })
   .addTo(controller);
 
@@ -82,6 +84,22 @@ d3.json("js/data/locations.json", function(collection) {
       return d.locationName + " " + d.title;
     });
 
+  var featureR = g.selectAll(".rDot")
+    .data(collection.reservations)
+    .enter().append("circle", ".rDot")
+    .attr("pointer-events", "visible")
+    .attr("class", function(d) {
+      return "rDot reserveDot " + d.listConnections;
+    })
+    .attr("id", function(d) {
+      return "rDot-" + d.id;
+    })
+    .style("stroke", "none")
+    .style("display", "none")
+    .style("opacity", "0")
+    .style("fill", "#333")
+    .attr("r", 15);
+
   var rTip = g.selectAll(".rTip")
     .data(collection.reservations)
     .enter().append("text", ".rtip")
@@ -94,6 +112,21 @@ d3.json("js/data/locations.json", function(collection) {
     .attr("dy", "5px")
     .text(function(d) {
       return d.reserve
+    });
+
+  var sTipB = g.selectAll(".sTipB")
+    .data(collection.schools)
+    .enter().append("text", ".stipB")
+    .attr("class", "sTooltipB")
+    .attr("id", function(d) {
+      return "sTip-" + d.schoolID;
+    })
+    .attr("pointer-events", "none")
+    .attr("dx", "9px")
+    .attr("dy", "5px")
+    // .style("stroke", "white")
+    .text(function(d) {
+      return d.locationName + " " + d.title;
     });
 
   var sTip = g.selectAll(".sTip")
@@ -110,6 +143,21 @@ d3.json("js/data/locations.json", function(collection) {
       return d.locationName + " " + d.title;
     });
 
+  var sTip2B = g.selectAll(".sTip2B")
+    .data(collection.schools)
+    .enter().append("text", ".stip2B")
+    .attr("class", "sTooltip2B")
+    .attr("id", function(d) {
+      return "sTip-" + d.schoolID;
+    })
+    .attr("pointer-events", "none")
+    .attr("dx", "9px")
+    .attr("dy", "19px")
+    // .style("stroke", "white")
+    .text(function(d) {
+      return d.start + " - " + d.end;
+    });
+
   var sTip2 = g.selectAll(".sTip2")
     .data(collection.schools)
     .enter().append("text", ".stip2")
@@ -123,22 +171,6 @@ d3.json("js/data/locations.json", function(collection) {
     .text(function(d) {
       return d.start + " - " + d.end;
     });
-
-  var featureR = g.selectAll(".rDot")
-    .data(collection.reservations)
-    .enter().append("circle", ".rDot")
-    .attr("pointer-events", "visible")
-    .attr("class", function(d) {
-      return "rDot reserveDot " + d.listConnections;
-    })
-    .attr("id", function(d) {
-      return "rDot-" + d.id;
-    })
-    .style("stroke", "none")
-    .style("display", "none")
-    .style("opacity", "0")
-    .style("fill", "#333")
-    .attr("r", 15);
 
   var feature = g.selectAll(".sCircle")
     .data(collection.schools)
@@ -173,7 +205,19 @@ d3.json("js/data/locations.json", function(collection) {
       .attr("y", function(d) {
         return d3Projection([d.longitude, d.latitude])[1];
       });
+    sTipB.attr("x", function(d) {
+        return d3Projection([d.longitude, d.latitude])[0];
+      })
+      .attr("y", function(d) {
+        return d3Projection([d.longitude, d.latitude])[1];
+      });
     sTip2.attr("x", function(d) {
+        return d3Projection([d.longitude, d.latitude])[0];
+      })
+      .attr("y", function(d) {
+        return d3Projection([d.longitude, d.latitude])[1];
+      });
+    sTip2B.attr("x", function(d) {
         return d3Projection([d.longitude, d.latitude])[0];
       })
       .attr("y", function(d) {
@@ -228,8 +272,10 @@ d3.json("js/data/locations.json", function(collection) {
     d3.selectAll(".schoolMarker").style("opacity", ".25");
     // turn current dot dark gray
     d3.select("#dot-" + d.schoolID).style("fill", "#333").style("opacity", 1);
-    // turn on school tooltip for current dot
-    d3.selectAll("#sTip-" + d.schoolID).style("opacity", "1.0");
+    if (mapStatus != "zoomedIn") {
+      // turn on school tooltip for current dot
+      d3.selectAll("#sTip-" + d.schoolID).style("opacity", "1.0");
+    };
     // for schools with known reserve connections
     if (d.listConnections === "") {} else {
       // remove reserveDot class from the ones this school is connected to and un-dim those guys
@@ -245,8 +291,10 @@ d3.json("js/data/locations.json", function(collection) {
     // remove reserveDot class from current dot and dim all school dots, except current
     d3.select("#rDot-" + d.id).classed("reserveDot", false);
     d3.selectAll(".reserveDot").style("opacity", ".025").style("fill", "#333");
-    // turn on school tooltip for current dot
-    d3.selectAll("#rTip-" + d.id).style("opacity", "1.0");
+    if (mapStatus != "zoomedIn") {
+      // turn on school tooltip for current dot
+      d3.selectAll("#rTip-" + d.id).style("opacity", "1.0");
+    };
     // for schools with known reserve connections
     if (d.listConnections === "") {} else {
       // remove reserveDot class from the ones this school is connected to and un-dim those guys
@@ -657,6 +705,9 @@ function pageSix(name) {
       if (dir === "FORWARD") {
         d3.selectAll(".schoolLabel").style("opacity", "0");
         d3.selectAll(".schoolMarker").style("opacity", "0");
+        d3.select("#l1").transition().duration(500).ease(d3.easeLinear).style("opacity", .75);
+
+        mapStatus = "zoomedOut";
 
         map.flyTo({
           center: [-100, 58],
@@ -672,6 +723,10 @@ function pageSix(name) {
       } else {
         d3.select("#dot-" + data.schoolID).style("opacity", 1);
         d3.select("#label-" + data.schoolID).style("opacity", 1);
+        d3.select("#l1").transition().duration(300).ease(d3.easeLinear).style("opacity", 0);
+
+        mapStatus = "zoomedIn";
+
         map.flyTo({
           center: [data.latLng.lng, data.latLng.lat],
           zoom: data.zoom,
@@ -713,9 +768,13 @@ function pageSix(name) {
       var dir = event.scrollDirection;
       if (dir === "FORWARD") {
         d3.selectAll(".reserveDot").style("display", "block").transition().duration(600).ease(d3.easeLinear).style("opacity", 0.1);
+        d3.select("#l2").transition().duration(500).ease(d3.easeLinear).style("opacity", .75);
+        d3.select(".legendIn-bottom").transition().delay(500).duration(500).ease(d3.easeLinear).style("opacity", .75);
       } else {
         d3.selectAll(".reserveDot").transition().duration(600).ease(d3.easeLinear).style("opacity", 0);
         d3.selectAll(".reserveDot").transition().delay(600).style("display", "none");
+        d3.select("#l2").transition().duration(300).ease(d3.easeLinear).style("opacity", 0);
+        d3.select(".legendIn-bottom").transition().duration(300).ease(d3.easeLinear).style("opacity", 0);
       };
     })
 
@@ -791,8 +850,9 @@ function rightBarOut(data) {
 
   var mapWidth = window.innerWidth / 2;
 
-  d3.select("#map").transition().delay(500).duration(0).style("height", window.innerHeight + "px").style("width", mapWidth + "px");
-  d3.select(".mapboxgl-ctrl-top-right").transition().delay(500).duration(500).style("opacity", 1);
+  // d3.select("#map").transition().delay(500).duration(0).style("height", window.innerHeight + "px").style("width", mapWidth + "px");
+  // d3.select(".mapboxgl-ctrl-top-right").transition().delay(500).duration(500).style("opacity", 1);
+  d3.select(".map").style("transform", "translate(-25%,0)")
 
   map.flyTo({
     center: [lng, lat],
@@ -805,6 +865,7 @@ function rightBarOut(data) {
       return t;
     }
   });
+
 
   if (data.listConnections === "") {} else {
     // remove reserveDot class from the ones this school is connected to and un-dim those guys
@@ -825,34 +886,36 @@ function rightBarData(data) {
   // d3.select("#rightBar").style("right", "-" + rightBarNeg + "px");
   var all = data;
   d3.json("js/data/schools/" + data.schoolID + ".json", function(school) {
+
     var rTitle = d3.select("#rTitle").append("h2").attr("class", "rRemove").html(school.name.replace("IRS", "Indian Residential School").replace("RS", "Residential School"));
+    d3.selectAll("#rBG").style("background-image", "url('/images/schoolPhotos/" + data.schoolID + ".jpg')");
     var rSub = d3.select("#rSub").append("p").attr("class", "rRemove").html("Open from <span class='orange'>" + school.startYear + "</span> to <span class='orange'>" + school.endYear + "</span> in <span class='orange'>" + data.placeName + "</span>, <span class='orange'>" + data.province + "</span>.")
 
     var r25height = (document.getElementById("rightBar").offsetHeight - document.getElementById("r5").offsetHeight - 20 - 20) / 2
     d3.selectAll(".r25").style("height", r25height + "px");
 
-    if (school.data.reserves.length === 0) {
-      var rReserves = d3.select("#rReserves").append("div").attr("class", "r1Content rRemove");
-      rReserves.append("h4").html("Data not yet available...");
-    } else {
-      var rReserves = d3.select("#rReserves").append("div").attr("class", "r1Content rRemove");
-      rReserves.append("h4").html("The school drew students from various bands, tribes, and reserves:");
-      for (var i = 0; i < data.reserves.length; i++) {
-        var distance = data.distances[i];
-        rReserves.append("div").html("<span class='rReservesName'>" + data.reserves[i] + "</span> <span class='rReservesDistance'>(" + Number(data.distances[i]).toFixed(0) + "km away)</span>");
-      }
-    }
+    // if (school.data.reserves.length === 0) {
+    //   var rReserves = d3.select("#rReserves").append("div").attr("class", "r1Content rRemove");
+    //   rReserves.append("h4").html("Data not yet available...");
+    // } else {
+    //   var rReserves = d3.select("#rReserves").append("div").attr("class", "r1Content rRemove");
+    //   rReserves.append("h4").html("The school drew students from various bands, tribes, and reserves:");
+    //   for (var i = 0; i < data.reserves.length; i++) {
+    //     var distance = data.distances[i];
+    //     rReserves.append("div").html("<span class='rReservesName'>" + data.reserves[i] + "</span> <span class='rReservesDistance'>(" + Number(data.distances[i]).toFixed(0) + "km away)</span>");
+    //   }
+    // }
 
-    if (school.data.religiousGroups.length === 0) {
-      var rReligiousGroups = d3.select("#rReligiousGroups").append("div").attr("class", "r1Content rRemove");
-      rReligiousGroups.append("h4").html("Data not yet available...");
-    } else {
-      var rReligiousGroups = d3.select("#rReligiousGroups").append("div").attr("class", "r1Content rRemove");
-      rReligiousGroups.append("h4").html("The school drew was affiliated with various religious groups:");
-      for (var i = 0; i < school.data.religiousGroups.length; i++) {
-        rReligiousGroups.append("div").html("<span class='rReservesName'>" + school.data.religiousGroups[i].group + "</span>");
-      }
-    }
+    // if (school.data.religiousGroups.length === 0) {
+    //   var rReligiousGroups = d3.select("#rReligiousGroups").append("div").attr("class", "r1Content rRemove");
+    //   rReligiousGroups.append("h4").html("Data not yet available...");
+    // } else {
+    //   var rReligiousGroups = d3.select("#rReligiousGroups").append("div").attr("class", "r1Content rRemove");
+    //   rReligiousGroups.append("h4").html("The school drew was affiliated with various religious groups:");
+    //   for (var i = 0; i < school.data.religiousGroups.length; i++) {
+    //     rReligiousGroups.append("div").html("<span class='rReservesName'>" + school.data.religiousGroups[i].group + "</span>");
+    //   }
+    // }
 
     var s = school;
     var yOpen = s.startYear,
@@ -935,6 +998,20 @@ function rightBarData(data) {
       .attr("stroke-width", 2)
       .attr("fill", "none")
       .style("transform", "translate(0,0px)");
+
+    var enrolUnavailable = g.append("text")
+      .attr("class", "enrolUnavailable")
+      .attr("text-anchor", "middle")
+      .attr("x", width / 2)
+      .attr("y", heightB / 2)
+      .attr("dy", "5px")
+      .style("display", "block")
+      .text("Enrolment Levels Unavailable");
+
+
+    if (sEnrol.length > 0) {
+      enrolUnavailable.style("display", "none");
+    }
 
     focus.append("circle")
       .attr("class", "y")
@@ -1133,16 +1210,10 @@ function rightBarData(data) {
       .attr('class', 'd3-tip')
       .offset([-10, 0])
       .html(function(d) {
-        if (d.type === "sexual") {
-          d.type = "sexual assault"
-        }
-        if (d.type === "physical") {
-          d.type = "physical assault"
-        }
         if (d.notes.length > 300) {
-          return "<span class='AItip-h'>" + d.type + "</span><br><span class='AItip-p'>" + d.notes.substring(0, 250) + "...</span><br><span class='AItip-more'>Click to read more.</span>";
+          return "<span class='AItip-h'><strong>" + d.date + "</strong> " + d.type.replace("incident", "Other Incident").replace("sexual", "Sexual Assault Report").replace("physical", "Physical Assault Report").replace("policy", "Policy Report").replace("health", "Health/Medical Issue").replace("program", "Programming Report").replace("report", "Other Report") + "</span><br><span class='AItip-p'>" + d.notes.substring(0, 250) + "...</span><br><span class='AItip-more'>Click to read more.</span>";
         } else {
-          return "<span class='AItip-h'>" + d.type + "</span><br><span class='AItip-p'>" + d.notes + "</span>";
+          return "<span class='AItip-h'><strong>" + d.date + "</strong> " + d.type.replace("incident", "Other Incident").replace("sexual", "Sexual Assault Report").replace("physical", "Physical Assault Report").replace("policy", "Policy Report").replace("health", "Health/Medical Issue").replace("program", "Programming Report").replace("report", "Other Report") + "</span><br><span class='AItip-p'>" + d.notes + "</span>";
         }
       })
 
@@ -1153,19 +1224,15 @@ function rightBarData(data) {
       lbclick()
     });
 
+    lightbox.append("div").html("<div class='lbExit'><i class='fa fa-times' aria-hidden='true' onclick='lbclick()'></i></div>")
+
     function aiclick(d) {
       AItip.hide
       lightbox.style("display", "flex");
-      if (d.type === "sexual") {
-        d.type = "sexual assault"
-      }
-      if (d.type === "physical") {
-        d.type = "physical assault"
-      }
       if (d.agressor != "" && d.victim != "") {
-        lightbox.append("div").attr("class", "lbRemove").html("<div class='lbType'>" + d.date + ": " + d.type + " Incident</div><br><div class='lbBetween'> between " + d.agressor + " and " + d.victim + "</div><br><div class='lbNotes'>" + d.notes.replace(/<br>/g, "<br><br>") + "</div><div class='lbRef'> References:" + d.ref + "</div>")
+        lightbox.append("div").attr("class", "lbRemove").html("<div class='lbType'>" + Math.floor(d.date) + ": " + d.type.replace("incident", "Other Incident").replace("sexual", "Sexual Assault Report").replace("physical", "Physical Assault Report").replace("policy", "Policy Report").replace("health", "Health/Medical Issue").replace("program", "Programming Report").replace("report", "Other Report") + "</div><br><div class='lbBetween'> between " + d.agressor + " and " + d.victim + "</div><br><div class='lbNotes'>" + d.notes.replace(/<br>/g, "<br><br>") + "</div><div class='lbRef'> References:" + d.ref + "</div>")
       } else {
-        lightbox.append("div").attr("class", "lbRemove").html("<div class='lbType'>" + d.date + ": " + d.type + " Incident</div><br><div class='lbNotes'>" + d.notes.replace(/<br>/g, "<br><br>") + "</div><div class='lbRef'>References: " + d.ref + "</div>")
+        lightbox.append("div").attr("class", "lbRemove").html("<div class='lbType'>" + Math.floor(d.date) + ": " + d.type.replace("incident", "Other Incident").replace("sexual", "Sexual Assault Report").replace("physical", "Physical Assault Report").replace("policy", "Policy Report").replace("health", "Health/Medical Issue").replace("program", "Programming Report").replace("report", "Other Report") + "</div><br><div class='lbNotes'>" + d.notes.replace(/<br>/g, "<br><br>") + "</div><div class='lbRef'>References: " + d.ref + "</div>")
       }
     }
 
@@ -1348,6 +1415,11 @@ function rightBarData(data) {
       })
       .on("mouseout", AItip.hide);
 
+    // var rInstructions = d3.select("#r3svg").append("div").attr("class", "rInstructions").html("Click on a point to see report details or scroll below to read this school's chronological history");
+    // var rInsT = height + 40,
+    //   rInsL = width / 2 + margin.left;
+    // rInstructions.style("top", rInsT + "px").style("left", rInsL + "px");
+
     var sH = s.data.chronoHistory
     var rTimelineContainer = d3.select("#rTimeline").append("div").attr("class", "rTimelineContainer rRemove").attr("id", "rTimelineContainer");
     d3.select(".rTimelineContainer").style("height", r25height + "px");
@@ -1360,12 +1432,12 @@ function rightBarData(data) {
         .style("height", r25height + "px");
 
       var move = x(currentY);
-
-      var f = bisectDate(sEnrol, currentY, 0),
-        d0 = sEnrol[f],
-        d1 = sEnrol[f],
-        d = currentY - d0.year > d1.date - currentY ? d1 : d0;
-
+      // if (s.data.enrollment != []) {
+      //   var f = bisectDate(sEnrol, currentY, 0),
+      //     d0 = sEnrol[f],
+      //     d1 = sEnrol[f],
+      //     d = currentY - d0.year > d1.date - currentY ? d1 : d0;
+      // }
       var vLine_t = new TweenMax.to('#vLine', .25, {
         css: {
           transform: 'translate(' + move + 'px, 0)'
@@ -1393,10 +1465,12 @@ function rightBarData(data) {
 }
 
 function rightBarBack() {
-  d3.select("#map").style("height", window.innerHeight + "px").style("width", window.innerWidth + "px");
+  mapStatus = "zoomedOut";
+  // d3.select("#map").style("height", window.innerHeight + "px").style("width", window.innerWidth + "px");
   d3.select("#rightBar").classed("rightBarOut", false);
-  d3.select(".mapboxgl-ctrl-top-right").transition().duration(200).style("opacity", 0);
-  d3.select(".mapboxgl-ctrl-top-right").transition().delay(500).duration(500).style("opacity", 1);
+  // d3.select(".mapboxgl-ctrl-top-right").transition().duration(200).style("opacity", 0);
+  // d3.select(".mapboxgl-ctrl-top-right").transition().delay(500).duration(500).style("opacity", 1);
+  d3.select(".map").style("transform", "translate(0,0)")
 
   map.flyTo({
     center: [-100, 58],

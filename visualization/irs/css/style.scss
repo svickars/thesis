@@ -564,10 +564,26 @@ font-family: $serif;
   opacity: 0;
 }
 
+.sTooltipB {
+  font-family: $sansserif;
+  font-size: 14px;
+  stroke: rgba(255,255,255,.75);
+  stroke-width: 4px;
+  opacity: 0;
+}
+
 .sTooltip2 {
   font-family: $sansserif;
   font-size: 12px;
   fill: $medium-gray;
+  opacity: 0;
+}
+
+.sTooltip2B {
+  font-family: $sansserif;
+  font-size: 12px;
+  stroke: rgba(255,255,255,.75);
+  stroke-width: 4px;
   opacity: 0;
 }
 
@@ -624,12 +640,103 @@ svg {
   max-width: 90%;
   height: 100%;
   top: 0;
-  right: -50%;
+  right: -100%;
   padding: 10px 20px 10px 10px;
 
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   transition: all .5s;
+}
+
+.map {
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+.legend {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+}
+
+.legendIn {
+  display: inline-block;
+  height: 50px;
+  background-color: rgba(20, 20, 20, .75);
+  border-radius: 2px;
+  padding: 5px;
+  margin-bottom:3px
+}
+
+#l1 {
+  opacity: 0;
+  width: 60px;
+}
+
+#l2 {
+  opacity: 0;
+  width: 120px;
+}
+
+.legendIn-bottom {
+  display: block;
+  opacity: 0;
+  width: 184px;
+  background-color: rgba(20, 20, 20, .75);
+  border-radius: 2px;
+  padding: 2px 5px 0px 5px;
+}
+
+.legendTop {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  text-align: center;
+}
+
+.legendTopCircle1 {
+  position: absolute;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: $orange;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.legendTopCircle2 {
+  position: absolute;
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.5);
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.legendBottom {
+  text-align: center;
+  font-size: 10px;
+  font-family: $sansserif;
+  font-weight: bold;
+}
+
+.legendFull {
+  text-align: center;
+  font-size: 10px;
+  font-family: $sansserif;
+  font-weight: bold;
 }
 
 .mapControlSlide {
@@ -657,13 +764,14 @@ svg {
 }
 
 .r5 {
-  padding: 25px 0 15px 0;
-  min-height: 100px;
+  padding: 65px 0 15px 0;
+  min-height: 200px;
 }
 
 .r5 h2 {
   text-align: center;
   font-family: $serif;
+  color: white;
   // margin-bottom: 25px;
   border: none;
 }
@@ -700,16 +808,68 @@ svg {
   font-size: .75em;
 }
 
+.r5 p {
+  color: white;
+}
+
 .rExit {
   position: absolute;
   top: 2px;
   left: 5px;
   cursor: pointer;
-  color: $dark-gray;
+  color: $light-gray;
 }
 
 .rExit:hover {
   color: $medium-gray;
+}
+
+#rBG {
+  position: absolute;
+  width: 100%;
+  min-height: 200px;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background-size: 150%;
+  background-position:center;
+}
+
+#rBGover {
+  position: absolute;
+  width: 100%;
+  min-height: 200px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: rgba(0,0,0,.5);
+}
+
+.lbExit {
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  cursor: pointer;
+  color: $orange;
+}
+
+.lbExit:hover {
+  color: $medium-gray;
+}
+
+.rInstructions {
+  position: absolute;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+
+  color: $light-gray;
+  opacity: .5;
+  text-align: center;
+  font-size: 10px;
+  background-color: rgba(20,20,20,0.75);
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
 }
 
 .rHalf {
@@ -804,8 +964,15 @@ svg {
   font-weight: normal;
 }
 
+.enrolUnavailable {
+  fill: $orange;
+  opacity: .25;
+  font-size: 12px;
+}
+
 .AIcircle {
   fill: $medium-gray;
+  opacity: .5;
 }
 
 .lAI {
@@ -938,7 +1105,9 @@ svg {
   right: 0;
   top: 0;
   height: 100%;
-  width: 50%;
+  min-width: 50%;
+  width: 500px;
+  max-width: 90%;
   background-color: rgba(0,0,0,.9);
   display: flex;
   align-items: center;
