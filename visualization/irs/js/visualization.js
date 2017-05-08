@@ -7,6 +7,7 @@ var storyID = "mbrown",
   status = "begin",
   mapStatus = "none",
   drawn = false;
+console.log(mapStatus)
 window.onload = drawStory(storyID);
 
 // SCROLLMAGIC
@@ -38,11 +39,20 @@ var map1_p = new ScrollMagic.Scene({
   })
   .triggerHook("onLeave")
   .setPin("#map1_cont")
-  .on("enter", function() {
+  .addTo(controller);
+
+map1_p.on("enter", function(event) {
+  var dir = event.scrollDirection;
+  if (dir === "FORWARD") {
     status = "map";
     mapStatus = "zoomedIn";
-  })
-  .addTo(controller);
+    console.log(mapStatus)
+  } else {
+    status = "story";
+    mapStatus = "none";
+    console.log(mapStatus)
+  };
+})
 
 // Setup our svg layer that we can manipulate with d3
 var container = map.getCanvasContainer();
@@ -363,6 +373,8 @@ d3.json("js/data/connections.json", function(collection) {
     var dir = event.scrollDirection;
     if (dir === "FORWARD") {
       drawn = true;
+      mapStatus = "connections";
+      console.log(mapStatus)
       connectionFeature.transition().duration(1500)
         .attr("x2",
           function(d) {
@@ -376,6 +388,8 @@ d3.json("js/data/connections.json", function(collection) {
         );
     } else {
       drawn = false;
+      mapStatus = "reserves";
+      console.log(mapStatus)
       connectionFeature.transition().duration(1500)
         .attr("x2",
           function(d) {
@@ -479,6 +493,17 @@ var p4pin = new ScrollMagic.Scene({
   .setPin("#p4")
   .setTween(storiesSelectScroll)
   .addTo(controller);
+
+p4pin.on("progress", function(event) {
+  var dir = event.scrollDirection;
+  if (dir === "FORWARD") {
+    status = "story";
+  } else {
+    status = "begin";
+  };
+})
+
+
 
 // draw a circle for each available story and add their name and pullquote
 d3.json("js/data/stories/stories.json", function(data) {
@@ -708,6 +733,7 @@ function pageSix(name) {
         d3.select("#l1").transition().duration(500).ease(d3.easeLinear).style("opacity", .75);
 
         mapStatus = "zoomedOut";
+        console.log(mapStatus)
 
         map.flyTo({
           center: [-100, 58],
@@ -726,6 +752,7 @@ function pageSix(name) {
         d3.select("#l1").transition().duration(300).ease(d3.easeLinear).style("opacity", 0);
 
         mapStatus = "zoomedIn";
+        console.log(mapStatus)
 
         map.flyTo({
           center: [data.latLng.lng, data.latLng.lat],
@@ -829,6 +856,16 @@ function pageSix(name) {
       .triggerHook("onLeave")
       .setTween(fromreserves_fo_t)
       .addTo(controller);
+    fromreserves_p_s.on("enter", function(event) {
+      var dir = event.scrollDirection;
+      if (dir === "FORWARD") {
+        mapStatus = "reserves";
+        console.log(mapStatus)
+      } else {
+        mapStatus = "zoomedOut";
+        console.log(mapStatus)
+      };
+    })
   });
 
 }
@@ -1048,7 +1085,7 @@ function rightBarData(data) {
       })
       .on("mousemove", mousemove);
 
-    var lineTooltip = d3.select("#r3svg").append("div").attr("class", "lineTooltip");
+    var lineTooltip = d3.select("#r3svg").append("div").attr("class", "lineTooltip lbRemove");
 
     var sM = s.data.management;
 
@@ -1466,6 +1503,7 @@ function rightBarData(data) {
 
 function rightBarBack() {
   mapStatus = "zoomedOut";
+  console.log(mapStatus)
   // d3.select("#map").style("height", window.innerHeight + "px").style("width", window.innerWidth + "px");
   d3.select("#rightBar").classed("rightBarOut", false);
   // d3.select(".mapboxgl-ctrl-top-right").transition().duration(200).style("opacity", 0);

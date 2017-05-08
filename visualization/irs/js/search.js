@@ -1,302 +1,323 @@
-/*!
- * Suggest jQuery plugin
- *
- * Copyright (c) 2015 Florian Plank (http://www.polarblau.com/)
- * Dual licensed under the MIT (MIT-LICENSE.txt)
- * and GPL (GPL-LICENSE.txt) licenses.
- *
- * USAGE:
- *
- * $('#container').suggest(haystack, {
- *   suggestionColor   : '#cccccc',
- *   moreIndicatorClass: 'suggest-more',
- *   moreIndicatorText : '&hellip;'
- * });
- *
- */
-var orange = "#f15a24";
+var category = "All Categories";
+var haystack = [];
+jQuery(document).ready(function($) {
+  updateHaystack(category);
+  var resizing = false,
+    navigationWrapper = $('.cd-main-nav-wrapper'),
+    navigation = navigationWrapper.children('.cd-main-nav'),
+    searchForm = $('.cd-main-search'),
+    pageContent = $('.cd-main-content'),
+    searchTrigger = $('.cd-search-trigger'),
+    coverLayer = $('.cd-cover-layer'),
+    navigationTrigger = $('.cd-nav-trigger'),
+    mainHeader = $('.cd-main-header'),
+    suggestions = $('.cd-search-suggestions');
 
-(function($) {
-
-  $.fn.suggest = function(source, options) {
-
-    var settings = $.extend({
-      suggestionColor: '#ccc',
-      moreIndicatorClass: 'suggest-more',
-      moreIndicatorText: '&hellip;'
-    }, options);
-
-    return this.each(function() {
-
-      $this = $(this);
-
-      // this helper will show possible suggestions
-      // and needs to match the input field in style
-      var $suggest = $('<div/>', {
-        'css': {
-          // 'position': 'absolute',
-          // 'height': $this.height(),
-          // 'width': $this.width(),
-          // 'top': $this.css('borderTopWidth'),
-          // 'left': $this.css('borderLeftWidth'),
-          // 'padding': $this.cssShortForAllSides('padding'),
-          // 'margin': $this.cssShortForAllSides('margin'),
-          'fontFamily': $this.css('fontFamily'),
-          'fontSize': $this.css('fontSize'),
-          'fontStyle': $this.css('fontStyle'),
-          'lineHeight': $this.css('lineHeight'),
-          'fontWeight': $this.css('fontWeight'),
-          'letterSpacing': $this.css('letterSpacing'),
-          // 'backgroundColor': $this.css('backgroundColor'),
-          'color': settings.suggestionColor,
-          'fontKerning': $this.css('fontKerning'),
-          'textAlign': 'left',
-          'zIndex': '100'
-        }
-      });
-
-      $suggest.addClass("suggest");
-
-      var $more = $('<span/>', {
-          'css': {
-            'position': 'absolute',
-            'top': $suggest.height() + parseInt($this.css('fontSize'), 10) / 2,
-            'left': $suggest.width(),
-            'display': 'block',
-            'fontSize': $this.css('fontSize'),
-            'fontFamily': $this.css('fontFamily'),
-            'color': settings.suggestionColor
-          },
-          'class': settings.moreIndicatorClass
-        })
-        .html(settings.moreIndicatorText)
-        .hide();
-
-      $this
-        .attr({
-          'autocomplete': "off",
-          'spellcheck': "false",
-          'dir': "ltr"
-        })
-        // by setting the background to transparent, we will
-        // be able to "see through" to the suggestion helper
-        .css({
-          'background': 'transparent'
-        })
-        .wrap($('<div/>', {
-          'css': {
-            'position': 'relative',
-            'paddingBottom': '1em'
-          }
-        }))
-
-        .bind('keydown.suggest', function(e) {
-          var code = (e.keyCode ? e.keyCode : e.which);
-
-          // the tab key will force the focus to the next input
-          // already on keydown, let's prevent that
-          // unless the alt key is pressed for convenience
-          if (code == 9 && !e.altKey) {
-            e.preventDefault();
-
-            // let's prevent default enter behavior while a suggestion
-            // is being accepted (e.g. while submitting a form)
-          } else if (code == 13) {
-            if (!$suggest.is(':empty')) {
-              e.preventDefault();
-            }
-
-            // use arrow keys to cycle through suggestions
-          } else if (code == 38 || code == 40) {
-            e.preventDefault();
-            var suggestions = $(this).data('suggestions');
-
-            if (suggestions.all.length > 1) {
-              // arrow down:
-              if (code == 40 && suggestions.index < suggestions.all.length - 1) {
-                suggestions.suggest.html(suggestions.all[++suggestions.index]);
-                // arrow up:
-              } else if (code == 38 && suggestions.index > 0) {
-                suggestions.suggest.html(suggestions.all[--suggestions.index]);
-              }
-              $(this).data('suggestions').index = suggestions.index;
-            }
-          }
-        })
-
-        .bind('keyup.suggest', function(e) {
-          var code = (e.keyCode ? e.keyCode : e.which);
-
-          // Have the arrow keys been pressed?
-          if (code == 38 || code == 40) {
-            return false;
-          }
-
-          // be default we hide the "more suggestions" indicator
-          $more.hide();
-
-          // what has been input?
-          var needle = $(this).val();
-
-          // convert spaces to make them visible
-          var needleWithWhiteSpace = needle.replace(' ', '&nbsp;');
-
-          // accept suggestion with 'enter' or 'tab'
-          // if the suggestion hasn't been accepted yet
-          if (code == 9 || code == 13) {
-            // only accept if there's anything suggested
-            if ($suggest.text().length > 0) {
-              e.preventDefault();
-              var suggestions = $(this).data('suggestions');
-              $(this).val(suggestions.terms[suggestions.index]);
-              // clean the suggestion for the looks
-              $suggest.empty();
-              return false;
-            }
-          }
-
-          // make sure the helper is empty
-          $suggest.empty();
-
-          // if nothing has been input, leave it with that
-          if (!$.trim(needle).length) {
-            return false;
-          }
-
-          // see if anything in source matches the input
-          // by escaping the input' string for use with regex
-          // we allow to search for terms containing specials chars as well
-          var regex = new RegExp('^' + needle.replace(/[-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&"), 'i');
-          var suggestions = [],
-            terms = [];
-          for (var i = 0, l = source; i < l.length; i++) {
-            if (regex.test(l[i])) {
-              terms.push(l[i]);
-              suggestions.push(needleWithWhiteSpace + l[i].slice(needle.length));
-            }
-          }
-          if (suggestions.length > 0) {
-            // if there's any suggestions found, use the first
-            // don't show the suggestion if it's identical with the current input
-            if (suggestions[0] !== needle) {
-              $suggest.html(suggestions[0]);
-            }
-            // store found suggestions in data for use with arrow keys
-            $(this).data('suggestions', {
-              'all': suggestions,
-              'terms': terms,
-              'index': 0,
-              'suggest': $suggest
-            });
-
-            // show the indicator that there's more suggestions available
-            // only for more than one suggestion
-            if (suggestions.length > 1) {
-              $more.show();
-            }
-          }
-        })
-
-        // clear suggestion on blur
-        .bind('blur.suggest', function() {
-          $suggest.empty();
-        });
-
-      // insert the suggestion helpers within the wrapper
-      $suggest.insertAfter($this);
-      $more.insertAfter($suggest);
-
-    });
-
-  };
-
-  /* A little helper to calculate the sum of different
-   * CSS properties around all four sides
-   *
-   * EXAMPLE:
-   * $('#my-div').cssSum('padding');
-   */
-  $.fn.cssShortForAllSides = function(property) {
-    var $self = $(this),
-      sum = [];
-    var properties = $.map(['Top', 'Right', 'Bottom', 'Left'], function(side) {
-      return property + side;
-    });
-    $.each(properties, function(i, e) {
-      sum.push($self.css(e) || "0");
-    });
-    return sum.join(' ');
-  };
-})(jQuery);
-
-var haystack = []
-
-d3.json("js/data/search_terms.json", function(terms) {
-  for (var i = 0; i < terms.length; i++) {
-    haystack.push(terms[i].name);
+  function checkWindowWidth() {
+    var mq = window.getComputedStyle(mainHeader.get(0), '::before').getPropertyValue('content').replace(/"/g, '').replace(/'/g, "");
+    return mq;
   }
-})
 
-$(function() {
-  $('#search').suggest(haystack, {
-    suggestionColor: '#cccccc',
-    moreIndicatorClass: 'suggest-more',
-    moreIndicatorText: ''
+  function checkResize() {
+    if (!resizing) {
+      resizing = true;
+      (!window.requestAnimationFrame) ? setTimeout(moveNavigation, 300): window.requestAnimationFrame(moveNavigation);
+    }
+  }
+
+  function moveNavigation() {
+    var screenSize = checkWindowWidth();
+    if (screenSize == 'desktop' && (navigationTrigger.siblings('.cd-main-search').length == 0)) {
+      //desktop screen - insert navigation and search form inside <header>
+      searchForm.detach().insertBefore(navigationTrigger);
+      navigationWrapper.detach().insertBefore(searchForm).find('.cd-serch-wrapper').remove();
+    } else if (screenSize == 'mobile' && !(mainHeader.children('.cd-main-nav-wrapper').length == 0)) {
+      //mobile screen - move navigation and search form after .cd-main-content element
+      navigationWrapper.detach().insertAfter('.cd-main-content');
+      var newListItem = $('<li class="cd-serch-wrapper"></li>');
+      searchForm.detach().appendTo(newListItem);
+      newListItem.appendTo(navigation);
+    }
+
+    resizing = false;
+  }
+
+  function closeSearchForm() {
+    searchTrigger.removeClass('search-form-visible');
+    searchForm.removeClass('is-visible');
+    coverLayer.removeClass('search-form-visible');
+  }
+
+  //add the .no-pointerevents class to the <html> if browser doesn't support pointer-events property
+  (!Modernizr.testProp('pointerEvents')) && $('html').addClass('no-pointerevents');
+
+  //move navigation and search form elements according to window width
+  moveNavigation();
+  $(window).on('resize', checkResize);
+
+  // //mobile version - open/close navigation
+  // navigationTrigger.on('click', function(event) {
+  //   event.preventDefault();
+  //   mainHeader.add(navigation).add(pageContent).toggleClass('nav-is-visible');
+  // });
+
+  searchTrigger.on('click', function(event) {
+    event.preventDefault();
+    if (searchTrigger.hasClass('search-form-visible')) {
+      searchForm.find('form').submit();
+    } else {
+      $('.cd-main-header').addClass('cd-main-header-open');
+      $('.newLinks').addClass('newLinksVisible');
+      searchTrigger.addClass('search-form-visible');
+      coverLayer.addClass('search-form-visible');
+      searchForm.addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function() {
+        searchForm.find('input[type="search"]').focus().end().off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
+      });
+    }
+  });
+
+  //close search form
+  searchForm.on('click', '.close', function() {
+    closeSearchForm();
+    $('.cd-main-header').removeClass('cd-main-header-open');
+    $('.cd-search-suggestions').removeClass('cd-search-suggestionsVisible');
+    $('.cd-search-suggestions').addClass('cd-search-suggestionsInvisible');
+    $('.newLinks').removeClass('newLinksVisible');
+  });
+
+  coverLayer.on('click', function() {
+    closeSearchForm();
+  });
+
+  $(document).keyup(function(event) {
+    if (event.which == '27') closeSearchForm();
+  });
+
+  // upadate span.selected-value text when user selects a new option
+  searchForm.on('change', 'select', function() {
+    searchForm.find('.selected-value').text($(this).children('option:selected').text());
+    category = $(this).children('option:selected').text();
+    updateHaystack(category);
+  });
+
+  searchForm.keyup(function() {
+    var value = $(this).find('input').val();
+    $('.newLinks').removeClass('newLinksVisible');
+    runSearch(value)
   });
 });
 
-$('#search').on('change', function() {
-  var value = $(this).val();
-  runSearch(value); //pass the value as paramter
-});
-
-// $(document).ready(function() {
-//     $('#search').keydown(function(event) {
-//         if (event.keyCode == 13) {
-//             var value = $(this).val();
-//             runSearch(value); //pass the value as paramter
-//         }
-//     });
-// });
-
-//Handle it here
-function runSearch(name) {
-  if (name === "") {
-    drawStory("aelias");
-    pageSix("Albert Elias");
-  } else {
-    d3.json("js/data/search_terms.json", function(data) {
-      var result = data.filter(function(d) {
-        return ((d.name.toLowerCase() === name.toLowerCase()));
+function updateHaystack(category) {
+  haystack = [];
+  d3.json("js/data/search_terms.json", function(terms) {
+    if (category === "Stories") {
+      terms = terms.filter(function(d) {
+        return ((d.type === "story"));
       });
-      result = result[0];
-      var id = result.id;
-      var type = result.type;
-
-      if (type === "story") {
-        drawStory(id);
-        pageSix(name);
-        document.querySelector("#p5").scrollIntoView({
-          behavior: "smooth"
+    } else {
+      if (category === "Schools") {
+        terms = terms.filter(function(d) {
+          return ((d.type === "school"));
         });
-        d3.selectAll(".story-option-container").transition().duration(200).ease(d3.easeLinear).style("opacity", .1);
-        d3.select("#" + id).transition().duration(200).ease(d3.easeLinear).style("opacity", 1.0);
       } else {
-        if (type === "reservation") {
-          document.querySelector("#tMap1_reserves").scrollIntoView({
-            behavior: "smooth"
+        if (category === "Reservations, Tribes, and Bands") {
+          terms = terms.filter(function(d) {
+            return ((d.type === "reservation"));
           });
-          rSearch(id);
-        } else {
-          document.querySelector("#tMap1_reserves").scrollIntoView({
-            behavior: "smooth"
-          });
-          sSearch(id);
         }
-      };
-    });
+      }
+    }
+    for (var i = 0; i < terms.length; i++) {
+      haystack.push(terms[i]);
+    }
+  })
+}
+
+
+function runSearch(term) {
+  var suggestionBox = $('.cd-search-suggestions'),
+    o1 = $('.o1'),
+    o2 = $('.o2'),
+    o3 = $('.o3'),
+    o1A = $('.o1A'),
+    o2A = $('.o2A'),
+    o3A = $('.o3A'),
+    o1h = $('.o1h'),
+    o2h = $('.o2h'),
+    o3h = $('.o3h'),
+    o1Sh = $('.o1Sh'),
+    o2Sh = $('.o2Sh'),
+    o3Sh = $('.o3Sh'),
+    o1I = $('.o1I'),
+    o2I = $('.o2I'),
+    o3I = $('.o3I'),
+    o1Info = $('.o1Info'),
+    o2Info = $('.o2Info'),
+    o3Info = $('.o3Info');
+
+  suggestionBox.removeClass('cd-search-suggestionsInvisible');
+  suggestionBox.addClass('cd-search-suggestionsVisible');
+
+  var options = {
+    shouldSort: true,
+    includeScore: true,
+    threshold: 0.6,
+    location: 0,
+    distance: 100,
+    maxPatternLength: 32,
+    minMatchCharLength: 3,
+    keys: [
+      "name",
+      "location"
+    ]
+  };
+  var fuse = new Fuse(haystack, options); // "list" is the item array
+  var result = fuse.search(term);
+
+  var o1image,
+    o2image,
+    o3image;
+
+  if (result[0].type === "school" && result[0].photo === "TRUE") {
+    o1image = "images/schoolPhotos/" + result[0].id + ".jpg";
+  } else {
+    if (result[0].type === "story" && result[0].photo === "TRUE") {
+      o1image = "js/data/stories/images/" + result[0].id + ".png";
+    }
+  };
+
+  if (result[1].type === "school" && result[1].photo === "TRUE") {
+    o2image = "images/schoolPhotos/" + result[1].id + ".jpg";
+  } else {
+    if (result[1].type === "story" && result[1].photo === "TRUE") {
+      o2image = "js/data/stories/images/" + result[1].id + ".png";
+    }
   }
 
+  if (result[2].type === "school" && result[2].photo === "TRUE") {
+    o3image = "images/schoolPhotos/" + result[2].id + ".jpg";
+  } else {
+    if (result[2].type === "story" && result[2].photo === "TRUE") {
+      o3image = "js/data/stories/images/" + result[2].id + ".png";
+    }
+  };
+
+  var a1 = [result[0].id, result[0].name, result[0].type, result[0].lat, result[0].lng],
+    a2 = [result[1].id, result[1].name, result[1].type, result[1].lat, result[1].lng],
+    a3 = [result[2].id, result[2].name, result[2].type, result[2].lat, result[2].lng];
+
+  o1h.text(result[0].name);
+  o1Sh.text(result[0].type.replace("story", "Residential School Survivor").replace("school", "Residential School").replace("reservation", "Reserve/Band/Tribe"));
+  o1I.html("<div class='oI' style='background-image: url(" + o1image + ")'></div>");
+  o1Info.text(result[0].location);
+  o1A.text(a1)
+
+  o2h.text(result[1].name);
+  o2Sh.text(result[1].type.replace("story", "Residential School Survivor").replace("school", "Residential School").replace("reservation", "Reserve/Band/Tribe"));
+  o2I.html("<div class='oI' style='background-image: url(" + o2image + ")'></div>");
+  o2Info.text(result[1].location);
+  o2A.text(a2)
+
+  o3h.text(result[2].name);
+  o3Sh.text(result[2].type.replace("story", "Residential School Survivor").replace("school", "Residential School").replace("reservation", "Reserve/Band/Tribe"));
+  o3I.html("<div class='oI' style='background-image: url(" + o3image + ")'></div>");
+  o3Info.text(result[2].location);
+  o3A.text(a3)
+
+
+}
+
+$('.o1').on("click", function(event) {
+  var array = $(this).find(".oA").text().split(",");
+  var id = array[0],
+    name = array[1],
+    type = array[2],
+    lat = array[3],
+    lng = array[4];
+
+  optionClick(id, name, type, lat, lng)
+})
+
+$('.o2').on("click", function(event) {
+  var array = $(this).find(".oA").text().split(",");
+  var id = array[0],
+    name = array[1],
+    type = array[2],
+    lat = array[3],
+    lng = array[4];
+
+  optionClick(id, name, type, lat, lng)
+})
+
+$('.o3').on("click", function(event) {
+  var array = $(this).find(".oA").text().split(",");
+  var id = array[0],
+    name = array[1],
+    type = array[2],
+    lat = array[3],
+    lng = array[4];
+
+  optionClick(id, name, type, lat, lng)
+})
+
+function optionClick(id, name, type, lat, lng) {
+  if (type === "story") {
+    drawStory(id);
+    pageSix(name);
+    var section = document.getElementById("p5");
+    zenscroll.to(section);
+  } else {
+    if (mapStatus === "none" || mapStatus === "zoomedIn") {
+      map.flyTo({
+        center: [lng, lat],
+        zoom: 10,
+        bearing: 0,
+        speed: 100,
+        curve: 1,
+
+        easing: function(t) {
+          return t;
+        }
+      });
+      if (type === "school") {
+        sSearch(id);
+      } else {
+        rSearch(id);
+      }
+      var section = document.getElementById("p6");
+      zenscroll.to(section);
+    } else {
+      if (mapStatus === "zoomedOut") {
+        if (type === "school") {
+          sSearch(id);
+        } else {
+          rSearch(id);
+        }
+        var section = document.getElementById("tMap1_reserves");
+        zenscroll.to(section);
+      } else {
+        if (mapStatus === "reserves") {
+          if (type === "school") {
+            sSearch(id);
+          } else {
+            rSearch(id);
+          }
+          var section = document.getElementById("tMap1_connections");
+          zenscroll.to(section);
+        } else {
+          if (mapStatus === "connections") {
+            if (type === "school") {
+              sSearch(id);
+            } else {
+              rSearch(id);
+            }
+            var section = document.getElementById("tMap1_connections");
+            zenscroll.to(section);
+          }
+        }
+      }
+    }
+  }
 }
 
 function rSearch(id) {
@@ -307,10 +328,22 @@ function rSearch(id) {
   d3.selectAll(".dot").style("opacity", ".25").style("fill", orange);
   d3.selectAll(".conn").style("opacity", ".05");
   d3.selectAll(".sTooltip").style("opacity", 0);
+  d3.selectAll(".sTooltipB").style("opacity", 0);
   d3.selectAll(".sTooltip2").style("opacity", 0);
+  d3.selectAll(".sTooltip2B").style("opacity", 0);
+  d3.selectAll("#sTip-" + id).style("opacity", 0);
+
+  // d3.selectAll(".reserveDot").style("display", "block").transition().duration(600).ease(d3.easeLinear).style("opacity", 0.1);
+  d3.select("#l2").transition().duration(500).ease(d3.easeLinear).style("opacity", .75);
+  d3.select(".legendIn-bottom").transition().delay(500).duration(500).ease(d3.easeLinear).style("opacity", .75);
+  d3.selectAll("#rTip-" + id).style("opacity", 0);
 
   // turn on school tooltip for current dot
-  d3.selectAll("#rTip-" + id).style("opacity", "1.0");
+  if (mapStatus === "zoomedIn" || mapStatus === "none") {
+    d3.selectAll("#rTip-" + id).style("opacity", 0);
+  } else {
+    d3.selectAll("#rTip-" + id).style("opacity", 1);
+  };
 }
 
 function sSearch(id) {
@@ -318,9 +351,17 @@ function sSearch(id) {
   d3.selectAll(".dot").style("opacity", ".25").style("fill", orange);
   d3.select("#dot-" + id).style("opacity", 1).style("fill", "#333");
   d3.selectAll(".sTooltip").style("opacity", 0);
+  d3.selectAll(".sTooltipB").style("opacity", 0);
   d3.selectAll(".sTooltip2").style("opacity", 0);
-  d3.selectAll("#sTip-" + id).style("opacity", 1);
+  d3.selectAll(".sTooltip2B").style("opacity", 0);
   d3.selectAll(".rDot").style("opacity", ".025").style("fill", "#333");
   d3.selectAll(".rTooltip").style("opacity", "0")
   d3.selectAll(".conn").style("opacity", ".05");
+  d3.selectAll("#sTip-" + id).style("opacity", 0);
+  d3.selectAll("#rTip-" + id).style("opacity", 0);
+  if (mapStatus === "zoomedIn" || mapStatus === "none") {
+    d3.selectAll("#sTip-" + id).style("opacity", 0);
+  } else {
+    d3.selectAll("#sTip-" + id).style("opacity", 1);
+  }
 }
