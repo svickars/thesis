@@ -1,6 +1,6 @@
 # Visualizing Canada's Indian Residential School System
 
-[(preview.png)](https://svickars.github.io/thesis/visualization/irs/)
+[![preview.png](preview.png)](https://svickars.github.io/thesis/visualization/irs/)
 
 ##### This visualization looks at Canada's Indian Residential School system -- a network of boarding schools and federal hostels throughout Canada from the mid 1800s until 1996 -- through the stories of survivors and the narrative of each school.
 
