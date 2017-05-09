@@ -522,9 +522,25 @@ p {
   top: 0;
   left: 0; }
 
+#storyBio {
+  margin-bottom: 50%; }
+
+.storySection {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center; }
+
 .story-section {
   color: #f15a24;
   font-size: .75em; }
+
+.storyNarrow {
+  -ms-transform: translateX(-25%);
+  -webkit-transform: translate(-25%, 0);
+  transform: translate(-25%, 0); }
 
 .story-pre {
   color: #999;
@@ -532,6 +548,93 @@ p {
 
 .story-quote {
   font-family: "Libre Baskerville", Georgia, serif; }
+
+.storyStories {
+  margin-bottom: 100%; }
+
+.sTslide {
+  position: fixed;
+  background: white;
+  min-width: 50%;
+  width: 500px;
+  max-width: 90%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  padding: 10px 20px 10px 10px;
+  -webkit-box-shadow: 10px 10px 5px 10px #333;
+  box-shadow: 10px 10px 5px 10px #333;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s; }
+
+.sTmapContainer {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  height: 33%;
+  width: 100%; }
+
+.sTmap {
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  height: 100%;
+  width: 75%; }
+
+.sTdata {
+  height: 33%;
+  width: 100%;
+  position: absolute;
+  top: calc(20% + 33% + 20px);
+  left: 0;
+  padding: 0 60px 0 60px; }
+
+.sTtop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: center; }
+
+.sTimage {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  border-radius: 50%;
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  height: 50px;
+  width: 50px;
+  background-color: #f15a24; }
+
+.sTname {
+  width: 100%;
+  margin-top: 90px;
+  text-align: center;
+  font-family: "Libre Baskerville", Georgia, serif; }
+
+.sTsection {
+  color: #f15a24;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: .8em;
+  margin-bottom: 10px; }
+
+.sTpre {
+  color: #333;
+  font-size: .9em;
+  font-family: "Rubik", Trebuchet, sans-serif;
+  margin-bottom: 10px; }
+
+.sTextra {
+  color: #999;
+  font-size: .9em;
+  font-family: "Rubik", Trebuchet, sans-serif;
+  margin-bottom: 10px; }
 
 #p6 {
   padding: 0;
@@ -651,6 +754,10 @@ svg {
   position: absolute;
   width: 100%;
   height: 100%; }
+
+.labelsRight {
+  font-family: "Rubik", Trebuchet, sans-serif;
+  fill: #333; }
 
 .rightBar {
   position: fixed;
@@ -1275,7 +1382,7 @@ select {
   margin: 0 calc(5% + 116px) 0 calc(5% + 170px); }
 
 .cd-main-search input[type="search"] {
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   height: 65%;
   padding-top: 40px;
   background-color: transparent;
@@ -1293,7 +1400,7 @@ select {
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
   color: #999;
-  font-size: 1.4rem;
+  font-size: 1rem;
   overflow: hidden; }
 
 .cd-main-search span {
@@ -1334,7 +1441,7 @@ select {
 
 .cd-main-search select, .cd-main-search .selected-value {
   padding: 0.5em 1.7em 0.5em .3em;
-  font-size: 1.4rem;
+  font-size: 1rem;
   border-radius: 3px; }
 
 .no-pointerevents .cd-main-search .selected-value {
@@ -1769,7 +1876,7 @@ JavaScript Disabled
 
 .cd-search-suggestionsInvisible {
   position: fixed;
-  top: -180px;
+  top: -300px;
   height: 80px;
   z-index: -99;
   -webkit-transition: all .5s;
@@ -1778,7 +1885,7 @@ JavaScript Disabled
 
 .cd-search-suggestionsVisible {
   position: fixed;
-  height: auto;
+  height: 135px;
   z-index: 1;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
@@ -1792,12 +1899,13 @@ JavaScript Disabled
 .suggestOption {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.01);
-  width: 33%;
+  width: 32.5%;
   padding: 5px;
   cursor: pointer; }
 
 .oM {
-  float: left; }
+  float: left;
+  width: 75%; }
 
 .oH {
   font-family: "Libre Baskerville", Georgia, serif;
@@ -1827,6 +1935,14 @@ JavaScript Disabled
   background-position: center;
   display: inline-block; }
 
+@media only screen and (max-width: 1280px) {
+  .oImage {
+    display: none; }
+  .oM {
+    text-align: center;
+    float: none;
+    width: 100%; } }
+
 .oInfo {
   font-family: "Rubik", Trebuchet, sans-serif;
   font-size: .7em;
@@ -1853,10 +1969,13 @@ JavaScript Disabled
   color: #999; }
 
 .newLinksHidden {
-  top: -80px; }
+  opacity: 0;
+  top: -80px;
+  z-index: 0; }
 
 .newLinksVisible {
-  z-index: 5;
+  opacity: 1;
+  z-index: 6;
   -webkit-transform: translateY(160px);
   -moz-transform: translateY(160px);
   -ms-transform: translateY(160px);
@@ -1866,23 +1985,29 @@ JavaScript Disabled
 .nLtitle {
   font-size: 1em;
   font-family: "Libre Baskerville", Georgia, serif;
-  margin: 0 20px 0 20px;
+  margin: 0 0 0 0;
   color: #333; }
 
 .nLH {
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin: 0 20px 0 20px; }
+  margin: 0 20px 0 0px; }
 
 .nLleft {
   float: left; }
 
+.nLright {
+  float: right; }
+
+@media only screen and (max-width: 1080px) {
+  .nLleft, .nLright {
+    float: none;
+    width: 100%;
+    text-align: center; } }
+
 .nLleft a {
   color: #333;
   cursor: pointer; }
-
-.nLright {
-  float: right; }
 
 .nLright a {
   color: #999;
@@ -1895,4 +2020,19 @@ JavaScript Disabled
 .nLL {
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin: 0 20px 0 20px; }
+  margin: 0 0 0 20px; }
+
+.sTslideOut {
+  -webkit-transform: translateX(-200%);
+  -moz-transform: translateX(-200%);
+  -ms-transform: translateX(-200%);
+  -o-transform: translateX(-200%);
+  transform: translateX(-200%); }
+
+.sTLslide {
+  width: 25%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%); }

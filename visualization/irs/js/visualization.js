@@ -1,13 +1,14 @@
 // GLOBAL
 // draw first story when page is loaded
-var storyID = "mbrown",
+var storyID = "bbaxter",
   orange = "#f15a24",
   mediumGray = "#999",
+  darkGray = "#333",
   rightBar = false,
   status = "begin",
   mapStatus = "none",
-  drawn = false;
-console.log(mapStatus)
+  drawn = false,
+  conRightStatus = 0;
 window.onload = drawStory(storyID);
 
 // SCROLLMAGIC
@@ -28,8 +29,16 @@ var map = new mapboxgl.Map({
   zoom: 9
   // attributionControl: false
 });
+var mapR = new mapboxgl.Map({
+  container: 'sTmap',
+  style: 'mapbox://styles/svickars/cj15o81vo00212rqu9mw0wgkp',
+  center: [-103.5334127, 59.1140672],
+  zoom: 3.5
+})
 map.scrollZoom.disable();
+mapR.scrollZoom.disable();
 map.dragRotate.disable();
+mapR.dragRotate.disable();
 map.addControl(new mapboxgl.Navigation());
 
 // scrollmagic: pin main map
@@ -46,18 +55,19 @@ map1_p.on("enter", function(event) {
   if (dir === "FORWARD") {
     status = "map";
     mapStatus = "zoomedIn";
-    console.log(mapStatus)
   } else {
     status = "story";
     mapStatus = "none";
-    console.log(mapStatus)
   };
 })
 
 // Setup our svg layer that we can manipulate with d3
 var container = map.getCanvasContainer();
+var containerRight = mapR.getCanvasContainer();
 var svg = d3.select(container).append("svg"),
-  g = svg.append("g");
+  svgRight = d3.select(containerRight).append("svg"),
+  g = svg.append("g"),
+  gRight = svgRight.append("g");
 
 function getD3() {
   var bbox = document.body.getBoundingClientRect();
@@ -74,8 +84,25 @@ function getD3() {
   return d3projection;
 }
 
+function getD3Right() {
+  var bbox = document.getElementById("sTmap").getBoundingClientRect();
+  var center = mapR.getCenter();
+  var zoom = mapR.getZoom();
+  // 512 is hardcoded tile size, might need to be 256 or changed to suit your map config
+  var scale = (512) * 0.5 / Math.PI * Math.pow(2, zoom);
+
+  var d3projection = d3.geoMercator()
+    .center([center.lng, center.lat])
+    .translate([bbox.width / 2, bbox.height / 2])
+    .scale(scale);
+
+  return d3projection;
+}
+
 var d3Projection = getD3();
-var path = d3.geoPath()
+var d3ProjectionRight = getD3Right();
+var path = d3.geoPath();
+var pathRight = d3.geoPath();
 
 
 d3.json("js/data/locations.json", function(collection) {
@@ -374,7 +401,6 @@ d3.json("js/data/connections.json", function(collection) {
     if (dir === "FORWARD") {
       drawn = true;
       mapStatus = "connections";
-      console.log(mapStatus)
       connectionFeature.transition().duration(1500)
         .attr("x2",
           function(d) {
@@ -389,7 +415,6 @@ d3.json("js/data/connections.json", function(collection) {
     } else {
       drawn = false;
       mapStatus = "reserves";
-      console.log(mapStatus)
       connectionFeature.transition().duration(1500)
         .attr("x2",
           function(d) {
@@ -519,166 +544,13 @@ d3.json("js/data/stories/stories.json", function(data) {
     var story_option_circle = d3.select("#" + data.stories[j].id).append("div").attr("class", "story-option-circle").attr("id", "story-option" + j);
 
     // set background image of circle
-    story_option_circle.style("background", "linear-gradient(rgba(241, 90, 36, 0.25),rgba(241, 90, 36, 0.25)), url('js/data/stories/images/" + data.stories[j].picture + "'), rgb(241, 90, 36)").style("background-size", "10em");
+    story_option_circle.style("background", "linear-gradient(rgba(241, 90, 36, 0.25),rgba(241, 90, 36, 0.25)), url('js/data/stories/images/" + data.stories[j].id + ".png'), rgb(241, 90, 36)").style("background-size", "10em");
 
     var story_option_label = d3.select("#" + data.stories[j].id).append("div").attr("class", "story-label");
     story_option_label.html("<p class='story-option-name'>" + data.stories[j].name + "</p><p class='story-option-quote'>&ldquo;" + data.stories[j].pull + "&rdquo;</p>");
   }
 });
 
-
-// STORIES
-// declare function that is called when story is clicked
-function drawStory(storyID) {
-  // remove previous elements
-  d3.select(".storyTime").remove();
-
-  // draw story elements
-  d3.json("js/data/stories/stories.json", function(data) {
-
-    var story = data.stories.filter(function(d) {
-      return ((d.id === storyID));
-    });
-    story = story[0];
-    var storyName_content = story.name;
-    var storyBio_content = story.bio;
-    var storySchoolBio_content = story.schoolBio;
-
-    storySelected = story.name + " was";
-    pageSix(storyName_content);
-
-    // draw basic story elements
-    var storyTime = d3.select("#storyTime").append("div").attr("class", "storyTime").html("<div id='storyName'></div><div id='storyBio'></div><div id='storySchoolBio'></div><div id='storyStories'></div>")
-    var name = d3.select("#storyName").append("h1").attr("class", "name").html("<span class='storyName'>" + storyName_content + "</span>");
-    var bio = d3.select("#storyBio").append("div").attr("class", "bio").html("<p>" + storyBio_content + "</p>");
-    var schoolBio = d3.select("#storySchoolBio").append("div").attr("class", "schoolBio").html("<p>" + storySchoolBio_content + "</p>");
-
-    storyName_p = new ScrollMagic.Scene({
-        triggerElement: "#storyName",
-        duration: "100%"
-      })
-      .offset(document.getElementById('storyName').offsetHeight / 2 + "px")
-      .setPin("#storyName")
-      .addTo(controller);
-
-    storyBio_p = new ScrollMagic.Scene({
-        triggerElement: "#storyBio",
-        duration: "100%"
-      })
-      .offset(document.getElementById('storyBio').offsetHeight / 2 + "px")
-      .setPin("#storyBio")
-      .addTo(controller);
-
-    storySchoolBio_p = new ScrollMagic.Scene({
-        triggerElement: "#storySchoolBio",
-        duration: "100%"
-      })
-      .offset(document.getElementById('storySchoolBio').offsetHeight / 2 + "px")
-      .setPin("#storySchoolBio")
-      .addTo(controller);
-
-    var storyName_f = TweenMax.to("#storyName", .5, {
-      opacity: "0"
-    });
-
-    var storyBio_f = TweenMax.to("#storyBio", .5, {
-      opacity: "0"
-    });
-
-    var storySchoolBio_f = TweenMax.to("#storySchoolBio", .5, {
-      opacity: "0"
-    });
-
-    var storyName_f_s = new ScrollMagic.Scene({
-        triggerElement: "#storyBio"
-      })
-      .triggerHook("onEnter")
-      .setTween(storyName_f)
-      .addTo(controller);
-
-    var storyBio_f_s = new ScrollMagic.Scene({
-        triggerElement: "#storySchoolBio"
-      })
-      .triggerHook("onEnter")
-      .setTween(storyBio_f)
-      .addTo(controller);
-
-    var storySchoolBio_f_s = new ScrollMagic.Scene({
-        triggerElement: "#storyStories"
-      })
-      .triggerHook("onEnter")
-      .setTween(storySchoolBio_f)
-      .addTo(controller);
-
-
-    // draw each story
-    for (var i = 0; i < story.story.length; i++) {
-      var storyStory = d3.select("#storyStories").append("div").attr("class", "storyStories").attr("id", "story-" + i);
-
-      if (story.story[i].quote === "") {
-        var strSec = story.story[i].section,
-          strPre = story.story[i].pre;
-        storyStory.html("<p class='story-section'>" + strSec + "</p><p class='story-quote'>" + strPre + "</p>");
-      } else {
-        var strSec = story.story[i].section,
-          strPre = story.story[i].pre,
-          strQuo = story.story[i].quote;
-        var rs = RiString(strQuo),
-          words = rs.words(),
-          pos = rs.pos();
-        storyStory.html("<p class='story-section'>" + strSec + "</p><p class='story-pre'>" + strPre + "</p><p class='story-quote'>&ldquo;<span id='story-quote-" + i + "'></span>&rdquo;</p>");
-      }
-      for (var j = 0; j < words.length; j++) {
-        if (/[,.?\-]/.test(words[j + 1])) {
-          var storyQuote = d3.select("#story-quote-" + i).append("span").attr("id", "quote-" + j).attr("class", "pos-" + pos[j]).html(words[j]);
-        } else {
-          var storyQuote = d3.select("#story-quote-" + i).append("span").attr("id", "quote-" + j).attr("class", "pos-" + pos[j]).html(words[j] + " ");
-        }
-      }
-    }
-
-    // pin and fade each story
-    for (var i = 0; i < story.story.length - 1; i++) {
-      var n = i + 1;
-      var storyStory_p = new ScrollMagic.Scene({
-          triggerElement: "#story-" + i,
-          duration: "100%"
-        })
-        .offset(document.getElementById('story-' + i).offsetHeight / 2 + "px")
-        .setPin("#story-" + i)
-        .addTo(controller);
-
-      var storyStory_FO_t = TweenMax.to("#story-" + i, .5, {
-        opacity: "0"
-      });
-      if (i < story.story.length) {
-        var storyStory_FO_s = new ScrollMagic.Scene({
-            triggerElement: "#story-" + n
-          })
-          .triggerHook("onEnter")
-          .setTween(storyStory_FO_t)
-          .addTo(controller);
-      }
-    }
-    var totalStories = story.story.length - 1;
-    storyStory_last_p = new ScrollMagic.Scene({
-        triggerElement: "#story-" + totalStories,
-        duration: "100%"
-      })
-      .offset(document.getElementById('story-' + totalStories).offsetHeight / 2 + "px")
-      .setPin("#story-" + totalStories)
-      .addTo(controller);
-    var storyStory_FO_t = TweenMax.to("#story-" + totalStories, .5, {
-      opacity: "0"
-    });
-    var storyStory_FO_s = new ScrollMagic.Scene({
-        triggerElement: "#p6",
-      })
-      .triggerHook("onEnter")
-      .setTween(storyStory_FO_t)
-      .addTo(controller);
-  });
-}
 
 function pageSix(name) {
   // d3.select("#map1").remove();
@@ -733,7 +605,6 @@ function pageSix(name) {
         d3.select("#l1").transition().duration(500).ease(d3.easeLinear).style("opacity", .75);
 
         mapStatus = "zoomedOut";
-        console.log(mapStatus)
 
         map.flyTo({
           center: [-100, 58],
@@ -752,7 +623,6 @@ function pageSix(name) {
         d3.select("#l1").transition().duration(300).ease(d3.easeLinear).style("opacity", 0);
 
         mapStatus = "zoomedIn";
-        console.log(mapStatus)
 
         map.flyTo({
           center: [data.latLng.lng, data.latLng.lat],
@@ -860,10 +730,8 @@ function pageSix(name) {
       var dir = event.scrollDirection;
       if (dir === "FORWARD") {
         mapStatus = "reserves";
-        console.log(mapStatus)
       } else {
         mapStatus = "zoomedOut";
-        console.log(mapStatus)
       };
     })
   });
@@ -1503,7 +1371,6 @@ function rightBarData(data) {
 
 function rightBarBack() {
   mapStatus = "zoomedOut";
-  console.log(mapStatus)
   // d3.select("#map").style("height", window.innerHeight + "px").style("width", window.innerWidth + "px");
   d3.select("#rightBar").classed("rightBarOut", false);
   // d3.select(".mapboxgl-ctrl-top-right").transition().duration(200).style("opacity", 0);
@@ -1527,4 +1394,498 @@ function rightBarBack() {
   d3.selectAll(".schoolLabel").style("opacity", "0");
 
   rightBar = false;
+}
+
+
+
+
+
+
+
+
+
+function drawStory(storyID) {
+  d3.select(".storyTime").remove();
+  d3.selectAll(".sTremove").remove();
+  d3.json("js/data/stories/stories.json", function(data) {
+
+    var story = data.stories.filter(function(d) {
+      return ((d.id === storyID));
+    });
+    story = story[0];
+    var storyName_content = story.name;
+    var storyBio_content = story.bio;
+
+    storySelected = story.name + " was";
+    pageSix(storyName_content);
+
+    // draw basic story elements
+    var storyName = $("#storyName").html("<h1 class='sTremove'>" + storyName_content + "</h1>");
+    var storyBio = $("#storyBio").html("<p class='sTremove'>" + storyBio_content + "</p>");
+
+    var conRight1 = gRight.append("line")
+      .attr("pointer-events", "none")
+      .attr("class", "sTremove")
+      .style("stroke", orange)
+      .style("stroke-width", 2);
+    var conRight2 = gRight.append("line")
+      .attr("pointer-events", "none")
+      .attr("class", "sTremove")
+      .style("stroke", orange)
+      .style("stroke-width", 2);
+    var conRight3 = gRight.append("line")
+      .attr("pointer-events", "none")
+      .attr("class", "sTremove")
+      .style("stroke", orange)
+      .style("stroke-width", 2);
+    var conRight4 = gRight.append("line")
+      .attr("pointer-events", "none")
+      .attr("class", "sTremove")
+      .style("stroke", orange)
+      .style("stroke-width", 2);
+    var conRight5 = gRight.append("line")
+      .attr("pointer-events", "none")
+      .attr("class", "sTremove")
+      .style("stroke", orange)
+      .style("stroke-width", 2);
+
+
+    // draw each story
+    for (var i = 0; i < story.story.length; i++) {
+      console.log(story.story[i].quote);
+      var storyStory = d3.select("#storyStories").append("div").attr("class", "storyStories sTremove").attr("id", "story-" + i);
+
+      var strSec = story.story[i].section,
+        strPre = story.story[i].pre,
+        strQuo = story.story[i].quote;
+      // var rs = RiString(strQuo),
+      //   words = rs.words(),
+      //   pos = rs.pos();
+      storyStory.html("<p class='story-quote'>&ldquo;<span id='story-quote-" + i + "'>" + strQuo + "</span>&rdquo;</p>");
+
+      // for (var j = 0; j < words.length; j++) {
+      //   if (/[,.?\-]/.test(words[j + 1])) {
+      //     var storyQuote = d3.select("#story-quote-" + i).append("span").attr("id", "quote-" + j).attr("class", "pos-" + pos[j]).html(words[j]);
+      //   } else {
+      //     var storyQuote = d3.select("#story-quote-" + i).append("span").attr("id", "quote-" + j).attr("class", "pos-" + pos[j]).html(words[j] + " ");
+      //   }
+      // }
+
+    }
+    var n0 = 0,
+      n1 = 1,
+      n2 = 2,
+      n3 = 3,
+      n4 = 4,
+      n5 = 5,
+      stories = story.story;
+
+
+
+
+    storyTrig0 = new ScrollMagic.Scene({
+        triggerElement: "#story-" + n0
+      })
+      .addTo(controller)
+      .triggerHook(.75)
+      .on("progress", function(event) {
+        var dir = event.scrollDirection;
+        if (dir === "FORWARD") {
+          storyTimeData(n0)
+        } else {
+          storyTimeData(n0);
+        }
+      });
+
+    if (stories.length > 1) {
+      storyTrig1 = new ScrollMagic.Scene({
+          triggerElement: "#story-" + n1
+        })
+        .addTo(controller)
+        .triggerHook(.75)
+        .on("progress", function(event) {
+          var dir = event.scrollDirection;
+          if (dir === "FORWARD") {
+            storyTimeData(n1)
+          } else {
+            storyTimeData(n0);
+          }
+        });
+    };
+    if (stories.length > 2) {
+      storyTrig2 = new ScrollMagic.Scene({
+          triggerElement: "#story-" + n2
+        })
+        .addTo(controller)
+        .triggerHook(.75)
+        .on("progress", function(event) {
+          var dir = event.scrollDirection;
+          if (dir === "FORWARD") {
+            storyTimeData(n2)
+          } else {
+            storyTimeData(n1);
+          }
+        });
+    };
+    if (stories.length > 3) {
+      storyTrig3 = new ScrollMagic.Scene({
+          triggerElement: "#story-" + n3
+        })
+        .addTo(controller)
+        .triggerHook(.75)
+        .on("progress", function(event) {
+          var dir = event.scrollDirection;
+          if (dir === "FORWARD") {
+            storyTimeData(n3)
+          } else {
+            storyTimeData(n2);
+          }
+        });
+    };
+    if (stories.length > 4) {
+      storyTrig4 = new ScrollMagic.Scene({
+          triggerElement: "#story-" + n4
+        })
+        .addTo(controller)
+        .triggerHook(.75)
+        .on("progress", function(event) {
+          var dir = event.scrollDirection;
+          if (dir === "FORWARD") {
+            storyTimeData(n4)
+          } else {
+            storyTimeData(n3);
+          }
+        });
+    };
+    if (stories.length > 5) {
+      storyTrig5 = new ScrollMagic.Scene({
+        triggerElement: "#story-" + n5
+      }).addTo(controller).triggerHook(.75).on("progress", function(event) {
+        var dir = event.scrollDirection;
+        if (dir === "FORWARD") {
+          storyTimeData(n5)
+        } else {
+          storyTimeData(n4);
+        }
+      });
+    };
+
+
+    //RIGHT BAR MAP
+
+    var featureRight = gRight.selectAll(".sCircleRight")
+      .data(stories)
+      .enter().append("circle", ".sCircleRight")
+      .attr("pointer-events", "visible")
+      .attr("class", "sTremove")
+      .style("stroke", "none")
+      .style("opacity", 1.0)
+      .style("fill", orange)
+      .attr("r", 5);
+
+    var featureRightMain = gRight.append("circle", ".sCircleRightMain")
+      .attr("pointer-events", "visible")
+      .attr("class", "sTremove")
+      .style("stroke", "none")
+      .style("opacity", 1.0)
+      .style("fill", darkGray)
+      .attr("r", 7.5);
+
+    var labelsRight = gRight.selectAll(".sLabelsRight")
+      .data(stories)
+      .enter().append("text", ".sLabelsRight")
+      .attr("class", "sTremove")
+      .attr("pointer-events", "visible")
+      .attr("class", "labelsRight")
+      .attr("text-anchor", "middle")
+      .attr("dy", 20)
+      .style("stroke", "none")
+      .style("opacity", 1.0);
+
+    function renderRight() {
+      d3ProjectionRight = getD3Right();
+      pathRight.projection(d3ProjectionRight)
+
+      featureRight.attr("cx", function(d) {
+          return d3ProjectionRight([d.lng, d.lat])[0];
+        })
+        .attr("cy", function(d) {
+          return d3ProjectionRight([d.lng, d.lat])[1];
+        });
+
+      featureRightMain.attr("cx", function(d) {
+          return d3ProjectionRight([story.latLng.lng, story.latLng.lat])[0];
+        })
+        .attr("cy", function(d) {
+          return d3ProjectionRight([story.latLng.lng, story.latLng.lat])[1];
+        });
+
+      labelsRight.attr("x", function(d) {
+          return d3ProjectionRight([d.lng, d.lat])[0];
+        })
+        .attr("y", function(d) {
+          return d3ProjectionRight([d.lng, d.lat])[1];
+        })
+        .text(function(d) {
+          return d.placeName
+        });
+    }
+
+    // re-render our visualization whenever the view changes
+    mapR.on("viewreset", function() {
+      renderRight()
+    })
+    mapR.on("move", function() {
+      renderRight()
+    })
+
+    // render our initial visualization
+    renderRight()
+
+
+
+
+    $(".sTname").html("<h1>" + story.name + "</h1>");
+    $(".sTimage").css("background", "linear-gradient(rgba(241, 90, 36, 0.25),rgba(241, 90, 36, 0.25)), url('js/data/stories/images/" + story.id + ".png'), rgb(241, 90, 36)").css("background-size", "3.5em").css("background-position", "center");
+
+
+    function storyTimeData(n) {
+      conRightStatus = n;
+      $(".sTsection").text(stories[n].section);
+      $(".sTpre").text(stories[n].pre);
+      $(".sTextra").text(stories[n].extra);
+
+
+      var nZoom = 7;
+      if (stories[n].lat === 59.1140672) {
+        nZoom = 5;
+      }
+
+      mapR.flyTo({
+        center: [stories[n].lng, stories[n].lat],
+        zoom: nZoom,
+        bearing: 0,
+        speed: 1,
+        curve: 1,
+
+        easing: function(t) {
+          return t;
+        }
+      });
+
+      d3ProjectionRight = getD3Right();
+      pathRight.projection(d3ProjectionRight)
+
+      var cons = story.connections;
+
+      function renderConRight() {
+        d3ProjectionRight = getD3Right();
+        pathRight.projection(d3ProjectionRight)
+        if (cons.length > 0) {
+          conRight1.attr("x1", function(d) {
+              return d3ProjectionRight([cons[0].sLng, cons[0].sLat])[0];
+            })
+            .attr("y1", function(d) {
+              return d3ProjectionRight([cons[0].sLng, cons[0].sLat])[1];
+            });
+          if (n < 1) {
+            conRight1.attr("x2", function(d) {
+                return d3ProjectionRight([cons[0].sLng, cons[0].sLat])[0];
+              })
+              .attr("y2", function(d) {
+                return d3ProjectionRight([cons[0].sLng, cons[0].sLat])[1];
+              })
+              .transition().duration(500)
+              .style("opacity", 1);
+          } else {
+            if (n === 1) {
+              conRight1.transition().duration(1000).attr("x2", function(d) {
+                  return d3ProjectionRight([cons[0].eLng, cons[0].eLat])[0];
+                })
+                .attr("y2", function(d) {
+                  return d3ProjectionRight([cons[0].eLng, cons[0].eLat])[1];
+                })
+                .transition().duration(500)
+                .style("opacity", 0);
+            }
+          }
+        }
+
+        if (cons.length > 1) {
+          conRight2.attr("x1", function(d) {
+              return d3ProjectionRight([cons[1].sLng, cons[1].sLat])[0];
+            })
+            .attr("y1", function(d) {
+              return d3ProjectionRight([cons[1].sLng, cons[1].sLat])[1];
+            });
+          if (n < 2) {
+            conRight2.attr("x2", function(d) {
+                return d3ProjectionRight([cons[1].sLng, cons[1].sLat])[0];
+              })
+              .attr("y2", function(d) {
+                return d3ProjectionRight([cons[1].sLng, cons[1].sLat])[1];
+              });
+          } else {
+            if (n === 2) {
+              conRight2.transition().duration(1000).attr("x2", function(d) {
+                  return d3ProjectionRight([cons[1].eLng, cons[1].eLat])[0];
+                })
+                .attr("y2", function(d) {
+                  return d3ProjectionRight([cons[1].eLng, cons[1].eLat])[1];
+                })
+                .transition().duration(500)
+                .style("opacity", 0);
+            }
+          }
+        }
+
+        if (cons.length > 2) {
+          conRight3.attr("x1", function(d) {
+              return d3ProjectionRight([cons[2].sLng, cons[2].sLat])[0];
+            })
+            .attr("y1", function(d) {
+              return d3ProjectionRight([cons[2].sLng, cons[2].sLat])[1];
+            });
+          if (n < 3) {
+            conRight3.attr("x2", function(d) {
+                return d3ProjectionRight([cons[2].sLng, cons[2].sLat])[0];
+              })
+              .attr("y2", function(d) {
+                return d3ProjectionRight([cons[2].sLng, cons[2].sLat])[1];
+              });
+          } else {
+            if (n === 3) {
+              conRight3.transition().duration(1000).attr("x2", function(d) {
+                  return d3ProjectionRight([cons[2].eLng, cons[2].eLat])[0];
+                })
+                .attr("y2", function(d) {
+                  return d3ProjectionRight([cons[2].eLng, cons[2].eLat])[1];
+                })
+                .transition().duration(500)
+                .style("opacity", 0);
+            }
+          }
+        }
+
+        if (cons.length > 3) {
+          conRight4.attr("x1", function(d) {
+              return d3ProjectionRight([cons[3].sLng, cons[3].sLat])[0];
+            })
+            .attr("y1", function(d) {
+              return d3ProjectionRight([cons[3].sLng, cons[3].sLat])[1];
+            });
+          if (n < 4) {
+            conRight4.attr("x2", function(d) {
+                return d3ProjectionRight([cons[3].sLng, cons[3].sLat])[0];
+              })
+              .attr("y2", function(d) {
+                return d3ProjectionRight([cons[3].sLng, cons[3].sLat])[1];
+              });
+          } else {
+            if (n === 4) {
+              conRight4.transition().duration(1000).attr("x2", function(d) {
+                  return d3ProjectionRight([cons[3].eLng, cons[3].eLat])[0];
+                })
+                .attr("y2", function(d) {
+                  return d3ProjectionRight([cons[3].eLng, cons[3].eLat])[1];
+                })
+                .transition().duration(500)
+                .style("opacity", 0);
+            }
+          }
+        }
+
+        if (cons.length > 4) {
+          conRight5.attr("x1", function(d) {
+              return d3ProjectionRight([cons[4].sLng, cons[4].sLat])[0];
+            })
+            .attr("y1", function(d) {
+              return d3ProjectionRight([cons[4].sLng, cons[4].sLat])[1];
+            });
+          if (n < 5) {
+            conRight5.attr("x2", function(d) {
+                return d3ProjectionRight([cons[4].sLng, cons[4].sLat])[0];
+              })
+              .attr("y2", function(d) {
+                return d3ProjectionRight([cons[4].sLng, cons[4].sLat])[1];
+              });
+          } else {
+            if (n === 5) {
+              conRight5.transition().duration(1000).attr("x2", function(d) {
+                  return d3ProjectionRight([cons[4].eLng, cons[4].eLat])[0];
+                })
+                .attr("y2", function(d) {
+                  return d3ProjectionRight([cons[4].eLng, cons[4].eLat])[1];
+                })
+                .transition().duration(500)
+                .style("opacity", 0);
+            }
+          }
+        }
+      }
+      mapR.on("move", function() {
+        renderConRight()
+      })
+
+      renderConRight()
+
+    }
+
+
+    // right slider
+    var sTRslide = new TweenMax.to('.sTslide', .25, {
+      x: '-200%'
+    });
+
+    var sTLnarrow = new TweenMax.to('.storyNarrow', .25, {
+      css: {
+        padding: "0 100px 0 100px"
+      }
+    });
+
+    sTRslide_out = new ScrollMagic.Scene({
+        triggerElement: "#p55"
+      })
+      .triggerHook("onLeave")
+      .setTween(sTRslide)
+      .addTo(controller);
+
+    sTRslide_out.on("progress", function(event) {
+      var dir = event.scrollDirection;
+      if (dir === "FORWARD") {
+
+      } else {
+
+      }
+    })
+
+    // right slider
+    var sTRslide_back = new TweenMax.to('.sTslide', .25, {
+      x: '200%'
+    });
+
+    // var sTLnarrow = new TweenMax.to('.storyNarrow', .25, {
+    //   css: {
+    //     padding: "0 100px 0 100px"
+    //   }
+    // });
+
+    sTRslide_back = new ScrollMagic.Scene({
+        triggerElement: "#p59"
+      })
+      .triggerHook("onEnter")
+      .setTween(sTRslide_back)
+      .addTo(controller);
+
+    sTRslide_out.on("progress", function(event) {
+      var dir = event.scrollDirection;
+      if (dir === "FORWARD") {
+
+      } else {
+
+      }
+    })
+
+
+  });
 }

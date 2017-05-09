@@ -252,7 +252,7 @@
     }],
     "reserves": ["aklavik", "banksIsland", "cambridgeBay", "delta", "fortMcPherson", "fortNorman", "herschelIsland", "holmanIsland", "perryRiver", "reindeerCamp", "spenceBay", "tuktoyaktuk"],
     "religiousGroups": [{
-      "group": "Missionary Society of the Church of ENgland in Canada (MSCC)",
+      "group": "Missionary Society of the Church of England in Canada (MSCC)",
       "ref": ["ASU016444", "ANGDC021559-21567"]
     }],
     "writtenAgreements": [],
