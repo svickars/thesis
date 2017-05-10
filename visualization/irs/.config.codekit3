@@ -17,7 +17,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_bourbon.css",
+		"oAP": "\/docs\/css\/_bourbon.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -30,7 +30,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/_neat.css",
+		"oAP": "\/docs\/css\/_neat.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -43,7 +43,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/bitters\/_base.css",
+		"oAP": "\/docs\/css\/bitters\/_base.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -56,7 +56,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/bitters\/_buttons.css",
+		"oAP": "\/docs\/css\/bitters\/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -69,7 +69,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/bitters\/_forms.css",
+		"oAP": "\/docs\/css\/bitters\/_forms.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -82,7 +82,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/bitters\/_layout.css",
+		"oAP": "\/docs\/css\/bitters\/_layout.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -95,7 +95,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/bitters\/_lists.css",
+		"oAP": "\/docs\/css\/bitters\/_lists.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -108,7 +108,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/bitters\/_media.css",
+		"oAP": "\/docs\/css\/bitters\/_media.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -121,7 +121,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/bitters\/_tables.css",
+		"oAP": "\/docs\/css\/bitters\/_tables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -134,7 +134,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/bitters\/_typography.css",
+		"oAP": "\/docs\/css\/bitters\/_typography.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -147,7 +147,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/bitters\/_variables.css",
+		"oAP": "\/docs\/css\/bitters\/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -157,8 +157,8 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/font-awesome-animation.min-min-min.css",
+		"oA": 1,
+		"oAP": "\/docs\/css\/font-awesome-animation.min-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -168,7 +168,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/font-awesome-animation.min-min.css",
+		"oAP": "\/docs\/css\/font-awesome-animation.min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -180,7 +180,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/helpers\/_buttons-list.css",
+		"oAP": "\/docs\/css\/helpers\/_buttons-list.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -193,7 +193,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/helpers\/_scales.css",
+		"oAP": "\/docs\/css\/helpers\/_scales.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -206,7 +206,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/helpers\/_text-inputs-list.css",
+		"oAP": "\/docs\/css\/helpers\/_text-inputs-list.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -216,8 +216,8 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/leaflet-min-min.css",
+		"oA": 1,
+		"oAP": "\/docs\/css\/leaflet-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -227,7 +227,7 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/leaflet-min.css",
+		"oAP": "\/docs\/css\/leaflet-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -239,7 +239,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_border-color.css",
+		"oAP": "\/docs\/css\/library\/_border-color.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -252,7 +252,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_border-radius.css",
+		"oAP": "\/docs\/css\/library\/_border-radius.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -265,7 +265,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_border-style.css",
+		"oAP": "\/docs\/css\/library\/_border-style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -278,7 +278,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_border-width.css",
+		"oAP": "\/docs\/css\/library\/_border-width.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -291,7 +291,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_buttons.css",
+		"oAP": "\/docs\/css\/library\/_buttons.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -304,7 +304,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_clearfix.css",
+		"oAP": "\/docs\/css\/library\/_clearfix.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -317,7 +317,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_contrast-switch.css",
+		"oAP": "\/docs\/css\/library\/_contrast-switch.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -330,7 +330,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_ellipsis.css",
+		"oAP": "\/docs\/css\/library\/_ellipsis.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -343,7 +343,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_font-face.css",
+		"oAP": "\/docs\/css\/library\/_font-face.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -356,7 +356,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_font-stacks.css",
+		"oAP": "\/docs\/css\/library\/_font-stacks.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -369,7 +369,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_hide-text.css",
+		"oAP": "\/docs\/css\/library\/_hide-text.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -382,7 +382,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_hide-visually.css",
+		"oAP": "\/docs\/css\/library\/_hide-visually.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -395,7 +395,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_margin.css",
+		"oAP": "\/docs\/css\/library\/_margin.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -408,7 +408,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_modular-scale.css",
+		"oAP": "\/docs\/css\/library\/_modular-scale.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -421,7 +421,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_overflow-wrap.css",
+		"oAP": "\/docs\/css\/library\/_overflow-wrap.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -434,7 +434,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_padding.css",
+		"oAP": "\/docs\/css\/library\/_padding.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -447,7 +447,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_position.css",
+		"oAP": "\/docs\/css\/library\/_position.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -460,7 +460,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_prefixer.css",
+		"oAP": "\/docs\/css\/library\/_prefixer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -473,7 +473,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_shade.css",
+		"oAP": "\/docs\/css\/library\/_shade.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -486,7 +486,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_size.css",
+		"oAP": "\/docs\/css\/library\/_size.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -499,7 +499,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_strip-unit.css",
+		"oAP": "\/docs\/css\/library\/_strip-unit.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -512,7 +512,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_text-inputs.css",
+		"oAP": "\/docs\/css\/library\/_text-inputs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -525,7 +525,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_timing-functions.css",
+		"oAP": "\/docs\/css\/library\/_timing-functions.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -538,7 +538,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_tint.css",
+		"oAP": "\/docs\/css\/library\/_tint.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -551,7 +551,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_triangle.css",
+		"oAP": "\/docs\/css\/library\/_triangle.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -564,7 +564,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/library\/_value-prefixer.css",
+		"oAP": "\/docs\/css\/library\/_value-prefixer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -577,7 +577,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/functions\/_neat-append-grid-visual.css",
+		"oAP": "\/docs\/css\/neat\/functions\/_neat-append-grid-visual.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -590,7 +590,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/functions\/_neat-column-default.css",
+		"oAP": "\/docs\/css\/neat\/functions\/_neat-column-default.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -603,7 +603,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/functions\/_neat-column-ratio.css",
+		"oAP": "\/docs\/css\/neat\/functions\/_neat-column-ratio.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -616,7 +616,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/functions\/_neat-column-width.css",
+		"oAP": "\/docs\/css\/neat\/functions\/_neat-column-width.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -629,7 +629,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/functions\/_neat-float-direction.css",
+		"oAP": "\/docs\/css\/neat\/functions\/_neat-float-direction.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -642,7 +642,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/functions\/_neat-merge-defaults.css",
+		"oAP": "\/docs\/css\/neat\/functions\/_neat-merge-defaults.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -655,7 +655,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/functions\/_neat-opposite-direction.css",
+		"oAP": "\/docs\/css\/neat\/functions\/_neat-opposite-direction.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -668,7 +668,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/functions\/_neat-parse-columns.css",
+		"oAP": "\/docs\/css\/neat\/functions\/_neat-parse-columns.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -681,7 +681,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/functions\/_neat-parse-media.css",
+		"oAP": "\/docs\/css\/neat\/functions\/_neat-parse-media.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -694,7 +694,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/functions\/_retrieve-neat-settings.css",
+		"oAP": "\/docs\/css\/neat\/functions\/_retrieve-neat-settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -707,7 +707,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/mixins\/_grid-collapse.css",
+		"oAP": "\/docs\/css\/neat\/mixins\/_grid-collapse.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -720,7 +720,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/mixins\/_grid-column.css",
+		"oAP": "\/docs\/css\/neat\/mixins\/_grid-column.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -733,7 +733,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/mixins\/_grid-container.css",
+		"oAP": "\/docs\/css\/neat\/mixins\/_grid-container.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -746,7 +746,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/mixins\/_grid-media.css",
+		"oAP": "\/docs\/css\/neat\/mixins\/_grid-media.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -759,7 +759,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/mixins\/_grid-push.css",
+		"oAP": "\/docs\/css\/neat\/mixins\/_grid-push.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -772,7 +772,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/mixins\/_grid-shift.css",
+		"oAP": "\/docs\/css\/neat\/mixins\/_grid-shift.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -785,7 +785,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/mixins\/_grid-visual.css",
+		"oAP": "\/docs\/css\/neat\/mixins\/_grid-visual.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -798,7 +798,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/neat\/settings\/_settings.css",
+		"oAP": "\/docs\/css\/neat\/settings\/_settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -811,7 +811,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/settings\/_settings.css",
+		"oAP": "\/docs\/css\/settings\/_settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -821,8 +821,8 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style (Jimbo.local's conflicted copy 2017-05-04)-min.css",
+		"oA": 1,
+		"oAP": "\/docs\/css\/style (Jimbo.local's conflicted copy 2017-05-04)-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -834,7 +834,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/style (Jimbo.local's conflicted copy 2017-05-04).css",
+		"oAP": "\/docs\/css\/style (Jimbo.local's conflicted copy 2017-05-04).css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -844,8 +844,8 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style-min.css",
+		"oA": 1,
+		"oAP": "\/docs\/css\/style-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -857,7 +857,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/style.css",
+		"oAP": "\/docs\/css\/style.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -870,7 +870,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/utilities\/_assign-inputs.css",
+		"oAP": "\/docs\/css\/utilities\/_assign-inputs.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -883,7 +883,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/utilities\/_compact-shorthand.css",
+		"oAP": "\/docs\/css\/utilities\/_compact-shorthand.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -896,7 +896,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/utilities\/_contrast-ratio.css",
+		"oAP": "\/docs\/css\/utilities\/_contrast-ratio.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -909,7 +909,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/utilities\/_directional-property.css",
+		"oAP": "\/docs\/css\/utilities\/_directional-property.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -922,7 +922,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/utilities\/_font-source-declaration.css",
+		"oAP": "\/docs\/css\/utilities\/_font-source-declaration.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -935,7 +935,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/utilities\/_gamma.css",
+		"oAP": "\/docs\/css\/utilities\/_gamma.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -948,7 +948,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/utilities\/_lightness.css",
+		"oAP": "\/docs\/css\/utilities\/_lightness.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -961,7 +961,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/utilities\/_retrieve-bourbon-setting.css",
+		"oAP": "\/docs\/css\/utilities\/_retrieve-bourbon-setting.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -974,7 +974,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/utilities\/_unpack-shorthand.css",
+		"oAP": "\/docs\/css\/utilities\/_unpack-shorthand.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -987,7 +987,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/validators\/_contains-falsy.css",
+		"oAP": "\/docs\/css\/validators\/_contains-falsy.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1000,7 +1000,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/validators\/_contains.css",
+		"oAP": "\/docs\/css\/validators\/_contains.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1013,7 +1013,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/validators\/_is-color.css",
+		"oAP": "\/docs\/css\/validators\/_is-color.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1026,7 +1026,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/validators\/_is-length.css",
+		"oAP": "\/docs\/css\/validators\/_is-length.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1039,7 +1039,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/validators\/_is-number.css",
+		"oAP": "\/docs\/css\/validators\/_is-number.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1052,7 +1052,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/css\/validators\/_is-size.css",
+		"oAP": "\/docs\/css\/validators\/_is-size.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1061,7 +1061,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/cd-icons.svg",
+		"oAP": "\/docs\/images\/cd-icons.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1071,10 +1071,10 @@
 		"ft": 32768,
 		"iS": 1846,
 		"oA": 0,
-		"oAP": "\/images\/placeholder.png",
+		"oAP": "\/docs\/images\/placeholder.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1082,327 +1082,327 @@
 		"ft": 16384,
 		"iS": 113304,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/ahousaht.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/ahousaht.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/akaitcho.jpg": {
 		"ft": 16384,
 		"iS": 250142,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/akaitcho.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/akaitcho.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/aklavik.jpg": {
 		"ft": 16384,
 		"iS": 128047,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/aklavik.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/aklavik.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/alberni.jpg": {
 		"ft": 16384,
 		"iS": 132295,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/alberni.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/alberni.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/amos.jpg": {
 		"ft": 16384,
 		"iS": 93367,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/amos.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/amos.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/anahimLake.jpg": {
 		"ft": 16384,
 		"iS": 25020,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/anahimLake.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/anahimLake.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/assiniboia.jpg": {
 		"ft": 16384,
 		"iS": 133523,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/assiniboia.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/assiniboia.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/bakerLake.jpg": {
 		"ft": 16384,
 		"iS": 6291497,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/bakerLake.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/bakerLake.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/battleford.jpg": {
 		"ft": 16384,
 		"iS": 101860,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/battleford.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/battleford.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/beauval.jpg": {
 		"ft": 16384,
 		"iS": 48552,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/beauval.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/beauval.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/birtle.jpg": {
 		"ft": 16384,
 		"iS": 71037,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/birtle.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/birtle.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/bishopHordenHall.jpg": {
 		"ft": 16384,
 		"iS": 65762,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/bishopHordenHall.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/bishopHordenHall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/blood.jpg": {
 		"ft": 16384,
 		"iS": 157489,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/blood.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/blood.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/blueQuills.jpg": {
 		"ft": 16384,
 		"iS": 140631,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/blueQuills.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/blueQuills.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/bompasHall.jpg": {
 		"ft": 16384,
 		"iS": 9163068,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/bompasHall.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/bompasHall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/brandon.jpg": {
 		"ft": 16384,
 		"iS": 27267,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/brandon.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/brandon.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/breynatHal.jpg": {
 		"ft": 16384,
 		"iS": 69784,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/breynatHal.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/breynatHal.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/cambridgeBay.jpg": {
 		"ft": 16384,
 		"iS": 92076,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/cambridgeBay.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/cambridgeBay.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/capeDorest.jpg": {
 		"ft": 16384,
 		"iS": 15822,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/capeDorest.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/capeDorest.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/carcross.jpg": {
 		"ft": 16384,
 		"iS": 43403,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/carcross.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/carcross.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/cariboo.jpg": {
 		"ft": 16384,
 		"iS": 149667,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/cariboo.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/cariboo.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/ceciliaJeffrey.jpg": {
 		"ft": 16384,
 		"iS": 51106,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/ceciliaJeffrey.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/ceciliaJeffrey.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/chapleau.jpg": {
 		"ft": 16384,
 		"iS": 58144,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/chapleau.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/chapleau.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/chesterfieldInlet.jpg": {
 		"ft": 16384,
 		"iS": 43877,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/chesterfieldInlet.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/chesterfieldInlet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/christie.jpg": {
 		"ft": 16384,
 		"iS": 80868,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/christie.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/christie.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/churchill.jpg": {
 		"ft": 16384,
 		"iS": 381985,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/churchill.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/churchill.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/coppermine.jpg": {
 		"ft": 16384,
 		"iS": 44764,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/coppermine.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/coppermine.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/coqualeetza.jpg": {
 		"ft": 16384,
 		"iS": 89043,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/coqualeetza.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/coqualeetza.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/coteImprovedFederal.jpg": {
 		"ft": 16384,
 		"iS": 16287,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/coteImprovedFederal.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/coteImprovedFederal.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/coudertHall.jpg": {
 		"ft": 16384,
 		"iS": 101234,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/coudertHall.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/coudertHall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/cranbrook.jpg": {
 		"ft": 16384,
 		"iS": 64127,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/cranbrook.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/cranbrook.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/crossLake.jpg": {
 		"ft": 16384,
 		"iS": 88919,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/crossLake.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/crossLake.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/crowfoot.jpg": {
 		"ft": 16384,
 		"iS": 452230,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/crowfoot.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/crowfoot.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1412,247 +1412,247 @@
 		"ft": 16384,
 		"iS": 37574,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/dawson.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/dawson.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/desmarais.jpg": {
 		"ft": 16384,
 		"iS": 59217,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/desmarais.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/desmarais.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/duckLake.jpg": {
 		"ft": 16384,
 		"iS": 64783,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/duckLake.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/duckLake.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/dunbow.jpg": {
 		"ft": 16384,
 		"iS": 67590,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/dunbow.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/dunbow.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/edmonton.jpg": {
 		"ft": 16384,
 		"iS": 23527,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/edmonton.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/edmonton.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/elkhorn.jpg": {
 		"ft": 16384,
 		"iS": 101502,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/elkhorn.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/elkhorn.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/ermineskin.jpg": {
 		"ft": 16384,
 		"iS": 80227,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/ermineskin.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/ermineskin.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/fileHills.jpg": {
 		"ft": 16384,
 		"iS": 58116,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/fileHills.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/fileHills.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/flemingHall.jpg": {
 		"ft": 16384,
 		"iS": 55032,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/flemingHall.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/flemingHall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/fortAlexander.jpg": {
 		"ft": 16384,
 		"iS": 55846,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/fortAlexander.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/fortAlexander.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/fortFranklin.jpg": {
 		"ft": 16384,
 		"iS": 91939,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/fortFranklin.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/fortFranklin.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/fortGeorgeCouture.jpg": {
 		"ft": 16384,
 		"iS": 109370,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/fortGeorgeCouture.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/fortGeorgeCouture.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/fortResolution.jpg": {
 		"ft": 16384,
 		"iS": 183133,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/fortResolution.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/fortResolution.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/fortVermilion.jpg": {
 		"ft": 16384,
 		"iS": 65453,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/fortVermilion.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/fortVermilion.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/frobisherBay.jpg": {
 		"ft": 16384,
 		"iS": 16961,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/frobisherBay.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/frobisherBay.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/gordons.jpg": {
 		"ft": 16384,
 		"iS": 48677,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/gordons.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/gordons.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/grandin.jpg": {
 		"ft": 16384,
 		"iS": 227683,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/grandin.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/grandin.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/grollier.jpg": {
 		"ft": 16384,
 		"iS": 150330,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/grollier.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/grollier.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/grouard.jpg": {
 		"ft": 16384,
 		"iS": 73159,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/grouard.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/grouard.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/hayRiver.jpg": {
 		"ft": 16384,
 		"iS": 48922,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/hayRiver.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/hayRiver.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/holeAngels.jpg": {
 		"ft": 16384,
 		"iS": 60300,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/holeAngels.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/holeAngels.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/immaculateConception.jpg": {
 		"ft": 16384,
 		"iS": 83642,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/immaculateConception.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/immaculateConception.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/joussard.jpg": {
 		"ft": 16384,
 		"iS": 67371,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/joussard.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/joussard.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/kamloops.jpg": {
 		"ft": 16384,
 		"iS": 105014,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/kamloops.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/kamloops.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/kamsack.jpg": {
 		"ft": 16384,
 		"iS": 68876,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/kamsack.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/kamsack.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1662,157 +1662,157 @@
 		"ft": 16384,
 		"iS": 85569,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/kitimaat.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/kitimaat.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/kuperIsland.jpg": {
 		"ft": 16384,
 		"iS": 66321,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/kuperIsland.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/kuperIsland.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/lacLaBiche.jpg": {
 		"ft": 16384,
 		"iS": 96541,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/lacLaBiche.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/lacLaBiche.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/lacLaRonge.jpg": {
 		"ft": 16384,
 		"iS": 74359,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/lacLaRonge.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/lacLaRonge.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/lapointeHall.jpg": {
 		"ft": 16384,
 		"iS": 88202,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/lapointeHall.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/lapointeHall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/laTuque.jpg": {
 		"ft": 16384,
 		"iS": 59402,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/laTuque.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/laTuque.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/lebret.jpg": {
 		"ft": 16384,
 		"iS": 62415,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/lebret.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/lebret.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/lejac.jpg": {
 		"ft": 16384,
 		"iS": 43367,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/lejac.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/lejac.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/lesserSlaveLake.jpg": {
 		"ft": 16384,
 		"iS": 39680,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/lesserSlaveLake.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/lesserSlaveLake.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/lowerPost.jpg": {
 		"ft": 16384,
 		"iS": 225634,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/lowerPost.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/lowerPost.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/mcIntosh.jpg": {
 		"ft": 16384,
 		"iS": 23505,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/mcIntosh.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/mcIntosh.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/mcKay.jpg": {
 		"ft": 16384,
 		"iS": 250158,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/mcKay.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/mcKay.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/mohawk.jpg": {
 		"ft": 16384,
 		"iS": 37164,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/mohawk.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/mohawk.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/morley.jpg": {
 		"ft": 16384,
 		"iS": 124663,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/morley.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/morley.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/mountElgin.jpg": {
 		"ft": 16384,
 		"iS": 54650,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/mountElgin.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/mountElgin.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/muscowequan.jpg": {
 		"ft": 16384,
 		"iS": 454975,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/muscowequan.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/muscowequan.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1822,327 +1822,327 @@
 		"ft": 16384,
 		"iS": 27316,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/norwayHouse.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/norwayHouse.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/notreDame.jpg": {
 		"ft": 16384,
 		"iS": 161149,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/notreDame.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/notreDame.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/oldSun.jpg": {
 		"ft": 16384,
 		"iS": 74442,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/oldSun.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/oldSun.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/pelicanLake.jpg": {
 		"ft": 16384,
 		"iS": 43322,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/pelicanLake.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/pelicanLake.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/pineCreek.jpg": {
 		"ft": 16384,
 		"iS": 26265,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/pineCreek.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/pineCreek.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/pointeBleue.jpg": {
 		"ft": 16384,
 		"iS": 71582,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/pointeBleue.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/pointeBleue.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/portageLaPrairie.jpg": {
 		"ft": 16384,
 		"iS": 27294,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/portageLaPrairie.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/portageLaPrairie.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/portSimpson.jpg": {
 		"ft": 16384,
 		"iS": 128903,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/portSimpson.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/portSimpson.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/princeAlbert.jpg": {
 		"ft": 16384,
 		"iS": 45811,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/princeAlbert.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/princeAlbert.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/sacredHeart.jpg": {
 		"ft": 16384,
 		"iS": 79879,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/sacredHeart.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/sacredHeart.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/sacredHeartPeigan.jpg": {
 		"ft": 16384,
 		"iS": 61070,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/sacredHeartPeigan.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/sacredHeartPeigan.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/sacredHeartProvidence.jpg": {
 		"ft": 16384,
 		"iS": 94810,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/sacredHeartProvidence.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/sacredHeartProvidence.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/sarcee.jpg": {
 		"ft": 16384,
 		"iS": 46278,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/sarcee.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/sarcee.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/sechelt.jpg": {
 		"ft": 16384,
 		"iS": 77730,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/sechelt.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/sechelt.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/septIles.jpg": {
 		"ft": 16384,
 		"iS": 72127,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/septIles.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/septIles.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/shinglePoint.jpg": {
 		"ft": 16384,
 		"iS": 238687,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/shinglePoint.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/shinglePoint.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/shingwauk.jpg": {
 		"ft": 16384,
 		"iS": 79070,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/shingwauk.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/shingwauk.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/shubenacadie.jpg": {
 		"ft": 16384,
 		"iS": 135651,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/shubenacadie.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/shubenacadie.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/spanishBoys.jpg": {
 		"ft": 16384,
 		"iS": 84073,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/spanishBoys.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/spanishBoys.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/spanishGirls.jpg": {
 		"ft": 16384,
 		"iS": 82566,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/spanishGirls.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/spanishGirls.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/squamish.jpg": {
 		"ft": 16384,
 		"iS": 97698,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/squamish.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/squamish.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/stAlbert.jpg": {
 		"ft": 16384,
 		"iS": 207770,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/stAlbert.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/stAlbert.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/stAnnes.jpg": {
 		"ft": 16384,
 		"iS": 90723,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/stAnnes.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/stAnnes.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/stAugustine.jpg": {
 		"ft": 16384,
 		"iS": 66873,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/stAugustine.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/stAugustine.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/stCyprian.jpg": {
 		"ft": 16384,
 		"iS": 31185,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/stCyprian.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/stCyprian.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/stGeorge.jpg": {
 		"ft": 16384,
 		"iS": 69831,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/stGeorge.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/stGeorge.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/stMarys.jpg": {
 		"ft": 16384,
 		"iS": 86958,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/stMarys.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/stMarys.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/stMichaels.jpg": {
 		"ft": 16384,
 		"iS": 42586,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/stMichaels.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/stMichaels.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/stPauls.jpg": {
 		"ft": 16384,
 		"iS": 37269,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/stPauls.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/stPauls.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/stPhilips.jpg": {
 		"ft": 16384,
 		"iS": 38841,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/stPhilips.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/stPhilips.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/stringerHall.jpg": {
 		"ft": 16384,
 		"iS": 49104,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/stringerHall.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/stringerHall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/sturgeonLake.jpg": {
 		"ft": 16384,
 		"iS": 43497,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/sturgeonLake.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/sturgeonLake.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/sturgeonLanding.jpg": {
 		"ft": 16384,
 		"iS": 69967,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/sturgeonLanding.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/sturgeonLanding.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -2152,53 +2152,53 @@
 		"ft": 16384,
 		"iS": 112173,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/thunderchild.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/thunderchild.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/wabasca.jpg": {
 		"ft": 16384,
 		"iS": 37866,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/wabasca.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/wabasca.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/whitefishLake.jpg": {
 		"ft": 16384,
 		"iS": 37663,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/whitefishLake.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/whitefishLake.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/schoolPhotos\/yukonHall.jpg": {
 		"ft": 16384,
 		"iS": 65934,
 		"oA": 0,
-		"oAP": "\/images\/schoolPhotos\/yukonHall.jpg",
+		"oAP": "\/docs\/images\/schoolPhotos\/yukonHall.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index.html",
+		"oAP": "\/docs\/index.html",
 		"oF": 0
 		},
 	"\/js\/d3-tip.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/d3-tip-min.js",
+		"oAP": "\/docs\/js\/d3-tip-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2206,15 +2206,7 @@
 	"\/js\/data\/connections.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/connections-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/js\/data\/IRSloc.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/js\/data\/IRSloc-min.json",
+		"oAP": "\/docs\/js\/data\/connections-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2222,15 +2214,7 @@
 	"\/js\/data\/locations.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/locations-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/js\/data\/reserves.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/js\/data\/reserves-min.json",
+		"oAP": "\/docs\/js\/data\/locations-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2238,7 +2222,7 @@
 	"\/js\/data\/schools\/ahousaht.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/ahousaht-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/ahousaht-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2246,7 +2230,7 @@
 	"\/js\/data\/schools\/akaitcho.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/akaitcho-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/akaitcho-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2254,7 +2238,7 @@
 	"\/js\/data\/schools\/aklavik.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/aklavik-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/aklavik-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2262,7 +2246,7 @@
 	"\/js\/data\/schools\/alberni.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/alberni-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/alberni-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2270,7 +2254,7 @@
 	"\/js\/data\/schools\/amos.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/amos-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/amos-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2278,7 +2262,7 @@
 	"\/js\/data\/schools\/anahimLake.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/anahimLake-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/anahimLake-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2286,7 +2270,7 @@
 	"\/js\/data\/schools\/assiniboia.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/assiniboia-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/assiniboia-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2294,7 +2278,7 @@
 	"\/js\/data\/schools\/assumption.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/assumption-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/assumption-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2302,7 +2286,7 @@
 	"\/js\/data\/schools\/bakerLake.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/bakerLake-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/bakerLake-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2310,7 +2294,7 @@
 	"\/js\/data\/schools\/battleford.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/battleford-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/battleford-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2318,7 +2302,7 @@
 	"\/js\/data\/schools\/beauval.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/beauval-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/beauval-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2326,7 +2310,7 @@
 	"\/js\/data\/schools\/belcherIslands.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/belcherIslands-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/belcherIslands-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2334,7 +2318,7 @@
 	"\/js\/data\/schools\/birtle.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/birtle-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/birtle-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2342,7 +2326,7 @@
 	"\/js\/data\/schools\/bishopHordenHall.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/bishopHordenHall-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/bishopHordenHall-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2350,7 +2334,7 @@
 	"\/js\/data\/schools\/blood.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/blood-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/blood-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2358,7 +2342,7 @@
 	"\/js\/data\/schools\/blueQuills.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/blueQuills-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/blueQuills-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2366,7 +2350,7 @@
 	"\/js\/data\/schools\/bompasHall.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/bompasHall-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/bompasHall-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2374,7 +2358,7 @@
 	"\/js\/data\/schools\/brandon.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/brandon-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/brandon-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2382,7 +2366,7 @@
 	"\/js\/data\/schools\/breynatHal.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/breynatHal-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/breynatHal-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2390,7 +2374,7 @@
 	"\/js\/data\/schools\/broughtonIsland.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/broughtonIsland-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/broughtonIsland-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2398,7 +2382,7 @@
 	"\/js\/data\/schools\/cambridgeBay.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/cambridgeBay-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/cambridgeBay-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2406,7 +2390,7 @@
 	"\/js\/data\/schools\/capeDorest.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/capeDorest-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/capeDorest-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2414,7 +2398,7 @@
 	"\/js\/data\/schools\/carcross.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/carcross-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/carcross-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2422,7 +2406,7 @@
 	"\/js\/data\/schools\/cariboo.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/cariboo-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/cariboo-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2430,7 +2414,7 @@
 	"\/js\/data\/schools\/ceciliaJeffrey.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/ceciliaJeffrey-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/ceciliaJeffrey-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2438,7 +2422,7 @@
 	"\/js\/data\/schools\/chapleau.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/chapleau-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/chapleau-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2446,7 +2430,7 @@
 	"\/js\/data\/schools\/chesterfieldInlet.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/chesterfieldInlet-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/chesterfieldInlet-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2454,7 +2438,7 @@
 	"\/js\/data\/schools\/christie.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/christie-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/christie-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2462,7 +2446,7 @@
 	"\/js\/data\/schools\/churchill.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/churchill-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/churchill-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2470,7 +2454,7 @@
 	"\/js\/data\/schools\/coppermine.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/coppermine-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/coppermine-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2478,7 +2462,7 @@
 	"\/js\/data\/schools\/coqualeetza.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/coqualeetza-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/coqualeetza-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2486,7 +2470,7 @@
 	"\/js\/data\/schools\/coteImprovedFederal.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/coteImprovedFederal-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/coteImprovedFederal-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2494,7 +2478,7 @@
 	"\/js\/data\/schools\/coudertHall.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/coudertHall-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/coudertHall-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2502,7 +2486,7 @@
 	"\/js\/data\/schools\/cranbrook.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/cranbrook-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/cranbrook-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2510,7 +2494,7 @@
 	"\/js\/data\/schools\/cristalLake.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/cristalLake-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/cristalLake-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2518,7 +2502,7 @@
 	"\/js\/data\/schools\/crossLake.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/crossLake-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/crossLake-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2526,7 +2510,7 @@
 	"\/js\/data\/schools\/crowfoot.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/crowfoot-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/crowfoot-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2534,7 +2518,7 @@
 	"\/js\/data\/schools\/crowstand.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/crowstand-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/crowstand-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2542,7 +2526,7 @@
 	"\/js\/data\/schools\/dataStructure.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/dataStructure-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/dataStructure-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2550,7 +2534,7 @@
 	"\/js\/data\/schools\/dawson.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/dawson-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/dawson-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2558,7 +2542,7 @@
 	"\/js\/data\/schools\/desmarais.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/desmarais-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/desmarais-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2566,7 +2550,7 @@
 	"\/js\/data\/schools\/duckLake.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/duckLake-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/duckLake-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2574,7 +2558,7 @@
 	"\/js\/data\/schools\/dunbow.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/dunbow-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/dunbow-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2582,7 +2566,7 @@
 	"\/js\/data\/schools\/edmonton.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/edmonton-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/edmonton-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2590,7 +2574,7 @@
 	"\/js\/data\/schools\/elkhorn.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/elkhorn-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/elkhorn-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2598,7 +2582,7 @@
 	"\/js\/data\/schools\/ermineskin.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/ermineskin-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/ermineskin-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2606,7 +2590,7 @@
 	"\/js\/data\/schools\/eskimoPoint.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/eskimoPoint-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/eskimoPoint-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2614,7 +2598,7 @@
 	"\/js\/data\/schools\/fileHills.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/fileHills-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/fileHills-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2622,7 +2606,7 @@
 	"\/js\/data\/schools\/flemingHall.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/flemingHall-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/flemingHall-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2630,7 +2614,7 @@
 	"\/js\/data\/schools\/fortAlexander.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/fortAlexander-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/fortAlexander-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2638,7 +2622,7 @@
 	"\/js\/data\/schools\/fortFrances.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/fortFrances-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/fortFrances-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2646,7 +2630,7 @@
 	"\/js\/data\/schools\/fortFranklin.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/fortFranklin-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/fortFranklin-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2654,7 +2638,7 @@
 	"\/js\/data\/schools\/fortGeorge.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/fortGeorge-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/fortGeorge-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2662,7 +2646,7 @@
 	"\/js\/data\/schools\/fortGeorgeCouture.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/fortGeorgeCouture-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/fortGeorgeCouture-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2670,7 +2654,7 @@
 	"\/js\/data\/schools\/fortPelly.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/fortPelly-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/fortPelly-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2678,7 +2662,7 @@
 	"\/js\/data\/schools\/fortResolution.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/fortResolution-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/fortResolution-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2686,7 +2670,7 @@
 	"\/js\/data\/schools\/fortVermilion.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/fortVermilion-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/fortVermilion-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2694,7 +2678,7 @@
 	"\/js\/data\/schools\/fortWilliam.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/fortWilliam-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/fortWilliam-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2702,7 +2686,7 @@
 	"\/js\/data\/schools\/frobisherBay.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/frobisherBay-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/frobisherBay-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2710,7 +2694,7 @@
 	"\/js\/data\/schools\/georgeRiver.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/georgeRiver-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/georgeRiver-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2718,7 +2702,7 @@
 	"\/js\/data\/schools\/gordons.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/gordons-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/gordons-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2726,7 +2710,7 @@
 	"\/js\/data\/schools\/grandin.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/grandin-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/grandin-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2734,7 +2718,7 @@
 	"\/js\/data\/schools\/greatWhaleRiver.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/greatWhaleRiver-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/greatWhaleRiver-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2742,7 +2726,7 @@
 	"\/js\/data\/schools\/grollierHall.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/grollierHall-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/grollierHall-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2750,7 +2734,7 @@
 	"\/js\/data\/schools\/grouard.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/grouard-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/grouard-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2758,7 +2742,7 @@
 	"\/js\/data\/schools\/guyHill.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/guyHill-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/guyHill-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2766,7 +2750,7 @@
 	"\/js\/data\/schools\/hayRiver.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/hayRiver-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/hayRiver-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2774,7 +2758,7 @@
 	"\/js\/data\/schools\/holeAngels.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/holeAngels-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/holeAngels-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2782,7 +2766,7 @@
 	"\/js\/data\/schools\/iglooik.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/iglooik-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/iglooik-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2790,7 +2774,7 @@
 	"\/js\/data\/schools\/immaculateConception.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/immaculateConception-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/immaculateConception-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2798,7 +2782,7 @@
 	"\/js\/data\/schools\/joussard.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/joussard-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/joussard-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2806,7 +2790,7 @@
 	"\/js\/data\/schools\/kamloops.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/kamloops-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/kamloops-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2814,7 +2798,7 @@
 	"\/js\/data\/schools\/kamsack.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/kamsack-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/kamsack-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2822,7 +2806,7 @@
 	"\/js\/data\/schools\/kitimaat.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/kitimaat-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/kitimaat-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2830,7 +2814,7 @@
 	"\/js\/data\/schools\/kuperIsland.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/kuperIsland-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/kuperIsland-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2838,7 +2822,7 @@
 	"\/js\/data\/schools\/lacLaBiche.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/lacLaBiche-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/lacLaBiche-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2846,7 +2830,7 @@
 	"\/js\/data\/schools\/lacLaRonge.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/lacLaRonge-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/lacLaRonge-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2854,7 +2838,7 @@
 	"\/js\/data\/schools\/lakeHarbour.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/lakeHarbour-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/lakeHarbour-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2862,7 +2846,7 @@
 	"\/js\/data\/schools\/lapointeHall.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/lapointeHall-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/lapointeHall-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2870,7 +2854,7 @@
 	"\/js\/data\/schools\/laTuque.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/laTuque-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/laTuque-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2878,7 +2862,7 @@
 	"\/js\/data\/schools\/lebret.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/lebret-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/lebret-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2886,7 +2870,7 @@
 	"\/js\/data\/schools\/lejac.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/lejac-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/lejac-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2894,7 +2878,7 @@
 	"\/js\/data\/schools\/lesserSlaveLake.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/lesserSlaveLake-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/lesserSlaveLake-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2902,7 +2886,7 @@
 	"\/js\/data\/schools\/lowerPost.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/lowerPost-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/lowerPost-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2910,7 +2894,7 @@
 	"\/js\/data\/schools\/marieval.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/marieval-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/marieval-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2918,7 +2902,7 @@
 	"\/js\/data\/schools\/mcIntosh.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/mcIntosh-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/mcIntosh-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2926,7 +2910,7 @@
 	"\/js\/data\/schools\/mcKay.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/mcKay-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/mcKay-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2934,7 +2918,7 @@
 	"\/js\/data\/schools\/mistassini.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/mistassini-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/mistassini-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2942,7 +2926,7 @@
 	"\/js\/data\/schools\/mohawk.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/mohawk-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/mohawk-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2950,7 +2934,7 @@
 	"\/js\/data\/schools\/morley.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/morley-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/morley-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2958,7 +2942,7 @@
 	"\/js\/data\/schools\/mountElgin.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/mountElgin-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/mountElgin-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2966,7 +2950,7 @@
 	"\/js\/data\/schools\/muscowequan.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/muscowequan-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/muscowequan-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2974,7 +2958,7 @@
 	"\/js\/data\/schools\/norwayHouse.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/norwayHouse-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/norwayHouse-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2982,7 +2966,7 @@
 	"\/js\/data\/schools\/notreDame.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/notreDame-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/notreDame-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2990,7 +2974,7 @@
 	"\/js\/data\/schools\/oldSun.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/oldSun-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/oldSun-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -2998,7 +2982,7 @@
 	"\/js\/data\/schools\/pangnirtung.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/pangnirtung-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/pangnirtung-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3006,7 +2990,7 @@
 	"\/js\/data\/schools\/payneBay.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/payneBay-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/payneBay-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3014,7 +2998,7 @@
 	"\/js\/data\/schools\/pelicanLake.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/pelicanLake-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/pelicanLake-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3022,7 +3006,7 @@
 	"\/js\/data\/schools\/pineCreek.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/pineCreek-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/pineCreek-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3030,7 +3014,7 @@
 	"\/js\/data\/schools\/pointeBleue.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/pointeBleue-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/pointeBleue-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3038,7 +3022,7 @@
 	"\/js\/data\/schools\/pondInlet.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/pondInlet-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/pondInlet-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3046,7 +3030,7 @@
 	"\/js\/data\/schools\/poplarHill.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/poplarHill-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/poplarHill-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3054,7 +3038,7 @@
 	"\/js\/data\/schools\/portageLaPrairie.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/portageLaPrairie-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/portageLaPrairie-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3062,7 +3046,7 @@
 	"\/js\/data\/schools\/portHarrison.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/portHarrison-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/portHarrison-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3070,7 +3054,7 @@
 	"\/js\/data\/schools\/portSimpson.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/portSimpson-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/portSimpson-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3078,7 +3062,7 @@
 	"\/js\/data\/schools\/princeAlbert.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/princeAlbert-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/princeAlbert-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3086,7 +3070,7 @@
 	"\/js\/data\/schools\/regina.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/regina-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/regina-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3094,7 +3078,7 @@
 	"\/js\/data\/schools\/roundLake.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/roundLake-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/roundLake-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3102,7 +3086,7 @@
 	"\/js\/data\/schools\/sacredHeart.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/sacredHeart-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/sacredHeart-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3110,7 +3094,7 @@
 	"\/js\/data\/schools\/sacredHeartPeigan.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/sacredHeartPeigan-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/sacredHeartPeigan-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3118,7 +3102,7 @@
 	"\/js\/data\/schools\/sacredHeartProvidence.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/sacredHeartProvidence-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/sacredHeartProvidence-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3126,7 +3110,7 @@
 	"\/js\/data\/schools\/sandyBay.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/sandyBay-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/sandyBay-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3134,7 +3118,7 @@
 	"\/js\/data\/schools\/sarcee.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/sarcee-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/sarcee-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3142,7 +3126,7 @@
 	"\/js\/data\/schools\/sechelt.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/sechelt-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/sechelt-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3150,7 +3134,7 @@
 	"\/js\/data\/schools\/septIles.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/septIles-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/septIles-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3158,7 +3142,7 @@
 	"\/js\/data\/schools\/shinglePoint.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/shinglePoint-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/shinglePoint-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3166,7 +3150,7 @@
 	"\/js\/data\/schools\/shingwauk.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/shingwauk-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/shingwauk-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3174,7 +3158,7 @@
 	"\/js\/data\/schools\/shubenacadie.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/shubenacadie-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/shubenacadie-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3182,7 +3166,7 @@
 	"\/js\/data\/schools\/spanishBoys.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/spanishBoys-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/spanishBoys-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3190,7 +3174,7 @@
 	"\/js\/data\/schools\/spanishGirls.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/spanishGirls-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/spanishGirls-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3198,7 +3182,7 @@
 	"\/js\/data\/schools\/squamish.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/squamish-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/squamish-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3206,7 +3190,7 @@
 	"\/js\/data\/schools\/stAlbert.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/stAlbert-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/stAlbert-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3214,7 +3198,7 @@
 	"\/js\/data\/schools\/stAnnes.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/stAnnes-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/stAnnes-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3222,7 +3206,7 @@
 	"\/js\/data\/schools\/stAnthonys.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/stAnthonys-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/stAnthonys-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3230,7 +3214,7 @@
 	"\/js\/data\/schools\/stAugustine.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/stAugustine-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/stAugustine-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3238,7 +3222,7 @@
 	"\/js\/data\/schools\/stCyprian.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/stCyprian-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/stCyprian-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3246,7 +3230,7 @@
 	"\/js\/data\/schools\/stGeorge.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/stGeorge-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/stGeorge-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3254,7 +3238,7 @@
 	"\/js\/data\/schools\/stirlandLake.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/stirlandLake-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/stirlandLake-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3262,7 +3246,7 @@
 	"\/js\/data\/schools\/stMarys.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/stMarys-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/stMarys-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3270,7 +3254,7 @@
 	"\/js\/data\/schools\/stMichaels.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/stMichaels-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/stMichaels-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3278,7 +3262,7 @@
 	"\/js\/data\/schools\/stPauls.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/stPauls-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/stPauls-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3286,7 +3270,7 @@
 	"\/js\/data\/schools\/stPhilips.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/stPhilips-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/stPhilips-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3294,7 +3278,7 @@
 	"\/js\/data\/schools\/stringerHall.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/stringerHall-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/stringerHall-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3302,7 +3286,7 @@
 	"\/js\/data\/schools\/sturgeonLake.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/sturgeonLake-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/sturgeonLake-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3310,7 +3294,7 @@
 	"\/js\/data\/schools\/sturgeonLanding.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/sturgeonLanding-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/sturgeonLanding-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3318,7 +3302,7 @@
 	"\/js\/data\/schools\/thunderchild.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/thunderchild-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/thunderchild-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3326,7 +3310,7 @@
 	"\/js\/data\/schools\/wabasca.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/wabasca-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/wabasca-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3334,7 +3318,7 @@
 	"\/js\/data\/schools\/wawanoshHome.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/wawanoshHome-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/wawanoshHome-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3342,7 +3326,7 @@
 	"\/js\/data\/schools\/whitefishLake.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/whitefishLake-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/whitefishLake-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3350,7 +3334,7 @@
 	"\/js\/data\/schools\/whitehorse.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/whitehorse-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/whitehorse-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3358,7 +3342,7 @@
 	"\/js\/data\/schools\/yukonHall.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/schools\/yukonHall-min.json",
+		"oAP": "\/docs\/js\/data\/schools\/yukonHall-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3366,7 +3350,7 @@
 	"\/js\/data\/search_terms.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/search_terms-min.json",
+		"oAP": "\/docs\/js\/data\/search_terms-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -3375,10 +3359,10 @@
 		"ft": 32768,
 		"iS": 171702,
 		"oA": 0,
-		"oAP": "\/js\/data\/stories\/images\/bbaxter.png",
+		"oAP": "\/docs\/js\/data\/stories\/images\/bbaxter.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3386,10 +3370,10 @@
 		"ft": 32768,
 		"iS": 195466,
 		"oA": 0,
-		"oAP": "\/js\/data\/stories\/images\/dadolph.png",
+		"oAP": "\/docs\/js\/data\/stories\/images\/dadolph.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3397,10 +3381,10 @@
 		"ft": 32768,
 		"iS": 170434,
 		"oA": 0,
-		"oAP": "\/js\/data\/stories\/images\/dantoine.png",
+		"oAP": "\/docs\/js\/data\/stories\/images\/dantoine.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3408,10 +3392,10 @@
 		"ft": 32768,
 		"iS": 171953,
 		"oA": 0,
-		"oAP": "\/js\/data\/stories\/images\/lpmcdonald.png",
+		"oAP": "\/docs\/js\/data\/stories\/images\/lpmcdonald.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3419,10 +3403,10 @@
 		"ft": 32768,
 		"iS": 147807,
 		"oA": 0,
-		"oAP": "\/js\/data\/stories\/images\/nstarblanket.png",
+		"oAP": "\/docs\/js\/data\/stories\/images\/nstarblanket.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3430,35 +3414,26 @@
 		"ft": 32768,
 		"iS": 191129,
 		"oA": 0,
-		"oAP": "\/js\/data\/stories\/images\/rhall.png",
+		"oAP": "\/docs\/js\/data\/stories\/images\/rhall.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
 	"\/js\/data\/stories\/stories.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/js\/data\/stories\/stories-min.json",
+		"oAP": "\/docs\/js\/data\/stories\/stories-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"\/js\/kodama.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/kodama-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/js\/modernizr.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/modernizr-min.js",
+		"oAP": "\/docs\/js\/modernizr-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3467,7 +3442,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/rita-full.min-min.js",
+		"oAP": "\/docs\/js\/rita-full.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3475,17 +3450,8 @@
 	"\/js\/search-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/search-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/search-old.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/search-old-min.js",
+		"oA": 1,
+		"oAP": "\/docs\/js\/search-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3494,16 +3460,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/search-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/visualization-debug.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/visualization-debug-min.js",
+		"oAP": "\/docs\/js\/search-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3511,8 +3468,8 @@
 	"\/js\/visualization-min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/visualization-min-min.js",
+		"oA": 1,
+		"oAP": "\/docs\/js\/visualization-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3521,16 +3478,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/visualization-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/visualization_old.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/visualization_old-min.js",
+		"oAP": "\/docs\/js\/visualization-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3539,7 +3487,7 @@
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/zenscroll-min-min.js",
+		"oAP": "\/docs\/js\/zenscroll-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -3547,7 +3495,7 @@
 	"\/LICENSE.txt": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/LICENSE.txt",
+		"oAP": "\/docs\/LICENSE.txt",
 		"oF": 0
 		}
 	},
@@ -3559,7 +3507,8 @@
 	"creationDate": 513794872,
 	"displayValue": "irs",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-hart"
+	"iconImageName": "meme-hart",
+	"lastBuiltDate": 516084107
 	},
 "projectSettings": {
 	"abortBuildOnError": 0,
@@ -3814,8 +3763,8 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
-	"buildFolderActive": 0,
-	"buildFolderName": "build",
+	"buildFolderActive": 1,
+	"buildFolderName": "docs",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -5666,7 +5615,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/docs"
 	},
 "settingsFileVersion": "3"
 }
