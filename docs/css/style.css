@@ -491,7 +491,7 @@ p {
   display: inline-block;
   vertical-align: top;
   width: 12em;
-  padding: 1em;
+  padding: 2em;
   margin: 0 2em 0 2em; }
 
 .story-option-circle {
@@ -508,7 +508,8 @@ p {
   text-align: center;
   padding-top: 25px;
   font-size: .8em;
-  line-height: 1.25em; }
+  line-height: 1.25em;
+  margin-bottom: 200px; }
 
 .story-option-name {
   margin-left: -100%;
