@@ -550,7 +550,12 @@ p {
   font-family: "Libre Baskerville", Georgia, serif; }
 
 .storyStories {
-  margin-bottom: 100%; }
+  color: #999;
+  background-color: yellow;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center; }
 
 .sTslide {
   position: fixed;
@@ -589,7 +594,29 @@ p {
   position: absolute;
   top: calc(20% + 33% + 20px);
   left: 0;
+  padding: 0 60px 0 60px;
+  overflow-y: scroll; }
+
+.sTdataBox {
+  height: 100%;
+  display: flex; }
+
+.sTsources {
   padding: 0 60px 0 60px; }
+
+.sTsource {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #999;
+  font-size: .6em; }
+
+.footnote {
+  color: #ddd; }
 
 .sTtop {
   position: absolute;
@@ -602,7 +629,7 @@ p {
 
 .sTimage {
   position: absolute;
-  top: 30px;
+  top: 60px;
   left: 50%;
   border-radius: 50%;
   -ms-transform: translateX(-50%);
@@ -622,7 +649,8 @@ p {
   color: #f15a24;
   font-family: "Libre Baskerville", Georgia, serif;
   font-size: .8em;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  width: 100%; }
 
 .sTpre {
   color: #333;
@@ -730,10 +758,10 @@ p {
 .dot, .rDot, .rTooltip, .sTooltip, .sTooltip2 {
   cursor: default; }
 
-.pos-prp {
+.pos-orange {
   color: #f15a24; }
 
-.pos-nnps, .pos-nnp {
+.pos-darkGray {
   color: #999; }
 
 #map {

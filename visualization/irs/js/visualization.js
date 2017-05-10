@@ -1,6 +1,6 @@
 // GLOBAL
 // draw first story when page is loaded
-var storyID = "bbaxter",
+var storyID = "mbrown",
   orange = "#f15a24",
   mediumGray = "#999",
   darkGray = "#333",
@@ -492,65 +492,6 @@ d3.json("js/data/connections.json", function(collection) {
   // render our initial visualization
   render()
 })
-
-
-
-// STORY OPTIONS
-// use jquery to make this box side-scrollable
-jQuery("#stories-select").draggable({
-  axis: "x",
-  cursor: "move",
-  containment: "stories",
-});
-
-// scrollmagic: pin story select and horizontal scroll
-var storiesSelectScroll = new TimelineMax()
-  .to("#stories-select", 1, {
-    x: "-50%",
-    delay: .25
-  });
-
-var p4pin = new ScrollMagic.Scene({
-    triggerElement: "#p4",
-    triggerHook: "onLeave",
-    duration: "200%"
-  })
-  .setPin("#p4")
-  .setTween(storiesSelectScroll)
-  .addTo(controller);
-
-p4pin.on("progress", function(event) {
-  var dir = event.scrollDirection;
-  if (dir === "FORWARD") {
-    status = "story";
-  } else {
-    status = "begin";
-  };
-})
-
-
-
-// draw a circle for each available story and add their name and pullquote
-d3.json("js/data/stories/stories.json", function(data) {
-  for (var j = 0; j < data.stories.length; j++) {
-    var story_option_container = d3.select("#stories-select").append("div").attr("class", "story-option-container").attr("id", data.stories[j].id)
-      .on("click", function(d, i) {
-        storyID = d3.select(this).attr("id");
-        d3.selectAll(".story-option-container").transition().duration(200).ease(d3.easeLinear).style("opacity", .1);
-        d3.select("#" + storyID).transition().duration(200).ease(d3.easeLinear).style("opacity", 1.0);
-        drawStory(storyID);
-        p4pin.destroy();
-      });
-    var story_option_circle = d3.select("#" + data.stories[j].id).append("div").attr("class", "story-option-circle").attr("id", "story-option" + j);
-
-    // set background image of circle
-    story_option_circle.style("background", "linear-gradient(rgba(241, 90, 36, 0.25),rgba(241, 90, 36, 0.25)), url('js/data/stories/images/" + data.stories[j].id + ".png'), rgb(241, 90, 36)").style("background-size", "10em");
-
-    var story_option_label = d3.select("#" + data.stories[j].id).append("div").attr("class", "story-label");
-    story_option_label.html("<p class='story-option-name'>" + data.stories[j].name + "</p><p class='story-option-quote'>&ldquo;" + data.stories[j].pull + "&rdquo;</p>");
-  }
-});
-
 
 function pageSix(name) {
   // d3.select("#map1").remove();
@@ -1404,15 +1345,106 @@ function rightBarBack() {
 
 
 
+// STORY OPTIONS
+// use jquery to make this box side-scrollable
+jQuery("#stories-select").draggable({
+  axis: "x",
+  cursor: "move",
+  containment: "stories",
+});
+
+// scrollmagic: pin story select and horizontal scroll
+var storiesSelectScroll = new TimelineMax()
+  .to("#stories-select", 1, {
+    x: "-50%",
+    delay: .25
+  });
+
+var p4pin = new ScrollMagic.Scene({
+    triggerElement: "#p4",
+    triggerHook: "onLeave",
+    duration: "200%"
+  })
+  .setPin("#p4")
+  .setTween(storiesSelectScroll)
+  .addTo(controller);
+
+p4pin.on("progress", function(event) {
+  var dir = event.scrollDirection;
+  if (dir === "FORWARD") {
+    status = "story";
+  } else {
+    status = "begin";
+  };
+})
+
+
+
+// draw a circle for each available story and add their name and pullquote
+d3.json("js/data/stories/stories.json", function(data) {
+  for (var j = 0; j < data.stories.length; j++) {
+    var story_option_container = d3.select("#stories-select").append("div").attr("class", "story-option-container").attr("id", data.stories[j].id)
+      .on("click", function(d, i) {
+        // destroyTrigs(stories.length);
+        p4pin.destroy();
+        storyID = d3.select(this).attr("id");
+        console.log(storyID);
+        d3.selectAll(".story-option-container").transition().duration(200).ease(d3.easeLinear).style("opacity", .1);
+        d3.select("#" + storyID).transition().duration(200).ease(d3.easeLinear).style("opacity", 1.0);
+        drawStory(storyID);
+      });
+    var story_option_circle = d3.select("#" + data.stories[j].id).append("div").attr("class", "story-option-circle").attr("id", "story-option" + j);
+
+    // set background image of circle
+    if (data.stories[j].picture === true) {
+      story_option_circle.style("background", "linear-gradient(rgba(241, 90, 36, 0.25),rgba(241, 90, 36, 0.25)), url('js/data/stories/images/" + data.stories[j].id + ".png'), rgb(241, 90, 36)").style("background-size", "10em");
+    }
+
+    var story_option_label = d3.select("#" + data.stories[j].id).append("div").attr("class", "story-label");
+    story_option_label.html("<p class='story-option-name'>" + data.stories[j].name + "</p><p class='story-option-quote'>&ldquo;" + data.stories[j].pull + "&rdquo;</p>");
+  }
+});
+
+function destroyTrigs(length) {
+  d3.selectAll('.sTremove').remove();
+  storyTrig0.refresh();
+  if (length > 0) {
+    storyTrig1.refresh();
+  }
+  if (length > 2) {
+    storyTrig2.refresh();
+  }
+  if (length > 3) {
+    storyTrig3.refresh();
+  }
+  if (length > 4) {
+    storyTrig4.refresh();
+  }
+  if (length > 5) {
+    storyTrig5.refresh();
+  }
+  sTRslide_out_s.refresh();
+  sTRslide_back_s.refresh();
+}
+
+
+
+
+
+
+
+
+
 function drawStory(storyID) {
   d3.select(".storyTime").remove();
   d3.selectAll(".sTremove").remove();
+  console.log(storyID);
   d3.json("js/data/stories/stories.json", function(data) {
-
-    var story = data.stories.filter(function(d) {
+    story = data.stories.filter(function(d) {
       return ((d.id === storyID));
     });
     story = story[0];
+    console.log(story);
     var storyName_content = story.name;
     var storyBio_content = story.bio;
 
@@ -1449,27 +1481,36 @@ function drawStory(storyID) {
       .style("stroke", orange)
       .style("stroke-width", 2);
 
+    var darkGrayWords = ["Bob", "Baxter", "They", "they", "we", "us", "I", "I'm", "They're", "they're", "They'll", "They'll", "I'll", "I've", "He", "He's", "He'll", "He'd", "he", "he's", "he'll", "he'd", "She", "She's", "She'll", "She'd", "she", "she's", "she'll", "she'd", "His", "his", "Hers", "hers", "mine", "my", "Mine", "My"]
+
+    var orangeWords = ["Sioux", "Lookout", "Anishinaabe", "Cree", "English", "Anglican", "Roman", "Catholic", "York", "Landing", "Indian", "First", "Nation", "Inuit", "Eskimo"]
 
     // draw each story
     for (var i = 0; i < story.story.length; i++) {
-      console.log(story.story[i].quote);
-      var storyStory = d3.select("#storyStories").append("div").attr("class", "storyStories sTremove").attr("id", "story-" + i);
+      var storyStory = d3.select("#storyStories").append("div").attr("class", "storyStories sTremove").attr("id", "story-" + i).style("height", window.innerHeight + "px");
 
       var strSec = story.story[i].section,
         strPre = story.story[i].pre,
         strQuo = story.story[i].quote;
-      // var rs = RiString(strQuo),
-      //   words = rs.words(),
-      //   pos = rs.pos();
-      storyStory.html("<p class='story-quote'>&ldquo;<span id='story-quote-" + i + "'>" + strQuo + "</span>&rdquo;</p>");
+      var rs = RiString(strQuo),
+        words = rs.words()
+      pos = rs.pos();
 
-      // for (var j = 0; j < words.length; j++) {
-      //   if (/[,.?\-]/.test(words[j + 1])) {
-      //     var storyQuote = d3.select("#story-quote-" + i).append("span").attr("id", "quote-" + j).attr("class", "pos-" + pos[j]).html(words[j]);
-      //   } else {
-      //     var storyQuote = d3.select("#story-quote-" + i).append("span").attr("id", "quote-" + j).attr("class", "pos-" + pos[j]).html(words[j] + " ");
-      //   }
-      // }
+      storyStory.html("<p class='story-quote'>&ldquo;<span id='story-quote-" + i + "'></span>&rdquo;</p>");
+
+      for (var j = 0; j < words.length; j++) {
+        if (orangeWords.indexOf(words[j]) !== -1) {
+          pos[j] = "orange"
+        }
+        if (darkGrayWords.indexOf(words[j]) !== -1) {
+          pos[j] = "darkGray"
+        }
+        if (/[,.?\-]/.test(words[j + 1])) {
+          var storyQuote = d3.select("#story-quote-" + i).append("span").attr("id", "quote-" + j).attr("class", "storiesMediumGray pos-" + pos[j]).html(words[j]);
+        } else {
+          var storyQuote = d3.select("#story-quote-" + i).append("span").attr("id", "quote-" + j).attr("class", "storiesMediumGray pos-" + pos[j]).html(words[j] + " ");
+        }
+      }
 
     }
     var n0 = 0,
@@ -1479,14 +1520,29 @@ function drawStory(storyID) {
       n4 = 4,
       n5 = 5,
       stories = story.story;
+    // storyTimeData(n0)
+    // if (stories.length > 0) {
+    //   storyTimeData(n1)
+    // }
+    // if (stories.length > 2) {
+    //   storyTimeData(n2)
+    // }
+    // if (stories.length > 3) {
+    //   storyTimeData(n3)
+    // }
+    // if (stories.length > 4) {
+    //   storyTimeData(n4)
+    // }
+    // if (stories.length > 5) {
+    //   storyTimeData(n5)
+    // }
 
-
-
-
-    storyTrig0 = new ScrollMagic.Scene({
+    var controllerRight = new ScrollMagic.Controller();
+    TweenLite.defaultOverwrite = false;
+    var storyTrig0 = new ScrollMagic.Scene({
         triggerElement: "#story-" + n0
       })
-      .addTo(controller)
+      .addTo(controllerRight)
       .triggerHook(.75)
       .on("progress", function(event) {
         var dir = event.scrollDirection;
@@ -1498,10 +1554,10 @@ function drawStory(storyID) {
       });
 
     if (stories.length > 1) {
-      storyTrig1 = new ScrollMagic.Scene({
+      var storyTrig1 = new ScrollMagic.Scene({
           triggerElement: "#story-" + n1
         })
-        .addTo(controller)
+        .addTo(controllerRight)
         .triggerHook(.75)
         .on("progress", function(event) {
           var dir = event.scrollDirection;
@@ -1513,10 +1569,10 @@ function drawStory(storyID) {
         });
     };
     if (stories.length > 2) {
-      storyTrig2 = new ScrollMagic.Scene({
+      var storyTrig2 = new ScrollMagic.Scene({
           triggerElement: "#story-" + n2
         })
-        .addTo(controller)
+        .addTo(controllerRight)
         .triggerHook(.75)
         .on("progress", function(event) {
           var dir = event.scrollDirection;
@@ -1528,10 +1584,10 @@ function drawStory(storyID) {
         });
     };
     if (stories.length > 3) {
-      storyTrig3 = new ScrollMagic.Scene({
+      var storyTrig3 = new ScrollMagic.Scene({
           triggerElement: "#story-" + n3
         })
-        .addTo(controller)
+        .addTo(controllerRight)
         .triggerHook(.75)
         .on("progress", function(event) {
           var dir = event.scrollDirection;
@@ -1543,10 +1599,10 @@ function drawStory(storyID) {
         });
     };
     if (stories.length > 4) {
-      storyTrig4 = new ScrollMagic.Scene({
+      var storyTrig4 = new ScrollMagic.Scene({
           triggerElement: "#story-" + n4
         })
-        .addTo(controller)
+        .addTo(controllerRight)
         .triggerHook(.75)
         .on("progress", function(event) {
           var dir = event.scrollDirection;
@@ -1558,16 +1614,18 @@ function drawStory(storyID) {
         });
     };
     if (stories.length > 5) {
-      storyTrig5 = new ScrollMagic.Scene({
-        triggerElement: "#story-" + n5
-      }).addTo(controller).triggerHook(.75).on("progress", function(event) {
-        var dir = event.scrollDirection;
-        if (dir === "FORWARD") {
-          storyTimeData(n5)
-        } else {
-          storyTimeData(n4);
-        }
-      });
+      var storyTrig5 = new ScrollMagic.Scene({
+          triggerElement: "#story-" + n5
+        }).addTo(controllerRight)
+        .triggerHook(.75)
+        .on("progress", function(event) {
+          var dir = event.scrollDirection;
+          if (dir === "FORWARD") {
+            storyTimeData(n5)
+          } else {
+            storyTimeData(n4);
+          }
+        });
     };
 
 
@@ -1605,21 +1663,18 @@ function drawStory(storyID) {
     function renderRight() {
       d3ProjectionRight = getD3Right();
       pathRight.projection(d3ProjectionRight)
-
       featureRight.attr("cx", function(d) {
           return d3ProjectionRight([d.lng, d.lat])[0];
         })
         .attr("cy", function(d) {
           return d3ProjectionRight([d.lng, d.lat])[1];
         });
-
       featureRightMain.attr("cx", function(d) {
           return d3ProjectionRight([story.latLng.lng, story.latLng.lat])[0];
         })
         .attr("cy", function(d) {
           return d3ProjectionRight([story.latLng.lng, story.latLng.lat])[1];
         });
-
       labelsRight.attr("x", function(d) {
           return d3ProjectionRight([d.lng, d.lat])[0];
         })
@@ -1630,30 +1685,38 @@ function drawStory(storyID) {
           return d.placeName
         });
     }
-
-    // re-render our visualization whenever the view changes
     mapR.on("viewreset", function() {
       renderRight()
     })
     mapR.on("move", function() {
       renderRight()
     })
-
-    // render our initial visualization
     renderRight()
 
 
 
 
-    $(".sTname").html("<h1>" + story.name + "</h1>");
-    $(".sTimage").css("background", "linear-gradient(rgba(241, 90, 36, 0.25),rgba(241, 90, 36, 0.25)), url('js/data/stories/images/" + story.id + ".png'), rgb(241, 90, 36)").css("background-size", "3.5em").css("background-position", "center");
+    $(".sTname").html("<h1 class='sTremove'>" + story.name + "</h1>");
+    if (story.picture === true) {
+      $(".sTimage").css("background", "linear-gradient(rgba(241, 90, 36, 0.25),rgba(241, 90, 36, 0.25)), url('js/data/stories/images/" + story.id + ".png'), rgb(241, 90, 36)").css("background-size", "3.5em").css("background-position", "center");
+    }
+    $(".sTsource").html("<div class='sTsources sTremove'><div>Quotes, background, and images sourced from <em>The Survivors Speak: a Report of the Truth and Reconciliation Commision of Canada</em><sup>1,2</sup>.</div><div class='footnote'><sup>1</sup> Truth and Reconciliation Canada. The survivors speak: a report of the Truth and Reconciliation Commission of Canada. Winnipeg: Truth and Reconciliation Commission of Canada., Publishers, 2015.<br><sup>2</sup> " + story.source + "</div></div>");
 
 
     function storyTimeData(n) {
       conRightStatus = n;
-      $(".sTsection").text(stories[n].section);
-      $(".sTpre").text(stories[n].pre);
-      $(".sTextra").text(stories[n].extra);
+      console.log(storyID);
+      d3.selectAll(".sTremoveRight").remove();
+
+      for (var q = n; q < stories.length; q++) {
+        var sTdataBox = d3.select(".sTdata").append("div").attr("class", "sTremoveRight sTremove sTdataBox").html("<div id='sTdataContainer'></div>");
+        var sTsection = d3.select("#sTdataContainer").append("div").attr("class", "sTsection").html(stories[q].section);
+        var sTpre = d3.select("#sTdataContainer").append("div").attr("class", "sTpre").html(stories[q].pre);
+        var sTextra = d3.select("#sTdataContainer").append("div").attr("class", "sTextra").html(stories[q].extra);
+      }
+      // $(".sTsection").html("<span class='sTremoveRight'>" + stories[n].section + "</span>");
+      // $(".sTpre").html("<span class='sTremoveRight'>" + stories[n].pre + "</span>");
+      // $(".sTextra").html("<span class='sTremoveRight'>" + stories[n].extra + "</span>");
 
 
       var nZoom = 7;
@@ -1843,14 +1906,14 @@ function drawStory(storyID) {
       }
     });
 
-    sTRslide_out = new ScrollMagic.Scene({
+    sTRslide_out_s = new ScrollMagic.Scene({
         triggerElement: "#p55"
       })
-      .triggerHook("onLeave")
+      .triggerHook("onEnter")
       .setTween(sTRslide)
       .addTo(controller);
 
-    sTRslide_out.on("progress", function(event) {
+    sTRslide_out_s.on("progress", function(event) {
       var dir = event.scrollDirection;
       if (dir === "FORWARD") {
 
@@ -1870,21 +1933,13 @@ function drawStory(storyID) {
     //   }
     // });
 
-    sTRslide_back = new ScrollMagic.Scene({
+    sTRslide_back_s = new ScrollMagic.Scene({
         triggerElement: "#p59"
       })
       .triggerHook("onEnter")
       .setTween(sTRslide_back)
       .addTo(controller);
 
-    sTRslide_out.on("progress", function(event) {
-      var dir = event.scrollDirection;
-      if (dir === "FORWARD") {
-
-      } else {
-
-      }
-    })
 
 
   });

@@ -493,8 +493,18 @@ font-family: $serif;
 }
 
 .storyStories {
-  margin-bottom: 100%;
+  color: $medium-gray;
+  // height: 100%;
+  background-color: yellow;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
 }
+
+// .storiesMediumGray {
+//   color: $medium-gray;
+// }
 
 .sTslide {
   position: fixed;
@@ -538,6 +548,33 @@ font-family: $serif;
   top: calc(20% + 33% + 20px);
   left: 0;
   padding: 0 60px 0 60px;
+  overflow-y: scroll;
+}
+
+.sTdataBox {
+  height: 100%;
+  display: flex;
+  // align-items: center;
+}
+
+.sTsources {
+  padding: 0 60px 0 60px;
+}
+
+.sTsource {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: $medium-gray;
+  font-size: .6em;
+}
+
+.footnote {
+  color: $light-gray;
 }
 
 .sTtop {
@@ -552,7 +589,7 @@ font-family: $serif;
 
 .sTimage {
   position: absolute;
-  top: 30px;
+  top: 60px;
   left: 50%;
   border-radius: 50%;
   -ms-transform: translateX(-50%);
@@ -575,6 +612,7 @@ font-family: $serif;
   font-family: $serif;
   font-size: .8em;
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .sTpre {
@@ -717,11 +755,19 @@ font-family: $serif;
 }
 
 // parts of speech
-.pos-prp {
+// .pos-prp {
+//   color: $orange;
+// }
+//
+// .pos-nnps, .pos-nnp {
+//   color: $medium-gray;
+// }
+
+.pos-orange {
   color: $orange;
 }
 
-.pos-nnps, .pos-nnp {
+.pos-darkGray {
   color: $medium-gray;
 }
 
