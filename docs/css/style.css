@@ -1116,7 +1116,8 @@ svg {
 
 .AIcircle {
   fill: #999;
-  opacity: .5; }
+  opacity: .5;
+  pointer-events: visible; }
 
 .lAI {
   font-family: "Rubik", Trebuchet, sans-serif;
@@ -1187,7 +1188,8 @@ svg {
   border-radius: 4px;
   font-size: 12px;
   text-align: left;
-  max-width: 250px; }
+  max-width: 250px;
+  z-index: 100; }
 
 /* Creates a small triangle extender for the tooltip */
 .d3-tip:after {

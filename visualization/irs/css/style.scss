@@ -1197,6 +1197,7 @@ svg {
 .AIcircle {
   fill: $medium-gray;
   opacity: .5;
+  pointer-events: visible;
 }
 
 .lAI {
@@ -1281,6 +1282,7 @@ svg {
   font-size: 12px;
   text-align: left;
   max-width: 250px;
+  z-index: 100;
 }
 
 /* Creates a small triangle extender for the tooltip */
