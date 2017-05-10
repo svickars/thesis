@@ -44,7 +44,7 @@ Created by Sam Vickars with data from the following sources:
 
 
 
-#### Exercise One
+<!-- #### Exercise One
 * [Concept Development](https://github.com/svickars/thesis/blob/master/writing/02_conceptDevelopment.md)
 
 #### Exercise Two
