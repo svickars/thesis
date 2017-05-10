@@ -469,7 +469,7 @@ p {
   min-width: 100%;
   height: 25em;
   overflow: hidden;
-  cursor: grab; }
+  cursor: move; }
 
 .storiesSelectHelp {
   margin-top: 100px;
@@ -491,7 +491,7 @@ p {
   display: inline-block;
   vertical-align: top;
   width: 12em;
-  padding: 2em;
+  padding: 1em;
   margin: 0 2em 0 2em; }
 
 .story-option-circle {
@@ -508,8 +508,7 @@ p {
   text-align: center;
   padding-top: 25px;
   font-size: .8em;
-  line-height: 1.25em;
-  margin-bottom: 200px; }
+  line-height: 1.25em; }
 
 .story-option-name {
   margin-left: -100%;
