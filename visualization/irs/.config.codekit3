@@ -1084,6 +1084,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1251,
+		"oA": 0,
+		"oAP": "\/docs\/images\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/placeholder.png": {
 		"ft": 32768,
 		"iS": 1846,
