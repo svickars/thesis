@@ -29,11 +29,11 @@ Created by Sam Vickars with data from the following sources:
 * Howe, D. C. (2015). RiTa [Computer software]. Retrieved from [http://rednoise.org/rita](http://rednoise.org/rita)
 
 ### Featured images
-[![1.png](1.png)]
-[![2.png](2.png)]
-[![3.png](3.png)]
-[![4.png](4.png)]
-[![5.png](5.png)]
+![1.png](1.png)
+![2.png](2.png)
+![3.png](3.png)
+![4.png](4.png)
+![5.png](5.png)
 
 
 
