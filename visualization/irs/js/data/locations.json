@@ -10867,7 +10867,7 @@
     "class": ".westbank-carcross, .westbank-cariboo"
   }, {
     "reserve": "Weymontachie (Sanmaur)",
-    "id": "weymontachie(Sanmaur)",
+    "id": "weymontachieSanmaur",
     "lat": 47.895833,
     "lng": -73.794444,
     "": "Route Forestière ro-461(25), La Tuque, QC G0X, Canada",
@@ -10875,8 +10875,8 @@
     "province": "Québec",
     "city": "La Tuque",
     "listSchools": "shinglePoint",
-    "listConnections": "weymontachie(Sanmaur)-shinglePoint",
-    "class": ".weymontachie(Sanmaur)-shinglePoint"
+    "listConnections": "weymontachieSanmaur-shinglePoint",
+    "class": ".weymontachieSanmaur-shinglePoint"
   }, {
     "reserve": "White Bear",
     "id": "whiteBear",

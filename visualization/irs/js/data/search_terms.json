@@ -11835,7 +11835,7 @@
   "photo": ""
 }, {
   "name": "Weymontachie (Sanmaur)",
-  "id": "weymontachie(Sanmaur)",
+  "id": "weymontachieSanmaur",
   "type": "reservation",
   "schoolAttended": "",
   "schoolAttendedID": "",
@@ -11844,9 +11844,9 @@
   "lat": 47.895833,
   "lng": -73.794444,
   "listSchools": "shinglePoint",
-  "class": ".weymontachie(Sanmaur)-shinglePoint",
+  "class": ".weymontachieSanmaur-shinglePoint",
   "listReserves": "",
-  "listConnections": "weymontachie(Sanmaur)-shinglePoint",
+  "listConnections": "weymontachieSanmaur-shinglePoint",
   "photo": ""
 }, {
   "name": "White Bear",

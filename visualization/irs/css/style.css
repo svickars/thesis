@@ -445,6 +445,23 @@ p {
 #p1, #p3 {
   text-align: center; }
 
+.p1nav {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  font-size: .75em; }
+
+.p1nav a {
+  color: white;
+  opacity: .5; }
+
+.p1nav a:hover {
+  color: #f15a24;
+  opacity: 1; }
+
 .stories {
   min-width: 100%;
   height: 25em;
@@ -551,7 +568,6 @@ p {
 
 .storyStories {
   color: #999;
-  background-color: yellow;
   margin-bottom: 5%;
   margin-top: 5%;
   display: flex;
@@ -1782,7 +1798,7 @@ select {
   .cd-cover-layer {
     display: block;
     position: fixed;
-    z-index: 3;
+    z-index: -10;
     top: 0;
     left: 0;
     height: 100%;
@@ -1805,7 +1821,7 @@ select {
   .cd-cover-layer {
     display: block;
     position: fixed;
-    z-index: 3;
+    z-index: 0;
     top: 0;
     left: 0;
     height: 100%;
@@ -2001,6 +2017,15 @@ JavaScript Disabled
   top: -80px;
   z-index: 0; }
 
+.newLinksBegin {
+  opacity: 1;
+  z-index: 6;
+  -webkit-transform: translateY(80px);
+  -moz-transform: translateY(80px);
+  -ms-transform: translateY(80px);
+  -o-transform: translateY(80px);
+  transform: translateY(80px); }
+
 .newLinksVisible {
   opacity: 1;
   z-index: 6;
@@ -2064,3 +2089,112 @@ JavaScript Disabled
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%); }
+
+.newLegend {
+  position: fixed;
+  bottom: -80px;
+  z-index: 99;
+  left: 0;
+  height: 80px;
+  width: calc( 90% - 286px);
+  padding: .8em;
+  margin: 0 calc(5% + 116px) 0 calc(5% + 170px);
+  background-color: #ffffff;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.39);
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+  font-size: .75em;
+  color: #999; }
+
+.newLegendHidden {
+  opacity: 0;
+  top: -80px;
+  z-index: 0; }
+
+.newLegendVisible {
+  opacity: 1;
+  z-index: 6;
+  bottom: 0;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0); }
+
+.legendLeft {
+  width: 15%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  padding: 5px 0 5px 0; }
+
+.scrollUp {
+  font-size: .75em;
+  color: #ddd; }
+
+.legendRight {
+  width: 15%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #333;
+  cursor: pointer; }
+
+.legendRightContainer {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  width: 25%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.legendRight:hover {
+  color: #f15a24; }
+
+.passRight {
+  width: 50%;
+  font-size: 2em; }
+
+.legendCenter {
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center; }
+
+.legendCenterText {
+  color: #333;
+  font-size: 1.2em;
+  width: 100%;
+  text-align: center; }
+
+.legendLeftTop, .legendLeftBottom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center; }
+
+.legendSchool {
+  width: 15px;
+  height: 15px;
+  background-color: #f15a24;
+  border-radius: 50%;
+  margin: 0 15px 0 20px; }
+
+.legendReserve {
+  width: 25px;
+  height: 25px;
+  background-color: #333;
+  border-radius: 50%;
+  margin: 0 10px 0 15px; }

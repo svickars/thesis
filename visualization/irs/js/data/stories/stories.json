@@ -8,7 +8,7 @@
     "schoolID": "pelicanLake",
     "city": "Sioux Lookout",
     "province": "Ontario",
-    "direction": "",
+    "direction": "western",
     "years": "",
     "age": "",
     "latLng": {
@@ -81,7 +81,7 @@
     "schoolID": "aklavik",
     "city": "Aklavik",
     "province": "Northwest Territories",
-    "direction": "",
+    "direction": "the northwestern",
     "years": "1952-1955",
     "age": "",
     "latLng": {
@@ -140,7 +140,7 @@
     "schoolID": "stAnthonys",
     "city": "Kenora",
     "province": "Ontario",
-    "direction": "",
+    "direction": "western",
     "years": "1950s",
     "age": "4",
     "latLng": {
@@ -213,7 +213,7 @@
     "schoolID": "akaitcho",
     "city": "Yellowknife",
     "province": "Northwest Territories",
-    "direction": "",
+    "direction": "the southern",
     "years": "",
     "age": "",
     "latLng": {
@@ -256,9 +256,9 @@
     "pull": "I didn’t know I was going away to school. I thought I was just going for a train ride and I was just excited to go.",
     "school": "Gordon's Residential School",
     "schoolID": "gordons",
-    "city": "Punichy",
+    "city": "Punnichy (Gordon's Reserve)",
     "province": "Saskatchewan",
-    "direction": "",
+    "direction": "southern",
     "years": "",
     "age": "",
     "latLng": {
@@ -359,7 +359,7 @@
     "schoolID": "stAnthonys",
     "city": "Kenora",
     "province": "Ontario",
-    "direction": "",
+    "direction": "western",
     "years": "",
     "age": "",
     "latLng": {
@@ -418,7 +418,7 @@
     "schoolID": "beauval",
     "city": "Beauval",
     "province": "Saskatchewan",
-    "direction": "",
+    "direction": "central",
     "years": "",
     "age": "",
     "latLng": {
@@ -508,9 +508,9 @@
     "pull": "I was always hungry. And we stole food.",
     "school": "Anglican Schools in Manitoba and Saskatchewan",
     "schoolID": "lacLaRonge",
-    "city": "St. Paul",
+    "city": "Lac La Ronge",
     "province": "Saskatchewan",
-    "direction": "",
+    "direction": "central",
     "years": "",
     "age": "",
     "latLng": {
@@ -529,7 +529,7 @@
       "lng": -99.3664321,
       "photo": "",
       "placeName": "Northern Manitoba",
-      "extra": "Doris didn't say extactyl where she grew up."
+      "extra": "Doris didn't specify exactly where she grew up."
     }, {
       "section": "School Meals",
       "pre": "Doris Young said that hunger was a constant presence at the Anglican schools she attended in Saskatchewan and Manitoba.",
@@ -588,7 +588,7 @@
     "schoolID": "stMarys",
     "city": "Mission",
     "province": "British Columbia",
-    "direction": "",
+    "direction": "southwestern",
     "years": "",
     "age": "",
     "latLng": {
@@ -633,7 +633,7 @@
     "schoolID": "poplarHill",
     "city": "Poplar Hill",
     "province": "Ontario",
-    "direction": "",
+    "direction": "western",
     "years": "1980s",
     "age": "",
     "latLng": {
@@ -678,7 +678,7 @@
     "schoolID": "alberni",
     "city": "Port Alberni",
     "province": "British Columbia",
-    "direction": "",
+    "direction": "southwestern",
     "years": "1950s",
     "age": "12",
     "latLng": {
@@ -751,7 +751,7 @@
     "schoolID": "lebret",
     "city": "Lebret",
     "province": "Saskatchewan",
-    "direction": "",
+    "direction": "southeastern",
     "years": "",
     "age": "",
     "latLng": {
@@ -783,7 +783,7 @@
     }, {
       "section": "Student Victimization of Students",
       "pre": "Noel Starblanket said that at the Qu’Appelle school, he and his friends would have to...",
-      "quote": "give this bully our bread, or our butter, or whatever, that, that was our payment to him for not bullying us, and, and then we’d eat whatever we had left then.”636 Dorothy Ross said that at the Presbyterian school in Kenora in the 1960s, the older students “would take our candies, whatever you had, food, candies, chocolate bars. We weren’t allowed. We had to pass them on to the bigger, the older. Or if you had money, they would take that money from you.",
+      "quote": "give this bully our bread, or our butter, or whatever, that, that was our payment to him for not bullying us, and, and then we’d eat whatever we had left then.”",
       "lat": 50.75785,
       "lng": -103.711572222222,
       "photo": "",
@@ -824,7 +824,7 @@
     "schoolID": "brandon",
     "city": "Brandon",
     "province": "Manitoba",
-    "direction": "",
+    "direction": "southwestern",
     "years": "",
     "age": "",
     "latLng": {
@@ -869,7 +869,7 @@
     "schoolID": "princeAlbert",
     "city": "Prince Albert",
     "province": "Saskatchewan",
-    "direction": "",
+    "direction": "central",
     "years": "1940s",
     "age": "",
     "latLng": {
@@ -926,9 +926,9 @@
     "pull": "Why is that happening? What did I do to deserve to be treated like this?",
     "school": "Roman Catholic School in BC",
     "schoolID": "stMichaels",
-    "city": "",
-    "province": "",
-    "direction": "",
+    "city": "Alert Bay",
+    "province": "British Columbia",
+    "direction": "southwestern",
     "years": "",
     "age": "",
     "latLng": {

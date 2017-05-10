@@ -1,6 +1,6 @@
 // GLOBAL
 // draw first story when page is loaded
-var storyID = "mbrown",
+var storyID = "ekematch",
   orange = "#f15a24",
   mediumGray = "#999",
   darkGray = "#333",
@@ -54,10 +54,8 @@ map1_p.on("enter", function(event) {
   var dir = event.scrollDirection;
   if (dir === "FORWARD") {
     status = "map";
-    mapStatus = "zoomedIn";
   } else {
     status = "story";
-    mapStatus = "none";
   };
 })
 
@@ -399,6 +397,8 @@ d3.json("js/data/connections.json", function(collection) {
   map1_connections_s.on("progress", function(event) {
     var dir = event.scrollDirection;
     if (dir === "FORWARD") {
+      $(".legendCenterText").html("Explore by <span class='orange'>panning</span> with your mouse or <span class='orange'>zooming</span> with the controls in the top right. <span class='orange'>Click</span> or <span class='orange'>hover</span> on school locations to see more.<BR><span class='scrollUp'>Scroll up to go back a step</span>");
+      $(".legendRight").html('<a href="#p1"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight faa-pulse faa-slow animated"><i class="fa fa-fast-backward" style="opacity: .5"></i></div></div></div></a>');
       drawn = true;
       mapStatus = "connections";
       connectionFeature.transition().duration(1500)
@@ -494,17 +494,11 @@ d3.json("js/data/connections.json", function(collection) {
 })
 
 function pageSix(name) {
-  // d3.select("#map1").remove();
 
   d3.selectAll(".overlay").remove();
   d3.selectAll(".dot").classed("schoolMarker", true).style("opacity", 1);
   d3.selectAll(".label").classed("schoolLabel", true).style("opacity", 1);
 
-  var oneofText = d3.select("#oneof").append("div").attr("class", "overlay").html(storySelected + " one of an estimated <span class='orange'>150,000</span> Aboriginal children to attend a residential school in Canada.");
-
-  var thismanytext = d3.select("#thismany").append("div").attr("class", "overlay").html("There were <span class='orange'>132</span> schools located throughout the country.");
-
-  var fromreservestext = d3.select("#fromreserves").append("div").attr("class", "overlay").html("Students were drawn from reserves, bands, and tribes all over Canada, some as far away as <span class='orange'>8000km</span>.");
 
   var controller = new ScrollMagic.Controller();
   TweenLite.defaultOverwrite = false;
@@ -541,11 +535,13 @@ function pageSix(name) {
     map1_zo_s.on("progress", function(event) {
       var dir = event.scrollDirection;
       if (dir === "FORWARD") {
+        $(".legendCenterText").html(story.name + " was one of an estimated <span class='orange'>150,000</span> Aboriginal children to attend a residential school in Canada.");
+        $(".legendRight").html('<a href="#tMap1_irs"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight faa-passing animated"><i class="fa fa-arrow-right"></i></div></div></div></a>');
         d3.selectAll(".schoolLabel").style("opacity", "0");
         d3.selectAll(".schoolMarker").style("opacity", "0");
-        d3.select("#l1").transition().duration(500).ease(d3.easeLinear).style("opacity", .75);
 
         mapStatus = "zoomedOut";
+
 
         map.flyTo({
           center: [-100, 58],
@@ -561,7 +557,6 @@ function pageSix(name) {
       } else {
         d3.select("#dot-" + data.schoolID).style("opacity", 1);
         d3.select("#label-" + data.schoolID).style("opacity", 1);
-        d3.select("#l1").transition().duration(300).ease(d3.easeLinear).style("opacity", 0);
 
         mapStatus = "zoomedIn";
 
@@ -588,6 +583,8 @@ function pageSix(name) {
     map1_irs_s.on("progress", function(event) {
       var dir = event.scrollDirection;
       if (dir === "FORWARD") {
+        $(".legendCenterText").html("There were <span class='orange'>132</span> schools located throughout the country.");
+        $(".legendRight").html('<a href="#tMap1_reserves"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight faa-passing animated"><i class="fa fa-arrow-right"></i></div></div></div></a>');
         d3.selectAll(".schoolMarker").transition().duration(600).ease(d3.easeLinear).style("opacity", 1);
         d3.select("#label-" + data.schoolID).transition().duration(600).ease(d3.easeLinear).style("opacity", 0);
       } else {
@@ -605,67 +602,20 @@ function pageSix(name) {
     map1_reserves_s.on("progress", function(event) {
       var dir = event.scrollDirection;
       if (dir === "FORWARD") {
+        $(".legendCenterText").html("Students were drawn from reserves, tribes, and bands all over Canada, some as far away as <span class='orange'>8000km</span> .");
+        $(".legendRight").html('<a href="#tMap1_connections"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight faa-passing animated"><i class="fa fa-arrow-right"></i></div></div></div></a>');
         d3.selectAll(".reserveDot").style("display", "block").transition().duration(600).ease(d3.easeLinear).style("opacity", 0.1);
-        d3.select("#l2").transition().duration(500).ease(d3.easeLinear).style("opacity", .75);
-        d3.select(".legendIn-bottom").transition().delay(500).duration(500).ease(d3.easeLinear).style("opacity", .75);
       } else {
         d3.selectAll(".reserveDot").transition().duration(600).ease(d3.easeLinear).style("opacity", 0);
         d3.selectAll(".reserveDot").transition().delay(600).style("display", "none");
-        d3.select("#l2").transition().duration(300).ease(d3.easeLinear).style("opacity", 0);
-        d3.select(".legendIn-bottom").transition().duration(300).ease(d3.easeLinear).style("opacity", 0);
       };
     })
-
-    var oneof_p_s = new ScrollMagic.Scene({
-        triggerElement: "#oneof",
-        duration: "150%"
-      })
-      .offset(document.getElementById('oneof').offsetHeight / 2 + "px")
-      .setPin("#oneof")
-      .addTo(controller);
-    var oneof_fo_t = TweenMax.to("#oneof", .5, {
-      opacity: "0"
-    });
-    var oneof_fo_s = new ScrollMagic.Scene({
-        triggerElement: "#thismany",
-      })
-      .triggerHook("onEnter")
-      .setTween(oneof_fo_t)
-      .addTo(controller);
-
-    var thismany_p_s = new ScrollMagic.Scene({
-        triggerElement: "#thismany",
-        duration: "150%"
-      })
-      .offset(document.getElementById('thismany').offsetHeight / 2 + "px")
-      .setPin("#thismany")
-      .addTo(controller);
-    var thismany_fo_t = TweenMax.to("#thismany", .5, {
-      opacity: "0"
-    });
-    var thismany_fo_s = new ScrollMagic.Scene({
-        triggerElement: "#fromreserves",
-      })
-      .triggerHook("onEnter")
-      .setTween(thismany_fo_t)
-      .addTo(controller);
-
 
     var fromreserves_p_s = new ScrollMagic.Scene({
         triggerElement: "#fromreserves",
         duration: "100%"
       })
       .offset(document.getElementById('fromreserves').offsetHeight / 2 + "px")
-      .setPin("#fromreserves")
-      .addTo(controller);
-    var fromreserves_fo_t = TweenMax.to("#fromreserves", .5, {
-      opacity: "0"
-    });
-    var fromreserves_fo_s = new ScrollMagic.Scene({
-        triggerElement: "#tMap1_connections",
-      })
-      .triggerHook("onLeave")
-      .setTween(fromreserves_fo_t)
       .addTo(controller);
     fromreserves_p_s.on("enter", function(event) {
       var dir = event.scrollDirection;
@@ -1388,7 +1338,7 @@ d3.json("js/data/stories/stories.json", function(data) {
         // destroyTrigs(stories.length);
         p4pin.destroy();
         storyID = d3.select(this).attr("id");
-        console.log(storyID);
+        // console.log(storyID);
         d3.selectAll(".story-option-container").transition().duration(200).ease(d3.easeLinear).style("opacity", .1);
         d3.select("#" + storyID).transition().duration(200).ease(d3.easeLinear).style("opacity", 1.0);
         drawStory(storyID);
@@ -1438,13 +1388,42 @@ function destroyTrigs(length) {
 function drawStory(storyID) {
   d3.select(".storyTime").remove();
   d3.selectAll(".sTremove").remove();
-  console.log(storyID);
+  // console.log(storyID);
   d3.json("js/data/stories/stories.json", function(data) {
     story = data.stories.filter(function(d) {
       return ((d.id === storyID));
     });
     story = story[0];
-    console.log(story);
+
+    var newLegendSlideUp = new TweenMax.to('.newLegend', .25, {
+      y: '-100%'
+    });
+
+    var controller2 = new ScrollMagic.Controller();
+    TweenLite.defaultOverwrite = false;
+    var mapLegendStop1 = new ScrollMagic.Scene({
+        triggerElement: '#p6'
+      })
+      .setTween(newLegendSlideUp)
+      .addTo(controller2);
+
+    mapLegendStop1.on("enter", function(event) {
+      var dir = event.scrollDirection;
+      if (dir === "FORWARD") {
+        status = "map";
+        mapStatus = "zoomedIn";
+        // $(".newLegend").css("transform", "translateY(-100%)");
+        $(".legendCenterText").html(story.name + " attended <span class='orange'>" + story.school + "</span> in " + story.direction + " " + story.province + ".");
+        $(".legendRight").html('<a href="#tMap1_zo"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight faa-passing animated"><i class="fa fa-arrow-right"></i></div></div></div></a>')
+      } else {
+        status = "story";
+        mapStatus = "none"
+      };
+    })
+
+
+
+    // console.log(story);
     var storyName_content = story.name;
     var storyBio_content = story.bio;
 
@@ -1481,9 +1460,9 @@ function drawStory(storyID) {
       .style("stroke", orange)
       .style("stroke-width", 2);
 
-    var darkGrayWords = ["Bob", "Baxter", "They", "they", "we", "us", "I", "I'm", "They're", "they're", "They'll", "They'll", "I'll", "I've", "He", "He's", "He'll", "He'd", "he", "he's", "he'll", "he'd", "She", "She's", "She'll", "She'd", "she", "she's", "she'll", "she'd", "His", "his", "Hers", "hers", "mine", "my", "Mine", "My"]
+    var darkGrayWords = ["Bob", "Baxter", "They", "they", "we", "us", "I", "I'm", "They're", "they're", "They'll", "They'll", "I'll", "I've", "He", "He's", "He'll", "He'd", "he", "he's", "he'll", "he'd", "She", "She's", "She'll", "She'd", "she", "she's", "she'll", "she'd", "His", "his", "Hers", "hers", "mine", "my", "Mine", "My", "Sally", "Anthony", "Henry", "Father", "LaSalle", "We", "We're", "We'd", "we're", "we'd", "We'll", "we'll", "me", "Me", "our", "their", "Our", "Their", "Us", "You", "You'll", "You're", "You'd", "You've", "you", "you'll", "you're", "you'd", "you've"]
 
-    var orangeWords = ["Sioux", "Lookout", "Anishinaabe", "Cree", "English", "Anglican", "Roman", "Catholic", "York", "Landing", "Indian", "First", "Nation", "Inuit", "Eskimo"]
+    var orangeWords = ["Sioux", "Lookout", "Anishinaabe", "Cree", "English", "Anglican", "Roman", "Catholic", "York", "Landing", "Indian", "First", "Nation", "Inuit", "Eskimo", "Banks", "Island", "Mission", "Tuk", "Aklavik", "Tuktoyaktuk", "Inuvialuktun", "Ojibway", "white", "kids", "squaws", "neechies", "Kenora", "Canadiens", "Maple", "Leafs", "Toronto", "Meadow", "Lake", "Bella", "Coola", "Long", "Beach", "Sun", "Dances", "“wâpam", "awa”", "wâpam", "awa", "Presbyterian", "Christian", "Dakota"];
 
     // draw each story
     for (var i = 0; i < story.story.length; i++) {
@@ -1705,10 +1684,10 @@ function drawStory(storyID) {
 
     function storyTimeData(n) {
       conRightStatus = n;
-      console.log(storyID);
+      // console.log(storyID);
       d3.selectAll(".sTremoveRight").remove();
 
-      for (var q = n; q < stories.length; q++) {
+      for (var q = n; q < n + 1; q++) {
         var sTdataBox = d3.select(".sTdata").append("div").attr("class", "sTremoveRight sTremove sTdataBox").html("<div id='sTdataContainer'></div>");
         var sTsection = d3.select("#sTdataContainer").append("div").attr("class", "sTsection").html(stories[q].section);
         var sTpre = d3.select("#sTdataContainer").append("div").attr("class", "sTpre").html(stories[q].pre);
@@ -1943,4 +1922,11 @@ function drawStory(storyID) {
 
 
   });
+}
+
+function mapLegend(status, name, school, direction, province) {
+  var legend = $(".newLegend");
+  if (status === "none" || status === "zoomedIn") {
+
+  }
 }

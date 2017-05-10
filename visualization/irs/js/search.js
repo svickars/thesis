@@ -87,6 +87,10 @@ jQuery(document).ready(function($) {
 
   coverLayer.on('click', function() {
     closeSearchForm();
+    $('.cd-main-header').removeClass('cd-main-header-open');
+    $('.cd-search-suggestions').removeClass('cd-search-suggestionsVisible');
+    $('.cd-search-suggestions').addClass('cd-search-suggestionsInvisible');
+    $('.newLinks').removeClass('newLinksVisible');
   });
 
   $(document).keyup(function(event) {
