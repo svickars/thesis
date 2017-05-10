@@ -2,9 +2,7 @@
 
 ### This visualization looks at Canada's Indian Residential School system -- a network of boarding schools and federal hostels throughout Canada from the mid 1800s until 1996 -- through the stories of survivors and the narrative of each school.
 
-[![preview.png](preview.png)](https://svickars.github.io/thesis/visualization/irs/)
-
-### Feature list
+[![preview.png](preview.png)](https://residentialschools.info)
 
 ### Abstract
 Canada's Indian Residential School System was a network of boarding schools, industrial schools, and federal hostels created to remove indigenous children from their homes and families. While many schools originated long before Confederation in 1867, the Indian Residential School System was primarily active following the approval of the Indian Act in 1876 — a group of laws aiming to do away with the Indian tribal system and forcibly enfranchise First Nations peoples -- until the the last federally-operated school closed in 1996.
@@ -15,7 +13,28 @@ In recent years and in light of official apologies issued by the Government of C
 
 This project aims to investigate the IRS system visually, beginning with the stories of survivors and transitioning into the narrative of each school, it's student demographics, policies, everyday life, and management. What follows is a selection of survivor stories, as gathered by the National Truth and Reconciliation Commission between 2008 and 2015.
 
-<!-- ### Credits
+[Treatment - In Progress (Markdown)](https://github.com/svickars/thesis/blob/master/writing/07_treatment.md)
+
+### Features
+* Scroll through immersive survivor stories, told through direct quotes, with accompanying contextual information
+* Interact (pan, zoom, and click) with a full screen map, layered in steps with school locations, reservation locations, and the connections between
+* Click on a school location to view fully interactive school narrative and demographic data when available
+* Search for stories, reserves/tribes/bands, stories, or locations with autocomplete and best match
+
+### Credits
+Created by Sam Vickars with data from the following sources:
+
+* Truth and Reconciliation Canada. *The survivors speak: a report of the Truth and Reconciliation Commission of Canada*. Winnipeg: Truth and Reconciliation Commission of Canada., Publishers, 2015.
+* The National Centre for Truth and Reconciliation at the University of Manitoba. Retrieved from [http://nctr.ca/](http://nctr.ca/)
+* Howe, D. C. (2015). RiTa [Computer software]. Retrieved from [http://rednoise.org/rita](http://rednoise.org/rita)
+
+### Featured images
+[![1.png](1.png)]
+[![2.png](2.png)]
+[![3.png](3.png)]
+[![4.png](4.png)]
+[![5.png](5.png)]
+
 
 
 
