@@ -11,6 +11,8 @@ var storyID = "ekematch",
   conRightStatus = 0;
 window.onload = drawStory(storyID);
 
+zenscroll.setup(null, 0)
+
 // SCROLLMAGIC
 // define global controller
 var controller = new ScrollMagic.Controller();
@@ -418,7 +420,7 @@ d3.json("js/data/connections.json", function(collection) {
     var dir = event.scrollDirection;
     if (dir === "FORWARD") {
       $(".legendCenterText").html("Explore by <span class='orange'>panning</span> with your mouse or <span class='orange'>zooming</span> with the controls in the top right. <span class='orange'>Click</span> or <span class='orange'>hover</span> on school locations to see more.<BR><span class='scrollUp'>Scroll up to go back a step</span>");
-      $(".legendRight").html('<a href="#p1"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight faa-pulse faa-slow animated"><i class="fa fa-fast-backward" style="opacity: .5"></i></div></div></div></a>');
+      $(".legendRight").html('<a href="#tMap1_irs"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight"><i class="fa fa-arrow-left" style="opacity: .5"></i></div></div></div></a>');
       drawn = true;
       mapStatus = "connections";
       connectionFeature.transition().duration(1500)
@@ -577,6 +579,7 @@ function pageSix(name) {
       } else {
         d3.select("#dot-" + data.schoolID).style("opacity", 1);
         d3.select("#label-" + data.schoolID).style("opacity", 1);
+        $(".legendRight").html('<a href="#p6"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight"><i class="fa fa-arrow-left" style="opacity: .5"></i></div></div></div></a>');
 
         mapStatus = "zoomedIn";
 
@@ -608,6 +611,7 @@ function pageSix(name) {
         d3.selectAll(".schoolMarker").transition().duration(600).ease(d3.easeLinear).style("opacity", 1);
         d3.select("#label-" + data.schoolID).transition().duration(600).ease(d3.easeLinear).style("opacity", 0);
       } else {
+        $(".legendRight").html('<a href="#tMap1_reserves"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight faa-passing animated"><i class="fa fa-arrow-right"></i></div></div></div></a>');
         d3.selectAll(".schoolMarker").transition().duration(600).ease(d3.easeLinear).style("opacity", 0);
         d3.select("#label-" + data.schoolID).transition().duration(600).ease(d3.easeLinear).style("opacity", 1);
       };
@@ -617,6 +621,7 @@ function pageSix(name) {
     var map1_reserves_s = new ScrollMagic.Scene({
         triggerElement: '#tMap1_reserves'
       })
+      .triggerHook(.55)
       .addTo(controller);
 
     map1_reserves_s.on("progress", function(event) {
@@ -626,6 +631,7 @@ function pageSix(name) {
         $(".legendRight").html('<a href="#tMap1_connections"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight faa-passing animated"><i class="fa fa-arrow-right"></i></div></div></div></a>');
         d3.selectAll(".reserveDot").style("display", "block").transition().duration(600).ease(d3.easeLinear).style("opacity", 0.1);
       } else {
+        $(".legendRight").html('<a href="#tMap1_reserves"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight faa-passing animated"><i class="fa fa-arrow-right"></i></div></div></div></a>');
         d3.selectAll(".reserveDot").transition().duration(600).ease(d3.easeLinear).style("opacity", 0);
         d3.selectAll(".reserveDot").transition().delay(600).style("display", "none");
       };
@@ -1416,7 +1422,7 @@ function drawStory(storyID) {
     story = story[0];
 
     var newLegendSlideUp = new TweenMax.to('.newLegend', .25, {
-      y: '-100%'
+      y: '-90px'
     });
 
     var controller2 = new ScrollMagic.Controller();
@@ -1436,6 +1442,7 @@ function drawStory(storyID) {
         $(".legendCenterText").html(story.name + " attended <span class='orange'>" + story.school + "</span> in " + story.direction + " " + story.province + ".");
         $(".legendRight").html('<a href="#tMap1_zo"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight faa-passing animated"><i class="fa fa-arrow-right"></i></div></div></div></a>')
       } else {
+        $(".legendRight").html('<a href="#tMap1_zo"><div class="legendRightContainer"><div class="legendRightInner"><div class="passRight faa-passing animated"><i class="fa fa-arrow-right" style="opacity: .5"></i></div></div></div></a>');
         status = "story";
         mapStatus = "none"
       };
