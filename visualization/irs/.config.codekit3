@@ -1057,6 +1057,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/docs": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/docs\/docs",
+		"oF": 0
+		},
 	"\/images\/cd-icons.svg": {
 		"ft": 2097152,
 		"miP": 0,

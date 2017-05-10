@@ -301,6 +301,10 @@ p {
   }
 }
 
+.centered-wide {
+  @include grid-column(12);
+}
+
 .fullwidth {
   @include grid-column(12);
   text-align: center;
@@ -368,13 +372,11 @@ p {
 }
 
 .p1nav a{
-  color: white;
-  opacity: .5;
+  color: $light-gray;
 }
 
 .p1nav a:hover {
   color: $orange;
-  opacity: 1;
 }
 
 .stories {
@@ -382,6 +384,12 @@ p {
   height: 25em;
   overflow: hidden;
   cursor: grab;
+}
+
+.storiesSelectHelp {
+  margin-top: 100px;
+  text-align: center;
+  opacity: .3;
 }
 
 .stories-content {
@@ -452,6 +460,10 @@ font-family: $serif;
   cursor: pointer;
   outline: 2px solid $orange;
   color: $dark-gray;
+}
+
+#p2 h1 {
+  text-align: center;
 }
 
 #p2, #p4 {
@@ -2343,10 +2355,35 @@ JavaScript Disabled
   color: $medium-gray;
 }
 
+.newLinks2 {
+  // display: block;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+  left: 0;
+  width: calc( 90% - 286px);
+  // height: 10px;
+  padding: .8em;
+  margin: 0 calc(5% + 116px) 0 calc(5% + 170px);
+  background-color: #ffffff;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.39);
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+  -webkit-transform: translateY(-100px);
+  -moz-transform: translateY(-100px);
+  -ms-transform: translateY(-100px);
+  -o-transform: translateY(-100px);
+  transform: translateY(-100px);
+
+  font-size: .75em;
+  color: $medium-gray;
+}
+
 .newLinksHidden {
   opacity: 0;
   top: -80px;
-  z-index: 0;
+  z-index: 6;
 }
 
 .newLinksBegin {
