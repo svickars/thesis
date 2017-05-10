@@ -9,6 +9,9 @@ jQuery(document).ready(function($) {
     pageContent = $('.cd-main-content'),
     searchTrigger = $('.cd-search-trigger'),
     coverLayer = $('.cd-cover-layer'),
+    creditsCover = $('.credits-overlay'),
+    creditsTrigger = $('.creditsTrigger'),
+    creditsCloseTrigger = $(".credits-exit"),
     navigationTrigger = $('.cd-nav-trigger'),
     mainHeader = $('.cd-main-header'),
     suggestions = $('.cd-search-suggestions');
@@ -61,6 +64,18 @@ jQuery(document).ready(function($) {
   //   mainHeader.add(navigation).add(pageContent).toggleClass('nav-is-visible');
   // });
 
+  creditsTrigger.on('click', function(event) {
+    event.preventDefault();
+    creditsCover.addClass('credits-overlay-visible');
+    coverLayer.addClass('search-form-visible');
+  })
+
+  creditsCloseTrigger.on('click', function(event) {
+    closeSearchForm();
+    creditsCover.removeClass('credits-overlay-visible');
+    coverLayer.removeClass('search-form-visible')
+  })
+
   searchTrigger.on('click', function(event) {
     event.preventDefault();
     if (searchTrigger.hasClass('search-form-visible')) {
@@ -91,6 +106,7 @@ jQuery(document).ready(function($) {
     $('.cd-search-suggestions').removeClass('cd-search-suggestionsVisible');
     $('.cd-search-suggestions').addClass('cd-search-suggestionsInvisible');
     $('.newLinks').removeClass('newLinksVisible');
+    creditsCover.removeClass('credits-overlay-visible');
   });
 
   $(document).keyup(function(event) {

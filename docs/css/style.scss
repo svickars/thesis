@@ -2105,6 +2105,68 @@ select {
   /* cover main content when search form is open - hidden on smal devices */
   display: none;
 }
+
+.credits-overlay {
+  /* cover main content when search form is open - hidden on smal devices */
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 25%;
+  left: 50%;
+  height: 75%;
+  min-width: 500px;
+  width: 50%;
+  background: $dark-gray;
+  box-shadow: 0 4px 40px rgba(0, 0, 0, 0.39);
+  -webkit-transform: translateX(-50%) translateY(-20%);
+  -moz-transform: translateX(-50%) translateY(-20%);
+  -ms-transform: translateX(-50%) translateY(-20%);
+  -o-transform: translateX(-50%) translateY(-20%);
+  transform: translateX(-50%) translateY(-20%);
+}
+
+.credits-overlay-visible {
+  display: block;
+}
+
+.credits-exit {
+  position: absolute;
+  top: 5px;
+  left: 7px;
+  color: $light-gray;
+  cursor: pointer;
+}
+
+.credits-exit:hover {
+  color: $medium-gray;
+}
+
+.credits-main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.credits-main h3 {
+  font-family: $sansserif;
+  font-size: .9em;
+  font-weight: normal;
+  color: white;
+}
+
+.credits-main p {
+  font-family: $sansserif;
+  color: $light-gray;
+  font-size: .75em;
+}
+
+.footnote p {
+  color: $medium-gray;
+  font-size: .5em;
+}
+
 @media only screen and (min-width: 1024px) {
   .cd-cover-layer {
     display: block;
@@ -2358,7 +2420,7 @@ JavaScript Disabled
 .newLinks2 {
   // display: block;
   position: fixed;
-  top: -100px;
+  // top: -100px;
   z-index: 1;
   left: 0;
   width: calc( 90% - 286px);
