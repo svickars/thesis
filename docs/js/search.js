@@ -9,12 +9,12 @@ jQuery(document).ready(function($) {
     pageContent = $('.cd-main-content'),
     searchTrigger = $('.cd-search-trigger'),
     coverLayer = $('.cd-cover-layer'),
-    creditsCover = $('.credits-overlay'),
-    creditsTrigger = $('.creditsTrigger'),
-    creditsCloseTrigger = $(".credits-exit"),
     navigationTrigger = $('.cd-nav-trigger'),
     mainHeader = $('.cd-main-header'),
-    suggestions = $('.cd-search-suggestions');
+    suggestions = $('.cd-search-suggestions'),
+    creditsCover = $('.credits-overlay'),
+    creditsTrigger = $('.credits-trigger'),
+    creditsCloseTrigger = $('.credits-exit');
 
   function checkWindowWidth() {
     var mq = window.getComputedStyle(mainHeader.get(0), '::before').getPropertyValue('content').replace(/"/g, '').replace(/'/g, "");
@@ -64,18 +64,6 @@ jQuery(document).ready(function($) {
   //   mainHeader.add(navigation).add(pageContent).toggleClass('nav-is-visible');
   // });
 
-  creditsTrigger.on('click', function(event) {
-    event.preventDefault();
-    creditsCover.addClass('credits-overlay-visible');
-    coverLayer.addClass('search-form-visible');
-  })
-
-  creditsCloseTrigger.on('click', function(event) {
-    closeSearchForm();
-    creditsCover.removeClass('credits-overlay-visible');
-    coverLayer.removeClass('search-form-visible')
-  })
-
   searchTrigger.on('click', function(event) {
     event.preventDefault();
     if (searchTrigger.hasClass('search-form-visible')) {
@@ -91,6 +79,18 @@ jQuery(document).ready(function($) {
     }
   });
 
+  creditsTrigger.on('click', function(event) {
+    event.preventDefault();
+    creditsCover.addClass('credits-overlay-visible');
+    coverLayer.addClass('search-form-visible');
+  })
+
+  creditsCloseTrigger.on('click', function(event) {
+    closeSearchForm();
+    creditsCover.removeClass('credits-overlay-visible');
+    coverLayer.removeClass('search-form-visible')
+  })
+
   //close search form
   searchForm.on('click', '.close', function() {
     closeSearchForm();
@@ -102,11 +102,10 @@ jQuery(document).ready(function($) {
 
   coverLayer.on('click', function() {
     closeSearchForm();
-    $('.cd-main-header').removeClass('cd-main-header-open');
+    creditsCover.removeClass('credits-overlay-visible');
     $('.cd-search-suggestions').removeClass('cd-search-suggestionsVisible');
     $('.cd-search-suggestions').addClass('cd-search-suggestionsInvisible');
     $('.newLinks').removeClass('newLinksVisible');
-    creditsCover.removeClass('credits-overlay-visible');
   });
 
   $(document).keyup(function(event) {
@@ -122,8 +121,8 @@ jQuery(document).ready(function($) {
 
   searchForm.keyup(function() {
     var value = $(this).find('input').val();
-    $('.newLinks').removeClass('newLinksVisible');
     runSearch(value)
+    $('.newLinks').removeClass('newLinksVisible');
   });
 });
 
@@ -140,7 +139,7 @@ function updateHaystack(category) {
           return ((d.type === "school"));
         });
       } else {
-        if (category === "Reservations, Tribes, and Bands") {
+        if (category === "Reservations") {
           terms = terms.filter(function(d) {
             return ((d.type === "reservation"));
           });

@@ -2318,7 +2318,7 @@ JavaScript Disabled
 .cd-search-suggestionsVisible {
   position: fixed;
   height: 135px;
-  z-index: 1;
+  z-index: 5;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   transition: all .5s;
