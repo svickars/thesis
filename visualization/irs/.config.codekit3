@@ -1063,6 +1063,12 @@
 		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/favicon.ico",
+		"oF": 0
+		},
 	"\/images\/cd-icons.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1073,22 +1079,55 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/favicon-16x16.png": {
+	"\/images\/favicon\/apple-touch-icon-144x144.png": {
 		"ft": 32768,
-		"iS": 836,
+		"iS": 8481,
 		"oA": 0,
-		"oAP": "\/docs\/images\/favicon-16x16.png",
+		"oAP": "\/docs\/images\/favicon\/apple-touch-icon-144x144.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/favicon-32x32.png": {
+	"\/images\/favicon\/apple-touch-icon-152x152.png": {
 		"ft": 32768,
-		"iS": 1251,
+		"iS": 10853,
 		"oA": 0,
-		"oAP": "\/docs\/images\/favicon-32x32.png",
+		"oAP": "\/docs\/images\/favicon\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 219,
+		"oA": 0,
+		"oAP": "\/docs\/images\/favicon\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 384,
+		"oA": 0,
+		"oAP": "\/docs\/images\/favicon\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/favicon\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 8481,
+		"oA": 0,
+		"oAP": "\/docs\/images\/favicon\/mstile-144x144.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
