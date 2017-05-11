@@ -16,6 +16,22 @@ jQuery(document).ready(function($) {
     creditsTrigger = $('.credits-trigger'),
     creditsCloseTrigger = $('.credits-exit');
 
+  // $(".vid-info").on("click", function(event) {
+  //   $(".video-background").addClass("video-background-fade");
+  //   $("#vidtop-content").addClass("vidtop-content-fade");
+  //   $(".video-background").addClass("video-background-hidden").delay(1500);
+  //   $("#vidtop-content").addClass("vidtop-content-hidden").delay(1500);
+  // });
+
+  $(".vidHead").on("click", function(event) {
+    $(".vidHead").css("font-size", "1.5em").html("Indian Residential Schools<br><br> A policy of assmilation and forced enfrachisement <br><br>The damage caused to Abroginal children, their culture, and their way of life").on("click", function(event) {
+      $(".vidHead").html("<span class='quotation'>&ldquo;</span>The Government of Canada sincerely apologizes and asks the forgiveness of the Aboriginal peoples of this country for failing them so profoundly.<span class='quotation'>&rdquo;</span><br><span class='vidHeadQuote'>Prime Minister Stephen Harper</span>").on("click", function(event) {
+        $(".video-background").addClass("video-background-fade");
+        $("#vidtop-content").addClass("vidtop-content-fade");
+      })
+    })
+  })
+
   function checkWindowWidth() {
     var mq = window.getComputedStyle(mainHeader.get(0), '::before').getPropertyValue('content').replace(/"/g, '').replace(/'/g, "");
     return mq;
