@@ -3505,6 +3505,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/presentation.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/docs\/js\/presentation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/rita-full.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -3566,6 +3575,18 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/p.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/p.html",
+		"oF": 0
+		},
+	"\/p\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/p\/index.html",
+		"oF": 0
 		}
 	},
 "hooks": [

@@ -302,6 +302,7 @@ d3.json("js/data/locations.json", function(collection) {
     feature.on("mouseover", schoolDotMouseIn)
       .on("click", function(d) {
         rightBarOut(d);
+        console.log(d);
         d3.event.stopPropagation();
       })
       .on("mouseout", schoolDotMouseOut);

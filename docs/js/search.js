@@ -16,29 +16,6 @@ jQuery(document).ready(function($) {
     creditsTrigger = $('.credits-trigger'),
     creditsCloseTrigger = $('.credits-exit');
 
-  // $(".vid-info").on("click", function(event) {
-  //   $(".video-background").addClass("video-background-fade");
-  //   $("#vidtop-content").addClass("vidtop-content-fade");
-  //   $(".video-background").addClass("video-background-hidden").delay(1500);
-  //   $("#vidtop-content").addClass("vidtop-content-hidden").delay(1500);
-  // });
-
-  $(".vidHead1").on("click", function(event) {
-
-    $(".vidHead1").fadeOut(function() {
-      $(this).removeClass("vidHead1").addClass("vidHead2").css("font-size", "1.5em").html("&ldquo;To kill the Indian in the child.&rdquo;<div class='vidHeadQuote'>Prime Minister Stephen Harper</div>")
-    }).fadeIn();
-
-    $(".vidHead2").fadeOut(function() {
-      $(this).removeClass("vidHead2").addClass("vidHead3").html("&ldquo;The Government of Canada sincerely apologizes and asks the forgiveness of the Aboriginal peoples of this country for failing them so profoundly.&rdquo;<div class='vidHeadQuote'>Prime Minister Stephen Harper</div>")
-    }).fadeIn();
-
-    $(".vidHead3").on("click", function(event) {
-      $(".video-background").addClass("video-background-fade");
-      $("#vidtop-content").addClass("vidtop-content-fade");
-    })
-  })
-
 
   function checkWindowWidth() {
     var mq = window.getComputedStyle(mainHeader.get(0), '::before').getPropertyValue('content').replace(/"/g, '').replace(/'/g, "");
