@@ -50,6 +50,9 @@ jQuery(document).ready(function($) {
     searchTrigger.removeClass('search-form-visible');
     searchForm.removeClass('is-visible');
     coverLayer.removeClass('search-form-visible');
+    $('.cd-search-suggestions').removeClass('cd-search-suggestionsVisible');
+    $('.cd-search-suggestions').addClass('cd-search-suggestionsInvisible');
+    $('.newLinks').removeClass('newLinksVisible');
   }
 
   //add the .no-pointerevents class to the <html> if browser doesn't support pointer-events property
