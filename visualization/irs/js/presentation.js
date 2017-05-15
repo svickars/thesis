@@ -57,7 +57,8 @@ jQuery(document).ready(function($) {
                 } else {
                   if (pStat === "p4") {
                     var p4plusplus = ((window.innerHeight) * 2) + 1500;
-                    zenscroll.toY(p4plusplus);
+                    var p4plus = ((window.innerHeight) * 2) + 5;
+                    zenscroll.toY(p4plus);
                     pStat = "p4plus";
                   } else {
                     if (pStat === "p4plus") {
