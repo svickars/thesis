@@ -99,6 +99,7 @@ jQuery(document).ready(function($) {
       searchForm.addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function() {
         searchForm.find('input[type="search"]').focus().end().off('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend');
       });
+      $('.p1-search-caption').addClass('p1-search-caption-hide');
     }
   });
 
@@ -121,12 +122,14 @@ jQuery(document).ready(function($) {
     $('.cd-search-suggestions').removeClass('cd-search-suggestionsVisible');
     $('.cd-search-suggestions').addClass('cd-search-suggestionsInvisible');
     $('.newLinks').removeClass('newLinksVisible');
+    $('.p1-search-caption').removeClass('p1-search-caption-hide');
   });
 
   coverLayer.on('click', function() {
     closeSearchForm();
     creditsCover.removeClass('credits-overlay-visible');
     $('.cd-search-suggestions').removeClass('cd-search-suggestionsVisible');
+    $('.p1-search-caption').removeClass('p1-search-caption-hide');
     $('.cd-search-suggestions').addClass('cd-search-suggestionsInvisible');
     $('.newLinks').removeClass('newLinksVisible');
   });

@@ -1903,9 +1903,9 @@ function drawStory(storyID) {
 
 
     // right slider
-    var sTRslide = new TweenMax.to('.sTslide', .25, {
-      x: '-200%'
-    });
+    // var sTRslide = new TweenMax.to('.sTslide', .25, {
+    //   x: '-200%'
+    // });
 
     var sTLnarrow = new TweenMax.to('.storyNarrow', .25, {
       css: {
@@ -1917,7 +1917,8 @@ function drawStory(storyID) {
         triggerElement: "#p55"
       })
       .triggerHook("onEnter")
-      .setTween(sTRslide)
+      .setClassToggle(".sTslide", "sTslideIn")
+      // .setTween(sTRslide)
       .addTo(controller);
 
     sTRslide_out_s.on("progress", function(event) {
@@ -1930,21 +1931,15 @@ function drawStory(storyID) {
     })
 
     // right slider
-    var sTRslide_back = new TweenMax.to('.sTslide', .25, {
-      x: '200%'
-    });
-
-    // var sTLnarrow = new TweenMax.to('.storyNarrow', .25, {
-    //   css: {
-    //     padding: "0 100px 0 100px"
-    //   }
+    // var sTRslide_back = new TweenMax.to('.sTslide', .25, {
+    //   x: '200%'
     // });
 
     sTRslide_back_s = new ScrollMagic.Scene({
         triggerElement: "#p6"
       })
       .triggerHook("onEnter")
-      .setTween(sTRslide_back)
+      // .setTween(sTRslide_back)
       .addTo(controller);
 
 
