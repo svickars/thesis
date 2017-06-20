@@ -22,9 +22,9 @@ var showNavBar = new TweenMax.to('.newLinks2', .25, {
   y: "0"
 });
 
-var showNavBar_hide = new TweenMax.to('.newLinks2', .25, {
-  y: "-100px"
-});
+// var showNavBar_hide = new TweenMax.to('.newLinks2', .25, {
+//   y: "-100px"
+// });
 
 var showNavBar_s = new ScrollMagic.Scene({
     triggerElement: '#p2'
@@ -32,11 +32,11 @@ var showNavBar_s = new ScrollMagic.Scene({
   .setTween(showNavBar)
   .addTo(controller);
 
-var showNavBar_hide_s = new ScrollMagic.Scene({
-    triggerElement: '#p4'
-  })
-  .setTween(showNavBar_hide)
-  .addTo(controller);
+// var showNavBar_hide_s = new ScrollMagic.Scene({
+//     triggerElement: '#p4'
+//   })
+//   .setTween(showNavBar_hide)
+//   .addTo(controller);
 
 // MAPBOX
 // initialize main map
