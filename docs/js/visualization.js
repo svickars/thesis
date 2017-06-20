@@ -1498,12 +1498,14 @@ function drawStory(storyID) {
 
       var strSec = story.story[i].section,
         strPre = story.story[i].pre,
-        strQuo = story.story[i].quote;
+        strQuo = story.story[i].quote,
+        strExtra = story.story[i].extra;
       var rs = RiString(strQuo),
         words = rs.words()
       pos = rs.pos();
 
-      storyStory.html("<p class='story-quote'>&ldquo;<span id='story-quote-" + i + "'></span>&rdquo;</p>");
+
+      storyStory.html("<div><div class='sTdata-m'><p class='sTdata-m-section'>" + strSec + "</p><p class='sTdata-m-pre'>" + strPre + "</p><p class='sTdata-m-extra'>" + strExtra + "</p></div><p class='story-quote'>&ldquo;<span id='story-quote-" + i + "'></span>&rdquo;</p></div>");
 
       for (var j = 0; j < words.length; j++) {
         if (orangeWords.indexOf(words[j]) !== -1) {
@@ -1903,9 +1905,9 @@ function drawStory(storyID) {
 
 
     // right slider
-    var sTRslide = new TweenMax.to('.sTslide', .25, {
-      x: '-200%'
-    });
+    // var sTRslide = new TweenMax.to('.sTslide', .25, {
+    //   x: '-200%'
+    // });
 
     var sTLnarrow = new TweenMax.to('.storyNarrow', .25, {
       css: {
@@ -1917,7 +1919,8 @@ function drawStory(storyID) {
         triggerElement: "#p55"
       })
       .triggerHook("onEnter")
-      .setTween(sTRslide)
+      .setClassToggle(".sTslide", "sTslideIn")
+      // .setTween(sTRslide)
       .addTo(controller);
 
     sTRslide_out_s.on("progress", function(event) {
@@ -1930,21 +1933,16 @@ function drawStory(storyID) {
     })
 
     // right slider
-    var sTRslide_back = new TweenMax.to('.sTslide', .25, {
-      x: '200%'
-    });
-
-    // var sTLnarrow = new TweenMax.to('.storyNarrow', .25, {
-    //   css: {
-    //     padding: "0 100px 0 100px"
-    //   }
+    // var sTRslide_back = new TweenMax.to('.sTslide', .25, {
+    //   x: '200%'
     // });
 
     sTRslide_back_s = new ScrollMagic.Scene({
         triggerElement: "#p6"
       })
       .triggerHook("onEnter")
-      .setTween(sTRslide_back)
+      .setClassToggle(".sTslide", "sTslideOut")
+      // .setTween(sTRslide_back)
       .addTo(controller);
 
 
