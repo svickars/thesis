@@ -816,29 +816,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/style (Jimbo.local's conflicted copy 2017-05-04).css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/docs\/css\/style (Jimbo.local's conflicted copy 2017-05-04)-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/style (Jimbo.local's conflicted copy 2017-05-04).scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/docs\/css\/style (Jimbo.local's conflicted copy 2017-05-04).css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
