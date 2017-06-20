@@ -2232,6 +2232,12 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/index.html",
+		"oF": 0
+		},
 	"\/js\/d3-tip.js": {
 		"ft": 64,
 		"mi": 1,
