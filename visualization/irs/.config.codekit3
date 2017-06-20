@@ -3500,15 +3500,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/js\/search-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/docs\/js\/search-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/js\/search.js": {
 		"ft": 64,
 		"mi": 1,
@@ -3525,15 +3516,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"\/js\/visualization-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "\/docs\/js\/visualization-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"\/js\/visualization.js": {
 		"ft": 64,
@@ -3575,7 +3557,7 @@
 	"displayValue": "irs",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-hart",
-	"lastBuiltDate": 516096537
+	"lastBuiltDate": 519669836
 	},
 "projectSettings": {
 	"abortBuildOnError": 0,
